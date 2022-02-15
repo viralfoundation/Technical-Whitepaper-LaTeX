@@ -1,4 +1,4 @@
-# Viral - Add the subheading
+# Viral - Next Gen Decentralized Social Engagement Tool
 
 By Joby Reuben
 
@@ -8,7 +8,6 @@ By Joby Reuben
 2. [Vision Statement](#vision)
 3. [Unified Mobile Application](#intro)
 4. [Viral Architecture](#architecture)
-   1. [Tech Stack Used](#techstack)
 5. [Structure of Whitepaper](#structure) 
 6. [Social Media & User Experience](#socialmedia)
 7. [Blockchain, Token Ecosystem & Layer2](#blockchain)
