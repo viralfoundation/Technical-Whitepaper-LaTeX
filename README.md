@@ -650,20 +650,36 @@ Automated Swap to Stable Coin
 
 ```mermaid
 
-flowchart LR
+flowchart TB
 
-
-    A[/Amount Input /] --> B[L2 success rate calculation]
+   subgraph User-Input
+    A[/Amount Input /]
+    end
+    subgraph L2-Fee-Calculation 
+    A --> B[L2 success rate calculation]
     B ---> C[Result > 100% Channels without routing]
+    C --No--> E[Result > 100% Channels with routing]
+    end
+    subgraph L2-Transfer
     C --Yes--> D([Zero Fee L2 Transfer])
-    C --No--> E[L2 success rate calculation]
-    E-->F[Result > 100% Channels with routing]
-    F --Yes--> G([Calculate Fee Percentage])
-    F --No--> H[L1 Transfer 0.05% Fixed Fee]
-    G --->I[Fee < 0.05%]
-    G --->J[Fee > 0.05%]
     I ---> K[L2 Transfer with minimum fees]
+    end
+    subgraph L2 and L1 Comparison
+    E ----> G([Calculate Fee Percentage])
+    G --->J[Fee >= 0.05%]
+    G --->I[Fee < 0.05%]
+    end
+    subgraph L1-Transfer
+    
     J ---> H[L1 Transfer 0.05% Fixed Fee]
+    end
+    
+    
+    
+  
+    
+
+  
 
 ```
 
