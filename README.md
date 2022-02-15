@@ -14,9 +14,20 @@ By Viral Foundation & Viral DAO
       - [**Crypto Adoption**](#crypto-adoption)
       - [**NFT & Metaverse**](#nft--metaverse)
       - [**Blockchain**](#blockchain)
-  - [4.Unified Mobile application - An Intro to Viral](#4unified-mobile-application---an-intro-to-viral)
+  - [4. Unified Mobile application - An Intro to Viral](#4-unified-mobile-application---an-intro-to-viral)
   - [5. Viral Platform Architecture](#5-viral-platform-architecture)
     - [Development Tech Stack](#development-tech-stack)
+  - [6. How Whitepaper Structured](#6-how-whitepaper-structured)
+  - [7.Social media & User Experience](#7social-media--user-experience)
+    - [**Types of Post**](#types-of-post)
+      - [Shots](#shots)
+      - [Thoughts](#thoughts)
+      - [Drops](#drops)
+      - [Interactive Videos](#interactive-videos)
+      - [NFT Utilities](#nft-utilities)
+      - [Tunes](#tunes)
+      - [Sketch](#sketch)
+      - [Originals](#originals)
 
 
 ## 1. Abstract<a name="abstract"></a>
@@ -57,7 +68,7 @@ Our vision is to bring the ultimate blockchain-crypto adoption to the masses. In
 2. To Develop a **feeless, fast, Capped Supply, Deflationary, smart contract chain**
 
 
-## 4.Unified Mobile application - An Intro to Viral
+## 4. Unified Mobile application - An Intro to Viral
 
 A Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies' underlying applications into a Daily Internet User-Based Mobile App.
 
@@ -73,7 +84,7 @@ We are bridging Social Media with Blockchain, Wallets, Exchanges and NFT Markepl
 
 1. **Viral App** – The Decentralized Social Media Platform bridging Blockchain applications for unlimited possibilities.
 
-2. **Viral Smart Chain**: Horizontally Scalable Gas free EVM Smart Chain on Top of IOTA&#39;s Tangle.
+2. **Viral Smart Chain**: Horizontally Scalable Gas free EVM Smart Chain on Top of IOTA's Tangle.
    1. **Payment Channels (L2**): State Channels to move value off-chain for unlimited scalability
    2. **Zk-Rollups (L2)**: Batching Multiple NFT Tokens (ERC721) on L2 into L1
    3. **Viral Bridge**: To bring major crypto such as Bitcoin, Doge, ERC20 Tokens into Viral Smart Chain for interoperability
@@ -114,103 +125,170 @@ We are bridging Social Media with Blockchain, Wallets, Exchanges and NFT Markepl
 
 8. **[IOTA Smart Contract Protocol](https://wiki.iota.org/smart-contracts/overview)**: The IOTA ecosystem allows to spin up a smart contract blockchain and anchor it to the IOTA tangle
 
-**6.How Whitepaper Structured**
+## 6. How Whitepaper Structured
 
-Instead of giving a table of contents we have structured this whitepaper into 7 categories.
+For efficient undertsnading, we have seperated the platform's major aspects into 5 categories.
 
-1. Social Media &amp; User Experience (Page 1-10)
-2. Blockchain &amp; Layer 2 (Page 10-15)
-3. Smart Wallet (Page 15-20)
-4. Child Platforms (Page 20-25)
-5. Revenue &amp; Incentives (Page 25-30)
-6. Viral Coin ICO – (Page 30-35)
-7. Roadmap to Decentralization (Page 35-40)
+>#### ***1. Social Media & User Experience (Page 1-10)***
+>#### ***2. Blockchain, Token Ecosystem & Layer 2 (Page 10-15)***
+>#### ***3. Smart Wallet (Page 15-20)***
+>#### ***4. Child Platforms (Page 20-25)***
+>#### ***5. Revenue & Incentives (Page 25-30)***
 
-**7.Social media &amp; User Experience**
+## 7.Social media & User Experience
 
 Viral is a multi-media sharing decentralized social network that brings meta-experience with friends, family and other people to communicate, share posts and send messages across the globe with absolute privacy. Viral sets NFT as a standard for every post that shared in the network which intends to bring interactive social experience and utility use cases of blockchain environment.
 
-Note : To bring NFT as a standard for a social media post doesn&#39;t necessarily means it should be sold for tokens, rather it is a unique piece of data in blockchain that gives the power of ownership which the user can keep himself or can be transferred to others if the user wants to via Open Bidding/Selling
+>Note : To bring NFT as a standard for a social media post doesn't necessarily means it should be sold for tokens, rather it is a unique piece of data in blockchain that gives the power of ownership which the user can keep himself or can be transferred to others if the user wants to via Open Bidding/Selling
 
-\*\*NFT Snippet\*\* (Empty Box to write code)
+```JavaScript //Since Solidity Syntax Not Available
 
-Types of Post – Take from Whitepaper
+//NFT Snippet for Enable/Disable Open Sale
 
-- Shots
+pragma solidity ^0.8.10;
 
-Shots are 5sec motion pictures with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.
+```
+
+### **Types of Post**
+
+
+#### Shots
+
+Shots are **10 sec motion pictures** with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.
 
 People can share their
+- Personal Sneak-Peek, Moments & Events
+- Exclusive Photoshoots, commercials, to your fans
+- Turn photos into lively shots by adding shot animations through Viral
 
-Personal Sneak-Peek, Moments &amp; Events
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
 
-Exclusive Photoshoots, commercials, to your fans
+[![Shots Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
-Turn photos into lively shots by adding shot animations through Viral
+#### Thoughts
 
-Demo Video
+Thoughts are **text-based sharing** for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.
 
-- Thoughts
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
 
-Thoughts are text-based sharing for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.
+[![Thoughts Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
-Demo Video
+#### Drops
 
-- Drops
+Drops are **20 second disappearing stories** shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days.
 
-Drops are 1-20 second disappearing stories shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drop will be purged in 30 days.
+> Note: Drops will not be minted as unique NFT due to it's nature of disappearing media.
 
-Drops will not be minted as unique NFT since it is a disappearing media
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
 
-Demo Video
+[![Drops Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
-- Interactive Videos
+#### Interactive Videos
 
-IVs are short 30sec full-screen narration based videos. It is based on gamification of videos to interact within the videos.
+IVs are short 30sec full-screen **narration based videos**. It is based on **gamification of videos** to interact within the videos.
 
-Demo Video
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
 
-- NFT Utilities
+[![IV Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
-Minting (Creating) an NFT in Viral is as easy as creating a social media post. Viral provides multiple NFT utilities for users to mint, buy, sell with an easy user experience.
+#### NFT Utilities
 
-Viral will take a 3% commissions selling NFTs which will be reverted back to the reward pool.
+Minting (Creating) an NFT in Viral is **as easy as creating a social media post**. Viral provides multiple NFT utilities for users to mint, buy, sell with an easy user experience.
 
-Tunes: Artists can sell their music albums, singles as NFT for the fans/people to buy and own it
+Viral will take a **3% commission** selling NFTs which will be reverted to the user's reward pool <!---Link the Reward Section here-->
 
-Demo Video
+#### Tunes
 
-\*\*NFT Snippet\*\* (Empty Box to write code)
+Artists can sell their music albums, singles as NFT for the fans/people to buy and own it
 
-Sketch: Digital arts, paintings, sketches can be sold through NFTs
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
 
-Demo Video
+[![Tunes Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
-\*\*NFT Snippet\*\* (Empty Box to write code)
+```JavaScript //Since Solidity Syntax Not Available
 
-Originals: Physical assets can be sold through Viral&#39;s Original NFTs where people can buy and flex
+//NFT Snippet To Sell Multiple Copies
 
-Demo Video
+pragma solidity ^0.8.10;
 
-\*\*NFT Snippet\*\* (Empty Box to write code)
+```
+
+#### Sketch 
+Digital arts, paintings, sketches can be sold through NFTs
+
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
+
+[![Sketch Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
+
+```JavaScript //Since Solidity Syntax Not Available
+
+//NFT Snippet to sell single asset
+
+pragma solidity ^0.8.10;
+
+```
+
+#### Originals
+
+Physical assets can be sold through Viral's Original NFTs where people can buy and flex
+
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
+
+[![Originals Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
+
+```JavaScript //Since Solidity Syntax Not Available
+
+//NFT Snippet to provide extra information such as Name, Address, Mobile Number, before transferring coins with end to end encryption between seller
+
+pragma solidity ^0.8.10;
+
+```
 
 Tickets: Exclusive passes for events, ownership of clubs, a digital ticket for everything can be sold as NFT
 
-Demo Video
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
 
-\*\*NFT Snippet\*\* (Empty Box to write code)
+[![Tickets Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
-Docs: Documents can be sold through Viral as NFTs
+```JavaScript //Since Solidity Syntax Not Available
 
-Demo Video
+//NFT Snippet To Sell Multiple Copies
 
-\*\*NFT Snippet\*\* (Empty Box to write code)
+pragma solidity ^0.8.10;
 
-Filters: Filters can be sold, and owned by user&#39;s thereby get rewards for it
+```
 
-Demo Video
+Filters: Filters can be sold, and owned by user's thereby get rewards for it
 
-\*\*NFT Snippet\*\* (Empty Box to write code)
+<!---
+Add a Gif as IMG Source and Link to original Youtube Video
+-->
+
+[![Filters Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
+
+```JavaScript //Since Solidity Syntax Not Available
+
+//NFT Snippet to distribute share’s (Just like company share where if 100 NFTs is sold, the person who holds 50 NFT will hold 50% of the company)
+
+pragma solidity ^0.8.10;
+
+```
 
 - Avatars
 
@@ -226,7 +304,7 @@ Use Case 1
 
 Meta-Chat
 
-Meta-Chat is a feature to react/show your facial reactions in real-time for the messages of whom you chat with. Viral captures your face reactions and transfer it to your avatar on top of your mutual-friend&#39;s chat page.
+Meta-Chat is a feature to react/show your facial reactions in real-time for the messages of whom you chat with. Viral captures your face reactions and transfer it to your avatar on top of your mutual-friend's chat page.
 
 This gives you a virtual experience of videocalls through avatars and text chat.
 
@@ -252,31 +330,31 @@ Like, Comment, Share, Tip
 
 Users can like, comment, share, reThought, and also tip Tokens to their favorite posts and influencers. The number of likes will influence the recommendations list of other users.
 
-Additionally a hidden engagement dislike will be added to every post but won&#39;t be visible to the users/nor owners, which is solely used for recommendation interest-based algorithm to filter out disliked content
+Additionally a hidden engagement dislike will be added to every post but won't be visible to the users/nor owners, which is solely used for recommendation interest-based algorithm to filter out disliked content
 
 Tip
 
-The tipping feature using tokens in Viral Smart Chain is used to tip/support your favourite influencers contents where all the tips will be directly sent to the user&#39;s wallet
+The tipping feature using tokens in Viral Smart Chain is used to tip/support your favourite influencers contents where all the tips will be directly sent to the user's wallet
 
 Visual Representation
 
-Mary Sees John Post -\&gt; Mary Tips John Viral Coin -\&gt; John Receives Tokens in his Wallet -\&gt; Mary will be added into Tipped User in John&#39;s Profile
+Mary Sees John Post -\&gt; Mary Tips John Viral Coin -\&gt; John Receives Tokens in his Wallet -\&gt; Mary will be added into Tipped User in John's Profile
 
 \*\*Tip Snippet\*\* (Code with a box)
 
 Privacy Groups
 
-Privacy Groups is a unique feature in Viral to create unlimited friend&#39;s groups as list to ensure maximum privacy for users to post and share shots, drops, thoughts, NFTs to the particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can enable complete privacy over viewers for certain posts.
+Privacy Groups is a unique feature in Viral to create unlimited friend's groups as list to ensure maximum privacy for users to post and share shots, drops, thoughts, NFTs to the particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can enable complete privacy over viewers for certain posts.
 
 Visual Representation
 
-Bob has 2 posts (Family &amp; Friends) – He creates 2 privacy groups (Family &amp; Friends) – When he posts he select Family and posts – His Family can only see the post – When he posts 2nd post he&#39;ll select Friends – His Friends can only see the post – When a Friend visits his profile he can&#39;t see Bob&#39;s Family post and vice versa
+Bob has 2 posts (Family &amp; Friends) – He creates 2 privacy groups (Family &amp; Friends) – When he posts he select Family and posts – His Family can only see the post – When he posts 2nd post he'll select Friends – His Friends can only see the post – When a Friend visits his profile he can't see Bob's Family post and vice versa
 
 \*\*GunDB Snippet\*\*
 
 Audio Emoji
 
-This is a short feature where all the emoji&#39;s in Viral if touched will give a short sound of the emoji. This will be available on chats &amp; comments section of a post.
+This is a short feature where all the emoji's in Viral if touched will give a short sound of the emoji. This will be available on chats &amp; comments section of a post.
 
 Interest Based Recommendation
 
@@ -323,7 +401,7 @@ GunDB Explanatory Video : [https://www.youtube.com/watch?v=-SiLnaSDkh4](https://
 
 Interests of User
 
-Users&#39; interests will be saved locally on their devices ensuring full privacy of personal data.
+Users' interests will be saved locally on their devices ensuring full privacy of personal data.
 
 Chat Backup
 
@@ -335,7 +413,7 @@ We will be focussing on Quantum Resilience of all media encryption used in Viral
 
 TOR/VPN Anonymity
 
-Viral will be a safe haven for anonymity, privacy, and security in eliminating the tracing of users&#39; identities by exploiters . Users can benefit from TOR &amp; VPN Routing Features built in our Decentralized application to hide their IP address and go fully anonymous.
+Viral will be a safe haven for anonymity, privacy, and security in eliminating the tracing of users' identities by exploiters . Users can benefit from TOR &amp; VPN Routing Features built in our Decentralized application to hide their IP address and go fully anonymous.
 
 Visualization
 
@@ -371,17 +449,17 @@ IOTA Smart Contract Protocol
 
 Basic Intro
 
-IOTA provides an Off-Chain Smart Contract Solution for developers to create multiple-chains on Top of IOTA&#39;s immutable Tangle. Since Ethereum transactions are processed On-chain by every single node on its network, it faces additional congestion, slow transaction time and subject to higher miner fees. IOTA&#39;s off-chain smart contract solution makes use of blockchains anchored to the Tangle where the smart contracts are ran and achieved consensus with small set of committee nodes. This achieves a high scalable throughput and immutable records since the states of smart contracts such as Account Balances, Input Conditions and Consequences over time are updated on IOTA&#39;s Tangle.
+IOTA provides an Off-Chain Smart Contract Solution for developers to create multiple-chains on Top of IOTA's immutable Tangle. Since Ethereum transactions are processed On-chain by every single node on its network, it faces additional congestion, slow transaction time and subject to higher miner fees. IOTA's off-chain smart contract solution makes use of blockchains anchored to the Tangle where the smart contracts are ran and achieved consensus with small set of committee nodes. This achieves a high scalable throughput and immutable records since the states of smart contracts such as Account Balances, Input Conditions and Consequences over time are updated on IOTA's Tangle.
 
 Architecture
 
-There are several components to understand more about IOTA&#39;s Smart Contracts Protocol. It gives us multi-chain functionality to run smart contracts from different chains which allows a horizontal scaling of blockchains without a need for plasma or side chains.
+There are several components to understand more about IOTA's Smart Contracts Protocol. It gives us multi-chain functionality to run smart contracts from different chains which allows a horizontal scaling of blockchains without a need for plasma or side chains.
 
 Consensus and Validators
 
-IOTA&#39;s Smart Contract Chain uses a Byzantine Fault Tolerant (BFT) Algorithm, which guarantees consistency and byzantine fault tolerance if less than ⅓ of nodes are malicious. So the verification process runs on Nodes within a chain committee. With a Proof-of-Stake Consensus each Viral chain will be run by a network of validator nodes, which run a consensus on the chain state updates. The validators of the chain (Nodes) form a committee, a bound together closed set of nodes. The committee of the chain can allow new validators and validator nodes to be added or replaced. This also makes the chain itself agnostic to its validators (the committee).
+IOTA's Smart Contract Chain uses a Byzantine Fault Tolerant (BFT) Algorithm, which guarantees consistency and byzantine fault tolerance if less than ⅓ of nodes are malicious. So the verification process runs on Nodes within a chain committee. With a Proof-of-Stake Consensus each Viral chain will be run by a network of validator nodes, which run a consensus on the chain state updates. The validators of the chain (Nodes) form a committee, a bound together closed set of nodes. The committee of the chain can allow new validators and validator nodes to be added or replaced. This also makes the chain itself agnostic to its validators (the committee).
 
-Viral Smart Chains leverages IOTA Tangle&#39;s properties of scalability, high throughput, feeless transactions and immutable records. Only when a supermajority of the validators (the quorum) of a chain reaches [consensus](https://wiki.iota.org/smart-contracts/guide/core_concepts/consensus), the results get added to the chain where a new state update can be signed, which unlocks the AliasOutput for the chain and produces the next state UTXO which is stored on the Tangle as an immutable record. In summary, the chain&#39;s state (data) will be stored on Tangle as an immutable record.The amount of the validators to reach a consensus is configurable for each chain. The committee itself can also be variable in size - from a few nodes up to hundreds of nodes, and each node can be part of many different committees.
+Viral Smart Chains leverages IOTA Tangle's properties of scalability, high throughput, feeless transactions and immutable records. Only when a supermajority of the validators (the quorum) of a chain reaches [consensus](https://wiki.iota.org/smart-contracts/guide/core_concepts/consensus), the results get added to the chain where a new state update can be signed, which unlocks the AliasOutput for the chain and produces the next state UTXO which is stored on the Tangle as an immutable record. In summary, the chain's state (data) will be stored on Tangle as an immutable record.The amount of the validators to reach a consensus is configurable for each chain. The committee itself can also be variable in size - from a few nodes up to hundreds of nodes, and each node can be part of many different committees.
 
 Validators – Each Single Node running the Chain
 
@@ -389,7 +467,7 @@ Committee – The Group of Nodes running a chain
 
 Quorum – Number of Nodes to be in consensus to validate a transaction
 
-Links to know more about IOTA&#39;s Smart Contracts
+Links to know more about IOTA's Smart Contracts
 
 Whitepaper :
 
@@ -401,15 +479,15 @@ Viral Smart Chains
 
 Intro
 
-Viral Smart Chains are a family of separate chains anchored to the IOTA&#39;s Tangle where each chain can communicate with each other via intermediary L1 Value Tangle.
+Viral Smart Chains are a family of separate chains anchored to the IOTA's Tangle where each chain can communicate with each other via intermediary L1 Value Tangle.
 
-Viral&#39;s Approach
+Viral's Approach
 
-A Single chain will seem complex for setting different fees for different actions on the blockchain i.e Smart Contract Calls/Deployment, Sending Tokens to other Address, etc. Viral&#39;s approach is to bring multiple chains categorized by its purpose to serve the Viral Application with fee structure thereby also creating separate chains to provide zero network fees for minting NFTs on Viral App (ERC721 &amp; ERC1155) while rewarding the validators of all Viral chains (including zero fee chains) from the miner pool (total collected fees of all chains) based on validator&#39;s total validated transactions for the day through an automated smart contract.
+A Single chain will seem complex for setting different fees for different actions on the blockchain i.e Smart Contract Calls/Deployment, Sending Tokens to other Address, etc. Viral's approach is to bring multiple chains categorized by its purpose to serve the Viral Application with fee structure thereby also creating separate chains to provide zero network fees for minting NFTs on Viral App (ERC721 &amp; ERC1155) while rewarding the validators of all Viral chains (including zero fee chains) from the miner pool (total collected fees of all chains) based on validator's total validated transactions for the day through an automated smart contract.
 
 Validators
 
-Viral Chains will work on Proof-of-stake consensus where validators (miners) are required to stake their Viral Coins in order to participate in the network for validating transactions. The mining power in proof-of stake depends on the amount of coins a validator is staking. Participants who stake more Viral Coins will be most likely to be chosen to add more blocks. When a transaction is validated and attain consensus by the quorum of validators (Read IOTA Protocol), the state of the transaction/smart contract will be recorded in the Value Tangle&#39;s UTXO Ledger which makes it immutable. The Transaction will be secured by the validators inside the Viral chain and also the L1 UTXO Ledger.
+Viral Chains will work on Proof-of-stake consensus where validators (miners) are required to stake their Viral Coins in order to participate in the network for validating transactions. The mining power in proof-of stake depends on the amount of coins a validator is staking. Participants who stake more Viral Coins will be most likely to be chosen to add more blocks. When a transaction is validated and attain consensus by the quorum of validators (Read IOTA Protocol), the state of the transaction/smart contract will be recorded in the Value Tangle's UTXO Ledger which makes it immutable. The Transaction will be secured by the validators inside the Viral chain and also the L1 UTXO Ledger.
 
 Fees
 
@@ -427,11 +505,11 @@ Mike wants to transfer 6000 vMATIC to Mia : Fee leaved will be 0.30075 VRL (appr
 
 NFT Chains
 
-Currently on popular smart contract blockchains such as Ethereum, Polygon the amount of gas required for a transaction is determined by the demand for the transaction to be included, regardless of what type of transaction it is where it is dynamically adjusted based on number of user&#39;s interacting with the network at the time.
+Currently on popular smart contract blockchains such as Ethereum, Polygon the amount of gas required for a transaction is determined by the demand for the transaction to be included, regardless of what type of transaction it is where it is dynamically adjusted based on number of user's interacting with the network at the time.
 
-This brings us to an effect that a single blockchain cannot set certain fees or eliminate gas fees for a particular type or category of a transaction regardless of it&#39;s nature i.e, smart contract, account transfer. Multiple parallel state blockchains can solve this issue by altering few blockchains as permissioned for a certain use cases and can make it feeless without hindering the other fee-based chains.
+This brings us to an effect that a single blockchain cannot set certain fees or eliminate gas fees for a particular type or category of a transaction regardless of it's nature i.e, smart contract, account transfer. Multiple parallel state blockchains can solve this issue by altering few blockchains as permissioned for a certain use cases and can make it feeless without hindering the other fee-based chains.
 
-Viral&#39;s aim to democratize NFT to the masses and bring massive NFT Adoption we will be running separate zero-fee chains for deploying ERC721 &amp; ERC1155 Token directly from the Viral Application. The Validators for the chain will be open to join the network where they&#39;ll be rewarded from the miner pool (total fee collected) based on the total transactions they validate in a day.
+Viral's aim to democratize NFT to the masses and bring massive NFT Adoption we will be running separate zero-fee chains for deploying ERC721 &amp; ERC1155 Token directly from the Viral Application. The Validators for the chain will be open to join the network where they'll be rewarded from the miner pool (total fee collected) based on the total transactions they validate in a day.
 
 Family of Chains
 
@@ -443,11 +521,11 @@ DeFI Chains
 
 Smart Contract Deployment Chains specifically for categorized DApps
 
-DEX Chain : Running smart contracts for Viral Wallet&#39;s Decentralized Exchange
+DEX Chain : Running smart contracts for Viral Wallet's Decentralized Exchange
 
 ERC20 Chain : To Deploy new ERC20 Tokens that can be transacted between chains and accounts
 
-Viral NFT Chain : Feeless Viral ran Smart Contract Chain specifically to deploy user&#39;s NFTs on-chain
+Viral NFT Chain : Feeless Viral ran Smart Contract Chain specifically to deploy user's NFTs on-chain
 
 ERC721/115 Chain : To deploy new Non-Fungible Tokens for other platforms outside the Viral Application
 
@@ -507,17 +585,17 @@ Viral Coin is the native currency, a digital coin that does all the operations i
 
 Viral Stable Coin
 
-Viral Stable Coin is a sub-native token, an algorithmic stable coin pegged to the US Dollar that is widely used in the Viral Application for sending and receiving tokens across users wallets. Due to constant volatility of the crypto market there is a barrier for the common people and businesses to get into cryptocurrencies. As Viral&#39;s aim to become the one-stop crypto solution for the masses we are providing a way for the user&#39;s to automatically transact in Stable Coin without any complex need for swapping their current tokens. In Short, when an user transact in Viral Coin, it will force swap and send the receiver viral stable coins to avoid depreciating of the asset while transacting.
+Viral Stable Coin is a sub-native token, an algorithmic stable coin pegged to the US Dollar that is widely used in the Viral Application for sending and receiving tokens across users wallets. Due to constant volatility of the crypto market there is a barrier for the common people and businesses to get into cryptocurrencies. As Viral's aim to become the one-stop crypto solution for the masses we are providing a way for the user's to automatically transact in Stable Coin without any complex need for swapping their current tokens. In Short, when an user transact in Viral Coin, it will force swap and send the receiver viral stable coins to avoid depreciating of the asset while transacting.
 
-As far as we know there are several stable coins are in the market 1.Fiat-Peg Centralized, 2.Crypto Collateral 3. Algorithmic. In our case we can take 3 coins 1. USDC 2. DAI 3. AMPL. USDC maintains the peg but holds the funds on its reserves centralized which comes with its demerits. DAI aims to maintain the peg using collateral of several crypto coins, in which USDC hold the reserve of more than 50% of the DAI&#39;s crypto backing, which also makes DAI a centralized cryptocurrency. AMPL is an algorithmic stable coin which maintains it&#39;s peg by contracting and expanding it&#39;s supply of tokens to achieve stability, this achieves true decentralization but fails to operate swiftly for sudden price movements due to it&#39;s rebase function ran in a stipulated time and also rebases in a slow, long way which takes upto a week after a sudden price movement. This is where most crypto projects fail to provide a decentralized stable currency for the masses.
+As far as we know there are several stable coins are in the market 1.Fiat-Peg Centralized, 2.Crypto Collateral 3. Algorithmic. In our case we can take 3 coins 1. USDC 2. DAI 3. AMPL. USDC maintains the peg but holds the funds on its reserves centralized which comes with its demerits. DAI aims to maintain the peg using collateral of several crypto coins, in which USDC hold the reserve of more than 50% of the DAI's crypto backing, which also makes DAI a centralized cryptocurrency. AMPL is an algorithmic stable coin which maintains it's peg by contracting and expanding it's supply of tokens to achieve stability, this achieves true decentralization but fails to operate swiftly for sudden price movements due to it's rebase function ran in a stipulated time and also rebases in a slow, long way which takes upto a week after a sudden price movement. This is where most crypto projects fail to provide a decentralized stable currency for the masses.
 
-Terra blockchain is the most successful running algorithmic stable coin which maintain its stability by changing the stable coin&#39;s supply by burning and minting it&#39;s native token LUNA. In better words, when Terra (Stable Coin) demand increases to more than $1, Luna (Native token) will be burned and New Terra tokens will be minted, where increase in supply of tokens resolves the demand and maintains the peg of the stable coin and vice versa. Viral Stable Coin adopts the algorithmic stable coin algorithm used in many of Terra&#39;s stable coins.
+Terra blockchain is the most successful running algorithmic stable coin which maintain its stability by changing the stable coin's supply by burning and minting it's native token LUNA. In better words, when Terra (Stable Coin) demand increases to more than $1, Luna (Native token) will be burned and New Terra tokens will be minted, where increase in supply of tokens resolves the demand and maintains the peg of the stable coin and vice versa. Viral Stable Coin adopts the algorithmic stable coin algorithm used in many of Terra's stable coins.
 
-Viral Coin and Viral Stable Coin will be the two primary coins in the Viral Social Platform. The supply and demand of Stable Coin is always balanced by making Viral Coin as it&#39;s variable counterweight that absorbs it&#39;s volatility.
+Viral Coin and Viral Stable Coin will be the two primary coins in the Viral Social Platform. The supply and demand of Stable Coin is always balanced by making Viral Coin as it's variable counterweight that absorbs it's volatility.
 
-1 VSC \&gt; $1 (Expansion) : When Viral Stable Coin trades at a price that is high relative to it&#39;s $1 peg i.e., $1.15, the demand for VSC is higher than the circulating supply. To bring the peg back to $1, the supply of VSC should be increased to balance the demand. During Expansion State trading bots will mint VSC by burning VRL, which has an effect of lowering Viral Stable Coin Price (by expanding the supply) and increases the Viral Coin price (by reducing it&#39;s supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
+1 VSC \&gt; $1 (Expansion) : When Viral Stable Coin trades at a price that is high relative to it's $1 peg i.e., $1.15, the demand for VSC is higher than the circulating supply. To bring the peg back to $1, the supply of VSC should be increased to balance the demand. During Expansion State trading bots will mint VSC by burning VRL, which has an effect of lowering Viral Stable Coin Price (by expanding the supply) and increases the Viral Coin price (by reducing it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
 
-1 VSC \&lt; $1 (Contraction) : When Viral Stable Coin trades at a price that is low relative to it&#39;s $1 peg i.e., $0.95, the demand for VSC is lower for the circulating supply. To bring the peg back to $1, the supply of VSC should be decreased to balance the demand. During Contraction State trading bots will burn VSC and mints VRL, which has an effect of increasing Viral Stable Coin Price (by reducing it&#39;s supply) and lowering the Viral Coin price (by expanding it&#39;s supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
+1 VSC \&lt; $1 (Contraction) : When Viral Stable Coin trades at a price that is low relative to it's $1 peg i.e., $0.95, the demand for VSC is lower for the circulating supply. To bring the peg back to $1, the supply of VSC should be decreased to balance the demand. During Contraction State trading bots will burn VSC and mints VRL, which has an effect of increasing Viral Stable Coin Price (by reducing it's supply) and lowering the Viral Coin price (by expanding it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
 
 Viral Stable Trading App
 
