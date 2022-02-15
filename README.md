@@ -1,13 +1,13 @@
 
 
-# <p align="center">Viral - Next Gen Decentralized Social Engagement Tool</p>
+# <p align="center"> Viral - Next Gen Decentralized Social Engagement Tool</p>
 
 <p align="center">By Viral Foundation & Viral DAO </p>
 <br><br/>
 
 ## Table of contents
 
-- [<p align="center">Viral - Next Gen Decentralized Social Engagement Tool</p>](#viral---next-gen-decentralized-social-engagement-tool)
+- [<p align="center"> Viral - Next Gen Decentralized Social Engagement Tool</p>](#-viral---next-gen-decentralized-social-engagement-tool)
   - [Table of contents](#table-of-contents)
   - [1. Abstract<a name="abstract"></a>](#1-abstract)
   - [2. User Problems & Basic Solutions](#2-user-problems--basic-solutions)
@@ -22,7 +22,7 @@
   - [6. How Whitepaper Structured](#6-how-whitepaper-structured)
   - [7.Social media & User Experience](#7social-media--user-experience)
     - [**Types of Post**](#types-of-post)
-      - [Shots](#shots)
+      - [! Shots](#-shots)
       - [Thoughts](#thoughts)
       - [Drops](#drops)
       - [Interactive Videos](#interactive-videos)
@@ -30,6 +30,8 @@
       - [Tunes](#tunes)
       - [Sketch](#sketch)
       - [Originals](#originals)
+      - [Tickets](#tickets)
+      - [Filters](#filters)
 
 
 ## 1. Abstract<a name="abstract"></a>
@@ -153,8 +155,10 @@ pragma solidity ^0.8.10;
 
 ### **Types of Post**
 
+> ![]()[ELI5 Explanatory Video - Viral NFTs](https://sample.com/)
 
-#### Shots
+
+#### ![](https://media.istockphoto.com/vectors/smartphone-mobile-phone-template-telephone-realistic-vector-of-vector-id1193692838?s=612x612) Shots
 
 Shots are **10 sec motion pictures** with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.
 
@@ -163,21 +167,10 @@ People can share their
 - Exclusive Photoshoots, commercials, to your fans
 - Turn photos into lively shots by adding shot animations through Viral
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
-
-[![Shots Demo](https://img.youtube.com/vi/UmX4kyB2wfg/hqdefault.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
-
 #### Thoughts
 
 Thoughts are **text-based sharing** for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
-
-[![Thoughts Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 #### Drops
 
@@ -185,21 +178,11 @@ Drops are **20 second disappearing stories** shared to followers which auto-disa
 
 > Note: Drops will not be minted as unique NFT due to it's nature of disappearing media.
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
-
-[![Drops Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 #### Interactive Videos
 
 IVs are short 30sec full-screen **narration based videos**. It is based on **gamification of videos** to interact within the videos.
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
-
-[![IV Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 #### NFT Utilities
 
@@ -211,11 +194,7 @@ Viral will take a **3% commission** selling NFTs which will be reverted to the u
 
 Artists can sell their music albums, singles as NFT for the fans/people to buy and own it
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
 
-[![Tunes Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 ```JavaScript //Since Solidity Syntax Not Available
 
@@ -228,11 +207,7 @@ pragma solidity ^0.8.10;
 #### Sketch 
 Digital arts, paintings, sketches can be sold through NFTs
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
 
-[![Sketch Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 ```JavaScript //Since Solidity Syntax Not Available
 
@@ -246,11 +221,7 @@ pragma solidity ^0.8.10;
 
 Physical assets can be sold through Viral's Original NFTs where people can buy and flex
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
 
-[![Originals Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 ```JavaScript //Since Solidity Syntax Not Available
 
@@ -260,13 +231,10 @@ pragma solidity ^0.8.10;
 
 ```
 
-Tickets: Exclusive passes for events, ownership of clubs, a digital ticket for everything can be sold as NFT
+#### Tickets
+Exclusive passes for events, ownership of clubs, a digital ticket for everything can be sold as NFT
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
 
-[![Tickets Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 ```JavaScript //Since Solidity Syntax Not Available
 
@@ -276,13 +244,10 @@ pragma solidity ^0.8.10;
 
 ```
 
-Filters: Filters can be sold, and owned by user's thereby get rewards for it
+#### Filters 
+Filters can be sold, and owned by user's thereby get rewards for it
 
-<!---
-Add a Gif as IMG Source and Link to original Youtube Video
--->
 
-[![Filters Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 ```JavaScript //Since Solidity Syntax Not Available
 
