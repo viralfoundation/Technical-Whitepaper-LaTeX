@@ -5,53 +5,56 @@ By Joby Reuben
 ## Table of contents
 
 1. [Abstract](#abstract)
-2. [Vision Statement](#vision)
-3. [Unified Mobile Application](#intro)
-4. [Viral Architecture](#architecture)
-5. [Structure of Whitepaper](#structure) 
-6. [Social Media & User Experience](#socialmedia)
-7. [Blockchain, Token Ecosystem & Layer2](#blockchain)
-8. [Smart Wallet](#wallet)
-9. [Child Platforms](#childplatforms)
-10. [Revenue & Incentives](#revenue)
-11. [Viral DAO](#dao)
-12. [Roadmap to Decentralization](#roadmap)
-13. [Team & Advisory Committee](#team)
-14. [Viral Coin ICO](#ico)
+2. [User Problems & Basic Solutions](#problems)
+3. [Vision Statement](#vision)
+4. [Unified Mobile Application](#intro)
+5. [Viral Architecture](#architecture)
+6. [Structure of Whitepaper](#structure) 
+7. [Social Media & User Experience](#socialmedia)
+8. [Blockchain, Token Ecosystem & Layer2](#blockchain)
+9. [Smart Wallet](#wallet)
+10. [Child Platforms](#childplatforms)
+11. [Revenue & Incentives](#revenue)
+12. [Viral DAO](#dao)
+13. [Roadmap to Decentralization](#roadmap)
+14. [Team & Advisory Committee](#team)
+15. [Viral Coin ICO](#ico)
 
-**2. Vision of the project**
+## 1. Abstract
 
+This is a Sample Abstract of the Viral Project.
+
+## 2. User Problems & Basic Solutions
+
+
+
+
+## 3. Vision Statement
 Our vision is to bring the ultimate blockchain-crypto adoption to the masses. In order to bring adoption of crypto markets we would need to bridge social communication with defi and tokenized economy.
 
-Social media
+#### **Social media**
 
-To develop a **Real-world Decentralised Social Media**
 
-To build an **Autonomous** self-evolving platform
+1. To develop a **Real-world Decentralised Social Media**
+2. To build an **Autonomous** self-evolving platform
+3. To build an **Interactive** Next-Gen Social Media
+4. To make a **clean** web3 platform for all age groups
 
-To build an **Interactive** Next-Gen Social Media
+#### **Crypto Adoption**
 
-To make a clean web3 platform for all age groups
+1. To make people **jump in crypto** from fiat very easily & securely
+2. To give **access** to all internet people cryptocurrencies **without investing**
+3. To bring **all major crypto** for people to easily adapt in a **single wallet**
 
-Crypto Adoption
+#### **NFT & Metaverse**
 
-To make people jump in crypto from fiat very easily &amp; securely
+1. To democratize NFTs to Masses
+2. To kickstart Metaverse adoption
 
-To give access to all internet people cryptocurrencies without investing
+#### **Blockchain**
 
-To bring all major crypto for people to easily adapt in a single wallet
-
-NFT &amp; Metaverse
-
-To democratize NFTs to Masses
-
-To kickstart Metaverse adoption
-
-Blockchain
-
-To provide the utmost speed of transactions through L1 &amp; L2s
-
-To Develop a feeless, fast, Capped Supply, Deflationary, smart contract chain
+1. To provide the utmost speed of transactions through **On-Chain & Off-Chain** solutions
+2. To Develop a **feeless, fast, Capped Supply, Deflationary, smart contract chain**
 
 **3.User issue and problem**
 
