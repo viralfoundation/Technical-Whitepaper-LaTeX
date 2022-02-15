@@ -1,33 +1,33 @@
 # Viral - Next Gen Decentralized Social Engagement Tool
 
-By Joby Reuben
+By Viral Foundation & Viral DAO
+<br><br/>
 
 ## Table of contents
 
-1. [Abstract](#abstract)
-2. [User Problems & Basic Solutions](#problems)
-3. [Vision Statement](#vision)
-4. [Unified Mobile Application](#intro)
-5. [Viral Architecture](#architecture)
-6. [Structure of Whitepaper](#structure) 
-7. [Social Media & User Experience](#socialmedia)
-8. [Blockchain, Token Ecosystem & Layer2](#blockchain)
-9. [Smart Wallet](#wallet)
-10. [Child Platforms](#childplatforms)
-11. [Revenue & Incentives](#revenue)
-12. [Viral DAO](#dao)
-13. [Roadmap to Decentralization](#roadmap)
-14. [Team & Advisory Committee](#team)
-15. [Viral Coin ICO](#ico)
+- [Viral - Next Gen Decentralized Social Engagement Tool](#viral---next-gen-decentralized-social-engagement-tool)
+  - [Table of contents](#table-of-contents)
+  - [1. Abstract<a name="abstract"></a>](#1-abstract)
+  - [2. User Problems & Basic Solutions](#2-user-problems--basic-solutions)
+  - [3. Vision Statement](#3-vision-statement)
+      - [**Social media**](#social-media)
+      - [**Crypto Adoption**](#crypto-adoption)
+      - [**NFT & Metaverse**](#nft--metaverse)
+      - [**Blockchain**](#blockchain)
+  - [4.Unified Mobile application - An Intro to Viral](#4unified-mobile-application---an-intro-to-viral)
+  - [5. Viral Platform Architecture](#5-viral-platform-architecture)
+    - [Development Tech Stack](#development-tech-stack)
 
-## 1. Abstract
+
+## 1. Abstract<a name="abstract"></a>
+
 
 This is a Sample Abstract of the Viral Project.
 
+
 ## 2. User Problems & Basic Solutions
 
-
-
+This is a Sample Problems of the Viral Project.
 
 ## 3. Vision Statement
 Our vision is to bring the ultimate blockchain-crypto adoption to the masses. In order to bring adoption of crypto markets we would need to bridge social communication with defi and tokenized economy.
@@ -56,45 +56,10 @@ Our vision is to bring the ultimate blockchain-crypto adoption to the masses. In
 1. To provide the utmost speed of transactions through **On-Chain & Off-Chain** solutions
 2. To Develop a **feeless, fast, Capped Supply, Deflationary, smart contract chain**
 
-**3.User issue and problem**
 
-We will list about 5 types of people to address the problems which they are encountering in their daily life
+## 4.Unified Mobile application - An Intro to Viral
 
-Bob
-
-Bob is a social media user; His major fear is of being spied. He doesn&#39;t trust existing social media because it has poor security and can be breached easily. He doesn&#39;t make sensive calls nor chats with his family and friends. The Constant advertisements, bombarding with centralized ads annoys him. Sometimes he sees adverts about the things he talks offline; this makes him to doubt that does centralized apps taps microphones?
-
-Solution: A Trustless social media which is decentralized, secure encryption, Ad-free and doesn&#39;t take a single byte of user&#39;s data. This necessarily doesn&#39;t mean someone have to create a decentralized clone of Instagram, Twitter or TikTok, but to provide a new way of engaging social media platform competing existing corporate social medias.
-
-John
-
-John is a crypto holder. He buys cryptocurrencies through centralized exchanges attempting a very long process through multiple platforms. He then holds most of his coins on centralized exchanges such as Binance, Coinbase. He doesn&#39;t trust the platforms as his holdings are in custody by the companies which can be hacked anytime losing private keys to potential hackers. He asks us &quot;Is there any trustless exchanges for fiat currencies?&quot;
-
-Solution: A trustless centralized exchange with easy withdrawals to hot wallets (Metamask / Non-Custodial) and holding users funds through protocols such as Multi-Sig Wallets and Shamir&#39;s Secret Sharing Scheme to hold private keys is a better approach for a semi-centralized exchange.
-
-# Mary<a name="introduction"></a>
-
-Mary is interested in blockchains, cryptocurrencies and NFTs. She is not sure if she could take a bet on the crypto world. She sees tutorials, and reads articles about how to use cryptocurrencies. She finds it tough as she has to go through multiple different platforms such as CEXs, Hot Wallets, DEXs, Liquidity Pools, Public Addresses, L2 Solutions, etc. She wants to use crypto effectively but she backs out just because she finds it overwhelming.
-
-Solution: To Build a Unified Platform which has built in features to buy,sell, exchange, send users who will find it simple like a web2 app using usernames to transact and without watching any tutorials or reading long articles
-
-Steve
-
-Steve is a NFT Guy. He flips NFTs on centralized NFT Marketplaces which has a chance of banning projects if they wish to. He also goes to his friends and tells about his recent NFT purchase and how he is the owner but they certainly don&#39;t understand it. He wants his friends and the whole world to use NFT Marketplaces so that he can get the social identity he expects. But he knows that NFT Marketplaces are like Ecommerce Platforms which won&#39;t get high user adoption similar to other social applications which gives Social Identity to the User
-
-Solution: Building a Decentralized NFT Marketplace to counter censorship of projects and democratizing NFTs to masses using a social media application that gives the owner a Social Identity that they own a specific NFT which can get a high resale value.
-
-Ava
-
-Ava is a teenager who wants to kick in to the Metaverse and blockchain world but she lacks the capital to invest and worried about gas fees as every transaction requires the native coin which she should have always in reserve. She also fears about volatility while sending coins to her friends. She wants a Premium Service Application without the need to invest.
-
-Solution: To build a Blockchain which doesn&#39;t require Native coin for fees and takes a not-so-considerable amount of validator fees to almost zero for confirming the transaction. To bring in an integrated stable coin for transfers to solve volatility while paying friends, family and businesses. By Airdropping free cryptocurrencies to almost all users will solve the inability to invest in coins.
-
-**4.Unified Mobile application - An intro to viral**
-
-Short intro
-
-A Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies&#39; underlying applications into a Daily Internet User-Based App
+A Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies' underlying applications into a Daily Internet User-Based Mobile App.
 
 Every media shared on viral is a unique NFT where it can be utilized to create limitless possibilities across the platform. Users can share ultra-short to short videos, thoughts through text, sell NFTs and also make communication between one-on-one, private groups and, public channels with complete true privacy.
 
@@ -102,41 +67,40 @@ Viral users will be benefitted from zero ads, cryptographic encryption, censorsh
 
 We are bridging Social Media with Blockchain, Wallets, Exchanges and NFT Markeplace to bring the ultimate one-app for the common masses to adop into the tolkenized economy
 
-**5. Viral platform architecture**
+## 5. Viral Platform Architecture
 
-![](RackMultipart20220214-4-1u7jk93_html_54edcd2a84a4644c.png)
 
-1. Viral App – The Decentralized Social Media Platform bridging Blockchain applications for unlimited possibilities.
 
-1. Viral Smart Chain: Horizontally Scalable Gas free EVM Smart Chain on Top of IOTA&#39;s Tangle.
+1. **Viral App** – The Decentralized Social Media Platform bridging Blockchain applications for unlimited possibilities.
 
-  1. Payment Channels (L2): State Channels to move value off-chain for unlimited scalability
-  2. Zk-Rollups (L2): Batching Multiple NFT Tokens (ERC721) on L2 into L1
-  3. Viral Bridge: To bring major crypto such as Bitcoin, Doge, ERC20 Tokens into Viral Smart Chain for interoperability
-  4. Additional Chains: Adding Additional Chains for Scaling Blockchain
+2. **Viral Smart Chain**: Horizontally Scalable Gas free EVM Smart Chain on Top of IOTA&#39;s Tangle.
+   1. **Payment Channels (L2**): State Channels to move value off-chain for unlimited scalability
+   2. **Zk-Rollups (L2)**: Batching Multiple NFT Tokens (ERC721) on L2 into L1
+   3. **Viral Bridge**: To bring major crypto such as Bitcoin, Doge, ERC20 Tokens into Viral Smart Chain for interoperability
+   4. **Additional Chain**s: Adding Additional Chains for Scaling Blockchain
 
-1. Wallet : Viral&#39;s Built in EVM Non-Custodial Wallet for Viral Smart Chain that allows user to receive rewards and hold ERC20 tokens.
+3. **Smart Wallet** : Viral's Built in EVM Non-Custodial Wallet for Viral Smart Chain that allows user to receive rewards and hold ERC20 tokens.
 
-  1. Centralized Exchange: Trustless Multi-Sig Wallet Exchange for Fiat to Crypto trading and vice versa
-  2. Decentralized Exchange: Swapping Viral Tokens without KYC
-  3. P2P Exchange: Peer-to-Peer Exchange for Fiat without KYC
-  4. Viral Name System: Username based transfers instead of long cryptographic public address
+   1. **Centralized Exchange**: Trustless Multi-Sig Wallet Exchange for Fiat to Crypto trading and vice versa
+   2. **Decentralized Exchange**: Swapping Viral Tokens without KYC
+   3. **P2P Exchange**: Peer-to-Peer Exchange for Fiat without KYC
+   4. **Viral Name System**: Username based transfers instead of long cryptographic public address
 
-1. Child Platforms: Platforms to support Viral App where the users rewarded daily according to their amount of contribution
-  1. Dev-Space: Developers Feed for recent commits to opensource repo
-  2. ROV App: Curator Platform to vote and remove reported content on Viral
-  3. Muti-Miner Software: Desktop Application to run nodes of Viral Decentralized Tech Stacks
-  4. Ad Platform: Connecting Influencer and Business for trustless engagement-proof ads.
+4. **Child Platforms**: Platforms to support Viral App where the users rewarded daily according to their amount of contribution
+     1. **Dev-Space**: Developers Feed for recent commits to opensource repo
+     2.  **ROV App**: Curator Platform to vote and remove reported content on Viral
+     3.  **Ad Platform**: Connecting Influencer and Business for trustless engagement-proof ads.
 
-1. Reward Program: To incentivize users, miners, developers using smart contracts for their content, validation of transactions, and continuous development through unbiased points mechanism that offers more rewards to bigger contributors.
+5. **Reward Program**: To incentivize users, miners, developers using smart contracts for their content, validation of transactions, and continuous development through unbiased points mechanism that offers more rewards to bigger contributors.
 
-1. Centralized Backend: For contingencies which will be later decentralized in the Phase 2 of Development Roadmap
+6. **Other Backend**: For contingencies which will be later decentralized in the further phases of Development Roadmap
 
-**Technology Used**
+### Development Tech Stack
 
-IPFS: IPFS stands for Interplanetary File System is a peer-to-peer distributed file system that is used for maintaining and distributing files across our Viral IPFS Private network.
+1. **[IPFS](https://ipfs.io)**: IPFS stands for Interplanetary File System is a peer-to-peer distributed file system that is used for maintaining and distributing files across our Viral IPFS Private network.
 
-GunDB: GunDB is a fully decentralized graph database to store information from user to user meaning that your changes are not affected by any centralized server.
+2. **[GunDB](https://gun.eco/)**: GunDB is a fully decentralized graph database to store information from user to user meaning that your changes are not affected by any centralized server.
+
 
 WebRTC: WebRTC stands for Web Real-Time Communication, an open-source project built primarily for peer-to-peer real-time connections.
 
@@ -493,7 +457,7 @@ Other Chains : For creating Dapps for lending, asset tokenization, yield farming
 
 Development
 
-#### Do not Include
+***Do not Include***
 
 _Core-Contracts_
 
