@@ -673,7 +673,13 @@ flowchart TB
     J ---> H[L1 Transfer 0.05% Fixed Fee]
     end
      
-
 ```
-
-
+```mermaid
+pie
+    title Reward Pool
+    "Users" : 30
+    "Social Nodes" : 30
+    "ROV Community" : 10
+    "Developers" :  10
+    "Viral DAO" : 20
+```
