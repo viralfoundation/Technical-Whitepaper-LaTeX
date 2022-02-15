@@ -32,6 +32,8 @@
       - [Originals](#originals)
       - [Tickets](#tickets)
       - [Filters](#filters)
+  - [Others](#others)
+    - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
 
 
 ## 1. Abstract<a name="abstract"></a>
@@ -168,13 +170,6 @@ People can share their
 - Exclusive Photoshoots, commercials, to your fans
 - Turn photos into lively shots by adding shot animations through Viral
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
 
 #### Thoughts
 
@@ -646,3 +641,30 @@ Access to Viral NFTs
 Payments to Merchants
 
 Automated Swap to Stable Coin
+
+
+
+## Others
+
+### Smart Wallet Zero to Low Fee Transfers
+
+```mermaid
+
+flowchart TB
+
+
+    A[/Amount Input /] --> B[L2 success rate calculation]
+    B ---> C[Result > 100% Channels without routing]
+    C --Yes--> D([Zero Fee L2 Transfer])
+    C --No--> E[L2 success rate calculation]
+    E-->F[Result > 100% Channels with routing]
+    F --Yes--> G([Calculate Fee Percentage])
+    F --No--> H[L1 Transfer 0.05% Fixed Fee]
+    G --->I[Fee < 0.05%]
+    G --->J[Fee > 0.05%]
+    I ---> K[L2 Transfer with minimum fees]
+    J ---> H[L1 Transfer 0.05% Fixed Fee]
+
+```
+
+
