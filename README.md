@@ -650,7 +650,7 @@ Automated Swap to Stable Coin
 
 ```mermaid
 
-flowchart TB
+flowchart LR
 
 
     A[/Amount Input /] --> B[L2 success rate calculation]
