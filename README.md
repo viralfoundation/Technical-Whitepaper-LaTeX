@@ -22,7 +22,7 @@
   - [6. How Whitepaper Structured](#6-how-whitepaper-structured)
   - [7.Social media & User Experience](#7social-media--user-experience)
     - [**Types of Post**](#types-of-post)
-      - [! Shots](#-shots)
+      - [Shots](#shots)
       - [Thoughts](#thoughts)
       - [Drops](#drops)
       - [Interactive Videos](#interactive-videos)
@@ -157,10 +157,11 @@ pragma solidity ^0.8.10;
 
 > ![]()[ELI5 Explanatory Video - Viral NFTs](https://sample.com/)
 
-
-#### ![](https://media.istockphoto.com/vectors/smartphone-mobile-phone-template-telephone-realistic-vector-of-vector-id1193692838?s=612x612) Shots
+#### Shots
 
 Shots are **10 sec motion pictures** with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.
+
+![](https://media.istockphoto.com/vectors/smartphone-mobile-phone-template-telephone-realistic-vector-of-vector-id1193692838?s=612x612) 
 
 People can share their
 - Personal Sneak-Peek, Moments & Events
