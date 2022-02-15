@@ -168,6 +168,14 @@ People can share their
 - Exclusive Photoshoots, commercials, to your fans
 - Turn photos into lively shots by adding shot animations through Viral
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 #### Thoughts
 
 Thoughts are **text-based sharing** for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.
