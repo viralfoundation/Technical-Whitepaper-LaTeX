@@ -102,17 +102,17 @@ We are bridging Social Media with Blockchain, Wallets, Exchanges and NFT Markepl
 2. **[GunDB](https://gun.eco/)**: GunDB is a fully decentralized graph database to store information from user to user meaning that your changes are not affected by any centralized server.
 
 
-WebRTC: WebRTC stands for Web Real-Time Communication, an open-source project built primarily for peer-to-peer real-time connections.
+3. **[WebRTC](https://webrtc.org/)**: WebRTC stands for Web Real-Time Communication, an open-source project built primarily for peer-to-peer real-time connections.
 
-JavaScript: JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
+4. **[Javascript](https://www.javascript.com/)**: JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
 
-NodeJS: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
+5. **[NodeJS](https://nodejs.org/)**: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
 
-ReactJS: React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+6. **[ReactJS](https://reactjs.org/)**: React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
 
-Solidity: Solidity is an object-oriented, high-level language for implementing smart contracts, mostly used for executing code in Ethereum Virtual Machine
+7. **[Solidity](https://docs.soliditylang.org/)**:Solidity is an object-oriented, high-level language for implementing smart contracts, mostly used for executing code in Ethereum Virtual Machine
 
-IOTA Smart Contract Protocol: The IOTA ecosystem allows to spin up a smart contract blockchain and anchor it to the IOTA tangle
+8. **[IOTA Smart Contract Protocol](https://wiki.iota.org/smart-contracts/overview)**: The IOTA ecosystem allows to spin up a smart contract blockchain and anchor it to the IOTA tangle
 
 **6.How Whitepaper Structured**
 
