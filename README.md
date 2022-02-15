@@ -1,4 +1,24 @@
-**WHITEPAPER**
+# Viral - Add the subheading
+
+By Joby Reuben
+
+## Table of contents
+
+1. [Abstract](#abstract)
+2. [Vision Statement](#vision)
+3. [Unified Mobile Application](#intro)
+4. [Viral Architecture](#architecture)
+   1. [Tech Stack Used](#techstack)
+5. [Structure of Whitepaper](#structure) 
+6. [Social Media & User Experience](#socialmedia)
+7. [Blockchain, Token Ecosystem & Layer2](#blockchain)
+8. [Smart Wallet](#wallet)
+9. [Child Platforms](#childplatforms)
+10. [Revenue & Incentives](#revenue)
+11. [Viral DAO](#dao)
+12. [Roadmap to Decentralization](#roadmap)
+13. [Team & Advisory Committee](#team)
+14. [Viral Coin ICO](#ico)
 
 **2. Vision of the project**
 
@@ -50,7 +70,7 @@ John is a crypto holder. He buys cryptocurrencies through centralized exchanges 
 
 Solution: A trustless centralized exchange with easy withdrawals to hot wallets (Metamask / Non-Custodial) and holding users funds through protocols such as Multi-Sig Wallets and Shamir&#39;s Secret Sharing Scheme to hold private keys is a better approach for a semi-centralized exchange.
 
-Mary
+# Mary<a name="introduction"></a>
 
 Mary is interested in blockchains, cryptocurrencies and NFTs. She is not sure if she could take a bet on the crypto world. She sees tutorials, and reads articles about how to use cryptocurrencies. She finds it tough as she has to go through multiple different platforms such as CEXs, Hot Wallets, DEXs, Liquidity Pools, Public Addresses, L2 Solutions, etc. She wants to use crypto effectively but she backs out just because she finds it overwhelming.
 
