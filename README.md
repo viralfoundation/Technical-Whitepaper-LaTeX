@@ -651,7 +651,7 @@ Automated Swap to Stable Coin
 
 
 ```mermaid
-%%{init: {'theme':'base'}}%%
+
 flowchart TB
 
    
