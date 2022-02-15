@@ -1,11 +1,13 @@
-# Viral - Next Gen Decentralized Social Engagement Tool
 
-By Viral Foundation & Viral DAO
+
+# <p align="center">Viral - Next Gen Decentralized Social Engagement Tool</p>
+
+<p align="center">By Viral Foundation & Viral DAO </p>
 <br><br/>
 
 ## Table of contents
 
-- [Viral - Next Gen Decentralized Social Engagement Tool](#viral---next-gen-decentralized-social-engagement-tool)
+- [<p align="center">Viral - Next Gen Decentralized Social Engagement Tool</p>](#viral---next-gen-decentralized-social-engagement-tool)
   - [Table of contents](#table-of-contents)
   - [1. Abstract<a name="abstract"></a>](#1-abstract)
   - [2. User Problems & Basic Solutions](#2-user-problems--basic-solutions)
@@ -165,7 +167,7 @@ People can share their
 Add a Gif as IMG Source and Link to original Youtube Video
 -->
 
-[![Shots Demo](https://img.youtube.com/vi/UmX4kyB2wfg/3.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
+[![Shots Demo](https://img.youtube.com/vi/UmX4kyB2wfg/hqdefault.jpg)](https://www.youtube.com/watch?v=UmX4kyB2wfg)
 
 #### Thoughts
 
