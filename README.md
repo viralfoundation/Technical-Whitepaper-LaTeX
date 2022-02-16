@@ -921,7 +921,7 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
 ![](/assets/Asset%201.png#gh-light-mode-only)
 ![](/assets/Asset%203.png#gh-light-mode-only)
 ![](/assets/Asset%202.png#gh-dark-mode-only)
-
+![](/assets/Asset%204.png#gh-light-mode-only)
 
 **Use Cases of VSC**
 
