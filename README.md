@@ -39,6 +39,11 @@
     - [Like, Comment, Share, Tip](#like-comment-share-tip)
     - [Tip](#tip)
     - [Privacy Groups](#privacy-groups)
+    - [Audio Emoji](#audio-emoji)
+    - [Interest Based Recommendation](#interest-based-recommendation)
+    - [User Security &amp; Privacy](#user-security--privacy)
+    - [Media Storage](#media-storage)
+    - [Chats &amp; Private Messages](#chats--private-messages)
   - [Others](#others)
     - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
     - [Reward Pool](#reward-pool)
@@ -359,25 +364,32 @@ pragma solidity ^0.8.10;
 
 Privacy Groups is a unique feature in Viral to create unlimited friend's groups as list to ensure maximum privacy for users to post and share shots, drops, thoughts, NFTs to the particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can enable complete privacy over viewers for certain posts.
 
-Visual Representation
+  ```mermaid
 
-```mermaid
+    flowchart LR
+    A[User]-->0
+    0[3 Friends x,y,z]-->B[Group A]
+    0--->C[Group B]
+    B-->D[Read Access:x,y]
+    C-->E[Read Access:y,z]
+    D-->F[Restricted User:z]
+    E-->G[Restricted User:x]
 
-    A[User Creates Privacy Groups]-->B[dbs]
+  ```
 
+
+```JavaScript
+//GunDB Snippet
 ```
 
-Bob has 2 posts (Family &amp; Friends) – He creates 2 privacy groups (Family &amp; Friends) – When he posts he select Family and posts – His Family can only see the post – When he posts 2nd post he'll select Friends – His Friends can only see the post – When a Friend visits his profile he can't see Bob's Family post and vice versa
 
-\*\*GunDB Snippet\*\*
+### Audio Emoji
 
-Audio Emoji
+This is a short feature where all the emoji's in Viral if touched will give a **short sound of the emoji**. This will be available on chats &amp; comments section of a post.
 
-This is a short feature where all the emoji's in Viral if touched will give a short sound of the emoji. This will be available on chats &amp; comments section of a post.
+### Interest Based Recommendation
 
-Interest Based Recommendation
-
-To make the viral platform more user-friendly interest-based recommendations are used. We have numerous ways to fetch interest from a user without collecting data on a centralized server, some of them are
+To make the viral platform more user-friendly interest-based recommendations are used. We have numerous ways to fetch interest from a user **without collecting data on a centralized server**, some of them are
 
 - Like &amp; Dislike
 - Hashtag Follows
@@ -387,26 +399,131 @@ To make the viral platform more user-friendly interest-based recommendations are
 - Following interests
 - Based on Comments
 
-All the user interests will be stored locally on the device to ensure maximum security and will be taken to show recommendations.
+All the user interests will be **stored locally** on the device to ensure **maximum security** and will be taken to show recommendations.
 
-User Security &amp; Privacy
+### User Security &amp; Privacy
 
 This is classified into
 
-    1. Media Storage (Breach of Private Accounts Post)
-    2. Chats or Private Messages
-    3. Interests of User
-    4. Chat backups
+  1. Media Storage
+  2. Chats or Private Messages
+  3. Interests of User
+  4. Chat backups
 
-Media Storage
+### Media Storage
 
-Visual Representation
+All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes & Trusted IPFS Cluster Nodes. Thus promising the security of media.
 
-Mike Uploads Media – File Gets Encrypted in his mobile – Decryption Key stored on his post database – Encrypted File uploaded to IPFS which will be stored decentralized – Followers only can only decrypt and view the post
+Encryption
 
-All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trusted IPFS Cluster Nodes. Thus promising security of media which cannot be decrypted by classical computers.
+```mermaid
 
-Chats &amp; Private Messages
+  flowchart TD
+  subgraph Decentralized Media Upload & Encryption
+  subgraph Offline Process
+  A[User Uploads Media]-->B[Generates secret-key]
+  B-->C[Encrypted Locally]
+  end
+  subgraph Post-MetaData
+  subgraph static
+  id
+  IPFS-URI
+  secret-key
+  end
+  subgraph dynamic
+  other-data
+  end
+  end
+  subgraph IPFS
+  D[File Upload to IPFS Public]-->G[Receives IPFS-URI]
+  G-->E[Pins IPFS-URI to Viral's IPFS Cluster]
+  E-->F[Cluster repetition = min:8 max:15]
+  end
+  B--secret-key-->static
+  IPFS--IPFS-URI-->static
+  C--Encrypted-File-->IPFS
+  end
+```
+Decryption
+
+```mermaid
+
+  flowchart BT
+  subgraph Follower Request to View & Decryption
+
+A0[Party A - request initiated for Party B's Post]
+A0-->A1
+  A1[Checks if Party A follows Party B]
+  A1--No-->A2
+  A2[Party B - account analysed]
+  A1--Yes-->B1
+  A3[Public-Account]
+  A4[Private-Account]
+  A2-->A3
+  A2-->A4
+
+
+  subgraph Verification-of-private-account-follower
+  B1[Fetches Party A Address]
+  B2[Fetches Party B's Followers Addresses]
+  B3[Checks Party A's Address]
+  B4[Addresses-Matched]
+  B2-->B3
+  B1-->B3
+  B3-->B4
+
+  end
+  subgraph Party-B-Post-MetaData
+  subgraph static
+  id
+  IPFS-URI
+  secret-key
+  end
+  subgraph dynamic
+  other-data
+  end
+  end
+  subgraph Decryption
+  D1[secret-key is Fetched]
+  D2[Decrypt's the File]
+  D1-->D2
+  end
+  subgraph IPFS
+  C1[URI is Fetched]
+  C2[Download's Encrypted File]
+  C1-->C2
+  end
+  Z[Content is shown]
+  subgraph Temporary-read-access
+  H1[Fetches Party A's Address]
+  end
+  subgraph User-account-profile
+  Y1[All Post's MetaData]
+  subgraph private-account
+  followers-addresses
+  end
+  subgraph public-account
+  U1[temporary-watchers-addresses]
+  followers-addresses
+  end
+  end
+
+  followers-addresses-->B2
+  Y1-->Party-B-Post-MetaData
+  B4-->S1[Sucessful]-->IPFS
+  B4-->I1[Error]-->Content-Denied
+  A4--->Content-Denied
+  Party-B-Post-MetaData-->C1
+  C2-->Decryption
+  Party-B-Post-MetaData-->D1
+  D2-->Z
+  A3-->Temporary-read-access
+  U1--->S1
+  Temporary-read-access--Adds-address-->U1
+  end
+```
+
+### Chats &amp; Private Messages
 
 For Chat-based encryption, we use public and private keys to encrypt and decrypt messages. There are no centralized cloud-based servers involved in storing messages which can potentially leak private chats and messages. Every single message is encrypted and can be only decrypted by the receiver.
 
