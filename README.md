@@ -431,7 +431,7 @@ Detailed Explanation
 
 ```mermaid
 
-  flowchart LR
+  flowchart TB
   subgraph Decentralized Media Upload & Encryption
   subgraph Offline Process
   A[User Uploads Media]--1-->B[Generates secret-key]
