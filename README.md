@@ -465,7 +465,7 @@ Private Account Media Decryption
 Detailed Explanation
 
 ```mermaid
-flowchart LR
+flowchart TB
 subgraph Private-Account-Media-Decryption
   A0[User A request to view User B content]
   subgraph Follower Verification
@@ -518,7 +518,7 @@ Public Account Media Decryption
 
 ```mermaid
 
-flowchart LR
+flowchart TB
 
 subgraph Public-Account-Media-Decryption
 
