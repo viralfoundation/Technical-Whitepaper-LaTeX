@@ -38,6 +38,7 @@
   - [Engagements](#engagements)
     - [Like, Comment, Share, Tip](#like-comment-share-tip)
     - [Tip](#tip)
+    - [Privacy Groups](#privacy-groups)
   - [Others](#others)
     - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
     - [Reward Pool](#reward-pool)
@@ -314,9 +315,9 @@ Party B= Receiver = John
 Party C= Tipping Contract
 Party D- Reward Pool
 
-x=number of tokens mary sent
-y=number of tokens john receives
-n= Commission Percentage
+x=number of tokens mary sent 
+y=number of tokens john receives 
+n= Commission Percentage 
 z= number of tokens sent to reward pool
 ```
 
@@ -354,11 +355,17 @@ pragma solidity ^0.8.10;
 
 ```
 
-Privacy Groups
+### Privacy Groups
 
 Privacy Groups is a unique feature in Viral to create unlimited friend's groups as list to ensure maximum privacy for users to post and share shots, drops, thoughts, NFTs to the particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can enable complete privacy over viewers for certain posts.
 
 Visual Representation
+
+```mermaid
+
+    A[User Creates Privacy Groups]-->B[dbs]
+
+```
 
 Bob has 2 posts (Family &amp; Friends) – He creates 2 privacy groups (Family &amp; Friends) – When he posts he select Family and posts – His Family can only see the post – When he posts 2nd post he'll select Friends – His Friends can only see the post – When a Friend visits his profile he can't see Bob's Family post and vice versa
 
@@ -709,16 +716,19 @@ flowchart TB
     end
     subgraph L1-Transfer
     J ---> H[L1 Transfer 0.05% Fixed Fee]
-    end     
+    end
+
 ```
 ### Reward Pool
 
 ```mermaid
 pie
+
     title Reward Pool
     "Users" : 30
     "Social Nodes" : 30
     "ROV Community" : 10
     "Developers" :  10
     "Viral DAO" : 20
+
 ```
