@@ -21,7 +21,7 @@
     - [Development Tech Stack](#development-tech-stack)
   - [6. How Whitepaper Structured](#6-how-whitepaper-structured)
   - [7.Social media & User Experience](#7social-media--user-experience)
-    - [**Types of Post**](#types-of-post)
+  - [**Types of Post**](#types-of-post)
       - [Shots](#shots)
       - [Thoughts](#thoughts)
       - [Drops](#drops)
@@ -32,8 +32,15 @@
       - [Originals](#originals)
       - [Tickets](#tickets)
       - [Filters](#filters)
+  - [Avatars](#avatars)
+    - [Meta-Chat](#meta-chat)
+    - [Live &amp; Rooms](#live--rooms)
+  - [Engagements](#engagements)
+    - [Like, Comment, Share, Tip](#like-comment-share-tip)
+    - [Tip](#tip)
   - [Others](#others)
     - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
+    - [Reward Pool](#reward-pool)
 
 
 ## 1. Abstract<a name="abstract"></a>
@@ -155,7 +162,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-### **Types of Post**
+## **Types of Post**
 
 > ![]()[ELI5 Explanatory Video - Viral NFTs](https://sample.com/)
 
@@ -261,57 +268,91 @@ pragma solidity ^0.8.10;
 
 ```
 
-- Avatars
+## Avatars
 
-Personalized Avatars are generated free for every viral user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see in 3D View.
+Personalized Avatars are generated **free for every viral** user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see in 3D View.
 
-These avatars are brought into Viral to integrate metaverse and to provide an interactive experience through avatar use cases.
+These avatars are brought into Viral to integrate metaverse and to provide an **interactive experience** through avatar use cases.
 
-Demo Video
+> ![]()[Avatar Demo Video](https://sample.com/)
 
-SDKs Used : ReadyPlayerMe : Cross-game Avatar Platform for the Metaverse
+**SDKs Used** : ReadyPlayerMe - A cross-game Avatar Platform for the Metaverse
 
-Use Case 1
 
-Meta-Chat
+### Meta-Chat
 
-Meta-Chat is a feature to react/show your facial reactions in real-time for the messages of whom you chat with. Viral captures your face reactions and transfer it to your avatar on top of your mutual-friend's chat page.
+Meta-Chat is a feature to **react/show your facial reactions** in real-time for the messages of whom you chat with. Viral captures your face reactions and transfer it to your avatar on **top of your mutual-friend's chat page**.
 
-This gives you a virtual experience of videocalls through avatars and text chat.
+This gives you a **virtual experience** of videocalls through avatars and text chat.
 
-Demo Video
+> ![]()[Meta-Chat Demo](https://sample.com/)
 
-Security
+Formula or Flow Chart
 
-Use Case 2
+### Live &amp; Rooms
 
-Live &amp; Rooms
+**Decentralized Live Video Events and Audio Rooms using Avatars** (or) Normal Cams. Celebrities can host live events with their fans using their avatars
 
-Decentralized Live Video Events and Audio Rooms using Avatars (or) Normal Cams. Celebrities can host live events with their fans using their avatars
+> ![]()[Live Events Demo](https://sample.com/)
 
-Demo Video
 
-Development
+## Engagements
 
-In the future roadmap we will be adding more use cases for the avatars and will be merging it with the Viral Megaverse of Applications
-
-Engagements
-
-Like, Comment, Share, Tip
+### Like, Comment, Share, Tip
 
 Users can like, comment, share, reThought, and also tip Tokens to their favorite posts and influencers. The number of likes will influence the recommendations list of other users.
 
 Additionally a hidden engagement dislike will be added to every post but won't be visible to the users/nor owners, which is solely used for recommendation interest-based algorithm to filter out disliked content
 
-Tip
+### Tip
 
 The tipping feature using tokens in Viral Smart Chain is used to tip/support your favourite influencers contents where all the tips will be directly sent to the user's wallet
 
-Visual Representation
+```
+Party A= Sender = Mary
+Party B= Receiver = John
+Party C= Tipping Contract
+Party D- Reward Pool
 
-Mary Sees John Post -\&gt; Mary Tips John Viral Coin -\&gt; John Receives Tokens in his Wallet -\&gt; Mary will be added into Tipped User in John's Profile
+x=number of tokens mary sent
+y=number of tokens john receives
+n= Commission Percentage
+z= number of tokens sent to reward pool
+```
 
-\*\*Tip Snippet\*\* (Code with a box)
+```mermaid
+
+    sequenceDiagram
+
+    participant John
+    participant Mary
+    participant Tipping Contract
+    participant John's Wallet
+    participant John's Profile
+    participant Reward Pool
+    
+
+    John->>+Mary:John Posts a Shot
+    Mary->>+Tipping Contract:Mary Sends x amount of Tokens
+    loop 
+    Tipping Contract-->Tipping Contract:Calculation of n from x
+    end
+    Tipping Contract->>+John's Wallet:Deposits y=[x-(x*n%)] of Tokens
+    Note over Tipping Contract: n = commision percentage
+    Note over John's Wallet: Receives y number of Tokens
+    Note right of Mary: Including transfer fees
+    Mary->>+John's Profile: Mary will be added as Tipped User with x amount
+    Tipping Contract->>+Reward Pool: Deposits z=x-y Tokens
+ 
+```
+
+```JavaScript //Since Solidity Syntax Not Available
+
+//Tipping Snippet
+
+pragma solidity ^0.8.10;
+
+```
 
 Privacy Groups
 
@@ -648,12 +689,9 @@ Automated Swap to Stable Coin
 
 ### Smart Wallet Zero to Low Fee Transfers
 
-
-
 ```mermaid
 
 flowchart TB
-
    
     A[/Amount Input /]--> B[L2 success rate calculation]
     subgraph L2-Fee-Calculation 
@@ -671,9 +709,10 @@ flowchart TB
     end
     subgraph L1-Transfer
     J ---> H[L1 Transfer 0.05% Fixed Fee]
-    end
-     
+    end     
 ```
+### Reward Pool
+
 ```mermaid
 pie
     title Reward Pool
