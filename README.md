@@ -918,11 +918,6 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
 
     Governance for Viral Smart Chains Protocol
 
-![](/assets/Asset%201.png#gh-light-mode-only)
-![](/assets/Asset%203.png#gh-light-mode-only)
-![](/assets/Asset%202.png#gh-dark-mode-only)
-![](/assets/Asset%204.png#gh-light-mode-only)
-![](https://mermaid.ink/img/pako:eNptUsFu2zAM_RVBh-1SHtKuW2dgBZo4CYqtmNEsu8g9qBKzCJUlQ5K3ZUX_vZTtLMkwn-zH9x7JRz9z5TXygm-s_6W2MiT2bVo7xmL3-CPIdstKVOhSkNb8Qc3uUBvJ1q31UrM3bO5U2LXJeHei-brZWOOQVcErjDHXbsQ6YhiVcfB5AJgAXE_FEh0GmTCyiCpggifcPWTVFOCcGDMxNqIJvnglrR3K6PRJ38rHBHeYZCmTPKnEJJNRGTK95LZarGB9f9uT_vb8n6feOdkMUp-2GECP3iPxX352zkApFsbiPqrk-wKrukdrFC1-SWstxT2Fa37S3vt5-rWWAO-pPBeVcYdS9vhu6BBvB4zNbBcThl4yB_hAkoUYQRawxWTyZdgn1hhXXLFG_i4ml8fBUbyH5Ul-SKlvClfQP9efz8WN1ochCToOcAZwkVmTozPl5Yn3jvAyc05OA_Ax8y_EzLtEfxczka2SD6j30_Ez3mBopNH0bz5nsOaUfoM1L-hVy_BU89q9EK9r6SI414YMeJFCh2dcdsmvdk7tvwdOaSTdqBnAl1ck3vuj)
 
 **Use Cases of VSC**
 
