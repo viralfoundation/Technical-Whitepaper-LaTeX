@@ -43,13 +43,18 @@
     - [Interest Based Recommendation](#interest-based-recommendation)
     - [F. User Security &amp; Privacy](#f-user-security--privacy)
     - [1. Media Storage](#1-media-storage)
+      - [Encryption](#encryption)
+      - [Decryption](#decryption)
     - [2. Chats &amp; Private Messages](#2-chats--private-messages)
     - [3. Interests of User](#3-interests-of-user)
     - [4. Chat Backup](#4-chat-backup)
       - [Phase 2 Development](#phase-2-development)
     - [G. TOR/VPN Anonymity](#g-torvpn-anonymity)
   - [8. Blockchain, Token Ecosystem & Layer 2](#8-blockchain-token-ecosystem--layer-2)
-    - [Viral Smart Chain – IOTA Layer 2](#viral-smart-chain--iota-layer-2)
+    - [8.1 Viral Smart Chain – Short Intro](#81-viral-smart-chain--short-intro)
+    - [8.2 IOTA Smart Contract Protocol.](#82-iota-smart-contract-protocol)
+    - [8.3 Viral Smart Chains](#83-viral-smart-chains)
+    - [8.4 Token Ecosystem](#84-token-ecosystem)
   - [Others](#others)
     - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
     - [Reward Pool](#reward-pool)
@@ -420,7 +425,7 @@ This is classified into
 
 All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes & Trusted IPFS Cluster Nodes. Thus promising the security of media.
 
-Encryption
+#### Encryption
 
 Detailed Explanation
 
@@ -429,8 +434,8 @@ Detailed Explanation
   flowchart LR
   subgraph Decentralized Media Upload & Encryption
   subgraph Offline Process
-  A[User Uploads Media]-->B[Generates secret-key]
-  B-->C[Encrypted Locally]
+  A[User Uploads Media]--1-->B[Generates secret-key]
+  B--2-->C[Encrypted Locally]
   end
   subgraph Post-MetaData
   subgraph static
@@ -443,47 +448,50 @@ Detailed Explanation
   end
   end
   subgraph IPFS
-  D[File Upload to IPFS Public]-->G[Receives IPFS-URI]
-  G-->E[Pins IPFS-URI to Viral's IPFS Cluster]
-  E-->F[Cluster repetition = min:8 max:15]
+  D[File Upload to IPFS Public]--5-->G[Receives IPFS-URI]
+  G--6-->E[Pins IPFS-URI to Viral's IPFS Cluster]
+  E--7-->F[Cluster repetition = min:8 max:15]
   end
   B--secret-key-->static
-  IPFS--IPFS-URI-->static
-  C--Encrypted-File-->IPFS
+  IPFS--8------>K2[Add IPFS-URI]-->IPFS-URI
+  C--3-->K1[Encrypted File]--4-->D
+  Post-MetaData--9-->K3[Content is Stored]
   end
 ```
-Decryption
+#### Decryption
+
+Private Account Media Decryption
 
 Detailed Explanation
 
 ```mermaid
-
-  flowchart BT
-  subgraph Follower Request to View & Decryption
-
-A0[Party A - request initiated for Party B's Post]
-A0-->A1
-  A1[Checks if Party A follows Party B]
-  A1--No-->A2
-  A2[Party B - account analysed]
-  A1--Yes-->B1
-  A3[Public-Account]
-  A4[Private-Account]
+flowchart LR
+subgraph Private-Account-Media-Decryption
+  A0[User A request to view User B content]
+  subgraph Follower Verification
+  A0--1-->A1
+  A1[Gets User A Public Address]
+  A2[Gets User B Followers' Public Addresses]
+  A3[Cross verify]
+  A4[Content-Access Denied]
+  A1--2-->A3
+  A3--No-->A4
   A2-->A3
-  A2-->A4
-
-
-  subgraph Verification-of-private-account-follower
-  B1[Fetches Party A Address]
-  B2[Fetches Party B's Followers Addresses]
-  B3[Checks Party A's Address]
-  B4[Addresses-Matched]
-  B2-->B3
-  B1-->B3
-  B3-->B4
-
   end
-  subgraph Party-B-Post-MetaData
+  subgraph IPFS-Download-Process
+  C1[URI is Fetched]
+  C2[Download's Encrypted File]
+  C1--5-->C2
+  end
+  A3--3-->K1[Sucessful]--4-->IPFS-Download-Process
+  subgraph User-B-Private-Account
+  B1[username]
+  B2[Followers-Public-Addresses]
+  B3[All Posts Meta-Data]
+  B4[Other Data]
+  end
+  B2-->A2
+  subgraph User-B-Post-MetaData
   subgraph static
   id
   IPFS-URI
@@ -493,44 +501,69 @@ A0-->A1
   other-data
   end
   end
-  subgraph Decryption
+  IPFS-URI-->C1
+  B3-->User-B-Post-MetaData
+  subgraph Decryption-of-encrypted-file
   D1[secret-key is Fetched]
   D2[Decrypt's the File]
-  D1-->D2
+  D1--7-->D2
+  end 
+  secret-key-->D1
+  C2--6-->Decryption-of-encrypted-file
+  Z[Content is shown]
+  D2--8-->Z
+end
+```
+Public Account Media Decryption
+
+```mermaid
+
+flowchart LR
+
+subgraph Public-Account-Media-Decryption
+
+  A0[User request to view a Public Account]
+  subgraph User Request
+  A0--1-->A1
+  A1[Gets User's Public Address]
   end
-  subgraph IPFS
+  subgraph Public-Account
+  B1[username]
+  B2[Watchers-Public-Addresses]
+  B3[All Posts Meta-Data]
+  B4[Other Data]
+  end
+  A1--2-->K1[Add to Watchers List]--3-->B2
+    subgraph IPFS
   C1[URI is Fetched]
   C2[Download's Encrypted File]
-  C1-->C2
+  C1--5-->C2
   end
+  subgraph Decryption-of-encrypted-file
+  D1[secret-key is Fetched]
+  D2[Decrypt's the File]
+  D1--7-->D2
+  end 
+  subgraph User-Post-MetaData
+  subgraph static
+  id
+  IPFS-URI
+  secret-key
+  end
+  subgraph dynamic
+  other-data
+  end
+  end
+  IPFS-URI--->C1
+  secret-key--->D1
+  B3--->User-Post-MetaData
+  B2--4-->IPFS
+  C2--6-->Decryption-of-encrypted-file
   Z[Content is shown]
-  subgraph Temporary-read-access
-  H1[Fetches Party A's Address]
-  end
-  subgraph User-account-profile
-  Y1[All Post's MetaData]
-  subgraph private-account
-  followers-addresses
-  end
-  subgraph public-account
-  U1[temporary-watchers-addresses]
-  followers-addresses
-  end
-  end
+  D2--8-->Z
 
-  followers-addresses-->B2
-  Y1-->Party-B-Post-MetaData
-  B4-->S1[Sucessful]-->IPFS
-  B4-->I1[Error]-->Content-Denied
-  A4--->Content-Denied
-  Party-B-Post-MetaData-->C1
-  C2-->Decryption
-  Party-B-Post-MetaData-->D1
-  D2-->Z
-  A3-->Temporary-read-access
-  U1--->S1
-  Temporary-read-access--Adds-address-->U1
-  end
+end
+
 ```
 
 ### 2. Chats &amp; Private Messages
@@ -578,57 +611,45 @@ Phase 2 – Trust less Way (IPFS-VM)
 
 ## 8. Blockchain, Token Ecosystem & Layer 2
 
-### Viral Smart Chain – IOTA Layer 2
+### 8.1 Viral Smart Chain – Short Intro
 
 Viral Smart Chains, is a network of horizontally scalable EVM Chains on top of IOTA Tangle used for Viral Social network with fully deployed defi ecosystem with Off-Chain solutions. Viral Smart Chains aim to provide an easy understandable one-platform for all the non-crypto users who are subjected to higher gas fees, congestion in network, volatility and scattered defi solutions.
 
-Short Features of Viral Smart Chains
-
-IOTA Smart Contract Protocol
-
-Basic Intro
+### 8.2 IOTA Smart Contract Protocol.
 
 IOTA provides an Off-Chain Smart Contract Solution for developers to create multiple-chains on Top of IOTA's immutable Tangle. Since Ethereum transactions are processed On-chain by every single node on its network, it faces additional congestion, slow transaction time and subject to higher miner fees. IOTA's off-chain smart contract solution makes use of blockchains anchored to the Tangle where the smart contracts are ran and achieved consensus with small set of committee nodes. This achieves a high scalable throughput and immutable records since the states of smart contracts such as Account Balances, Input Conditions and Consequences over time are updated on IOTA's Tangle.
 
-Architecture
+**Architecture**
+
+Architecture FlowChart
 
 There are several components to understand more about IOTA's Smart Contracts Protocol. It gives us multi-chain functionality to run smart contracts from different chains which allows a horizontal scaling of blockchains without a need for plasma or side chains.
 
-Consensus and Validators
+**Consensus and Validators**
 
 IOTA's Smart Contract Chain uses a Byzantine Fault Tolerant (BFT) Algorithm, which guarantees consistency and byzantine fault tolerance if less than ⅓ of nodes are malicious. So the verification process runs on Nodes within a chain committee. With a Proof-of-Stake Consensus each Viral chain will be run by a network of validator nodes, which run a consensus on the chain state updates. The validators of the chain (Nodes) form a committee, a bound together closed set of nodes. The committee of the chain can allow new validators and validator nodes to be added or replaced. This also makes the chain itself agnostic to its validators (the committee).
 
 Viral Smart Chains leverages IOTA Tangle's properties of scalability, high throughput, feeless transactions and immutable records. Only when a supermajority of the validators (the quorum) of a chain reaches [consensus](https://wiki.iota.org/smart-contracts/guide/core_concepts/consensus), the results get added to the chain where a new state update can be signed, which unlocks the AliasOutput for the chain and produces the next state UTXO which is stored on the Tangle as an immutable record. In summary, the chain's state (data) will be stored on Tangle as an immutable record.The amount of the validators to reach a consensus is configurable for each chain. The committee itself can also be variable in size - from a few nodes up to hundreds of nodes, and each node can be part of many different committees.
 
-Validators – Each Single Node running the Chain
+  - **Validators** – Each Single Node running the Chain
+  - **Committee** – The Group of Nodes running a chain
+  - **Quorum** – Number of Nodes to be in consensus to validate a transaction
 
-Committee – The Group of Nodes running a chain
+To know more about IOTA's Smart Contracts : [Whitepaper](https://files.iota.org/papers/ISC_WP_Nov_10_2021.pdf), [Documentation](https://wiki.iota.org/smart-contracts/overview), [Blogs](https://blog.iota.org/iota-smart-contracts-beta-release/)
 
-Quorum – Number of Nodes to be in consensus to validate a transaction
-
-Links to know more about IOTA's Smart Contracts
-
-Whitepaper :
-
-Docs :
-
-Blog :
-
-Viral Smart Chains
-
-Intro
+### 8.3 Viral Smart Chains
 
 Viral Smart Chains are a family of separate chains anchored to the IOTA's Tangle where each chain can communicate with each other via intermediary L1 Value Tangle.
 
-Viral's Approach
+**Viral's Approach**
 
 A Single chain will seem complex for setting different fees for different actions on the blockchain i.e Smart Contract Calls/Deployment, Sending Tokens to other Address, etc. Viral's approach is to bring multiple chains categorized by its purpose to serve the Viral Application with fee structure thereby also creating separate chains to provide zero network fees for minting NFTs on Viral App (ERC721 &amp; ERC1155) while rewarding the validators of all Viral chains (including zero fee chains) from the miner pool (total collected fees of all chains) based on validator's total validated transactions for the day through an automated smart contract.
 
-Validators
+**Validators**
 
 Viral Chains will work on Proof-of-stake consensus where validators (miners) are required to stake their Viral Coins in order to participate in the network for validating transactions. The mining power in proof-of stake depends on the amount of coins a validator is staking. Participants who stake more Viral Coins will be most likely to be chosen to add more blocks. When a transaction is validated and attain consensus by the quorum of validators (Read IOTA Protocol), the state of the transaction/smart contract will be recorded in the Value Tangle's UTXO Ledger which makes it immutable. The Transaction will be secured by the validators inside the Viral chain and also the L1 UTXO Ledger.
 
-Fees
+**Fees**
 
 Viral Smart Chain is built primarily to ease the need for gas-based transaction fees like other smart contract blockchains. Transaction fees are only leaved as a fixed percentage as &quot;transfer fee&quot; in Viral Smart Chains for Sending, receiving tokens between accounts and smart contracts.
 
@@ -642,7 +663,7 @@ Other Tokens : If 1 vMATIc = 0.1 VRL
 
 Mike wants to transfer 6000 vMATIC to Mia : Fee leaved will be 0.30075 VRL (approx. 3.0075 MATIC) including Swap and Transfer Fee
 
-NFT Chains
+**NFT Chains**
 
 Currently on popular smart contract blockchains such as Ethereum, Polygon the amount of gas required for a transaction is determined by the demand for the transaction to be included, regardless of what type of transaction it is where it is dynamically adjusted based on number of user's interacting with the network at the time.
 
@@ -650,79 +671,77 @@ This brings us to an effect that a single blockchain cannot set certain fees or 
 
 Viral's aim to democratize NFT to the masses and bring massive NFT Adoption we will be running separate zero-fee chains for deploying ERC721 &amp; ERC1155 Token directly from the Viral Application. The Validators for the chain will be open to join the network where they'll be rewarded from the miner pool (total fee collected) based on the total transactions they validate in a day.
 
-Family of Chains
+**Family of Chains**
 
-Genesis Chain : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc
+- **Genesis Chain** : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc
 
-General Chains : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.
+- **General Chains** : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.
 
-DeFI Chains
+**DeFI Chains**
 
-Smart Contract Deployment Chains specifically for categorized DApps
+- **Smart Contract Deployment Chains** specifically for categorized DApps
 
-DEX Chain : Running smart contracts for Viral Wallet's Decentralized Exchange
+- **DEX Chain** : Running smart contracts for Viral Wallet's Decentralized Exchange
 
-ERC20 Chain : To Deploy new ERC20 Tokens that can be transacted between chains and accounts
+- **ERC20 Chain** : To Deploy new ERC20 Tokens that can be transacted between chains and accounts
 
-Viral NFT Chain : Feeless Viral ran Smart Contract Chain specifically to deploy user's NFTs on-chain
+- **Viral NFT Chain** : Feeless Viral ran Smart Contract Chain specifically to deploy user's NFTs on-chain
 
-ERC721/115 Chain : To deploy new Non-Fungible Tokens for other platforms outside the Viral Application
+- **ERC721/115 Chain** : To deploy new Non-Fungible Tokens for other platforms outside the Viral Application
 
-Marketplace Chain : To create smart contract based marketplaces for NFTs and much more
+- **Marketplace Chain** : To create smart contract based marketplaces for NFTs and much more
 
-Other Chains : For creating Dapps for lending, asset tokenization, yield farming, tools and infrastructure, etc
+- **Other Chains** : For creating Dapps for lending, asset tokenization, yield farming, tools and infrastructure, etc
 
 Development
 
-***Do not Include***
+      _Core-Contracts_
 
-_Core-Contracts_
+      _Root_
 
-_Root_
+      - _Initialization of the chain_
+      - _Deployment of new contracts_
+      - _Registary of contracts_
+      - _Chain ownership management and Access control list_
+      - _Fee management_
 
-- _Initialization of the chain_
-- _Deployment of new contracts_
-- _Registary of contracts_
-- _Chain ownership management and Access control list_
-- _Fee management_
+      _Accounts_
 
-_Accounts_
+      - _On Chain ledger accounts_
+      - _Securely moving tokens between accounts_
+      - _Ensuring consistency of the on-chain ledger_
 
-- _On Chain ledger accounts_
-- _Securely moving tokens between accounts_
-- _Ensuring consistency of the on-chain ledger_
+      _Eventlog_
 
-_Eventlog_
+      - _Keeping timestamp immutable log of On-Chain events_
 
-- _Keeping timestamp immutable log of On-Chain events_
+      _Blob_
 
-_Blob_
+      - _Keeping registry of Binary objects of arbitrary sizew_
 
-- _Keeping registry of Binary objects of arbitrary sizew_
+      _Configuration of Committee and quorum_
 
-_Configuration of Committee and quorum_
+      _Wasp Nodes_
 
-_Wasp Nodes_
+      _EVM Plugins_
 
-_EVM Plugins_
+      _Configuring Fees_
 
-_Configuring Fees_
+      _Smart Contract Deployments_
 
-_Smart Contract Deployments_
+      _State Updates on Tangle_
 
-_State Updates on Tangle_
+      _Multi-Chain Integration_
 
-_Multi-Chain Integration_
+      _Core-Contracts_
 
-_Core-Contracts_
+### 8.4 Token Ecosystem
 
-Tokens
-
-Native Token
+**Native Token**
 
 Viral Coin is the native currency, a digital coin that does all the operations inside the Viral Smart Chains. It is used to store value, send and receive funds within the Multi-Chain Viral Blockchains. Viral Coin is used for paying fees inside the network, staking, governance, rewards and much more.
 
-Viral Stable Coin
+**Viral Stable Coin**
 
 Viral Stable Coin is a sub-native token, an algorithmic stable coin pegged to the US Dollar that is widely used in the Viral Application for sending and receiving tokens across users wallets. Due to constant volatility of the crypto market there is a barrier for the common people and businesses to get into cryptocurrencies. As Viral's aim to become the one-stop crypto solution for the masses we are providing a way for the user's to automatically transact in Stable Coin without any complex need for swapping their current tokens. In Short, when an user transact in Viral Coin, it will force swap and send the receiver viral stable coins to avoid depreciating of the asset while transacting.
 
@@ -736,79 +755,80 @@ Viral Coin and Viral Stable Coin will be the two primary coins in the Viral Soci
 
 1 VSC \&lt; $1 (Contraction) : When Viral Stable Coin trades at a price that is low relative to it's $1 peg i.e., $0.95, the demand for VSC is lower for the circulating supply. To bring the peg back to $1, the supply of VSC should be decreased to balance the demand. During Contraction State trading bots will burn VSC and mints VRL, which has an effect of increasing Viral Stable Coin Price (by reducing it's supply) and lowering the Viral Coin price (by expanding it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
 
-Viral Stable Trading App
+**Viral Stable Trading App**
 
 High Frequency trading cannot be run using automated smart contracts to maintain price peg of Viral Stable Coin. Users can stake their Coins, run automated arbitrage trading and receive profits using the Viral Stable Trading Application a separate application to maintain the peg of Viral Stable Coin
 
 Users will be able to stake both coins VRL &amp; VSC proportionally to a smart contract in the mobile app which process all transactions of burning and minting VRL for VSC automatically without the need for user signature and receive profits from arbitrage opportunities by minting the burning the coins to balance the volatility. The Smart Contracts will add &amp; subtract coins on each pools to maintain stability.
 
-Viral Bridge
+**Viral Bridge**
 
-Incentives for Viral ICO Investors
 
-Pre-Sale Opportunity for all the ICO Investors on the Viral DAO Launch
+**Incentives for Viral ICO Investors**
 
-Pre-Launch opportunity to test Viral App before the Beta-Lauch
+    Pre-Sale Opportunity for all the ICO Investors on the Viral DAO Launch
 
-Recognition NFT Airdrop for Initial People who worked to bring Viral Above
+    Pre-Launch opportunity to test Viral App before the Beta-Lauch
 
-ICO Presale, Sale, Post Sale
+    Recognition NFT Airdrop for Initial People who worked to bring Viral Above
 
-ICO no cap, hard cap – 10M$
+    ICO Presale, Sale, Post Sale
 
-ICO Holding Period until 7 months (Beta-launch)
+    ICO no cap, hard cap – 10M$
 
-Active Support for co-creation
+    ICO Holding Period until 7 months (Beta-launch)
 
-Use Cases for VRL – Leading to Capital Gains
+    Active Support for co-creation
 
-Native Token for Transaction
+**Use Cases for VRL – Leading to Capital Gains**
 
-Primary Token in Viral App
+    Native Token for Transaction
 
-NFTs &amp; Payments
+    Primary Token in Viral App
 
-Staking and Nodes Collateral
+    NFTs &amp; Payments
 
-Capped Supply with No inflation
+    Staking and Nodes Collateral
 
-Reward Coin for all App users
+    Capped Supply with No inflation
 
-No of Wallets = No of App users
+    Reward Coin for all App users
 
-Burning of Uncollected Rewards
+    No of Wallets = No of App users
 
-Stable Coin Demand = Burning VRL coins
+    Burning of Uncollected Rewards
 
-Burn Tax 30% of All Transaction Fees
+    Stable Coin Demand = Burning VRL coins
 
-Viral CEX Major Fiat Pair (VRL-USD, etc)
+    Burn Tax 30% of All Transaction Fees
 
-Governance for Viral Smart Chains Protocol
+    Viral CEX Major Fiat Pair (VRL-USD, etc)
 
-Use Cases of VSC
+    Governance for Viral Smart Chains Protocol
 
-Payments for Merchants
+**Use Cases of VSC**
 
-Send as Viral Stable Coin Feature
+    Payments for Merchants
 
-Volatility Proof for Payments
+    Send as Viral Stable Coin Feature
 
-Viral CEX Fiat-Crypto Major Coin
+    Volatility Proof for Payments
 
-Real World Payment Solution
+    Viral CEX Fiat-Crypto Major Coin
 
-Use Cases of Bridged Tokens
+    Real World Payment Solution
 
-Bringing other blockchain coins to Viral Smart Chains
+    Use Cases of Bridged Tokens
 
-Low Transaction Fee
+    Bringing other blockchain coins to Viral Smart Chains
 
-Access to Viral NFTs
+    Low Transaction Fee
 
-Payments to Merchants
+    Access to Viral NFTs
 
-Automated Swap to Stable Coin
+    Payments to Merchants
+
+    Automated Swap to Stable Coin
 
 
 
@@ -818,7 +838,9 @@ Automated Swap to Stable Coin
 
 ```mermaid
 
-flowchart TB
+flowchart LR
+
+subgraph Fee Transfer in Viral App
    
     A[/Amount Input /]--> B[L2 success rate calculation]
     subgraph L2-Fee-Calculation 
@@ -837,6 +859,7 @@ flowchart TB
     subgraph L1-Transfer
     J ---> H[L1 Transfer 0.05% Fixed Fee]
     end
+end   
 
 ```
 ### Reward Pool
