@@ -506,8 +506,8 @@ end
 Public Account Media Decryption
 
 ```mermaid
-flowchart LR
-subgraph Public-Account-Media-Decryption
+flowchart TB
+
   A0[User request to view a Public Account]
   subgraph User Request
   A0--1-->A1
@@ -547,7 +547,7 @@ subgraph Public-Account-Media-Decryption
   C2--6-->Decryption-of-encrypted-file
   Z[Content is shown]
   D2--8-->Z
-end
+
 ```
 
 **2. Chats &amp; Private Messages**
