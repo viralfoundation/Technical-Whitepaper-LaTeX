@@ -919,6 +919,7 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
     Governance for Viral Smart Chains Protocol
 
 ![](/assets/Asset%201.png#gh-light-mode-only)
+![](/assets/Asset%203.png#gh-light-mode-only)
 ![](/assets/Asset%202.png#gh-dark-mode-only)
 
 
