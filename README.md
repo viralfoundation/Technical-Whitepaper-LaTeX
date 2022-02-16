@@ -21,7 +21,7 @@
     - [Development Tech Stack](#development-tech-stack)
   - [6. How Whitepaper Structured](#6-how-whitepaper-structured)
   - [7.Social media & User Experience](#7social-media--user-experience)
-  - [**Types of Post**](#types-of-post)
+  - [**A. Types of Post**](#a-types-of-post)
       - [Shots](#shots)
       - [Thoughts](#thoughts)
       - [Drops](#drops)
@@ -32,18 +32,24 @@
       - [Originals](#originals)
       - [Tickets](#tickets)
       - [Filters](#filters)
-  - [Avatars](#avatars)
+  - [B. Avatars](#b-avatars)
     - [Meta-Chat](#meta-chat)
     - [Live &amp; Rooms](#live--rooms)
-  - [Engagements](#engagements)
+  - [C. Engagements](#c-engagements)
     - [Like, Comment, Share, Tip](#like-comment-share-tip)
     - [Tip](#tip)
-    - [Privacy Groups](#privacy-groups)
-    - [Audio Emoji](#audio-emoji)
+    - [D. Privacy Groups](#d-privacy-groups)
+    - [E. Audio Emoji](#e-audio-emoji)
     - [Interest Based Recommendation](#interest-based-recommendation)
-    - [User Security &amp; Privacy](#user-security--privacy)
-    - [Media Storage](#media-storage)
-    - [Chats &amp; Private Messages](#chats--private-messages)
+    - [F. User Security &amp; Privacy](#f-user-security--privacy)
+    - [1. Media Storage](#1-media-storage)
+    - [2. Chats &amp; Private Messages](#2-chats--private-messages)
+    - [3. Interests of User](#3-interests-of-user)
+    - [4. Chat Backup](#4-chat-backup)
+      - [Phase 2 Development](#phase-2-development)
+    - [G. TOR/VPN Anonymity](#g-torvpn-anonymity)
+  - [8. Blockchain, Token Ecosystem & Layer 2](#8-blockchain-token-ecosystem--layer-2)
+    - [Viral Smart Chain – IOTA Layer 2](#viral-smart-chain--iota-layer-2)
   - [Others](#others)
     - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
     - [Reward Pool](#reward-pool)
@@ -168,7 +174,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-## **Types of Post**
+## **A. Types of Post**
 
 > ![]()[ELI5 Explanatory Video - Viral NFTs](https://sample.com/)
 
@@ -274,7 +280,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-## Avatars
+## B. Avatars
 
 Personalized Avatars are generated **free for every viral** user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see in 3D View.
 
@@ -302,7 +308,7 @@ Formula or Flow Chart
 > ![]()[Live Events Demo](https://sample.com/)
 
 
-## Engagements
+## C. Engagements
 
 ### Like, Comment, Share, Tip
 
@@ -360,7 +366,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-### Privacy Groups
+### D. Privacy Groups
 
 Privacy Groups is a unique feature in Viral to create unlimited friend's groups as list to ensure maximum privacy for users to post and share shots, drops, thoughts, NFTs to the particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can enable complete privacy over viewers for certain posts.
 
@@ -383,7 +389,7 @@ Privacy Groups is a unique feature in Viral to create unlimited friend's groups 
 ```
 
 
-### Audio Emoji
+### E. Audio Emoji
 
 This is a short feature where all the emoji's in Viral if touched will give a **short sound of the emoji**. This will be available on chats &amp; comments section of a post.
 
@@ -401,7 +407,7 @@ To make the viral platform more user-friendly interest-based recommendations are
 
 All the user interests will be **stored locally** on the device to ensure **maximum security** and will be taken to show recommendations.
 
-### User Security &amp; Privacy
+### F. User Security &amp; Privacy
 
 This is classified into
 
@@ -410,15 +416,17 @@ This is classified into
   3. Interests of User
   4. Chat backups
 
-### Media Storage
+### 1. Media Storage
 
 All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes & Trusted IPFS Cluster Nodes. Thus promising the security of media.
 
 Encryption
 
+Detailed Explanation
+
 ```mermaid
 
-  flowchart TD
+  flowchart LR
   subgraph Decentralized Media Upload & Encryption
   subgraph Offline Process
   A[User Uploads Media]-->B[Generates secret-key]
@@ -445,6 +453,8 @@ Encryption
   end
 ```
 Decryption
+
+Detailed Explanation
 
 ```mermaid
 
@@ -523,9 +533,9 @@ A0-->A1
   end
 ```
 
-### Chats &amp; Private Messages
+### 2. Chats &amp; Private Messages
 
-For Chat-based encryption, we use public and private keys to encrypt and decrypt messages. There are no centralized cloud-based servers involved in storing messages which can potentially leak private chats and messages. Every single message is encrypted and can be only decrypted by the receiver.
+For Chat-based encryption, we use **public and private key** encryption method. There are no centralized cloud-based servers involved in storing messages which can potentially leak private chats and messages. Every single message is encrypted and can be only decrypted by the receiver.
 
 Public-Private key encryption more secure than a single shared key used in multiple chat platforms.
 
@@ -533,31 +543,24 @@ Visual Representation
 
 Alice writes &quot;Hello&quot; to Bob – Bob Receives an encrypted message - Bob decrypts using his private key – Bob Sees &quot;Hello&quot; from Alice
 
-GunDB Explanatory Video : [https://www.youtube.com/watch?v=-SiLnaSDkh4](https://www.youtube.com/watch?v=-SiLnaSDkh4)
+>[GunDB Explanatory Video](https://www.youtube.com/watch?v=-SiLnaSDkh4)
 
-Interests of User
+### 3. Interests of User
 
-Users' interests will be saved locally on their devices ensuring full privacy of personal data.
+Users' interests will be **saved locally** on their devices ensuring full privacy of personal data.
+### 4. Chat Backup
 
-Chat Backup
+Since Viral is a **Offline-First Chat** messages will not be stored in cloud. To Backup messages Viral will offer **cloud options** such as Google Drive/Dropbox where you can securely encrypt and save your **backup**. While Migrating to another mobile we will be providing a feature to transfer existing messages/interest to your new device.
 
-Since Viral is a Offline-First Chat messages will not be stored in cloud. To Backup messages Viral will offer cloud options such as Google Drive/Dropbox where you can securely encrypt and save your backup. While Migrating to another mobile we will be providing a feature to transfer existing messages/interest to your new device.
-
-Phase 2 Development
+#### Phase 2 Development
 
 We will be focussing on Quantum Resilience of all media encryption used in Viral while commencing the Phase 2 of Development Roadmap
 
-TOR/VPN Anonymity
+### G. TOR/VPN Anonymity
 
 Viral will be a safe haven for anonymity, privacy, and security in eliminating the tracing of users' identities by exploiters . Users can benefit from TOR &amp; VPN Routing Features built in our Decentralized application to hide their IP address and go fully anonymous.
 
-Visualization
-
-How TOR Works
-
 TOR routes you through several additional nodes while encrypted, no one can trace it back to you. VPN will redirect your internet traffic through a secure tunnel, hiding your IP address and encrypting your data in the process.
-
-**How it works**
 
 **Content Delivery**
 
@@ -573,9 +576,9 @@ Addition of Nodes – Trusted Way
 
 Phase 2 – Trust less Way (IPFS-VM)
 
-**Blockchain &amp; Layer 2**
+## 8. Blockchain, Token Ecosystem & Layer 2
 
-**Viral Smart Chain – IOTA Layer 2**
+### Viral Smart Chain – IOTA Layer 2
 
 Viral Smart Chains, is a network of horizontally scalable EVM Chains on top of IOTA Tangle used for Viral Social network with fully deployed defi ecosystem with Off-Chain solutions. Viral Smart Chains aim to provide an easy understandable one-platform for all the non-crypto users who are subjected to higher gas fees, congestion in network, volatility and scattered defi solutions.
 
