@@ -420,7 +420,7 @@ All Media uploaded to Viral is End-to-end Encrypted where all the files are encr
 Detailed Explanation
 
 ```mermaid
-  flowchart LR
+  flowchart TB
   subgraph Decentralized Media Upload & Encryption
   subgraph Offline Process
   A[User Uploads Media]--1-->B[Generates secret-key]
@@ -454,7 +454,7 @@ Private Account Media Decryption
 Detailed Explanation
 
 ```mermaid
-flowchart LR
+flowchart TB
 subgraph Private-Account-Media-Decryption
   A0[User A request to view User B content]
   subgraph Follower Verification
@@ -507,7 +507,7 @@ Public Account Media Decryption
 
 ```mermaid
 flowchart TB
-
+subgraph Public-Account-Media-Decryption
   A0[User request to view a Public Account]
   subgraph User Request
   A0--1-->A1
@@ -547,7 +547,7 @@ flowchart TB
   C2--6-->Decryption-of-encrypted-file
   Z[Content is shown]
   D2--8-->Z
-
+end
 ```
 
 **2. Chats &amp; Private Messages**
