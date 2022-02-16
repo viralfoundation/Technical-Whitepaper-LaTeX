@@ -31,6 +31,18 @@
     - [8.5 Layer 2 Solution](#85-layer-2-solution)
   - [9. Smart Wallet](#9-smart-wallet)
     - [9.1 Viral Wallet](#91-viral-wallet)
+  - [10. Child Platforms](#10-child-platforms)
+    - [10.1 ROV Community](#101-rov-community)
+    - [10.2 Dev-Space](#102-dev-space)
+  - [11. Viral DAO & Governance](#11-viral-dao--governance)
+  - [12. Viral Coin ICO](#12-viral-coin-ico)
+  - [13. Roadmap to Decentralization](#13-roadmap-to-decentralization)
+  - [14. Phase 2](#14-phase-2)
+  - [13. Phase 3](#13-phase-3)
+  - [14. Further Plans](#14-further-plans)
+  - [15. Team](#15-team)
+  - [16. References](#16-references)
+  - [17. Glossary](#17-glossary)
   - [Others](#others)
     - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
     - [Reward Pool](#reward-pool)
@@ -163,7 +175,7 @@ pragma solidity ^0.8.10;
 
 Shots are **10 sec motion pictures** with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.
 
-![](https://media.istockphoto.com/vectors/smartphone-mobile-phone-template-telephone-realistic-vector-of-vector-id1193692838?s=612x612#gh-dark-mode-only) 
+![](https://viralfoundation.org/images/send-p-500.png) 
 
 People can share their
 - Personal Sneak-Peek, Moments & Events
@@ -760,11 +772,7 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
   - Routing Nodes
   - How it works
   - Development Procedure
-- How Transfer Works in Viral
-  - Abstract
-  - Method of transfers
-  - Only Minimum Fee
-  - Visual Representation
+
 
 ## 9. Smart Wallet
 
@@ -807,9 +815,63 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
     - Makers Incentive
     - Others
   - P2P Selling
-    - 
+    - Abstract
+    - Story-Problem
+    - Others
   - Transfers
+    - Abstract
+    - Story-Problem
+    - VNS
+      - About
+      - Snippet
+      - Diagram
+    - Lightning Payments
+    - How Transfer Works
   - Custodian Services
+    - Abstract
+    - Safety of Funds
+    - Offline VMs
+  - Other Viral Wallet Features
+    - Send as Stable Coin
+
+## 10. Child Platforms
+
+  - Abstract
+
+### 10.1 ROV Community
+
+  - Abstract
+  - Story-Problem
+  - Intro
+
+
+### 10.2 Dev-Space
+
+## 11. Viral DAO & Governance
+
+  - Abstract
+  - Story
+  - Governance Model
+  - Intro
+
+## 12. Viral Coin ICO
+
+## 13. Roadmap to Decentralization
+
+## 14. Phase 2
+
+## 13. Phase 3
+
+## 14. Further Plans
+
+## 15. Team
+
+## 16. References
+
+## 17. Glossary
+
+
+
 
 
 
@@ -855,6 +917,10 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
     Viral CEX Major Fiat Pair (VRL-USD, etc)
 
     Governance for Viral Smart Chains Protocol
+
+![](/assets/Asset%201.png#gh-light-mode-only)
+![](/assets/Asset%202.png#gh-dark-mode-only)
+
 
 **Use Cases of VSC**
 
