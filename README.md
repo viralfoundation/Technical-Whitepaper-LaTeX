@@ -12,49 +12,25 @@
   - [1. Abstract<a name="abstract"></a>](#1-abstract)
   - [2. User Problems & Basic Solutions](#2-user-problems--basic-solutions)
   - [3. Vision Statement](#3-vision-statement)
-      - [**Social media**](#social-media)
-      - [**Crypto Adoption**](#crypto-adoption)
-      - [**NFT & Metaverse**](#nft--metaverse)
-      - [**Blockchain**](#blockchain)
   - [4. Unified Mobile application - An Intro to Viral](#4-unified-mobile-application---an-intro-to-viral)
   - [5. Viral Platform Architecture](#5-viral-platform-architecture)
     - [Development Tech Stack](#development-tech-stack)
   - [6. How Whitepaper Structured](#6-how-whitepaper-structured)
   - [7.Social media & User Experience](#7social-media--user-experience)
-  - [**A. Types of Post**](#a-types-of-post)
-      - [Shots](#shots)
-      - [Thoughts](#thoughts)
-      - [Drops](#drops)
-      - [Interactive Videos](#interactive-videos)
-      - [NFT Utilities](#nft-utilities)
-      - [Tunes](#tunes)
-      - [Sketch](#sketch)
-      - [Originals](#originals)
-      - [Tickets](#tickets)
-      - [Filters](#filters)
-  - [B. Avatars](#b-avatars)
-    - [Meta-Chat](#meta-chat)
-    - [Live &amp; Rooms](#live--rooms)
-  - [C. Engagements](#c-engagements)
-    - [Like, Comment, Share, Tip](#like-comment-share-tip)
-    - [Tip](#tip)
-    - [D. Privacy Groups](#d-privacy-groups)
-    - [E. Audio Emoji](#e-audio-emoji)
-    - [Interest Based Recommendation](#interest-based-recommendation)
-    - [F. User Security &amp; Privacy](#f-user-security--privacy)
-    - [1. Media Storage](#1-media-storage)
-      - [Encryption](#encryption)
-      - [Decryption](#decryption)
-    - [2. Chats &amp; Private Messages](#2-chats--private-messages)
-    - [3. Interests of User](#3-interests-of-user)
-    - [4. Chat Backup](#4-chat-backup)
-      - [Phase 2 Development](#phase-2-development)
-    - [G. TOR/VPN Anonymity](#g-torvpn-anonymity)
+    - [**7.1 Types of Post**](#71-types-of-post)
+  - [7.2 Avatars](#72-avatars)
+  - [7.3 Engagements](#73-engagements)
+    - [7.4 Other Features](#74-other-features)
+    - [7.5 User Security &amp; Privacy](#75-user-security--privacy)
+    - [7.6. TOR/VPN Anonymity](#76-torvpn-anonymity)
   - [8. Blockchain, Token Ecosystem & Layer 2](#8-blockchain-token-ecosystem--layer-2)
     - [8.1 Viral Smart Chain – Short Intro](#81-viral-smart-chain--short-intro)
     - [8.2 IOTA Smart Contract Protocol.](#82-iota-smart-contract-protocol)
     - [8.3 Viral Smart Chains](#83-viral-smart-chains)
     - [8.4 Token Ecosystem](#84-token-ecosystem)
+    - [8.5 Layer 2 Solution](#85-layer-2-solution)
+  - [9. Smart Wallet](#9-smart-wallet)
+    - [9.1 Viral Wallet](#91-viral-wallet)
   - [Others](#others)
     - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
     - [Reward Pool](#reward-pool)
@@ -73,26 +49,25 @@ This is a Sample Problems of the Viral Project.
 ## 3. Vision Statement
 Our vision is to bring the ultimate blockchain-crypto adoption to the masses. In order to bring adoption of crypto markets we would need to bridge social communication with defi and tokenized economy.
 
-#### **Social media**
-
+**Social media**
 
 1. To develop a **Real-world Decentralised Social Media**
 2. To build an **Autonomous** self-evolving platform
 3. To build an **Interactive** Next-Gen Social Media
 4. To make a **clean** web3 platform for all age groups
 
-#### **Crypto Adoption**
+**Crypto Adoption**
 
 1. To make people **jump in crypto** from fiat very easily & securely
 2. To give **access** to all internet people cryptocurrencies **without investing**
 3. To bring **all major crypto** for people to easily adapt in a **single wallet**
 
-#### **NFT & Metaverse**
+**NFT & Metaverse**
 
 1. To democratize NFTs to Masses
 2. To kickstart Metaverse adoption
 
-#### **Blockchain**
+**Blockchain**
 
 1. To provide the utmost speed of transactions through **On-Chain & Off-Chain** solutions
 2. To Develop a **feeless, fast, Capped Supply, Deflationary, smart contract chain**
@@ -159,11 +134,12 @@ We are bridging Social Media with Blockchain, Wallets, Exchanges and NFT Markepl
 
 For efficient undertsnading, we have seperated the platform's major aspects into 5 categories.
 
->#### ***1. Social Media & User Experience (Page 1-10)***
->#### ***2. Blockchain, Token Ecosystem & Layer 2 (Page 10-15)***
->#### ***3. Smart Wallet (Page 15-20)***
->#### ***4. Child Platforms (Page 20-25)***
->#### ***5. Revenue & Incentives (Page 25-30)***
+- Social Media & User Experience (Page 1-10)
+- Blockchain, Token Ecosystem & Layer 2 (Page 10-15)
+- Smart Wallet (Page 15-20)
+- Child Platforms (Page 20-25)
+- Revenue & Incentives (Page 25-30)
+- Viral DAO & Governance
 
 ## 7.Social media & User Experience
 
@@ -179,15 +155,15 @@ pragma solidity ^0.8.10;
 
 ```
 
-## **A. Types of Post**
+### **7.1 Types of Post**
 
 > ![]()[ELI5 Explanatory Video - Viral NFTs](https://sample.com/)
 
-#### Shots
+**Shots**
 
 Shots are **10 sec motion pictures** with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.
 
-![](https://media.istockphoto.com/vectors/smartphone-mobile-phone-template-telephone-realistic-vector-of-vector-id1193692838?s=612x612) 
+![](https://media.istockphoto.com/vectors/smartphone-mobile-phone-template-telephone-realistic-vector-of-vector-id1193692838?s=612x612#gh-dark-mode-only) 
 
 People can share their
 - Personal Sneak-Peek, Moments & Events
@@ -195,30 +171,30 @@ People can share their
 - Turn photos into lively shots by adding shot animations through Viral
 
 
-#### Thoughts
+**Thoughts**
 
 Thoughts are **text-based sharing** for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.
 
 
-#### Drops
+**Drops**
 
 Drops are **20 second disappearing stories** shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days.
 
 > Note: Drops will not be minted as unique NFT due to it's nature of disappearing media.
 
 
-#### Interactive Videos
+**Interactive Videos**
 
 IVs are short 30sec full-screen **narration based videos**. It is based on **gamification of videos** to interact within the videos.
 
 
-#### NFT Utilities
+**NFT Utilities**
 
 Minting (Creating) an NFT in Viral is **as easy as creating a social media post**. Viral provides multiple NFT utilities for users to mint, buy, sell with an easy user experience.
 
 Viral will take a **3% commission** selling NFTs which will be reverted to the user's reward pool <!---Link the Reward Section here-->
 
-#### Tunes
+**Tunes**
 
 Artists can sell their music albums, singles as NFT for the fans/people to buy and own it
 
@@ -232,7 +208,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-#### Sketch 
+**Sketch**
 Digital arts, paintings, sketches can be sold through NFTs
 
 
@@ -245,7 +221,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-#### Originals
+**Originals**
 
 Physical assets can be sold through Viral's Original NFTs where people can buy and flex
 
@@ -259,7 +235,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-#### Tickets
+**Tickets**
 Exclusive passes for events, ownership of clubs, a digital ticket for everything can be sold as NFT
 
 
@@ -272,7 +248,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-#### Filters 
+**Filters**
 Filters can be sold, and owned by user's thereby get rewards for it
 
 
@@ -285,7 +261,7 @@ pragma solidity ^0.8.10;
 
 ```
 
-## B. Avatars
+## 7.2 Avatars
 
 Personalized Avatars are generated **free for every viral** user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see in 3D View.
 
@@ -296,7 +272,7 @@ These avatars are brought into Viral to integrate metaverse and to provide an **
 **SDKs Used** : ReadyPlayerMe - A cross-game Avatar Platform for the Metaverse
 
 
-### Meta-Chat
+**Meta-Chat**
 
 Meta-Chat is a feature to **react/show your facial reactions** in real-time for the messages of whom you chat with. Viral captures your face reactions and transfer it to your avatar on **top of your mutual-friend's chat page**.
 
@@ -306,22 +282,22 @@ This gives you a **virtual experience** of videocalls through avatars and text c
 
 Formula or Flow Chart
 
-### Live &amp; Rooms
+**Live &amp; Rooms**
 
 **Decentralized Live Video Events and Audio Rooms using Avatars** (or) Normal Cams. Celebrities can host live events with their fans using their avatars
 
 > ![]()[Live Events Demo](https://sample.com/)
 
 
-## C. Engagements
+## 7.3 Engagements
 
-### Like, Comment, Share, Tip
+**Like, Comment, Share, Tip**
 
 Users can like, comment, share, reThought, and also tip Tokens to their favorite posts and influencers. The number of likes will influence the recommendations list of other users.
 
 Additionally a hidden engagement dislike will be added to every post but won't be visible to the users/nor owners, which is solely used for recommendation interest-based algorithm to filter out disliked content
 
-### Tip
+**Tip**
 
 The tipping feature using tokens in Viral Smart Chain is used to tip/support your favourite influencers contents where all the tips will be directly sent to the user's wallet
 
@@ -371,7 +347,9 @@ pragma solidity ^0.8.10;
 
 ```
 
-### D. Privacy Groups
+### 7.4 Other Features
+
+**Privacy Groups**
 
 Privacy Groups is a unique feature in Viral to create unlimited friend's groups as list to ensure maximum privacy for users to post and share shots, drops, thoughts, NFTs to the particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can enable complete privacy over viewers for certain posts.
 
@@ -394,11 +372,11 @@ Privacy Groups is a unique feature in Viral to create unlimited friend's groups 
 ```
 
 
-### E. Audio Emoji
+**Audio Emoji**
 
 This is a short feature where all the emoji's in Viral if touched will give a **short sound of the emoji**. This will be available on chats &amp; comments section of a post.
 
-### Interest Based Recommendation
+**Interest Based Recommendation**
 
 To make the viral platform more user-friendly interest-based recommendations are used. We have numerous ways to fetch interest from a user **without collecting data on a centralized server**, some of them are
 
@@ -412,7 +390,7 @@ To make the viral platform more user-friendly interest-based recommendations are
 
 All the user interests will be **stored locally** on the device to ensure **maximum security** and will be taken to show recommendations.
 
-### F. User Security &amp; Privacy
+### 7.5 User Security &amp; Privacy
 
 This is classified into
 
@@ -421,16 +399,15 @@ This is classified into
   3. Interests of User
   4. Chat backups
 
-### 1. Media Storage
+**1. Media Storage**
 
 All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes & Trusted IPFS Cluster Nodes. Thus promising the security of media.
 
-#### Encryption
+**Encryption**
 
 Detailed Explanation
 
 ```mermaid
-
   flowchart TB
   subgraph Decentralized Media Upload & Encryption
   subgraph Offline Process
@@ -458,7 +435,7 @@ Detailed Explanation
   Post-MetaData--9-->K3[Content is Stored]
   end
 ```
-#### Decryption
+**Decryption**
 
 Private Account Media Decryption
 
@@ -517,11 +494,8 @@ end
 Public Account Media Decryption
 
 ```mermaid
-
 flowchart TB
-
 subgraph Public-Account-Media-Decryption
-
   A0[User request to view a Public Account]
   subgraph User Request
   A0--1-->A1
@@ -561,12 +535,10 @@ subgraph Public-Account-Media-Decryption
   C2--6-->Decryption-of-encrypted-file
   Z[Content is shown]
   D2--8-->Z
-
 end
-
 ```
 
-### 2. Chats &amp; Private Messages
+**2. Chats &amp; Private Messages**
 
 For Chat-based encryption, we use **public and private key** encryption method. There are no centralized cloud-based servers involved in storing messages which can potentially leak private chats and messages. Every single message is encrypted and can be only decrypted by the receiver.
 
@@ -578,18 +550,19 @@ Alice writes &quot;Hello&quot; to Bob – Bob Receives an encrypted message - Bo
 
 >[GunDB Explanatory Video](https://www.youtube.com/watch?v=-SiLnaSDkh4)
 
-### 3. Interests of User
+**3. Interests of User**
 
 Users' interests will be **saved locally** on their devices ensuring full privacy of personal data.
-### 4. Chat Backup
+
+**4. Chat Backup**
 
 Since Viral is a **Offline-First Chat** messages will not be stored in cloud. To Backup messages Viral will offer **cloud options** such as Google Drive/Dropbox where you can securely encrypt and save your **backup**. While Migrating to another mobile we will be providing a feature to transfer existing messages/interest to your new device.
 
-#### Phase 2 Development
+**Phase 2 Development**
 
 We will be focussing on Quantum Resilience of all media encryption used in Viral while commencing the Phase 2 of Development Roadmap
 
-### G. TOR/VPN Anonymity
+### 7.6. TOR/VPN Anonymity
 
 Viral will be a safe haven for anonymity, privacy, and security in eliminating the tracing of users' identities by exploiters . Users can benefit from TOR &amp; VPN Routing Features built in our Decentralized application to hide their IP address and go fully anonymous.
 
@@ -751,9 +724,9 @@ Terra blockchain is the most successful running algorithmic stable coin which ma
 
 Viral Coin and Viral Stable Coin will be the two primary coins in the Viral Social Platform. The supply and demand of Stable Coin is always balanced by making Viral Coin as it's variable counterweight that absorbs it's volatility.
 
-1 VSC \&gt; $1 (Expansion) : When Viral Stable Coin trades at a price that is high relative to it's $1 peg i.e., $1.15, the demand for VSC is higher than the circulating supply. To bring the peg back to $1, the supply of VSC should be increased to balance the demand. During Expansion State trading bots will mint VSC by burning VRL, which has an effect of lowering Viral Stable Coin Price (by expanding the supply) and increases the Viral Coin price (by reducing it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
+**1 VSC - $1 (Expansion)** : When Viral Stable Coin trades at a price that is high relative to it's $1 peg i.e., $1.15, the demand for VSC is higher than the circulating supply. To bring the peg back to $1, the supply of VSC should be increased to balance the demand. During Expansion State trading bots will mint VSC by burning VRL, which has an effect of lowering Viral Stable Coin Price (by expanding the supply) and increases the Viral Coin price (by reducing it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
 
-1 VSC \&lt; $1 (Contraction) : When Viral Stable Coin trades at a price that is low relative to it's $1 peg i.e., $0.95, the demand for VSC is lower for the circulating supply. To bring the peg back to $1, the supply of VSC should be decreased to balance the demand. During Contraction State trading bots will burn VSC and mints VRL, which has an effect of increasing Viral Stable Coin Price (by reducing it's supply) and lowering the Viral Coin price (by expanding it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
+**1 VSC - $1 (Contraction)** : When Viral Stable Coin trades at a price that is low relative to it's $1 peg i.e., $0.95, the demand for VSC is lower for the circulating supply. To bring the peg back to $1, the supply of VSC should be decreased to balance the demand. During Contraction State trading bots will burn VSC and mints VRL, which has an effect of increasing Viral Stable Coin Price (by reducing it's supply) and lowering the Viral Coin price (by expanding it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
 
 **Viral Stable Trading App**
 
@@ -762,6 +735,83 @@ High Frequency trading cannot be run using automated smart contracts to maintain
 Users will be able to stake both coins VRL &amp; VSC proportionally to a smart contract in the mobile app which process all transactions of burning and minting VRL for VSC automatically without the need for user signature and receive profits from arbitrage opportunities by minting the burning the coins to balance the volatility. The Smart Contracts will add &amp; subtract coins on each pools to maintain stability.
 
 **Viral Bridge**
+
+- Abstract
+- Story
+- Bridge-Intro
+- Smart Contract Chain Bridge
+  - Content
+  - Currencies
+  - How it works
+- UTXO Blockchain Bridge
+  - Content
+  - Currencies
+  - How it works
+
+### 8.5 Layer 2 Solution
+
+**Payment Channels (State Channels)**
+
+- Abstract
+- Story
+- Viral Lightning Payments
+  - Intro
+  - Fees
+  - Routing Nodes
+  - How it works
+  - Development Procedure
+- How Transfer Works in Viral
+  - Abstract
+  - Method of transfers
+  - Only Minimum Fee
+  - Visual Representation
+
+## 9. Smart Wallet
+
+### 9.1 Viral Wallet 
+  - Abstract
+  - Story
+  - Intro
+  - Buy/Sell - Fiat
+    - Viral CEX
+      - Abstract
+      - Story-Problems
+      - Intro
+      - Short Features
+      - Multi-Sig Wallet
+      - Shamir's Secret Sharing Scheme
+      - Instant Non-custodial-Wallet Withdrawal
+      - Order Book Exchange
+      - Trade Fees (Makers & Takers)
+      - Makers Incentives
+      - In-App KYC/AML
+      - Exchange Markets
+      - Conclusion
+  - Crypto Swaps
+    - Abstract
+    - Story-Problems
+    - Intro
+    - Liquidity Pools
+    - Fee Structure
+    - Staking Rewards
+    - Price Impacts
+    - Oracles
+    - Conclusion
+  - Atomic Swaps
+    - Abstract
+    - Story-Problem
+    - Intro
+    - Short Features
+    - Importance
+    - Fee Structure
+    - Makers Incentive
+    - Others
+  - P2P Selling
+    - 
+  - Transfers
+  - Custodian Services
+
+
 
 
 **Incentives for Viral ICO Investors**
