@@ -100,7 +100,7 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 
 ```mermaid
 
-flowchart TB
+flowchart LR
 
 subgraph 1
 A[Viral App]
