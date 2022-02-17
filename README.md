@@ -14,10 +14,10 @@
   - [3. Vision Statement](#3-vision-statement)
   - [4. Unified Mobile application - An Intro to Viral](#4-unified-mobile-application---an-intro-to-viral)
   - [5. Viral Platform Architecture](#5-viral-platform-architecture)
-    - [Development Tech Stack](#development-tech-stack)
+    - [5.1 Development Tech Stack](#51-development-tech-stack)
   - [6. How Whitepaper Structured](#6-how-whitepaper-structured)
   - [7.Social media & User Experience](#7social-media--user-experience)
-    - [**7.1 Types of Post**](#71-types-of-post)
+    - [7.1 Types of Post](#71-types-of-post)
   - [7.2 Avatars](#72-avatars)
   - [7.3 Engagements](#73-engagements)
     - [7.4 Other Features](#74-other-features)
@@ -34,18 +34,16 @@
   - [10. Child Platforms](#10-child-platforms)
     - [10.1 ROV Community](#101-rov-community)
     - [10.2 Dev-Space](#102-dev-space)
-  - [11. Viral DAO & Governance](#11-viral-dao--governance)
-  - [12. Viral Coin ICO](#12-viral-coin-ico)
-  - [13. Roadmap to Decentralization](#13-roadmap-to-decentralization)
-  - [14. Phase 2](#14-phase-2)
-  - [13. Phase 3](#13-phase-3)
-  - [14. Further Plans](#14-further-plans)
-  - [15. Team](#15-team)
-  - [16. References](#16-references)
-  - [17. Glossary](#17-glossary)
-  - [Others](#others)
-    - [Smart Wallet Zero to Low Fee Transfers](#smart-wallet-zero-to-low-fee-transfers)
-    - [Reward Pool](#reward-pool)
+  - [11. Revenue & Inventives](#11-revenue--inventives)
+  - [12. Viral DAO & Governance](#12-viral-dao--governance)
+  - [13. Viral Coin ICO](#13-viral-coin-ico)
+  - [14. Roadmap to Decentralization](#14-roadmap-to-decentralization)
+  - [15. Phase 2](#15-phase-2)
+  - [16. Phase 3](#16-phase-3)
+  - [17. Further Plans](#17-further-plans)
+  - [18. Team](#18-team)
+  - [19. References](#19-references)
+  - [20. Glossary](#20-glossary)
 
 
 ## 1. Abstract<a name="abstract"></a>
@@ -59,20 +57,21 @@ This is a Sample Abstract of the Viral Project.
 This is a Sample Problems of the Viral Project.
 
 ## 3. Vision Statement
-Our vision is to bring the ultimate blockchain-crypto adoption to the masses. In order to bring adoption of crypto markets we would need to bridge social communication with defi and tokenized economy.
+
+To bring blockchain & crypto adoption to the masses we would got to bridge social communication with defi and tokenised economy. The Viral Network of Applications standards are designed in such a way that our vision to bring an proficient, user-friendly mobile application will combine several divisions of decentralized protocols that can lead to an ultimate tool for crypto acknowledgement. The divisions which we are focussing to rebuild is listed
 
 **Social media**
 
-1. To develop a **Real-world Decentralised Social Media**
-2. To build an **Autonomous** self-evolving platform
-3. To build an **Interactive** Next-Gen Social Media
-4. To make a **clean** web3 platform for all age groups
+1. To create a **Real-world Decentralised Social Media**
+2. To construct an **Autonomous** self-evolving platform
+3. To construct an **Interactive** Next-Gen Social Media
+4. To form a **clean** people-owned platform appropriate for all age groups
 
 **Crypto Adoption**
 
-1. To make people **jump in crypto** from fiat very easily & securely
-2. To give **access** to all internet people cryptocurrencies **without investing**
-3. To bring **all major crypto** for people to easily adapt in a **single wallet**
+1. To provide people to **hop into crypto** from fiat effortlessly & securely
+2. To give **access** to use cryptocurrencies to internet people **without investing**
+3. To bring **all major crypto** for individuals to adapt rapidly using a **single wallet**
 
 **NFT & Metaverse**
 
@@ -81,49 +80,165 @@ Our vision is to bring the ultimate blockchain-crypto adoption to the masses. In
 
 **Blockchain**
 
-1. To provide the utmost speed of transactions through **On-Chain & Off-Chain** solutions
-2. To Develop a **feeless, fast, Capped Supply, Deflationary, smart contract chain**
+1. To supply the utmost speed of transactions through **On-Chain & Off-Chain** solutions
+2. To Develop a **feeless, fast, Zero Inflation, Deflationary, smart contract chain**
 
 
 ## 4. Unified Mobile application - An Intro to Viral
 
-A Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies' underlying applications into a Daily Internet User-Based Mobile App.
+>[App Brouchure](https://sample.com/)
 
-Every media shared on viral is a unique NFT where it can be utilized to create limitless possibilities across the platform. Users can share ultra-short to short videos, thoughts through text, sell NFTs and also make communication between one-on-one, private groups and, public channels with complete true privacy.
+Images
 
-Viral users will be benefitted from zero ads, cryptographic encryption, censorship-resistant and, also use cryptocurrencies throughout the platform. Every user is a contributor to the platform where they receive rewards and incentives in Viral Coin for running the decentralized social media.
 
-We are bridging Social Media with Blockchain, Wallets, Exchanges and NFT Markeplace to bring the ultimate one-app for the common masses to adop into the tolkenized economy
+A Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies' underlying applications into an every-day user-based mobile app. Viral bridges Social Media with Blockchain, Wallets, Exchanges and NFT Markeplaces to bring the ultimate one-app for the common masses to adopt into the tokenised economy.
+
+Every media shared on viral is an unique NFT where it can be utilized to create limitless achievable outcomes across the platform. Users can share ultra-short to short videos, thoughts through text, sell NFTs and additionally make communication between one-on-one, private groups and, open channels with total genuine privacy. App users will be benefitted from zero ads, cryptographic encryption, censorship-resistant and, also get to use various cryptocurrencies throughout the platform. Every user is an active contributor to the platform by which they receive rewards (payment) in Viral Coin for effectively utilizing the Viral Application and it's child platforms.
+
 
 ## 5. Viral Platform Architecture
 
+```mermaid
 
+flowchart LR
 
-1. **Viral App** – The Decentralized Social Media Platform bridging Blockchain applications for unlimited possibilities.
+subgraph 1
+A[Viral App]
+AA([Social Media])
+A-->AA
+end
+subgraph 2
+B[Viral Smart Chains]
+BB([On Top of IOTA Tangle])
+B-->BB
+end
+subgraph a
+2A[Payment Channels-L2]
+2AA([Off-Chain Lightning Payments])
+2A-->2AA
+end
+subgraph b
+2B[Zk-Rollups-L2]
+2BB([NFT-Scaling])
+2B-->2BB
+end
+subgraph c
+2C[Viral Bridge]
+2CC([Wrapped Tokens])
+2C-->2CC
+end
+subgraph d
+2D[Horizontal Chains]
+2DD([Unlimited Scaling])
+2D-->2DD
+end
+subgraph 3
+C[Smart Wallet]
+CC([Crypto Adoption])
+C-->CC
+end
+subgraph e
+3E[Viral CEX-Centralized Exchange]
+3EE([Fiat-Crypto])
+3E-->3EE
+end
+subgraph f
+3F[Viral DEX-Decentarlized Exchange]
+3FF([Swapping Tokens])
+3F-->3FF
+end
+subgraph g
+3G[Viral P2P Exchange]
+3GG([Anonymous Trades])
+3G-->3GG
+end
+subgraph h
+3H[Viral Name System - VNS]
+3HH([Username based public address])
+3H-->3HH
+end
+subgraph 4
+D[Child Platforms]
+DD([Support for Decentralized Network])
+D-->DD
+end
+subgraph i
+4I[ROV Platform]
+4II([Content Moderation])
+4I-->4II
+end
+subgraph j
+4J[Dev-Space]
+4JJ([Automated Development])
+4J-->4JJ
+end
+subgraph k
+4K[Ad-Platform]
+4KK([Decentralized Ads])
+4K-->4KK
+end
+subgraph l
+4L[Miner Nodes]
+4LL([Validators, Clusters, etc])
+4L-->4LL
+end
+subgraph 5
+E[Reward Pool]
+EE([Users, Developers, ROV, Viral DAO])
+E-->EE
+end
+subgraph 6
+F[Other Backend]
+FF([For Contingencies])
+F-->FF
+end
 
-2. **Viral Smart Chain**: Horizontally Scalable Gas free EVM Smart Chain on Top of IOTA's Tangle.
-   1. **Payment Channels (L2**): State Channels to move value off-chain for unlimited scalability
-   2. **Zk-Rollups (L2)**: Batching Multiple NFT Tokens (ERC721) on L2 into L1
-   3. **Viral Bridge**: To bring major crypto such as Bitcoin, Doge, ERC20 Tokens into Viral Smart Chain for interoperability
-   4. **Additional Chain**s: Adding Additional Chains for Scaling Blockchain
+1-->2
+1-->3
+1-->4
+1-->5
+1-->6
+2-->a
+2-->b
+2-->c
+2-->d
+3-->e
+3-->f
+3-->g
+3-->h
+4-->i
+4-->j
+4-->k
+4-->l
+```
 
-3. **Smart Wallet** : Viral's Built in EVM Non-Custodial Wallet for Viral Smart Chain that allows user to receive rewards and hold ERC20 tokens.
+1. **Viral App** – Decentralized Social Media Platform bridging Blockchain applications for limitless possibilities.
 
-   1. **Centralized Exchange**: Trustless Multi-Sig Wallet Exchange for Fiat to Crypto trading and vice versa
-   2. **Decentralized Exchange**: Swapping Viral Tokens without KYC
-   3. **P2P Exchange**: Peer-to-Peer Exchange for Fiat without KYC
-   4. **Viral Name System**: Username based transfers instead of long cryptographic public address
+2. **Viral Smart Chains**: Horizontally Scalable EVM Smart Chain on Top of IOTA's Tangle.
+   1. **Payment Channels (L2**): State Channels to move value off-chain for lightning fast micro-transactions.
+   2. **Zk-Rollups (L2)**: Batching Multiple Off-chain NFT Standard Tokens (ERC721) to On-Chain,
+   3. **Viral Bridge**: Interopability of various major cryotocurrencies by wrapping tokens decentralized such as Bitcoin, Ethereum,etc into Viral Smart Chains.
+   4. **Horizontal Chains**: Additional of New Chains anchored to IOTA Tangle that communicates between multiple Viral Smart Chains for unlimited scaling
 
-4. **Child Platforms**: Platforms to support Viral App where the users rewarded daily according to their amount of contribution
-     1. **Dev-Space**: Developers Feed for recent commits to opensource repo
-     2.  **ROV App**: Curator Platform to vote and remove reported content on Viral
-     3.  **Ad Platform**: Connecting Influencer and Business for trustless engagement-proof ads.
+3. **Smart Wallet** : Viral's App's built in Non-Custodial Viral Smart Chain compatible hot wallet that allows user to send & hold tokens, mint NFTs and receive rewards.
 
-5. **Reward Program**: To incentivize users, miners, developers using smart contracts for their content, validation of transactions, and continuous development through unbiased points mechanism that offers more rewards to bigger contributors.
+   1. **Viral CEX-Centralized Exchange**: Trustless Non-Custodial Exchange for Fiat-Crypto trading
+   2. **Viral DEX-Decentralized Exchange**: Automated Market Making Protocol for exchanging Viral tokens
+   3. **P2P Exchange**: Trustsless anonymous exchange leveraging Peer-to-Peer protocol
+   4. **Viral Name System**: Decentralized blockchain based username protocol for transfers instead of cryptographic public address.
 
-6. **Other Backend**: For contingencies which will be later decentralized in the further phases of Development Roadmap
+4. **Child Platforms**: Independant platforms anchored to the viral network for effective improvement of protocols
+     1. **Dev-Space**: Application for Developers to decide on reward allocation for improving Viral-Beta
+     2.  **ROV App**: Curator Platform to vote and remove reported content on Viral-Alpha
+     3.  **Ad Platform**: Decentralized Ad platform connecting Influencers,businesses and users for trustless engagement-proof ads.
 
-### Development Tech Stack
+5. **Reward Pool**: To incentivize all users, miners, developers using smart contracts for their content, validation of transactions, and continuous development through unbiased pointing strategy that offers more rewards to bigger contributors.
+
+6. **Other Backend**: For contingencies which will be later decentralized in the further phases of the development roadmap
+
+### 5.1 Development Tech Stack
+
+Diagram of Tech Stack
 
 1. **[IPFS](https://ipfs.io)**: IPFS stands for Interplanetary File System is a peer-to-peer distributed file system that is used for maintaining and distributing files across our Viral IPFS Private network.
 
@@ -144,7 +259,7 @@ We are bridging Social Media with Blockchain, Wallets, Exchanges and NFT Markepl
 
 ## 6. How Whitepaper Structured
 
-For efficient undertsnading, we have seperated the platform's major aspects into 5 categories.
+For an efficient understanding, we have seperated the Viral Architecture/Ecosystem's major sectors.
 
 - Social Media & User Experience (Page 1-10)
 - Blockchain, Token Ecosystem & Layer 2 (Page 10-15)
@@ -155,9 +270,9 @@ For efficient undertsnading, we have seperated the platform's major aspects into
 
 ## 7.Social media & User Experience
 
-Viral is a multi-media sharing decentralized social network that brings meta-experience with friends, family and other people to communicate, share posts and send messages across the globe with absolute privacy. Viral sets NFT as a standard for every post that shared in the network which intends to bring interactive social experience and utility use cases of blockchain environment.
+Viral is a multi-media sharing decentralized social network that brings meta-experience with friends, family and other people to communicate, share posts and send messages across the globe with absolute privacy. Viral sets Non-Fungible-Tokens (NFT) as a standard for every post that shared in the network which intends to bring interactive social experience and utility use cases of blockchain environment.
 
->Note : To bring NFT as a standard for a social media post doesn't necessarily means it should be sold for tokens, rather it is a unique piece of data in blockchain that gives the power of ownership which the user can keep himself or can be transferred to others if the user wants to via Open Bidding/Selling
+>Note : To bring NFT as a standard for a social media post doesn't essentially implies it ought to be sold for tokens, rather it conveys that each post in Viral is a unique piece of data in the blockchain that gives the power of ownership of the user which if needed can be opted to transfer in exchange for tokens inside the Viral Platform.
 
 ```JavaScript //Since Solidity Syntax Not Available
 
@@ -167,15 +282,18 @@ pragma solidity ^0.8.10;
 
 ```
 
-### **7.1 Types of Post**
+### 7.1 Types of Post
 
 > ![]()[ELI5 Explanatory Video - Viral NFTs](https://sample.com/)
+
+Please read [App Brouchure](https://sampel.com/) to have a visual experience of the Viral Social Network
+
+Image for all Post Types in a Visualized Manner
 
 **Shots**
 
 Shots are **10 sec motion pictures** with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.
 
-![](https://viralfoundation.org/images/send-p-500.png) 
 
 People can share their
 - Personal Sneak-Peek, Moments & Events
@@ -204,7 +322,7 @@ IVs are short 30sec full-screen **narration based videos**. It is based on **gam
 
 Minting (Creating) an NFT in Viral is **as easy as creating a social media post**. Viral provides multiple NFT utilities for users to mint, buy, sell with an easy user experience.
 
-Viral will take a **3% commission** selling NFTs which will be reverted to the user's reward pool <!---Link the Reward Section here-->
+Viral will take a **1.5% commission** selling NFTs which will be reverted to the reward pool <!---Link the Reward Section here-->
 
 **Tunes**
 
@@ -248,6 +366,7 @@ pragma solidity ^0.8.10;
 ```
 
 **Tickets**
+
 Exclusive passes for events, ownership of clubs, a digital ticket for everything can be sold as NFT
 
 
@@ -261,6 +380,7 @@ pragma solidity ^0.8.10;
 ```
 
 **Filters**
+
 Filters can be sold, and owned by user's thereby get rewards for it
 
 
@@ -273,32 +393,55 @@ pragma solidity ^0.8.10;
 
 ```
 
+Please read [App Brouchure](https://sampel.com/) to have a visual experience of the Viral Social Network
+
 ## 7.2 Avatars
 
-Personalized Avatars are generated **free for every viral** user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see in 3D View.
+Personalized Avatars are generated **free for every viral** user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see them 3D View.
 
-These avatars are brought into Viral to integrate metaverse and to provide an **interactive experience** through avatar use cases.
+*Image*
+
+These avatars are brought into Viral to integrate metaverse and to provide an **interactive experience**
 
 > ![]()[Avatar Demo Video](https://sample.com/)
 
-**SDKs Used** : ReadyPlayerMe - A cross-game Avatar Platform for the Metaverse
+**SDKs and APIs Used** : ReadyPlayerMe - A cross-game Avatar Platform for the Metaverse
 
+    // ReadyPlayerMe Integration Examples
+
+    1. ReadyPlayerMe WebView- How creating Avatars work using Partner API
+    2. Downloading Asset- GLB File using Event Listener
+    3. Mapping skeletons and face
+    4. Animating and storing the file as a 3D Viewer File inside the application using IPFS Public/Clusters
+    5. How Animations will work
 
 **Meta-Chat**
 
-Meta-Chat is a feature to **react/show your facial reactions** in real-time for the messages of whom you chat with. Viral captures your face reactions and transfer it to your avatar on **top of your mutual-friend's chat page**.
+Meta-Chat is a feature to **show your facial reactions** in real-time when you chat with your friend. Viral captures your face reactions and transfer it to your avatar which the mutual friend can see on **top of his/her chat page**.
+
+*Image*
 
 This gives you a **virtual experience** of videocalls through avatars and text chat.
 
 > ![]()[Meta-Chat Demo](https://sample.com/)
 
-Formula or Flow Chart
+**SDKs and APIs Used** : List the APIs
+
+*Formula or Flow Chart*
+
+*Security Concerns*
 
 **Live &amp; Rooms**
 
 **Decentralized Live Video Events and Audio Rooms using Avatars** (or) Normal Cams. Celebrities can host live events with their fans using their avatars
 
+*Image*
+
 > ![]()[Live Events Demo](https://sample.com/)
+
+**SDKs and APIs Used** : List the APIs
+
+*Formula or Flow Chart*
 
 
 ## 7.3 Engagements
@@ -307,24 +450,37 @@ Formula or Flow Chart
 
 Users can like, comment, share, reThought, and also tip Tokens to their favorite posts and influencers. The number of likes will influence the recommendations list of other users.
 
-Additionally a hidden engagement dislike will be added to every post but won't be visible to the users/nor owners, which is solely used for recommendation interest-based algorithm to filter out disliked content
+*Image*
+
+Additionally a hidden engagement dislike will be added to every post but won't be visible to the users/nor owners, which is exclusively utilized for interest-based algorithm to filter out disliked content
+
+*Algorithm/Mathematical formula for recommendation engine*
 
 **Tip**
 
-The tipping feature using tokens in Viral Smart Chain is used to tip/support your favourite influencers contents where all the tips will be directly sent to the user's wallet
+The tipping feature in Viral engagements tip/support user's favourite influencers' contents. It works as a donation/reward where all the tips will be directly sent to the receivers wallet. Users can send tokens of their own choice to reward other users content on the platform.
 
-```
-Party A= Sender = Mary
-Party B= Receiver = John
-Party C= Tipping Contract
-Party D- Reward Pool
+Viral will charge commisions on Tips and deposits it to the reward pool. These commissions are calculated in such a way where the percentage varies depending on the end face value. 
 
-x=number of tokens mary sent 
-y=number of tokens john receives 
-n= Commission Percentage 
-z= number of tokens sent to reward pool
-```
+The tipping amount will be round of to tens and will leave the commision on both seperated amounts.
 
+*Formula*
+
+The Charges are
+
+    (Ending with 1,2)$ tips     - 22%      i.e., 11, 62, 761, 952 
+    (Ending with 3,4,5)$ tips   - 19%      i.e., 23, 64, 765, 953
+    (Ending with 6,7,8,9)$ tips - 17%      i.e., 16, 48, 27,  79
+    (Ending with 0)$ tips       - 12%      i.e., 10, 60, 720, 1000
+
+Example
+
+    For example: If a user is tips worth 57$ then the commissions charged will be:
+
+    For the first     50$ - 12%
+    And the remaining 7$  - 17%
+
+ 
 ```mermaid
 
     sequenceDiagram
@@ -343,6 +499,8 @@ z= number of tokens sent to reward pool
     Tipping Contract-->Tipping Contract:Calculation of n from x
     end
     Tipping Contract->>+John's Wallet:Deposits y=[x-(x*n%)] of Tokens
+    Note over John: Influencer
+    Note over Mary: Tipper
     Note over Tipping Contract: n = commision percentage
     Note over John's Wallet: Receives y number of Tokens
     Note right of Mary: Including transfer fees
@@ -353,7 +511,7 @@ z= number of tokens sent to reward pool
 
 ```JavaScript //Since Solidity Syntax Not Available
 
-//Tipping Snippet
+//Tipping Solidity Snippet
 
 pragma solidity ^0.8.10;
 
@@ -363,7 +521,7 @@ pragma solidity ^0.8.10;
 
 **Privacy Groups**
 
-Privacy Groups is a unique feature in Viral to create unlimited friend's groups as list to ensure maximum privacy for users to post and share shots, drops, thoughts, NFTs to the particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can enable complete privacy over viewers for certain posts.
+Privacy Groups is a unique feature in Viral to create unlimited friend's groups list to ensure maximum privacy for users to post and share to particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can empower complete privacy over viewers for certain posts.
 
   ```mermaid
 
@@ -738,7 +896,11 @@ Viral Coin and Viral Stable Coin will be the two primary coins in the Viral Soci
 
 **1 VSC - $1 (Expansion)** : When Viral Stable Coin trades at a price that is high relative to it's $1 peg i.e., $1.15, the demand for VSC is higher than the circulating supply. To bring the peg back to $1, the supply of VSC should be increased to balance the demand. During Expansion State trading bots will mint VSC by burning VRL, which has an effect of lowering Viral Stable Coin Price (by expanding the supply) and increases the Viral Coin price (by reducing it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
 
+    Formula for Expansion
+
 **1 VSC - $1 (Contraction)** : When Viral Stable Coin trades at a price that is low relative to it's $1 peg i.e., $0.95, the demand for VSC is lower for the circulating supply. To bring the peg back to $1, the supply of VSC should be decreased to balance the demand. During Contraction State trading bots will burn VSC and mints VRL, which has an effect of increasing Viral Stable Coin Price (by reducing it's supply) and lowering the Viral Coin price (by expanding it's supply). The smart contracts will trade until the price peg of 1 VSC = $1 is achieved.
+
+    Formula for Contraction
 
 **Viral Stable Trading App**
 
@@ -827,6 +989,34 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
       - Diagram
     - Lightning Payments
     - How Transfer Works
+
+```mermaid
+
+flowchart LR
+
+subgraph Fee Transfer in Viral App
+   
+    A[/Amount Input /]--> B[L2 success rate calculation]
+    subgraph L2-Fee-Calculation 
+    B ---> C[Result = 100% Channels without routing]
+    C --No--> E[Result = 100% Channels with routing]
+    end
+    subgraph L2-Transfer
+    C --Yes--> D([Zero Fee L2 Transfer])
+    I ---> K[L2 Transfer with minimum fees]
+    end
+    subgraph L2-L1-Comparison
+    E ----> G([Calculate Fee Percentage])
+    G --->J[Fee >= 0.05%]
+    G --->I[Fee < 0.05%]
+    end
+    subgraph L1-Transfer
+    J ---> H[L1 Transfer 0.05% Fixed Fee]
+    end
+end   
+
+```
+
   - Custodian Services
     - Abstract
     - Safety of Funds
@@ -847,34 +1037,28 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
 
 ### 10.2 Dev-Space
 
-## 11. Viral DAO & Governance
+## 11. Revenue & Inventives
+
+```mermaid
+pie
+
+    title Reward Pool
+    "Users" : 30
+    "Social Nodes" : 30
+    "ROV Community" : 10
+    "Developers" :  10
+    "Viral DAO" : 20
+
+```
+
+## 12. Viral DAO & Governance
 
   - Abstract
   - Story
   - Governance Model
   - Intro
 
-## 12. Viral Coin ICO
-
-## 13. Roadmap to Decentralization
-
-## 14. Phase 2
-
-## 13. Phase 3
-
-## 14. Further Plans
-
-## 15. Team
-
-## 16. References
-
-## 17. Glossary
-
-
-
-
-
-
+## 13. Viral Coin ICO
 
 **Incentives for Viral ICO Investors**
 
@@ -916,8 +1100,7 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
 
     Viral CEX Major Fiat Pair (VRL-USD, etc)
 
-    Governance for Viral Smart Chains Protocol
-
+    On-Chain Governance for Viral Smart Chains Protocol
 
 **Use Cases of VSC**
 
@@ -943,48 +1126,20 @@ Users will be able to stake both coins VRL &amp; VSC proportionally to a smart c
 
     Automated Swap to Stable Coin
 
+## 14. Roadmap to Decentralization
+
+## 15. Phase 2
+
+## 16. Phase 3
+
+## 17. Further Plans
+
+## 18. Team
+
+## 19. References
+
+## 20. Glossary
 
 
-## Others
 
-### Smart Wallet Zero to Low Fee Transfers
 
-```mermaid
-
-flowchart LR
-
-subgraph Fee Transfer in Viral App
-   
-    A[/Amount Input /]--> B[L2 success rate calculation]
-    subgraph L2-Fee-Calculation 
-    B ---> C[Result = 100% Channels without routing]
-    C --No--> E[Result = 100% Channels with routing]
-    end
-    subgraph L2-Transfer
-    C --Yes--> D([Zero Fee L2 Transfer])
-    I ---> K[L2 Transfer with minimum fees]
-    end
-    subgraph L2-L1-Comparison
-    E ----> G([Calculate Fee Percentage])
-    G --->J[Fee >= 0.05%]
-    G --->I[Fee < 0.05%]
-    end
-    subgraph L1-Transfer
-    J ---> H[L1 Transfer 0.05% Fixed Fee]
-    end
-end   
-
-```
-### Reward Pool
-
-```mermaid
-pie
-
-    title Reward Pool
-    "Users" : 30
-    "Social Nodes" : 30
-    "ROV Community" : 10
-    "Developers" :  10
-    "Viral DAO" : 20
-
-```
