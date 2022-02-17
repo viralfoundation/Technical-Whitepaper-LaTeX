@@ -212,7 +212,9 @@ end
 4-->l
 ```
 
-1. **Viral App** – Decentralized Social Media Platform bridging Blockchain applications for limitless possibilities.
+*Update the links*
+
+1. **[Viral App](#7social-media--user-experience)** – Decentralized Social Media Platform bridging Blockchain applications for limitless possibilities.
 
 2. **Viral Smart Chains**: Horizontally Scalable EVM Smart Chain on Top of IOTA's Tangle.
    1. **Payment Channels (L2**): State Channels to move value off-chain for lightning fast micro-transactions.
@@ -238,7 +240,7 @@ end
 
 ### 5.1 Development Tech Stack
 
-Diagram of Tech Stack
+*Diagram of Tech Stack*
 
 1. **[IPFS](https://ipfs.io)**: IPFS stands for Interplanetary File System is a peer-to-peer distributed file system that is used for maintaining and distributing files across our Viral IPFS Private network.
 
@@ -544,11 +546,11 @@ Privacy Groups is a unique feature in Viral to create unlimited friend's groups 
 
 **Audio Emoji**
 
-This is a short feature where all the emoji's in Viral if touched will give a **short sound of the emoji**. This will be available on chats &amp; comments section of a post.
+This is a short feature where all the emoji's in Viral if touched will give a **short sound of the emoji**. This will be accessible on chats & comments section of a post.
 
 **Interest Based Recommendation**
 
-To make the viral platform more user-friendly interest-based recommendations are used. We have numerous ways to fetch interest from a user **without collecting data on a centralized server**, some of them are
+To make the viral platform more user-friendly interest-based recommendations are utilized. We have numerous ways to fetch interest from a user **without collecting data on a centralized server**, a few of them are
 
 - Like &amp; Dislike
 - Hashtag Follows
@@ -560,7 +562,11 @@ To make the viral platform more user-friendly interest-based recommendations are
 
 All the user interests will be **stored locally** on the device to ensure **maximum security** and will be taken to show recommendations.
 
+*Flow charts*
+
 ### 7.5 User Security &amp; Privacy
+
+*Abstract*
 
 This is classified into
 
@@ -575,10 +581,10 @@ All Media uploaded to Viral is End-to-end Encrypted where all the files are encr
 
 **Encryption**
 
-Detailed Explanation
+*Detailed Explanation*
 
 ```mermaid
-  flowchart TB
+  flowchart LR
   subgraph Decentralized Media Upload & Encryption
   subgraph Offline Process
   A[User Uploads Media]--1-->B[Generates secret-key]
@@ -609,10 +615,10 @@ Detailed Explanation
 
 Private Account Media Decryption
 
-Detailed Explanation
+*Detailed Explanation*
 
 ```mermaid
-flowchart TB
+flowchart LR
 subgraph Private-Account-Media-Decryption
   A0[User A request to view User B content]
   subgraph Follower Verification
@@ -664,7 +670,7 @@ end
 Public Account Media Decryption
 
 ```mermaid
-flowchart TB
+flowchart LR
 subgraph Public-Account-Media-Decryption
   A0[User request to view a Public Account]
   subgraph User Request
@@ -710,7 +716,7 @@ end
 
 **2. Chats &amp; Private Messages**
 
-For Chat-based encryption, we use **public and private key** encryption method. There are no centralized cloud-based servers involved in storing messages which can potentially leak private chats and messages. Every single message is encrypted and can be only decrypted by the receiver.
+For Chat-based encryption, Viral uses **public and private key** encryption method. There are no centralized cloud-based servers involved in storing messages which can potentially trigger breaches. Every single message is encrypted and can be only decrypted by the receiver.
 
 Public-Private key encryption more secure than a single shared key used in multiple chat platforms.
 
