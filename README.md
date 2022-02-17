@@ -718,7 +718,7 @@ end
 
 For Chat-based encryption, Viral uses **public and private key** encryption method. There are no centralized cloud-based servers involved in storing messages which can potentially trigger breaches. Every single message is encrypted and can be only decrypted by the receiver.
 
-Public-Private key encryption more secure than a single shared key used in multiple chat platforms.
+Public-Private key encryption more secure than a single shared key which is utilized in multiple chat platforms.
 
 Visual Representation
 
