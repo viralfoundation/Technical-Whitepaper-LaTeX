@@ -12,6 +12,12 @@
     pdfpagemode=FullScreen,
 }
 \setlength\parindent{0pt}
+\usepackage{listings}
+\input{solidity-highlighting.tex}
+\usepackage{tikz}
+
+
+
 
 
 
@@ -20,7 +26,10 @@
 \date{15 January 2022}
 \author{Joby Reuben\\jobyreuben@gmail.com}
 
+
 \begin{document}
+
+
 
 
 \maketitle
@@ -106,6 +115,48 @@ Ad Platform: Decentralized Ad platform connecting Influencers,businesses and use
 Reward Pool: To incentivize all users, miners, developers using smart contracts for their content, validation of transactions, and continuous development through unbiased pointing strategy that offers more rewards to bigger contributors.
 
 Other Backend: For contingencies which will be later decentralized in the further phases of the development roadmap
+
+
+
+%Test Javascript Program
+
+
+
+%Test Solidity Program
+
+\begin{lstlisting}[language=Solidity, caption={Sample}]
+
+// SPDX-License-Identifier: MIT
+// compiler version must be greater than or equal to 0.8.10 and less than 0.9.0
+
+pragma solidity ^0.8.10;
+
+contract HelloWorld {
+
+    string public greet = "Hello World!";
+    
+}
+
+\end{lstlisting}
+
+\begin{tikzpicture}
+
+\node{ShareLaTeX Tutorial Videos}
+	child { node {Beginners Series}
+		child { node {First Document}}
+		child { node {Sections and Paragraphs}}
+		child { node {Mathematics}}
+		child { node {Images}}
+		child { node {bibliography}}
+		child { node {Tables and Matrices}}
+		child { node {Longer Documents}}		
+	}
+	
+	child { node {Thesis Series}}
+	child { node {Beamer Series}}
+	child { node {TikZ Series}}
+;
+\end{tikzpicture}
 
 
 
