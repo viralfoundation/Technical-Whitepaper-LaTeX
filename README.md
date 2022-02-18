@@ -2,7 +2,7 @@
 
 # <p align="center"> Viral - Next Gen Decentralized Social Engagement Tool</p>
 
-<p align="center">By Viral Foundation \& Viral DAO </p>
+<p align="center">By Viral Foundation and Viral DAO </p>
 <br><br/>
 
 ## Table of contents
@@ -10,20 +10,20 @@
 - [<p align="center"> Viral - Next Gen Decentralized Social Engagement Tool</p>](#-viral---next-gen-decentralized-social-engagement-tool)
   - [Table of contents](#table-of-contents)
   - [1. Abstract<a name="abstract"></a>](#1-abstract)
-  - [2. User Problems \& Basic Solutions](#2-user-problems--basic-solutions)
+  - [2. User Problems and Basic Solutions](#2-user-problems-and-basic-solutions)
   - [3. Vision Statement](#3-vision-statement)
   - [4. Unified Mobile application - An Intro to Viral](#4-unified-mobile-application---an-intro-to-viral)
   - [5. Viral Platform Architecture](#5-viral-platform-architecture)
     - [5.1 Development Tech Stack](#51-development-tech-stack)
   - [6. How Whitepaper Structured](#6-how-whitepaper-structured)
-  - [7.Social media \& User Experience](#7social-media--user-experience)
+  - [7.Social media and User Experience](#7social-media-and-user-experience)
     - [7.1 Types of Post](#71-types-of-post)
   - [7.2 Avatars](#72-avatars)
   - [7.3 Engagements](#73-engagements)
     - [7.4 Other Features](#74-other-features)
-    - [7.5 User Security \&amp; Privacy](#75-user-security-amp-privacy)
+    - [7.5 User Security and Privacy](#75-user-security-and-privacy)
     - [7.6. TOR/VPN Anonymity](#76-torvpn-anonymity)
-  - [8. Blockchain, Token Ecosystem \& Layer 2](#8-blockchain-token-ecosystem--layer-2)
+  - [8. Blockchain, Token Ecosystem and Layer 2](#8-blockchain-token-ecosystem-and-layer-2)
     - [8.1 Viral Smart Chain – Short Intro](#81-viral-smart-chain--short-intro)
     - [8.2 IOTA Smart Contract Protocol.](#82-iota-smart-contract-protocol)
     - [8.3 Viral Smart Chains](#83-viral-smart-chains)
@@ -34,8 +34,8 @@
   - [10. Child Platforms](#10-child-platforms)
     - [10.1 ROV Community](#101-rov-community)
     - [10.2 Dev-Space](#102-dev-space)
-  - [11. Revenue \& Inventives](#11-revenue--inventives)
-  - [12. Viral DAO \& Governance](#12-viral-dao--governance)
+  - [11. Revenue and Inventives](#11-revenue-and-inventives)
+  - [12. Viral DAO and Governance](#12-viral-dao-and-governance)
   - [13. Viral Coin ICO](#13-viral-coin-ico)
   - [14. Roadmap to Decentralization](#14-roadmap-to-decentralization)
   - [15. Phase 2](#15-phase-2)
@@ -52,13 +52,13 @@
 This is a Sample Abstract of the Viral Project.
 
 
-## 2. User Problems \& Basic Solutions
+## 2. User Problems and Basic Solutions
 
 This is a Sample Problems of the Viral Project.
 
 ## 3. Vision Statement
 
-To bring blockchain \& crypto adoption to the masses we would got to bridge social communication with defi and tokenised economy. The Viral Network of Applications standards are designed in such a way that our vision to bring an proficient, user-friendly mobile application will combine several divisions of decentralized protocols that can lead to an ultimate tool for crypto acknowledgement. The divisions which we are focussing to rebuild is listed
+To bring blockchain and crypto adoption to the masses we would got to bridge social communication with defi and tokenised economy. The Viral Network of Applications standards are designed in such a way that our vision to bring an proficient, user-friendly mobile application will combine several divisions of decentralized protocols that can lead to an ultimate tool for crypto acknowledgement. The divisions which we are focussing to rebuild is listed
 
 **Social media**
 
@@ -69,18 +69,18 @@ To bring blockchain \& crypto adoption to the masses we would got to bridge soci
 
 **Crypto Adoption**
 
-1. To provide people to **hop into crypto** from fiat effortlessly \& securely
+1. To provide people to **hop into crypto** from fiat effortlessly and securely
 2. To give **access** to use cryptocurrencies to internet people **without investing**
 3. To bring **all major crypto** for individuals to adapt rapidly using a **single wallet**
 
-**NFT \& Metaverse**
+**NFT and Metaverse**
 
 1. To democratize NFTs to Masses
 2. To kickstart Metaverse adoption
 
 **Blockchain**
 
-1. To supply the utmost speed of transactions through **On-Chain \& Off-Chain** solutions
+1. To supply the utmost speed of transactions through **On-Chain and Off-Chain** solutions
 2. To Develop a **feeless, fast, Zero Inflation, Deflationary, smart contract chain**
 
 
@@ -222,7 +222,7 @@ end
    3. **Viral Bridge**: Interopability of various major cryotocurrencies by wrapping tokens decentralized such as Bitcoin, Ethereum,etc into Viral Smart Chains.
    4. **Horizontal Chains**: Additional of New Chains anchored to IOTA Tangle that communicates between multiple Viral Smart Chains for unlimited scaling
 
-3. **Smart Wallet** : Viral's App's built in Non-Custodial Viral Smart Chain compatible hot wallet that allows user to send \& hold tokens, mint NFTs and receive rewards.
+3. **Smart Wallet** : Viral's App's built in Non-Custodial Viral Smart Chain compatible hot wallet that allows user to send and hold tokens, mint NFTs and receive rewards.
 
    1. **Viral CEX-Centralized Exchange**: Trustless Non-Custodial Exchange for Fiat-Crypto trading
    2. **Viral DEX-Decentralized Exchange**: Automated Market Making Protocol for exchanging Viral tokens
@@ -263,14 +263,14 @@ end
 
 For an efficient understanding, we have seperated the Viral Architecture/Ecosystem's major sectors.
 
-- Social Media \& User Experience (Page 1-10)
-- Blockchain, Token Ecosystem \& Layer 2 (Page 10-15)
+- Social Media and User Experience (Page 1-10)
+- Blockchain, Token Ecosystem and Layer 2 (Page 10-15)
 - Smart Wallet (Page 15-20)
 - Child Platforms (Page 20-25)
-- Revenue \& Incentives (Page 25-30)
-- Viral DAO \& Governance
+- Revenue and Incentives (Page 25-30)
+- Viral DAO and Governance
 
-## 7.Social media \& User Experience
+## 7.Social media and User Experience
 
 Viral is a multi-media sharing decentralized social network that brings meta-experience with friends, family and other people to communicate, share posts and send messages across the globe with absolute privacy. Viral sets Non-Fungible-Tokens (NFT) as a standard for every post that shared in the network which intends to bring interactive social experience and utility use cases of blockchain environment.
 
@@ -298,7 +298,7 @@ Shots are **10 sec motion pictures** with added loop transitions to bring life t
 
 
 People can share their
-- Personal Sneak-Peek, Moments \& Events
+- Personal Sneak-Peek, Moments and Events
 - Exclusive Photoshoots, commercials, to your fans
 - Turn photos into lively shots by adding shot animations through Viral
 
@@ -433,7 +433,7 @@ This gives you a **virtual experience** of videocalls through avatars and text c
 
 *Security Concerns*
 
-**Live \&amp; Rooms**
+**Live and Rooms**
 
 **Decentralized Live Video Events and Audio Rooms using Avatars** (or) Normal Cams. Celebrities can host live events with their fans using their avatars
 
@@ -546,13 +546,13 @@ Privacy Groups is a unique feature in Viral to create unlimited friend's groups 
 
 **Audio Emoji**
 
-This is a short feature where all the emoji's in Viral if touched will give a **short sound of the emoji**. This will be accessible on chats \& comments section of a post.
+This is a short feature where all the emoji's in Viral if touched will give a **short sound of the emoji**. This will be accessible on chats and comments section of a post.
 
 **Interest Based Recommendation**
 
 To make the viral platform more user-friendly interest-based recommendations are utilized. We have numerous ways to fetch interest from a user **without collecting data on a centralized server**, a few of them are
 
-- Like \&amp; Dislike
+- Like and Dislike
 - Hashtag Follows
 - Search-Based Interests
 - Based on Activity
@@ -564,7 +564,7 @@ All the user interests will be **stored locally** on the device to ensure **maxi
 
 *Flow charts*
 
-### 7.5 User Security \&amp; Privacy
+### 7.5 User Security and Privacy
 
 *Abstract*
 
@@ -577,15 +577,16 @@ This is classified into
 
 **1. Media Storage**
 
-All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes \& Trusted IPFS Cluster Nodes. Thus promising the security of media.
+All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes and Trusted IPFS Cluster Nodes. Thus promising the security of media.
 
 **Encryption**
 
 *Detailed Explanation*
 
 ```mermaid
-  flowchart LR
-  subgraph Decentralized Media Upload \& Encryption
+
+flowchart TB
+  
   subgraph Offline Process
   A[User Uploads Media]--1-->B[Generates secret-key]
   B--2-->C[Encrypted Locally]
@@ -609,7 +610,7 @@ All Media uploaded to Viral is End-to-end Encrypted where all the files are encr
   IPFS--8------>K2[Add IPFS-URI]-->IPFS-URI
   C--3-->K1[Encrypted File]--4-->D
   Post-MetaData--9-->K3[Content is Stored]
-  end
+
 ```
 **Decryption**
 
@@ -714,7 +715,7 @@ subgraph Public-Account-Media-Decryption
 end
 ```
 
-**2. Chats \&amp; Private Messages**
+**2. Chats and Private Messages**
 
 For Chat-based encryption, Viral uses **public and private key** encryption method. There are no centralized cloud-based servers involved in storing messages which can potentially trigger breaches. Every single message is encrypted and can be only decrypted by the receiver.
 
@@ -722,7 +723,7 @@ Public-Private key encryption more secure than a single shared key which is util
 
 Visual Representation
 
-Alice writes \&quot;Hello\&quot; to Bob – Bob Receives an encrypted message - Bob decrypts using his private key – Bob Sees \&quot;Hello\&quot; from Alice
+Alice writes andquot;Helloandquot; to Bob – Bob Receives an encrypted message - Bob decrypts using his private key – Bob Sees andquot;Helloandquot; from Alice
 
 >[GunDB Explanatory Video](https://www.youtube.com/watch?v=-SiLnaSDkh4)
 
@@ -740,7 +741,7 @@ We will be focussing on Quantum Resilience of all media encryption used in Viral
 
 ### 7.6. TOR/VPN Anonymity
 
-Viral will be a safe haven for anonymity, privacy, and security in eliminating the tracing of users' identities by exploiters . Users can benefit from TOR \&amp; VPN Routing Features built in our Decentralized application to hide their IP address and go fully anonymous.
+Viral will be a safe haven for anonymity, privacy, and security in eliminating the tracing of users' identities by exploiters . Users can benefit from TOR and VPN Routing Features built in our Decentralized application to hide their IP address and go fully anonymous.
 
 TOR routes you through several additional nodes while encrypted, no one can trace it back to you. VPN will redirect your internet traffic through a secure tunnel, hiding your IP address and encrypting your data in the process.
 
@@ -748,7 +749,7 @@ TOR routes you through several additional nodes while encrypted, no one can trac
 
 Visualization with changes to minting as NFT
 
-\*\*AES – 256 Encryption Snippet\*\*
+AES – 256 Encryption Snippet
 
 **IPFS Cluster**
 
@@ -758,7 +759,7 @@ Addition of Nodes – Trusted Way
 
 Phase 2 – Trust less Way (IPFS-VM)
 
-## 8. Blockchain, Token Ecosystem \& Layer 2
+## 8. Blockchain, Token Ecosystem and Layer 2
 
 ### 8.1 Viral Smart Chain – Short Intro
 
@@ -792,7 +793,7 @@ Viral Smart Chains are a family of separate chains anchored to the IOTA's Tangle
 
 **Viral's Approach**
 
-A Single chain will seem complex for setting different fees for different actions on the blockchain i.e Smart Contract Calls/Deployment, Sending Tokens to other Address, etc. Viral's approach is to bring multiple chains categorized by its purpose to serve the Viral Application with fee structure thereby also creating separate chains to provide zero network fees for minting NFTs on Viral App (ERC721 \&amp; ERC1155) while rewarding the validators of all Viral chains (including zero fee chains) from the miner pool (total collected fees of all chains) based on validator's total validated transactions for the day through an automated smart contract.
+A Single chain will seem complex for setting different fees for different actions on the blockchain i.e Smart Contract Calls/Deployment, Sending Tokens to other Address, etc. Viral's approach is to bring multiple chains categorized by its purpose to serve the Viral Application with fee structure thereby also creating separate chains to provide zero network fees for minting NFTs on Viral App (ERC721 and ERC1155) while rewarding the validators of all Viral chains (including zero fee chains) from the miner pool (total collected fees of all chains) based on validator's total validated transactions for the day through an automated smart contract.
 
 **Validators**
 
@@ -800,7 +801,7 @@ Viral Chains will work on Proof-of-stake consensus where validators (miners) are
 
 **Fees**
 
-Viral Smart Chain is built primarily to ease the need for gas-based transaction fees like other smart contract blockchains. Transaction fees are only leaved as a fixed percentage as \&quot;transfer fee\&quot; in Viral Smart Chains for Sending, receiving tokens between accounts and smart contracts.
+Viral Smart Chain is built primarily to ease the need for gas-based transaction fees like other smart contract blockchains. Transaction fees are only leaved as a fixed percentage as andquot;transfer feeandquot; in Viral Smart Chains for Sending, receiving tokens between accounts and smart contracts.
 
 Transfer fees are fixed at 0.05% of transfer value of the tokens paid in Viral native coin. The minimum fee is capped at $0.0005 of the fiat value of Viral Coin which is determined using price oracles.
 
@@ -818,7 +819,7 @@ Currently on popular smart contract blockchains such as Ethereum, Polygon the am
 
 This brings us to an effect that a single blockchain cannot set certain fees or eliminate gas fees for a particular type or category of a transaction regardless of it's nature i.e, smart contract, account transfer. Multiple parallel state blockchains can solve this issue by altering few blockchains as permissioned for a certain use cases and can make it feeless without hindering the other fee-based chains.
 
-Viral's aim to democratize NFT to the masses and bring massive NFT Adoption we will be running separate zero-fee chains for deploying ERC721 \&amp; ERC1155 Token directly from the Viral Application. The Validators for the chain will be open to join the network where they'll be rewarded from the miner pool (total fee collected) based on the total transactions they validate in a day.
+Viral's aim to democratize NFT to the masses and bring massive NFT Adoption we will be running separate zero-fee chains for deploying ERC721 and ERC1155 Token directly from the Viral Application. The Validators for the chain will be open to join the network where they'll be rewarded from the miner pool (total fee collected) based on the total transactions they validate in a day.
 
 **Family of Chains**
 
@@ -912,7 +913,7 @@ Viral Coin and Viral Stable Coin will be the two primary coins in the Viral Soci
 
 High Frequency trading cannot be run using automated smart contracts to maintain price peg of Viral Stable Coin. Users can stake their Coins, run automated arbitrage trading and receive profits using the Viral Stable Trading Application a separate application to maintain the peg of Viral Stable Coin
 
-Users will be able to stake both coins VRL \&amp; VSC proportionally to a smart contract in the mobile app which process all transactions of burning and minting VRL for VSC automatically without the need for user signature and receive profits from arbitrage opportunities by minting the burning the coins to balance the volatility. The Smart Contracts will add \&amp; subtract coins on each pools to maintain stability.
+Users will be able to stake both coins VRL and VSC proportionally to a smart contract in the mobile app which process all transactions of burning and minting VRL for VSC automatically without the need for user signature and receive profits from arbitrage opportunities by minting the burning the coins to balance the volatility. The Smart Contracts will add and subtract coins on each pools to maintain stability.
 
 **Viral Bridge**
 
@@ -958,7 +959,7 @@ Users will be able to stake both coins VRL \&amp; VSC proportionally to a smart 
       - Shamir's Secret Sharing Scheme
       - Instant Non-custodial-Wallet Withdrawal
       - Order Book Exchange
-      - Trade Fees (Makers \& Takers)
+      - Trade Fees (Makers and Takers)
       - Makers Incentives
       - In-App KYC/AML
       - Exchange Markets
@@ -1043,7 +1044,7 @@ end
 
 ### 10.2 Dev-Space
 
-## 11. Revenue \& Inventives
+## 11. Revenue and Inventives
 
 ```mermaid
 pie
@@ -1057,7 +1058,7 @@ pie
 
 ```
 
-## 12. Viral DAO \& Governance
+## 12. Viral DAO and Governance
 
   - Abstract
   - Story
@@ -1088,7 +1089,7 @@ pie
 
     Primary Token in Viral App
 
-    NFTs \&amp; Payments
+    NFTs and Payments
 
     Staking and Nodes Collateral
 
