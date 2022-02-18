@@ -26,8 +26,8 @@
 \contentsline {subsubsection}{\numberline {6.4.3}Interest Based Recommendation}{11}{subsubsection.6.4.3}%
 \contentsline {subsection}{\numberline {6.5}User Security \& Privacy}{11}{subsection.6.5}%
 \contentsline {subsection}{\numberline {6.6}TOR/VPN Anonymity}{13}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Blockchain, Token Ecosystem and Layer 2}{13}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Viral Smart Chain – Short Intro}{13}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}IOTA Smart Contract Protocol}{13}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Viral Smart Chains}{14}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Token Ecosystem}{16}{subsection.7.4}%
+\contentsline {section}{\numberline {7}Blockchain, Token Ecosystem and Layer 2}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Viral Smart Chain – Short Intro}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}IOTA Smart Contract Protocol}{15}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Viral Smart Chains}{16}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Token Ecosystem}{18}{subsection.7.4}%

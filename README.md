@@ -587,29 +587,31 @@ All Media uploaded to Viral is End-to-end Encrypted where all the files are encr
 
 flowchart TB
   
+  subgraph Encryption
   subgraph Offline Process
-  A[User Uploads Media]--1-->B[Generates secret-key]
-  B--2-->C[Encrypted Locally]
+  A[<font size=6>User Uploads Media]--<font size=6>1-->B[<font size=6>Generates secret-key]
+  B--<font size=6>2-->C[<font size=6>Encrypted Locally]
   end
   subgraph Post-MetaData
   subgraph static
-  id
-  IPFS-URI
-  secret-key
+  L[<font size=6>id]
+  R[<font size=6>IPFS-URI]
+  U[<font size=6>secret-key]
   end
   subgraph dynamic
-  other-data
+  P[<font size=6>other-data]
   end
   end
   subgraph IPFS
-  D[File Upload to IPFS Public]--5-->G[Receives IPFS-URI]
-  G--6-->E[Pins IPFS-URI to Viral's IPFS Cluster]
-  E--7-->F[Cluster repetition = min:8 max:15]
+  D[<font size=6>File Upload to IPFS Public]--<font size=6>5-->G[<font size=6>Receives IPFS-URI]
+  G--<font size=6>6-->E[<font size=6>Pins IPFS-URI to Viral's IPFS Cluster]
+  E--<font size=6>7-->F[<font size=6>Cluster repetition = min:8 max:15]
   end
-  B--secret-key-->static
-  IPFS--8------>K2[Add IPFS-URI]-->IPFS-URI
-  C--3-->K1[Encrypted File]--4-->D
-  Post-MetaData--9-->K3[Content is Stored]
+  B--<font size=6>secret-key-->static
+  IPFS--<font size=6>8------>K2[<font size=6>Add IPFS-URI]-->R
+  C--<font size=6>3-->K1[<font size=6>Encrypted File]--<font size=6>4-->D
+  Post-MetaData--<font size=6>9-->K3[<font size=6>Content is Stored]
+  end
 
 ```
 **Decryption**
