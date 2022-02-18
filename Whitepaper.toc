@@ -1,33 +1,61 @@
 \contentsline {section}{\numberline {1}User Problems \& Basic Solutions}{1}{section.1}%
 \contentsline {section}{\numberline {2}Vision Statement}{1}{section.2}%
-\contentsline {section}{\numberline {3}Unified Mobile Application - An Intro to Viral}{4}{section.3}%
-\contentsline {section}{\numberline {4}Viral Platform Architecture}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Development Tech Stack}{5}{subsection.4.1}%
-\contentsline {section}{\numberline {5}How Whitepaper Structured}{5}{section.5}%
-\contentsline {section}{\numberline {6}Social media \& User Experience}{6}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Types of Post}{6}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Shots}{6}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Thoughts}{6}{subsubsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}Drops}{7}{subsubsection.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.4}Interactive Videos}{7}{subsubsection.6.1.4}%
-\contentsline {subsubsection}{\numberline {6.1.5}NFT Utilities}{7}{subsubsection.6.1.5}%
-\contentsline {subsubsection}{\numberline {6.1.6}Tunes}{7}{subsubsection.6.1.6}%
-\contentsline {subsubsection}{\numberline {6.1.7}Sketch}{7}{subsubsection.6.1.7}%
-\contentsline {subsubsection}{\numberline {6.1.8}Originals}{7}{subsubsection.6.1.8}%
-\contentsline {subsubsection}{\numberline {6.1.9}Tickets}{8}{subsubsection.6.1.9}%
-\contentsline {subsubsection}{\numberline {6.1.10}Filters}{8}{subsubsection.6.1.10}%
-\contentsline {subsection}{\numberline {6.2}Avatars}{8}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Meta-Chat}{8}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Live \& Rooms}{9}{subsubsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.3}Engagements}{9}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Other Features}{10}{subsection.6.4}%
-\contentsline {subsubsection}{\numberline {6.4.1}Privacy Groups}{10}{subsubsection.6.4.1}%
-\contentsline {subsubsection}{\numberline {6.4.2}Audio Emoji}{11}{subsubsection.6.4.2}%
-\contentsline {subsubsection}{\numberline {6.4.3}Interest Based Recommendation}{11}{subsubsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.5}User Security \& Privacy}{11}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}TOR/VPN Anonymity}{13}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Blockchain, Token Ecosystem and Layer 2}{15}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Viral Smart Chain – Short Intro}{15}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}IOTA Smart Contract Protocol}{15}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Viral Smart Chains}{16}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Token Ecosystem}{18}{subsection.7.4}%
+\contentsline {section}{\numberline {3}Unified Mobile Application - An Intro to Viral}{5}{section.3}%
+\contentsline {section}{\numberline {4}Viral Platform Architecture}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Development Tech Stack}{6}{subsection.4.1}%
+\contentsline {section}{\numberline {5}How Whitepaper Structured}{6}{section.5}%
+\contentsline {section}{\numberline {6}Social media \& User Experience}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Types of Post}{7}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Shots}{7}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Thoughts}{7}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Drops}{8}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}Interactive Videos}{8}{subsubsection.6.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.5}NFT Utilities}{8}{subsubsection.6.1.5}%
+\contentsline {subsubsection}{\numberline {6.1.6}Tunes}{8}{subsubsection.6.1.6}%
+\contentsline {subsubsection}{\numberline {6.1.7}Sketch}{8}{subsubsection.6.1.7}%
+\contentsline {subsubsection}{\numberline {6.1.8}Originals}{8}{subsubsection.6.1.8}%
+\contentsline {subsubsection}{\numberline {6.1.9}Tickets}{9}{subsubsection.6.1.9}%
+\contentsline {subsubsection}{\numberline {6.1.10}Filters}{9}{subsubsection.6.1.10}%
+\contentsline {subsection}{\numberline {6.2}Avatars}{9}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Meta-Chat}{9}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Live \& Rooms}{10}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}Engagements}{10}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Other Features}{11}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Privacy Groups}{11}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Audio Emoji}{12}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Interest Based Recommendation}{12}{subsubsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.5}User Security \& Privacy}{12}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}TOR/VPN Anonymity}{14}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Blockchain, Token Ecosystem and Layer 2}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Viral Smart Chain – Short Intro}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}IOTA Smart Contract Protocol}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Viral Smart Chains}{17}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Token Ecosystem}{19}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Layer 2 Solution}{20}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Smart Wallet}{21}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Viral Wallet}{21}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Viral CEX}{21}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Viral DEX}{21}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Viral Name System}{21}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Custodian Services}{21}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Other Wallet Features}{21}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Child Platforms}{21}{section.9}%
+\contentsline {subsection}{\numberline {9.1}ROV Community Platform}{21}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Dev-Space}{21}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Revenue and Incentives}{21}{section.10}%
+\contentsline {section}{\numberline {11}Viral DAO}{21}{section.11}%
+\contentsline {section}{\numberline {12}Viral Coin ICO}{21}{section.12}%
+\contentsline {section}{\numberline {13}Development Roadmap}{21}{section.13}%
+\contentsline {section}{\numberline {14}Phase 2}{21}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Atomic Swap DEX}{21}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}NFT L2 Solution}{21}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Viral DAO Platform \& ICO}{21}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Viral Decentralized Ads}{21}{subsection.14.4}%
+\contentsline {subsection}{\numberline {14.5}Influencer-Ad Platform}{21}{subsection.14.5}%
+\contentsline {subsection}{\numberline {14.6}P2P Exchange}{21}{subsection.14.6}%
+\contentsline {subsection}{\numberline {14.7}Addition of Popular De-Fi Platforms}{21}{subsection.14.7}%
+\contentsline {subsection}{\numberline {14.8}Business-Wallet API \& SDK}{21}{subsection.14.8}%
+\contentsline {section}{\numberline {15}Future Plans}{21}{section.15}%
+\contentsline {section}{\numberline {16}Team}{21}{section.16}%
+\contentsline {section}{\numberline {17}References}{21}{section.17}%
+\contentsline {section}{\numberline {18}Glossary}{21}{section.18}%
