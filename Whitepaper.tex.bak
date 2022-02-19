@@ -984,10 +984,9 @@ App Features\\
 
 Story\\
 
-Viral Influencer Ad-Platform is a Gig-based marketplace where Content creators can post their ad-gigs under specific categories such as impressions, engagement, link clicks, etc to various businesses where they can purchase with the trust of the blockchain. After the promises of the gig are achieved the payment will be released to the influencers. This effectively reduces the unwanted issues regarding promised results. Viral will be tapping the potential of influencer marketing by running ads through popular content creators. We want to effectively eliminate the excess process of a business to find influencers, contact, fix, transfer amount, etc into a simple user-friendly platform where it can\\
+Viral Influencer Ad-Platform is a Gig-based marketplace where Content creators can post their ad-gigs under specific categories such as impressions, engagement, link clicks, etc to various businesses where they can purchase with the trust of the blockchain. After the promises of the gig are achieved the payment will be released to the influencers. This effectively reduces the unwanted issues regarding promised results. Viral will be tapping the potential of influencer marketing by running ads through popular content creators. We want to effectively eliminate the excess process of a business to find influencers, contact, fix, transfer amount, etc into a simple user-friendly platform where it can
 
-
-\begin{itemize}[leftmargin=+0.2in]
+\begin{itemize}
 \item Find Influencers based on Filters
 \item Check all the gigs available
 \item Request a custom gig and receive a quotation
@@ -995,8 +994,7 @@ Viral Influencer Ad-Platform is a Gig-based marketplace where Content creators c
 \item Check all statistics of your running Ad
 \end{itemize}
 
-How it will work?\\
-
+How it will work?
 
 Business Owners / Individuals / Buyer can search for an influencer account with advanced search filters
 Finds an Influencer with the list of gigs 
@@ -1012,25 +1010,22 @@ The buyer gets results, Influencer gets paid
 Flowchart\\
 
 
-Complete Trust\\
+Complete Trust
 
+If the Gig result is not achieved the payment will not be paid to the influencer. When an individual purchases a gig, he will be paying through Viral Coins where the amount will be securely stored in a vault (smart contract) which is only released to the influencer’s wallet if the gig achieves its result. Here any individual and business owner can be sure that the influencer will need to achieve the result to get paid.
 
-If the Gig result is not achieved the payment will not be paid to the influencer. When an individual purchases a gig, he will be paying through Viral Coins where the amount will be securely stored in a vault (smart contract) which is only released to the influencer’s wallet if the gig achieves its result. Here any individual and business owner can be sure that the influencer will need to achieve the result to get paid.\\
-
-
-Search Filters\\
-
+Search Filters
 
 Influencer Ad-Platform will provide the Business owners and individuals looking for promoting their content on Viral where they can narrow their search to their expected influencers. This makes it easy for individuals and businesses without worrying about the research. We will be providing Filters to narrow down their search as much they can. Some filters are
 
-\begin{itemize}[leftmargin=+0.2in]
-\item Account Category (Eg: Food)
-\item Fan Base (Eg: more than 1M followers)
-\item Account Age (Eg: 6 months)
-\item Daily Impression (Eg: 257k views)
-\item Country (Eg: Canada)
-\item Reviews and Ratings
-\item Sort by : Top/Trending/Age/Fans/Impression/Rating 
+\begin{itemize}
+Account Category (Eg: Food)
+Fan Base (Eg: more than 1M followers)
+Account Age (Eg: 6 months)
+Daily Impression (Eg: 257k views)
+Country (Eg: Canada)
+Reviews and Ratings
+Sort by : Top/Trending/Age/Fans/Impression/Rating 
 \end{itemize}
 
 
@@ -1049,7 +1044,7 @@ This is where P2P exchanges come in. Peer-to-peer refers to the exchange or shar
 
 
 Advantages over Centralized
-\begin{enumerate}[leftmargin=+0.2in]
+\begin{enumerate}
 \item Peer-to-peer transactions generally do not require the involved parties to provide identification,  protecting everyone's right to privacy. 
 \item P2P exchanges allow the purchase of cryptocurrencies through the regional medium of exchange that the seller opts for (E.g. PayPal, Square, M-Pesa  etc). Viral offers P2P solutions to all countries' local payment methods for the users without any hassles.
 \end{enumerate}
