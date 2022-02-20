@@ -600,10 +600,6 @@ Viral Smart Chains, is a network of horizontally scalable EVM Chains on top of I
 
 IOTA provides an Off-Chain Smart Contract Solution for developers to create multiple-chains on Top of IOTA\textsc{\char13}s immutable Tangle. Since Ethereum transactions are processed On-chain by every single node on its network, it faces additional congestion, slow transaction time and subject to higher miner fees. IOTA\textsc{\char13}s off-chain smart contract solution makes use of blockchains anchored to the Tangle where the smart contracts are ran and achieved consensus with small set of committee nodes. This achieves a high scalable throughput and immutable records since the states of smart contracts such as Account Balances, Input Conditions and Consequences over time are updated on IOTA\textsc{\char13}s Tangle.\\
 
-\textbf{Architecture}\\
-
-$Architecture FlowChart$\\
-
 There are several components to understand more about IOTA\textsc{\char13}s Smart Contracts Protocol. It gives us multi-chain functionality to run smart contracts from different chains which allows a horizontal scaling of blockchains without a need for plasma or side chains.\\
 
 \textbf{Consensus and Validators}\\
@@ -655,8 +651,24 @@ This brings us to an effect that a single blockchain cannot set certain fees or 
 Viral\textsc{\char13}s aim to democratize NFT to the masses and bring massive NFT Adoption we will be running separate zero-fee chains for deploying ERC721 and ERC1155 Token directly from the Viral Application. The Validators for the chain will be open to join the network where they\textsc{\char13}ll be rewarded from the miner pool (total fee collected) based on the total transactions they validate in a day.\\
 
 \textbf{Family of Chains}\\
-\begin{itemize}[leftmargin=+0.2in]
 
+\begin{comment}%mermaid chainfamily
+graph TD
+    A[Genesis Chain]
+    B[General Chains]
+    B-->J[Description]
+    C[De-Fi Chains]
+    D[DEX Chain]
+    E[Fungible Contract Chains]
+    F[Non-Fungible Contract Chains]
+    G[Viral NFT Chains]
+    H[Marketplace Chains]
+    I[Other DApp Chain]
+    A-.-B
+    A-.-C-.-D & E & F & G & H & I
+\end{comment}
+
+\begin{itemize}[leftmargin=+0.2in]
 \item \textbf{Genesis Chain} : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc\\
 
 \item \textbf{General Chains} : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.\\

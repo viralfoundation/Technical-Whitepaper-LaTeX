@@ -53,9 +53,7 @@
 
 \title{Viral - Next Gen Social Engagement Network}
 \date{15 January 2022}
-\author{Joby Reuben\\joby@viralfoundation.org}
-
-
+\author{Joby Reuben\\joby@viral.com}
 
 \begin{document}
 
@@ -601,10 +599,6 @@ Viral Smart Chains, is a network of horizontally scalable EVM Chains on top of I
 \subsection{IOTA Smart Contract Protocol}
 
 IOTA provides an Off-Chain Smart Contract Solution for developers to create multiple-chains on Top of IOTA\textsc{\char13}s immutable Tangle. Since Ethereum transactions are processed On-chain by every single node on its network, it faces additional congestion, slow transaction time and subject to higher miner fees. IOTA\textsc{\char13}s off-chain smart contract solution makes use of blockchains anchored to the Tangle where the smart contracts are ran and achieved consensus with small set of committee nodes. This achieves a high scalable throughput and immutable records since the states of smart contracts such as Account Balances, Input Conditions and Consequences over time are updated on IOTA\textsc{\char13}s Tangle.\\
-
-\textbf{Architecture}\\
-
-$Architecture FlowChart$\\
 
 There are several components to understand more about IOTA\textsc{\char13}s Smart Contracts Protocol. It gives us multi-chain functionality to run smart contracts from different chains which allows a horizontal scaling of blockchains without a need for plasma or side chains.\\
 

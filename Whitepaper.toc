@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {8.3}Viral Smart Chains}{17}{subsection.8.3}%
 \contentsline {subsection}{\numberline {8.4}Token Ecosystem}{19}{subsection.8.4}%
 \contentsline {subsubsection}{\numberline {8.4.1}Viral Coin - Native Token}{19}{subsubsection.8.4.1}%
-\contentsline {subsubsection}{\numberline {8.4.2}Viral Stable Coin}{20}{subsubsection.8.4.2}%
+\contentsline {subsubsection}{\numberline {8.4.2}Viral Stable Coin}{19}{subsubsection.8.4.2}%
 \contentsline {subsubsection}{\numberline {8.4.3}Wrapped Tokens}{21}{subsubsection.8.4.3}%
 \contentsline {subsection}{\numberline {8.5}Off-Chain (Layer 2) Solution}{21}{subsection.8.5}%
 \contentsline {subsection}{\numberline {8.6}Payment Channels - State Channels}{21}{subsection.8.6}%
@@ -47,8 +47,8 @@
 \contentsline {section}{\numberline {10}Child Platforms}{23}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Content Moderation Platform}{23}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Developer Platform}{27}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Social Nodes}{28}{subsection.10.3}%
-\contentsline {section}{\numberline {11}Global Reward Pool}{28}{section.11}%
+\contentsline {subsection}{\numberline {10.3}Social Nodes}{29}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Global Reward Pool}{29}{section.11}%
 \contentsline {section}{\numberline {12}Viral DAO}{32}{section.12}%
 \contentsline {section}{\numberline {13}Viral Coin ICO}{32}{section.13}%
 \contentsline {section}{\numberline {14}Development Roadmap}{32}{section.14}%
@@ -58,10 +58,10 @@
 \contentsline {subsection}{\numberline {15.3}Viral DAO Platform and ICO}{32}{subsection.15.3}%
 \contentsline {subsection}{\numberline {15.4}Viral Decentralized Ads}{32}{subsection.15.4}%
 \contentsline {subsection}{\numberline {15.5}Influencer-Ad Platform}{32}{subsection.15.5}%
-\contentsline {subsection}{\numberline {15.6}P2P Exchange}{33}{subsection.15.6}%
-\contentsline {subsection}{\numberline {15.7}Addition of Popular De-Fi Platforms}{34}{subsection.15.7}%
-\contentsline {subsection}{\numberline {15.8}Business-Wallet API and SDK}{34}{subsection.15.8}%
-\contentsline {section}{\numberline {16}Future Plans}{34}{section.16}%
-\contentsline {section}{\numberline {17}Team}{34}{section.17}%
-\contentsline {section}{\numberline {18}References}{34}{section.18}%
-\contentsline {section}{\numberline {19}Glossary}{34}{section.19}%
+\contentsline {subsection}{\numberline {15.6}P2P Exchange}{34}{subsection.15.6}%
+\contentsline {subsection}{\numberline {15.7}Addition of Popular De-Fi Platforms}{35}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}Business-Wallet API and SDK}{35}{subsection.15.8}%
+\contentsline {section}{\numberline {16}Future Plans}{35}{section.16}%
+\contentsline {section}{\numberline {17}Team}{35}{section.17}%
+\contentsline {section}{\numberline {18}References}{35}{section.18}%
+\contentsline {section}{\numberline {19}Glossary}{35}{section.19}%
