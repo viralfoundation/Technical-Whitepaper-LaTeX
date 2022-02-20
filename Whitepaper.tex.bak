@@ -15,7 +15,7 @@
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=cyan,
-    pdftitle={Overleaf Example}
+    pdftitle={Viral-Technical Whitepaper}
 }
 
 
@@ -24,6 +24,7 @@
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric , arrows}
 \usetikzlibrary{mindmap,trees}
+\usepackage{adjustbox}
 
 %tikzlibrary
 
@@ -113,7 +114,53 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 
 External Links : \hyperlink{https://sample.com}{Explainer Video}\\
 
-\includegraphics[width=\textwidth]{viral-architecture}\\
+\begin{adjustbox}{width=\textwidth}
+    \begin{tikzpicture}
+      [mindmap,
+      grow cyclic,
+      every node/.style=concept,
+      concept color=violet!20,
+      level 1/.append style={sibling angle=360/6},
+      level 2/.append style={sibling angle=50},
+      ]
+      \node [root concept] {\textViral Social Platform}
+        child [concept color=purple!15, rotate=-40]{
+          node    {Viral Smart Chains}
+          child { node    {Payment Channels - L2} }
+          child { node    {Zk-Rollups} }
+          child { node    {Viral Bridge}}
+          child { node    {Horizontal Chains} }
+        }
+        child [concept color=teal!15, rotate=-20]{
+          node     {Smart Wallet}
+          child { node    {Viral CEX} }
+          child { node    {Viral DEX} }
+          child { node    {P2P Exchange} }
+          child { node    {Atomic DEX} }
+          child { node    {Viral Name System} }
+        }
+        child [concept color=green!15, rotate=-2]{
+          node  {Child Platforms}
+          child { node {ROV Community} }
+          child { node {Dev-Space} }
+          child { node {Social Nodes} }
+          child { node {Ad-Platform} }
+        }
+        child [concept color=blue!15, rotate=-4]{
+          node  {Governance Organizations}
+          child { node {Viral Foundation} }
+          child { node {Viral DAO} }
+        }
+        child [concept color=yellow!15, rotate=-20]{
+          node   {Global Rewards}%[clockwise from=45, level distance=8cm]
+        }
+        child [concept color=black!10, rotate=-30] {
+          node {Other Backend}}
+        ;  
+        
+        \end{tikzpicture}
+\end{adjustbox}
+
 
 \begin{enumerate}
 
