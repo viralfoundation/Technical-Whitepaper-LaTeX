@@ -8,6 +8,7 @@
 
 
 
+
 \usepackage{hyperref}
 \hypersetup{
 	colorlinks=true,
@@ -22,6 +23,7 @@
 \input{solidity-highlighting.tex}
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric , arrows}
+\usetikzlibrary{mindmap,trees}
 
 %tikzlibrary
 
@@ -99,17 +101,19 @@ To form a clean people-owned platform appropriate for all age groups
 \newpage
 \section{Unified Mobile Application - An Intro to Viral}
 
-\hyperlink{https://sample.com}{App Brouchure}\\
 
-\textit{Images}\\
+External Links : \hyperlink{https://sample.com}{App-Brouchure},\ \hyperlink{https://sample.com}{Intro-Video},\ \hyperlink{https://sample.com}{Light-Paper}\\
 
-A Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies\textsc{\char13} underlying applications into an every-day user-based mobile app. Viral bridges Social Media with Blockchain, Wallets, Exchanges and NFT Markeplaces to bring the ultimate one-app for the common masses to adopt into the tokenised economy.\\
+
+Viral is a Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies\textsc{\char13} underlying applications into an every-day user-based mobile app. Viral bridges Social Media with Blockchain, Wallets, Exchanges and NFT Markeplaces to bring the ultimate one-app for the common masses to adopt into the tokenised economy.\\
 
 Every media shared on viral is an unique NFT where it can be utilized to create limitless achievable outcomes across the platform. Users can share ultra-short to short videos, thoughts through text, sell NFTs and additionally make communication between one-on-one, private groups and, open channels with total genuine privacy. App users will be benefitted from zero ads, cryptographic encryption, censorship-resistant and, also get to use various cryptocurrencies throughout the platform. Every user is an active contributor to the platform by which they receive rewards (payment) in Viral Coin for effectively utilizing the Viral Application and it\textsc{\char13}s child platforms.\\
 
 \section{Viral Platform Architecture}
 
-\textit{Diagram}\\
+External Links : \hyperlink{https://sample.com}{Explainer Video}\\
+
+\includegraphics[width=\textwidth]{viral-architecture}\\
 
 \begin{enumerate}
 
@@ -143,11 +147,13 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 \begin{enumerate}
 
 \item \textbf{Dev-Space}: Application for Developers to decide on reward allocation for improving Viral-Beta
-\item \textbf{ROV App}: Curator Platform to vote and remove reported content on Viral-Alpha
+\item \textbf{ROV Community}: Curator Platform to vote and remove reported content on Viral-Alpha
 \item \textbf{Ad Platform}: Decentralized Ad platform connecting Influencers,businesses and users for trustless engagement-proof ads.
-\item \textbf{Reward Pool}: To incentivize all users, miners, developers using smart contracts for their content, validation of transactions, and continuous development through unbiased pointing strategy that offers more rewards to bigger contributors.
 
 \end{enumerate}
+
+\item \textbf{Global Rewards}: To incentivize all users, miners, developers using smart contracts for their content, validation of transactions, and continuous development through unbiased pointing strategy that offers more rewards to bigger contributors.
+
 
 \item \textbf{Other Backend}: For contingencies which will be later decentralized in the further phases of the development roadmap
 
@@ -156,8 +162,6 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 \end{enumerate}
 
 	\subsection{Development Tech Stack}
-
-	\textit{Diagram}\\
 
 	\begin{enumerate}
 
