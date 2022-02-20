@@ -28,10 +28,10 @@
 
 %tikzlibrary
 
-\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.6cm, text width=3cm, text centered, draw=black, fill=red!15]
+\tikzstyle{st} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.6cm, text width=3cm, text centered, draw=black, fill=red!15]
 \tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2cm,text width=3cm,  minimum height=0.6cm, text centered, draw=black, fill=blue!15]
-\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=0.6cm,  text centered,text width=3cm, draw=black, fill=orange!15]
-\tikzstyle{decision} = [diamond, minimum width=3cm,  minimum height=0.6cm, text centered, draw=black,text width=3cm, fill=green!15]
+\tikzstyle{pro} = [rectangle, minimum width=3cm, minimum height=0.6cm,  text centered,text width=3cm, draw=black, fill=orange!15]
+\tikzstyle{dec} = [diamond, minimum width=3cm,  minimum height=0.6cm, text centered, draw=black,text width=3cm, fill=green!15]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 
 %tikzlibrary
@@ -112,9 +112,10 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 
 \section{Viral Platform Architecture}
 
-External Links : \hyperlink{https://sample.com}{Explainer Video}\\
+External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
 
-\begin{adjustbox}{width=\textwidth}
+\begin{center}
+\begin{adjustbox}{width=12cm}
     \begin{tikzpicture}
       [mindmap,
       grow cyclic,
@@ -123,15 +124,15 @@ External Links : \hyperlink{https://sample.com}{Explainer Video}\\
       level 1/.append style={sibling angle=360/6},
       level 2/.append style={sibling angle=50},
       ]
-      \node [root concept] {\textViral Social Platform}
-        child [concept color=purple!15, rotate=-40]{
+      \node [root concept] {Viral Social Platform}
+        child [concept color=purple!10, rotate=-40]{
           node    {Viral Smart Chains}
           child { node    {Payment Channels - L2} }
           child { node    {Zk-Rollups} }
           child { node    {Viral Bridge}}
           child { node    {Horizontal Chains} }
         }
-        child [concept color=teal!15, rotate=-20]{
+        child [concept color=teal!10, rotate=-20]{
           node     {Smart Wallet}
           child { node    {Viral CEX} }
           child { node    {Viral DEX} }
@@ -139,28 +140,28 @@ External Links : \hyperlink{https://sample.com}{Explainer Video}\\
           child { node    {Atomic DEX} }
           child { node    {Viral Name System} }
         }
-        child [concept color=green!15, rotate=-2]{
+        child [concept color=green!10, rotate=-2]{
           node  {Child Platforms}
           child { node {ROV Community} }
           child { node {Dev-Space} }
           child { node {Social Nodes} }
           child { node {Ad-Platform} }
         }
-        child [concept color=blue!15, rotate=-4]{
+        child [concept color=blue!10, rotate=-4]{
           node  {Governance Organizations}
           child { node {Viral Foundation} }
           child { node {Viral DAO} }
         }
-        child [concept color=yellow!15, rotate=-20]{
+        child [concept color=yellow!10, rotate=-20]{
           node   {Global Rewards}%[clockwise from=45, level distance=8cm]
         }
-        child [concept color=black!10, rotate=-30] {
+        child [concept color=black!7, rotate=-30] {
           node {Other Backend}}
         ;  
         
         \end{tikzpicture}
 \end{adjustbox}
-
+\end{center}
 
 \begin{enumerate}
 
@@ -892,20 +893,34 @@ ROV will be having a separate Mobile Application for curators and moderators to 
 
 Process of Polls\\
 
-Flowchart\\
 
-\begin{comment}
-User reports content showing on his/her feed
-User selects a category to report (e.g., Spam)
-ROV creates a poll showing the reported content to all active curators’ feeds.
-The Poll will have two options Remove & Keep 
-According to the Category the timer will run for each poll (e.g., 2 hours)
-The poll will end prematurely before the due time if votes are more than 10 and 95\% voted on removing/keeping
- After the poll ends the votes are calculated and decided to keep or remove the content
-The Stabilizers/Miners running their IPFS clusters will remove the content automatically
-If the poll decides to keep the content, it will notify the user who reported for a re-appeal which can be applied once again with an explanation
-Automatically Nudity and Pornographic content will be removed without polls using AI
+\begin{figure}
+\begin{center}
+\includegraphics[width=8cm]{rov-poll}
+\caption{Glimpse of ROV Process}
+\end{center}
+\end{figure}
+
+
+\begin{comment}%rovgrpah
+
+%mermaid graph https://mermaid-js.github.io/
+
+flowchart TB
+
+A([User Reports])--From Viral App-->B[/ROV Receives/]
+B-->C
+C[Creates Poll]-->D[Timer Starts]
+D-->E{If 95% Votes >10}
+D-->|Timer Finishes|H
+E--no-->G[Timer Continues]
+E--yes-->H[Poll Ends]
+G--loop-->E
+H-->|Result: Keep|I([Re-Appeal Notified])
+H-->|Result: Remove|J([IPFS source removed])
+
 \end{comment}
+
 
 Continuous Removal Caution to change to private account\\
 

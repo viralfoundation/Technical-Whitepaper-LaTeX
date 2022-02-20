@@ -95,6 +95,18 @@ A Next-Gen Social Media platform bridging interactive media, NFTs, and blockchai
 
 Every media shared on viral is an unique NFT where it can be utilized to create limitless achievable outcomes across the platform. Users can share ultra-short to short videos, thoughts through text, sell NFTs and additionally make communication between one-on-one, private groups and, open channels with total genuine privacy. App users will be benefitted from zero ads, cryptographic encryption, censorship-resistant and, also get to use various cryptocurrencies throughout the platform. Every user is an active contributor to the platform by which they receive rewards (payment) in Viral Coin for effectively utilizing the Viral Application and it's child platforms.
 
+```mermaid
+flowchart LR
+
+    subgraph Report
+    A[User Reports] --From Viral App-->B(ROV receives)
+    end
+    Report-->Poll Runs
+    subgraph Poll Runs
+    C[Poll Runs for x amount of time]-->D[Hi]
+    end
+
+```
 
 ## 5. Viral Platform Architecture
 
