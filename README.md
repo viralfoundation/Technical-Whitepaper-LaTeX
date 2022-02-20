@@ -5,10 +5,10 @@
 <p align="center">By Viral Foundation and Viral DAO </p>
 <br><br/>
 
-## Table of contents
+## Table of content
 
 - [<p align="center"> Viral - Next Gen Decentralized Social Engagement Tool</p>](#-viral---next-gen-decentralized-social-engagement-tool)
-  - [Table of contents](#table-of-contents)
+  - [Table of content](#table-of-content)
   - [1. Abstract<a name="abstract"></a>](#1-abstract)
   - [2. User Problems and Basic Solutions](#2-user-problems-and-basic-solutions)
   - [3. Vision Statement](#3-vision-statement)
