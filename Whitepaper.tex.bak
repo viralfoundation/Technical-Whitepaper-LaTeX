@@ -51,7 +51,7 @@
         \addtolength{\leftmargini}{-4em}}
 \graphicspath{ {./assets/images/} }
 
-\title{Viral - Next Gen Social Engagement Network}
+\title{Viral - Next Gen Social Communication \& User Experience}
 \date{15 January 2022}
 \author{Joby Reuben\\joby@viral.com}
 
@@ -651,8 +651,24 @@ This brings us to an effect that a single blockchain cannot set certain fees or 
 Viral\textsc{\char13}s aim to democratize NFT to the masses and bring massive NFT Adoption we will be running separate zero-fee chains for deploying ERC721 and ERC1155 Token directly from the Viral Application. The Validators for the chain will be open to join the network where they\textsc{\char13}ll be rewarded from the miner pool (total fee collected) based on the total transactions they validate in a day.\\
 
 \textbf{Family of Chains}\\
-\begin{itemize}[leftmargin=+0.2in]
 
+\begin{comment}%mermaid chainfamily
+graph TD
+    A[Genesis Chain]
+    B[General Chains]
+    B-->J[Description]
+    C[De-Fi Chains]
+    D[DEX Chain]
+    E[Fungible Contract Chains]
+    F[Non-Fungible Contract Chains]
+    G[Viral NFT Chains]
+    H[Marketplace Chains]
+    I[Other DApp Chain]
+    A-.-B
+    A-.-C-.-D & E & F & G & H & I
+\end{comment}
+
+\begin{itemize}[leftmargin=+0.2in]
 \item \textbf{Genesis Chain} : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc\\
 
 \item \textbf{General Chains} : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.\\
@@ -800,23 +816,43 @@ Story\\
 Intro\\
 
 
-\subsection{Viral CEX}
+\subsection{Viral Semi-CEX}
 
 Centralized exchanges (CEXs) are a type of cryptocurrency exchange that is operated by a company that owns it in a centralized manner. Centralized exchanges most commonly facilitate trades between users by maintaining an order book: a collection of buy and sell orders posted by individual traders. CEX users do not actually exchange crypto or fiat currencies with each other. Instead, when they deposit their funds onto an exchange, the latter takes over the custody of the crypto assets and issues a corresponding amount to the buyer and seller. Users store their crypto assets on the exchange. Since the private key's ownership rests with the exchange, there is a risk of total loss should the exchange be compromised (Not your Keys, not your Coins). Cases of this kind are rare but historically have already occurred with losses in millions. CEX exchanges are under the control of regulators, third-party providers, and legal regulations. To prevent money laundering, operators are required to collect extensive data about their customers (KYC). This regularity is contrary to the basic idea of cryptocurrencies.\\
 
+\textbf{Common Insecurities Investors have on Centralized Exchanges}\\
 
-Justify the Problems\\
-Write a compelling Idea's Abstract\\
-Explain the terms vividly\\
-Abstract Diagram\\
+Ironically, many of the same factors that contribute to the advantages of a centralized exchange also contribute to the disadvantages.
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Custody}: Entrusting an exchange with your private keys means you don’t fully control your own money.
+
+\item \textbf{Security}: Because they hold a large number of assets, centralized exchanges are a prime target for bad actors. The most notorious exchange hacks were aimed at centralized exchanges (e.g., Coincheck, Mt. Gox, BitGrail, NiceHash, and Bitfinex).
+
+\item \textbf{Manipulation}: Several centralized exchanges have been accused of manipulating their opaque nature and conducting insider trading, fake volume, and price manipulation.
+\end{enumerate}
+
+\textbf{Security Threats}\\
+
+As the security threats continues, there's currently no effective solution for a non-custodial fiat-crypto exchange. At any instance if a probable propaganda is proposed the primary user aquisition strategy of those solutions is to target the current users of popularly running cryptoexchanges which is a very long and narrow way to bring in users for the platform. Viral has a first mover advantage for such a non-custodial way of buying cryptocurrencies using fiat-currencies since it's application offers end to end solution on all aspects on the de-fi wave, user's are prompted to use it's services while using the application. This has a significance effect in acquiring users for an in-built crypto buying facility for users to trade in their fiat money. For one such of an exchange where it's users derived from a social media will impact the crypto adoption and also reassures the year-long threat of losing user's funds to potential hackers.\\
+
+\textbf{Intro to Viral Semi-Centralized Exchange}\\
+
+Decentralization refers to freedom and ownership. A centralized exchange restricts the ownership by being a custody to user's funds by maintaining the private keys on their central server. There is only two aspects a CEX will carry out: Buying and Selling. While both fiat and crypto funds is being held in custody, the Fiat Funds is securely holded (due to it's reversal mechanism), whereas the Crypto Funds are always open for attacks and cannot be reverted back nor easy to track the route of transactions to an individual after a breach. While Popular CEXs are tackling these breaches using secured cryptographic encryptions, firewalls, etc there is always a possibilty for a penetration expert to steal the funds. Viral is offering a non-custodial crypto buying solution by supplying fiat-pegged-tokens and exchanging via Atomic Order Book Swaps.\\
+
+\textbf{Basic Structure}\\
+
+Fiat-Colored Tokens in Deposit Wallet\\
+Atomic Exchange from token to token\\
+Makers as Sellers\\
+Makers as Buyers\\
+Withdrawal of Fiat\\
+Fiat-Colored Tokens when cross-region swaps\\
 User Registration \& KYC\\
-Double Security using Multi-Sig Wallets\\
-Loss of Keys\\
-Automated Withdrawal\\
-Order Book Exchange\\
 Exchange Fees\\
 Makers Incentives\\
-Limited Markets\\
+Markets\\
+Limitations\\
+
 Conclusion\\
 
 \subsection{Viral DEX}
@@ -832,7 +868,7 @@ Price Impacts\\
 Oracles\\
 Conclusion\\
 
-\subsection{Viral Name System}
+\subsection{Wallet Transfers \& Viral Name System}
 
 \subsection{Custodian Services}
 
