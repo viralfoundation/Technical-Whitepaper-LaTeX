@@ -816,7 +816,7 @@ Story\\
 Intro\\
 
 
-\subsection{Viral Semi-CEX}
+\subsection{Viral Semi-Centralized Exchange}
 
 Centralized exchanges (CEXs) are a type of cryptocurrency exchange that is operated by a company that owns it in a centralized manner. Centralized exchanges most commonly facilitate trades between users by maintaining an order book: a collection of buy and sell orders posted by individual traders. CEX users do not actually exchange crypto or fiat currencies with each other. Instead, when they deposit their funds onto an exchange, the latter takes over the custody of the crypto assets and issues a corresponding amount to the buyer and seller. Users store their crypto assets on the exchange. Since the private key's ownership rests with the exchange, there is a risk of total loss should the exchange be compromised (Not your Keys, not your Coins). Cases of this kind are rare but historically have already occurred with losses in millions. CEX exchanges are under the control of regulators, third-party providers, and legal regulations. To prevent money laundering, operators are required to collect extensive data about their customers (KYC). This regularity is contrary to the basic idea of cryptocurrencies.\\
 
@@ -841,7 +841,30 @@ Decentralization refers to freedom and ownership. A centralized exchange restric
 
 \textbf{Basic Structure}\\
 
+Viral Buy/Sell Exchange works differently from centralized exchanges. In current CEXs when user deposits his fiat funds, the funds will get deposited into the exchange's traditional banking account from where the user gets his fiat balance updated with a total figure he would have deposited. CEXs tracks user's fiat balances in a centralized manner and directly updates the database tables of each user after making successful trades. The update in fiat balances are done through centralized systems which is not transparent and needs to be trusted. This effectively comes to the usage of Fiat-backed-crypto tokens such as USDC, USDT, TrueUSD which holds equally backed fiat amount in reserves and thereby minting new tokens for user in which the is pegged 1:1 to a government backed fiat currency .i.e., typically US Dollar.\\
+
+Nowadays most users prefer to buy USDC and later use those tokens in various DeFi applications. The emergence of fiat backed tokens have paved a way of tokenizing fiat coins. As Viral's vision to bring rapid adoption to tokenized economy we provide our users to buy Viral Coins from fiat currencies by adopting fiat-tokenization strategy and atomic swaps for exchanging tokenized fiat to Viral Coin and vice versa.\\
+
+In simple words while today's crypto exchanges updates the fiat balance when users deposit their fiat currencies i.e., dollar, euro, yen, rupee into the exchange, while Viral Exchange provides users who deposit an equivalent amount of special Fiat-Token-ID Tagged tokens (Eg; USD, INR, EUR - all as crypto tokens) into their current non-custodial Viral wallet that can be referred as fiat balance from which users can trade in for Viral Coins. While buying and selling Viral Coins the users will be using their Fiat-Tagged Tokens to facilitate trades using a decentralized Atomic Swap Order Book Exchange in which both the buyers and sellers have to complete their KYC/AML procedures for sucessfully deposit and withdraw their fiat balances to their proffered bank method.\\
+
+A solution which combines tokenization of fiat assets and decentralized order books using atomic swaps is a better, safer and cheaper alternative to current custody model exchanges. Since deposit and withdrwal of fiat funds are subject to regulatory compliance some of the process such as KYC, AML will be required for users. \\
+
+Some of the benefits compared to current exchanges are
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Security of Funds}:
+\item \textbf{Decentralized Exchange}:
+\item \textbf{Elimination of Threats}:
+\item \textbf{User Owned Private Key}:
+\item \textbf{Zero Risk getting Scammed}:
+\end{enumerate}
+
+
+
+
 Fiat-Colored Tokens in Deposit Wallet\\
+
+
+
 Atomic Exchange from token to token\\
 Makers as Sellers\\
 Makers as Buyers\\
@@ -1179,8 +1202,6 @@ The segregation takes place every day at 2 AM UTC according to the votes they go
 \section{Development Roadmap}
 
 \section{Phase 2}
-
-\subsection{Atomic Swap DEX}
 
 \subsection{NFT L2 Solution}
 
