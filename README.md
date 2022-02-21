@@ -5,7 +5,7 @@
 <p align="center">By Viral Foundation and Viral DAO </p>
 <br><br/>
 
-## Table of content
+## Table of contents
 
 - [<p align="center"> Viral - Next Gen Decentralized Social Engagement Tool</p>](#-viral---next-gen-decentralized-social-engagement-tool)
   - [Table of content](#table-of-content)
