@@ -1493,15 +1493,23 @@ The Airdrops will be happening through automated smart contracts and off-chain t
 Viral Incentives are designed in such a way that every single contributor inside the network will get paid for their contribution through a democratic voting system and mathematically predicted points. These points prediction program will run on its own in Viral Smart Chain every day at 2.00 AM UTC to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. For App users it would be according to the percentage of impressions they recieve on their content, for ROV curators it will be total Plus Points they add for their votes, for Social Nodes it will be based on their total contribution per day, for Developers it will be based on voting by other developers, by which the contribution will be rewarded by its own community-driven platform.\\
 
 The 100\% percent of total daily revenue is distributed as \\
-\begin{enumerate}[leftmargin=+0.2in]
-\item Users (Views-Based) - 30\%
-\item ROV (Contribution-based) 10\%
-\item Social Nodes (Serving based) 30\%
-\item Developers (Contribution-based) 10\%
-\item Viral DAO 20\%
-\end{enumerate}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=9cm]{rewards}
+\caption{Allocation of Daily Revenue in percentage}
+\end{center}
+\end{figure}
 
-Users (Views-Based) - 12\%\\
+\begin{comment}%mermaid
+pie
+
+    title Reward Pool
+    "Users" : 30
+    "Social Nodes" : 30
+    "ROV Community" : 10
+    "Developers" :  10
+    "Viral DAO" : 20
+\end{comment}
 
 30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profile. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical social networking platform.This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
 
