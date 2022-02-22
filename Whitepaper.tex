@@ -5,7 +5,7 @@
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
-
+\usepackage{float}
 
 
 
@@ -205,7 +205,7 @@ External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
 
 \end{enumerate}
 
-\item \textbf{Child Platforms}: Independant platforms anchored to the viral network for effective improvement of protocols
+\item \textbf{Child Platforms}: Independent platforms anchored to the viral network for effective improvement of protocols
 
 \begin{enumerate}
 
@@ -453,7 +453,39 @@ For example: If a user is tips worth 57\$ then the commissions charged will be:\
 
 For the first     50\$ - 12\%\\
 And the remaining 7\$  - 17\%\\
+\begin{figure}[H]
 \includegraphics[width=\textwidth]{tips}\\
+\caption{Tips Flowchart}
+\end{figure}
+
+\begin{comment}%mermaid
+
+sequenceDiagram
+
+    participant John
+    participant Mary
+    participant Tipping Contract
+    participant John's Wallet
+    participant John's Profile
+    participant Reward Pool
+    
+
+    John->>+Mary:John Posts a Shot
+    Mary->>+Tipping Contract:Mary Sends x amount of Tokens
+    loop 
+    Tipping Contract-->Tipping Contract:Calculation of n from x
+    end
+    Tipping Contract->>+John's Wallet:Deposits y=[x-(x*n%)] of Tokens
+    Note over John: Influencer
+    Note over Mary: Tipper
+    Note over Tipping Contract: n = commision percentage
+    Note over John's Wallet: Receives y number of Tokens
+    Note right of Mary: Including transfer fees
+    Mary->>+John's Profile: Mary will be added as Tipped User with x amount
+    Tipping Contract->>+Reward Pool: Deposits z=x-y Tokens
+
+\end{comment}
+
 
 \begin{lstlisting}[language=Solidity, caption={Tipping Solidity Snippet}]
 
@@ -473,7 +505,21 @@ contract HelloWorld {
 
 Privacy Groups is a unique feature in Viral to create unlimited friend\textsc{\char13}s groups list to ensure maximum privacy for users to post and share to particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can empower complete privacy over viewers for certain posts.\\
 
+\begin{figure}[H]
 \includegraphics[width=\textwidth]{privacygroups}\\
+\caption{Privacy Groups}
+\end{figure}
+
+\begin{comment}%mermaid
+flowchart LR
+    A[User]-->0
+    0[3 Friends x,y,z]-->B[Group A]
+    0--->C[Group B]
+    B-->D[Read Access:x,y]
+    C-->E[Read Access:y,z]
+    D-->F[Restricted User:z]
+    E-->G[Restricted User:x]
+\end{comment}
 
 \begin{lstlisting}[language=Solidity, caption={GunDB Privacy Group Snippet}]
 
@@ -529,12 +575,41 @@ All Media uploaded to Viral is End-to-end Encrypted where all the files are encr
 $Detailed Explanation$\\
 
 
-\begin{figure}
-
-\includegraphics[width=\textwidth]{encryption}\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{encryption}
 \caption{Encryption of Media in Viral}
-
+\end{center}
 \end{figure}
+
+\begin{comment}
+flowchart TB
+
+  subgraph Offline Process
+  A([<font size=5>User Uploads Media])--<font size=5>1-->B([<font size=5>Generates secret-key])
+  B--<font size=5>2-->C[<font size=5>Encrypted Locally]
+  end
+  subgraph Post-MetaData
+  subgraph static
+  L[<font size=5>id]
+  R[<font size=5>IPFS-URI]
+  U[<font size=5>secret-key]
+  end
+  subgraph dynamic
+  P[<font size=5>other-data]
+  end
+  end
+  subgraph IPFS
+  D[/<font size=5>File Upload to IPFS Public/]--<font size=5>5-->G([<font size=5>Receives IPFS-URI])
+  G--<font size=5>6-->E[<font size=5>Pins IPFS-URI to Viral's IPFS Cluster]
+  E--<font size=5>7-->F[<font size=5>Cluster repetition = min:8 max:15]
+  end
+  B--<font size=5>secret-key-->U
+  IPFS--<font size=5>8------>K2[/<font size=5>Add IPFS-URI/]-->R
+  C--<font size=5>3-->K1[<font size=5>Encrypted File]--<font size=5>4-->D
+  Post-MetaData--<font size=5>9-->K3([<font size=5>Content is Stored])
+
+\end{comment}
 
 
 
@@ -544,23 +619,122 @@ Private Account Media Decryption\\
 
 $Detailed Explanation$\\
 
-\begin{figure}
-
-\includegraphics[width=\textwidth]{decryption-private}\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{decryption-private}
 \caption{Decryption Media of Private account in Viral}
-
+\end{center}
 \end{figure}
+
+\begin{comment}
+
+flowchart LR
+subgraph Private-Account-Media-Decryption
+  A0[User A request to view User B content]
+  subgraph Follower Verification
+  A0--1-->A1
+  A1[Gets User A Public Address]
+  A2[Gets User B Followers' Public Addresses]
+  A3[Cross verify]
+  A4[Content-Access Denied]
+  A1--2-->A3
+  A3--No-->A4
+  A2-->A3
+  end
+  subgraph IPFS-Download-Process
+  C1[URI is Fetched]
+  C2[Download's Encrypted File]
+  C1--5-->C2
+  end
+  A3--3-->K1[Sucessful]--4-->IPFS-Download-Process
+  subgraph User-B-Private-Account
+  B1[username]
+  B2[Followers-Public-Addresses]
+  B3[All Posts Meta-Data]
+  B4[Other Data]
+  end
+  B2-->A2
+  subgraph User-B-Post-MetaData
+  subgraph static
+  id
+  IPFS-URI
+  secret-key
+  end
+  subgraph dynamic
+  other-data
+  end
+  end
+  IPFS-URI-->C1
+  B3-->User-B-Post-MetaData
+  subgraph Decryption-of-encrypted-file
+  D1[secret-key is Fetched]
+  D2[Decrypt's the File]
+  D1--7-->D2
+  end 
+  secret-key-->D1
+  C2--6-->Decryption-of-encrypted-file
+  Z[Content is shown]
+  D2--8-->Z
+end
+
+\end{comment}
+
 
 Public Account Media Decryption\\
 
 $Detailed Explanation$\\
 
-\begin{figure}
-
-\includegraphics[width=\textwidth]{decryption-public}\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{decryption-public}
 \caption{Decryption Media of Public account in Viral}
-
+\end{center}
 \end{figure}
+
+\begin{comment}
+flowchart LR
+subgraph Public-Account-Media-Decryption
+  A0[User request to view a Public Account]
+  subgraph User Request
+  A0--1-->A1
+  A1[Gets User's Public Address]
+  end
+  subgraph Public-Account
+  B1[username]
+  B2[Watchers-Public-Addresses]
+  B3[All Posts Meta-Data]
+  B4[Other Data]
+  end
+  A1--2-->K1[Add to Watchers List]--3-->B2
+    subgraph IPFS
+  C1[URI is Fetched]
+  C2[Download's Encrypted File]
+  C1--5-->C2
+  end
+  subgraph Decryption-of-encrypted-file
+  D1[secret-key is Fetched]
+  D2[Decrypt's the File]
+  D1--7-->D2
+  end 
+  subgraph User-Post-MetaData
+  subgraph static
+  id
+  IPFS-URI
+  secret-key
+  end
+  subgraph dynamic
+  other-data
+  end
+  end
+  IPFS-URI--->C1
+  secret-key--->D1
+  B3--->User-Post-MetaData
+  B2--4-->IPFS
+  C2--6-->Decryption-of-encrypted-file
+  Z[Content is shown]
+  D2--8-->Z
+end
+\end{comment}
 
 
 \textbf{2. Chats and Private Messages}\\
@@ -875,7 +1049,7 @@ A solution which combines tokenization of fiat assets and decentralized order bo
 
 Fiat-Tag Tokens in Deposit Wallet\\
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{user-deposit}\\
 \caption{User Deposit and Fiat-Tag Token Distribution}
@@ -920,7 +1094,7 @@ Atomic Exchange from token to token\\
 
 Makers as Sellers\\
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=9cm]{maker-as-seller}\\
 \caption{Maker as Viral Coin Seller}
@@ -958,7 +1132,7 @@ graph TB
 Makers as Buyers\\
 
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=9cm]{maker-as-buyer}\\
 \caption{Maker as Viral Coin Buyer}
@@ -995,7 +1169,7 @@ graph TB
 
 Withdrawal of Fiat\\
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{withdrawal}\\
 \caption{Withdrawal of User Fiat Funds}
@@ -1039,12 +1213,6 @@ graph TB
     Q([Equillibrium attained Fiat Amount = Fiat-Tag Tokens Circulating supply])
 \end{comment}
 
-Tag-Tokens swaps\\
-
-
-
-
-
 \textbf{Fee Structure}\\
 
 Viral Semi-CEX takes very less percentage of fees comparing to other popular centralized exchanges. Viral takes fees based on deposit, withdrawal and trade. These fees doesn't include the network fees paid to the Viral Smart Chain which will be included seperately. Since Viral Smart Chain doesn't take gas fees and takes a very minute amount of base fee \$0.0005 and a transfer fee of 0.05\% it will not affect the users trades. The exchnage fees are listed below\\
@@ -1062,10 +1230,10 @@ Viral Semi-CEX takes very less percentage of fees comparing to other popular cen
 \end{enumerate}
 
 \textbf{Withdrawal Fee}
-\begin{enumerate}[leftmargin=+0.2in]
+\begin{itemize}[leftmargin=+0.2in]
 \item \textbf{Withdrawal Fee}: Fixed 0.1\% excluding credit/debit card or bank transfer fee
 \item \textbf{Burn Fee}: Fee charged for burning fiat-tag tokens .i.e., typically \$0.0005
-\end{enumerate}
+\end{itemize}
 
 
 
@@ -1076,12 +1244,20 @@ Viral Semi-CEX takes very less percentage of fees comparing to other popular cen
 \end{enumerate}
 
 
-Markets\\
+\textbf{Fiat-Markets}\\
 
+At the beta launch of the Viral application we will be launching with Top 7 Fiat Currency with the highest market cap listed to buy/sell Viral Coins. Since for every circulating Fiat-Tag Tokens, the funds will be holded through a fiat-reserve bank. This requires local effort to go through regulation processes of the region. So Viral will be adding new fiat-currency listings according to the amount of requests we receive. The list of 7 fiat currencies are
+\begin{enumerate}[leftmargin=+0.2in]
+\item USD - United States Dollar
+\item EUR - Euro
+\item JPY - Japanese Yen
+\item GBP - Pound Sterling
+\item KRW - South Korean Won
+\item INR - Indian Rupee
+\item CAD - Canadian Dollar
+\end{enumerate}
+Currently Viral operates as a stand alone application for the users to make use of cryptocurrencies through our decentralixed social media, we provide users solution to buy \& sell only Viral Coins at the current scenario. There is plans to add more wrapped-crypto pairs in the upcoming future such as vBTC, vETH, vSOL, vMATIC to hold cryptocurrencies in a single non-custodial wallet and trade in with fiat currencies at ease.
 
-
-
-Limitations\\
 
 Conclusion\\
 
@@ -1089,13 +1265,18 @@ Conclusion\\
 
 Decentralized exchanges (DEX) are a type of cryptocurrency exchange that allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need for an intermediary or a custodian, unlike Centralized exchanges. Decentralized exchanges are simply a set of automated smart contracts (code). They establish the prices of various cryptocurrencies against each algorithmically and use “liquidity pools” — in which investors lock funds in exchange for interest-like rewards — to facilitate trades. While transactions on a centralized exchange are recorded on that exchange’s internal database, DEX transactions are settled directly on the blockchain itself. There will be no custodian or any services which need to be maintained by a certain company to run a truly decentralized crypto exchange.DEXs are usually built on open-source code, meaning that anyone interested can see exactly how they work. That also means that developers can adapt existing code to create new competing projects — which is how Uniswap’s code has been adopted by an entire host of DEXs with “swap” in their names like Sushiswap and Pancakeswap.\\
 
-
 Intro\\
+
 Liquidity Pools\\
+
 Fee Structure\\
+
 Staking Rewards\\
+
 Price Impacts\\
+
 Oracles\\
+
 Conclusion\\
 
 \subsection{Wallet Transfers \& Viral Name System}
@@ -1154,7 +1335,7 @@ ROV will be having a separate Mobile Application for curators and moderators to 
 Process of Polls\\
 
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=8cm]{rov-poll}
 \caption{Glimpse of ROV Process}
@@ -1312,15 +1493,23 @@ The Airdrops will be happening through automated smart contracts and off-chain t
 Viral Incentives are designed in such a way that every single contributor inside the network will get paid for their contribution through a democratic voting system and mathematically predicted points. These points prediction program will run on its own in Viral Smart Chain every day at 2.00 AM UTC to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. For App users it would be according to the percentage of impressions they recieve on their content, for ROV curators it will be total Plus Points they add for their votes, for Social Nodes it will be based on their total contribution per day, for Developers it will be based on voting by other developers, by which the contribution will be rewarded by its own community-driven platform.\\
 
 The 100\% percent of total daily revenue is distributed as \\
-\begin{enumerate}[leftmargin=+0.2in]
-\item Users (Views-Based) - 30\%
-\item ROV (Contribution-based) 10\%
-\item Social Nodes (Serving based) 30\%
-\item Developers (Contribution-based) 10\%
-\item Viral DAO 20\%
-\end{enumerate}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=9cm]{rewards}
+\caption{Allocation of Daily Revenue in percentage}
+\end{center}
+\end{figure}
 
-Users (Views-Based) - 12\%\\
+\begin{comment}%mermaid
+pie
+
+    title Reward Pool
+    "Users" : 30
+    "Social Nodes" : 30
+    "ROV Community" : 10
+    "Developers" :  10
+    "Viral DAO" : 20
+\end{comment}
 
 30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profile. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical social networking platform.This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
 

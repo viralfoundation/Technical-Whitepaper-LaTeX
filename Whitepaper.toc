@@ -26,21 +26,21 @@
 \contentsline {subsubsection}{\numberline {7.4.2}Audio Emoji}{12}{subsubsection.7.4.2}%
 \contentsline {subsubsection}{\numberline {7.4.3}Interest Based Recommendation}{12}{subsubsection.7.4.3}%
 \contentsline {subsection}{\numberline {7.5}User Security and Privacy}{12}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}TOR/VPN Anonymity}{16}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.6}TOR/VPN Anonymity}{15}{subsection.7.6}%
 \contentsline {section}{\numberline {8}Blockchain, Token Ecosystem and Layer 2}{16}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Viral Smart Chain – Short Intro}{16}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}IOTA Smart Contract Protocol}{16}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Viral Smart Chains}{17}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.3}Viral Smart Chains}{16}{subsection.8.3}%
 \contentsline {subsection}{\numberline {8.4}Token Ecosystem}{19}{subsection.8.4}%
 \contentsline {subsubsection}{\numberline {8.4.1}Viral Coin - Native Token}{19}{subsubsection.8.4.1}%
 \contentsline {subsubsection}{\numberline {8.4.2}Viral Stable Coin}{19}{subsubsection.8.4.2}%
-\contentsline {subsubsection}{\numberline {8.4.3}Wrapped Tokens}{21}{subsubsection.8.4.3}%
+\contentsline {subsubsection}{\numberline {8.4.3}Wrapped Tokens}{20}{subsubsection.8.4.3}%
 \contentsline {subsection}{\numberline {8.5}Off-Chain (Layer 2) Solution}{21}{subsection.8.5}%
 \contentsline {subsection}{\numberline {8.6}Payment Channels - State Channels}{21}{subsection.8.6}%
-\contentsline {section}{\numberline {9}Smart Wallet}{22}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Viral Wallet}{22}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Viral Semi-Centralized Exchange}{22}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Intro to Viral Semi-Centralized Exchange}{23}{subsubsection.9.2.1}%
+\contentsline {section}{\numberline {9}Smart Wallet}{21}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Viral Wallet}{21}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Viral Semi-Centralized Exchange}{21}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Intro to Viral Semi-Centralized Exchange}{22}{subsubsection.9.2.1}%
 \contentsline {subsection}{\numberline {9.3}Viral DEX}{26}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}Wallet Transfers \& Viral Name System}{27}{subsection.9.4}%
 \contentsline {subsection}{\numberline {9.5}Custodian Services}{27}{subsection.9.5}%
