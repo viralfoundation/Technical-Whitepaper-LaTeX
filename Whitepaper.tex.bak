@@ -1026,7 +1026,7 @@ Ironically, many of the same factors that contribute to the advantages of a cent
 
 As the security threats continues, there's currently no effective solution for a non-custodial fiat-crypto exchange. At any instance if a probable propaganda is proposed the primary user aquisition strategy of those solutions is to target the current users of popularly running cryptoexchanges which is a very long and narrow way to bring in users for the platform. Viral has a first mover advantage for such a non-custodial way of buying cryptocurrencies using fiat-currencies since it's application offers end to end solution on all aspects on the de-fi wave, user's are prompted to use it's services while using the application. This has a significance effect in acquiring users for an in-built crypto buying facility for users to trade in their fiat money. For one such of an exchange where it's users derived from a social media will impact the crypto adoption and also reassures the year-long threat of losing user's funds to potential hackers.\\
 
-\subsubsection{Intro to Viral Semi-Centralized Exchange}
+\subsubsection{VCEX - Viral Semi-Centralized Exchange}
 
 Decentralization refers to freedom and ownership. A centralized exchange restricts the ownership by being a custody to user's funds by maintaining the private keys on their central server. There is only two aspects a CEX will carry out: Buying and Selling. While both fiat and crypto funds is being held in custody, the Fiat Funds is securely holded (due to it's reversal mechanism), whereas the Crypto Funds are always open for attacks and cannot be reverted back nor easy to track the route of transactions to an individual after a breach. While Popular CEXs are tackling these breaches using secured cryptographic encryptions, firewalls, etc there is always a possibilty for a penetration expert to steal the funds. Viral is offering a non-custodial crypto buying solution by supplying fiat-pegged-tokens and exchanging via Atomic Order Book Swaps.\\
 
@@ -1265,19 +1265,29 @@ Conclusion\\
 
 Decentralized exchanges (DEX) are a type of cryptocurrency exchange that allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need for an intermediary or a custodian, unlike Centralized exchanges. Decentralized exchanges are simply a set of automated smart contracts (code). They establish the prices of various cryptocurrencies against each algorithmically and use “liquidity pools” — in which investors lock funds in exchange for interest-like rewards — to facilitate trades. While transactions on a centralized exchange are recorded on that exchange’s internal database, DEX transactions are settled directly on the blockchain itself. There will be no custodian or any services which need to be maintained by a certain company to run a truly decentralized crypto exchange.DEXs are usually built on open-source code, meaning that anyone interested can see exactly how they work. That also means that developers can adapt existing code to create new competing projects — which is how Uniswap’s code has been adopted by an entire host of DEXs with “swap” in their names like Sushiswap and Pancakeswap.\\
 
-Intro\\
+\textbf{VDEX - Viral Decentalized Exchange}\\
 
-Liquidity Pools\\
+Viral DEX is Viral Smart Chain's native low-fee automated market maker based decentralized exchange that facilitates trade between users to exchange cryptocurrencies. VDEX will be featuring initial decentralized trades between available tokens on the smart chains such as Viral Coin, Viral Stable Coin and other wrapped tokens such as vBTC, vETH, vSOL, etc using Liquidity Pools and Constant Product Maker algorithm to determine prices of the exchange pairs. \\
 
-Fee Structure\\
+\textbf{Liquidity Pools}\\
 
-Staking Rewards\\
+Viral DEX consists of different liquidity pools for different trading pairs. Each trading pair will consist of two cryptocurrencies/tokens e.g VRL-VSC, VSC-vBTC. Every liquidity pool is a smart contract on the Viral Smart Chains which holds the reserves of the two tokens of the trading pairs which will allow anyone to deposit and withdraw funds by providing one of the trading token with a specific set of smart contract rules. The current prices of trading pairs will be determined by the constant product formula\\
+\begin{equation}
+x*y=k
+\end{equation}
+Here x and y denotes the reserves of two tokens of the trading pair. This constant product formula dictates that the $k$ (constant) should maintain the same. So, inorder for users to withdraw some funds from the reserve they should provide the exact number of alternate tokens to maintain the constant $k$ to the liquidity pool/smart contract.
 
-Price Impacts\\
+\textbf{Fee Structure}\\
 
-Oracles\\
+\textbf{LP Tokens}\\
 
-Conclusion\\
+\textbf{Price Oracles}\\
+
+\textbf{Viral Coin and Viral Stable Coin}
+
+\textbf{Minimizing Price Impacts}
+
+\textbf{Conclusion}\\
 
 \subsection{Wallet Transfers \& Viral Name System}
 
@@ -1285,7 +1295,7 @@ Conclusion\\
 
 \subsection{Other Wallet Features}
 
-QR Pay\\
+\textbf{QR Pay}\\
 
 The need for faster transactions is rising higher every year and new technologies have been introduced such as NFC, Scan Code, etc. Since Viral Wallet is a crypto wallet, it will be hard for people to use a public address to send and request Viral Coins or other cryptocurrencies to Merchants using the Smart Wallet . QR Pay is a feature to be added on the Smart Wallet to facilitate faster recognition of seller’s wallet address and the amount to be transferred by scanning a simple generated QR Code through Viral Application. This QR Pay will come when the user doesn’t know their username and want to request money from a nearby person. This will be helpful for businesses to collect payment from users swiftly by entering the amount needed to be paid.\\
 
@@ -1587,15 +1597,47 @@ Viral will give a better world to developers expecting a reward for their contri
 The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 10 hours every day.\\
 
 
-
-
-
-
 \section{Viral DAO}
 
+Story\\
+Intro\\
+Governance Models\\
+Viral Smart Chain\\
+On-Chain Governance\\
+Staked Tokens\\
+Viral Improvement Proposal\\
+Addition of New Chains\\
+Viral Ecosystem Governance\\
+DAO Intro\\
+List of Governing Platforms\\
+Viral DAO Tokens\\
+Holding Benefits\\
+DAO Platform\\
+DAO Revenue\\
+Distribution and Dividends\\
+Viral Operations Cost Structure Proposals\\
+DAO Treasury and Decisions\\
+Intial DAO Coin Offering\\
+DAO Bylaws\\
+
 \section{Viral Coin ICO}
+Intro\\
+Viral Coin Details\\
+Token Distribution\\
+Token Pre-Sale\\
+Token Main-Sale\\
+Token Alpha-Sale\\
+Token Usages\\
+Long Term Capital Gains\\
+Incentives to Investors\\
+Token Lockup Period\\
+Investors Exit Strategies\\
 
 \section{Development Roadmap}
+
+Phase 1 - Beta Launch, Alpha Launch
+Phase 2 - External Upgrades\\
+Phase 3 - Internal Upgrades\\
 
 \section{Phase 2}
 
