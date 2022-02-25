@@ -1261,13 +1261,44 @@ Currently Viral operates as a stand alone application for the users to make use 
 
 Conclusion\\
 
-\subsection{Viral DEX}
+\subsection{Viral Decentralized Exchanges}
 
 Decentralized exchanges (DEX) are a type of cryptocurrency exchange that allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need for an intermediary or a custodian, unlike Centralized exchanges. Decentralized exchanges are simply a set of automated smart contracts (code). They establish the prices of various cryptocurrencies against each algorithmically and use “liquidity pools” — in which investors lock funds in exchange for interest-like rewards — to facilitate trades. While transactions on a centralized exchange are recorded on that exchange’s internal database, DEX transactions are settled directly on the blockchain itself. There will be no custodian or any services which need to be maintained by a certain company to run a truly decentralized crypto exchange.DEXs are usually built on open-source code, meaning that anyone interested can see exactly how they work. That also means that developers can adapt existing code to create new competing projects — which is how Uniswap’s code has been adopted by an entire host of DEXs with “swap” in their names like Sushiswap and Pancakeswap.\\
 
+\textbf{Automated Market Makers}
+
+An automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.This formula can vary with each protocol. Most AMMs usesa constant product formula: $x * y = k$, where $x$ is the amount of one token in the liquidity pool, and $y$ is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same. Liquidity providers (LPs) add funds to liquidity pools. In return for providing liquidity to the protocol, LPs earn fees from the trades that happen in their pool. LPs deposit an equivalent value of two tokens – for example, 50\% of Token A and 50\% of Token B to the A/B Lquidity pool.\\
+
+\textbf{Pros of AMMs}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{No KYC Procedures}: Decentralized exchanges are similar to peer-to-peer exchanges but rather taking from an individual the user can withdraw funds from a trustless liquidity pool that requires no ID verification and other complex processes
+\item \textbf{Secure} : DEXs are secure as the funds are withdrawn, deposited and held on-chain through smart contracts that is secure and immutable
+\item \textbf{Non Custodial}: Liquidity Providers can provide liquidity and withdraw them whenever they need to, making it a non-custody protocol where user's funds will be held on a smart contract rather than a central custodian.
+\item \textbf{Zero Manipulation}: Since user's funds are stored in a trustless manner, the smart contracts cannot freeze any account, transfer data to anyone nor manipulates price like a centralized exchange
+\end{enumerate}
+
+\textbf{Cons of AMMs}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Scalability}: Various DEXs are suffered from network congestions which delays the execution of trades. This is been solved by making DEXs on top of scalable high throuoghput blockchains, but the DEXs are limited to the scalability of the blockchain itself and cannot scale on it's own.
+\item \textbf{Price Impacts}: Price impact is the influence of user's individual trade over the market price of an underlying asset pair. It is directly correlated with the amount of liquidity in the pool/Automated Market Maker (AMM).
+\item \textbf{Limited Functions}: AMM based DEXs offers only to execute buy and sell orders and doesn't offers advanced trading features like limit orders aren't available on current exchanges.
+\item \textbf{Volatility}: As price impacts being created, on an illiquid trading pair the volatility always reach new highs to stabilize the constant $k$ in the constant product formula $x*y=k$ to satisfy demands. This creates high volatile market while user's only use DEXs go for high liquid, low volatile market.
+\item \textbf{Impermanent Loss}: Impermanent loss describes the temporary loss of funds occasionally experienced by liquidity providers because of volatility in a trading pair. Liquidity Providers suffer negative returns comparing to holding tokens outside the pool. Volatility and Price Impacts are the major aspects of impermanent loss. The loss becomes permanent if a provider decides to withdraw their liquidity from the pool.
+\end{enumerate}
+
+Price Impact Issue
+
+List of Solution for Price Impact
+
+Stability of Reserves
+
+
+
+
+
 \textbf{VDEX - Viral Decentalized Exchange}\\
 
-Viral DEX is Viral Smart Chain's native low-fee automated market maker based decentralized exchange that facilitates trade between users to exchange cryptocurrencies. VDEX will be featuring initial decentralized trades between available tokens on the smart chains such as Viral Coin, Viral Stable Coin and other wrapped tokens such as vBTC, vETH, vSOL, etc using Liquidity Pools and Constant Product Maker algorithm to determine prices of the exchange pairs. \\
+Viral DEX is Viral Smart Chain's native low-fee automated market maker based decentralized exchange that facilitates trade between users to exchange cryptocurrencies. VDEX will be featuring initial decentralized trades between available tokens on the smart chains such as Viral Coin, Viral Stable Coin and other wrapped tokens such as vBTC, vETH, vSOL, etc using Liquidity Pools and Constant Product Maker algorithm to determine prices of the exchange pairs.\\
 
 \textbf{Liquidity Pools}\\
 
@@ -1275,7 +1306,7 @@ Viral DEX consists of different liquidity pools for different trading pairs. Eac
 \begin{equation}
 x*y=k
 \end{equation}
-Here x and y denotes the reserves of two tokens of the trading pair. This constant product formula dictates that the $k$ (constant) should maintain the same. So, inorder for users to withdraw some funds from the reserve they should provide the exact number of alternate tokens along with the dex fee to maintain the constant $k$ to the liquidity pool/smart contract.
+Here x and y denotes the reserves of two tokens of the trading pair. This constant product formula dictates that the $k$ (constant) should maintain the same. So, inorder for users to withdraw some funds from the reserve they should provide the exact number of alternate tokens along with the dex fee to maintain the constant $k$ to the liquidity pool/smart contract.\\
 
 \textbf{Fee Structure}\\
 
