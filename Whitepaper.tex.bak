@@ -1301,7 +1301,9 @@ An automated market maker (AMM) is a type of decentralized exchange (DEX) protoc
 The difference between the current market price and the price a user will pay to perform a swap in a decentralized exchange is known as Price Impacts. This happens when the ratio of the assets in the pool changes where one asset is more liquid and another is illiquid. When a large swap is conducted a maximum portion of the swapped asset is erased from the liquidity pool, supplying more of the provided asset, to maintain the $k$ of the constant product formula $x*y=k$ the smart contract will ask for a increased supply of tokens to balance the $k$. This will create a impact on the current price, making the trade much more expensive than centralized trades and spiking the volatility of the pool.\\
 
 For example\\
-Two Coins $X$ and $Y$
+
+Two Coins $X$ and $Y$\\
+
 
 \textbf{Pool Info/Before Swap}:
 \begin{itemize}[leftmargin=+0.2in]
@@ -1312,6 +1314,7 @@ Two Coins $X$ and $Y$
 \end{itemize}
 
 \textbf{Trade $n$}: $n$= 9,000 y for x\\
+
 \textbf{After Swap}:
 \begin{itemize}[leftmargin=+0.2in]
 \item After Swap $Y_n$=54,000 
@@ -1324,11 +1327,9 @@ Two Coins $X$ and $Y$
 \item Price paid per X / After Swap Price $M_n={\frac{n}{X_f}}$  = 2,699  
 \item \textbf{Price Impact} $P={\frac{M - M_n}{M}*100}$ = \textbf{19.95\% }
 \end{itemize}
-\textbf{Conclusion}
-To 
-\begin{itemize}
+\textbf{Conclusion}:\\
+To take 9,000 Y Tokens from XY Pool having 20:45000 Tokens, user have to pay \textbf{19.95\% more} than the market price. \textbf{Market Price = 2,250} , \textbf{User Price = 2,699}\\
 
-\end{itemize}
 
 Huge price impacts happens only in pools that has less liquidity when a maximum percentage of a token in a pool is withdrawn. These price impacts are being neutralized by arbitrage traders who buys token at lower prices on other exchanges and sell the same token high on decentralized exchanges which will has a maximum price impact, these arbitrage traders will continue to make trades for profits until the market price is achieved. Although arbitrage traders are available to minimize the price impacts, users cannot always wait for the arbitragers to stabilize the pools. DEX aggregators offer users a better solution by buying the token across all pools in order to minimize price impact on each one of them. Instead of spreading the trade over time in a single market, this order executes at once, spread over many possible markets. Aggregators also command substantially higher gas costs than a single trade, similar to splitting trades manually. To conclude there are different secondary solutions that minimizes the price impact through secondary trades (trades after the price impact maximizes), the first trader after it neutralizes will always execute orders with price impacts and slippage of prices while multiple trades happen in the middle.\\
 
