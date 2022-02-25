@@ -6,7 +6,11 @@
 \usepackage{enumitem}
 \usepackage{comment}
 \usepackage{float}
-
+\setlength{\footnotesep}{0.4cm}
+\usepackage{multicol}
+\usepackage{blindtext}
+\usepackage{changepage} 
+\usepackage{lipsum} 
 
 
 \usepackage{hyperref}
@@ -59,7 +63,7 @@
 
 \maketitle
 \begin{abstract}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+\lipsum[1]\lipsum[1]
 \end{abstract}
 
 \footnote{
@@ -1286,39 +1290,37 @@ An automated market maker (AMM) is a type of decentralized exchange (DEX) protoc
 \item \textbf{Impermanent Loss}: Impermanent loss describes the temporary loss of funds occasionally experienced by liquidity providers because of volatility in a trading pair. Liquidity Providers suffer negative returns comparing to holding tokens outside the pool. Volatility and Price Impacts are the major aspects of impermanent loss. The loss becomes permanent if a provider decides to withdraw their liquidity from the pool.
 \end{enumerate}
 
-Price Impact Issue
+\textbf{Problem 1 : Price Impacts in AMMs}\\
 
-List of Solution for Price Impact
+The differnce between the current market price and the price a user will pay to perform a swap in a decentralized exchange is known as Price Impacts. This happens when the ratio of the assets in the pool chnages where one asset is more liquid and another is illiquid. When a large swap is conducted a maximum portion of the swapped asset is erased from the liquidity pool, supplying more of the provided asset, to maintain the $k$ of the constant product formula $x*y=k$ the smart contract will ask for a increased supply of tokens to balance the $k$. This will create a impact on the current price, making the trade much more expensive than centralized trades and spiking the volatility of the pool.\\
 
-Stability of Reserves
+For example\\
+
+\textbf{Pool Info}:
+\begin{itemize}[leftmargin=+0.2in]
+\item VRL=20
+\item VSC=45,000
+\item Constant Product = 900,000 \footnote{$VRL*VSC = Constant Product$}
+\item Market Price = 2,250
+\end{itemize}
+
+\textbf{Trade}: 9,000 VSC for VRL\\
+\textbf{After Swap}:
+\begin{itemize}[leftmargin=+0.2in]
+\item VSC=54,000 
+\item Constant Product = 900,000 (Stays Same)
+\item VRL= 16.666  \footnote{$\frac{Constant Product}{New VSC}$}
+\end{itemize}
+
+\textbf{Results}:
+\begin{itemize}[leftmargin=+0.2in]
+\item Received VRL = 3.334 \footnote{${{Total VRL before trade}-{Total VRL after trade}}$}
+\item Price paid per VRL = 2,699  \footnote{$\frac{Total VSC Provided}{Received VRL}$} 
+\item \textbf{Price Impact} = \textbf{19.95\% }\footnote{$\frac{Market Price - Current Price}{Market Price}*100$}
+\end{itemize}
 
 
 
-
-
-\textbf{VDEX - Viral Decentalized Exchange}\\
-
-Viral DEX is Viral Smart Chain's native low-fee automated market maker based decentralized exchange that facilitates trade between users to exchange cryptocurrencies. VDEX will be featuring initial decentralized trades between available tokens on the smart chains such as Viral Coin, Viral Stable Coin and other wrapped tokens such as vBTC, vETH, vSOL, etc using Liquidity Pools and Constant Product Maker algorithm to determine prices of the exchange pairs.\\
-
-\textbf{Liquidity Pools}\\
-
-Viral DEX consists of different liquidity pools for different trading pairs. Each trading pair will consist of two cryptocurrencies/tokens e.g VRL-VSC, VSC-vBTC. Every liquidity pool is a smart contract on the Viral Smart Chains which holds the reserves of the two tokens of the trading pairs which will allow anyone to deposit and withdraw funds by providing one of the trading token with a specific set of smart contract rules. The current prices of trading pairs will be determined by the constant product formula\\
-\begin{equation}
-x*y=k
-\end{equation}
-Here x and y denotes the reserves of two tokens of the trading pair. This constant product formula dictates that the $k$ (constant) should maintain the same. So, inorder for users to withdraw some funds from the reserve they should provide the exact number of alternate tokens along with the dex fee to maintain the constant $k$ to the liquidity pool/smart contract.\\
-
-\textbf{Fee Structure}\\
-
-\textbf{LP Tokens}\\
-
-\textbf{Price Oracles}\\
-
-\textbf{Viral Coin and Viral Stable Coin}
-
-\textbf{Minimizing Price Impacts}
-
-\textbf{Conclusion}\\
 
 \subsection{Wallet Transfers \& Viral Name System}
 
