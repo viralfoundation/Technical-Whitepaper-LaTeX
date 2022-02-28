@@ -1425,7 +1425,23 @@ To read a swap book one must need to determine the primary (A) and secondary Tok
 \end{center}
 \end{figure}
 
-In centralized Order Books 
+Swap books contains prices derived from liquidity pool's current price and the trading pair's market prices. These continuous swaps determine the execution of orders into the liquidity pool and rebases the current liquidity pool's price to market price.\\
+
+\begin{equation}
+Current\:Price\:of\:A = \frac{B}{A}
+\end{equation}\\
+\begin{equation}
+Current\:Price\:of\:B = \frac{A}{B}
+\end{equation}
+
+
+
+In centralized Order Books buyers are matched with sellers on the same price rate where in a swap book an order is executed when the sum of all buyers equals sum of all sellers regardless of which token it is. This is a condition in a swap book for it to execute the order to a liquidity Pool
+
+
+\begin{equation}
+\sum_{n=}^{A} x = \sum_{n=}^{B} x
+\end{equation}
 
 
 

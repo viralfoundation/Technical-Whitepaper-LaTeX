@@ -1421,11 +1421,27 @@ To read a swap book one must need to determine the primary (A) and secondary Tok
  \textbf{Sell DAI} & \textbf{Buy ETH} & \textbf{Sell ETH} & \textbf{Buy DAI}\\
 \hline
 \end{tabularx}
-\caption{For example take ETH/DAI pool where ETH = \$2000 and DAI = \$1 , clearly the primary token is ETH and the secondary token is DAI}
+\caption{Example of an ETH/DAI Pool}
 \end{center}
 \end{figure}
 
-. 
+Swap books contains prices derived from liquidity pool's current price and the trading pair's market prices. These continuous swaps determine the execution of orders into the liquidity pool and rebases the current liquidity pool's price to market price.\\
+
+\begin{equation}
+Current\:Price\:of\:A = \frac{B}{A}
+\end{equation}\\
+\begin{equation}
+Current\:Price\:of\:B = \frac{A}{B}
+\end{equation}
+
+
+
+In centralized Order Books buyers are matched with sellers on the same price rate where in a swap book an order is executed when the sum of all buyers equals sum of all sellers regardless of which token it is. This is a condition in a swap book for it to execute the order to a liquidity Pool
+
+
+\begin{equation}
+\sum_{n=}^{A} x = \sum_{n=}^{B} x
+\end{equation}
 
 
 
