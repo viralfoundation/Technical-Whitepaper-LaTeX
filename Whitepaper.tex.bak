@@ -1353,12 +1353,39 @@ When trades happens the volatility of the two pairs is a nightmare to LPs due to
 
 Decentralized exchanges suffer greater scalability issues during frequent network congestions of blockchains. The scalability of DEXs is directly related to the scalability of blockchains. Without a highly scalable blockchain DEXs cannot prepare for a mainstream adoption where trading volume would increase by radical margins.\\
 
-Intro to Viral DEX\\
-Core-Idea\\
-Market Price Rebase\\
-Micro Pools\\
+\textbf{Solution to Current Risks}\\
+
+Current AMMs gives the opportunity for non-simultaneous series of buys and sells where two traders can buy A tokens freely which will increase the price impact thereby making the pool's token price to change drastically compared to the original market price. To eliminate price impacts for the next buyer (buy-buy trade) the following swaps (next swap order) should be opposite to the previous swap (sell) i.e., While first swap takes A tokens for B , the following trade should be taking B tokens for A, thereby minimizing price impact by stabilizing the pool for the next (buy) traders. A simultaneous matching of buyers and sellers can minimize the price impact for the next set of buyers and sellers. This matching is in centralized exchanges are done through order books where it matches traders for their input price .i.e, a limit order. The solution is to maintain a swap book on top of the liquidity pool to match buyers and sellers to maintain the stability of the pool and eliminate price impacts.\\
+
+\begin{figure}
+\begin{center}
+\caption{Flowchart of Explaining current AMM orders vs Required Orders}
+\end{center}
+\end{figure}
+
+While conducting an alternate(buy-sell) swap, it leaves significant price impacts on either of the trades for maintaining the $k$ in the Constant Product Formula $x*y=k$, it will not be useful to minimize the price impacts by doing two trades one after each other. Also when two trades match it is best in case to make a decentralized atomic swap instead of taking from a Liquidity pool that will revert to it's previous pool price before the trade. This comes to a conclusion that Traders with matching swaps doesn't provide any results for reducing price impacts, changing the pool's price to market price, etc. \\
+
+\begin{figure}
+\begin{center}
+\caption{How matching buyer and seller won't change pool price and create impacts}
+\end{center}
+\end{figure}
+
+To give solution to all the existing AMM risks and problems we should be allowing traders to only withdraw if they match with their corresponding opposite trader (buy-sell) while changing the traders buy/sell amount to change the pool's price to market price by traders acting as a smaller liquidity providers. \\
+
+\textbf{Intro to Viral DEX}\\
+
+Viral DEX is a Liquidity Pool exchange that matches buyers and sellers through it's swap book on top of it's Liquidity Pools while automatically rebasing the pool to it's live market's price thereby minimizing price impacts and proving faster and scalable trades using its micro-pool architecture\\
+
+Micro Pool Architecture\\
+
+
+
+
+Micro Pool Architecture\\
 Liquidity Providers\\
 Advanced Trading\\
+Benefits of Viral DEX
 
 
 
