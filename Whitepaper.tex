@@ -1427,12 +1427,27 @@ To read a swap book one must need to determine the primary (A) and secondary Tok
 
 Swap books contains prices derived from liquidity pool's current price and the trading pair's market prices. These continuous swaps determine the execution of orders into the liquidity pool and rebases the current liquidity pool's price to market price.\\
 
+\textbf{Pricing Strategy}\\
+
+In AMMs prices of swaps determined by the constant product formula $x*y=k$ where to swap $x$ tokens the liquidity pool will simulate the pool's after trade liquidity and by maintaining the $k$ constant it determines the amount of $y$ tokens a trader must provide. Whereas, in Viral DEX the constant product formula isn't used. Viral's Liquidity Pool execution of providing pool's liquidity will always require two simultaneous buy and sell of tokens with an addition of extra tokens to change the current price of pool to market price.
+
 \begin{equation}
 Current\:Price\:of\:A = \frac{B}{A}
-\end{equation}\\
-\begin{equation}
-Current\:Price\:of\:B = \frac{A}{B}
 \end{equation}
+
+A Pool's current price is determined by the ratio of the total tokens in the liquidity Pool. Since the current price isn't derived exactly from the market price, it might vary. Usual AMMs doesn't promises buy and selling of tokens in market rates, rather it is manually rebased to current market prices by arbitrage traders. Viral DEX doesn't provides the current buy price and sell price by calculating the ratio, rather it calculates the difference between the current market price and the current pool price and determines the buy and sell prices with conditions that can make the pool rebase to it's market price automatically when trades execute.\\
+
+The Buy and Sell Price will always in regards to the market price because of the Viral's constant rebasing mechanism. The difference of market and current price is calculated by subtracting 
+
+\begin{equation}
+Difference\:D = Market\:Price - Current\:Price
+\end{equation}
+
+
+
+\pagebreak
+
+
 
 
 
@@ -1443,10 +1458,6 @@ In centralized Order Books buyers are matched with sellers on the same price rat
 \sum_{n=}^{A} x = \sum_{n=}^{B} x
 \end{equation}
 
-
-
-
-\pagebreak
 
 Micro Pool Architecture\\
 Liquidity Providers\\
