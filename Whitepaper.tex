@@ -1019,7 +1019,7 @@ Story\\
 Intro\\
 
 
-\subsection{Viral Semi-Centralized Exchange}
+\subsection{Viral Fiat-Exchange}
 
 Centralized exchanges (CEXs) are a type of cryptocurrency exchange that is operated by a company that owns it in a centralized manner. Centralized exchanges most commonly facilitate trades between users by maintaining an order book: a collection of buy and sell orders posted by individual traders. CEX users do not actually exchange crypto or fiat currencies with each other. Instead, when they deposit their funds onto an exchange, the latter takes over the custody of the crypto assets and issues a corresponding amount to the buyer and seller. Users store their crypto assets on the exchange. Since the private key's ownership rests with the exchange, there is a risk of total loss should the exchange be compromised (Not your Keys, not your Coins). Cases of this kind are rare but historically have already occurred with losses in millions. CEX exchanges are under the control of regulators, third-party providers, and legal regulations. To prevent money laundering, operators are required to collect extensive data about their customers (KYC). This regularity is contrary to the basic idea of cryptocurrencies.\\
 
@@ -1431,19 +1431,72 @@ Swap books contains prices derived from liquidity pool's current price and the t
 
 In AMMs prices of swaps determined by the constant product formula $x*y=k$ where to swap $x$ tokens the liquidity pool will simulate the pool's after trade liquidity and by maintaining the $k$ constant it determines the amount of $y$ tokens a trader must provide. Whereas, in Viral DEX the constant product formula isn't used. Viral's Liquidity Pool execution of providing pool's liquidity will always require two simultaneous buy and sell of tokens with an addition of extra tokens to change the current price of pool to market price.
 
-\begin{equation}
-Current\:Price\:of\:A = \frac{B}{A}
-\end{equation}
+\begin{center}
+$Current\:Price\:of\:A = \frac{B}{A}$
+\end{center}
 
 A Pool's current price is determined by the ratio of the total tokens in the liquidity Pool. Since the current price isn't derived exactly from the market price, it might vary. Usual AMMs doesn't promises buy and selling of tokens in market rates, rather it is manually rebased to current market prices by arbitrage traders. Viral DEX doesn't provides the current buy price and sell price by calculating the ratio, rather it calculates the difference between the current market price and the current pool price and determines the buy and sell prices with conditions that can make the pool rebase to it's market price automatically when trades execute.\\
 
-The Buy and Sell Price will always in regards to the market price because of the Viral's constant rebasing mechanism. The difference of market and current price is calculated by subtracting 
+The Buy and Sell Price will always in regards to the market price because of the Viral's constant rebasing mechanism. The difference of market and current price is calculated by subtracting both prices. For Example in a ETH/DAI pool of ratio 5:2000 the current price is $\frac{B}{A}=\frac{2000}{5}=400$ where if the market price rose to 402 then the difference would be $Market\:Price - Current\:Price=402-400=2$
 
 \begin{equation}
 Difference\:D = Market\:Price - Current\:Price
 \end{equation}
 
+Thus a difference is taken into account to determine the buying and selling price of the current pair to rebase the price. The buy and sell price is determined by whether the difference is positive or negative. During bull market the difference will come in a positive integer when the $M.P>C.P$ market price is more than current price. Here the buy price of primary token will be added with the difference, where the sell price is the current price. During bear market the difference will come in a negeative integer when the $M.P<C.P$ market price is lesser than current price. Here the buy price of primary token will be the current price, where the sell price will be calculated by subtracting the difference\\
 
+If D = positive $+$
+\begin{equation}
+Buy\:A=Current\:Price+Difference
+\end{equation}
+\begin{equation}
+Sell\:A=Current\:Price
+\end{equation}
+If D = negative $-$
+\begin{equation}
+Buy\:A=Current\:Price
+\end{equation}
+\begin{equation}
+Sell\:A=Current\:Price-Difference
+\end{equation}
+
+\textbf{Example Problem}\\
+
+To understand how prices are calculated let's take an example problem. Find the pool's current price, buy \& sell price and difference while it's market price is less than 5\% of it's current price\\
+
+\textit{Given} : Pool = 256/12526\\
+
+\textit{Solution}\\
+Here C.P = Current Price , M.P = Market Price\\
+Given A = 256 , B = 12526 ;
+To find current price 
+\begin{equation}
+C.P\:of\:A=\frac{B}{A}=\frac{12526}{256}=\frac{48.9296875}{1}
+\end{equation}
+Currently 1A=48.9296875B\\
+
+Find M.P by subtracting 5\% of C.P $48.9296875 - ((48.9296875)(5\%))$ \\
+\begin{equation}
+M.P = 46.483203125
+\end{equation}
+
+Now, Find Difference between C.P and M.P $Difference\:D = Market\:Price - Current\:Price$
+\begin{equation}
+Difference\:D = -2.446484375
+\end{equation}
+If D = negative , $Buy\:A=Current\:Price$, $Sell\:A=Current\:Price-Difference$
+\begin{equation}
+Buy\:A = 48.9296875
+\end{equation}
+\begin{equation}
+Sell\:A = 51.376171875
+\end{equation}
+
+\textit{Proof}
+\begin{equation}
+Final\:Price=\frac{B+Buy\:Price - Sell\:Price}{A} = 46.483203125
+\end{equation}
+Taking (7) \& (11) : $M.P=F.P$ Hence the buy and sell price is found and proved to move the token price to the market price.
 
 \pagebreak
 

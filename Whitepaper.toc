@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {8.6}Payment Channels - State Channels}{21}{subsection.8.6}%
 \contentsline {section}{\numberline {9}Smart Wallet}{21}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Viral Wallet}{21}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Viral Semi-Centralized Exchange}{21}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.2}Viral Fiat-Exchange}{21}{subsection.9.2}%
 \contentsline {subsubsection}{\numberline {9.2.1}VCEX - Viral Semi-Centralized Exchange}{22}{subsubsection.9.2.1}%
 \contentsline {subsection}{\numberline {9.3}Viral Decentralized Exchanges}{26}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}Wallet Transfers \& Viral Name System}{32}{subsection.9.4}%
