@@ -1431,6 +1431,12 @@ Swap books contains prices derived from liquidity pool's current price and the t
 
 In AMMs prices of swaps determined by the constant product formula $x*y=k$ where to swap $x$ tokens the liquidity pool will simulate the pool's after trade liquidity and by maintaining the $k$ constant it determines the amount of $y$ tokens a trader must provide. Whereas, in Viral DEX the constant product formula isn't used. Viral's Liquidity Pool execution of providing pool's liquidity will always require two simultaneous buy and sell of tokens with an addition of extra tokens to change the current price of pool to market price.
 
+\begin{figure}[H]
+\begin{center}
+\caption{AMMs vs Viral DEX Swap match}
+\end{center}
+\end{figure}
+
 \begin{center}
 $Current\:Price\:of\:A = \frac{B}{A}$
 \end{center}
@@ -1471,7 +1477,7 @@ Here C.P = Current Price , M.P = Market Price\\
 Given A = 256 , B = 12526 ;
 To find current price 
 \begin{equation}
-C.P\:of\:A=\frac{B}{A}=\frac{12526}{256}=\frac{48.9296875}{1}
+C.P\:of\:A=\frac{B}{A}=\frac{12526}{256}=\frac{48.9296875}{1}=\frac{B}{A}
 \end{equation}
 Currently 1A=48.9296875B\\
 
@@ -1494,25 +1500,101 @@ Sell\:A = 51.376171875
 
 \textit{Proof}
 \begin{equation}
-Final\:Price=\frac{B+Buy\:Price - Sell\:Price}{A}
-\end{equation}
-\begin{equation}
-Final\:Price=\frac{48.9296875+48.9296875-51.376171875}{1} = 46.483203125
-\end{equation}
+Final\:Price=\frac{C.P+Buy\:Price - Sell\:Price}{A} = 46.483203125
+\end{equation}\\
+
+Taking (7) \& (11) : $M.P=F.P$ Hence the buy and sell price is found and proved to move the token price to the market price. Similarly when the D (Difference) is positive the outcome will be achieved. \\
 
 
-\pagebreak
+\textbf{Conditions and Requirements}\\
 
-
-
-
-
-In centralized Order Books buyers are matched with sellers on the same price rate where in a swap book an order is executed when the sum of all buyers equals sum of all sellers regardless of which token it is. This is a condition in a swap book for it to execute the order to a liquidity Pool
-
+In centralized Order Books buyers are matched with sellers on the same price rate where in a swap book an order is executed when the sum of all buyers amount (Buy A or Buy B) should equal sum of all sellers amount (Sell A or Sell B) regardless of which token it is. This is a condition in a swap book for it to execute the order to a Liquidity Pool. Off-Chain Trading engines shall match summations of both buy \& sell amounts randomly and execute order and send funds to the users.\\
 
 \begin{equation}
-\sum_{n=}^{A} x = \sum_{n=}^{B} x
+\sum_{n}^{\infty} BA_n = \sum_{n}^{\infty} SA_n
 \end{equation}
+\begin{center}
+(or)
+\end{center}
+\begin{equation}
+\sum_{n}^{B} BB = \sum_{n}^{B} SB
+\end{equation}\\
+
+In Equation (12) \& (13) the final index of the summations $\infty$ represents the limit of total number of table rows in the swap book e.g., $BA_1$ represents 1st row and Buy A column. The initial index $n$ indicates the swap book tables rows serial numbers where it's numbers are taken i.e., the swap amounts. The Summation term $BA_n, SA_n, BB_n, SB_n$ represents the addition of values taken from the tables. Here the Equation (12) constitutes that the summation of BA should be equal to summation SA and vice versa to be able to execute the swap. Where Equation (13) constitutes that the summation of BB should be equal to summation SB and vice versa to be able to execute the swap.\\
+
+\textit{Example Swap Order}\\
+
+A swap order in a Pool ratio of 256:1256 where it satisfies equation (12) to commence an order to the liquidity pool
+\begin{center}
+A = 256, B= 12526, C.P = 48.9296875, M.P=47,\\
+D=-1.9296875, Buy 1 A=48.9296875 B , Sell 1 A=50.859375 B
+\end{center}
+\begin{figure}[H]
+\begin{center}
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X | }
+ \hline
+ \textbf{Sl.no} & \textbf{Sell B (SB)} & \textbf{Buy A (BA)} & \textbf{Sell A (SA)} & \textbf{Buy B (BB)}\\
+ \hline
+ 1 & 48.929687  & 1  & 0.43  & 21.869531\\
+  \hline
+ 2 & 19.571875  & 0.4  & 0.946  & 48.112968\\
+  \hline
+ 3 & 63.608593  & 1.3  & 0.344  & 17.495625\\
+  \hline
+ 4 & 0.978593  & 0.02  & 1  & 50.859375\\
+   \hline
+   \hline
+ Total & 133.088748  & 2.72  & 2.72  & 138.337499\\
+\hline
+\end{tabularx}
+\caption{Example Swap Book matched order for $\sum_{BA=0}^{A} BA = \sum_{SA=0}^{A} SA$}
+\end{center}
+\end{figure}
+
+\begin{equation}
+Final\:Price=\frac{B+\sum SB - \sum BB}{A} = \frac{12526+133.088748-138.337499}{256}= 48.9091845664
+\end{equation}\\
+
+Here the total $\sum BA = \sum SA$ $2.72=2.72$ executes the order and changes the current price of 48.9296875 to  a final price of 48.9091845664 (Eq 14). After this trade the buy and sell price will be changed according to the difference $D=-1.9091845664$ Buy 1A=48.9091845664 and Sell 1A=50.8183691328 to bring the M.P to 47. Until the M.P is achieved the buy and sell price will change after each order execution.\\
+
+Swap book order that satisfies equation (13) to commence an order to the liquidity pool\\
+\begin{center}
+A = 256, B= 12526, C.P of B = 0.02043749, M.P=0.015,\\
+D=-0.00543749, Buy 1 B=0.02043749 A , Sell 1 B=0.02587498 A
+\end{center}
+\begin{figure}[H]
+\begin{center}
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X | }
+ \hline
+ \textbf{Sell B (SB)} & \textbf{Buy A (BA)} & \textbf{Sell A (SA)} & \textbf{Buy B (BB)}\\
+ \hline
+ 3297.339273  & 85.3185877421  & 39.0858162828  & 1912.45677834\\
+  \hline
+ 2110.29713472  & 54.6038961549  & 47.172536893  & 2308.1374911\\
+  \hline
+ 1187.04213828  & 30.7146915872  & 48.5203236614  & 2374.08427656\\
+   \hline
+   \hline
+ 6594.678546  & 170.637175484  & 134.778676837  & 6594.678546\\
+\hline
+\end{tabularx}
+\caption{Example Swap Book matched order for $\sum_{BB=0}^{B} BB = \sum_{SB=0}^{B} SB$}
+\end{center}
+\end{figure}
+\begin{equation}
+Final\:Price=\frac{A+\sum BA - \sum SB}{B} = \frac{256+134.778676837+170.637175484}{12526}= 0.017574764
+\end{equation}\\
+
+Here the total $\sum SB = \sum BB$ $6594.678546=6594.678546$ executes the order and changes the current price of 0.02043749 to  a final price of 0.0175747644 (Eq 15). After this trade the buy and sell price will be changed according to the difference $D=-0.0025747644$ Buy 1B=0.0175747644 A and Sell 1B=0.0201495288 A to bring the M.P to 0.015. Until the M.P is achieved the buy and sell price will change after each order execution.\\
 
 
 Micro Pool Architecture\\
