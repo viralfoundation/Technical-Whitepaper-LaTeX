@@ -36,6 +36,8 @@
 \usetikzlibrary{shapes.geometric , arrows}
 \usetikzlibrary{mindmap,trees}
 \usepackage{adjustbox}
+\usepackage[edges]{forest}
+\usetikzlibrary{arrows.meta}
 
 %tikzlibrary
 
@@ -64,7 +66,7 @@
 
 \title{Viral - Next Gen Social Communication \& User Experience}
 \date{15 January 2022}
-\author{Joby Reuben \\ joby@viralfoundation.org}
+\author{Viral Foundation \\ viralfoundation.org}
 
 \begin{document}
 
@@ -1517,7 +1519,7 @@ In centralized Order Books buyers are matched with sellers on the same price rat
 (or)
 \end{center}
 \begin{equation}
-\sum_{n}^{B} BB = \sum_{n}^{B} SB
+\sum_{n}^{\infty} BB_n = \sum_{n}^{\infty} SB_n
 \end{equation}\\
 
 In Equation (12) \& (13) the final index of the summations $\infty$ represents the limit of total number of table rows in the swap book e.g., $BA_1$ represents 1st row and Buy A column. The initial index $n$ indicates the swap book tables rows serial numbers where it's numbers are taken i.e., the swap amounts. The Summation term $BA_n, SA_n, BB_n, SB_n$ represents the addition of values taken from the tables. Here the Equation (12) constitutes that the summation of BA should be equal to summation SA and vice versa to be able to execute the swap. Where Equation (13) constitutes that the summation of BB should be equal to summation SB and vice versa to be able to execute the swap.\\
@@ -1552,7 +1554,7 @@ D=-1.9296875, Buy 1 A=48.9296875 B , Sell 1 A=50.859375 B
  Total & 133.088748  & 2.72  & 2.72  & 138.337499\\
 \hline
 \end{tabularx}
-\caption{Example Swap Book matched order for $\sum_{BA=0}^{A} BA = \sum_{SA=0}^{A} SA$}
+\caption{Example Swap Book matched order for $\sum_{n}^{\infty} BA_n = \sum_{n}^{\infty} SA_n$}
 \end{center}
 \end{figure}
 
@@ -1587,7 +1589,7 @@ D=-0.00543749, Buy 1 B=0.02043749 A , Sell 1 B=0.02587498 A
  6594.678546  & 170.637175484  & 134.778676837  & 6594.678546\\
 \hline
 \end{tabularx}
-\caption{Example Swap Book matched order for $\sum_{BB=0}^{B} BB = \sum_{SB=0}^{B} SB$}
+\caption{Example Swap Book matched order for $\sum_{n}^{\infty} BB_n = \sum_{n}^{\infty} SB_n$}
 \end{center}
 \end{figure}
 \begin{equation}
@@ -1597,10 +1599,170 @@ Final\:Price=\frac{A+\sum BA - \sum SB}{B} = \frac{256+134.778676837+170.6371754
 Here the total $\sum SB = \sum BB$ $6594.678546=6594.678546$ executes the order and changes the current price of 0.02043749 to  a final price of 0.0175747644 (Eq 15). After this trade the buy and sell price will be changed according to the difference $D=-0.0025747644$ Buy 1B=0.0175747644 A and Sell 1B=0.0201495288 A to bring the M.P to 0.015. Until the M.P is achieved the buy and sell price will change after each order execution.\\
 
 
-Micro Pool Architecture\\
-Liquidity Providers\\
-Advanced Trading\\
-Benefits of Viral DEX
+\textbf{Micro Pool Architecture}\\
+
+Viral DEX Pools implies a micro pool architecture for it's unlimited scalability and high throughput on swap orders. Since the protocol implies a swap book which will be matching total buys and total sells, the orders may get delayed in bigger pools which will require higher amounts of matches. Sharding the pools may increase the likeliness of getting matched and execution of users orders on the swap book. \\
+
+Pools are sharded in percentages where the last added micro pool will be divided equally in to two parts $\frac{X}{2}$. This sharding will commence everytime a new blockchain is added to the Viral Smart Chain's -DEX Chains. Pool creators can able to shard their pools into existing number of DEX blockchains.
+
+
+\begin{figure}[H]
+\begin{center}
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [100\%
+    [50\%
+		[50\%
+			[50\%
+				[50\%
+					[50\%]				
+				]				
+				]		
+		]    
+    ]
+    [50\%
+    	[25\%
+			[25\%
+				[25\%
+					[25\%]				
+				]			
+			]    	
+    	]
+    	[25\%
+			[12.5\%
+				[12.5\%
+					[12.5\%]
+				]
+			]
+			[12.5\%
+				[6.25\%
+					[6.25\%]				
+				]
+				[6.25\%
+					[3.125\%]
+					[3.125\%]				
+				]			
+			]    	
+    	]
+    ]
+  ]
+\end{forest}
+\caption{Pool Shards after each new DEX blockchain addition}
+\end{center}
+\end{figure}
+
+Each Micro-Pool determines each DEX blockchain added to the Viral Smart Chains where smaller pools can get increased volume in smaller transactions. When trade amount is lower the swap book will place the orders in smaller pools which may get matched faster whereas larger trades may get placed in larger pools or the trades will be divided among several pools to get matched and execute the swap successfully \\
+
+\begin{figure}[H]
+\begin{center}
+\caption{Larger Trade vs Small Trades}
+\end{center}
+\end{figure}
+
+The pools are represented in tables with rows mentioning number of pools where each pool will run on different blockchains and columns are represented to determine the cell value and percentage.\\
+
+
+\begin{figure}[H]
+\begin{center}
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X | }
+ \hline
+ \textbf{Cell} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5}\\
+ \hline
+ \textbf{1}  & 100 & & & &  \\
+  \hline
+ \textbf{2} & 50  & 50 & & & \\
+  \hline
+ \textbf{3} & 50  & 25 & 25 & & \\
+   \hline
+ \textbf{4} & 50  & 25 & 12.5 & 12.5 & \\
+    \hline
+ \textbf{5} & 50  & 25 & 12.5 & 6.25 & 6.25 \\
+\hline
+\end{tabularx}
+\caption{Micro-Pool Table}
+\end{center}
+\end{figure}
+
+
+\textbf{Fee Structure}\\
+
+Viral DEX subtracts a swap fee on every swap order executed. There are two types of fee leaved according to trading pairs nature. A 0.2\% fee will be leaved on normal pairs and a 0.02\% fee will be leaved for stable-coin pairs. These DEX fees are excluding wallet transfer fees which will be leaved separately. These fees will be added into a separate pool where the liquidity providers can collect while withdrawing their staked tokens. 70\% of total DEX fees collected with be allocated to liquidity providers where the rest 30\% will be sent to Viral's global revenue pool.\\
+
+\begin{figure}[H]
+\begin{center}
+\caption{Fee Structure}
+\end{center}
+\end{figure}
+
+
+
+\begin{equation}
+Normal\:Pair\:Swap\:Fee=Swap\:Amount*0.2\%
+\end{equation}
+\begin{equation}
+Stable\:Pair\:Swap\:Fee=Swap\:Amount*0.02\%
+\end{equation}
+\begin{equation}
+Transfer\:Fee=After\:Swap\:Fee\:Rate*0.05%
+\end{equation}\\
+
+\textit{For Example} 
+(Fee Type : Normal Pair) \\
+Total Swap amount = $500$\\
+DEX Fee : $500*0.2\% = 1$ \\
+Transfer Fee= $((500)-(500*0.2\%))*0.5\% = 0.2495$ \\
+Final = $498.7505$\\
+
+(Fee Type : Stable Pair) \\
+Total Swap amount = $500$\\
+DEX Fee : $500*0.02\% = 0.1$ \\
+Transfer Fee= $((500)-(500*0.2\%))*0.5\% = 0.24995$ \\
+Final = $499.65005$\\
+ 
+ 
+\textbf{Liquidity Providers}\\
+
+Liquidity providers are investors who stake their cryptocurrency tokens on DEXs to earn transaction fees, often referred to as liquidity mining or market making. Viral Liquidity providers earn transaction fees for their staked tokens in the Viral Smart Chains protocol. The transaction fees are distributed proportionally to all the liquidity providers in the pool according to their percentage of investment. Sine Viral implies micro-pool architecture the liquidity is divided among several micro-pool running blockchains while depositing and withdrawing funds.\\
+
+
+\textit{For Example}\\
+Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micro-Pools = 4\\
+
+\begin{figure}[H]
+\begin{center}
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [20 : 62.4
+    [50\%
+        [10 : 31.2]
+    ]
+   [25\%
+        [5 : 7.8]
+    ]
+    [12.5\%
+        [2.5 : 3.9]
+    ]
+    [12.5\%
+        [2.5 : 3.9]
+    ]
+  ]
+\end{forest}
+\caption{Division of LP funds to micro-pools}
+\end{center}
+\end{figure}
+
+\textbf{Advanced Trading}\\
+
+\textbf{Benefits of Viral DEX}\\
+
 
 
 
