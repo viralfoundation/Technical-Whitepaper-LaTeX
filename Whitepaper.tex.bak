@@ -1598,7 +1598,6 @@ Final\:Price=\frac{A+\sum BA - \sum SB}{B} = \frac{256+134.778676837+170.6371754
 
 Here the total $\sum SB = \sum BB$ $6594.678546=6594.678546$ executes the order and changes the current price of 0.02043749 to  a final price of 0.0175747644 (Eq 15). After this trade the buy and sell price will be changed according to the difference $D=-0.0025747644$ Buy 1B=0.0175747644 A and Sell 1B=0.0201495288 A to bring the M.P to 0.015. Until the M.P is achieved the buy and sell price will change after each order execution.\\
 
-
 \textbf{Micro Pool Architecture}\\
 
 Viral DEX Pools implies a micro pool architecture for it's unlimited scalability and high throughput on swap orders. Since the protocol implies a swap book which will be matching total buys and total sells, the orders may get delayed in bigger pools which will require higher amounts of matches. Sharding the pools may increase the likeliness of getting matched and execution of users orders on the swap book. \\
@@ -1660,30 +1659,49 @@ Each Micro-Pool determines each DEX blockchain added to the Viral Smart Chains w
 \end{center}
 \end{figure}
 
+The pools are represented in tables with rows mentioning number of pools where each pool will run on different blockchains and columns are represented to determine the cell value and percentage. Here $C_{11}, C_{22}, C_{33}, C_{44}.....C_{rc}$ are the pools that will be separated into two divisions equally ($50\%+50\%$) to form the new pool\\
+
 
 \begin{figure}[H]
 \begin{center}
-\begin{tabularx}{0.8\textwidth} { 
+\begin{tabularx}{1\textwidth} { 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X
+  | >{\centering\arraybackslash}X
+  | >{\centering\arraybackslash}X
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X | }
  \hline
- \textbf{Sell B (SB)} & \textbf{Buy A (BA)} & \textbf{Sell A (SA)} & \textbf{Buy B (BB)}\\
+ \textbf{Chains} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8}\\
  \hline
- 3297.339273  & 85.3185877421  & 39.0858162828  & 1912.45677834\\
+ \textbf{1}  & 100\% & & & & & & & \\
   \hline
- 2110.29713472  & 54.6038961549  & 47.172536893  & 2308.1374911\\
+ \textbf{2} & 50\%   & 50\%  & & & & & & \\
   \hline
- 1187.04213828  & 30.7146915872  & 48.5203236614  & 2374.08427656\\
+ \textbf{3} & 50\%   & 25\%  & 25\%  & & & & & \\
    \hline
-   \hline
- 6594.678546  & 170.637175484  & 134.778676837  & 6594.678546\\
+ \textbf{4} & 50\%   & 25\%  & 12.5\%  & 12.5\%  &  &  & & \\
+    \hline
+ \textbf{5} & 50\%   & 25\%  & 12.5\%  & 6.25\%  & 6.25\%  & & & \\
+     \hline
+ \textbf{7} & 50\%   & 25\%  & 12.5\%  & 6.25\%  & 3.125\%  & 3.125\%  & & \\
+     \hline
+ \textbf{8} & 50\%   & 25\%  & 12.5\%  & 6.25\%  & 3.125\%  & 1.5625\%  & 1.5625\%  & \\
+      \hline
+ \textbf{9} & 50\%   & 25\%  & 12.5\%  & 6.25\%  & 3.125\%  & 1.5625\%  & 0.78125\% & 0.78125\% \\
 \hline
 \end{tabularx}
-\caption{Example Swap Book matched order for $\sum_{n}^{\infty} BB_n = \sum_{n}^{\infty} SB_n$}
+\caption{Micro-Pool Table}
 \end{center}
 \end{figure}
+
+\textbf{Reserve Pools}\\
+
+Using our pricing strategy for buying and selling by adding a difference $D$ rebasing, a necessary condition is needed to change the pool's current price to market price. The Total liquidity should be equal to the swap orders total volume i.e., In a 200/100 pool the sum of either buy or sell should attain it's pool's liquidity limit to change the pool to market price.\\
+
 
 
 \textbf{Fee Structure}\\
@@ -1695,8 +1713,6 @@ Viral DEX subtracts a swap fee on every swap order executed. There are two types
 \caption{Fee Structure}
 \end{center}
 \end{figure}
-
-The pools are represented in tables with rows mentioning number of pools where each pool will run on different blockchains and columns are represented to determine the cell value and percentage.
 
 
 
@@ -1730,6 +1746,7 @@ Liquidity providers are investors who stake their cryptocurrency tokens on DEXs 
 
 
 \textit{For Example}\\
+
 Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micro-Pools = 4\\
 
 \begin{figure}[H]
@@ -1755,6 +1772,10 @@ Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micr
 \caption{Division of LP funds to micro-pools}
 \end{center}
 \end{figure}
+
+
+
+
 
 \textbf{Advanced Trading}\\
 
