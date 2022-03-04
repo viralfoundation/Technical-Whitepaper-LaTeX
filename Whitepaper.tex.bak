@@ -1979,29 +1979,26 @@ ROV will be having a separate section for community help \& support, where ROV c
 
 \textbf{Verification of Accounts of Celebrities}\\
 
-ROV curators also will be responsible for several actions on the decentralized platform, one of it's the "Verification of Accounts". Since Viral doesn’t take a single byte of data, we won’t be requesting any country’s identification information like other centralized social medias, it is up to the curators to opt for giving a verified tick for the VIPs on the viral platform. Curators vote on Providing Verification where the majority \\
+ROV curators also will be responsible for several actions on the decentralized platform, one of it's the "Verification of Accounts". Since Viral doesn’t take a single byte of data, we won’t be requesting any country’s identification information like other centralized social medias, it is up to the curators to opt for giving a verified tick for the VIPs on the viral platform. Curators vote on Providing Verification where the majority votes decide the verification of a specific individual or organization. Users applying for verification can provide additional data such as popular media websites blogs about them, provide a verification video and also tip the rov community on whole to provide verified tick.Verified Tick is represented by a unique NFT minted by ROV using it's pool's reserve and send the nft to the user applied for it.\\
 
-About Verified NFT\\
+\begin{figure}[H]
+\begin{center}
+\caption{Flowchart of Verification}
+\end{center}
+\end{figure}
 
-Flowchart\\
-
-Regional Voting\\
-
-
-
-Requesting ROV\\
+\textbf{Requesting ROV}\\
 
 Since ROV is regarded as a DAO (Decentralized Autonomous Organization) we make sure others request ROV for a specific task, poll, support, etc. This feature will be given only to verified profiles where they can write to ROV in any matter where the curators can come collectively to help regarding the issue. This will help VIPs, Governments to write to ROV curators which will be displayed on their feed where they can take necessary actions for it. \\
 
-Rewards for Contribution\\
+\textbf{Rewards for Contribution}\\
 
-ROV users’ wallets will be connected to their username where every day according to their contribution the Viral Coins will be allocated every 24 hours and will be airdropped to their wallets where they can collect manually. According to the features and intensity of work will be appointing a pointing structure in the development phase of the ROV application\\
+Every day according to every individual curators contribution Viral Coins will be allocated to their wallets where they can collect it manually every day after 2AM UTC. 
 
-Rewards according to daily positive points\\
 
 \subsection{Developer Platform}
 
-Story\\
+ Story\\
 
 Viral Dev-Space is a platform for developers to develop, communicate together with other experts, and receive rewards for their contribution to the Viral Open-Source applications and future development plans of the public and the Viral DAO. The Space for developers is created to decentralize and automize the Software Research \& Development sector of Viral Applications in an efficient way by providing rewards in Viral Coins through unbiased voting based on the intensity of their contribution and popularity in the development community.\\
 
