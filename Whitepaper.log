@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  4 MAR 2022 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  4 MAR 2022 23:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2345,12 +2345,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2003--2004
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2005--2006
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 2018--2019
 
  []
 
-[41]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2020--2021
 
  []
@@ -2371,7 +2371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2026--2027
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2028--2029
+Underfull \hbox (badness 10000) in paragraph at lines 2042--2043
 
  []
 
@@ -2386,7 +2386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2046--2047
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
+Underfull \hbox (badness 10000) in paragraph at lines 2055--2056
 
  []
 
@@ -2395,29 +2395,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 2057--2058
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2059--2060
-
- []
-
 <./assets/images//rewards.png, id=880, 1332.98pt x 941.5175pt>
 File: ./assets/images//rewards.png Graphic file (type png)
 <use ./assets/images//rewards.png>
-Package pdftex.def Info: ./assets/images//rewards.png  used on input line 2064.
+Package pdftex.def Info: ./assets/images//rewards.png  used on input line 2062.
 
 (pdftex.def)             Requested size: 256.0748pt x 180.87274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2061--2067
+Underfull \hbox (badness 10000) in paragraph at lines 2059--2065
 
  []
 
 [43] Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 2078--2079
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2080--2081
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2082--2083
+Underfull \hbox (badness 10000) in paragraph at lines 2090--2091
 
  []
 
@@ -2446,12 +2446,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2100--2101
 
  []
 
-
+[44 <./assets/images//rewards.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2102--2103
 
  []
 
-[44 <./assets/images//rewards.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2104--2105
 
  []
@@ -2467,7 +2467,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2108--2109
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2110--2111
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2118
 
  []
 
@@ -2506,18 +2506,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 2131--2132
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2133--2134
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 2138--2139
 
  []
 
-[45]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2140--2141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2142--2143
+Underfull \hbox (badness 10000) in paragraph at lines 2143--2144
 
  []
 
@@ -2542,22 +2542,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 2151--2152
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2153--2154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2158--2178
+Underfull \hbox (badness 10000) in paragraph at lines 2156--2176
 
  []
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 2180--2191
+Underfull \hbox (badness 10000) in paragraph at lines 2178--2189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2194--2197
+Underfull \hbox (badness 10000) in paragraph at lines 2192--2195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2206--2207
 
  []
 
@@ -2566,53 +2566,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 2208--2209
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2210--2211
-
- []
-
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 2221--2222
+Underfull \hbox (badness 10000) in paragraph at lines 2219--2220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2235--2236
+Underfull \hbox (badness 10000) in paragraph at lines 2233--2234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2238--2239
+Underfull \hbox (badness 10000) in paragraph at lines 2236--2237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2241--2242
+Underfull \hbox (badness 10000) in paragraph at lines 2239--2240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2244--2245
+Underfull \hbox (badness 10000) in paragraph at lines 2242--2243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2260--2261
+Underfull \hbox (badness 10000) in paragraph at lines 2258--2259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2263--2264
+Underfull \hbox (badness 10000) in paragraph at lines 2261--2262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2268--2269
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2267
 
  []
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 2271--2272
+Underfull \hbox (badness 10000) in paragraph at lines 2269--2270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2279--2280
 
  []
 
@@ -2632,17 +2632,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2285--2286
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2287--2288
+Underfull \hbox (badness 10000) in paragraph at lines 2289--2292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2291--2294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2295--2296
+Underfull \hbox (badness 10000) in paragraph at lines 2293--2294
 
  []
 
@@ -2721,7 +2716,7 @@ t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist
 fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/font
 s/type1/public/cm-super/sfrm1000.pfb>
-Output written on Whitepaper.pdf (50 pages, 1224988 bytes).
+Output written on Whitepaper.pdf (50 pages, 1225006 bytes).
 PDF statistics:
  1088 PDF objects out of 1200 (max. 8388607)
  977 compressed objects within 10 object streams
