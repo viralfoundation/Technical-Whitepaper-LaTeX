@@ -1281,7 +1281,7 @@ Decentralized exchanges (DEX) are a type of cryptocurrency exchange that allows 
 
 \textbf{Automated Market Makers}
 
-An automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.This formula can vary with each protocol. Most AMMs usesa constant product formula: $x * y = k$, where $x$ is the amount of one token in the liquidity pool, and $y$ is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same. Liquidity providers (LPs) add funds to liquidity pools. In return for providing liquidity to the protocol, LPs earn fees from the trades that happen in their pool. LPs deposit an equivalent value of two tokens – for example, 50\% of Token A and 50\% of Token B to the A/B Lquidity pool.\\
+An automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.This formula can vary with each protocol. Most AMMs usesa constant product formula: $x  \times  y = k$, where $x$ is the amount of one token in the liquidity pool, and $y$ is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same. Liquidity providers (LPs) add funds to liquidity pools. In return for providing liquidity to the protocol, LPs earn fees from the trades that happen in their pool. LPs deposit an equivalent value of two tokens – for example, 50\% of Token A and 50\% of Token B to the A/B Lquidity pool.\\
 
 \textbf{Pros of AMMs}
 \begin{enumerate}[leftmargin=+0.2in]
@@ -1296,13 +1296,13 @@ An automated market maker (AMM) is a type of decentralized exchange (DEX) protoc
 \item \textbf{Scalability}: Various DEXs are suffered from network congestions which delays the execution of trades. This is been solved by making DEXs on top of scalable high throuoghput blockchains, but the DEXs are limited to the scalability of the blockchain itself and cannot scale on it's own.
 \item \textbf{Price Impacts}: Price impact is the influence of user's individual trade over the market price of an underlying asset pair. It is directly correlated with the amount of liquidity in the pool/Automated Market Maker (AMM).
 \item \textbf{Limited Functions}: AMM based DEXs offers only to execute buy and sell orders and doesn't offers advanced trading features like limit orders aren't available on current exchanges.
-\item \textbf{Volatility}: As price impacts being created, on an illiquid trading pair the volatility always reach new highs to stabilize the constant $k$ in the constant product formula $x*y=k$ to satisfy demands. This creates high volatile market while user's only use DEXs go for high liquid, low volatile market.
+\item \textbf{Volatility}: As price impacts being created, on an illiquid trading pair the volatility always reach new highs to stabilize the constant $k$ in the constant product formula $x \times  y=k$ to satisfy demands. This creates high volatile market while user's only use DEXs go for high liquid, low volatile market.
 \item \textbf{Impermanent Loss}: Impermanent loss describes the temporary loss of funds occasionally experienced by liquidity providers because of volatility in a trading pair. Liquidity Providers suffer negative returns comparing to holding tokens outside the pool. Volatility and Price Impacts are the major aspects of impermanent loss. The loss becomes permanent if a provider decides to withdraw their liquidity from the pool.
 \end{enumerate}
 
 \textbf{Problem 1 : Price Impacts \& Volatility in AMMs}\\
 
-The difference between the current market price and the price a user will pay to perform a swap in a decentralized exchange is known as Price Impacts. This happens when the ratio of the assets in the pool changes where one asset is more liquid and another is illiquid. When a large swap is conducted a maximum portion of the swapped asset is erased from the liquidity pool, supplying more of the provided asset, to maintain the $k$ of the constant product formula $x*y=k$ the smart contract will ask for a increased supply of tokens to balance the $k$. This will create a impact on the current price, making the trade much more expensive than centralized trades and spiking the volatility of the pool.\\
+The difference between the current market price and the price a user will pay to perform a swap in a decentralized exchange is known as Price Impacts. This happens when the ratio of the assets in the pool changes where one asset is more liquid and another is illiquid. When a large swap is conducted a maximum portion of the swapped asset is erased from the liquidity pool, supplying more of the provided asset, to maintain the $k$ of the constant product formula $x \times y=k$ the smart contract will ask for a increased supply of tokens to balance the $k$. This will create a impact on the current price, making the trade much more expensive than centralized trades and spiking the volatility of the pool.\\
 
 
 
@@ -1315,7 +1315,7 @@ Two Coins $X$ and $Y$\\
 \begin{itemize}[leftmargin=+0.2in]
 \item Before Swap $X$=20
 \item Before Swap $Y$=45,000
-\item Constant Product $K=X*Y$ = 900,000 
+\item Constant Product $K=X \times  Y$ = 900,000 
 \item Before Swap Price $M=\frac{Y}{X}$ = 2,250 
 \end{itemize}
 
@@ -1331,7 +1331,7 @@ Two Coins $X$ and $Y$\\
 \begin{itemize}[leftmargin=+0.2in]
 \item Received $X_f={{X}-{X_n}}$ = 3.334 
 \item Price paid per X / After Swap Price $M_n={\frac{n}{X_f}}$  = 2,699  
-\item \textbf{Price Impact} $P={\frac{M - M_n}{M}*100}$ = \textbf{19.95\% }
+\item \textbf{Price Impact} $P={\frac{M - M_n}{M} \times  100}$ = \textbf{19.95\% }
 \end{itemize}
 
 
@@ -1366,7 +1366,7 @@ Current AMMs gives the opportunity for non-simultaneous series of buys and sells
 \end{center}
 \end{figure}
 
-While conducting an alternate(buy-sell) swap, it leaves significant price impacts on either of the trades for maintaining the $k$ in the Constant Product Formula $x*y=k$, it will not be useful to minimize the price impacts by doing two trades one after each other. Also when two trades match it is best in case to make a decentralized atomic swap instead of taking from a Liquidity pool that will revert to it's previous pool price before the trade. This comes to a conclusion that Traders with matching swaps doesn't provide any results for reducing price impacts, changing the pool's price to market price, etc. \\
+While conducting an alternate(buy-sell) swap, it leaves significant price impacts on either of the trades for maintaining the $k$ in the Constant Product Formula $x \times  y=k$, it will not be useful to minimize the price impacts by doing two trades one after each other. Also when two trades match it is best in case to make a decentralized atomic swap instead of taking from a Liquidity pool that will revert to it's previous pool price before the trade. This comes to a conclusion that Traders with matching swaps doesn't provide any results for reducing price impacts, changing the pool's price to market price, etc. \\
 
 \begin{figure}[H]
 \begin{center}
@@ -1431,7 +1431,7 @@ Swap books contains prices derived from liquidity pool's current price and the t
 
 \textbf{Pricing Strategy}\\
 
-In AMMs prices of swaps determined by the constant product formula $x*y=k$ where to swap $x$ tokens the liquidity pool will simulate the pool's after trade liquidity and by maintaining the $k$ constant it determines the amount of $y$ tokens a trader must provide. Whereas, in Viral DEX the constant product formula isn't used. Viral's Liquidity Pool execution of providing pool's liquidity will always require two simultaneous buy and sell of tokens with an addition of extra tokens to change the current price of pool to market price.
+In AMMs prices of swaps determined by the constant product formula $x \times  y=k$ where to swap $x$ tokens the liquidity pool will simulate the pool's after trade liquidity and by maintaining the $k$ constant it determines the amount of $y$ tokens a trader must provide. Whereas, in Viral DEX the constant product formula isn't used. Viral's Liquidity Pool execution of providing pool's liquidity will always require two simultaneous buy and sell of tokens with an addition of extra tokens to change the current price of pool to market price.
 
 \begin{figure}[H]
 \begin{center}
@@ -1717,26 +1717,26 @@ Viral DEX subtracts a swap fee on every swap order executed. There are two types
 
 
 \begin{equation}
-Normal\:Pair\:Swap\:Fee=Swap\:Amount*0.2\%
+Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.2\%
 \end{equation}
 \begin{equation}
-Stable\:Pair\:Swap\:Fee=Swap\:Amount*0.02\%
+Stable\:Pair\:Swap\:Fee=Swap\:Amount \times  0.02\%
 \end{equation}
 \begin{equation}
-Transfer\:Fee=After\:Swap\:Fee\:Rate*0.05%
+Transfer\:Fee=After\:Swap\:Fee\:Rate \times  0.05%
 \end{equation}\\
 
 \textit{For Example} 
 (Fee Type : Normal Pair) \\
 Total Swap amount = $500$\\
-DEX Fee : $500*0.2\% = 1$ \\
-Transfer Fee= $((500)-(500*0.2\%))*0.5\% = 0.2495$ \\
+DEX Fee : $500 \times  0.2\% = 1$ \\
+Transfer Fee= $((500)-(500 \times  0.2\%)) \times  0.5\% = 0.2495$ \\
 Final = $498.7505$\\
 
 (Fee Type : Stable Pair) \\
 Total Swap amount = $500$\\
-DEX Fee : $500*0.02\% = 0.1$ \\
-Transfer Fee= $((500)-(500*0.2\%))*0.5\% = 0.24995$ \\
+DEX Fee : $500 \times  0.02\% = 0.1$ \\
+Transfer Fee= $((500)-(500 \times  0.2\%)) \times  0.5\% = 0.24995$ \\
 Final = $499.65005$\\
  
  
@@ -1760,6 +1760,12 @@ Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micr
     ]
    [25\%
         [5 : 7.8]
+    ]
+    [12.5\%
+        [2.5 : 3.9]
+    ]
+    [12.5\%
+        [2.5 : 3.9]
     ]
   ]
 \end{forest}
@@ -1802,46 +1808,42 @@ ROV is an abbreviation for Republic of Viral, a decentralized community-based or
 
 ROV is designed for curators to work as employees of an organization with a common goal with maximum trust and anonymity. This decentralized way effectively reduces the opinion of a single person, an entity’s founder, and any external influence where the community only decides which is better for the platform. ROV eliminates the need for a centralized entity to run a social platform that holds the power of democracy while ignoring censorship resistance. \\
 
-\textbf{Moderation and Manual Removals}
+\textbf{Moderation and Manual Removals}\\
 
-To remove a post in centralized social media, the entity governing the application shall remove the user's database tables that contains the post-meta data. Post Metadata is defined as the data providing information about one or more information about a post i.e., image url, description, etc. Unlike centralized social media, Viral is a decentralized social media that doesn't owns user's data, hence Viral and it's developers doesn't have governance over users meta-data. For a clean, appropriate content platform moderation is a key for it's growth. Viral proposes to solve moderation issues by removing the media's source from it's following storage nodes i.e., IPFS Clusters.
+To remove a post in centralized social media, the entity governing the application shall remove the user's database tables that contains the post-meta data. Post Metadata is defined as the data providing information about one or more information about a post i.e., image url, description, etc. Unlike centralized social media, Viral is a decentralized social media that doesn't owns user's data, hence Viral and it's developers doesn't have governance over users meta-data. For a clean, appropriate content platform moderation is a key for it's growth. Viral proposes to solve moderation issues by removing the media's source from it's following storage nodes i.e., Private IPFS Cluster.\\
 
 \begin{figure}[H]
 \begin{center}
+
 \begin{forest}
   forked edges,
   for tree={edge+={-Latex}},
-  [Viral App
-  
-  	[Alpha-Release
-		[Viral Private IPFS Clusters]  	
-  	]
-  	
-  	[Beta-Developers
-		[IPFS Public Nodes]  	
-  	]
-   
+  [Viral
+    [Alpha-Release
+        [Private IPFS Clusters]
+    ]
+   [Beta-Developers
+        [IPFS Public Nodes]
+    ]
   ]
 \end{forest}
-\caption{Division of LP funds to micro-pools}
+\caption{Available Viral Application Releases}
 \end{center}
 \end{figure}
 
+Viral Release Applications are separated into two divisions that will have two methods of storing media in the decentralized way possible. Viral Beta-Developer Application resides Open-source as a repository for developers where it will be publicly accessible—anyone can see, modify, and distribute the code as they see fit. The Beta-Application won't be available in mobile application stores and will use IPFS public nodes to store the media. IPFS — a peer-to-peer distributed file system where all files in the public IPFS network are accessible to everyone which cannot be tampered, removed or moderated at any cost. \\
 
+Viral Alpha-Release is the furninshed battle-tested application that will be available in all stores for users. The alpha-release will be using IPFS private cluster, to pin files from public nodes and store public data privately for moderation purposes. The private network cluster allows IPFs nodes to only connect to other peer nodes with shared key, and the nodes in the network do not respond to the communication from nodes outside the network. Cluster replicates and tracks pins across a cluster of private IPFS daemons. In short, The Beta app uses public nodes replicates, store data publicly where it cannot be removed, the alpha app uses private cluster that replicates data from public nodes to a swarm of private nodes that is kept within the ViralDAO where the private nodes are notified by ROV to remove pins(media) from the private nodes. Combination of a fully decentralized storage and a semi-centralized storage to combat illicit content\\
 
 Type about how Viral has both IPFS Public and IPFS Private\\
 Removal of Content from Viral IPFS-Clusters\\
 
-\begin{comment}
 
-In Decentralized systems, it is hard to censor or remove content circulating in the platform. The files won’t be stored in a single server but Viral have paved a way where the content removal happens at its best without an organization or an administrator but as a series of votes and process of all stabilizers (IPFS Clusters) to remove the certain file from all the peers which hosting the file for the viral network. After the Content is decided to remove (after the Poll Ends), immediately the stabilizers (miners) who hosts the content on their desktop, laptops, servers will be notified to remove the content from the IPFS clusters. This is achieved by making a private IPFS cluster separately for Viral Network to hold files. Since the mobile peers which hold the content will be clearing every 30 mins, the reported content will not be hosted anywhere on the platform removing it completely from the network of decentralized servers.\\
+\textbf{Removal Poll Timer}\\
 
-\end{comment}
+To ensure faster removals and counter the delay of manual approach of votes calculation, after content is reported it will be directly posted on ROV’s Application where the voting poll for the specific post timer will run according to the category’s emergency for removal. This ensures faster content removals in no time, where it takes 24 – 48 hours for a centralized social media entity. We have listed out the major categories and timings for reporting illicit content in Viral.
 
-Timer for Removals\\
-To ensure faster removals and counter the delay of manual approach of votes calculation, after content is reported it will be directly posted on ROV’s Application where the voting poll for the specific post timer will run according to the category’s emergency for removal. This ensures faster content removals in no time, where it takes 24 – 48 hours for a centralized social media entity. We have listed out the major categories and timings for reporting illicit content in Viral. \\
-
-\begin{itemize}[leftmargin=+0.2in]
+\begin{enumerate}[leftmargin=+0.2in]
 \item Spam or Fraud – 2 hours
 \item Bullying or Hate Speech – 45 mins
 \item False Information – 1 hour
@@ -1849,19 +1851,30 @@ To ensure faster removals and counter the delay of manual approach of votes calc
 \item Nudity – 30 mins
 \item Violent or Disturbing – 30 mins
 \item Something Else – 2 hours
-\end{itemize}
+\end{enumerate}
 
-Algorithmic Automated Removal Methods\\
+\textbf{Algorithmic Automated Removal Methods}\\
 
-Additionally, to improve faster removals we will be rolling out another AI feature that finishes the poll timer if the votes are more than 10 and 95\% have voted to remove content or keep content. This effectively eliminates the possibility of waiting to remove the content till the timer ends, if the post is in a high state of emergency to remove. There will be an AI feature also to filter out pornographic content on the platform automatically without any votes.\\
+Additionally, to improve faster removals we will be rolling out another AI feature that finishes the poll timer if the votes are more than 10 (Eq 19) and 95\% have voted to remove content or keep content (Eq 20,21). This effectively eliminates the possibility of waiting to remove the content till the timer ends, if the post is in a high state of emergency to remove. There will be an AI feature also to filter out nudity content on the platform automatically without any votes.\\
 
-Formula for Ending Timer\\
+\begin{equation}
+Total\:Votes\:(x) \geq10
+\end{equation}
+\begin{equation}
+(\frac{Total\:Remove\:Votes\:(r)}{x}) \times  100 = r_p \geq 95
+\end{equation}
+\begin{equation}
+(\frac{Total\:Keep\:Votes\:(k)}{x}) \times  100 = k_p \geq 95
+\end{equation}
 
-Separate Application
+$r_p$=Remove Votes Percentage, $k_p$ = Keep Votes Percentage\\
 
-ROV will be having a separate Mobile Application for curators and moderators to easily vote for reported contents using swipe methods similar to dating apps such as Tinder. Since ROV is a restricted content application it will not be available on the Play Store and App Store. The Mobile Application will be only available on Android as a 3rd Party App and won’t be available for iOS devices due to their security policies.\\
+\textbf{Separate Application}\\
 
-Process of Polls\\
+ROV will be having a separate Mobile Application for curators and moderators to easily vote for reported contents using swipe methods similar to dating apps. Since ROV is a restricted content application it will not be available on the mobile applications stores. The Application will be only available on Android as a 3rd Party App and won’t be available for iOS devices due to their security policies. This application will be providing productive features for curators to vote on moderating reported content. \\
+
+\textbf{Process of Polls}\\
+
 
 
 \begin{figure}[H]
@@ -1891,40 +1904,66 @@ H-->|Result: Remove|J([IPFS source removed])
 
 \end{comment}
 
+\textbf{Re-Appeals}\\
 
-Continuous Removal Caution to change to private account\\
+A unique feature of ROV given to the users of Viral to re-appeal or re-report against the decision of voters while giving an explanation where the ROV curators can again vote to keep the content again or remove based on the explanation given by the user who re-reported. The timer for re-appeal is 5 hours per post where if votes are more than 25 (Eq 22) and 90\% opt again to keep or remove the content (Eq 23,24) the timer will end prematurely.\\
 
-Re-Appeals\\
+\begin{equation}
+Total\:Votes\:(x) \geq25
+\end{equation}
+\begin{equation}
+(\frac{Total\:Remove\:Votes\:(r)}{x}) \times  100 = r_p \geq 90
+\end{equation}
+\begin{equation}
+(\frac{Total\:Keep\:Votes\:(k)}{x}) \times  100 = k_p \geq 90
+\end{equation}
 
-A unique feature of ROV given to the users of Viral to re-appeal or re-report against the decision of voters while giving an explanation where the ROV curators can again vote to keep the content again or remove based on the explanation given by the user who re-reported. The timer for re-appeal is 5 hours per post where if votes are more than 25 and 90\% opt again to keep or remove the timer will end prematurely.\\
 
-Limitations\\
+$r_p$=Remove Votes Percentage, $k_p$ = Keep Votes Percentage\\
 
-Private Accounts\\
+\textbf{Private Accounts}\\
 
 Viral’s content reports are only applicable to public accounts. Viral’s vision to bring complete privacy and security to private accounts which are exempted from being reported. ROV curators will not moderate, nor involve to view the contents of secured private accounts. Thus, it leaves decisions in the hands of followers whether to view their content or not. \\
 
-IPFS Public Node \\
+\textbf{Criteria to Join}\\
 
-Criteria to Join\\
+A specific criteria is set to join as a ROV Curator. To apply for ROV Curator membership one must hold and stake Viral DAO Tokens and be a governance member. They are \\
 
-Viral DAO token holders will be given privilege to run ROV as curators and so on\\
-
-Eliminating Bad Curators\\
+\textbf{Eliminating Bad Curators}\\
 
 To eliminate biased curators we will be bringing a safe mechanism to filter out bad curators in the community using a feature called positive/negative points. Every single poll will contain two options for the curators to select, “Remove” or “Keep”, the poll results are based on the majority’s decision. When a vote for a poll and falls under the majority’s vote the curator will receive a Positive point, if the curator is on the minority side, which is the losing side he/she be getting a Negative point. Each of the positive and negative points will be added to his profile. An algorithm will run to take the percentage of both points, where if the negative point falls above 30\% to the positive point, his ROV account will be suspended for a couple of days. We have deciphered the factors where there could be no bad actors in the community. There will be records to everyday's positive and negative points. \\
 
+\begin{figure}[H]
+\begin{center}
+\caption{Postive Negative Point If Else}
+\end{center}
+\end{figure}
+
 This Positive/Negative points suspension factor will be running after every single vote after the poll finishes. Some factors determining the suspension are\\
 
-If Negative Point is 30\%- 40\% to the Positive Point – Account suspension for 3 days\\
-If Negative Point is 40\%- 50\% - Account suspension for 6 days\\
-If Negative Point is more than 50\% - Account suspension for 12 days\\
+(25) If Negative Point is 30\%- 40\% to the Positive Point – Account suspension for 3 days\\
+(26) If Negative Point is 40\%- 50\% - Account suspension for 6 days\\
+(27) If Negative Point is more than 50\% - Account suspension for 12 days\\
+
+\begin{equation}
+Positive\:Point(p) \times  30\% \leq Negative\:Point(n) \leq Positive\:Point(p) \times  40\%
+\end{equation}
+\begin{equation}
+Positive\:Point(p) \times  40\% \leq Negative\:Point(n) \leq Positive\:Point(p) \times  50\%
+\end{equation}
+\begin{equation}
+Positive\:Point(p) \times 50\% \leq Negative\:Point(n)
+\end{equation}\\
 
 We have also made factors to suspend an ROV account forever based on the number of suspensions they get on their account. The factors are\\
 
- 20 times 3 day suspension \\
- 10 times 6 day suspension\\
- 3 times 12 day suspension\\
+\begin{enumerate}[leftmargin=+0.2in]
+\item 20 times 3 day suspension 
+\item 10 times 6 day suspension
+\item 3 times 12 day suspension
+\end{enumerate}
+
+
 
 There will be a test-net and live-net to practice voting at its best\\
 
@@ -1934,19 +1973,20 @@ User A: Day 26; Positive – 234; Negative – 55; Result: More than 20\%: Suspe
 User B – Day 30; Positive – 523; Negative – 343; Result : More than 50\% : Suspension for 12 days\\
 
 
-Community Help \& Support\\
+\textbf{Community Help \& Support}\\
 
 ROV will be having a separate section for community help \& support, where ROV curators can easily offer their support to Viral users by providing them answers for their queries through the application. The Curators will act as support persons for their issues and thereby providing answers for their problems. It will be a decentralized substitute for centralized customer support. Since the curators cannot offer custom support by an admin staff in a centralized company rather, they can offer support for their questions regarding the usage of the application. For every contribution by the curators, they’ll receive their fair share of rewards.\\
 
+\textbf{Verification of Accounts of Celebrities}\\
 
-Verification of Accounts of Celebrities\\
+ROV curators also will be responsible for several actions on the decentralized platform, one of it's the "Verification of Accounts". Since Viral doesn’t take a single byte of data, we won’t be requesting any country’s identification information like other centralized social medias, it is up to the curators to opt for giving a verified tick for the VIPs on the viral platform. Curators vote on Providing Verification where the majority \\
 
-ROV curators also will be responsible for several actions on the decentralized platform, one of it's the "Verification of Accounts". Since Viral doesn’t take a single byte of data, we won’t be requesting any country’s identification information like other centralized social medias, it is up to the curators to opt for giving a verified tick for the VIPs on the viral platform.\\
-
-Data to Disclose\\
 About Verified NFT\\
+
 Flowchart\\
+
 Regional Voting\\
+
 
 
 Requesting ROV\\
