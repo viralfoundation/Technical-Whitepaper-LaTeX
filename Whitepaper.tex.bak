@@ -18,7 +18,8 @@
   \kern 2.6pt
 }
 \usepackage{tabularx}
-
+\usepackage {amsmath}
+\usepackage{authblk}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -66,7 +67,11 @@
 
 \title{Viral - Next Gen Social Communication \& User Experience}
 \date{15 January 2022}
-\author{Viral Foundation \\ viralfoundation.org}
+\author[1]{Joby Reuben\thanks{A.A@university.edu}}
+\author[1]{Ajay Joshua\thanks{B.B@university.edu}}
+\author[1]{Naveen Jose\thanks{C.C@university.edu}}
+\author[1]{Samarth Kulkarni\thanks{D.D@university.edu}}
+\affil[1]{Viral Foundation, India}
 
 \begin{document}
 
@@ -78,17 +83,6 @@
 
 \footnote{
 
-\textbf{Co-Authors and Contributors}\\ 
-\begin{enumerate}[leftmargin=+0.3in]
-\item Joby Reuben
-\item Ajay Joshua
-\item Naveen Jose
-\item Samarth Kulkarni
-\item Name 4
-\item Name 5
-\item Name 6
-\item Name 7
-\end{enumerate}
 
 }
 
@@ -2017,13 +2011,13 @@ Viral will be providing an opportunity for all developers regardless of their ed
 
 \textbf{Allocation of Rewards}\\
 
-The rewards are based on democratic voting where every developer will have their own project feed to appreciate the work of other developers. There will be an engagement feature to “Like” the contribution they’ve pushed to the code repository. After a developer makes a commitment to the repository by pushing his/her code to the master repository, their work will be posted on the project’s main feed. At the end of the day every 24 hours, the amount of likes every post received by the user profiles on all the projects will be taken to segregate the amount of rewards per developer. Refer Rewards section for detailed information on the segregation of total revenue separated for developers.\\
+The rewards are based on democratic voting where every developer will have their own project feed to appreciate the work of other developers. There will be an engagement feature to “Like” the contribution they’ve pushed to the code repository. After a developer makes a commitment to the repository by pushing his/her code and after the merge, their work will be posted on the project’s main feed. At the end of the day every 24 hours, the amount of likes every post received by the user profiles on all the projects will be taken to segregate the amount of rewards per developer. Refer Rewards section for detailed information on the segregation of total revenue separated for developers.\\
 
 \textbf{Application}\\
 
 Viral will provide a web application where developers can join, interact in development groups and receive rewards daily every 24 hours according to their contribution. This application will be maintained by Viral DAO. The App will serve as a community platform where any developer can choose their favorite preferences, communities, and development projects. Developers can choose the project of their preference by searching and also by opting for an interactive questionnaire to find out which project is suitable for them. After giving their preference they can choose the project they want to work in. The developer will have a limit of working on two projects at a time, where they can remove themselves from the project team and opt for other projects as well. This will ensure that developers will have an increased productivity and a higher success rate in specific projects.\\
 
-App Features\\
+\textbf{App Features}\\
 
 \begin{itemize}[leftmargin=+0.2in]
 \item Choosing preferred project
@@ -2039,11 +2033,9 @@ App Features\\
 
 \section{Global Reward Pool}
 
-Story\\
+Viral Rewards are daily rewards airdropped to every user on the decentralized platform who contributes towards running the platform. It includes Users, Social Nodes, ROV Users, and Developers. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in form of Viral Coins for all the users who contribute to running the platform.\\
 
-Viral Rewards are daily rewards airdropped to every user on the decentralized platform who contributes towards running the platform. It includes Users, Stabilizers, ROV Users, and Developers. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in form of Viral Coins for all the users who contribute to running the platform.\\
-
-This includes\\
+This includes
 \begin{enumerate}[leftmargin=+0.2in]
 \item App Users
 \item ROV Curators
@@ -2051,10 +2043,14 @@ This includes\\
 \item Developers
 \end{enumerate}
 
+\begin{figure}[H]
+\begin{center}
+\caption{Daily Reward Off-Chain}
+\end{center}
+\end{figure}
 
-The Airdrops will be happening through automated smart contracts and off-chain transfers every day at 2 AM UTC. State Channels will be efficient for a huge transfer of Coins for millions of accounts receiving airdrops at once. The airdrops will be sent in a secured and anonymous way to ensure maximum privacy for every single user who is getting paid for their contribution on the Viral Decentralized Social Platform. \\
 
-Viral Incentives are designed in such a way that every single contributor inside the network will get paid for their contribution through a democratic voting system and mathematically predicted points. These points prediction program will run on its own in Viral Smart Chain every day at 2.00 AM UTC to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. For App users it would be according to the percentage of impressions they recieve on their content, for ROV curators it will be total Plus Points they add for their votes, for Social Nodes it will be based on their total contribution per day, for Developers it will be based on voting by other developers, by which the contribution will be rewarded by its own community-driven platform.\\
+The Reward allocation for each user happens through automated smart contracts every day at 2 AM UTC. Viral Rewards are designed in such a way that every single contributor inside the network will get paid for their contribution through a democratic voting system and mathematically predicted points. These points prediction program will offf-chain real-time and transfers oracle data through chainlink in a secured tamper-resistant manner to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. For App users it would be according to the percentage of impressions they recieve on their content, for ROV curators it will be total Plus Points they add for their votes, for Social Nodes it will be based on their total contribution per day, for Developers it will be based on voting by other developers, by which the contribution will be rewarded by its own community-driven platform.\\
 
 The 100\% percent of total daily revenue is distributed as \\
 \begin{figure}[H]
@@ -2075,48 +2071,128 @@ pie
     "Viral DAO" : 20
 \end{comment}
 
-30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profile. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical social networking platform.This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
+\subsection{Users (Impression-based) - 10\%}
 
-Advantages\\
+30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
 
-\begin{itemize}[leftmargin=+0.2in]
+\textbf{Advantages}\\
+
+\begin{enumerate}[leftmargin=+0.2in]
 \item Creators can be able to create content expecting a reward for it
 \item A fair share of rewards according to the popularity of the content.
-\item Users will trust the platform which gives them 30\% of it’s daily collected revenue to every \item user without any centralized company meddling.
+\item Users will trust the platform which gives them 30\% of it’s daily collected revenue to every user without any centralized company meddling.
 \item Encourages other platform users to join and receive rewards.
-\end{itemize}
+\end{enumerate}
 
 
-Segregation of Rewards\\
+\textbf{Segregation of Rewards}\\
 
 Global Impressions of all users will be taken to calculate each user’s individual percentage which will be required to allocate individual reward amount from the User Reward Pool.\\
 
-Formula\\
+\begin{equation}
+User\:Percentage(U_p)=\frac{User\:Total\:Impression(U_i)}{Global\:Impression(G)} \times 100
+\end{equation}
 
-Example\\
+\begin{equation}
+User\:Rewards(x)=\frac{Total\:Rewards(T) \times User\:Reward\:Percentage(U_p)}{100}
+\end{equation}\\
 
-The distribution and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 10 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be burned.\\
+\begin{lstlisting}[language=Solidity, caption={User Reward Contract}]
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.4;
 
-If the user opts for transferring the rewards to a Non-Profit-Organizations it can be easily transferred directly to the user's preferred Charity. Viral will have a registration portal for Charities to Register their information and get verified to appear on the Application's Wallet. Other than the separated 20\% Viral DAO will not take or receive any additional coins, nor involve in any meddling process of taking away coins that are meant to give to the people who contribute and run the decentralized social media.\\
+import "@openzeppelin/contracts@4.5.0/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts@4.5.0/token/ERC20/extensions/ERC20Snapshot.sol";
+import "@openzeppelin/contracts@4.5.0/access/Ownable.sol";
+import "@openzeppelin/contracts@4.5.0/security/Pausable.sol";
 
-ROV (Contribution-based) - 10\%\\
+contract Reward is Ownable, Pausable {
+   
+    uint256 public rewardamount;
+    uint256 public rewardfortheuser;
+    uint256 public impression = 0.0;
+    uint256 public totalimp = 0;
+
+
+    function pause() public onlyOwner {
+        _pause();
+    }
+
+    function unpause() public onlyOwner {
+        _unpause();
+    }
+    
+    function totalrewardamount() external view onlyOwner returns(uint256){     // read 
+         return rewardamount;
+    }
+
+    function finalimpression() external view onlyOwner returns(uint256){         //read
+        return impression;
+    }
+    function finalrewardforuser() external view onlyOwner returns(uint256){      //read
+        return rewardfortheuser;
+    }
+
+    function totalimpressionoftheday(uint256 totalImpressionOfTheDay) public onlyOwner{  //write
+          totalimp = totalImpressionOfTheDay;
+    }
+    
+    function claim(uint256 impressionoftheuser) public {                         //claim function
+        require(totalimp != 0,"you cant claim your rewards yet");
+        require(rewardamount != 0,"you cant claim your rewards yet");
+        impression = ((impressionoftheuser*100) / totalimp);
+        rewardfortheuser = (rewardamount * impression)/100 ;
+        payable(msg.sender).transfer(rewardfortheuser);
+    }
+
+}
+\end{lstlisting}
+
+\textbf{Example User-Reward}\\
+
+Input:\\
+User Impression = 34,533\\
+Global Impression = 451,983,946\\
+Total Reward = 89,789 VRL\\
+
+\begin{equation}
+User\:Percentage(U_p)=\frac{34533}{451,983,946} \times 100 = 0.00764032\%
+\end{equation}
+\begin{equation}
+User\:Rewards(x)=\frac{89789 \times 0.00764032}{100} = 6.8601669248\:VRL
+\end{equation}
+Output:\\
+User Reward : 6.8601669248 VRL\\
+
+
+The reward allocation and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 13 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be burned. This creates a daily deflationary effect to the Viral Coin that will benefit other wallet users who hold Viral Coins.\\
+
+If the user opts for transferring the rewards to a Non-Profit-Organizations it can be easily transferred directly to the user's preferred Charity. Viral will have a registration portal for Charities to Register their information and get verified to appear on the Application's Wallet. 
+
+\subsection{ROV (Contribution-based) - 10\%}
 
 10\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. \\
 
-This ensures rapid results in removing explicit content in a relatively short time without any hassles. In short, ROV is a decentralized autonomous organization to maintain Viral at its best. So, the curators should be rewarded by Viral Coins for their contribution to the network.\\
+This ensures rapid results in removing explicit content in a relatively short time without any hassles. In short, ROV is a decentralized autonomous organization to maintain Viral's media contents at its best. The curators will be rewarded by Viral Coins for their contribution to the network.\\
 
-Advantages of ROV over Centralized Organization\\
-\begin{itemize}[leftmargin=+0.2in]
+\textbf{Advantages of ROV over Centralized Organization}\\
+\begin{enumerate}[leftmargin=+0.2in]
 \item Faster content removals
 \item The decision of a single organization/person will be eliminated
 \item A better-decentralized approach to centralized organizations
 \item Will work in any time zone 24/7 without any hassles
-\end{itemize}
+\end{enumerate}
 
 
-How Segregation takes place\\
+\textbf{How Segregation takes place}\\
 
 The segregation will be done at 2 AM UTC where the curator's Plus points for the day will be taken and the percentage of rewards will be determined using it. For every vote and every positive contribution they make the points will be increased in the ROV Profile where the curators will get their fair share of rewards considering the total points collected by all curators in 24 hours similar to the segregation algorithm of Users Views-based.\\
+
+\begin{figure}
+\begin{center}
+\caption{Flowchart}
+\end{center}
+\end{figure}
 
 How will they receive\\
 
