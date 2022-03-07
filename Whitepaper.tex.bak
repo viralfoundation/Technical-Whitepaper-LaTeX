@@ -50,6 +50,9 @@
 
 %tikzlibrary
 
+\usepackage{multirow}
+\usepackage{tfrupee}
+
 
 
 \newlength{\Lnote}
@@ -1500,7 +1503,7 @@ Using Viral DEX's pricing strategy for buying and selling by adding a difference
 
 \textbf{Fee Structure}\\
 
-Viral DEX subtracts a swap fee on every swap order executed. There are two types of fee leaved according to trading pairs nature. A 0.2\% fee will be leaved on normal pairs and a 0.02\% fee will be leaved for stable-coin pairs. These DEX fees are excluding wallet transfer fees which will be leaved separately. These fees will be added into a separate pool where the liquidity providers can collect while withdrawing their staked tokens. 70\% of total DEX fees collected with be allocated to liquidity providers where the rest 30\% will be sent to Viral's global revenue pool.\\
+Viral DEX subtracts a swap fee on every swap order executed. There are two types of fee leaved according to trading pairs nature. A 0.1\% fee will be leaved on normal pairs and a 0.02\% fee will be leaved for stable-coin pairs. These DEX fees are excluding wallet transfer fees which will be leaved separately. These fees will be added into a separate pool where the liquidity providers can collect while withdrawing their staked tokens. 70\% of total DEX fees collected with be allocated to liquidity providers where the rest 30\% will be sent to Viral's global revenue pool.\\
 
 \begin{figure}[H]
 \begin{center}
@@ -1511,7 +1514,7 @@ Viral DEX subtracts a swap fee on every swap order executed. There are two types
 
 
 \begin{equation}
-Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.2\%
+Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.1\%
 \end{equation}
 \begin{equation}
 Stable\:Pair\:Swap\:Fee=Swap\:Amount \times  0.02\%
@@ -1523,9 +1526,9 @@ Transfer\:Fee=After\:Swap\:Fee\:Rate \times  0.05%
 \textit{For Example} 
 (Fee Type : Normal Pair) \\
 Total Swap amount = $500$\\
-DEX Fee : $500 \times  0.2\% = 1$ \\
-Transfer Fee= $((500)-(500 \times  0.2\%)) \times  0.5\% = 0.2495$ \\
-Final = $498.7505$\\
+DEX Fee : $500 \times  0.2\% = 0.5$ \\
+Transfer Fee= $((500)-(500 \times  0.2\%)) \times  0.5\% = 0.0999$ \\
+Final = $499.4001$\\
 
 (Fee Type : Stable Pair) \\
 Total Swap amount = $500$\\
@@ -1594,28 +1597,26 @@ Ironically, many of the same factors that contribute to the advantages of a cent
 
 As the security threats continues, there's currently no effective solution for a non-custodial fiat-crypto exchange. At any instance if a probable propaganda is proposed the primary user aquisition strategy of those solutions is to target the current users of popularly running cryptoexchanges which is a very long and narrow way to bring in users for the platform. Viral has a first mover advantage for such a non-custodial way of buying cryptocurrencies using fiat-currencies since it's application offers end to end solution on all aspects on the de-fi wave, user's are prompted to use it's services while using the application. This has a significance effect in acquiring users for an in-built crypto buying facility for users to trade in their fiat money. For one such of an exchange where it's users derived from a social media will impact the crypto adoption and also reassures the year-long threat of losing user's funds to potential hackers.\\
 
-\subsubsection{VCEX - Viral Semi-Centralized Exchange}
+\subsubsection{Intro to VFEX}
 
-Decentralization refers to freedom and ownership. A centralized exchange restricts the ownership by being a custody to user's funds by maintaining the private keys on their central server. There is only two aspects a CEX will carry out: Buying and Selling. While both fiat and crypto funds is being held in custody, the Fiat Funds is securely holded (due to it's reversal mechanism), whereas the Crypto Funds are always open for attacks and cannot be reverted back nor easy to track the route of transactions to an individual after a breach. While Popular CEXs are tackling these breaches using secured cryptographic encryptions, firewalls, etc there is always a possibilty for a penetration expert to steal the funds. Viral is offering a non-custodial crypto buying solution by supplying fiat-pegged-tokens and exchanging via Atomic Order Book Swaps.\\
+Decentralization refers to freedom and ownership. A centralized exchange restricts the ownership by being a custody to user's funds by maintaining the private keys on their central server. There is only two aspects a CEX will carry out: Buying and Selling. While both fiat and crypto funds is being held in custody, the Fiat Funds is securely holded (due to it's reversal mechanism), whereas the Crypto Funds are always open for attacks and cannot be reverted back nor easy to track the route of transactions to an individual after a breach. While Popular CEXs are tackling these breaches using secured cryptographic encryptions, firewalls, etc there is always a possibilty for a penetration expert to steal the funds. Viral is offering a non-custodial crypto buying solution by supplying fiat-pegged-tokens and exchanging via Viral DEX.\\
 
 \textbf{Basic Structure}\\
 
 Viral Buy/Sell Exchange works differently from centralized exchanges. In current CEXs when user deposits his fiat funds, the funds will get deposited into the exchange's traditional banking account from where the user gets his fiat balance updated with a total figure he would have deposited. CEXs tracks user's fiat balances in a centralized manner and directly updates the database tables of each user after making successful trades. The update in fiat balances are done through centralized systems which is not transparent and needs to be trusted. This effectively comes to the usage of Fiat-backed-crypto tokens such as USDC, USDT, TrueUSD which holds equally backed fiat amount in reserves and thereby minting new tokens for user in which the is pegged 1:1 to a government backed fiat currency .i.e., typically US Dollar.\\
 
-Nowadays most users prefer to buy USDC and later use those tokens in various DeFi applications. The emergence of fiat backed tokens have paved a way of tokenizing fiat coins. As Viral's vision to bring rapid adoption to tokenized economy we provide our users to buy Viral Coins from fiat currencies by adopting fiat-tokenization strategy and atomic swaps for exchanging tokenized fiat to Viral Coin and vice versa.\\
+Nowadays most users prefer to buy USDC and later use those tokens in various DeFi applications. The emergence of fiat backed tokens have paved a way of tokenizing fiat coins. As Viral's vision to bring rapid adoption to tokenized economy we provide our users to buy Viral Coins from fiat currencies by adopting fiat-tokenization strategy and swap books of Viral DEX for exchanging tokenized fiat to Viral Coin and vice versa.\\
 
-In simple words while today's crypto exchanges updates the fiat balance when users deposit their fiat currencies i.e., dollar, euro, yen, rupee into the exchange, while Viral Exchange provides users who deposit an equivalent amount of special Fiat-Tagged tokens (Eg; USD, INR, EUR - all as crypto tokens) into their current non-custodial Viral wallet that can be referred as fiat balance from which users can trade in for Viral Coins. While buying and selling Viral Coins the users will be using their Fiat-Tagged Tokens to facilitate trades using a decentralized Atomic Swap Order Book Exchange between white-listed addresses\\
+In simple words while today's crypto exchanges updates the fiat balance when users deposit their fiat currencies i.e., dollar, euro, yen, rupee into the exchange, while Viral Exchange provides users who deposit an equivalent amount of special Fiat-Tagged tokens (Eg; USD, INR, EUR - all as crypto tokens) into their current non-custodial Viral wallet that can be referred as fiat balance from which users can trade in for Viral Coins. While buying and selling Viral Coins the users will be using their Fiat-Tagged Tokens to facilitate trades using a decentralized Swap Books Exchange between white-listed addresses\\
 
-A solution which combines tokenization of fiat assets and decentralized order books using atomic swaps is a better, safer and cheaper alternative to current custody model exchanges. Since deposit and withdrwal of fiat funds are subject to regulatory compliance some of the process such as KYC, AML will be required for users. Some of the benefits compared to current exchanges are
+A solution which combines decentralized solutions is a better, safer and cheaper alternative to current custody model exchanges. Since deposit and withdrawal of fiat funds are subject to regulatory compliance some of the process such as KYC, AML will be required for users. Some of the benefits compared to current exchanges are
 \begin{enumerate}[leftmargin=+0.2in]
-\item \textbf{Security of Funds}:
-\item \textbf{Decentralized Exchange}:
-\item \textbf{Elimination of Threats}:
-\item \textbf{User Owned Private Key}:
-\item \textbf{Zero Risk getting Scammed}:
+\item \textbf{Security of Funds}: Stored in Non-Custodial Wallet
+\item \textbf{Decentralized Exchange}: Atomic Swaps happen on-chain and orderbook will be maintained off-chain
+\item \textbf{User Owned Private Key}: Hot Wallets where user owns his/her private key and has complete ownership of deposits
 \end{enumerate}
 
-Fiat-Tag Tokens in Deposit Wallet\\
+\textbf{User Registration}\\
 
 \begin{figure}[H]
 \begin{center}
@@ -1657,85 +1658,75 @@ graph TB
     E & K & O & T--sent to-->P
 \end{comment}
 
-
-Atomic Exchange from token to token\\
-
-Makers as Sellers\\
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=9cm]{maker-as-seller}\\
-\caption{Maker as Viral Coin Seller}
-\end{center}
-\end{figure}
-
-\begin{comment}%mermaid graph
-graph TB
-    
-    0([Maker as Seller])
-    0--Whitelisted KYC User-->H
-    H[/Sell x Viral Coins & Buy y Fiat-Tag Tokens/]
-    H-->D{Makes Order}
-    subgraph Atomic Swap
-    E[Sends Viral Coins to Swap Contract]
-    W[Sends Fiat-Tag Tokens to Swap Contract]
-    S[Order Matched]
-    U[Atomic Swap]
-    F([Maker Receives Fiat Tag Tokens])
-    V([Taker Receives Viral Coin])
-    end
-    D-->E
-    X-->W
-    E & W -->S
-    S-->U
-    U-->F & V
-   
-    X{Takes the Order}
-    Y[/Sells y amount of Fiat-Tag Tokens/]
-    Z([Taker as Buyer])
-    Z--Whitelisted KYC User-->Y-->X
-
-\end{comment}
-
-Makers as Buyers\\
+While Viral application doesn't require any user information, ViralFEX will require user's information such as email, phone verification, etc and also will require Know-Your-Customer (KYC) and Anti-Money-laundering (AML) policies for regulatory purposes. After the registration completes the user's viral wallet username (VNS) will get linked automatically to get white-listed for the exchange (since it's decentralized) and securely drop in fiat-tag tokens directly into the user's VNS-linked Viral Smart Chain wallet address. 
 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=9cm]{maker-as-buyer}\\
-\caption{Maker as Viral Coin Buyer}
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+	[Fetches Viral Username
+		[Whitelists-username
+			[$username$ returns address $0x71C7656EC7ab88b098defB751B7401B5f6d8976F$]		
+		]	
+	]
+\end{forest}
+\end{center}
+\end{figure}
+
+\textbf{Fee Structure}\\
+
+Since Viral-FEX deals with only deposit \& withdrawal where the exchanging mechanism depends on swap books and ViralDEX Pools the fees on  Viral Semi-CEX is considerably low compared to other popular centralized exchanges. Viral takes fees based on deposit, withdrawal and trade. These fees doesn't include the network fees paid to the Viral Smart Chain which will be included seperately. Since Viral Smart Chain doesn't take gas fees and takes a very minute amount of base fee \$0.0005 and a transfer fee of 0.05\% it will not affect the users trades. The exchange fees are listed below\\
+
+\textbf{Deposit fees}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Deposit Fee}: Fized 0.1\% excluding credit/debit card or bank transfer fee
+\item \textbf{Mint Fee}: Fee charged for minting new fiat-tag tokens .i.e., typically \$0.0005
+\end{enumerate}
+
+\textbf{Trade Fee}\\
+
+The trade fee is fixed to 0.1\% for Viral Coin- Fiat Pairs and 0.02\% for Viral Stable Coin - Fiat Pairs. These fees will be allocated to 60\% Liquidity Providers and 40\% Viral\\
+
+\textbf{Withdrawal Fee}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Withdrawal Fee}: Fixed 0.1\% excluding credit/debit card or bank transfer fee
+\item \textbf{Burn Fee}: Fee charged for burning fiat-tag tokens .i.e., typically \$0.0005
+\end{enumerate}
+
+
+\textbf{Fiat-Tag Token Supply}\\
+
+Fiat-Tag Tokens are limited tokens that is minted and supplied to FEX users after depositing fiat money i.e., USD, EUR, INR, etc to their exchange accounts. The utility of these tokens is only limited for exchanging purposes inside the viral application. The tokens are classified by listed fiat currencies from which users are allowed to exchange e.g., If Euro can be deposited to Viral FEX account, EUR Tokens will be generated and sent. The supply of tokens are elastic in nature while minting and burning while depositing and withdrawing fiat funds. KYC users addresses will be white-listed for transacting fiat-tag tokens to eliminate spam and usage of tokens by a non-kyc users.\\
+
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+ \hline
+ \multicolumn{4}{|c|}{Fiat-Tag Tokens} \\
+ \hline
+ Fiat Currency & Fiat-Symbol & Region & Tag-Token\\
+ \hline
+ US Dollar & \$ & United States & USD\\
+ Euro & €  & Europe  & EUR\\
+ Japanese Yen & ¥ & Japan & YEN\\
+ Pound Sterling & £ & Britain & GBP\\
+ South Korean Won & ₩   & South Korea & KRW\\
+ Indian Rupee & \rupee & India  & INR\\
+ Canadian Dollar & \$ & Canada  & CAD\\
+ \hline
+\end{tabular}
+\caption{ViralFEX Fiat Tag Tokens}
 \end{center}
 \end{figure}
 
 
-\begin{comment}%mermaid graph
-graph TB    
-    0([Maker as Buyer])
-    0--Whitelisted KYC User-->H
-    H[/Buy y Viral Coins to Sell x Fiat-Tag Tokens/]
-    D{Makes Order}
-    H-->D
-    subgraph Atomic Swap
-    E[/Sends Fiat-Tag Tokens to Swap Contract/]
-    W[/Sends Viral Coins to Swap Contract/]
-    U[Atomic Swap]
-    S[Order Matched]
-    F([Maker Receives Viral Coin])
-    V([Taker Receives Fiat-Tag Tokens])
-    end
-    D-->E
-    X-->W
-    E & W -->S
-    S-->U
-    U-->F & V
-   
-    X{Takes Order}
-    Y[/Sells y Viral Coins to Buy x Fiat-Tag Tokens/]
-    Z([Taker as Seller])
-    Z--Whitelisted KYC User-->Y-->X
-\end{comment}
+\textbf{Exchange}\\
 
-Withdrawal of Fiat\\
+
+
+\textbf{Withdrawal of Fiat}\\
 
 \begin{figure}[H]
 \begin{center}
@@ -1781,53 +1772,12 @@ graph TB
     Q([Equillibrium attained Fiat Amount = Fiat-Tag Tokens Circulating supply])
 \end{comment}
 
-\textbf{Fee Structure}\\
 
-Viral Semi-CEX takes very less percentage of fees comparing to other popular centralized exchanges. Viral takes fees based on deposit, withdrawal and trade. These fees doesn't include the network fees paid to the Viral Smart Chain which will be included seperately. Since Viral Smart Chain doesn't take gas fees and takes a very minute amount of base fee \$0.0005 and a transfer fee of 0.05\% it will not affect the users trades. The exchnage fees are listed below\\
 
-\textbf{Deposit fees}
-\begin{enumerate}[leftmargin=+0.2in]
-\item \textbf{Deposit Fee}: Fized 0.1\% excluding credit/debit card or bank transfer fee
-\item \textbf{Mint Fee}: Fee charged for minting new fiat-tag tokens .i.e., typically \$0.0005
-\end{enumerate}
-
-\textbf{Trade Fee}
-\begin{enumerate}[leftmargin=+0.2in]
-\item \textbf{For Market Makers} the trade fee will be \textbf{zero}. Only the network fees (base fee + transfer fee) will be leaved.
-\item \textbf{For Marker Takers} the trade fee is fixed to \textbf{0.2\% }excluding the network fees to begin the trade.
-\end{enumerate}
-
-\textbf{Withdrawal Fee}
-\begin{itemize}[leftmargin=+0.2in]
-\item \textbf{Withdrawal Fee}: Fixed 0.1\% excluding credit/debit card or bank transfer fee
-\item \textbf{Burn Fee}: Fee charged for burning fiat-tag tokens .i.e., typically \$0.0005
-\end{itemize}
+\textbf{Limitations}\\
 
 
 
-\textbf{Makers Incentives}
-\begin{enumerate}[leftmargin=+0.2in]
-\item \textbf{Zero-Fee Trades}: Viral Semi-CEX offers zero fee trades for market makers
-\item \textbf{Rewards from Takers Commission}: 10\% of the takers commision (0.2\%) will be rewarded to market makers as an incentive for providing liquidity. 
-\end{enumerate}
-
-
-\textbf{Fiat-Markets}\\
-
-At the beta launch of the Viral application we will be launching with Top 7 Fiat Currency with the highest market cap listed to buy/sell Viral Coins. Since for every circulating Fiat-Tag Tokens, the funds will be holded through a fiat-reserve bank. This requires local effort to go through regulation processes of the region. So Viral will be adding new fiat-currency listings according to the amount of requests we receive. The list of 7 fiat currencies are
-\begin{enumerate}[leftmargin=+0.2in]
-\item USD - United States Dollar
-\item EUR - Euro
-\item JPY - Japanese Yen
-\item GBP - Pound Sterling
-\item KRW - South Korean Won
-\item INR - Indian Rupee
-\item CAD - Canadian Dollar
-\end{enumerate}
-Currently Viral operates as a stand alone application for the users to make use of cryptocurrencies through our decentralixed social media, we provide users solution to buy \& sell only Viral Coins at the current scenario. There is plans to add more wrapped-crypto pairs in the upcoming future such as vBTC, vETH, vSOL, vMATIC to hold cryptocurrencies in a single non-custodial wallet and trade in with fiat currencies at ease.
-
-
-Conclusion\\
 
 \subsection{Custodian Services}
 
