@@ -1134,9 +1134,6 @@ Current AMMs gives the opportunity for non-simultaneous series of buys and sells
 \end{figure}
 
 
-
-
-
 While conducting an alternate(buy-sell) swap, it leaves significant price impacts on either of the trades for maintaining the $k$ in the Constant Product Formula $x \times  y=k$, it will not be useful to minimize the price impacts by doing two trades one after each other. Also when two trades match it is best in case to make a decentralized atomic swap instead of taking from a Liquidity pool that will revert to it's previous pool price before the trade. This comes to a conclusion that Traders with matching swaps doesn't provide any results for reducing price impacts, changing the pool's price to market price, etc.\\
 
 
@@ -1514,7 +1511,7 @@ Viral DEX subtracts a swap fee on every swap order executed. There are two types
 
 
 \begin{equation}
-Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.1\%
+Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.2\%
 \end{equation}
 \begin{equation}
 Stable\:Pair\:Swap\:Fee=Swap\:Amount \times  0.02\%
@@ -1526,14 +1523,14 @@ Transfer\:Fee=After\:Swap\:Fee\:Rate \times  0.05%
 \textit{For Example} 
 (Fee Type : Normal Pair) \\
 Total Swap amount = $500$\\
-DEX Fee : $500 \times  0.2\% = 0.5$ \\
-Transfer Fee= $((500)-(500 \times  0.2\%)) \times  0.5\% = 0.0999$ \\
-Final = $499.4001$\\
+DEX Fee : $500 \times  0.2\% = 1$ \\
+Transfer Fee= $((500)-(500 \times  0.2\%)) \times  0.05\% = 0.2495$ \\
+Final = $498.7505$\\
 
 (Fee Type : Stable Pair) \\
 Total Swap amount = $500$\\
 DEX Fee : $500 \times  0.02\% = 0.1$ \\
-Transfer Fee= $((500)-(500 \times  0.2\%)) \times  0.5\% = 0.24995$ \\
+Transfer Fee= $((500)-(500 \times  0.2\%)) \times  0.05\% = 0.24995$ \\
 Final = $499.65005$\\
  
  
@@ -1687,7 +1684,7 @@ Since Viral-FEX deals with only deposit \& withdrawal where the exchanging mecha
 
 \textbf{Trade Fee}\\
 
-The trade fee is fixed to 0.1\% for Viral Coin- Fiat Pairs and 0.02\% for Viral Stable Coin - Fiat Pairs. These fees will be allocated to 60\% Liquidity Providers and 40\% Viral\\
+The trade fee is fixed to 0.2\% for Viral Coin- Fiat Pairs and 0.02\% for Viral Stable Coin - Fiat Pairs. These fees will be allocated to 70\% Liquidity Providers and 30\% Viral Global Revenue Pool\\
 
 \textbf{Withdrawal Fee}
 \begin{enumerate}[leftmargin=+0.2in]
@@ -1721,12 +1718,16 @@ Fiat-Tag Tokens are limited tokens that is minted and supplied to FEX users afte
 \end{center}
 \end{figure}
 
+\begin{equation}
+Total\:Mint=Total\:Fiat\:Deposit-(Fees)
+\end{equation}
+
+\textbf{Minting Tag-Tokens / Fiat Deposit}\\
+
 
 \textbf{Exchange}\\
 
-
-
-\textbf{Withdrawal of Fiat}\\
+\textbf{Burning Tag-Tokens / Fiat Withdrawal}\\
 
 \begin{figure}[H]
 \begin{center}
@@ -1775,9 +1776,6 @@ graph TB
 
 
 \textbf{Limitations}\\
-
-
-
 
 \subsection{Custodian Services}
 
@@ -2224,8 +2222,9 @@ The segregation takes place every day at 2 AM UTC according to the votes they go
 
 \section{Governance \& Viral DAO}
 
-Story\\
-Intro\\
+
+
+
 Governance Models\\
 Viral Smart Chain\\
 On-Chain Governance\\
