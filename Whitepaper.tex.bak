@@ -2222,9 +2222,30 @@ The segregation takes place every day at 2 AM UTC according to the votes they go
 
 \section{Governance \& Viral DAO}
 
-Story\\
-Intro\\
-Governance Models\\
+Viral incorporates a vast ecosystem of blockchains and De-Fi application along with the integration of social networking for the masses to adopt cryptocurrencies to the fullest. While aiming for a true-decentralized product, governance plays a huge role in every aspect of decisions on updating the protocols. Most de-fi organizations have separate on-chain governance communities apart from offline-governance to vote and improve their platforms, Viral prepared to seperate governance of current and future products into two governance models and bring decentralized decision making oppurtunity for the members of the community. The Viral Foundatoin decided not to bring in any centralized governance model for any of it's ecosystem except the ViralFEX since it complies with regulatory restrictions.\\
+
+\textbf{Governance Models}\\
+
+\begin{figure}[H]
+\begin{center}
+
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [Governance
+    [On-Chain Governance (Blockchains)
+    ]
+   [Viral DAO (Defi and Social App)
+    ]
+  ]
+\end{forest}
+\caption{Governance Model}
+\end{center}
+\end{figure}
+
+While governing Viral Smart Chains protocols requires validators and nodes, the mobile application comprising de-fi protocols requires a decentralized autonomous organization (DAO) to vote on frequent updates and maintenance of offline compliances.
+
+
 Viral Smart Chain\\
 On-Chain Governance\\
 Staked Tokens\\
