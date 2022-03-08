@@ -43,11 +43,11 @@
 \contentsline {subsection}{\numberline {9.3}Viral Decentralized Exchanges}{22}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}Viral Fiat-Exchange}{32}{subsection.9.4}%
 \contentsline {subsubsection}{\numberline {9.4.1}Intro to VFEX}{33}{subsubsection.9.4.1}%
-\contentsline {subsection}{\numberline {9.5}Custodian Services}{36}{subsection.9.5}%
-\contentsline {subsection}{\numberline {9.6}Other Wallet Features}{36}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.5}Custodian Services}{37}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Other Wallet Features}{37}{subsection.9.6}%
 \contentsline {section}{\numberline {10}Child Platforms}{37}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Content Moderation Platform}{37}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Developer Platform}{41}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.2}Developer Platform}{42}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}Social Nodes}{43}{subsection.10.3}%
 \contentsline {section}{\numberline {11}Global Reward Pool}{43}{section.11}%
 \contentsline {subsection}{\numberline {11.1}Users (Impression-based) - 10\%}{44}{subsection.11.1}%
