@@ -84,10 +84,10 @@
 
 \textbf{Contributors}
 \begin{enumerate}
-\item{Joby Reuben\footnote{A@university.edu}}
-\item{Ajay Joshua\footnote{B.B@university.edu}}
-\item{Naveen Jose\footnote{C.C@university.edu}}
-\item {Samarth Kulkarni\footnote{D.D@university.edu}}
+\item{Joby Reuben}
+\item{Ajay Joshua}
+\item{Naveen Jose}
+\item {Samarth Kulkarni}
 \end{enumerate}
 
 \newpage
@@ -1705,13 +1705,13 @@ Fiat-Tag Tokens are limited tokens that is minted and supplied to FEX users afte
  \hline
  Fiat Currency & Fiat-Symbol & Region & Tag-Token\\
  \hline
- US Dollar & \$ & United States & USD\\
+ US Dollar &\$ & United States & USD\\
  Euro & €  & Europe  & EUR\\
- Japanese Yen & ¥ & Japan & YEN\\
- Pound Sterling & £ & Britain & GBP\\
- South Korean Won & ₩   & South Korea & KRW\\
- Indian Rupee & \rupee & India  & INR\\
- Canadian Dollar & \$ & Canada  & CAD\\
+ Japanese Yen &¥ & Japan & YEN\\
+ Pound Sterling &£ & Britain & GBP\\
+ South Korean Won &₩   & South Korea & KRW\\
+ Indian Rupee &\rupee & India  & INR\\
+ Canadian Dollar &\$ & Canada  & CAD\\
  \hline
 \end{tabular}
 \caption{ViralFEX Fiat Tag Tokens}
@@ -1724,6 +1724,44 @@ Total\:Mint=Total\:Fiat\:Deposit-(Fees)
 
 \textbf{Minting Tag-Tokens / Fiat Deposit}\\
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{custodian}
+\caption{Custodian Banks}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=9cm]{minttagtokens}
+\caption{Minting different fiats}
+\end{center}
+\end{figure}
+
+\begin{comment}%mermaid
+graph TD
+    A[USD Reserve Bank]
+    B[INR Reserve Bank]
+    C[EUR Reserve Bank]
+
+    D[Viral-FEX KYC User]
+
+    H[Mints INR-Tag Token]
+    I[Mints USD-Tag Toekn]
+    J[Mints EUR-Tag Token]
+
+    D--2.Deposits Indian Rupee-->B
+    D--1.Deposits US Dollar-->A
+    D--3.Deposits EURO-->C
+
+    B-->H
+    A-->I
+    C-->J
+
+    H & I & J --Transfers to Hot Wallet-->D
+\begin{comment}
+
+\textbf{Custodian Requirements}\\
 
 \textbf{Exchange}\\
 
@@ -2243,14 +2281,17 @@ Viral incorporates a vast ecosystem of blockchains and De-Fi application along w
 \end{center}
 \end{figure}
 
-While governing Viral Smart Chains protocols requires validators and nodes, the mobile application comprising de-fi protocols requires a decentralized autonomous organization (DAO) to vote on frequent updates and maintenance of offline compliances.
+While governing Viral Smart Chains protocols requires validators and nodes on voting consensus, the mobile application comprising de-fi protocols requires a decentralized autonomous organization (DAO) to vote on frequent updates and maintenance of offline compliances. \\
 
 
-Viral Smart Chain\\
+\textbf{Viral Smart Chain}\\
+
 On-Chain Governance\\
 Staked Tokens\\
 Viral Improvement Proposal\\
 Addition of New Chains\\
+
+
 Viral Ecosystem Governance\\
 DAO Intro\\
 List of Governing Platforms\\
