@@ -52,8 +52,11 @@
 
 \usepackage{multirow}
 \usepackage{tfrupee}
-\usepackage{empheq}
-\everymath{\color{blue}}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+
 
 
 
@@ -75,9 +78,12 @@
 \author{Viral Foundation}
 
 
+
 \begin{document}
 
+
 \maketitle
+
 \begin{abstract}
 \lipsum[1]\lipsum[1]
 \end{abstract}
@@ -2241,7 +2247,7 @@ Viral incorporates a vast ecosystem of blockchains and De-Fi application along w
 \end{center}
 \end{figure}
 
-While governing Viral Smart Chains protocols requires validators and nodes on voting consensus, the mobile application comprising de-fi protocols requires a decentralized autonomous organization (DAO) to vote on frequent updates and maintenance of offline compliances. \\
+While governing Viral Smart Chains protocols requires validators and nodes on voting consensus, the mobile application comprising de-fi protocols requires a decentralized autonomous organization (DAO) to vote on frequent updates and maintenance of offline compliances.\\
 
 
 \textbf{Viral Smart Chain}\\
