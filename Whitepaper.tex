@@ -575,9 +575,9 @@ $Flow chart$
 
 \subsection{User Security and Privacy}
 
-$Abstract$\\
+At current world, privacy of user's in social media is being exploited by several centralized monopoly companies that run major social netwroking mobile applications that tracks user's data regarding their interests. These datas are being stored in a centralized database that is prone to attacks and breaches of private information. While targeted-manipulation plays a huge role in advertising industry, the collection of data is still prominent for almost 99\% social media business models except those run in donations. Viral focusses on maximum privacy of user's data by eliminating a central point of storage and heavily encrypts the media content circulating in the platform. It is possible to say Viral collects zero data of users and maintain a secure, trustable application in a generation where our mobiles are who we are.\\
 
-This is classified into\\
+This is classified into
 \begin{enumerate}[leftmargin=+0.2in]
 \item Media Storage
 \item Chats or Private Messages
@@ -591,12 +591,32 @@ All Media uploaded to Viral is End-to-end Encrypted where all the files are encr
 
 \textbf{Encryption}\\
 
-$Detailed Explanation$\\
+A random secret key will be generated to encrypt all kinds of media on Viral. After the final output, the encryption will happen locally inside the device where the file will be hosted/pinned by Public IPFS nodes and replicated across private clusters. The CID / Fingerprint of hosted file will be added to the post's meta data along with the secret key which can be only decrypted by white-listed users (followers). The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content unless it's public.
 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=6cm]{encryption}
+\includegraphics[width=10cm]{aes}
+\caption{Symmetric Encryption}
+\end{center}
+\end{figure}
+
+\begin{lstlisting}[language=Java, caption={GunDB Privacy Group Snippet}, numbers=none]
+
+	post id:12 {
+    	"cid": "hefTFbifw5P4gXftAwvA4eXQ89f9w7Rv9dCaQRRVQPn93bA",
+   		"caption": "This is a sample caption",
+    	"gateway": "https://cluster.viral.com/",
+    	"secret-key" : ""
+	}
+	
+\end{lstlisting}
+
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{encryption}
 \caption{Encryption of Media in Viral}
 \end{center}
 \end{figure}
@@ -647,8 +667,8 @@ $Detailed Explanation$\\
 
 \begin{comment}
 
-flowchart LR
-subgraph Private-Account-Media-Decryption
+flowchart TB
+
   A0[User A request to view User B content]
   subgraph Follower Verification
   A0--1-->A1
@@ -694,7 +714,7 @@ subgraph Private-Account-Media-Decryption
   C2--6-->Decryption-of-encrypted-file
   Z[Content is shown]
   D2--8-->Z
-end
+
 
 \end{comment}
 
@@ -705,7 +725,7 @@ $Detailed Explanation$\\
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=6cm]{decryption-public}
+\includegraphics[width=10cm]{decryption-public}
 \caption{Decryption Media of Public account in Viral}
 \end{center}
 \end{figure}
