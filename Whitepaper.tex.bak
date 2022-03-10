@@ -271,7 +271,7 @@ For an efficient understanding, we have seperated the Viral Architecture/Ecosyst
 
 \begin{itemize}
 \item Social Media and User Experience (Page 1-10)
-\item Blockchain, Token Ecosystem and Layer 2 (Page 10-15)
+\item Blockchain, Token Ecosystem (Page 10-15)
 \item Smart Wallet (Page 15-20)
 \item Child Platforms (Page 20-25)
 \item Revenue and Incentives (Page 25-30)
@@ -820,7 +820,7 @@ Addition of Nodes – Trusted Way\\
 
 Phase 2 – Trust less Way (IPFS-VM)\\
 
-\section{Blockchain, Token Ecosystem and Layer 2}
+\section{Blockchain, Token Ecosystem}
 
 \subsection{Viral Smart Chain – Short Intro}
 
@@ -1013,39 +1013,54 @@ Flowchart\\
 Conclusion\\
 Hence Users can invest in Bitcoin and other popular cryptocurrencies if they want to, without any hassles of other wallet applications or other blockchain wallets.
 
-\subsection{Off-Chain (Layer 2) Solution}
-
-\subsection{Payment Channels - State Channels}
-
-Off-chain transactions refer to those transactions occurring on a cryptocurrency network that move the value outside of the blockchain. Due to their zero/low cost, off-chain transactions are gaining popularity, especially among large participants. Off-chain transactions can be contrasted with on-chain transactions.\\
-
-\textbf{Advantages over On-Chain Transactions}\\
-\begin{enumerate}[leftmargin=+0.2in]
-\item Payments/Transactions can execute instantly. The transaction throughput per second will linearly increase by the number of users which can scale upto tens of thousands per second.
-\item Off-chain transactions doesn’t require a native token's transaction fee since everything occurs outside the blockchain and can be collected in commissions agnostic to the transferring tokens.
-\item It is the most secure and anonymous way to send micropayments for day-to-day transactions wher the details of the transactions will not be broadcasted to the blockchain.
-\item Some popular Off-Chain Networks are Bitcoin’s Lightning Network, Ethereum’s Liquidity Network, Raiden Network
-\end{enumerate}
-
-\textbf{Viral Lightning Payments}\\
-
-Our foremost vision is to bring usability of Viral Coin for daily life transactions prior to other cryptocurrencies such as Bitcoin, Ethereum, etc. This can be achieved by marketing use cases to the Viral Coin on Lightning Payments for micro-transactions  (Eg: Buying a coffee, paying for a taxi ride). Since On-Chain transactions are expensive and require consensus (to validate each transaction among all the nodes on the blockchain), Off-Chain transactions is the better approach for Viral Users. Since our market is dependent on retail and micro-transactions usage Viral Application focusses heavily on Off-Chain micro-transactions rather than On-chain.\\
-
-All Viral Users State Channels\\
-Flowchart for making a state channel\\
-Fees\\
-Routing Nodes\\
-Study other Whitepapers\\
 
 \section{Smart Wallet}
 
-\subsection{Viral Wallet}
+From early days of bitcoin, crypto wallets serves the one-stop solution to hold and transfer cryptocurrencies through an easy user experience model. There is so much to crypto wallets other than holding coin. Wallets can send, receive digital money, store NFT collectibles, connects to exchanges and a lot more to be integrated in the upcoming future, probably your one account hub for everything in the internet. In,short wallet applications are a place to store your cryptocurrencies securely. 
 
-Abstract\\
-Story\\
-Intro\\
+\begin{figure}[H]
+\begin{center}
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [Crypto Wallet
+    [Non-Custodial
+        [Hot Wallet]
+        [Cold Wallet]
+        [Paper Wallet]
+    ]
+    [Custodial
+    ]
+  ]
+\end{forest}
+\caption{Types of Wallet}
+\end{center}
+\end{figure}
 
-\subsection{Wallet Transfers \& Viral Name System}
+
+Wallets are classified into centralized custodial wallets and decentralized non-custodial wallets. Decentralized wallets offer high security and total freedom, while custodial wallets in exchanges comply to regulations. Hot wallets are non-custodial wallets that's always connected to the internet and the blockchain network using various APIs to send, receive, view tokens  easily through a browser or a mobile application. Cold wallets are offline physical wallet devices that stores tokens in a storage device i.e., USB Drive that is secure to over the internet attacks. Viral provides hot wallet services to users through an integrated wallet application inbuilt inside the social application.\\ 
+
+\textbf{Pros of Hot Wallets}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Access assets anywhere} : Hot wallets provide you the ability to access user's digital assests anywhere, using compact mobile/browser applications
+\item \textbf{Free to use} : It takes zero cost to create a wallet address and generate private keys to access the wallet
+\end{enumerate}
+
+\textbf{Cons of Hot Wallets}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Loss of Private Keys} : Since Non-custodial wallets are decentralized user will hold his private keys and no banks or intermediary custodians will hold on behalf of them. This puts an undeniable risk of losing a cryptographic key or a mnemonic phrase.
+\item \textbf{Less Secure than Cold Wallet} : Hot wallets are connected to internet which leaves a vulnerability of potential hacks and threats unlike a cold storage which stores tokens offline.
+\end{enumerate}
+
+
+\textbf{Viral Smart Wallet}\\
+
+Viral Smart wallet is an integrated open-source EVM based hot wallet application that is used to store, send, receive, by \& sell Viral ecosystem of tokens and also used to receive rewards for their contribution towards the decentralized network. Users can create, import multiple wallets and get access to fiat-exchange, decentralized swap pools and zero fee L2 transfers for micro-transactions. \\
+
+\textbf{Create Wallet on Viral}\\
+
+
+
 
 \subsection{Viral Decentralized Exchanges}
 
@@ -2267,7 +2282,7 @@ Viral incorporates a vast ecosystem of blockchains and De-Fi application along w
 \end{center}
 \end{figure}
 
-While governing Viral Smart Chains protocols requires validators and nodes on voting consensus, the mobile application comprising de-fi protocols requires a decentralized autonomous organization (DAO) to vote on frequent updates and maintenance of offline compliances.\\
+While governing Viral Smart Chains protocols requires validators and nodes on voting consensus, the mobile application comprising de-fi protocols requires a decentralized autonomous organization (DAO) to vote on frequent updates and maintenance of offline compliances. This model for governance is seperated among validators (miners) and DAO Token Holders.\\
 
 
 \textbf{Viral Smart Chain}\\
@@ -2278,7 +2293,10 @@ Viral Improvement Proposal\\
 Addition of New Chains\\
 
 
-Viral Ecosystem Governance\\
+\textbf{Viral Ecosystem Governance}\\
+
+
+
 DAO Intro\\
 List of Governing Platforms\\
 Viral DAO Tokens\\
@@ -2313,6 +2331,28 @@ Phase 3 - Internal Upgrades\\
 \section{Phase 2}
 
 \subsection{NFT L2 Solution}
+
+\subsection{Payment Channels - State Channels}
+
+Off-chain transactions refer to those transactions occurring on a cryptocurrency network that move the value outside of the blockchain. Due to their zero/low cost, off-chain transactions are gaining popularity, especially among large participants. Off-chain transactions can be contrasted with on-chain transactions.\\
+
+\textbf{Advantages over On-Chain Transactions}\\
+\begin{enumerate}[leftmargin=+0.2in]
+\item Payments/Transactions can execute instantly. The transaction throughput per second will linearly increase by the number of users which can scale upto tens of thousands per second.
+\item Off-chain transactions doesn’t require a native token's transaction fee since everything occurs outside the blockchain and can be collected in commissions agnostic to the transferring tokens.
+\item It is the most secure and anonymous way to send micropayments for day-to-day transactions wher the details of the transactions will not be broadcasted to the blockchain.
+\item Some popular Off-Chain Networks are Bitcoin’s Lightning Network, Ethereum’s Liquidity Network, Raiden Network
+\end{enumerate}
+
+\textbf{Viral Lightning Payments}\\
+
+Our foremost vision is to bring usability of Viral Coin for daily life transactions prior to other cryptocurrencies such as Bitcoin, Ethereum, etc. This can be achieved by marketing use cases to the Viral Coin on Lightning Payments for micro-transactions  (Eg: Buying a coffee, paying for a taxi ride). Since On-Chain transactions are expensive and require consensus (to validate each transaction among all the nodes on the blockchain), Off-Chain transactions is the better approach for Viral Users. Since our market is dependent on retail and micro-transactions usage Viral Application focusses heavily on Off-Chain micro-transactions rather than On-chain.\\
+
+All Viral Users State Channels\\
+Flowchart for making a state channel\\
+Fees\\
+Routing Nodes\\
+Study other Whitepapers\\
 
 \subsection{Viral DAO Platform and ICO}
 
