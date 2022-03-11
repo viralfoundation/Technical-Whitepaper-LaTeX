@@ -824,7 +824,7 @@ Phase 2 – Trust less Way (IPFS-VM)\\
 
 \subsection{Viral Smart Chain – Short Intro}
 
-Viral Smart Chains, is a network of horizontally scalable EVM Chains on top of IOTA Tangle used for Viral Social network with fully deployed defi ecosystem with Off-Chain solutions. Viral Smart Chains aim to provide an easy understandable one-platform for all the non-crypto users who are subjected to higher gas fees, congestion in network, volatility and scattered defi solutions.\\
+Viral Smart Chains, is a network of parallel ISC Chains on top of IOTA Tangle used for Viral Social network with fully deployed defi ecosystem. Viral Smart Chains aim to provide an easy understandable one-platform for all the non-crypto users who are subjected to higher gas fees, congestion in network, volatility and scattered defi solutions.\\
 
 \subsection{IOTA Smart Contract Protocol}
 
@@ -850,9 +850,35 @@ To know more about IOTA\textsc{\char13}s Smart Contracts : \hyperlink{https://fi
 
 Viral Smart Chains are a family of separate chains anchored to the IOTA\textsc{\char13}s Tangle where each chain can communicate with each other via intermediary L1 Value Tangle.\\
 
-\textbf{Viral\textsc{\char13}s Approach}\\
+\textbf{Viral's Approach}\\
 
 A Single chain will seem complex for setting different fees for different actions on the blockchain i.e Smart Contract Calls/Deployment, Sending Tokens to other Address, etc. Viral\textsc{\char13}s approach is to bring multiple chains categorized by its purpose to serve the Viral Application with fee structure thereby also creating separate chains to provide zero network fees for minting NFTs on Viral App (ERC721 and ERC1155) while rewarding the validators of all Viral chains (including zero fee chains) from the miner pool (total collected fees of all chains) based on validator\textsc{\char13}s total validated transactions for the day through an automated smart contract.\\
+
+\textbf{Family of Chains}
+\begin{itemize}[leftmargin=+0.2in]
+\item \textbf{Genesis Chain} : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc\\
+
+\item \textbf{General Chains} : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.\\
+\end{itemize}
+\textbf{De-Fi Chains}\\
+Smart Contract Deployment Chains specifically for categorized DApps
+\begin{itemize}[leftmargin=+0.2in]
+
+\item \textbf{DEX Chain} : Running smart contracts for Viral Wallet\textsc{\char13}s Decentralized Exchange
+
+\item \textbf{ERC20 Chain} : To Deploy new ERC20 Tokens that can be transacted between chains and accounts
+
+\item \textbf{Viral NFT Chain} : Feeless Viral ran Smart Contract Chain specifically to deploy user\textsc{\char13}s NFTs on-chain
+
+\item \textbf{ERC721/115 Chain} : To deploy new Non-Fungible Tokens for other platforms outside the Viral Application
+
+\item \textbf{Marketplace Chain} : To create smart contract based marketplaces for NFTs and much more
+
+\item \textbf{Other Chains} : For creating Dapps for lending, asset tokenization, yield farming, tools and infrastructure, etc
+\end{itemize}
+
+cndesnss
+
 
 \textbf{Validators}\\
 
@@ -880,45 +906,6 @@ This brings us to an effect that a single blockchain cannot set certain fees or 
 
 Viral\textsc{\char13}s aim to democratize NFT to the masses and bring massive NFT Adoption we will be running separate zero-fee chains for deploying ERC721 and ERC1155 Token directly from the Viral Application. The Validators for the chain will be open to join the network where they\textsc{\char13}ll be rewarded from the miner pool (total fee collected) based on the total transactions they validate in a day.\\
 
-\textbf{Family of Chains}\\
-
-\begin{comment}%mermaid chainfamily
-graph TD
-    A[Genesis Chain]
-    B[General Chains]
-    B-->J[Description]
-    C[De-Fi Chains]
-    D[DEX Chain]
-    E[Fungible Contract Chains]
-    F[Non-Fungible Contract Chains]
-    G[Viral NFT Chains]
-    H[Marketplace Chains]
-    I[Other DApp Chain]
-    A-.-B
-    A-.-C-.-D & E & F & G & H & I
-\end{comment}
-
-\begin{itemize}[leftmargin=+0.2in]
-\item \textbf{Genesis Chain} : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc\\
-
-\item \textbf{General Chains} : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.\\
-\end{itemize}
-\textbf{De-Fi Chains}\\
-Smart Contract Deployment Chains specifically for categorized DApps\\
-\begin{itemize}[leftmargin=+0.2in]
-
-\item \textbf{DEX Chain} : Running smart contracts for Viral Wallet\textsc{\char13}s Decentralized Exchange
-
-\item \textbf{ERC20 Chain} : To Deploy new ERC20 Tokens that can be transacted between chains and accounts
-
-\item \textbf{Viral NFT Chain} : Feeless Viral ran Smart Contract Chain specifically to deploy user\textsc{\char13}s NFTs on-chain
-
-\item \textbf{ERC721/115 Chain} : To deploy new Non-Fungible Tokens for other platforms outside the Viral Application
-
-\item \textbf{Marketplace Chain} : To create smart contract based marketplaces for NFTs and much more
-
-\item \textbf{Other Chains} : For creating Dapps for lending, asset tokenization, yield farming, tools and infrastructure, etc
-\end{itemize}
 
 Development
 
