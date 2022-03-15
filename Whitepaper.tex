@@ -1,7 +1,5 @@
 \documentclass[10pt]{article}
-
-
-\usepackage[a4paper , left=31.7mm, top=30mm]{geometry}
+\usepackage[a4paper]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -269,7 +267,7 @@ External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
 \section{How Whitepaper Structured}
 For an efficient understanding, we have seperated the Viral Architecture/Ecosystem\textsc{\char13}s major sectors.\\
 
-\begin{itemize}
+\begin{itemize}[leftmargin=+0.2in]
 \item Social Media and User Experience (Page 1-10)
 \item Blockchain, Token Ecosystem (Page 10-15)
 \item Smart Wallet (Page 15-20)
@@ -283,6 +281,64 @@ Viral is a multi-media sharing decentralized social network that brings meta-exp
 
 \notte{To bring NFT as a standard for a social media post doesn\textsc{\char13}t essentially implies it ought to be sold for tokens, rather it conveys that each post in Viral is a unique piece of data in the blockchain that gives the power of ownership of the user which if needed can be opted to transfer in exchange for tokens inside the Viral Platform.\texttt{notte}.}
 
+\subsection{Types of Post}
+\hyperlink{https://sample.com}{ELI5 Explanatory Video - Viral NFTs}\\
+
+Please read \hyperlink{App Brouchure}{https://sampel.com/} to have a visual experience of the Viral Social Network\\
+
+\textit{Image for all Post Types in a Visualized Manner}
+
+\textbf{Shots}
+
+Shots are \textbf{10 sec motion pictures} with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.\\
+
+People can share their
+\begin{enumerate}[leftmargin=+0.2in]
+\item Personal Sneak-Peek, Moments and Events
+\item Exclusive Photoshoots, commercials, to your fans
+\item Turn photos into lively shots by adding shot animations through Viral
+\end{enumerate}
+
+\textbf{Thoughts}\\
+Thoughts are \textbf{text-based sharing} for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.\\
+
+
+\textbf{Drops}\\
+
+Drops are \textbf{20 second disappearing stories} shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days\\
+
+\notte{Drops will not be minted as unique NFT due to it\textsc{\char13}s nature of disappearing media\texttt{notte}.}
+
+\textbf{Interactive Videos}\\
+
+IVs are short 30sec full-screen\textbf{narration based videos}. It is based on\textbf{gamification of videos} to interact within the videos.\\
+
+
+\textbf{NFT Utilities}\\
+
+Minting (Creating) an NFT in Viral is\textbf{as easy as creating a social media post}. Viral provides multiple NFT utilities for users to mint, buy, sell with an easy user experience.Viral will take a\textbf{1.5\% commission} selling NFTs which will be reverted to the reward pool\\
+
+
+\textbf{Tunes}\\
+Artists can\textbf{sell their music albums}, singles as NFT for the fans/people to buy and own it\\
+
+
+\textbf{Sketch}\\
+\textbf{Digital arts}, paintings, sketches can be sold through NFTs\\
+
+\textbf{Originals}\\
+\textbf{Physical assets} can be sold through Viral\textsc{\char13}s Original NFTs where people can buy and flex\\
+
+\textbf{Tickets}\\
+\textbf{Exclusive passes} for events, ownership of clubs, a digital ticket for everything can be sold as NFT. See Listing \ref{single-asset}\\
+
+\textbf{Filters}\\
+Filters can be sold, and owned by user\textsc{\char13}s thereby get rewards for it\\
+
+Please read \hyperlink{App Brouchure}{https://sampel.com/} to have a visual experience of the Viral Social Network
+
+\newpage
+
 \begin{lstlisting}[language=Solidity, caption={NFT Snippet for Enable/Disable Open Sale}, numbers=none]
 
 pragma solidity ^0.8.10;
@@ -293,44 +349,6 @@ contract HelloWorld {
     
 }
 \end{lstlisting}
-
-\subsection{Types of Post}
-\hyperlink{https://sample.com}{ELI5 Explanatory Video - Viral NFTs}\\
-
-Please read \hyperlink{App Brouchure}{https://sampel.com/} to have a visual experience of the Viral Social Network\\
-
-\textit{Image for all Post Types in a Visualized Manner}
-
-\subsubsection{Shots}
-
-Shots are \textbf{10 sec motion pictures} with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.\\
-
-People can share their
-\begin{enumerate}
-\item Personal Sneak-Peek, Moments and Events
-\item Exclusive Photoshoots, commercials, to your fans
-\item Turn photos into lively shots by adding shot animations through Viral
-\end{enumerate}
-
-\subsubsection{Thoughts}
-Thoughts are \textbf{text-based sharing} for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.
-
-\subsubsection{Drops}
-Drops are \textbf{20 second disappearing stories} shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days\\
-
-\notte{Drops will not be minted as unique NFT due to it\textsc{\char13}s nature of disappearing media\texttt{notte}.}
-
-\subsubsection{Interactive Videos}
-IVs are short 30sec full-screen\textbf{narration based videos}. It is based on\textbf{gamification of videos} to interact within the videos.
-
-\subsubsection{NFT Utilities}
-Minting (Creating) an NFT in Viral is\textbf{as easy as creating a social media post}. Viral provides multiple NFT utilities for users to mint, buy, sell with an easy user experience.
-
-Viral will take a\textbf{1.5\% commission} selling NFTs which will be reverted to the reward pool
-
-\subsubsection{Tunes}
-
-Artists can\textbf{sell their music albums}, singles as NFT for the fans/people to buy and own it
 
 \begin{lstlisting}[language=Solidity, caption={NFT Snippet To Sell Multiple Copies}, numbers=none]
 
@@ -343,9 +361,6 @@ contract HelloWorld {
 }
 \end{lstlisting}
 
-\subsubsection{Sketch}
-\textbf{Digital arts}, paintings, sketches can be sold through NFTs
-
 \begin{lstlisting}[language=Solidity,label={single-asset}, caption={NFT Snippet to sell single asset}, numbers=none]
 
 pragma solidity ^0.8.10;
@@ -356,9 +371,6 @@ contract HelloWorld {
     
 }
 \end{lstlisting}
-
-\subsubsection{Originals}
-\textbf{Physical assets} can be sold through Viral\textsc{\char13}s Original NFTs where people can buy and flex
 
 \begin{lstlisting}[language=Solidity, caption={NFT Snippet to provide extra information such as Name, Address, Mobile Number, before transferring coins with end to end encryption between seller}, numbers=none]
 
@@ -371,12 +383,6 @@ contract HelloWorld {
 }
 \end{lstlisting}
 
-\subsubsection{Tickets}
-\textbf{Exclusive passes} for events, ownership of clubs, a digital ticket for everything can be sold as NFT. See Listing \ref{single-asset}
-
-\subsubsection{Filters}
-Filters can be sold, and owned by user\textsc{\char13}s thereby get rewards for it
-
 \begin{lstlisting}[language=Solidity, caption={NFT Snippet to distribute shares Just like company share where if 100 NFTs is sold, the person who holds 50 NFT will hold 50\% of the company}, numbers=none]
 
 pragma solidity ^0.8.10;
@@ -388,7 +394,7 @@ contract HelloWorld {
 }
 \end{lstlisting}
 
-Please read \hyperlink{App Brouchure}{https://sampel.com/} to have a visual experience of the Viral Social Network
+\pagebreak
 
 \subsection{Avatars}
 
@@ -824,19 +830,21 @@ Phase 2 – Trust less Way (IPFS-VM)\\
 
 \subsection{Viral Smart Chain – Short Intro}
 
-Viral Smart Chains, is a network of parallel ISC Chains on top of IOTA Tangle used for Viral Social network with fully deployed defi ecosystem. Viral Smart Chains aim to provide an easy understandable one-platform for all the non-crypto users who are subjected to higher gas fees, congestion in network, volatility and scattered defi solutions.\\
+Viral Smart Chains, is a network of parallel Smart Contract Chains on top of a altered Tangle (IOTA) used for Viral Social network with fully deployed defi ecosystem. Viral Smart Chains aim to provide an easy understandable one-platform for all the non-crypto users who are subjected to higher gas fees, congestion in network, volatility and scattered defi solutions. \\
+
+\subsection{Tangle}
+
+The Tangle (by IOTA Foundation) is a next generation Distibuted Ledger Technology that utilizes a new data structure based on Directed Acyclic Graph. Tangle by contrast, does not consist of transactions grouped into blocks and stored in sequential chains, but as a stream of individual transactions entangled together. To do transactions in the network a participant should need to carry out a small computation work to verify two previous transaction. This makes tangle a linearly scalable ledger by network activity implementing participants/users as miners. Transactions in Tangle are completely feeless where miner incentives/rewards are eliminated by providing validation for their own transaction. Instant confirmations and transaction finality is achieved within seconds with low computation requirements.
 
 \subsection{IOTA Smart Contract Protocol}
 
-IOTA provides an Off-Chain Smart Contract Solution for developers to create multiple-chains on Top of IOTA\textsc{\char13}s immutable Tangle. Since Ethereum transactions are processed On-chain by every single node on its network, it faces additional congestion, slow transaction time and subject to higher miner fees. IOTA\textsc{\char13}s off-chain smart contract solution makes use of blockchains anchored to the Tangle where the smart contracts are ran and achieved consensus with small set of committee nodes. This achieves a high scalable throughput and immutable records since the states of smart contracts such as Account Balances, Input Conditions and Consequences over time are updated on IOTA\textsc{\char13}s Tangle.\\
-
-There are several components to understand more about IOTA\textsc{\char13}s Smart Contracts Protocol. It gives us multi-chain functionality to run smart contracts from different chains which allows a horizontal scaling of blockchains without a need for plasma or side chains.\\
+IOTA provides an Off-Chain Smart Contract Solution for developers to create multiple-chains on Top of Tangle. Since Ethereum transactions are processed On-chain by every single node on its network, it faces additional congestion, slow transaction time and subject to higher miner fees. IOTA\textsc{\char13}s off-chain smart contract solution makes use of blockchains anchored to the Tangle where the smart contracts are ran and achieved consensus with small set of committee nodes. This achieves a high scalable throughput and immutable records since the states of smart contracts such as Account Balances, Input Conditions and Consequences over time are updated on the Tangle. There are several components to understand more about IOTA\textsc{\char13}s Smart Contracts Protocol. It gives us multi-chain functionality to run smart contracts from different chains which allows a horizontal scaling of blockchains without a need for plasma or side chains.\\
 
 \textbf{Consensus and Validators}\\
 
-IOTA\textsc{\char13}s Smart Contract Chain uses a Byzantine Fault Tolerant \(BFT\) Algorithm, which guarantees consistency and byzantine fault tolerance if less than $1/3$ of nodes are malicious. So the verification process runs on Nodes within a chain committee. With a Proof-of-Stake Consensus each Viral chain will be run by a network of validator nodes, which run a consensus on the chain state updates. The validators of the chain \(Nodes\) form a committee, a bound together closed set of nodes. The committee of the chain can allow new validators and validator nodes to be added or replaced. This also makes the chain itself agnostic to its validators \(the committee\).\\
+IOTA\textsc{\char13}s Smart Contract Chain uses a Byzantine Fault Tolerant \(BFT\) Algorithm, which guarantees consistency and byzantine fault tolerance if less than $1/3$ of nodes are malicious. So the verification process runs on Nodes within a chain committee.The validators of the chain \(Nodes\) form a committee, a bound together closed set of nodes. The committee of the chain can allow new validators and validator nodes to be added or replaced. This also makes the chain itself agnostic to its validators \(the committee\).\\
 
-Viral Smart Chains leverages IOTA Tangle\textsc{\char13}s properties of scalability, high throughput, feeless transactions and immutable records. Only when a supermajority of the validators (the quorum) of a chain reaches consensus, the results get added to the chain where a new state update can be signed, which unlocks the AliasOutput for the chain and produces the next state UTXO which is stored on the Tangle as an immutable record. In summary, the chain\textsc{\char13}s state (data) will be stored on Tangle as an immutable record.The amount of the validators to reach a consensus is configurable for each chain. The committee itself can also be variable in size - from a few nodes up to hundreds of nodes, and each node can be part of many different committees.
+Only when a supermajority of the validators (the quorum) of a chain reaches consensus, the results get added to the chain where a new state update can be signed, which unlocks the AliasOutput for the chain and produces the next state UTXO which is stored on the Tangle as an immutable record. In summary, the chain\textsc{\char13}s state (data) will be stored on Tangle as an immutable record.The amount of the validators to reach a consensus is configurable for each chain. The committee itself can also be variable in size - from a few nodes up to hundreds of nodes, and each node can be part of many different committees.
 
 \begin{itemize}[leftmargin=+0.2in]
 \item \textbf{Validators} – Each Single Node running the Chain
@@ -845,6 +853,23 @@ Viral Smart Chains leverages IOTA Tangle\textsc{\char13}s properties of scalabil
 \end{itemize}
 
 To know more about IOTA\textsc{\char13}s Smart Contracts : \hyperlink{https://files.iota.org/papers/ISC_WP_Nov_10_2021.pdf}{Whitepaper}, \hyperlink{https://wiki.iota.org/smart-contracts/overview}{Documentation}, \hyperlink{https://blog.iota.org/iota-smart-contracts-beta-release/}{Blogs}\\
+
+\subsection{Viral \& IOTA}
+
+While Tangle with Multi-chain functionality is the future of decentralized applications and scalable contract executions, there is still room for improvements because of developers facing a multitude of disagreements inside the protocol which also applies for running a user-focussed application like Viral. \\
+
+\textbf{Dust Protection}\\
+
+The huge disagreement of the various IOTA Protocols is the Dust protection scheme that requires every wallet to have a returnable deposit of Tangle's native asset IOTA in order to successfully transfer various tokens both fungible and non-fungible. In simple terms if a user would want to hold a Non-Fungible-Token in his/her wallet, the user should have a deposit of a certain IOTA coins. This dust protection scheme is introduced to avoid bloating the distributed ledger's size due to fee-less micro-transactions. By eliminating fees the utility for the native asset will decrease if various tokens are being constantly deployed. Viral users are aimed to be common social media users who may not able to deposit a certain IOTA to mint NFTs, send Viral Coins (assuming it's on Tangle) to their friends and family. The Dust protection scheme of the new tokenization framework avoids the usage of IOTA Foundation's Smart Contract Protocol due to Viral's fundamental vision of dissolving preplexing rules of using a crypto wallet and democratize into a simple solution in blockchain applications that feel the same as current simple web 2.0 applications.
+
+\subsection{Viral - Side Tangle}
+
+During disagreements and inability to change the native protocol due to lack of votes, developers fork native block-chains to run a separate block-chain with added functionality that dissolves the disagreement by bringing required changes to the forked(new) protocol. While forked block-chains takes a snapshot of user's balances until a certain block number in the native protocol to convert current coins into newly forked coins that's circulated. Some forks doesn't take snapshots but only forks the source-code to bring necessary changes to the protocol and run independently starting from the genesis block. Since dust-protection scheme of the tokenization framework is a huge concern for a seamless usage of the Viral Application, a source-code fork of the Tangle and the ISC is intend to happen with added functionalities that tie up with the vision of a non-complex crypto solution for the common people and a better framework for existing problems that IOTA encounters such as dust protection, increasing ledger size, decentralization and security of user's funds on less secure chains on top of Tangle.
+
+
+
+
+
 
 \subsection{Viral Smart Chains}
 
@@ -858,7 +883,7 @@ A Single chain will seem complex for setting different fees for different action
 \begin{itemize}[leftmargin=+0.2in]
 \item \textbf{Genesis Chain} : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc\\
 
-\item \textbf{General Chains} : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.\\
+\item \textbf{Accounts Chains} : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.\\
 \end{itemize}
 \textbf{De-Fi Chains}\\
 Smart Contract Deployment Chains specifically for categorized DApps
@@ -874,29 +899,40 @@ Smart Contract Deployment Chains specifically for categorized DApps
 
 \item \textbf{Marketplace Chain} : To create smart contract based marketplaces for NFTs and much more
 
+\item \textbf{Viral DAO Chain} : For Viral DAO Governance contracts
+
 \item \textbf{Other Chains} : For creating Dapps for lending, asset tokenization, yield farming, tools and infrastructure, etc
 \end{itemize}
 
-cndesnss
+\textbf{Consensus}\\
+
+ISC Chains uses a BFT consensus where 
 
 
 \textbf{Validators}\\
 
-Viral Chains will work on Proof-of-stake consensus where validators (miners) are required to stake their Viral Coins in order to participate in the network for validating transactions. The mining power in proof-of stake depends on the amount of coins a validator is staking. Participants who stake more Viral Coins will be most likely to be chosen to add more blocks. When a transaction is validated and attain consensus by the quorum of validators (Read IOTA Protocol), the state of the transaction/smart contract will be recorded in the Value Tangle\textsc{\char13}s UTXO Ledger which makes it immutable. The Transaction will be secured by the validators inside the Viral chain and also the L1 UTXO Ledger.\\
+Viral Chains will require validators to stake their Viral Coins in order to participate in the network for validating transactions. Chance of validating transactions depends on the amount of coins a validator is stakes. Participants who stake more Viral Coins will be most likely to be chosen to add more blocks. When a transaction is validated and attain consensus by the quorum of validators (Read IOTA Protocol), the state of the transaction/smart contract will be recorded in the Value Tangle\textsc{\char13}s UTXO Ledger which makes the state immutable and impossible to fork. The Transaction will be secured by the validators inside the Viral chain and also the L1 UTXO Ledger.\\
+
+\textbf{Permisionless Validators}\\
+
+\textbf{Wasp Nodes}\\
+
+\textbf{Immutable State Anchoring}\\
+
+\textbf{Core Chain Contracts}\\
+
+\textbf{Chain Ownership}\\
+
+
+\textbf{On-Chain Accounts}\\
+
+
+
+
 
 \textbf{Fees}\\
 
-Viral Smart Chain is built primarily to ease the need for gas-based transaction fees like other smart contract blockchains. Transaction fees are only leaved as a fixed percentage as andquot;transfer feeandquot; in Viral Smart Chains for Sending, receiving tokens between accounts and smart contracts.\\
-
-Transfer fees are fixed at 0.05\% of transfer value of the tokens paid in Viral native coin. The minimum fee is capped at \$0.0005 of the fiat value of Viral Coin which is determined using price oracles.\\
-
-$Visualization$\\
-
-Native Token : Bob wants to transfer 100VRL to John : Fee leaved will be 0.05 VRL\\
-
-Other Tokens : If 1 vMATIc = 0.1 VRL\\
-
-Mike wants to transfer 6000 vMATIC to Mia : Fee leaved will be 0.30075 VRL (approx. 3.0075 MATIC) including Swap and Transfer Fee\\
+Viral Smart Chain is built primarily to ease the need for gas-based transaction fees like other smart contract blockchains. Transaction fees are only leaved as a fixed percentage as transfer fee in Viral Smart Chains for Sending, receiving tokens between accounts and smart contracts. Transfer fees are fixed at 0.05\% of transfer value of the tokens paid in Viral native coin. The minimum fee is capped at \$0.0005 of the fiat value of Viral Coin which is determined using price oracles. While these fees aren't set for all the Viral Smart Chains, different blockchains served for different purposes will require different fee model. Fee model can be intialized in each chain while deploying the governance core-contracts. Such fee model is proposed below\\
 
 \textbf{NFT Chains}\\
 
@@ -2081,14 +2117,32 @@ The 100\% percent of total daily revenue is distributed as \\
 \end{figure}
 
 \begin{comment}%mermaid
+
+pie
+
+    title Daily Revenue Distribution
+    "Users - 34%" : 31
+    "Miners - 32%" : 29
+    "Volunteers - 18%" : 16
+    "DAO - 16%" :  14
+
+
 pie
 
     title Reward Pool
-    "Users" : 30
-    "Social Nodes" : 30
-    "ROV Community" : 10
-    "Developers" :  10
-    "Viral DAO" : 20
+    "Block-chain Miners - 11% " : 11
+    "DAG Miners - 6% " : 6
+    "Social Miners - 4% " : 4
+    "IPFS Miners - 8% " :  8
+    "Social Users - 31% " : 31
+    "Developers - 6.5% " : 6.5
+    "Bounties - 2% " : 2
+    "ROV - 7.5% " : 7.5
+    "Burn - 10% " : 10
+    "DAO - 14% " : 14    
+  
+ 
+
 \end{comment}
 
 \subsection{Users (Impression-based) - 10\%}
