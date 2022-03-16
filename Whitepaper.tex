@@ -866,10 +866,7 @@ The huge disagreement of the various IOTA Protocols is the Dust protection schem
 
 During disagreements and inability to change the native protocol due to lack of votes, developers fork native block-chains to run a separate block-chain with added functionality that dissolves the disagreement by bringing required changes to the forked(new) protocol. While forked block-chains takes a snapshot of user's balances until a certain block number in the native protocol to convert current coins into newly forked coins that's circulated. Some forks doesn't take snapshots but only forks the source-code to bring necessary changes to the protocol and run independently starting from the genesis block. Since dust-protection scheme of the tokenization framework is a huge concern for a seamless usage of the Viral Application, a source-code fork of the Tangle and the ISC is intend to happen with added functionalities that tie up with the vision of a non-complex crypto solution for the common people and a better framework for existing problems that IOTA encounters such as dust protection, increasing ledger size, decentralization and security of user's funds on less secure chains on top of Tangle.
 
-\begin{figure}[h]
-\includegraphics[width=\textwidth]{Architecture}
-\caption{Viral Multi-Chain ELI9 Architecture}
-\end{figure}
+
 
 
 
@@ -881,6 +878,11 @@ During disagreements and inability to change the native protocol due to lack of 
 
 \subsection{Viral Smart Chains}
 
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{Architecture}
+\caption{Viral Multi-Chain ELI9 Architecture}
+\end{figure}
+
 Viral Smart Chains are a family of separate chains anchored to the IOTA\textsc{\char13}s Tangle where each chain can communicate with each other via intermediary L1 Value Tangle.\\
 
 \textbf{Viral's Approach}\\
@@ -888,6 +890,7 @@ Viral Smart Chains are a family of separate chains anchored to the IOTA\textsc{\
 A Single chain will seem complex for setting different fees for different actions on the blockchain i.e Smart Contract Calls/Deployment, Sending Tokens to other Address, etc. Viral\textsc{\char13}s approach is to bring multiple chains categorized by its purpose to serve the Viral Application with fee structure thereby also creating separate chains to provide zero network fees for minting NFTs on Viral App (ERC721 and ERC1155) while rewarding the validators of all Viral chains (including zero fee chains) from the miner pool (total collected fees of all chains) based on validator\textsc{\char13}s total validated transactions for the day through an automated smart contract.\\
 
 \textbf{Family of Chains}
+
 \begin{itemize}[leftmargin=+0.2in]
 \item \textbf{Genesis Chain} : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc\\
 
@@ -2119,10 +2122,25 @@ The Reward allocation for each user happens through automated smart contracts ev
 The 100\% percent of total daily revenue is distributed as \\
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=9cm]{rewards}
+\includegraphics[width=14cm]{global-reward}
 \caption{Allocation of Daily Revenue in percentage}
 \end{center}
 \end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{revenue-distribution}
+\caption{Total Distribution of Funds excluding burn}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{burn-chart}
+\caption{Burn percentage from Global Reward Pool}
+\end{center}
+\end{figure}
+
 
 \begin{comment}%mermaid
 
