@@ -31,7 +31,6 @@
 \contentsline {section}{\numberline {9}Smart Wallet}{27}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Viral Decentralized Exchanges}{28}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Viral Fiat-Exchange}{42}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Intro to VFEX}{43}{subsubsection.9.2.1}%
 \contentsline {subsection}{\numberline {9.3}Custodian Services}{47}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}Other Wallet Features}{47}{subsection.9.4}%
 \contentsline {section}{\numberline {10}Child Platforms}{47}{section.10}%

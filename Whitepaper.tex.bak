@@ -52,6 +52,16 @@
 \usepackage{tfrupee}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\fancyfoot[C]{
+\begin{center}
+\includegraphics[width=0.5cm]{logo}\\
+\vspace{1mm}
+\thepage\\
+\vspace{2mm}
+\footnotesize{\textit{viralfoundation.org}}
+\end{center}
+}
+
 
 
 
@@ -73,7 +83,7 @@
 
 \title{\textbf{Viral - Next Gen Social Communication \& User Experience}}
 \date{15 January 2022}
-\author{Viral Foundation}
+\author{Joby Reuben}
 
 
 
@@ -90,7 +100,6 @@
 
 \textbf{Contributors}
 \begin{enumerate}
-\item{Joby Reuben}
 \item{Ajay Joshua}
 \item{Naveen Jose}
 \item {Samarth Kulkarni}
@@ -1712,7 +1721,7 @@ Ironically, many of the same factors that contribute to the advantages of a cent
 
 As the security threats continues, there's currently no effective solution for a non-custodial fiat-crypto exchange. At any instance if a probable propaganda is proposed the primary user aquisition strategy of those solutions is to target the current users of popularly running cryptoexchanges which is a very long and narrow way to bring in users for the platform. Viral has a first mover advantage for such a non-custodial way of buying cryptocurrencies using fiat-currencies since it's application offers end to end solution on all aspects on the de-fi wave, user's are prompted to use it's services while using the application. This has a significance effect in acquiring users for an in-built crypto buying facility for users to trade in their fiat money. For one such of an exchange where it's users derived from a social media will impact the crypto adoption and also reassures the year-long threat of losing user's funds to potential hackers.\\
 
-\subsubsection{Intro to VFEX}
+\textbf{Intro to VFEX}
 
 Decentralization refers to freedom and ownership. A centralized exchange restricts the ownership by being a custody to user's funds by maintaining the private keys on their central server. There is only two aspects a CEX will carry out: Buying and Selling. While both fiat and crypto funds is being held in custody, the Fiat Funds is securely holded (due to it's reversal mechanism), whereas the Crypto Funds are always open for attacks and cannot be reverted back nor easy to track the route of transactions to an individual after a breach. While Popular CEXs are tackling these breaches using secured cryptographic encryptions, firewalls, etc there is always a possibilty for a penetration expert to steal the funds. Viral is offering a non-custodial crypto buying solution by supplying fiat-pegged-tokens and exchanging via Viral DEX.\\
 
@@ -1887,9 +1896,6 @@ Viral-FEX makes use of ViralDEX Swap Book DEXs for exchanging Tag-Tokens to Vira
 
 Fiat-Tag Tokens are burned upon Cash Out request from the KYC User to the corresponding custodian. The Custodian shall burn the tokens excluding the withdrawal fee and maintain the equilibrium of assets on both bank reserve and token circulating supply. The KYC User is required to add bank accounts or payment ids for the stipulated fiat-money i.e., Burning USD requires USD Bank account integration. 
 
-
-
-\textbf{Limitations}\\
 
 \subsection{Custodian Services}
 
