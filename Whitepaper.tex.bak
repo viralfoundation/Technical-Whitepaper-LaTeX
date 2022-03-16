@@ -1469,6 +1469,10 @@ Final\:Price=\frac{A+\sum BA - \sum SB}{B} = \frac{256+134.778676837+170.6371754
 
 Here the total $\sum SB = \sum BB$ $6594.678546=6594.678546$ executes the order and changes the current price of 0.02043749 to  a final price of 0.0175747644 (Eq 15). After this trade the buy and sell price will be changed according to the difference $D=-0.0025747644$ Buy 1B=0.0175747644 A and Sell 1B=0.0201495288 A to bring the M.P to 0.015. Until the M.P is achieved the buy and sell price will change after each order execution.\\
 
+\textbf{Liquidity Limits for Rebase}\\
+
+Using Viral DEX's pricing strategy for buying and selling by adding a difference $D$ rebasing, a necessary condition is needed to change the pool's current price to market price. The Total liquidity should be equal to the swap orders total volume i.e., In a 200/100 pool the sum of either buy or sell should attain it's pool's liquidity limit of 200 and 100 Tokens to change the pool to market price. While smaller pools rebases quickly, larger pools usually takes more time to get matched swap orders. To counter this liquidity and swap order issue the concept of Micro-Pools, Time Average Market Price (TAMP), Reserve Pools, Distributed and Concentrated Swap Orders are implemented.\\
+
 \textbf{Micro Pool Architecture}\\
 
 Viral DEX Pools implies a micro pool architecture for it's unlimited scalability and high throughput on swap orders. Since the protocol implies a swap book which will be matching total buys and total sells, the orders may get delayed in bigger pools which will require higher amounts of matches. Sharding the pools may increase the likeliness of getting matched and execution of users orders on the swap book. \\
@@ -1569,11 +1573,52 @@ The pools are represented in tables with rows mentioning number of pools where e
 \end{center}
 \end{figure}
 
-\textbf{Liquidity Limits for Rebase}\\
+\textbf{TAMP - Time Average Market Price}\\
 
-Using Viral DEX's pricing strategy for buying and selling by adding a difference $D$ rebasing, a necessary condition is needed to change the pool's current price to market price. The Total liquidity should be equal to the swap orders total volume i.e., In a 200/100 pool the sum of either buy or sell should attain it's pool's liquidity limit of 200 and 100 Tokens to change the pool to market price. While smaller pools rebases quickly, larger pools usually takes more time to get matched swap orders. To counter this liquidity and swap order issue the concept of Time Average Market Price (TAMP), Reserve Pools and Distributed Swap Orders (DSO) are used\\
+As discussed in the earlier paragraphs the rebases successfully happen only if the trading volume equals the pool's total liquidity. This places a limitation of slower rebases due to the massive segregation of price impacts to every trader who wishes to buy/sell on the trading pair until the total trades rebases. To solve this limitation the concept of Micro-pools and Time Average Market Prices are introduced to traders. Micro-Pools fortunately split up the pools to rebase the smaller pools at first for the retail traders, where the smaller pools will rebase swiftly in real-time than larger pools. To benefit the large pool traders and to eliminate the real-time volatility during constant changes in rebase prices Time Average Market Price (TAMP) is brought out.\\
+
+Each sharded pool will have different market prices derived from the real time and delayed market prices in a following time period. Each sharded pool will have a time period configuration which will be determined by the number of DEX chains. For the first sharded pool $50\% + 50\%$ the time period will start with $7 seconds + 7 seconds$ where the rebase shall happen every 7 seconds if the rebase doesn't happens automated by previous swaps. Since most of the swap orders are instant swaps other than limit orders used by advanced traders, the buy and sell price of the pool will not affect the retail traders which changes every time period specified (in the example 7 seconds) regardless of pending swap orders left in the swap book.\\
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{timeperiod-pools}
+\caption{Pool Shards after each new DEX blockchain addition}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [5 Total Pools
+  	[Pool 1[50\%[1.33 min]]]
+  	[Pool 2[25\%[40 sec]]]
+  	[Pool 3[12.5\%[14 sec]]]
+  	[Pool 4[6.25\%[7 sec]]]
+  	[Pool 5[6.25\%[7 sec]]]
+  ]
+\end{forest}
+\caption{Example of Time-period of pools if number of pools (n) = 5}
+\end{center}
+\end{figure}
 
 
+
+\begin{itemize}[leftmargin=+0.2in]
+\item Every Pool will have strict time period after which it can able to fetch the market price and update the buy/sell price
+\item The sucessfully rebased pools will be locked/freezed until all the pools update it's buy/sell price for every rebase group (A rebase group is calculated when all the pools rebases wholly, typically every time period of the largest pool)
+\item For every new pool the time period of all the pools will be updated accordingly
+\item The Whole rebase time will increase by 2 times after every new pool is sharded
+\end{itemize}
+
+\textbf{Distributed and Concentrated Swaps}\\
+
+\textbf{Reserve Pools}\\
+
+\textbf{Arbitrage Trading}\\
+
+\textbf{Benefits of Viral DEX}\\
 
 \textbf{Fee Structure}\\
 
@@ -1645,12 +1690,6 @@ Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micr
 \end{figure}
 
 
-
-
-
-\textbf{Advanced Trading}\\
-
-\textbf{Benefits of Viral DEX}\\
 
 \subsection{Viral Fiat-Exchange}
 
@@ -2122,10 +2161,25 @@ The Reward allocation for each user happens through automated smart contracts ev
 The 100\% percent of total daily revenue is distributed as \\
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=9cm]{rewards}
+\includegraphics[width=14cm]{global-reward}
 \caption{Allocation of Daily Revenue in percentage}
 \end{center}
 \end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{revenue-distribution}
+\caption{Total Distribution of Funds excluding burn}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{burn-chart}
+\caption{Burn percentage from Global Reward Pool}
+\end{center}
+\end{figure}
+
 
 \begin{comment}%mermaid
 
