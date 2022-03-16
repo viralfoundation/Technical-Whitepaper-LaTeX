@@ -866,6 +866,14 @@ The huge disagreement of the various IOTA Protocols is the Dust protection schem
 
 During disagreements and inability to change the native protocol due to lack of votes, developers fork native block-chains to run a separate block-chain with added functionality that dissolves the disagreement by bringing required changes to the forked(new) protocol. While forked block-chains takes a snapshot of user's balances until a certain block number in the native protocol to convert current coins into newly forked coins that's circulated. Some forks doesn't take snapshots but only forks the source-code to bring necessary changes to the protocol and run independently starting from the genesis block. Since dust-protection scheme of the tokenization framework is a huge concern for a seamless usage of the Viral Application, a source-code fork of the Tangle and the ISC is intend to happen with added functionalities that tie up with the vision of a non-complex crypto solution for the common people and a better framework for existing problems that IOTA encounters such as dust protection, increasing ledger size, decentralization and security of user's funds on less secure chains on top of Tangle.
 
+\begin{figure}
+\includegraphics[width=\textwidth]{Architecture}
+\caption{Viral Multi-Chain Architecture}
+\end{figure}
+
+
+
+
 
 
 
@@ -2121,25 +2129,25 @@ The 100\% percent of total daily revenue is distributed as \\
 pie
 
     title Daily Revenue Distribution
-    "Users" : 31
-    "Miners" : 29
-    "Volunteers" : 16
-    "DAO" :  14
+    "Users - 34%" : 31
+    "Miners - 32%" : 29
+    "Volunteers - 18%" : 16
+    "DAO - 16%" :  14
 
 
 pie
 
     title Reward Pool
-    "Blocckhain Miners" : 11
-    "DAG Miners" : 6
-    "Social Miners" : 4
-    "IPFS Miners" :  8
-    "Social Users" : 31
-    "Developers" : 6.5
-    "Bounties" : 2
-    "ROV" : 7.5
-    "Burn" : 10
-    "DAO" : 14    
+    "Block-chain Miners - 11% " : 11
+    "DAG Miners - 6% " : 6
+    "Social Miners - 4% " : 4
+    "IPFS Miners - 8% " :  8
+    "Social Users - 31% " : 31
+    "Developers - 6.5% " : 6.5
+    "Bounties - 2% " : 2
+    "ROV - 7.5% " : 7.5
+    "Burn - 10% " : 10
+    "DAO - 14% " : 14    
   
  
 
