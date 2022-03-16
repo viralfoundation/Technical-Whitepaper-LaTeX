@@ -1579,12 +1579,18 @@ As discussed in the earlier paragraphs the rebases successfully happen only if t
 
 Each sharded pool will have different market prices derived from real time and delayed market prices in a following time period. Each sharded pool will have a time period configuration which will be determined by the number of DEX chains. For the first sharded pool $50\% + 50\%$ the time period will start with $1 second + 1 second$ where the market price shall be reflected every 1 second and calculated the buy and sell price of the current pool. Since most of the swap orders are instant swaps other than limit orders used by advanced traders, the buy and sell price of the pool will not affect the retail traders which changes every time period specified (in the example 1 second) regardless of pending swap orders left in the swap book.\\
 
+Every Pool will have strict time period after which it can able to fetch the market price and update the buy/sell price. For Example., In 5 total sharded pools if Pool 5 has a time period of 16 seconds, the market price will be fetched every 16 seconds once and the buy/sell price will be altered according to the difference in the market and the pool's price. In short, according to the time period the market price is fetched from a decentralized oracle and will be used to determine buy/sell price for rebasing the pool. \\
+
+
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=\textwidth]{timeperiod-pools}
-\caption{Pool Shards after each new DEX blockchain addition}
+\caption{Time-period of Sharded Pools}
 \end{center}
 \end{figure}
+
+For every new pool creation, the time period of all the pools will be updated accordingly. The time-period will increase by 2 times on the larger pool in descending order after every new pool is sharded i.e., 2,4,8,16,32,64,128,..n. 
 
 \begin{figure}[H]
 \begin{center}
@@ -1592,27 +1598,21 @@ Each sharded pool will have different market prices derived from real time and d
   forked edges,
   for tree={edge+={-Latex}},
   [5 Total Pools
-  	[Pool 1[50\%[8 sec]]]
-  	[Pool 2[25\%[4 sec]]]
-  	[Pool 3[12.5\%[2 sec]]]
-  	[Pool 4[6.25\%[1 sec]]]
-  	[Pool 5[6.25\%[1 sec]]]
+  	[Pool 1[50\%[16 sec]]]
+  	[Pool 2[25\%[8 sec]]]
+  	[Pool 3[12.5\%[4 sec]]]
+  	[Pool 4[6.25\%[2 sec]]]
+  	[Pool 5[6.25\%[2 sec]]]
   ]
 \end{forest}
 \caption{Example of Time-period of pools if number of pools (n) = 5}
 \end{center}
 \end{figure}
 
-
-
-\begin{itemize}[leftmargin=+0.2in]
-\item Every Pool will have strict time period after which it can able to fetch the market price and update the buy/sell price
-\item The sucessfully rebased pools will be locked/freezed until all the pools update it's buy/sell price for every rebase group (A rebase group is calculated when all the pools rebases wholly, typically every time period of the largest pool)
-\item For every new pool the time period of all the pools will be updated accordingly
-\item The Whole rebase time will increase by 2 times after every new pool is sharded
-\end{itemize}
-
 \textbf{Distributed and Concentrated Swaps}\\
+
+Traders typically use DEX agregator softwares and applications to run complex mathematical algorithms across various DEXs by splitting trades to find the best possible price for a token swap with minimum impact. Most of the DEX employs a single pool for a given trading pair, where multiple DEX will have multiple pools of different algorithms and prices with price impacts. Viral implies a multi-pool architecture where every pool will be priced to rebase according to the market price where the pools will have different prices. Due to the difference in prices users can able to make use of arbitrage trading by splitting their total swap order into multiple smaller trades on multiple-pools to buy at low price or sell at higher price thereby running the protocol to rebase the pool by itself. \\
+
 
 \textbf{Reserve Pools}\\
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  16 MAR 2022 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  16 MAR 2022 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2106,14 +2106,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1580--1581
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1582--1583
+
+ []
+
 <./assets/images//timeperiod-pools.jpg, id=769, 4173.5925pt x 1728.4575pt>
 File: ./assets/images//timeperiod-pools.jpg Graphic file (type jpg)
 <use ./assets/images//timeperiod-pools.jpg>
 Package pdftex.def Info: ./assets/images//timeperiod-pools.jpg  used on input l
-ine 1584.
+ine 1588.
 (pdftex.def)             Requested size: 418.25368pt x 173.19873pt.
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1615--1616
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1613
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1614--1615
 
  []
 
@@ -2127,7 +2137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1619--1620
 
  []
 
-
+[40 <./assets/images//timeperiod-pools.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1621--1622
 
  []
@@ -2137,7 +2147,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1623--1624
 
  []
 
-[40 <./assets/images//timeperiod-pools.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1625--1626
 
  []
@@ -2233,7 +2243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1732--1733
 
  []
 
-<./assets/images//user-deposit.png, id=805, 830.10126pt x 485.815pt>
+<./assets/images//user-deposit.png, id=804, 830.10126pt x 485.815pt>
 File: ./assets/images//user-deposit.png Graphic file (type png)
 <use ./assets/images//user-deposit.png>
 Package pdftex.def Info: ./assets/images//user-deposit.png  used on input line 
@@ -2305,12 +2315,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1869--1876
 
  []
 
-
+[46 <./assets/images//custodian.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1877--1878
 
  []
 
-[46 <./assets/images//custodian.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1879--1880
 
  []
@@ -2400,19 +2410,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1974--1975
 
  []
 
-
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 1976--1977
 
  []
 
-[49]
 <./assets/images//rov-poll.png, id=864, 604.2575pt x 855.195pt>
 File: ./assets/images//rov-poll.png Graphic file (type png)
 <use ./assets/images//rov-poll.png>
 Package pdftex.def Info: ./assets/images//rov-poll.png  used on input line 1982
 .
 (pdftex.def)             Requested size: 227.62204pt x 322.1458pt.
- Excluding 'comment' comment.
+Excluding 'comment' comment.
 Underfull \hbox (badness 10000) in paragraph at lines 2007--2008
 
  []
@@ -2422,12 +2431,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
 
  []
 
-
+[50 <./assets/images//rov-poll.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 2022--2023
 
  []
 
-[50 <./assets/images//rov-poll.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2024--2025
 
  []
@@ -2522,12 +2531,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2092--2093
 
  []
 
-
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 2094--2095
 
  []
 
-[52]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2101--2102
 
  []
@@ -2552,12 +2561,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2122--2123
 
  []
 
-
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 2124--2125
 
  []
 
-[53]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2126--2127
 
  []
@@ -2567,13 +2576,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2142--2143
 
  []
 
-
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 2159--2160
 
  []
 
-[54]
-<./assets/images//global-reward.png, id=911, 2595.6975pt x 1261.71375pt>
+<./assets/images//global-reward.png, id=910, 2595.6975pt x 1261.71375pt>
 File: ./assets/images//global-reward.png Graphic file (type png)
 <use ./assets/images//global-reward.png>
 Package pdftex.def Info: ./assets/images//global-reward.png  used on input line
@@ -2584,7 +2592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2161--2167
 
  []
 
-<./assets/images//revenue-distribution.png, id=912, 1853.92625pt x 1067.99pt>
+<./assets/images//revenue-distribution.png, id=911, 1853.92625pt x 1067.99pt>
 File: ./assets/images//revenue-distribution.png Graphic file (type png)
 <use ./assets/images//revenue-distribution.png>
 Package pdftex.def Info: ./assets/images//revenue-distribution.png  used on inp
@@ -2949,7 +2957,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf
 ist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/
 fonts/type1/public/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (66 pages, 2331700 bytes).
+Output written on Whitepaper.pdf (66 pages, 2336039 bytes).
 PDF statistics:
  1220 PDF objects out of 1440 (max. 8388607)
  1088 compressed objects within 11 object streams
