@@ -28,6 +28,10 @@
     pdftitle={Viral-Technical Whitepaper}
 }
 
+\usepackage{color}
+\definecolor{light}{rgb}{0.5, 0.5, 0.5}
+\def\light#1{{\color{light}#1}}
+
 
 \usepackage{listings}
 \input{solidity-highlighting.tex}
@@ -54,11 +58,11 @@
 \pagestyle{fancy}
 \fancyfoot[C]{
 \begin{center}
-\includegraphics[width=0.5cm]{logo}\\
+\includegraphics[width=0.4cm]{logo}\\
 \vspace{1mm}
 \thepage\\
-\vspace{2mm}
-\footnotesize{\textit{viralfoundation.org}}
+\vspace{0.3mm}
+\footnotesize{\light{viralfoundation.org}}
 \end{center}
 }
 
@@ -1586,7 +1590,7 @@ The pools are represented in tables with rows mentioning number of pools where e
 
 As discussed in the earlier paragraphs the rebases successfully happen only if the trading volume equals the pool's total liquidity. This places a limitation of slower rebases due to the massive segregation of price impacts to every trader who wishes to buy/sell on the trading pair until the total trades rebases. To solve this limitation the concept of Micro-pools and Time Average Market Prices are introduced to traders. Micro-Pools fortunately split up the pools to rebase the smaller pools at first for the retail traders, where the smaller pools will rebase swiftly in real-time than larger pools. To benefit the large pool traders and to eliminate the real-time volatility during constant changes in rebase prices Time Average Market Price (TAMP) is brought out.\\
 
-Each sharded pool will have different market prices derived from real time and delayed market prices in a following time period. Each sharded pool will have a time period configuration which will be determined by the number of DEX chains. For the first sharded pool $50\% + 50\%$ the time period will start with $1 second + 1 second$ where the market price shall be reflected every 1 second and calculated the buy and sell price of the current pool. Since most of the swap orders are instant swaps other than limit orders used by advanced traders, the buy and sell price of the pool will not affect the retail traders which changes every time period specified (in the example 1 second) regardless of pending swap orders left in the swap book.\\
+Each sharded pool will have different market prices derived from real time and delayed market prices in a following time period. Each sharded pool will have a time period configuration which will be determined by the number of DEX chains. For the first sharded pool $50\% + 50\%$ the time period will start with $2 seconds + 2 seconds$ where the market price shall be reflected every 2 seconds and calculated the buy and sell price of the current pool. Since most of the swap orders are instant swaps other than limit orders used by advanced traders, the buy and sell price of the pool will not affect the retail traders which changes every time period specified (in the example 2 seconds) regardless of pending swap orders left in the swap book.\\
 
 Every Pool will have strict time period after which it can able to fetch the market price and update the buy/sell price. For Example., In 5 total sharded pools if Pool 5 has a time period of 16 seconds, the market price will be fetched every 16 seconds once and the buy/sell price will be altered according to the difference in the market and the pool's price. In short, according to the time period the market price is fetched from a decentralized oracle and will be used to determine buy/sell price for rebasing the pool. \\
 
@@ -1610,8 +1614,8 @@ For every new pool creation, the time period of all the pools will be updated ac
   	[Pool 1[50\%[16 sec]]]
   	[Pool 2[25\%[8 sec]]]
   	[Pool 3[12.5\%[4 sec]]]
-  	[Pool 4[6.25\%[2 sec]]]
-  	[Pool 5[6.25\%[2 sec]]]
+  	[Pool 4[6.25\%[1 sec]]]
+  	[Pool 5[6.25\%[1 sec]]]
   ]
 \end{forest}
 \caption{Example of Time-period of pools if number of pools (n) = 5}
@@ -1622,6 +1626,19 @@ For every new pool creation, the time period of all the pools will be updated ac
 
 Traders typically use DEX agregator softwares and applications to run complex mathematical algorithms across various DEXs by splitting trades to find the best possible price for a token swap with minimum impact. Most of the DEX employs a single pool for a given trading pair, where multiple DEX will have multiple pools of different algorithms and prices with price impacts. Viral implies a sharded multi-pool architecture where every pool will be priced to rebase according to the market price where the pools will have different prices. Due to the difference in prices users can able to make use of arbitrage trading by splitting their total swap order into multiple smaller trades on multiple-pools to buy at low price or sell at higher price thereby running the protocol to rebase the pool by itself. \\
 
+There are various factors a user can opt to get the best price possible. A trader can opt for two models of dex aggregator service provided in the Viral DEX, 1. Automated 2. Manual. In an automated service an algorithm is run to provide the best possible price by splitting up the trades into multiple pool swap books. Automated algorithm for splitting trades will be slower than manual due to different trading volume of opposite token activity in particular swap books. The user can opt for a manual method of selecting a specific pool for a quicker swap\\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{}
+\end{center}
+\end{figure}
+
+The factors determining the best possible price
+\begin{enumerate}
+\item Buyers always look for lowest price and sellers always look to sell for a higher price. The algorithm will work on finding the best low/high price for buy/sell.
+\item The user/trader can opt for automated or manual method for a distributed or concentrated swap order
+\end{enumerate}
 
 \textbf{Reserve Pools}\\
 
@@ -1633,7 +1650,7 @@ Traders typically use DEX agregator softwares and applications to run complex ma
 
 \textbf{Fee Structure}\\
 
-Viral DEX subtracts a swap fee on every swap order executed. There are two types of fee leaved according to trading pairs nature. A 0.1\% fee will be leaved on normal pairs and a 0.02\% fee will be leaved for stable-coin pairs. These DEX fees are excluding wallet transfer fees which will be leaved separately. These fees will be added into a separate pool where the liquidity providers can collect while withdrawing their staked tokens. 70\% of total DEX fees collected with be allocated to liquidity providers where the rest 30\% will be sent to Viral's global revenue pool.\\
+Viral DEX subtracts a swap fee on every swap order executed. There are two types of fee leaved according to trading pairs nature. A 0.2\% fee will be leaved on normal pairs and a 0.02\% fee will be leaved for stable-coin pairs. These DEX fees are excluding wallet transfer fees which will be leaved separately. These fees will be added into a separate pool where the liquidity providers can collect while withdrawing their staked tokens. 70\% of total DEX fees collected with be allocated to liquidity providers where the rest 30\% will be sent to Viral's global revenue pool.\\
 
 \begin{figure}[H]
 \begin{center}
