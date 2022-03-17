@@ -1484,7 +1484,7 @@ Here the total $\sum SB = \sum BB$ $6594.678546=6594.678546$ executes the order 
 
 \textbf{Liquidity Limits for Rebase}\\
 
-Using Viral DEX's pricing strategy for buying and selling by adding a difference $D$ rebasing, a necessary condition is needed to change the pool's current price to market price. The Total liquidity should be equal to the swap orders total volume i.e., In a 200/100 pool the sum of either buy or sell should attain it's pool's liquidity limit of 200 and 100 Tokens to change the pool to market price. While smaller pools rebases quickly, larger pools usually takes more time to get matched swap orders. To counter this liquidity and swap order issue the concept of Micro-Pools, Time Average Market Price (TAMP), Reserve Pools, Distributed and Concentrated Swap Orders are implemented.\\
+Using Viral DEX's pricing strategy for buying and selling by adding a difference $D$ rebasing, a necessary condition is needed to change the pool's current price to market price. The Total liquidity should be equal to the swap orders total volume i.e., In a 200/100 pool the sum of either buy or sell should attain it's pool's liquidity limit of 200 and 100 Tokens to change the pool to market price. While smaller pools rebases quickly, larger pools usually takes more time to get matched swap orders. To counter this liquidity and swap order issue the concept of Micro-Pools, Time Average Market Price (TAMP), Reserve Pools, Automated Pool Finding Algorithm are implemented.\\
 
 \textbf{Micro Pool Architecture}\\
 
@@ -1622,11 +1622,11 @@ For every new pool creation, the time period of all the pools will be updated ac
 \end{center}
 \end{figure}
 
-\textbf{Distributed and Concentrated Swaps}\\
+\textbf{Automated Pool Finding Algorithm}\\
 
-Traders typically use DEX agregator softwares and applications to run complex mathematical algorithms across various DEXs by splitting trades to find the best possible price for a token swap with minimum impact. Most of the DEX employs a single pool for a given trading pair, where multiple DEX will have multiple pools of different algorithms and prices with price impacts. Viral implies a sharded multi-pool architecture where every pool will be priced to rebase according to the market price where the pools will have different prices. Due to the difference in prices users can able to make use of arbitrage trading by splitting their total swap order into multiple smaller trades on multiple-pools to buy at low price or sell at higher price thereby running the protocol to rebase the pool by itself. \\
+Traders typically use DEX agregator softwares and applications to run complex mathematical algorithms across various DEXs to find the best possible price for a token swap with minimum impact. Most of the DEX employs a single pool for a given trading pair, where multiple DEX will have multiple pools of different algorithms and prices with price impacts. Viral implies a sharded multi-pool architecture where every pool will be priced to rebase according to the market price where the pools will have different prices. Due to the difference in prices users can able to make use of arbitrage trading by buying at low price pools or selling at higher price pools thereby running the protocol to rebase the pool by itself. \\
 
-There are various factors a user can opt to get the best price possible. A trader can opt for two models of dex aggregator service provided in the Viral DEX, 1. Automated 2. Manual. In an automated service an algorithm is run to provide the best possible price by splitting up the trades into multiple pool swap books. Automated algorithm for splitting trades will be slower than manual due to different trading volume of opposite token activity in particular swap books. The user can opt for a manual method of selecting a specific pool for a quicker swap\\
+There are various factors a user can opt to get the best price possible. A trader can opt for two models of dex aggregator service provided in the Viral DEX, 1. Automated 2. Manual. In an automated service an algorithm is run to provide the best possible price by finding the perfect pool with the best price and instant swap support. Automated algorithm will be much faster than manual selection since it implies high efficient off-chain pool finder algorithm and can reduce man work. The user can opt for a manual method of selecting a specific pool according to his/her preference\\
 
 \begin{figure}
 \begin{center}
@@ -1635,19 +1635,35 @@ There are various factors a user can opt to get the best price possible. A trade
 \end{center}
 \end{figure}
 
-The factors determining the best possible price
-\begin{enumerate}[leftmargin=+0.2in]
+The algorithm run as follows,
+\begin{itemize}[leftmargin=+0.2in]
 \item Buyers always look for lowest price and sellers always look to sell for a higher price. The algorithm will work on finding the best low/high price for buy/sell.
 \item The user/trader can opt for automated or manual method for a distributed or concentrated swap order
-\end{enumerate}
+\item The Real Time Market Price and the Swap Amount is fetched to find the low buy/ high sell price pools for maximum benefits to the traders
+\item The Swap on a particular pool can only be done if the total liquidity of the pool is lesser than the swap amount. In short, the swap amount shall not exceed the total pool liquidity (since Viral implements sharded pools)
+\item The instant swap possibility is calculated by analyzing the pending swap orders that can match with the oppposite orders to instantly swap the trader's order once it sent to the swap book
+\item If the Instant Swap Possibility is more than 70\% on the determined pool the swap order is sent to the swap book instantly, if not the algorithm will run on the next best pool. If neither of the total available pools for a specific token is having the instant swap possibility more than 70\%, the algorithm runs again on the best pools by decreasing the percentage by 10\% i.e., 60\%, 50\%, 40\%,...
+\item Executing a swap in a lower instant swap possibility pools may increase the time to sucessfully carry out a swap on the Viral DEX pools.
+\item Smaller Pools may have higher instant swap possibility, but the prices reflected are realtime. Hence the prices are near to market prices offering straightforward pricing rather than low buy and high sell prices.
+\end{itemize}
+
+\textbf{Distributed Swaps}\\
+
 
 \textbf{Reserve Pools}\\
 
+Usual DEXs employing the AMM Constant Product Maker formula requires higher liquidity in it's single bigger pools to minimize the price impacts whereas Viral DEX sharded pools requires equal liquidity to trading volume per sucessful rebase. So, a considerable liquidity per pool is better enough to rebase the pool's price to current market price of the token pairs. If a higher liquidity is provided to sharded pools where only a smaller liquidity is needed, the rebases get delayed making a spike in the price impact for the following traders making them to encounter a increased price slippage on their swap orders. Smaller sharded pools rebases much quickly in seconds where bigger pools takes couple minutes to fetch the market price and adjust the buy/sell price for the pool to rebase. To counter the effect of delayed rebases of sharded pools due to higher liquidity more than the stipulated trading volume per time period the concept of Reserve Pools are used.\\
 
 
 \textbf{Arbitrage Trading}\\
 
+
+
+
 \textbf{Benefits of Viral DEX}\\
+
+
+
 
 \textbf{Fee Structure}\\
 
