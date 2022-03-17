@@ -1652,12 +1652,10 @@ The algorithm run as follows,
 
 \textbf{Reserve Pools}\\
 
-Usual DEXs employing the AMM Constant Product Maker formula requires higher liquidity in it's single bigger pools to minimize the price impacts whereas Viral DEX sharded pools requires equal liquidity to trading volume per sucessful rebase. So, a considerable liquidity per pool is better enough to rebase the pool's price to current market price of the token pairs. If a higher liquidity is provided to sharded pools where only a smaller liquidity is needed, the rebases get delayed making a spike in the price impact for the following traders making them to encounter a increased price slippage on their swap orders. Smaller sharded pools rebases much quickly in seconds where bigger pools takes couple minutes to fetch the market price and adjust the buy/sell price for the pool to rebase. While smaller\\
+Usual DEXs employing the AMM Constant Product Maker formula requires higher liquidity in it's single bigger pools to minimize the price impacts whereas Viral DEX sharded pools requires equal liquidity to trading volume per sucessful rebase. So, a considerable liquidity per pool is better enough to rebase the pool's price to current market price of the token pairs. If a higher liquidity is provided to sharded pools where only a smaller liquidity is needed, the rebases get delayed making a spike in the price impact for the following traders making them to encounter a increased price slippage on their swap orders. Smaller sharded pools rebases much quickly in seconds where bigger pools takes couple minutes to fetch the market price and adjust the buy/sell price for the pool to rebase. To counter the effect of delayed rebases of sharded pools due to higher liquidity more than the stipulated trading volume per time period the concept of Reserve Pools are used.\\
 
 
-\textbf{Arbitrage Trading}\\
-
-
+\textbf{Limit Orders}\\
 
 
 \textbf{Benefits of Viral DEX}\\
@@ -1684,7 +1682,7 @@ Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.2\%
 Stable\:Pair\:Swap\:Fee=Swap\:Amount \times  0.02\%
 \end{equation}
 \begin{equation}
-Transfer\:Fee=After\:Swap\:Fee\:Rate \times  0.05%
+Transfer\:Fee=After\:Swap\:Fee\:Rate \times  Transfer\:Fee
 \end{equation}\\
 
 \textit{For Example} 
