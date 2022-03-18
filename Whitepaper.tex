@@ -610,9 +610,6 @@ All Media uploaded to Viral is End-to-end Encrypted where all the files are encr
 
 \textbf{Encryption}\\
 
-A random secret key will be generated to encrypt all kinds of media on Viral. After the final output, the encryption will happen locally inside the device where the file will be hosted/pinned by Public IPFS nodes and replicated across private clusters. The CID / Fingerprint of hosted file will be added to the post's meta data along with the secret key which can be only decrypted by white-listed users (followers). The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content unless it's public.
-
-
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{aes}
@@ -620,8 +617,14 @@ A random secret key will be generated to encrypt all kinds of media on Viral. Af
 \end{center}
 \end{figure}
 
-The Advanced Encryption Standard (AES), also known as Rijndael is a specification for the encryption of electronic data \& information established by the U.S. National Institute of Standards and Technology (NIST) in 2001. The algorithm described by AES is a symmetric-key algorithm, meaning the same key is used for both encrypting and decrypting the data. AES is the first publicly accessible cipher approved by the U.S. National Security Agency (NSA) for encrypting top secret information. AES encryption is used in our daily life mobile communications which is responsible for a large amount of security of our personal data, it is the most important cryptographic algorithm used.\\
+Viral media contents are encrypted using the Advanced Encryption Standard (AES), also known as Rijndael is a specification for the encryption of electronic data \& information established by the U.S. National Institute of Standards and Technology (NIST) in 2001. The algorithm described by AES is a symmetric-key algorithm, meaning the same key is used for both encrypting and decrypting the data. AES is the first publicly accessible cipher approved by the U.S. National Security Agency (NSA) for encrypting top secret information. AES encryption is used in our daily life mobile communications which is responsible for a large amount of security of our personal data, it is the most commonly used secure cryptographic algorithm.\\
 
+The major reason why Viral makes use of symmetric cryptographic algorithm for securing user's data is due to the threat of quantum supremacy. If quantum computers go mainstream most encryption used in emails, secure messaging, banking services will be compromised and will be subjected to attacks. While an encryption algorithm is basically a math problem that involves a large number of bits making the most common attack (bruteforce) requiring a immeasurable amount of computing power to find the possible combinations to decipher the encrypted data, the possibilities to bruteforce are finite which puts a quantum level computing as a threat to weak encryptions that cannot be cracked by classical computers.\\
+
+There are currently countable quantum algorithms that posses a threat to current cryptography security. Some are
+\begin{enumerate}
+\item \textbf{Shor's Algorithm} : Originally discovered by American Mathematician Peter Shor in 1994 is a quantum computer algorithm for finding prime factors of an integer. It can target asymmetric cryptography algorithms like RSA, ECDSA, DSA, etc that uses a public-private key pair for encrypting and decrypting cipher texts. The algorithm reduces the time complexity of Integer Factorization and Discrete Logarithm from sub-exponential to polynomial, and targets keys that can have long cryptoperiods cryptoperiods.
+\end{enumerate}
 
 
 \begin{figure}[H]
@@ -630,6 +633,11 @@ The Advanced Encryption Standard (AES), also known as Rijndael is a specificatio
 \caption{Encryption of Media in Viral}
 \end{center}
 \end{figure}
+
+A random secret key will be generated to encrypt all kinds of media on Viral. After the final output, the encryption will happen locally inside the device where the file will be hosted/pinned by Public IPFS nodes and replicated across private clusters. The CID / Fingerprint of hosted file will be added to the post's meta data along with the secret key which can be only decrypted by white-listed users (followers). The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content unless it's public.\\
+
+
+
 
 
 \begin{lstlisting}[caption={Post Meta-Data}, numbers=none]
