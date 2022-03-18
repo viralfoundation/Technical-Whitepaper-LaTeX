@@ -620,6 +620,18 @@ A random secret key will be generated to encrypt all kinds of media on Viral. Af
 \end{center}
 \end{figure}
 
+The Advanced Encryption Standard (AES), also known as Rijndael is a specification for the encryption of electronic data \& information established by the U.S. National Institute of Standards and Technology (NIST) in 2001. The algorithm described by AES is a symmetric-key algorithm, meaning the same key is used for both encrypting and decrypting the data. AES is the first publicly accessible cipher approved by the U.S. National Security Agency (NSA) for encrypting top secret information. AES encryption is used in our daily life mobile communications which is responsible for a large amount of security of our personal data, it is the most important cryptographic algorithm used.\\
+
+128-bit Key AES Encryption is 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{encryption}
+\caption{Encryption of Media in Viral}
+\end{center}
+\end{figure}
+
+
 \begin{lstlisting}[caption={Post Meta-Data}, numbers=none]
 
 	post id:12 {
@@ -628,17 +640,7 @@ A random secret key will be generated to encrypt all kinds of media on Viral. Af
     	"gateway": "https://cluster.viral.com/",
     	"secret-key" : ""
 	}
-	
 \end{lstlisting}
-
-
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=8cm]{encryption}
-\caption{Encryption of Media in Viral}
-\end{center}
-\end{figure}
 
 
 \textbf{Decryption}\\
@@ -654,59 +656,6 @@ $Detailed Explanation$\\
 \end{center}
 \end{figure}
 
-\begin{comment}
-
-flowchart TB
-
-  A0[User A request to view User B content]
-  subgraph Follower Verification
-  A0--1-->A1
-  A1[Gets User A Public Address]
-  A2[Gets User B Followers' Public Addresses]
-  A3[Cross verify]
-  A4[Content-Access Denied]
-  A1--2-->A3
-  A3--No-->A4
-  A2-->A3
-  end
-  subgraph IPFS-Download-Process
-  C1[URI is Fetched]
-  C2[Download's Encrypted File]
-  C1--5-->C2
-  end
-  A3--3-->K1[Sucessful]--4-->IPFS-Download-Process
-  subgraph User-B-Private-Account
-  B1[username]
-  B2[Followers-Public-Addresses]
-  B3[All Posts Meta-Data]
-  B4[Other Data]
-  end
-  B2-->A2
-  subgraph User-B-Post-MetaData
-  subgraph static
-  id
-  IPFS-URI
-  secret-key
-  end
-  subgraph dynamic
-  other-data
-  end
-  end
-  IPFS-URI-->C1
-  B3-->User-B-Post-MetaData
-  subgraph Decryption-of-encrypted-file
-  D1[secret-key is Fetched]
-  D2[Decrypt's the File]
-  D1--7-->D2
-  end 
-  secret-key-->D1
-  C2--6-->Decryption-of-encrypted-file
-  Z[Content is shown]
-  D2--8-->Z
-
-
-\end{comment}
-
 
 Public Account Media Decryption\\
 
@@ -714,55 +663,12 @@ $Detailed Explanation$\\
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{decryption-public}
+\includegraphics[width=8cm]{decryption-public}
 \caption{Decryption Media of Public account in Viral}
 \end{center}
 \end{figure}
 
-\begin{comment}
-flowchart LR
-subgraph Public-Account-Media-Decryption
-  A0[User request to view a Public Account]
-  subgraph User Request
-  A0--1-->A1
-  A1[Gets User's Public Address]
-  end
-  subgraph Public-Account
-  B1[username]
-  B2[Watchers-Public-Addresses]
-  B3[All Posts Meta-Data]
-  B4[Other Data]
-  end
-  A1--2-->K1[Add to Watchers List]--3-->B2
-    subgraph IPFS
-  C1[URI is Fetched]
-  C2[Download's Encrypted File]
-  C1--5-->C2
-  end
-  subgraph Decryption-of-encrypted-file
-  D1[secret-key is Fetched]
-  D2[Decrypt's the File]
-  D1--7-->D2
-  end 
-  subgraph User-Post-MetaData
-  subgraph static
-  id
-  IPFS-URI
-  secret-key
-  end
-  subgraph dynamic
-  other-data
-  end
-  end
-  IPFS-URI--->C1
-  secret-key--->D1
-  B3--->User-Post-MetaData
-  B2--4-->IPFS
-  C2--6-->Decryption-of-encrypted-file
-  Z[Content is shown]
-  D2--8-->Z
-end
-\end{comment}
+
 
 
 \textbf{2. Chats and Private Messages}\\
