@@ -30,7 +30,7 @@
 \contentsline {subsubsection}{\numberline {8.7.3}Wrapped Tokens}{26}{subsubsection.8.7.3}%
 \contentsline {section}{\numberline {9}Smart Wallet}{27}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Viral Decentralized Exchanges}{28}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Viral Fiat-Exchange}{43}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.2}Viral Fiat-Exchange}{44}{subsection.9.2}%
 \contentsline {subsection}{\numberline {9.3}Custodian Services}{49}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}Other Wallet Features}{49}{subsection.9.4}%
 \contentsline {section}{\numberline {10}Child Platforms}{49}{section.10}%

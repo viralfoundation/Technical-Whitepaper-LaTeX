@@ -1657,6 +1657,9 @@ Usual DEXs employing the AMM Constant Product Maker formula requires higher liqu
 
 \textbf{Limit Orders}\\
 
+Viral uses an off-chain swap book that matches the summation of primary coin/secondary coin buy and sell orders to execute a swap in the Viral DEX Liquidity Pools that sets a pricing strategy in accordance with rebasing the pool's liquidity to fetched real-time market price of the trading pair. Since it incorporates an off-chain swap book without executing the swap instantly like other DEXs the makers can benefit the features of limit orders and therby making the trading pair liquid in nature. Users can make use of limit orders to buy and sell when the maket reaches a certain price. The limit order gets placed in a seperate book that will run automated pool find algorithm and determines when a pool reaches a limit price and passes the order to the swap book and executes the swap instantly.
+
+
 
 \textbf{Benefits of Viral DEX}\\
 
