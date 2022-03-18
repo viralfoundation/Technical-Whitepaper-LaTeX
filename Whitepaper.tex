@@ -640,36 +640,6 @@ A random secret key will be generated to encrypt all kinds of media on Viral. Af
 \end{center}
 \end{figure}
 
-\begin{comment}
-flowchart TB
-
-  subgraph Offline Process
-  A([<font size=5>User Uploads Media])--<font size=5>1-->B([<font size=5>Generates secret-key])
-  B--<font size=5>2-->C[<font size=5>Encrypted Locally]
-  end
-  subgraph Post-MetaData
-  subgraph static
-  L[<font size=5>id]
-  R[<font size=5>IPFS-URI]
-  U[<font size=5>secret-key]
-  end
-  subgraph dynamic
-  P[<font size=5>other-data]
-  end
-  end
-  subgraph IPFS
-  D[/<font size=5>File Upload to IPFS Public/]--<font size=5>5-->G([<font size=5>Receives IPFS-URI])
-  G--<font size=5>6-->E[<font size=5>Pins IPFS-URI to Viral's IPFS Cluster]
-  E--<font size=5>7-->F[<font size=5>Cluster repetition = min:8 max:15]
-  end
-  B--<font size=5>secret-key-->U
-  IPFS--<font size=5>8------>K2[/<font size=5>Add IPFS-URI/]-->R
-  C--<font size=5>3-->K1[<font size=5>Encrypted File]--<font size=5>4-->D
-  Post-MetaData--<font size=5>9-->K3([<font size=5>Content is Stored])
-
-\end{comment}
-
-
 
 \textbf{Decryption}\\
 
@@ -679,63 +649,10 @@ $Detailed Explanation$\\
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=\textwidth]{decryption-private}
+\includegraphics[width=8cm]{decryption-private}
 \caption{Decryption Media of Private account in Viral}
 \end{center}
 \end{figure}
-
-\begin{comment}
-
-flowchart TB
-
-  A0[User A request to view User B content]
-  subgraph Follower Verification
-  A0--1-->A1
-  A1[Gets User A Public Address]
-  A2[Gets User B Followers' Public Addresses]
-  A3[Cross verify]
-  A4[Content-Access Denied]
-  A1--2-->A3
-  A3--No-->A4
-  A2-->A3
-  end
-  subgraph IPFS-Download-Process
-  C1[URI is Fetched]
-  C2[Download's Encrypted File]
-  C1--5-->C2
-  end
-  A3--3-->K1[Sucessful]--4-->IPFS-Download-Process
-  subgraph User-B-Private-Account
-  B1[username]
-  B2[Followers-Public-Addresses]
-  B3[All Posts Meta-Data]
-  B4[Other Data]
-  end
-  B2-->A2
-  subgraph User-B-Post-MetaData
-  subgraph static
-  id
-  IPFS-URI
-  secret-key
-  end
-  subgraph dynamic
-  other-data
-  end
-  end
-  IPFS-URI-->C1
-  B3-->User-B-Post-MetaData
-  subgraph Decryption-of-encrypted-file
-  D1[secret-key is Fetched]
-  D2[Decrypt's the File]
-  D1--7-->D2
-  end 
-  secret-key-->D1
-  C2--6-->Decryption-of-encrypted-file
-  Z[Content is shown]
-  D2--8-->Z
-
-
-\end{comment}
 
 
 Public Account Media Decryption\\
@@ -744,55 +661,12 @@ $Detailed Explanation$\\
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{decryption-public}
+\includegraphics[width=8cm]{decryption-public}
 \caption{Decryption Media of Public account in Viral}
 \end{center}
 \end{figure}
 
-\begin{comment}
-flowchart LR
-subgraph Public-Account-Media-Decryption
-  A0[User request to view a Public Account]
-  subgraph User Request
-  A0--1-->A1
-  A1[Gets User's Public Address]
-  end
-  subgraph Public-Account
-  B1[username]
-  B2[Watchers-Public-Addresses]
-  B3[All Posts Meta-Data]
-  B4[Other Data]
-  end
-  A1--2-->K1[Add to Watchers List]--3-->B2
-    subgraph IPFS
-  C1[URI is Fetched]
-  C2[Download's Encrypted File]
-  C1--5-->C2
-  end
-  subgraph Decryption-of-encrypted-file
-  D1[secret-key is Fetched]
-  D2[Decrypt's the File]
-  D1--7-->D2
-  end 
-  subgraph User-Post-MetaData
-  subgraph static
-  id
-  IPFS-URI
-  secret-key
-  end
-  subgraph dynamic
-  other-data
-  end
-  end
-  IPFS-URI--->C1
-  secret-key--->D1
-  B3--->User-Post-MetaData
-  B2--4-->IPFS
-  C2--6-->Decryption-of-encrypted-file
-  Z[Content is shown]
-  D2--8-->Z
-end
-\end{comment}
+
 
 
 \textbf{2. Chats and Private Messages}\\
@@ -1654,6 +1528,9 @@ The algorithm run as follows,
 
 Usual DEXs employing the AMM Constant Product Maker formula requires higher liquidity in it's single bigger pools to minimize the price impacts whereas Viral DEX sharded pools requires equal liquidity to trading volume per sucessful rebase. So, a considerable liquidity per pool is better enough to rebase the pool's price to current market price of the token pairs. If a higher liquidity is provided to sharded pools where only a smaller liquidity is needed, the rebases get delayed making a spike in the price impact for the following traders making them to encounter a increased price slippage on their swap orders. Smaller sharded pools rebases much quickly in seconds where bigger pools takes couple minutes to fetch the market price and adjust the buy/sell price for the pool to rebase. To counter the effect of delayed rebases of sharded pools due to higher liquidity more than the stipulated trading volume per time period the concept of Reserve Pools are used.\\
 
+Reserve Pools are smart contracts that is maintained by the trading pair's pool contract which freezes/releases a certain portion of tokens from the liquidity pool to match the trading volume for rebasing the sharded-pools. \\
+
+
 
 \textbf{Limit Orders}\\
 
@@ -2146,7 +2023,7 @@ Viral will be providing an opportunity for all developers regardless of their ed
 
 
 \textbf{Short Benefits}:
-\begin{enumerate}[leftmargin=+0.2in]
+\begin{itemize}[leftmargin=+0.2in]
 \item Full Automation on Research \& Development
 \item Potential of a bigger development community
 \item New, Exciting Unknown Developments for the application
@@ -2155,7 +2032,7 @@ Viral will be providing an opportunity for all developers regardless of their ed
 \item Decentralized HR \& Rewards according to the contribution
 \item Expedite the Development of Viral Future Plans
 \item And many more advantages to receive a contribution for the application’s source code in trade for daily rewards
-\end{enumerate}
+\end{itemize}
 
 \textbf{Allocation of Rewards}\\
 
