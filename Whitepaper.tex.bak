@@ -622,10 +622,10 @@ Viral media contents are encrypted using the Advanced Encryption Standard (AES),
 The major reason why Viral makes use of symmetric cryptographic algorithm for securing user's data is due to the threat of quantum supremacy. If quantum computers go mainstream most encryption used in emails, secure messaging, banking services will be compromised and will be subjected to attacks. While an encryption algorithm is basically a math problem that involves a large number of bits making the most common attack (bruteforce) requiring a immeasurable amount of computing power to find the possible combinations to decipher the encrypted data, the possibilities to bruteforce are finite which puts a quantum level computing as a threat to weak encryptions that cannot be cracked by classical computers.\\
 
 There are currently countable quantum algorithms that posses a threat to current cryptography security. Some are
-\begin{enumerate}
-\item \textbf{Shor's Algorithm} : Originally discovered by American Mathematician Peter Shor in 1994 is a quantum computer algorithm for finding prime factors of an integer. It can target asymmetric cryptography algorithms like RSA, ECDSA, DSA, etc that uses a public-private key pair for encrypting and decrypting cipher texts. The algorithm reduces the time complexity of Integer Factorization and Discrete Logarithm from sub-exponential to polynomial, and targets keys that can have long cryptoperiods.
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Shor's Algorithm} : Originally discovered by American Mathematician Peter Shor in 1994 is a quantum computer algorithm for finding prime factors of an integer. It can target asymmetric cryptography algorithms like RSA, ECDSA, DSA, etc that uses a public-private key pair for encrypting and decrypting cipher texts. The algorithm reduces the time complexity of Integer Factorization and Discrete Logarithm from sub-exponential to polynomial, and targets keys that can have long cryptoperiods. Since, asymmetric encryption standards such as RSA heavily relies on the fact that classical computers cannot find prime factors swiftly, they are secure for now. US National Academy of Sciences, Engineering and Medicine (NASEM) predicted that a powerful quantum computer using Shor’s algorithm would be able to crack a 1024-bit encryption implementation RSA in less than 24 hours.
+\item \textbf{Grover's Algorithm} : The Grover's algorithm discovered by Lev Grover, could theoretically weaken the security of symmetric cryptographic algorithms, such as Advanced Encryption Standard (AES). Grover's algorithm could brute-force a 128-bit symmetric cryptographic key in roughly 2$^{64}$ iterations, or a 256-bit key in roughly 2$^{128}$ iterations. As a result, it is sometimes suggested that symmetric key lengths be doubled to protect against future quantum attacks.  In short, Grover's algorithm reduces the brute-force attack time to it's square root, so the attack time for a 128bit AES encryption is decreased to 2$^{64}$, where the 256bit encryption is reduced to 2$^{128}$ which is considered secure.
 \end{enumerate}
-
 
 \begin{figure}[H]
 \begin{center}
@@ -634,7 +634,18 @@ There are currently countable quantum algorithms that posses a threat to current
 \end{center}
 \end{figure}
 
-A random secret key will be generated to encrypt all kinds of media on Viral. After the final output, the encryption will happen locally inside the device where the file will be hosted/pinned by Public IPFS nodes and replicated across private clusters. The CID / Fingerprint of hosted file will be added to the post's meta data along with the secret key which can be only decrypted by white-listed users (followers). The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content unless it's public.\\
+Since AES-256 is proven to be the best well-used algorithm currently against post-quantum era, Viral encrypts all the user data using a 256bit key symmetric encryption using a random key generator. The steps for Encryption, Media Uploading, IPFS Pinning, Cluster Repetition, Post-Meta-Data Update are given as following
+\begin{itemize}[leftmargin=+0.2in]
+\item After the media is done for preparation it will begin the encryption process by generating a 256-bit random key.
+\item The encryption is done locally inside the device and the encrypted file is generated
+\item The encrypted file later hosted to a server that takes the file and pins it to a series of IPFS Public nodes
+\item After it is hosted to the Public Nodes via a common IPFS-CID (content-identifier) that CID is pinned on to the IPFS Private Clusters which tracks pins across a cluster of IPFS daemons and uses a leader-based consensus algorithm Raft to coordinate storage of a pinset, distributing the set of data across the participating private nodes.
+\item The file is pinned on both Public and Private CLuster Nodes
+\item The Repetition of Files among the cluster nodes are determined and configured previously. In summary, the file will be repetitively stored across IPFS-Private-Cluster Nodes. The repetition is monitored by configuring a minimum and a maximum repetition level.
+\item After pinning to a single IPFS-Private-CLuster the CID is updated in the post meta-data along with the secret-key which is generated while encrypting the media content
+\item The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content unless it's public.
+\end{itemize}
+
 
 
 
