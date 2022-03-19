@@ -627,6 +627,9 @@ There are currently countable quantum algorithms that posses a threat to current
 \item \textbf{Grover's Algorithm} : The Grover's algorithm discovered by Lev Grover, could theoretically weaken the security of symmetric cryptographic algorithms, such as Advanced Encryption Standard (AES). Grover's algorithm could brute-force a 128-bit symmetric cryptographic key in roughly 2$^{64}$ iterations, or a 256-bit key in roughly 2$^{128}$ iterations. As a result, it is sometimes suggested that symmetric key lengths be doubled to protect against future quantum attacks.  In short, Grover's algorithm reduces the brute-force attack time to it's square root, so the attack time for a 128bit AES encryption is decreased to 2$^{64}$, where the 256bit encryption is reduced to 2$^{128}$ which is considered secure.
 \end{enumerate}
 
+Since AES-256 is proven to be the best well-used algorithm currently against post-quantum era, Viral encrypts all the user data using a 256bit key symmetric encryption using a random key generator. \\
+
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=8cm]{encryption}
@@ -634,7 +637,7 @@ There are currently countable quantum algorithms that posses a threat to current
 \end{center}
 \end{figure}
 
-Since AES-256 is proven to be the best well-used algorithm currently against post-quantum era, Viral encrypts all the user data using a 256bit key symmetric encryption using a random key generator. The steps for Encryption, Media Uploading, IPFS Pinning, Cluster Repetition, Post-Meta-Data Update are given as following
+The steps for Encryption, Media Uploading, IPFS Pinning, Cluster Repetition, Post-Meta-Data Update are given as following
 \begin{itemize}[leftmargin=+0.2in]
 \item After the media is done for preparation it will begin the encryption process by generating a 256-bit random key.
 \item The encryption is done locally inside the device and the encrypted file is generated
@@ -643,13 +646,8 @@ Since AES-256 is proven to be the best well-used algorithm currently against pos
 \item The file is pinned on both Public and Private CLuster Nodes
 \item The Repetition of Files among the cluster nodes are determined and configured previously. In summary, the file will be repetitively stored across IPFS-Private-Cluster Nodes. The repetition is monitored by configuring a minimum and a maximum repetition level.
 \item After pinning to a single IPFS-Private-CLuster the CID is updated in the post meta-data along with the secret-key which is generated while encrypting the media content
-\item The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content unless it's public.
+\item The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content inside publicly available IPFS nodes.
 \end{itemize}
-
-
-
-
-
 
 \begin{lstlisting}[caption={Post Meta-Data}, numbers=none]
 
@@ -657,9 +655,11 @@ Since AES-256 is proven to be the best well-used algorithm currently against pos
     	"cid": "hefTFbifw5P4gXftAwvA4eXQ89f9w7Rv9dCaQRRVQPn93bA",
    		"caption": "This is a sample caption",
     	"gateway": "https://cluster.viral.com/",
-    	"secret-key" : ""
+    	"secret-key" : "PdSgVkYp3s6v9y$B?E(H+MbQeThWmZq4"
 	}
 \end{lstlisting}
+
+
 
 
 \textbf{Decryption}\\

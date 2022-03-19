@@ -627,6 +627,8 @@ There are currently countable quantum algorithms that posses a threat to current
 \item \textbf{Grover's Algorithm} : The Grover's algorithm discovered by Lev Grover, could theoretically weaken the security of symmetric cryptographic algorithms, such as Advanced Encryption Standard (AES). Grover's algorithm could brute-force a 128-bit symmetric cryptographic key in roughly 2$^{64}$ iterations, or a 256-bit key in roughly 2$^{128}$ iterations. As a result, it is sometimes suggested that symmetric key lengths be doubled to protect against future quantum attacks.  In short, Grover's algorithm reduces the brute-force attack time to it's square root, so the attack time for a 128bit AES encryption is decreased to 2$^{64}$, where the 256bit encryption is reduced to 2$^{128}$ which is considered secure.
 \end{enumerate}
 
+Attacks on AES using Grover's algorithm\\
+
 Since AES-256 is proven to be the best well-used algorithm currently against post-quantum era, Viral encrypts all the user data using a 256bit key symmetric encryption using a random key generator. \\
 
 
@@ -649,20 +651,17 @@ The steps for Encryption, Media Uploading, IPFS Pinning, Cluster Repetition, Pos
 \item The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content inside publicly available IPFS nodes.
 \end{itemize}
 
-
-
-
-
-
 \begin{lstlisting}[caption={Post Meta-Data}, numbers=none]
 
 	post id:12 {
     	"cid": "hefTFbifw5P4gXftAwvA4eXQ89f9w7Rv9dCaQRRVQPn93bA",
    		"caption": "This is a sample caption",
     	"gateway": "https://cluster.viral.com/",
-    	"secret-key" : ""
+    	"secret-key" : "PdSgVkYp3s6v9y$B?E(H+MbQeThWmZq4"
 	}
 \end{lstlisting}
+
+
 
 
 \textbf{Decryption}\\
