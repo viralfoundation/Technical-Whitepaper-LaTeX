@@ -30,31 +30,31 @@
 \contentsline {subsubsection}{\numberline {8.7.3}Wrapped Tokens}{28}{subsubsection.8.7.3}%
 \contentsline {section}{\numberline {9}Smart Wallet}{29}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Viral Decentralized Exchanges}{30}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Viral Fiat-Exchange}{46}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Custodian Services}{51}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Other Wallet Features}{51}{subsection.9.4}%
-\contentsline {section}{\numberline {10}Child Platforms}{51}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Content Moderation Platform}{51}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Developer Platform}{57}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Social Nodes}{58}{subsection.10.3}%
-\contentsline {section}{\numberline {11}Global Reward Pool}{58}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Users (Impression-based) - 10\%}{60}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}ROV (Contribution-based) - 10\%}{62}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Stabilizers (Serving based) - 30\%}{63}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Developers (Contribution-based) - 10\%}{64}{subsection.11.4}%
-\contentsline {section}{\numberline {12}Governance \& Viral DAO}{64}{section.12}%
-\contentsline {section}{\numberline {13}Viral Coin ICO}{65}{section.13}%
-\contentsline {section}{\numberline {14}Development Roadmap}{66}{section.14}%
-\contentsline {section}{\numberline {15}Phase 2}{66}{section.15}%
-\contentsline {subsection}{\numberline {15.1}NFT L2 Solution}{66}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}Payment Channels - State Channels}{66}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Viral DAO Platform and ICO}{67}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}Viral Decentralized Ads}{67}{subsection.15.4}%
-\contentsline {subsection}{\numberline {15.5}Influencer-Ad Platform}{67}{subsection.15.5}%
-\contentsline {subsection}{\numberline {15.6}P2P Exchange}{68}{subsection.15.6}%
-\contentsline {subsection}{\numberline {15.7}Addition of Popular De-Fi Platforms}{69}{subsection.15.7}%
-\contentsline {subsection}{\numberline {15.8}Business-Wallet API and SDK}{69}{subsection.15.8}%
-\contentsline {section}{\numberline {16}Future Plans}{69}{section.16}%
-\contentsline {section}{\numberline {17}Team}{69}{section.17}%
-\contentsline {section}{\numberline {18}References}{69}{section.18}%
-\contentsline {section}{\numberline {19}Glossary}{69}{section.19}%
+\contentsline {subsection}{\numberline {9.2}Viral Fiat-Exchange}{48}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Custodian Services}{53}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Other Wallet Features}{53}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Child Platforms}{53}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Content Moderation Platform}{53}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Developer Platform}{59}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Social Nodes}{60}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Global Reward Pool}{60}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Users (Impression-based) - 10\%}{62}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}ROV (Contribution-based) - 10\%}{64}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Stabilizers (Serving based) - 30\%}{65}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Developers (Contribution-based) - 10\%}{66}{subsection.11.4}%
+\contentsline {section}{\numberline {12}Governance \& Viral DAO}{67}{section.12}%
+\contentsline {section}{\numberline {13}Viral Coin ICO}{68}{section.13}%
+\contentsline {section}{\numberline {14}Development Roadmap}{68}{section.14}%
+\contentsline {section}{\numberline {15}Phase 2}{68}{section.15}%
+\contentsline {subsection}{\numberline {15.1}NFT L2 Solution}{68}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Payment Channels - State Channels}{68}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Viral DAO Platform and ICO}{69}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Viral Decentralized Ads}{69}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}Influencer-Ad Platform}{69}{subsection.15.5}%
+\contentsline {subsection}{\numberline {15.6}P2P Exchange}{70}{subsection.15.6}%
+\contentsline {subsection}{\numberline {15.7}Addition of Popular De-Fi Platforms}{72}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}Business-Wallet API and SDK}{72}{subsection.15.8}%
+\contentsline {section}{\numberline {16}Future Plans}{72}{section.16}%
+\contentsline {section}{\numberline {17}Team}{72}{section.17}%
+\contentsline {section}{\numberline {18}References}{72}{section.18}%
+\contentsline {section}{\numberline {19}Glossary}{72}{section.19}%

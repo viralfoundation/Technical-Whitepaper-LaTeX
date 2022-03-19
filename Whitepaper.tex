@@ -1525,7 +1525,7 @@ Traders typically use DEX agregator softwares and applications to run complex ma
 
 There are various factors a user can opt to get the best price possible. A trader can opt for two models of dex aggregator service provided in the Viral DEX, 1. Automated 2. Manual. In an automated service an algorithm is run to provide the best possible price by finding the perfect pool with the best price and instant swap support. Automated algorithm will be much faster than manual selection since it implies high efficient off-chain pool finder algorithm and can reduce man work. The user can opt for a manual method of selecting a specific pool according to his/her preference\\
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=\textwidth]{dex-algorithm}
 \caption{Automated Algorithm for better price among swap orders}
@@ -1543,15 +1543,69 @@ The algorithm run as follows,
 \item Executing a swap in a lower instant swap possibility pools may increase the time to sucessfully carry out a swap on the Viral DEX pools.
 \item Smaller Pools may have higher instant swap possibility, but the prices reflected are realtime. Hence the prices are near to market prices offering straightforward pricing rather than low buy and high sell prices.
 \end{itemize}
-
-\textbf{Distributed Swaps}\\
-
+\begin{equation}
+Swap\:Order \leq Pool\:Liquidity 
+\end{equation}
+The Swap Order should always be lesser than each of the sharded pools i.e., the bigger pool may receive bigger orders but will always be limited to the pool's total liquidity, a trader cannot place a 100A Token order if the pool has a total liquidity of 80A. Since Viral has sharded pools the total liquiidty of all the pools are not considered rather a single pool is considered, so the pool of the bigger pool is considered as the max i.e., the 50\% Pool.\\
+\begin{equation}
+Instant\:Swap\:Possibility \geq n = 60\%
+\end{equation}
+\begin{equation}
+For\:Unsuccessful\:Rounds \rightarrow n-10\%
+\end{equation}\\
+The Instant Swap Possibility is determined by calculating the total pending swap orders in the particular sharded pool's swap book that can execute the newly created swap order by matching the summation of the total buy orders and sell orders. The automated pool finding algorithm will find the best pool by calculating the pool's instant swap possibility and chooses the best pool accordingly.\\
 
 \textbf{Reserve Pools}\\
 
-Usual DEXs employing the AMM Constant Product Maker formula requires higher liquidity in it's single bigger pools to minimize the price impacts whereas Viral DEX sharded pools requires equal liquidity to trading volume per sucessful rebase. So, a considerable liquidity per pool is better enough to rebase the pool's price to current market price of the token pairs. If a higher liquidity is provided to sharded pools where only a smaller liquidity is needed, the rebases get delayed making a spike in the price impact for the following traders making them to encounter a increased price slippage on their swap orders. Smaller sharded pools rebases much quickly in seconds where bigger pools takes couple minutes to fetch the market price and adjust the buy/sell price for the pool to rebase. To counter the effect of delayed rebases of sharded pools due to higher liquidity more than the stipulated trading volume per time period the concept of Reserve Pools are used.\\
+Usual DEXs employing the AMM Constant Product Maker formula requires higher liquidity in it's single bigger pools to minimize the price impacts whereas Viral DEX sharded pools requires equal liquidity to trading volume per sucessful rebase. So, a considerable liquidity per pool is better enough to rebase the pool's price to current market price of the token pairs. If a higher liquidity is provided to sharded pools where only a smaller liquidity is needed, the rebases get delayed making a spike in the price impact for the following traders making them to encounter a increased price slippage on their swap orders. Surplus of excess liquidity can be avoided in Viral DEX compared to current AMM Exchanges. Smaller sharded pools rebases much quickly in seconds where bigger pools takes couple minutes to fetch the market price and adjust the buy/sell price for the pool to rebase. To counter the effect of delayed rebases of sharded pools due to higher liquidity more than the stipulated trading volume per time period the concept of Reserve Pools are used.\\
 
-Reserve Pools are smart contracts that is maintained by the trading pair's pool contract which freezes/releases a certain portion of tokens from the liquidity pool to match the trading volume for rebasing the sharded-pools. \\
+Reserve Pools are smart contract accounts that is maintained by the trading pair's pool contract which freezes/releases a certain portion of tokens from the liquidity pool to match the trading volume for rebasing the sharded-pools. It is exactly the same as withdrawing a certain percentage of liquidity but to a smart contract that holds the funds separately which accounts for increasing and decreasing the pool's liquidity for smoother rebases.\\
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{reserve-pool-1}
+\caption{Initial Creation of Pools}
+\end{center}
+\end{figure}
+
+During the initialization of the pool, the reserve pool will be set to zero where the pools will be sharded according to the pool creator's configuration where the number of dex-chains are the limit. The pools get sharded by percentage and the market price is been set by an oracle to fetch and provide buy and sell price according to the difference in current price of the pool and market price of the trading pair.
+
+\begin{equation}
+Limit Equation For Number Of Dex Chains = Pool Shards Configurations
+\end{equation}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{reserve-pool-2}
+\caption{Freezing Liquidity when trading volume decreases}
+\end{center}
+\end{figure}
+
+Liquidity gets freezed and sent to reserve pool on two occasions
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Zero Trading Volume} : Some Pools are created for low-volume tokens that will receive low to no swap orders which then accounts for a huge price impact if the value suddenly sky-rockets making the pool to react differently to price impacts and delayed rebases
+\item \textbf{Reduced Trading Volume} : Reduced trading volume gives pressure on delayed rebases on sharded pools which can be prevented by decreasing the liquidity in the pool by withdrawing it into a seperate reserve pool (similar to a wallet account but as a smart contract) 
+\end{enumerate}
+
+Pools will withdraw tokens in to its reserve pool on request. The withdrawal ratio will be equal to the Current Price ratio of the current pool not affecting the pool's price. When each pool has different ratio of tokens (possible scenario due to Time Average Market Prices- TAMP) an equal percentage from all the pools shall be withdrawn to maintain the micro-pool architecture. In simple words from each pools the tokens will be withdrawn at a same percentage and sent to it's reserve pool to decrease the liquidity for better rebases.\\
+
+
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{reserve-pool-3}
+\caption{Releasing Liquidity (ratio of C.P) when trading volume increases}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{reserve-pool-4}
+\caption{Liquidity Provider withdrawal of Funds from all reserves}
+\end{center}
+\end{figure}
 
 
 
