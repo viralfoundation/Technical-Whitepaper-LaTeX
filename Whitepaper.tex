@@ -1590,8 +1590,6 @@ Liquidity gets freezed and sent to reserve pool on two occasions
 Pools will withdraw tokens in to its reserve pool on request. The withdrawal ratio will be equal to the Current Price ratio of the current pool not affecting the pool's price. When each pool has different ratio of tokens (possible scenario due to Time Average Market Prices- TAMP) an equal percentage from all the pools shall be withdrawn to maintain the micro-pool architecture. In simple words from each pools the tokens will be withdrawn at a same percentage and sent to it's reserve pool to decrease the liquidity for better rebases.\\
 
 
-
-
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{reserve-pool-3}
@@ -1599,24 +1597,11 @@ Pools will withdraw tokens in to its reserve pool on request. The withdrawal rat
 \end{center}
 \end{figure}
 
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=10cm]{reserve-pool-4}
-\caption{Liquidity Provider withdrawal of Funds from all reserves}
-\end{center}
-\end{figure}
-
-
+Liquidity gets released to the pool from the reserve when a demand for the token pair increases while the trading volume needs an increase in pool's supply. Instead of taking from liquidity providers the pool adjust itself by taking funds from reserve in the ratio of C.P without altering the pool's prices. Left over tokens shall reside in the reserve pool.\\
 
 \textbf{Limit Orders}\\
 
 Viral uses an off-chain swap book that matches the summation of primary coin/secondary coin buy and sell orders to execute a swap in the Viral DEX Liquidity Pools that sets a pricing strategy in accordance with rebasing the pool's liquidity to fetched real-time market price of the trading pair. Since it incorporates an off-chain swap book without executing the swap instantly like other DEXs the makers can benefit the features of limit orders and therby making the trading pair liquid in nature. Users can make use of limit orders to buy and sell when the maket reaches a certain price. The limit order gets placed in a seperate book that will run automated pool find algorithm and determines when a pool reaches a limit price and passes the order to the swap book and executes the swap instantly.\\
-
-
-\textbf{Benefits of Viral DEX}\\
-
-
 
 
 \textbf{Fee Structure}\\
@@ -1625,11 +1610,10 @@ Viral DEX subtracts a swap fee on every swap order executed. There are two types
 
 \begin{figure}[H]
 \begin{center}
+\includegraphics[width=8cm]{dex-fee}
 \caption{Fee Structure}
 \end{center}
 \end{figure}
-
-
 
 \begin{equation}
 Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.2\%
@@ -1688,7 +1672,29 @@ Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micr
 \end{center}
 \end{figure}
 
+When an LP withdraws his/her funds the funds will be distributed according to his percentage of pools
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{reserve-pool-4}
+\caption{Liquidity Provider withdrawal of Funds from all reserves}
+\end{center}
+\end{figure}
+
+\textbf{Benefits of Viral DEX}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Affordable Fees} : Competitive low-priced fees 0.2\% for Normal pairs and 0.02\% for Stable pairs.
+\item \textbf{Free from Price Impacts} : Price impacts are eliminated since to execute a swap order both the buyer and seller orders should be matched and swapped at once as a single order which eliminates the price impacts.
+\item \textbf{Real-Time Market Price Pool Rates} : Constant Product Maker is not used rather the pool will determine the buy \^ sell price by finding a difference between the current pool price by it's ratio and the market price of the trading pair to rebase the pool always to the market price.
+\item \textbf{Faster Swaps} : Sharded Micro-pools deployed on separate chains brings parallel executions of faster swaps .
+\item \textbf{Reduced Human-work} : Automated Pool Finding Algorithm shall find the best pool by determining the lowest buy / highest sell price and instant swap possibility by calculating how much liquid a particular pool's swap book orders are.
+\item \textbf{Multi-Layer Security} : The Viral Multi-Chain Architecture  offers an immutable state anchoring of each chain's global state to the Tangle (DAG) for additional security.
+\item \textbf{Advanced Trading} : Since Viral employs a strategy to receive all the orders on a off-chain swap book, it can receive limit orders for institutional and retail market makers who would like to trade on DEXs.
+\item \textbf{Less Volatility} : Real-Time Market Prices are taken in account for the pool rebases that makes the pool less volatile compared to current AMMs that have huge volatility upon larger orders.
+\item \textbf{Congestion-Free DEX} : Congestion is eliminated by incorporating micro-pools where larger pools for larger orders and smaller pools for smaller orders.
+\item \textbf{Multi-Order Matching} : Comparing to Order book exchanges which matches a buyer and seller, where Viral DEX matches multiple orders who can execute an order in a single swap.
+\item \textbf{Higher Yields for LPs} : Unlike current AMMs that require larger pools to become stable without volatile effects, Viral requires only a liited amount of Liquidity equal to the trading volume, which can provide a smaller group of LP's maximum yields.
+\end{enumerate}
 
 \subsection{Viral Fiat-Exchange}
 
