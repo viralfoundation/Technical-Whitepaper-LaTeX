@@ -698,7 +698,7 @@ Viral ensures that all the content in the social application is securely encrypt
 \end{center}
 \end{figure}
 
-
+The process of decrypting a public account post is done by maintaining a real-time white-list of users public addresses called "Watchers-list". Viewer's public addresses shall be added in the watchers list to fetch the cid and the secret-key from posts that can decrypt the downloaded content. This way we can ensure the exact security we have in private accounts in public accounts as well.\\
 
 
 \textbf{2. Chats and Private Messages}\\
@@ -1536,7 +1536,7 @@ There are various factors a user can opt to get the best price possible. A trade
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=8cm]{dex-algorithm}
+\includegraphics[width=11cm]{dex-algorithm}
 \caption{Automated Algorithm for better price among swap orders}
 \end{center}
 \end{figure}
@@ -2217,18 +2217,27 @@ pie
   
 \end{comment}
 
+
+
+
+
+
+
+
+
+
+
 \subsection{Social Users (Impression-based) - 31\%}
 
 31\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
 
-\textbf{Advantages}\\
-
-\begin{enumerate}[leftmargin=+0.2in]
+\textbf{Advantages}
+\begin{itemize}[leftmargin=+0.2in]
 \item Creators can be able to create content expecting a reward for it
 \item A fair share of rewards according to the popularity of the content.
 \item Users will trust the platform which gives them 30\% of it’s daily collected revenue to every user without any centralized company meddling.
 \item Encourages other platform users to join and receive rewards.
-\end{enumerate}
+\end{itemize}
 
 
 \textbf{Segregation of Rewards}\\
@@ -2243,7 +2252,7 @@ User\:Percentage(U_p)=\frac{User\:Total\:Impression(U_i)}{Global\:Impression(G)}
 User\:Rewards(x)=\frac{Total\:Rewards(T) \times User\:Reward\:Percentage(U_p)}{100}
 \end{equation}\\
 
-\begin{lstlisting}[language=Solidity, caption={User Reward Contract}, numbers=none]
+\begin{lstlisting}[language=Solidity, caption={User Reward Contract in Solidity}, numbers=none]
 
 
 // SPDX-License-Identifier: MIT
@@ -2332,62 +2341,56 @@ User Reward : \\
 
 The reward allocation and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 15 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be sent to burn pool after the stipulated time period finishes. This creates a daily deflationary effect to the Viral Coin that will benefit other wallet users who hold Viral Coins.\\
 
-\subsection{ROV (Contribution-based) - 10\%}
+\subsection{DAO - 14\%}
 
-10\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. \\
+\subsection{Blockchain-Miners (Gas-based) - 11\%}
+
+\subsection{Burn - 10\%}
+
+\subsection{IPFS-Miners (Storage-based) - 8\%}
+
+
+\subsection{ROV (Contribution-based) - 7.5\%}
+
+7.5\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. \\
 
 This ensures rapid results in removing explicit content in a relatively short time without any hassles. In short, ROV is a decentralized autonomous organization to maintain Viral's media contents at its best. The curators will be rewarded by Viral Coins for their contribution to the network.\\
 
 \textbf{Advantages of ROV over Centralized Organization}
-\begin{enumerate}[leftmargin=+0.2in]
+\begin{itemize}[leftmargin=+0.2in]
 \item Faster content removals
 \item The decision of a single organization/person will be eliminated
 \item A better-decentralized approach to centralized organizations
 \item Will work in any time zone 24/7 without any hassles
-\end{enumerate}
+\end{itemize}
+
+\textbf{Segregation of Rewards}\\
+
+The segregation will be done at 2 AM UTC where the curator's Plus points for the day will be taken and the percentage of rewards will be determined using it. For every vote and every positive contribution they make the points will be increased in the ROV Profile where the curators will get their fair share of rewards considering the total points collected by all curators in 24 hours similar to the segregation algorithm of Users Views-based. Every curator will receive their rewards directly to their wallets where they should collect them manually in a period of 15 hours.\\
+
+\subsection{Social Miners (Serving based) - 4\%}
+
+Social Miners are people running nodes in the viral decentralized network for storing media and data transfers. It is similar to blockchain mining nodes but here the nodes will run Gun DB Relay server, WebRTC signaling server, and other several mini peers of other stacks simultaneously to provide faster data transfer, decentralization of data, higher encryption, better stability, etc. Users can download the node software and run the program to become a social node for the Viral network and start earning rewards according to the data served for the network\\
+
+The segregation will take place at 2 AM UTC by taking the total number of data served from each technology stack's peer such as GUN, WebRTC, and all other mini peers. The points will be given to Social Nodes based on the percentage they served to total served by all stabilizers in the given 24 hours. The stabilizers can able to receive their Daily rewards to their wallets based on contribution, where the rewards have to be collected manually within the 15 hour stipulated window, in which the uncollected coins will be sent to burn address automatically.\\
 
 
-\textbf{How Segregation takes place}\\
+\subsection{Developers (Contribution-based) - 7.5\%}
 
-The segregation will be done at 2 AM UTC where the curator's Plus points for the day will be taken and the percentage of rewards will be determined using it. For every vote and every positive contribution they make the points will be increased in the ROV Profile where the curators will get their fair share of rewards considering the total points collected by all curators in 24 hours similar to the segregation algorithm of Users Views-based.\\
+7.5\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to development of the beta application which will be available as an open repository. To give rewards for developers' contribution to the decentralized platform and also to encourage developers by giving paid rewards to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform.\\
 
-\begin{figure}[H]
-\begin{center}
-\caption{Flowchart}
-\end{center}
-\end{figure}
+We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get voted by other developers for rewards. The votes will determine their rewards where the maximum voted contribution will receive more viral coins than the minimum voted contribution. 
 
-How will they receive\\
+Developers are the backbone of Viral. Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.\\
 
-Every curator will receive their rewards directly to their wallets where they should collect them manually in a period of 10 hours.\\
+Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 7.5\% of daily revenue to a closed community. This will encourage autonomous development of superior technology where all hands matter. \\
 
-\subsection{Stabilizers (Serving based) - 30\%}
+The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 15 hours every day.\\
 
-Stabilizers are people running nodes in the viral decentralized network for storing media and data transfers. It is similar to blockchain mining nodes but here the nodes will run IPFS Public Nodes, IPFS Private Cluster Nodes, Gun DB Relay server, WebRTC signaling server, and other several mini peers of other stacks simultaneously to provide faster data transfer, decentralization of data, higher encryption, better stability, etc. \\
+\subsection{DAG-Miners (Transaction-based) - 6\%}
 
-Users can download the desktop software and run the program to become a social node for the Viral network and start earning rewards according to the data served for the network. In short, instead of buying centralized servers as other companies do, we will be providing a desktop software where any user can run the program in their desktop, laptop to become a server for the viral network to transfer, serve data on the decentralized platform and get paid by rewards every day to their wallet.\\
+\subsection{Bounties (DAO-Vote) - 2\%}
 
-If the platform receives more social nodes\\
-\begin{enumerate}[leftmargin=+0.2in]
-\item More people will trust the social media
-\item More relay peers equal faster transmission of data
-\end{enumerate}
-
-
-The segregation will take place at 2 AM UTC by taking the total number of data served from each technology stack's peer such as IPFS, GUN, WebRTC, and all other mini peers. The points will be given to stabilizers based on the percentage they served to total served by all stabilizers in the given 24 hours. \\
-
-The stabilizers can able to receive their Daily rewards automatically to their wallets based on contribution, where the rewards have to be collected manually within the 10 hours stipulated window, in which the uncollected coins will be sent to burn address automatically.\\
-
-
-\subsection{Developers (Contribution-based) - 10\%}
-
-10\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to development of the beta application which will be available as an open repository. To give rewards for developers' contribution to the decentralized platform and also to encourage developers by giving paid rewards to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of millions of developers working every day for a common goal of a powerful social communication platform.\\
-
-We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get voted by other developers for rewards. The votes will determine their rewards where the max voted contribution will receive more viral coins than the min voted contribution on the beta-software.The developers are the backbone of Viral. Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.\\
-
-Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 10\% of daily revenue. This will encourage autonomous development of superior technology where all hands matter. \\
-
-The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 10 hours every day.\\
 
 \subsection{Charity Contribution}
 
@@ -2528,32 +2531,21 @@ The cancellation and refunds window will be updated by the Influencer on every o
 
 \section{P2P Exchange}
 
-Nowadays people want cryptocurrencies without transaction fees, exchange fees, and also without KYC process in an anonymous way. But in order to buy cryptocurrencies on central exchanges using Fiat-Money, it is not possible without disclosing their personal information and identity cards for Anti-Money-Laundering purposes. Buying cryptocurrencies using fiat money is not possible on Decentralized Exchanges, since it is a platform to swap from one cryptocurrency to another cryptocurrency in a decentralized manner without any centralized order books.\\
-
+Nowadays people want cryptocurrencies without transaction fees, exchange fees, and also without KYC process in an anonymous way. But in order to buy on central exchanges using Fiat-Money, it is not possible without disclosing their personal information and identity cards for Anti-Money-Laundering purposes. Buying cryptocurrencies using fiat money is not possible on Decentralized Exchanges, since it is a platform to swap from one cryptocurrency to another cryptocurrency in a decentralized manner without any centralized order books.\\
 
 This is where P2P exchanges come in. Peer-to-peer refers to the exchange or sharing of information, data, or assets between parties without the involvement of a central authority. These P2P exchanges work on connecting two users who are willing to sell and buy cryptocurrencies for fiat currencies. Thereby making an agreement of holding the seller's cryptocurrencies in a smart contract until the buyer deposits the fiat-currency funds to the seller and gets confirmed.\\
 
-
-Advantages over Centralized
+\textbf{Advantages over Centralized}
 \begin{enumerate}[leftmargin=+0.2in]
 \item Peer-to-peer transactions generally do not require the involved parties to provide identification,  protecting everyone's right to privacy. 
 \item P2P exchanges allow the purchase of cryptocurrencies through the regional medium of exchange that the seller opts for (E.g. PayPal, Square, M-Pesa  etc). Viral offers P2P solutions to all countries' local payment methods for the users without any hassles.
 \end{enumerate}
 
+In Viral's P2P exchange either user can buy Viral Coin or sell it for their region’s fiat currency. \\
 
-How it Works\\
 
-In Viral's P2P exchange either user can buy Viral Coin or sell it for their region’s fiat currency. The steps are carried out where the buyer and seller with the same payment method and almost the same amount is matched automatically for the exchange to take place\\
 
-Flowchart\\
-
-Security\\
-
-Since Viral Coins opted for selling through P2P will be collected in a smart contract similar to an escrow account, it will be only released when the seller confirms the buyer’s transaction to their payment method. If there is any conflicts arise between both the buyer and seller, each one can opt for an issue request where the algorithm will take care of the process automatically by asking for proof of transaction from the user, thereby resolving the conflict.
-
-If the Transaction isn’t done on a certain ETA of fund transfer, the escrow amount will be released to the seller itself without any hassles. If the app is closed by mistake, the process will be running in the background where the user can hop into the page without any trouble. There will be a chat connection started for the seller and buyer to contact each other if there is any need to. This ensures a complete trustable environment on the contract, connection, and also the users who wish to exchange their assets.
-\\
-Indestructible\\
+This ensures a complete trustable environment on the contract, connection, and also the users who wish to exchange their assets.\\
 
 Our ultimate vision is to develop a decentralized social media without any central authority or a need for a company to run its product, a P2P Exchange will carry out its process of buying and selling Viral Coins for Fiat money. This ensures the trades cannot be banned nor withdrawn no matter what the land rules are.\\
 
