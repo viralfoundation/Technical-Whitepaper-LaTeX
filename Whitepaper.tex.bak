@@ -671,21 +671,25 @@ Decryption is classified into two categories
 
 \textbf{Private Account Media Decryption}\\
 
-Intro\\
-
-
-
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=8cm]{decryption-private}
-\caption{Decryption Media of Private account in Viral}
+\caption{Decrypting Media of Private account in Viral}
 \end{center}
 \end{figure}
 
+The Steps on Fetching Public Addresses of content view requester, verification, fetching IPFS CID, downloading and decrypting content is specified below
+\begin{itemize}[leftmargin=+0.2in]
+\item A Private Account will be limiting it's content access to certain white-listed users that is been approved/accepted by the admin user. Every Viral account shall have a public address which will be added to the white-listed users list.
+\item The Public address of the Requester shall be fetched and cross verified with the white-listed user list of the private account. Only the white=listed user will be able to unlock the private account.
+\item The meta data of the posts will be decrypted to the white-listed user and the user shall fetch the IPFS-CID and the secret-key of the encrypted file
+\item The file is downloaded and decrypted using the symmetric secret-key and the content is shown
+\end{itemize}
 
-Public Account Media Decryption\\
 
-$Detailed Explanation$\\
+\textbf{Public Account Media Decryption}\\
+
+Viral ensures that all the content in the social application is securely encrypted compared to current poorly encrypted social media platforms that takes a stealthy look on to people's content even if the account is configured as private. While Public accounts are not encrypted, the storage of files is done centralized on the entity's server farms. Viral is a decentralized social media service that allows anyone to contribute as a storage node and receive rewards in return for the contribution towards the network. This positively puts a violation of storing individual/organizations data which can be used for multiple exploitation attempts due to the growing adoption on big data, machine learning, artificial intelligence, etc.  Neverhtless Viral needs to encrypt public accounts data/content in the most secure manner for nodes to collectively host as a decentralized open network and also providing trust and security to users data.
 
 \begin{figure}[H]
 \begin{center}
@@ -1532,7 +1536,7 @@ There are various factors a user can opt to get the best price possible. A trade
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=\textwidth]{dex-algorithm}
+\includegraphics[width=8cm]{dex-algorithm}
 \caption{Automated Algorithm for better price among swap orders}
 \end{center}
 \end{figure}
@@ -2308,16 +2312,22 @@ User\:Percentage(U_p)=\frac{10,000}{1,000,000,000} \times 100 = 0.001\%
 User\:Rewards(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL
 \end{equation}
 \begin{equation}
-User\:Rewards(BTC)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL
+User\:Rewards(BTC)=\frac{500 \times 0.001}{100} = 0.005\:BTC
 \end{equation}
 \begin{equation}
-User\:Rewards(ETH)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL
+User\:Rewards(ETH)=\frac{700 \times 0.001}{100} = 0.007\:ETH
 \end{equation}
 \begin{equation}
-User\:Rewards(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL
+User\:Rewards(SOL)=\frac{1200 \times 0.001}{100} = 0.012\:SOL
 \end{equation}
 Output:\\
-User Reward : 6.8601669248 VRL\\
+
+User Percentage of Rewards : 0.001\%\\
+User Reward : \\
+0.8 VRL \\
+0.005 BTC \\
+0.007 ETH \\
+0.012 SOL\\
 
 
 The reward allocation and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 15 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be sent to burn pool after the stipulated time period finishes. This creates a daily deflationary effect to the Viral Coin that will benefit other wallet users who hold Viral Coins.\\
@@ -2328,7 +2338,7 @@ The reward allocation and analysis of coins for each User(Views-Based) will be d
 
 This ensures rapid results in removing explicit content in a relatively short time without any hassles. In short, ROV is a decentralized autonomous organization to maintain Viral's media contents at its best. The curators will be rewarded by Viral Coins for their contribution to the network.\\
 
-\textbf{Advantages of ROV over Centralized Organization}\\
+\textbf{Advantages of ROV over Centralized Organization}
 \begin{enumerate}[leftmargin=+0.2in]
 \item Faster content removals
 \item The decision of a single organization/person will be eliminated
@@ -2341,7 +2351,7 @@ This ensures rapid results in removing explicit content in a relatively short ti
 
 The segregation will be done at 2 AM UTC where the curator's Plus points for the day will be taken and the percentage of rewards will be determined using it. For every vote and every positive contribution they make the points will be increased in the ROV Profile where the curators will get their fair share of rewards considering the total points collected by all curators in 24 hours similar to the segregation algorithm of Users Views-based.\\
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \caption{Flowchart}
 \end{center}

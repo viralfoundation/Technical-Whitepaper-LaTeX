@@ -27,12 +27,12 @@
 \contentsline {subsection}{\numberline {8.7}Token Ecosystem}{27}{subsection.8.7}%
 \contentsline {subsubsection}{\numberline {8.7.1}Viral Coin - Native Token}{27}{subsubsection.8.7.1}%
 \contentsline {subsubsection}{\numberline {8.7.2}Viral Stable Coin}{27}{subsubsection.8.7.2}%
-\contentsline {subsubsection}{\numberline {8.7.3}Wrapped Tokens}{28}{subsubsection.8.7.3}%
+\contentsline {subsubsection}{\numberline {8.7.3}Wrapped Tokens}{29}{subsubsection.8.7.3}%
 \contentsline {section}{\numberline {9}Smart Wallet}{29}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Viral Decentralized Exchanges}{30}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Viral Fiat-Exchange}{49}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Custodian Services}{54}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Other Wallet Features}{54}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.2}Viral Fiat-Exchange}{50}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Custodian Services}{55}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Other Wallet Features}{55}{subsection.9.4}%
 \contentsline {section}{\numberline {10}Child Platforms}{55}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Content Moderation Platform}{55}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Developer Platform}{61}{subsection.10.2}%
