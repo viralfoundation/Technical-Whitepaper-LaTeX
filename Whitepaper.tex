@@ -661,14 +661,19 @@ The steps for Encryption, Media Uploading, IPFS Pinning, Cluster Repetition, Pos
 	}
 \end{lstlisting}
 
-
-
-
 \textbf{Decryption}\\
 
-Private Account Media Decryption\\
+Decryption is classified into two categories
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Private Account Media Decryption} : Decrypting Private Media which can be only accessed by white-listed user approved followers with maximum privacy and security
+\item \textbf{Public Account Media Decryption} : Decrypting Public Media which can be accessed by anyone instantly by openly allowing users to fetch the secret keys.
+\end{enumerate}
 
-$Detailed Explanation$\\
+\textbf{Private Account Media Decryption}\\
+
+Intro\\
+
+
 
 \begin{figure}[H]
 \begin{center}
@@ -1563,7 +1568,7 @@ Reserve Pools are smart contract accounts that is maintained by the trading pair
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{reserve-pool-1}
+\includegraphics[width=13cm]{reserve-pool-1}
 \caption{Initial Creation of Pools}
 \end{center}
 \end{figure}
@@ -1576,7 +1581,7 @@ Limit Equation For Number Of Dex Chains = Pool Shards Configurations
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{reserve-pool-2}
+\includegraphics[width=13cm]{reserve-pool-2}
 \caption{Freezing Liquidity when trading volume decreases}
 \end{center}
 \end{figure}
@@ -1592,7 +1597,7 @@ Pools will withdraw tokens in to its reserve pool on request. The withdrawal rat
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{reserve-pool-3}
+\includegraphics[width=13cm]{reserve-pool-3}
 \caption{Releasing Liquidity (ratio of C.P) when trading volume increases}
 \end{center}
 \end{figure}
@@ -1610,7 +1615,7 @@ Viral DEX subtracts a swap fee on every swap order executed. There are two types
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=8cm]{dex-fee}
+\includegraphics[width=9cm]{dex-fee}
 \caption{Fee Structure}
 \end{center}
 \end{figure}
@@ -1672,11 +1677,10 @@ Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micr
 \end{center}
 \end{figure}
 
-When an LP withdraws his/her funds the funds will be distributed according to his percentage of pools
-
+When an LP withdraws their funds th will be distributed according to his percentage of pools
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{reserve-pool-4}
+\includegraphics[width=13cm]{reserve-pool-4}
 \caption{Liquidity Provider withdrawal of Funds from all reserves}
 \end{center}
 \end{figure}
@@ -2141,24 +2145,9 @@ Viral will provide a web application where developers can join, interact in deve
 
 \section{Global Reward Pool}
 
-Viral Rewards are daily rewards airdropped to every user on the decentralized platform who contributes towards running the platform. It includes Users, Social Nodes, ROV Users, and Developers. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in form of Viral Coins for all the users who contribute to running the platform.\\
+Viral Rewards are daily rewards allocated to every user on the decentralized platform who contributes towards running the platform. It includes Users, Miners, Volunteers, and DAO Members. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in Viral tokens and Wrapped tokens of popular cryptocurrencies such as Bitcoin, Ethereum, Solana, etc for all the users who contribute towards running the social and multi-chain platform.\\
 
-This includes
-\begin{enumerate}[leftmargin=+0.2in]
-\item App Users
-\item ROV Curators
-\item Social Nodes
-\item Developers
-\end{enumerate}
-
-\begin{figure}[H]
-\begin{center}
-\caption{Daily Reward Off-Chain}
-\end{center}
-\end{figure}
-
-
-The Reward allocation for each user happens through automated smart contracts every day at 2 AM UTC. Viral Rewards are designed in such a way that every single contributor inside the network will get paid for their contribution through a democratic voting system and mathematically predicted points. These points prediction program will offf-chain real-time and transfers oracle data through chainlink in a secured tamper-resistant manner to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. For App users it would be according to the percentage of impressions they recieve on their content, for ROV curators it will be total Plus Points they add for their votes, for Social Nodes it will be based on their total contribution per day, for Developers it will be based on voting by other developers, by which the contribution will be rewarded by its own community-driven platform.\\
+The Reward allocation for each user happens through automated smart contracts every day at 2 AM UTC. Viral Rewards are designed in such a way that every single contributor inside the network will get paid for their contribution through a either democratic voting system or mathematically predicted points. These points prediction program will be calculated from off-chain real-time data through decentralized tamper-proof oracles in a secure  manner to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. 
 
 The 100\% percent of total daily revenue is distributed as \\
 \begin{figure}[H]
@@ -2168,17 +2157,31 @@ The 100\% percent of total daily revenue is distributed as \\
 \end{center}
 \end{figure}
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=10cm]{revenue-distribution}
-\caption{Total Distribution of Funds excluding burn}
-\end{center}
-\end{figure}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Blockchain Miners} : For Viral Multi-Chain Validators according to total gas received per validator.
+\item \textbf{DAG Miners} : For Tangle Full Nodes that stores \& mine transactions.
+\item \textbf{Social Miners} : Nodes running relay servers of various decentralized tech-stack runs on Viral Social Application
+\item \textbf{IPFS Miners} : Storage IPFS Public \& Private Cluster nodes.
+\item \textbf{Social Users} : For Social Application users according to their daily impression on their media content.
+\item \textbf{Developers} : Allocated for Viral Open Source Developers
+\item \textbf{Bounties} : Rewards for developers who can improve the protocols by detecting major flaws and loopholes in the operating protocols.
+\item \textbf{ROV} : Content Moderation community rewards according to their plus votes received for won polls.
+\item \textbf{Burn} : Portion of the pool allocated to swap tokens to Viral Coin and sending it to a burn address where the supply will be removed.
+\item \textbf{DAO} : Allocation for governing, maintenance and operation of the decentralized viral applications.
+
+\end{enumerate} 
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{burn-chart}
 \caption{Burn percentage from Global Reward Pool}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{revenue-distribution}
+\caption{Total Distribution of Funds excluding burn}
 \end{center}
 \end{figure}
 
@@ -2208,13 +2211,11 @@ pie
     "Burn - 10% " : 10
     "DAO - 14% " : 14    
   
- 
-
 \end{comment}
 
-\subsection{Users (Impression-based) - 10\%}
+\subsection{Social Users (Impression-based) - 31\%}
 
-30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
+31\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
 
 \textbf{Advantages}\\
 
@@ -2239,7 +2240,10 @@ User\:Rewards(x)=\frac{Total\:Rewards(T) \times User\:Reward\:Percentage(U_p)}{1
 \end{equation}\\
 
 \begin{lstlisting}[language=Solidity, caption={User Reward Contract}, numbers=none]
+
+
 // SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts@4.5.0/token/ERC20/ERC20.sol";
@@ -2289,26 +2293,40 @@ contract Reward is Ownable, Pausable {
 }
 \end{lstlisting}
 
+
 \textbf{Example User-Reward}\\
 
 Input:\\
-User Impression = 34,533\\
-Global Impression = 451,983,946\\
-Total Reward = 89,789 VRL\\
+User Impression = 10,000\\
+Global Impression = 1,000,000,000\\
+Total Reward = 80,000 VRL, 500 BTC, 700 ETH, 1200 SOL \\
 
 \begin{equation}
-User\:Percentage(U_p)=\frac{34533}{451,983,946} \times 100 = 0.00764032\%
+User\:Percentage(U_p)=\frac{10,000}{1,000,000,000} \times 100 = 0.001\%
 \end{equation}
 \begin{equation}
-User\:Rewards(x)=\frac{89789 \times 0.00764032}{100} = 6.8601669248\:VRL
+User\:Rewards(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL
+\end{equation}
+\begin{equation}
+User\:Rewards(BTC)=\frac{500 \times 0.001}{100} = 0.005\:BTC
+\end{equation}
+\begin{equation}
+User\:Rewards(ETH)=\frac{700 \times 0.001}{100} = 0.007\:ETH
+\end{equation}
+\begin{equation}
+User\:Rewards(SOL)=\frac{1200 \times 0.001}{100} = 0.012\:SOL
 \end{equation}
 Output:\\
-User Reward : 6.8601669248 VRL\\
+
+User Percentage of Rewards : 0.001\%\\
+User Reward : \\
+0.8 VRL \\
+0.005 BTC \\
+0.007 ETH \\
+0.012 SOL\\
 
 
-The reward allocation and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 13 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be burned. This creates a daily deflationary effect to the Viral Coin that will benefit other wallet users who hold Viral Coins.\\
-
-If the user opts for transferring the rewards to a Non-Profit-Organizations it can be easily transferred directly to the user's preferred Charity. Viral will have a registration portal for Charities to Register their information and get verified to appear on the Application's Wallet. 
+The reward allocation and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 15 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be sent to burn pool after the stipulated time period finishes. This creates a daily deflationary effect to the Viral Coin that will benefit other wallet users who hold Viral Coins.\\
 
 \subsection{ROV (Contribution-based) - 10\%}
 
@@ -2329,7 +2347,7 @@ This ensures rapid results in removing explicit content in a relatively short ti
 
 The segregation will be done at 2 AM UTC where the curator's Plus points for the day will be taken and the percentage of rewards will be determined using it. For every vote and every positive contribution they make the points will be increased in the ROV Profile where the curators will get their fair share of rewards considering the total points collected by all curators in 24 hours similar to the segregation algorithm of Users Views-based.\\
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \caption{Flowchart}
 \end{center}
@@ -2366,6 +2384,10 @@ We will be linking developers' GitHub and viral accounts in a separate ROV-Dev A
 Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 10\% of daily revenue. This will encourage autonomous development of superior technology where all hands matter. \\
 
 The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 10 hours every day.\\
+
+\subsection{Charity Contribution}
+
+If the user opts for transferring the rewards to a Non-Profit-Organizations it can be easily transferred directly to the user's preferred Charity. Viral will have a registration portal for Charities to Register their information and get verified to appear on the Application's Wallet.\\ 
 
 \section{Governance \& Viral DAO}
 
@@ -2436,37 +2458,11 @@ Phase 1 - Beta Launch, Alpha Launch
 Phase 2 - External Upgrades\\
 Phase 3 - Internal Upgrades\\
 
-\section{Phase 2}
+\section{Viral DAO Platform and ICO}
 
-\subsection{NFT L2 Solution}
+\section{Viral Decentralized Ads}
 
-\subsection{Payment Channels - State Channels}
-
-Off-chain transactions refer to those transactions occurring on a cryptocurrency network that move the value outside of the blockchain. Due to their zero/low cost, off-chain transactions are gaining popularity, especially among large participants. Off-chain transactions can be contrasted with on-chain transactions.\\
-
-\textbf{Advantages over On-Chain Transactions}\\
-\begin{enumerate}[leftmargin=+0.2in]
-\item Payments/Transactions can execute instantly. The transaction throughput per second will linearly increase by the number of users which can scale upto tens of thousands per second.
-\item Off-chain transactions doesn’t require a native token's transaction fee since everything occurs outside the blockchain and can be collected in commissions agnostic to the transferring tokens.
-\item It is the most secure and anonymous way to send micropayments for day-to-day transactions wher the details of the transactions will not be broadcasted to the blockchain.
-\item Some popular Off-Chain Networks are Bitcoin’s Lightning Network, Ethereum’s Liquidity Network, Raiden Network
-\end{enumerate}
-
-\textbf{Viral Lightning Payments}\\
-
-Our foremost vision is to bring usability of Viral Coin for daily life transactions prior to other cryptocurrencies such as Bitcoin, Ethereum, etc. This can be achieved by marketing use cases to the Viral Coin on Lightning Payments for micro-transactions  (Eg: Buying a coffee, paying for a taxi ride). Since On-Chain transactions are expensive and require consensus (to validate each transaction among all the nodes on the blockchain), Off-Chain transactions is the better approach for Viral Users. Since our market is dependent on retail and micro-transactions usage Viral Application focusses heavily on Off-Chain micro-transactions rather than On-chain.\\
-
-All Viral Users State Channels\\
-Flowchart for making a state channel\\
-Fees\\
-Routing Nodes\\
-Study other Whitepapers\\
-
-\subsection{Viral DAO Platform and ICO}
-
-\subsection{Viral Decentralized Ads}
-
-\subsection{Influencer-Ad Platform}
+\section{Influencer-Ad Platform}
 
 Story\\
 
@@ -2526,7 +2522,7 @@ Cancellation and Refund\\
 The cancellation and refunds window will be updated by the Influencer on every of their gig where if the Buyer cancels and apply for a refund before the certain hour of posting the picture, the smart contract will refund the exact amount paid to the buyer’s wallet. After the refund window, the smart contract will not refund the buyer. \\
 
 
-\subsection{P2P Exchange}
+\section{P2P Exchange}
 
 Nowadays people want cryptocurrencies without transaction fees, exchange fees, and also without KYC process in an anonymous way. But in order to buy cryptocurrencies on central exchanges using Fiat-Money, it is not possible without disclosing their personal information and identity cards for Anti-Money-Laundering purposes. Buying cryptocurrencies using fiat money is not possible on Decentralized Exchanges, since it is a platform to swap from one cryptocurrency to another cryptocurrency in a decentralized manner without any centralized order books.\\
 
@@ -2557,9 +2553,9 @@ Indestructible\\
 
 Our ultimate vision is to develop a decentralized social media without any central authority or a need for a company to run its product, a P2P Exchange will carry out its process of buying and selling Viral Coins for Fiat money. This ensures the trades cannot be banned nor withdrawn no matter what the land rules are.\\
 
-\subsection{Addition of Popular De-Fi Platforms}
+\section{Addition of Popular De-Fi Platforms}
 
-\subsection{Business-Wallet API and SDK}
+\section{Business-Wallet API and SDK}
 
 \section{Future Plans}
 
