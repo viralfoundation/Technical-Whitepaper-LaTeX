@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  22 MAR 2022 19:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  23 MAR 2022 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3404,64 +3404,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 2540--2541
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2548--2549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2550--2551
+
+ []
+
 <./assets/images//p2p-sell.jpg, id=1097, 2178.1375pt x 2958.05125pt>
 File: ./assets/images//p2p-sell.jpg Graphic file (type jpg)
 <use ./assets/images//p2p-sell.jpg>
-Package pdftex.def Info: ./assets/images//p2p-sell.jpg  used on input line 2552
+Package pdftex.def Info: ./assets/images//p2p-sell.jpg  used on input line 2555
 .
-(pdftex.def)             Requested size: 170.71652pt x 231.81937pt.
+(pdftex.def)             Requested size: 199.16928pt x 270.45593pt.
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2556.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2559.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2556.
+Package xcolor Warning: Incompatible color definition on input line 2559.
 
 [72]
-<./assets/images//p2p-buy.jpg, id=1104, 1904.11375pt x 4243.855pt>
-File: ./assets/images//p2p-buy.jpg Graphic file (type jpg)
-<use ./assets/images//p2p-buy.jpg>
-Package pdftex.def Info: ./assets/images//p2p-buy.jpg  used on input line 2561.
+Underfull \hbox (badness 10000) in paragraph at lines 2575--2576
 
-(pdftex.def)             Requested size: 170.71652pt x 380.44109pt.
-File: ./assets/images//logo.png Graphic file (type png)
-<use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2565.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ []
 
 
-Package xcolor Warning: Incompatible color definition on input line 2565.
+Underfull \hbox (badness 10000) in paragraph at lines 2577--2578
 
-[73 <./assets/images//p2p-sell.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2567--2568
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2579--2580
 
  []
 
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2623.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2580.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2623.
+Package xcolor Warning: Incompatible color definition on input line 2580.
+
+[73 <./assets/images//p2p-sell.jpg>]
+<./assets/images//p2p-buy.jpg, id=1122, 1904.11375pt x 4243.855pt>
+File: ./assets/images//p2p-buy.jpg Graphic file (type jpg)
+<use ./assets/images//p2p-buy.jpg>
+Package pdftex.def Info: ./assets/images//p2p-buy.jpg  used on input line 2583.
+
+(pdftex.def)             Requested size: 170.71652pt x 380.44109pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2588--2589
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2644.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+Package xcolor Warning: Incompatible color definition on input line 2644.
 
 [74 <./assets/images//p2p-buy.jpg>]
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2623.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2644.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 2623.
+Package xcolor Warning: Incompatible color definition on input line 2644.
 
 [75] (./Whitepaper.aux)
 Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
 (rerunfilecheck)             Checksum: 23CF6E24D167DFADF96A725B4693B5B5;10693.
  ) 
 Here is how much of TeX's memory you used:
- 39065 strings out of 478994
- 825111 string characters out of 5858184
+ 39078 strings out of 478994
+ 825292 string characters out of 5858184
  1453591 words of memory out of 5000000
- 55481 multiletter control sequences out of 15000+600000
+ 55482 multiletter control sequences out of 15000+600000
  409650 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  155i,14n,146p,1614b,2629s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3525,10 +3549,10 @@ ist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/
 fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (75 pages, 6271053 bytes).
+Output written on Whitepaper.pdf (75 pages, 6273358 bytes).
 PDF statistics:
- 1307 PDF objects out of 1440 (max. 8388607)
- 1157 compressed objects within 12 object streams
- 521 named destinations out of 1000 (max. 500000)
+ 1321 PDF objects out of 1440 (max. 8388607)
+ 1171 compressed objects within 12 object streams
+ 533 named destinations out of 1000 (max. 500000)
  681 words of extra memory for PDF output out of 10000 (max. 10000000)
 

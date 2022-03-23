@@ -2545,7 +2545,10 @@ This is where P2P exchanges come in. Peer-to-peer refers to the exchange or shar
 \item P2P exchanges allow the purchase of cryptocurrencies through the regional medium of exchange that the seller opts for (E.g. PayPal, Square, M-Pesa  etc). Viral offers P2P solutions to all countries' local payment methods for the users without any hassles.
 \end{enumerate}
 
-\textbf{Sellers}
+\textbf{P2P for Sellers}\\
+
+Seller listing will be initiated by the token seller. The tokens are allocated on a escrow smart contract that will be holding the funds which can be only withdrawn in the account of closing the listing. Non-sensitive information such as City, State, Country shall be provided upon listing which is preferred by buyers for smooth trade of tokens offline. The Regional Payment Methods are selected and the listing is created. The listing consists of Token name, Tokens amount, Payment methods and City.\\
+
 
 \begin{figure}[H]
 \begin{center}
@@ -2554,7 +2557,26 @@ This is where P2P exchanges come in. Peer-to-peer refers to the exchange or shar
 \end{center}
 \end{figure}
 
-\textbf{Buyers}
+\begin{lstlisting}[caption={Token Sale Listing}, numbers=none]
+
+	listing id: 02698 {
+	
+    	"token-id": "vrl",
+   		"token-ticker": "VRL",
+    	"token-amount": "7289.375",
+    	"city" : "Los Angeles"
+    	"state" : "California"
+    	"escrow-contract-id" : "vy89xfwieug2t8793br9hd2by2dfg"
+    	
+	}
+\end{lstlisting}
+
+
+\textbf{P2P for Buyers}\\
+
+Users can buy tokens in a secured anonymous manner by connecting with sellers using the P2P Viral Exchange. The Location shall be provided by the buyer to list all the potential seller listing that can be selected upon confirmation by the buyer. The buyer will be immediately connected with the seller by initiating a chat. All the sell listing on the Viral P2P exchange are verified by the escrow smart contract balance which will hold exact value/balance of the listing which offeres a trustless solution for the buyer. After the chat is connected, the seller and buyer shall communicate with each other and provide locations to visit in person or to agree on terms for ssmoother trade without conflicts. \\
+
+The Buyer enters the amount of tokens he would like to buy and the current market price is fetched for the buyer. After the buyers sends the fiat payment, the buyer shall confirm his/her payment. The Seller refers the fiat payment and confirms it. After the confirmation from both parties the contract is revoked and the specified amount of tokens will be sent directly to the buyer's Viral wallet.\\
 
 \begin{figure}[H]
 \begin{center}
@@ -2562,7 +2584,6 @@ This is where P2P exchanges come in. Peer-to-peer refers to the exchange or shar
 \caption{Selling Tokens via P2P}
 \end{center}
 \end{figure}
-
 
 Our ultimate vision is to develop a decentralized social media without any central authority or a need for a company to run its product, a P2P Exchange will carry out its process of buying and selling Viral Coins for Fiat money. This ensures the trades cannot be banned nor withdrawn no matter what the land rules are.\\
 
