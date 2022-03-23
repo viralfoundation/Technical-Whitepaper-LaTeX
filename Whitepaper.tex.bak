@@ -705,13 +705,14 @@ The process of decrypting a public account post is done by maintaining a real-ti
 
 For Chat-based encryption, Viral uses \textbf{public and private key} encryption method. There are no centralized cloud-based servers involved in storing messages which can potentially trigger breaches. Every single message is encrypted and can be only decrypted by the receiver.\\
 
-Public-Private key encryption more secure than a single shared key which is utilized in multiple chat platforms.\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=9cm]{chat}
+\caption{Asymmetric Chat Encryption}
+\end{center}
+\end{figure}
 
-$Visual Representation$\\
-
-Alice writes and Hello and to Bob – Bob Receives an encrypted message - Bob decrypts using his private key – Bob Sees and Hello from Alice
-
-\hyperlink{https://sample.com}{GunDB Explanatory Video}\\
+External Links : \hyperlink{https://youtu.be/-SiLnaSDkh4}{GunDB Explanatory Video}\\
 
 \textbf{3. Interests of User}\\
 
@@ -2480,7 +2481,7 @@ Viral Influencer Ad-Platform is a Gig-based marketplace where Content creators c
 \item Find Influencers based on Filters
 \item Check all the gigs available
 \item Request a custom gig and receive a quotation
-\item Pay using Viral Coins
+\item Pay using Multiple Coins
 \item Check all statistics of your running Ad
 \end{itemize}
 
