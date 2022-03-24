@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  24 MAR 2022 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  24 MAR 2022 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,14 +1145,14 @@ e
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Whitepaper.toc
-<./assets/images//logo.png, id=330, 174.6525pt x 176.66pt>
+<./assets/images//logo.png, id=331, 174.6525pt x 176.66pt>
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 41.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 42.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 41.
+Package xcolor Warning: Incompatible color definition on input line 42.
 
 [2 <./assets/images//logo.png>])
 \tf@toc=\write7
@@ -1208,11 +1208,11 @@ Package xcolor Warning: Incompatible color definition on input line 220.
 [5]
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 271.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 270.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 271.
+Package xcolor Warning: Incompatible color definition on input line 270.
 
 [6]
 Underfull \hbox (badness 10000) in paragraph at lines 282--283
@@ -3106,19 +3106,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2156--2157
 
  []
 
-File: ./assets/images//logo.png Graphic file (type png)
-<use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2169.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2169.
-
-[63]
 Underfull \hbox (badness 10000) in paragraph at lines 2172--2173
 
  []
 
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2175.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
+Package xcolor Warning: Incompatible color definition on input line 2175.
+
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 2175--2176
 
  []
@@ -3484,13 +3484,13 @@ Package xcolor Warning: Incompatible color definition on input line 2697.
 
 [76] (./Whitepaper.aux)
 Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
-(rerunfilecheck)             Checksum: 1DC1F12023083D71173A59D58E49BB13;11236.
+(rerunfilecheck)             Checksum: FAC283580682DA5D68C48DF4E3917EBE;11361.
  ) 
 Here is how much of TeX's memory you used:
- 39099 strings out of 478994
- 825652 string characters out of 5858184
- 1442664 words of memory out of 5000000
- 55493 multiletter control sequences out of 15000+600000
+ 39101 strings out of 478994
+ 825731 string characters out of 5858184
+ 1442661 words of memory out of 5000000
+ 55495 multiletter control sequences out of 15000+600000
  409650 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  155i,14n,146p,1614b,2629s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3557,7 +3557,7 @@ ist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/
 fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (76 pages, 6752146 bytes).
+Output written on Whitepaper.pdf (76 pages, 6753369 bytes).
 PDF statistics:
  1351 PDF objects out of 1440 (max. 8388607)
  1198 compressed objects within 12 object streams

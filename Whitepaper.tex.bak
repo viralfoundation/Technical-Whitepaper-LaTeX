@@ -179,7 +179,7 @@ External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
           child { node    {Horizontal Chains} }
         }
         child [concept color=teal!10, rotate=-20]{
-          node     {Smart Wallet}
+          node     {Viral Pay - MultiToken Smart Wallet}
           child { node    {Viral CEX} }
           child { node    {Viral DEX} }
           child { node    {P2P Exchange} }
@@ -225,7 +225,7 @@ External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
 
 \end{enumerate}
 
-\item \textbf{Smart Wallet}: Viral\textsc{\char13}s App\textsc{\char13}s built in Non-Custodial Viral Smart Chain compatible hot wallet that allows user to send and hold tokens, mint NFTs and receive rewards.
+\item \textbf{Viral Pay - Multi-Token Smart Wallet}: Viral\textsc{\char13}s App\textsc{\char13}s built in Non-Custodial Viral Smart Chain compatible hot wallet that allows user to send and hold tokens, mint NFTs and receive rewards.
 
 \begin{enumerate}
 
@@ -969,7 +969,7 @@ Conclusion\\
 Hence Users can invest in Bitcoin and other popular cryptocurrencies if they want to, without any hassles of other wallet applications or other blockchain wallets.
 
 
-\section{Smart Wallet}
+\section{Viral Pay - Smart Wallet}
 
 From early days of bitcoin, crypto wallets serves the one-stop solution to hold and transfer cryptocurrencies through an easy user experience model. There is so much to crypto wallets other than holding coin. Wallets can send, receive digital money, store NFT collectibles, connects to exchanges and a lot more to be integrated in the upcoming future, probably your one account hub for everything in the internet. In,short wallet applications are a place to store your cryptocurrencies securely. 
 
@@ -1884,7 +1884,7 @@ Fiat-Tag Tokens are burned upon Cash Out request from the KYC User to the corres
 
 \subsection{Custodian Services}
 
-\section{Business-Wallet API and SDK}
+\subsection{Business-Wallet API and SDK}
 
 \subsection{Other Wallet Features}
 
@@ -2111,9 +2111,9 @@ Viral will provide a web application where developers can join, interact in deve
 \item Add New Projects to Dev-Space by providing a whitepaper
 \end{itemize}
 
-\section{Viral Decentralized Ads}
+\subsection{Viral Decentralized Ads}
 
-\section{Influencer-Ad Platform}
+\subsection{Influencer-Ad Platform}
 
 Mainstream modern-advertisement focusses on targeting social media users by running campaigns collaborating between brand and influencers. It takes the idea of celebrity endorsement and places it into a modern-day content-driven marketing campaign. This type of marketing doesn't only involves celebrities but popular content creators who have an enthusiastic audience. Influencers can be anyone anywhere but what separates them from a amateur creators is their large following. Some will have hundreds of thousands, some even millions, brands do care their reputation build around the specific industry that they are looking for i.e, Fashion, Comedy, Sports. They are the people who make engaging contents, share the best pictures, entertain their viewers, run exciting discussions across social platforms on their own specialized topics. From a smaller market size of \$1.6 billion in 2016 it rose to a figure of \$13.8 billion industry in which for every \$1 spent businesses receive purchases worth \$5.78 from all over the world giving an ROI (Return of Investment) of 500\%. About 1360+ Influencer marketing focused platforms and agencies entered the market in the last 5 years alone.\\
 
@@ -2175,7 +2175,7 @@ Cancellation and Refund\\
 The cancellation and refunds window will be updated by the Influencer on every of their gig where if the Buyer cancels and apply for a refund before the certain hour of posting the picture, the smart contract will refund the exact amount paid to the buyer’s wallet. After the refund window, the smart contract will not refund the buyer. \\
 
 
-\section{P2P Exchange}
+\subsection{P2P Exchange}
 
 Nowadays people want cryptocurrencies without transaction fees, exchange fees, and also without KYC process in an anonymous way. But in order to buy on central exchanges using Fiat-Money, it is not possible without disclosing their personal information and identity cards for Anti-Money-Laundering purposes. Buying cryptocurrencies using fiat money is not possible on Decentralized Exchanges, since it is a platform to swap from one cryptocurrency to another cryptocurrency in a decentralized manner without any centralized order books.\\
 
@@ -2594,13 +2594,13 @@ pie
 \textbf{Intro to Token}\\
 
 
-Deflationary\\
+\textbf{Deflationary}\\
 
 
-Utility Cases\\
+\textbf{Utility Cases}\\
 
 
-Price Predictions\\
+\textbf{Price Predictions}\\
 
 
 \subsection{Token Distribution \& Why}
