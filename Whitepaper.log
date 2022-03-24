@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  24 MAR 2022 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  24 MAR 2022 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,7 +1145,7 @@ e
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Whitepaper.toc
-<./assets/images//logo.png, id=318, 174.6525pt x 176.66pt>
+<./assets/images//logo.png, id=330, 174.6525pt x 176.66pt>
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
 Package pdftex.def Info: ./assets/images//logo.png  used on input line 41.
@@ -1445,7 +1445,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
 
-<./assets/images//tips.jpeg, id=529, 1444.39626pt x 833.1125pt>
+<./assets/images//tips.jpeg, id=544, 1444.39626pt x 833.1125pt>
 File: ./assets/images//tips.jpeg Graphic file (type jpg)
 <use ./assets/images//tips.jpeg>
 Package pdftex.def Info: ./assets/images//tips.jpeg  used on input line 496.
@@ -1472,7 +1472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
  []
 
-<./assets/images//privacygroups.jpeg, id=535, 912.40875pt x 140.525pt>
+<./assets/images//privacygroups.jpeg, id=550, 912.40875pt x 140.525pt>
 File: ./assets/images//privacygroups.jpeg Graphic file (type jpg)
 <use ./assets/images//privacygroups.jpeg>
 Package pdftex.def Info: ./assets/images//privacygroups.jpeg  used on input lin
@@ -1537,7 +1537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 616--617
 
  []
 
-<./assets/images//aes.png, id=565, 3222.0375pt x 1375.1375pt>
+<./assets/images//aes.png, id=581, 3222.0375pt x 1375.1375pt>
 File: ./assets/images//aes.png Graphic file (type png)
 <use ./assets/images//aes.png>
 Package pdftex.def Info: ./assets/images//aes.png  used on input line 620.
@@ -1564,7 +1564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 635--636
 
  []
 
-<./assets/images//encryption.jpg, id=577, 3239.10126pt x 4096.30376pt>
+<./assets/images//encryption.jpg, id=592, 3239.10126pt x 4096.30376pt>
 File: ./assets/images//encryption.jpg Graphic file (type jpg)
 <use ./assets/images//encryption.jpg>
 Package pdftex.def Info: ./assets/images//encryption.jpg  used on input line 64
@@ -1602,7 +1602,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 675--676
 
  []
 
-<./assets/images//decryption-private.jpg, id=590, 3744.99126pt x 5979.33875pt>
+<./assets/images//decryption-private.jpg, id=605, 3744.99126pt x 5979.33875pt>
 File: ./assets/images//decryption-private.jpg Graphic file (type jpg)
 <use ./assets/images//decryption-private.jpg>
 Package pdftex.def Info: ./assets/images//decryption-private.jpg  used on input
@@ -1628,7 +1628,7 @@ Package pdftex.def Info: ./assets/images//logo.png  used on input line 696.
 Package xcolor Warning: Incompatible color definition on input line 696.
 
 [19 <./assets/images//decryption-private.jpg>]
-<./assets/images//decryption-public.jpg, id=612, 2824.5525pt x 4812.98125pt>
+<./assets/images//decryption-public.jpg, id=627, 2824.5525pt x 4812.98125pt>
 File: ./assets/images//decryption-public.jpg Graphic file (type jpg)
 <use ./assets/images//decryption-public.jpg>
 Package pdftex.def Info: ./assets/images//decryption-public.jpg  used on input 
@@ -1656,7 +1656,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 709--710
 
  []
 
-<./assets/images//chat.jpg, id=618, 4004.9625pt x 1890.06125pt>
+<./assets/images//chat.jpg, id=633, 4004.9625pt x 1890.06125pt>
 File: ./assets/images//chat.jpg Graphic file (type jpg)
 <use ./assets/images//chat.jpg>
 Package pdftex.def Info: ./assets/images//chat.jpg  used on input line 713.
@@ -1793,7 +1793,7 @@ Package pdftex.def Info: ./assets/images//logo.png  used on input line 785.
 Package xcolor Warning: Incompatible color definition on input line 785.
 
 [23]
-<./assets/images//Architecture.jpg, id=639, 2825.55624pt x 2444.13126pt>
+<./assets/images//Architecture.jpg, id=654, 2825.55624pt x 2444.13126pt>
 File: ./assets/images//Architecture.jpg Graphic file (type jpg)
 <use ./assets/images//Architecture.jpg>
 Package pdftex.def Info: ./assets/images//Architecture.jpg  used on input line 
@@ -2177,7 +2177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1138--1139
 
  []
 
-<./assets/images//dex.png, id=746, 558.085pt x 556.0775pt>
+<./assets/images//dex.png, id=761, 558.085pt x 556.0775pt>
 File: ./assets/images//dex.png Graphic file (type png)
 <use ./assets/images//dex.png>
 Package pdftex.def Info: ./assets/images//dex.png  used on input line 1142.
@@ -2426,7 +2426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1498--1499
 
  []
 
-<./assets/images//timeperiod-pools.jpg, id=802, 4173.5925pt x 1728.4575pt>
+<./assets/images//timeperiod-pools.jpg, id=818, 4173.5925pt x 1728.4575pt>
 File: ./assets/images//timeperiod-pools.jpg Graphic file (type jpg)
 <use ./assets/images//timeperiod-pools.jpg>
 Package pdftex.def Info: ./assets/images//timeperiod-pools.jpg  used on input l
@@ -2454,7 +2454,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1532--1533
 
  []
 
-<./assets/images//dex-algorithm.jpg, id=808, 4110.35625pt x 5817.735pt>
+<./assets/images//dex-algorithm.jpg, id=824, 4110.35625pt x 5817.735pt>
 File: ./assets/images//dex-algorithm.jpg Graphic file (type jpg)
 <use ./assets/images//dex-algorithm.jpg>
 Package pdftex.def Info: ./assets/images//dex-algorithm.jpg  used on input line
@@ -2508,7 +2508,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1568--1569
 
  []
 
-<./assets/images//reserve-pool-1.jpg, id=828, 3049.3925pt x 1215.54124pt>
+<./assets/images//reserve-pool-1.jpg, id=843, 3049.3925pt x 1215.54124pt>
 File: ./assets/images//reserve-pool-1.jpg Graphic file (type jpg)
 <use ./assets/images//reserve-pool-1.jpg>
 Package pdftex.def Info: ./assets/images//reserve-pool-1.jpg  used on input lin
@@ -2546,7 +2546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1599--1600
 
  []
 
-<./assets/images//dex-fee.jpg, id=837, 1294.8375pt x 674.52pt>
+<./assets/images//dex-fee.jpg, id=852, 1294.8375pt x 674.52pt>
 File: ./assets/images//dex-fee.jpg Graphic file (type jpg)
 <use ./assets/images//dex-fee.jpg>
 Package pdftex.def Info: ./assets/images//dex-fee.jpg  used on input line 1603.
@@ -2594,7 +2594,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1639--1640
 
  []
 
-<./assets/images//reserve-pool-4.jpg, id=846, 3393.67876pt x 2515.3975pt>
+<./assets/images//reserve-pool-4.jpg, id=861, 3393.67876pt x 2515.3975pt>
 File: ./assets/images//reserve-pool-4.jpg Graphic file (type jpg)
 <use ./assets/images//reserve-pool-4.jpg>
 Package pdftex.def Info: ./assets/images//reserve-pool-4.jpg  used on input lin
@@ -2691,7 +2691,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
 
  []
 
-<./assets/images//user-deposit.png, id=880, 830.10126pt x 485.815pt>
+<./assets/images//user-deposit.png, id=895, 830.10126pt x 485.815pt>
 File: ./assets/images//user-deposit.png Graphic file (type png)
 <use ./assets/images//user-deposit.png>
 Package pdftex.def Info: ./assets/images//user-deposit.png  used on input line 
@@ -2761,7 +2761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1856--1857
 
  []
 
-<./assets/images//custodian.png, id=900, 560.0925pt x 246.1998pt>
+<./assets/images//custodian.png, id=915, 560.0925pt x 246.1998pt>
 File: ./assets/images//custodian.png Graphic file (type png)
 <use ./assets/images//custodian.png>
 Package pdftex.def Info: ./assets/images//custodian.png  used on input line 186
@@ -2900,7 +2900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1970--1971
 
  []
 
-<./assets/images//rov-poll.jpg, id=935, 3442.8625pt x 4784.87625pt>
+<./assets/images//rov-poll.jpg, id=950, 3442.8625pt x 4784.87625pt>
 File: ./assets/images//rov-poll.jpg Graphic file (type jpg)
 <use ./assets/images//rov-poll.jpg>
 Package pdftex.def Info: ./assets/images//rov-poll.jpg  used on input line 1976
@@ -3143,7 +3143,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2192--2193
 
  []
 
-<./assets/images//p2p-sell.jpg, id=981, 2178.1375pt x 2958.05125pt>
+<./assets/images//p2p-sell.jpg, id=996, 2178.1375pt x 2958.05125pt>
 File: ./assets/images//p2p-sell.jpg Graphic file (type jpg)
 <use ./assets/images//p2p-sell.jpg>
 Package pdftex.def Info: ./assets/images//p2p-sell.jpg  used on input line 2197
@@ -3179,7 +3179,7 @@ Package pdftex.def Info: ./assets/images//logo.png  used on input line 2222.
 Package xcolor Warning: Incompatible color definition on input line 2222.
 
 [65 <./assets/images//p2p-sell.jpg>]
-<./assets/images//p2p-buy.jpg, id=1005, 1904.11375pt x 4243.855pt>
+<./assets/images//p2p-buy.jpg, id=1020, 1904.11375pt x 4243.855pt>
 File: ./assets/images//p2p-buy.jpg Graphic file (type jpg)
 <use ./assets/images//p2p-buy.jpg>
 Package pdftex.def Info: ./assets/images//p2p-buy.jpg  used on input line 2225.
@@ -3203,7 +3203,7 @@ Package pdftex.def Info: ./assets/images//logo.png  used on input line 2237.
 Package xcolor Warning: Incompatible color definition on input line 2237.
 
 [66 <./assets/images//p2p-buy.jpg>]
-<./assets/images//global-reward.png, id=1011, 1945.2675pt x 926.46124pt>
+<./assets/images//global-reward.png, id=1026, 1945.2675pt x 926.46124pt>
 File: ./assets/images//global-reward.png Graphic file (type png)
 <use ./assets/images//global-reward.png>
 Package pdftex.def Info: ./assets/images//global-reward.png  used on input line
@@ -3222,13 +3222,13 @@ Package pdftex.def Info: ./assets/images//logo.png  used on input line 2255.
 Package xcolor Warning: Incompatible color definition on input line 2255.
 
 [67 <./assets/images//global-reward.png>]
-<./assets/images//burn-chart.png, id=1024, 2286.5425pt x 1237.62375pt>
+<./assets/images//burn-chart.png, id=1039, 2286.5425pt x 1237.62375pt>
 File: ./assets/images//burn-chart.png Graphic file (type png)
 <use ./assets/images//burn-chart.png>
 Package pdftex.def Info: ./assets/images//burn-chart.png  used on input line 22
 66.
 (pdftex.def)             Requested size: 284.52756pt x 154.00386pt.
-<./assets/images//revenue-distribution.png, id=1025, 2224.31pt x 1080.035pt>
+<./assets/images//revenue-distribution.png, id=1040, 2224.31pt x 1080.035pt>
 File: ./assets/images//revenue-distribution.png Graphic file (type png)
 <use ./assets/images//revenue-distribution.png>
 Package pdftex.def Info: ./assets/images//revenue-distribution.png  used on inp
@@ -3417,54 +3417,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 2527--2538
 
  []
 
-<./assets/images//token-distribution.png, id=1122, 2277.50874pt x 941.5175pt>
+<./assets/images//viral-coin-logo.png, id=1137, 140.05814pt x 140.05814pt>
+File: ./assets/images//viral-coin-logo.png Graphic file (type png)
+<use ./assets/images//viral-coin-logo.png>
+Package pdftex.def Info: ./assets/images//viral-coin-logo.png  used on input li
+ne 2550.
+(pdftex.def)             Requested size: 71.13188pt x 71.13164pt.
+<./assets/images//token-distribution.png, id=1138, 2281.52374pt x 925.4575pt>
 File: ./assets/images//token-distribution.png Graphic file (type png)
 <use ./assets/images//token-distribution.png>
 Package pdftex.def Info: ./assets/images//token-distribution.png  used on input
- line 2551.
-(pdftex.def)             Requested size: 418.25368pt x 172.8994pt.
+ line 2557.
+(pdftex.def)             Requested size: 418.25368pt x 169.65361pt.
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2554.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2560.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2554.
+Package xcolor Warning: Incompatible color definition on input line 2560.
 
-[74] Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 2569--2580
+[74 <./assets/images//viral-coin-logo.png>]
+Overfull \hbox (7.70926pt too wide) in paragraph at lines 2565--2575
+ [][] 
+ []
+
+Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 2594--2595
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2585--2588
+Underfull \hbox (badness 10000) in paragraph at lines 2597--2598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2600--2601
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2603--2604
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2619--2622
 
  []
 
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2663.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2643.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2663.
+Package xcolor Warning: Incompatible color definition on input line 2643.
 
 [75 <./assets/images//token-distribution.png>]
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2663.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2697.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 2663.
+Package xcolor Warning: Incompatible color definition on input line 2697.
 
 [76] (./Whitepaper.aux)
 Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
-(rerunfilecheck)             Checksum: 68DC179E28B3D6D0231D233EFEA8894F;10567.
+(rerunfilecheck)             Checksum: 1DC1F12023083D71173A59D58E49BB13;11236.
  ) 
 Here is how much of TeX's memory you used:
- 39085 strings out of 478994
- 825310 string characters out of 5858184
- 1442661 words of memory out of 5000000
- 55483 multiletter control sequences out of 15000+600000
+ 39099 strings out of 478994
+ 825652 string characters out of 5858184
+ 1442664 words of memory out of 5000000
+ 55493 multiletter control sequences out of 15000+600000
  409650 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  155i,14n,146p,1614b,2629s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3531,10 +3557,10 @@ ist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/
 fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (76 pages, 6729838 bytes).
+Output written on Whitepaper.pdf (76 pages, 6752146 bytes).
 PDF statistics:
- 1331 PDF objects out of 1440 (max. 8388607)
- 1180 compressed objects within 12 object streams
- 539 named destinations out of 1000 (max. 500000)
- 681 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1351 PDF objects out of 1440 (max. 8388607)
+ 1198 compressed objects within 12 object streams
+ 543 named destinations out of 1000 (max. 500000)
+ 710 words of extra memory for PDF output out of 10000 (max. 10000000)
 
