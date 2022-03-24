@@ -49,6 +49,7 @@
 \tikzstyle{pro} = [rectangle, minimum width=3cm, minimum height=0.6cm,  text centered,text width=3cm, draw=black, fill=orange!15]
 \tikzstyle{dec} = [diamond, minimum width=3cm,  minimum height=0.6cm, text centered, draw=black,text width=3cm, fill=green!15]
 \tikzstyle{arrow} = [thick,->,>=stealth]
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 %tikzlibrary
 
@@ -608,6 +609,10 @@ This is classified into
 
 All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes and Trusted IPFS Cluster Nodes. Thus promising the security of media.\\
 
+\textbf{Storing Files using IPFS}\\
+
+
+
 \textbf{Encryption}\\
 
 \begin{figure}[H]
@@ -627,9 +632,7 @@ There are currently countable quantum algorithms that posses a threat to current
 \item \textbf{Grover's Algorithm} : The Grover's algorithm discovered by Lev Grover, could theoretically weaken the security of symmetric cryptographic algorithms, such as Advanced Encryption Standard (AES). Grover's algorithm could brute-force a 128-bit symmetric cryptographic key in roughly 2$^{64}$ iterations, or a 256-bit key in roughly 2$^{128}$ iterations. As a result, it is sometimes suggested that symmetric key lengths be doubled to protect against future quantum attacks.  In short, Grover's algorithm reduces the brute-force attack time to it's square root, so the attack time for a 128bit AES encryption is decreased to 2$^{64}$, where the 256bit encryption is reduced to 2$^{128}$ which is considered secure.
 \end{enumerate}
 
-Attacks on AES using Grover's algorithm\\
-
-Since AES-256 is proven to be the best well-used algorithm currently against post-quantum era, Viral encrypts all the user data using a 256bit key symmetric encryption using a random key generator. \\
+Since AES-256 is proven to be the best well-used algorithm currently during post-quantum era, Viral encrypts all the user data using 256bit key symmetric encryption. \\
 
 
 \begin{figure}[H]
@@ -1018,7 +1021,7 @@ Viral Smart wallet is an integrated open-source EVM based hot wallet application
 
 Decentralized exchanges (DEX) are a type of cryptocurrency exchange that allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need for an intermediary or a custodian, unlike Centralized exchanges. Decentralized exchanges are simply a set of automated smart contracts (code). They establish the prices of various cryptocurrencies against each algorithmically and use “liquidity pools” — in which investors lock funds in exchange for interest-like rewards — to facilitate trades. While transactions on a centralized exchange are recorded on that exchange’s internal database, DEX transactions are settled directly on the blockchain itself. There will be no custodian or any services which need to be maintained by a certain company to run a truly decentralized crypto exchange.DEXs are usually built on open-source code, meaning that anyone interested can see exactly how they work. That also means that developers can adapt existing code to create new competing projects — which is how Uniswap’s code has been adopted by an entire host of DEXs with “swap” in their names like Sushiswap and Pancakeswap.\\
 
-\textbf{Automated Market Makers}
+\textbf{Automated Market Makers}\\
 
 An automated market maker (AMM) is a type of decentralized exchange (DEX) protocol that relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.This formula can vary with each protocol. Most AMMs usesa constant product formula: $x  \times  y = k$, where $x$ is the amount of one token in the liquidity pool, and $y$ is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same. Liquidity providers (LPs) add funds to liquidity pools. In return for providing liquidity to the protocol, LPs earn fees from the trades that happen in their pool. LPs deposit an equivalent value of two tokens – for example, 50\% of Token A and 50\% of Token B to the A/B Lquidity pool.\\
 
@@ -1446,11 +1449,6 @@ Pools are sharded in percentages where the last added micro pool will be divided
 
 Each Micro-Pool determines each DEX blockchain added to the Viral Smart Chains where smaller pools can get increased volume in smaller transactions. When trade amount is lower the swap book will place the orders in smaller pools which may get matched faster whereas larger trades may get placed in larger pools or the trades will be divided among several pools to get matched and execute the swap successfully \\
 
-\begin{figure}[H]
-\begin{center}
-\caption{Larger Trade vs Small Trades}
-\end{center}
-\end{figure}
 
 The pools are represented in tables with rows mentioning number of pools where each pool will run on different blockchains and columns are represented to determine the cell value and percentage. Here $C_{11}, C_{22}, C_{33}, C_{44}.....C_{rc}$ are the pools that will be separated into two divisions equally ($50\%+50\%$) to form the new pool\\
 
@@ -1582,13 +1580,6 @@ During the initialization of the pool, the reserve pool will be set to zero wher
 Limit Equation For Number Of Dex Chains = Pool Shards Configurations
 \end{equation}
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{reserve-pool-2}
-\caption{Freezing Liquidity when trading volume decreases}
-\end{center}
-\end{figure}
-
 Liquidity gets freezed and sent to reserve pool on two occasions
 \begin{enumerate}[leftmargin=+0.2in]
 \item \textbf{Zero Trading Volume} : Some Pools are created for low-volume tokens that will receive low to no swap orders which then accounts for a huge price impact if the value suddenly sky-rockets making the pool to react differently to price impacts and delayed rebases
@@ -1715,7 +1706,7 @@ Ironically, many of the same factors that contribute to the advantages of a cent
 
 As the security threats continues, there's currently no effective solution for a non-custodial fiat-crypto exchange. At any instance if a probable propaganda is proposed the primary user aquisition strategy of those solutions is to target the current users of popularly running cryptoexchanges which is a very long and narrow way to bring in users for the platform. Viral has a first mover advantage for such a non-custodial way of buying cryptocurrencies using fiat-currencies since it's application offers end to end solution on all aspects on the de-fi wave, user's are prompted to use it's services while using the application. This has a significance effect in acquiring users for an in-built crypto buying facility for users to trade in their fiat money. For one such of an exchange where it's users derived from a social media will impact the crypto adoption and also reassures the year-long threat of losing user's funds to potential hackers.\\
 
-\textbf{Intro to VFEX}\\
+\textbf{Intro to Viral-FEX}\\
 
 Decentralization refers to freedom and ownership. A centralized exchange restricts the ownership by being a custody to user's funds by maintaining the private keys on their central server. There is only two aspects a CEX will carry out: Buying and Selling. While both fiat and crypto funds is being held in custody, the Fiat Funds is securely holded (due to it's reversal mechanism), whereas the Crypto Funds are always open for attacks and cannot be reverted back nor easy to track the route of transactions to an individual after a breach. While Popular CEXs are tackling these breaches using secured cryptographic encryptions, firewalls, etc there is always a possibilty for a penetration expert to steal the funds. Viral is offering a non-custodial crypto buying solution by supplying fiat-pegged-tokens and exchanging via Viral DEX.\\
 
@@ -1893,6 +1884,8 @@ Fiat-Tag Tokens are burned upon Cash Out request from the KYC User to the corres
 
 \subsection{Custodian Services}
 
+\section{Business-Wallet API and SDK}
+
 \subsection{Other Wallet Features}
 
 \textbf{QR Pay}\\
@@ -2032,9 +2025,11 @@ To eliminate biased curators we will be bringing a safe mechanism to filter out 
 
 This Positive/Negative points suspension factor will be running after every single vote after the poll finishes. Some factors determining the suspension are\\
 
-(25) If Negative Point is 30\%- 40\% to the Positive Point – Account suspension for 3 days\\
-(26) If Negative Point is 40\%- 50\% - Account suspension for 6 days\\
-(27) If Negative Point is more than 50\% - Account suspension for 12 days\\
+\begin{itemize}[leftmargin=+0.2in]
+\item If Negative Point is 30\%- 40\% to the Positive Point – Account suspension for 3 days
+\item If Negative Point is 40\%- 50\% - Account suspension for 6 days
+\item If Negative Point is more than 50\% - Account suspension for 12 days
+\end{itemize} 
 
 \begin{equation}
 Positive\:Point(p) \times  30\% \leq Negative\:Point(n) \leq Positive\:Point(p) \times  40\%
@@ -2046,15 +2041,12 @@ Positive\:Point(p) \times  40\% \leq Negative\:Point(n) \leq Positive\:Point(p) 
 Positive\:Point(p) \times 50\% \leq Negative\:Point(n)
 \end{equation}\\
 
-We have also made factors to suspend an ROV account forever based on the number of suspensions they get on their account. The factors are\\
-
+We have also made factors to suspend an ROV account forever based on the number of suspensions they get on their account. The factors are
 \begin{enumerate}[leftmargin=+0.2in]
 \item 20 times 3 day suspension 
 \item 10 times 6 day suspension
 \item 3 times 12 day suspension
 \end{enumerate}
-
-
 
 There will be a test-net and live-net to practice voting at its best\\
 
@@ -2119,7 +2111,124 @@ Viral will provide a web application where developers can join, interact in deve
 \item Add New Projects to Dev-Space by providing a whitepaper
 \end{itemize}
 
-\subsection{Social Nodes}
+\section{Viral Decentralized Ads}
+
+\section{Influencer-Ad Platform}
+
+Mainstream modern-advertisement focusses on targeting social media users by running campaigns collaborating between brand and influencers. It takes the idea of celebrity endorsement and places it into a modern-day content-driven marketing campaign. This type of marketing doesn't only involves celebrities but popular content creators who have an enthusiastic audience. Influencers can be anyone anywhere but what separates them from a amateur creators is their large following. Some will have hundreds of thousands, some even millions, brands do care their reputation build around the specific industry that they are looking for i.e, Fashion, Comedy, Sports. They are the people who make engaging contents, share the best pictures, entertain their viewers, run exciting discussions across social platforms on their own specialized topics. From a smaller market size of \$1.6 billion in 2016 it rose to a figure of \$13.8 billion industry in which for every \$1 spent businesses receive purchases worth \$5.78 from all over the world giving an ROI (Return of Investment) of 500\%. About 1360+ Influencer marketing focused platforms and agencies entered the market in the last 5 years alone.\\
+
+Viral Influencer Ad-Platform is a place where influencers get connected with brands and businesses under specific requirements to place paid-ads using the Gig-based marketplace where Content creators can post their ad-gigs under specific categories such as impressions, engagement, link clicks, etc where brands can purchase with the trust of the blockchain. After the promises of the gig are achieved the payment will be released to the influencers. This effectively reduces the unwanted issues regarding promised results. Viral will be tapping the potential of influencer marketing by running ads through popular content creators. We want to effectively eliminate the excess process of a business to find influencers, contact, fix, transfer amount, etc into a simple user-friendly platform where it can
+\begin{itemize}[leftmargin=+0.2in]
+\item Find tailored Influencers with advanced search algorithm
+\item Payment using Viral Pay and multiple available tokens
+\item Check Realtime-statistics of the ad
+\end{itemize}
+
+\textbf{Influencers}\\
+
+Businesses looking for influencers for their next ad-campaign shall look in terms of followers count on a specific profile where larger brands involve bigger influencers ($\geq$ million followers) and medium enterprises involve smaller influencers ($\leq$ million followers). For seamless results in the Viral Influencer Platform the creators are categorized into several categories according to their followers count\\
+
+
+\textbf{How it will work?}
+\begin{enumerate}[leftmargin=+0.2in]
+\item Business Owners / Individuals / Buyer can search for an influencer account with advanced search filters
+\item Finds an Influencer with the list of gigs 
+\item Purchases a Gig
+\item Amount Paid will be stored in a smart contract (vault/escrow)
+\item The influencer gets a notification to create content
+\item Buyer reviews the created content and approves
+\item Influencer posts the content attributing the buyer
+\item The Ad runs successfully and expected engagement by the gig is reached
+\item Now the smart contract will release the stored amount to the Influencer’s wallet
+\item The buyer gets results, Influencer gets paid
+\end{enumerate}
+
+
+Flowchart\\
+
+
+Complete Trust\\
+
+
+If the Gig result is not achieved the payment will not be paid to the influencer. When an individual purchases a gig, he will be paying through Viral Coins where the amount will be securely stored in a vault (smart contract) which is only released to the influencer’s wallet if the gig achieves its result. Here any individual and business owner can be sure that the influencer will need to achieve the result to get paid.\\
+
+
+Search Filters\\
+
+
+Influencer Ad-Platform will provide the Business owners and individuals looking for promoting their content on Viral where they can narrow their search to their expected influencers. This makes it easy for individuals and businesses without worrying about the research. We will be providing Filters to narrow down their search as much they can. Some filters are
+
+\begin{itemize}[leftmargin=+0.2in]
+\item Account Category (Eg: Food)
+\item Fan Base (Eg: more than 1M followers)
+\item Account Age (Eg: 6 months)
+\item Daily Impression (Eg: 257k views)
+\item Country (Eg: Canada)
+\item Reviews and Ratings
+\item Sort by : Top/Trending/Age/Fans/Impression/Rating 
+\end{itemize}
+
+
+Cancellation and Refund\\
+
+
+The cancellation and refunds window will be updated by the Influencer on every of their gig where if the Buyer cancels and apply for a refund before the certain hour of posting the picture, the smart contract will refund the exact amount paid to the buyer’s wallet. After the refund window, the smart contract will not refund the buyer. \\
+
+
+\section{P2P Exchange}
+
+Nowadays people want cryptocurrencies without transaction fees, exchange fees, and also without KYC process in an anonymous way. But in order to buy on central exchanges using Fiat-Money, it is not possible without disclosing their personal information and identity cards for Anti-Money-Laundering purposes. Buying cryptocurrencies using fiat money is not possible on Decentralized Exchanges, since it is a platform to swap from one cryptocurrency to another cryptocurrency in a decentralized manner without any centralized order books.\\
+
+This is where P2P exchanges come in. Peer-to-peer refers to the exchange or sharing of information, data, or assets between parties without the involvement of a central authority. These P2P exchanges work on connecting two users nearby around their city, area, who are willing to sell and buy crypto tokens for fiat currencies. Thereby making an agreement of holding the seller's cryptocurrencies in a smart contract to verify sellers and withdraw to buyer until he transfers the fiat-currency funds to the seller and gets confirmed.\\
+
+\textbf{Advantages over Centralized}
+\begin{enumerate}[leftmargin=+0.2in]
+\item Peer-to-peer transactions generally do not require the involved parties to provide identification,  protecting everyone's right to privacy. 
+\item P2P exchanges allow the purchase of cryptocurrencies through the regional medium of exchange that the seller opts for (E.g. PayPal, Square, M-Pesa  etc). Viral offers P2P solutions to all countries' local payment methods for the users without any hassles.
+\end{enumerate}
+
+\textbf{P2P for Sellers}\\
+
+Seller listing will be initiated by the token seller. The tokens are allocated on a escrow smart contract that will be holding the funds which can be only withdrawn in the account of closing the listing. Non-sensitive information such as City, State, Country shall be provided upon listing which is preferred by buyers for smooth trade of tokens offline. The Regional Payment Methods are selected and the listing is created. The listing consists of Token name, Tokens amount, Payment methods and City.\\
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{p2p-sell}
+\caption{Selling Tokens via P2P}
+\end{center}
+\end{figure}
+
+\begin{lstlisting}[caption={Token Sale Listing}, numbers=none]
+
+	listing id: 02698 {
+	
+    	"token-id": "vrl",
+   		"token-ticker": "VRL",
+    	"token-amount": "7289.375",
+    	"city" : "Los Angeles"
+    	"state" : "California"
+    	"escrow-contract-id" : "vy89xfwieug2t8793br9hd2by2dfg"
+    	
+	}
+\end{lstlisting}
+
+
+\textbf{P2P for Buyers}\\
+
+Users can buy tokens in a secured anonymous manner by connecting with sellers using the P2P Viral Exchange. The Location shall be provided by the buyer to list all the potential seller listing that can be selected upon confirmation by the buyer. The buyer will be immediately connected with the seller by initiating a chat. All the sell listing on the Viral P2P exchange are verified by the escrow smart contract balance which will hold exact value/balance of the listing which offeres a trustless solution for the buyer. After the chat is connected, the seller and buyer shall communicate with each other and provide locations to visit in person or to agree on terms for ssmoother trade without conflicts.\\
+
+The Buyer enters the amount of tokens he would like to buy and the current market price is fetched for the buyer. After the buyers sends the fiat payment, the buyer shall confirm his/her payment. The Seller refers the fiat payment and confirms it. After the confirmation from both parties the contract is revoked and the specified amount of tokens will be sent directly to the buyer's Viral wallet.\\
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{p2p-buy}
+\caption{Selling Tokens via P2P}
+\end{center}
+\end{figure}
+
+Our ultimate vision is to develop a decentralized social media without any central authority or a need for a company to run its product, a P2P Exchange will carry out its process of buying and selling Viral Coins for Fiat money. This ensures the trades cannot be banned nor withdrawn no matter what the land rules are.\\
+
 
 
 \section{Global Reward Pool}
@@ -2427,7 +2536,36 @@ DAO Treasury and Decisions\\
 Intial DAO Coin Offering\\
 DAO Bylaws\\
 
-\section{Viral Coin ICO}
+\section{Tokenomics \& ICO}
+
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Name of the Utility-Token} : Viral Coin
+\item \textbf{Ticker of the Token} : VRL
+\item \textbf{Pre-mined Tokens} : 5,000,000,000 Tokens will be issued 
+\item \textbf{Supply Hard-Cap} : 5,000,000,000 Tokens
+\item \textbf{Nature of Token}: Deflationary
+\end{enumerate}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{token-distribution}
+\end{center}
+\end{figure}
+
+\begin{comment}
+pie
+
+    title Viral Coin - Token Distribution
+    "Public Sale - 20%" : 20
+    "Private Sale - 10%" : 10
+    "Staking Allocation - 15%" : 15
+    "Team - 15%" : 15
+    "Stable Coin Stability Reserve - 25%" :  25
+    "Incentives - 10%" : 10
+    "Exchange Offering - 5%" : 5
+
+\end{comment}
+
 Intro\\
 Viral Coin Details\\
 Token Distribution\\
@@ -2440,131 +2578,39 @@ Incentives to Investors\\
 Token Lockup Period\\
 Investors Exit Strategies\\
 
+
+
 \section{Development Roadmap}
 
 Phase 1 - Beta Launch, Alpha Launch
 Phase 2 - External Upgrades\\
 Phase 3 - Internal Upgrades\\
 
-\section{Viral Decentralized Ads}
-
-\section{Influencer-Ad Platform}
-
-Viral Influencer Ad-Platform is a Gig-based marketplace where Content creators can post their ad-gigs under specific categories such as impressions, engagement, link clicks, etc to various businesses where they can purchase with the trust of the blockchain. After the promises of the gig are achieved the payment will be released to the influencers. This effectively reduces the unwanted issues regarding promised results. Viral will be tapping the potential of influencer marketing by running ads through popular content creators. We want to effectively eliminate the excess process of a business to find influencers, contact, fix, transfer amount, etc into a simple user-friendly platform where it can\\
-\begin{itemize}[leftmargin=+0.2in]
-\item Find Influencers based on Filters
-\item Check all the gigs available
-\item Request a custom gig and receive a quotation
-\item Pay using Multiple Coins
-\item Check all statistics of your running Ad
-\end{itemize}
 
 
-\textbf{How it will work?}
-\begin{enumerate}[leftmargin=+0.2in]
-\item Business Owners / Individuals / Buyer can search for an influencer account with advanced search filters
-\item Finds an Influencer with the list of gigs 
-\item Purchases a Gig
-\item Amount Paid will be stored in a smart contract (vault/escrow)
-\item The influencer gets a notification to create content
-\item Buyer reviews the created content and approves
-\item Influencer posts the content attributing the buyer
-\item The Ad runs successfully and expected engagement by the gig is reached
-\item Now the smart contract will release the stored amount to the Influencer’s wallet
-\item The buyer gets results, Influencer gets paid
-\end{enumerate}
-
-
-Flowchart\\
-
-
-Complete Trust\\
-
-
-If the Gig result is not achieved the payment will not be paid to the influencer. When an individual purchases a gig, he will be paying through Viral Coins where the amount will be securely stored in a vault (smart contract) which is only released to the influencer’s wallet if the gig achieves its result. Here any individual and business owner can be sure that the influencer will need to achieve the result to get paid.\\
-
-
-Search Filters\\
-
-
-Influencer Ad-Platform will provide the Business owners and individuals looking for promoting their content on Viral where they can narrow their search to their expected influencers. This makes it easy for individuals and businesses without worrying about the research. We will be providing Filters to narrow down their search as much they can. Some filters are
-
-\begin{itemize}[leftmargin=+0.2in]
-\item Account Category (Eg: Food)
-\item Fan Base (Eg: more than 1M followers)
-\item Account Age (Eg: 6 months)
-\item Daily Impression (Eg: 257k views)
-\item Country (Eg: Canada)
-\item Reviews and Ratings
-\item Sort by : Top/Trending/Age/Fans/Impression/Rating 
-\end{itemize}
-
-
-Cancellation and Refund\\
-
-
-The cancellation and refunds window will be updated by the Influencer on every of their gig where if the Buyer cancels and apply for a refund before the certain hour of posting the picture, the smart contract will refund the exact amount paid to the buyer’s wallet. After the refund window, the smart contract will not refund the buyer. \\
-
-
-\section{P2P Exchange}
-
-Nowadays people want cryptocurrencies without transaction fees, exchange fees, and also without KYC process in an anonymous way. But in order to buy on central exchanges using Fiat-Money, it is not possible without disclosing their personal information and identity cards for Anti-Money-Laundering purposes. Buying cryptocurrencies using fiat money is not possible on Decentralized Exchanges, since it is a platform to swap from one cryptocurrency to another cryptocurrency in a decentralized manner without any centralized order books.\\
-
-This is where P2P exchanges come in. Peer-to-peer refers to the exchange or sharing of information, data, or assets between parties without the involvement of a central authority. These P2P exchanges work on connecting two users nearby around their city, area, who are willing to sell and buy crypto tokens for fiat currencies. Thereby making an agreement of holding the seller's cryptocurrencies in a smart contract to verify sellers and withdraw to buyer until he transfers the fiat-currency funds to the seller and gets confirmed.\\
-
-\textbf{Advantages over Centralized}
-\begin{enumerate}[leftmargin=+0.2in]
-\item Peer-to-peer transactions generally do not require the involved parties to provide identification,  protecting everyone's right to privacy. 
-\item P2P exchanges allow the purchase of cryptocurrencies through the regional medium of exchange that the seller opts for (E.g. PayPal, Square, M-Pesa  etc). Viral offers P2P solutions to all countries' local payment methods for the users without any hassles.
-\end{enumerate}
-
-\textbf{P2P for Sellers}\\
-
-Seller listing will be initiated by the token seller. The tokens are allocated on a escrow smart contract that will be holding the funds which can be only withdrawn in the account of closing the listing. Non-sensitive information such as City, State, Country shall be provided upon listing which is preferred by buyers for smooth trade of tokens offline. The Regional Payment Methods are selected and the listing is created. The listing consists of Token name, Tokens amount, Payment methods and City.\\
-
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=7cm]{p2p-sell}
-\caption{Selling Tokens via P2P}
-\end{center}
-\end{figure}
-
-\begin{lstlisting}[caption={Token Sale Listing}, numbers=none]
-
-	listing id: 02698 {
-	
-    	"token-id": "vrl",
-   		"token-ticker": "VRL",
-    	"token-amount": "7289.375",
-    	"city" : "Los Angeles"
-    	"state" : "California"
-    	"escrow-contract-id" : "vy89xfwieug2t8793br9hd2by2dfg"
-    	
-	}
-\end{lstlisting}
-
-
-\textbf{P2P for Buyers}\\
-
-Users can buy tokens in a secured anonymous manner by connecting with sellers using the P2P Viral Exchange. The Location shall be provided by the buyer to list all the potential seller listing that can be selected upon confirmation by the buyer. The buyer will be immediately connected with the seller by initiating a chat. All the sell listing on the Viral P2P exchange are verified by the escrow smart contract balance which will hold exact value/balance of the listing which offeres a trustless solution for the buyer. After the chat is connected, the seller and buyer shall communicate with each other and provide locations to visit in person or to agree on terms for ssmoother trade without conflicts.\\
-
-The Buyer enters the amount of tokens he would like to buy and the current market price is fetched for the buyer. After the buyers sends the fiat payment, the buyer shall confirm his/her payment. The Seller refers the fiat payment and confirms it. After the confirmation from both parties the contract is revoked and the specified amount of tokens will be sent directly to the buyer's Viral wallet.\\
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=6cm]{p2p-buy}
-\caption{Selling Tokens via P2P}
-\end{center}
-\end{figure}
-
-Our ultimate vision is to develop a decentralized social media without any central authority or a need for a company to run its product, a P2P Exchange will carry out its process of buying and selling Viral Coins for Fiat money. This ensures the trades cannot be banned nor withdrawn no matter what the land rules are.\\
-
-\section{Addition of Popular De-Fi Platforms}
-
-\section{Business-Wallet API and SDK}
 
 \section{Future Plans}
+
+\section{Development}
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+        Sl.no & Name of the Project & Custom Code & Custom + Fork & Full Fork \\ \hline
+        1 & Decentralized Exchange & \checkmark & - & - \\ \hline
+        ~ & ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ & ~ \\ \hline
+    \end{tabular}
+\end{table}
+
+\section{ICO Funds Allocation}
+
+
 
 \section{Team}
 
