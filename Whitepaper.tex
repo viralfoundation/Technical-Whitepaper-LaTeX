@@ -283,7 +283,7 @@ For an efficient understanding, we have seperated the Viral Architecture/Ecosyst
 \begin{itemize}[leftmargin=+0.2in]
 \item Social Media and User Experience (Page 1-10)
 \item Blockchain, Token Ecosystem (Page 10-15)
-\item Smart Wallet (Page 15-20)
+\item Viral Pay - Multi-Token Smart Wallet (Page 15-20)
 \item Child Platforms (Page 20-25)
 \item Revenue and Incentives (Page 25-30)
 \item Viral DAO  and Governance
@@ -703,7 +703,7 @@ The process of decrypting a public account post is done by maintaining a real-ti
 
 \textbf{2. Chats and Private Messages}\\
 
-For Chat-based encryption, Viral uses \textbf{public and private key} encryption method. There are no centralized cloud-based servers involved in storing messages which can potentially trigger breaches. Every single message is encrypted and can be only decrypted by the receiver.\\
+For Chat-based encryption, Viral uses \textbf{public and private key} encryption method. Viral Chat is an Offline-First chat messenger which doesn't comprises of centralized cloud-based servers involved in storing messages which can potentially trigger breaches. Every single message is encrypted and can be only decrypted by the receiver.\\
 
 \begin{figure}[H]
 \begin{center}
@@ -712,7 +712,7 @@ For Chat-based encryption, Viral uses \textbf{public and private key} encryption
 \end{center}
 \end{figure}
 
-\hyperlink{https://youtu.be/-SiLnaSDkh4}{GunDB Explanatory Video}\\
+External Links : \hyperlink{https://youtu.be/-SiLnaSDkh4}{GunDB Explanatory Video}\\
 
 \textbf{3. Interests of User}\\
 
@@ -735,8 +735,6 @@ TOR routes you through several additional nodes while encrypted, no one can trac
 \textbf{Content Delivery}\\
 
 Visualization with changes to minting as NFT\\
-
-AES – 256 Encryption Snippet\\
 
 \textbf{IPFS Cluster}\\
 
@@ -1569,7 +1567,7 @@ The Instant Swap Possibility is determined by calculating the total pending swap
 
 Usual DEXs employing the AMM Constant Product Maker formula requires higher liquidity in it's single bigger pools to minimize the price impacts whereas Viral DEX sharded pools requires equal liquidity to trading volume per sucessful rebase. So, a considerable liquidity per pool is better enough to rebase the pool's price to current market price of the token pairs. If a higher liquidity is provided to sharded pools where only a smaller liquidity is needed, the rebases get delayed making a spike in the price impact for the following traders making them to encounter a increased price slippage on their swap orders. Surplus of excess liquidity can be avoided in Viral DEX compared to current AMM Exchanges. Smaller sharded pools rebases much quickly in seconds where bigger pools takes couple minutes to fetch the market price and adjust the buy/sell price for the pool to rebase. To counter the effect of delayed rebases of sharded pools due to higher liquidity more than the stipulated trading volume per time period the concept of Reserve Pools are used.\\
 
-Reserve Pools are smart contract accounts that is maintained by the trading pair's pool contract which freezes/releases a certain portion of tokens from the liquidity pool to match the trading volume for rebasing the sharded-pools. It is exactly the same as withdrawing a certain percentage of liquidity but to a smart contract that holds the funds separately which accounts for increasing and decreasing the pool's liquidity for smoother rebases.\\
+Reserve Pools are smart contract accounts that is maintained by the trading pair's pool contract which freezes a certain portion of tokens from the liquidity pool to match the trading volume for rebasing the sharded-pools. It is exactly the same as withdrawing a certain percentage of liquidity but to a smart contract that holds the funds separately which accounts for decreasing the pool's liquidity for smoother rebases.\\
 
 \begin{figure}[H]
 \begin{center}
@@ -1599,15 +1597,6 @@ Liquidity gets freezed and sent to reserve pool on two occasions
 
 Pools will withdraw tokens in to its reserve pool on request. The withdrawal ratio will be equal to the Current Price ratio of the current pool not affecting the pool's price. When each pool has different ratio of tokens (possible scenario due to Time Average Market Prices- TAMP) an equal percentage from all the pools shall be withdrawn to maintain the micro-pool architecture. In simple words from each pools the tokens will be withdrawn at a same percentage and sent to it's reserve pool to decrease the liquidity for better rebases.\\
 
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{reserve-pool-3}
-\caption{Releasing Liquidity (ratio of C.P) when trading volume increases}
-\end{center}
-\end{figure}
-
-Liquidity gets released to the pool from the reserve when a demand for the token pair increases while the trading volume needs an increase in pool's supply. Instead of taking from liquidity providers the pool adjust itself by taking funds from reserve in the ratio of C.P without altering the pool's prices. Left over tokens shall reside in the reserve pool.\\
 
 \textbf{Limit Orders}\\
 
@@ -1682,7 +1671,9 @@ Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micr
 \end{center}
 \end{figure}
 
-When an LP withdraws their funds th will be distributed according to his percentage of pools
+When an LP withdraws their funds it will be distributed according to his percentage of initial investment percentage i.e If a LP provide 10:20 in a 100:200 Pool, the LP holds 10\% of the pool's liquidity, after multiple trades and rebases the LP's funds might be proportionally distributed among the main pool, reserve pool and transaction fee pool, when the LP withdraws he shall receive the 10\% allocated. The Reserve pool can be determined as a wallet smart contract that hold's the LP funds which are not required for the main pool. When a small percentage of LP's invest their tokens into a restricted liquidity pool, thet trnsaction fee may distributed among a small group of LP's which can provide a better ROI compared to current AMM pools.
+
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=13cm]{reserve-pool-4}
@@ -1724,7 +1715,7 @@ Ironically, many of the same factors that contribute to the advantages of a cent
 
 As the security threats continues, there's currently no effective solution for a non-custodial fiat-crypto exchange. At any instance if a probable propaganda is proposed the primary user aquisition strategy of those solutions is to target the current users of popularly running cryptoexchanges which is a very long and narrow way to bring in users for the platform. Viral has a first mover advantage for such a non-custodial way of buying cryptocurrencies using fiat-currencies since it's application offers end to end solution on all aspects on the de-fi wave, user's are prompted to use it's services while using the application. This has a significance effect in acquiring users for an in-built crypto buying facility for users to trade in their fiat money. For one such of an exchange where it's users derived from a social media will impact the crypto adoption and also reassures the year-long threat of losing user's funds to potential hackers.\\
 
-\textbf{Intro to VFEX}
+\textbf{Intro to VFEX}\\
 
 Decentralization refers to freedom and ownership. A centralized exchange restricts the ownership by being a custody to user's funds by maintaining the private keys on their central server. There is only two aspects a CEX will carry out: Buying and Selling. While both fiat and crypto funds is being held in custody, the Fiat Funds is securely holded (due to it's reversal mechanism), whereas the Crypto Funds are always open for attacks and cannot be reverted back nor easy to track the route of transactions to an individual after a breach. While Popular CEXs are tackling these breaches using secured cryptographic encryptions, firewalls, etc there is always a possibilty for a penetration expert to steal the funds. Viral is offering a non-custodial crypto buying solution by supplying fiat-pegged-tokens and exchanging via Viral DEX.\\
 
@@ -1910,12 +1901,14 @@ The need for faster transactions is rising higher every year and new technologie
 
 \section{Child Platforms}
 
+
 \subsection{Content Moderation Platform}
+
 
 
 Centralized social media holds the administrator rights of users’ data which circulates in their platform and also misuses their authority by deleting or expelling a certain user from posting content. This effectively increases the chance of eliminating individual rights, dealing with governments, and most importantly losing the trust of the people. Usually, content moderators on existing social platforms will be held responsible for removing illicit content whereas sometimes due to a centralized approach these moderators are told to filter independent content posted by creators on certain topics where the companies works with the governments sideways. This is why a decentralized community such as ROV is needed for the Viral Network to automate the process by giving administrative rights of the source-uri of contents inside the Viral-Alpha Application to a swarm of moderators which is going to be the key for independent content and removal of explicit contents in a faster and democratic way possible.\\
 
-ROV is an abbreviation for Republic of Viral, a decentralized community-based organization inside Viral Network to govern, filter out reported contents, give support to users, verify VIPs, vote on involvements of community members, etc. The Community is solely developed to bring a decentralized way of allowing a network of administrators under a voting mechanism to remove NSFW, spam content in the Viral Network, and aims to create a cleaner social media while restraining the power of censorship resistance. 
+ROV is an abbreviation for Republic of Viral, a decentralized community-based organization inside Viral Network to govern, filter out reported contents, give support to users, verify VIPs, vote on involvements of community members, etc. The Community is solely developed to bring a decentralized way of allowing a network of administrators under a voting mechanism to remove NSFW, spam content in the Viral Network, and aims to create a cleaner social media while restraining the power of censorship resistance. \\
 
 ROV is designed for curators to work as employees of an organization with a common goal with maximum trust and anonymity. This decentralized way effectively reduces the opinion of a single person, an entity’s founder, and any external influence where the community only decides which is better for the platform. ROV eliminates the need for a centralized entity to run a social platform that holds the power of democracy while ignoring censorship resistance. \\
 
@@ -1946,15 +1939,12 @@ Viral Release Applications are separated into two divisions that will have two m
 
 Viral Alpha-Release is the furninshed battle-tested application that will be available in all stores for users. The alpha-release will be using IPFS private cluster, to pin files from public nodes and store public data privately for moderation purposes. The private network cluster allows IPFs nodes to only connect to other peer nodes with shared key, and the nodes in the network do not respond to the communication from nodes outside the network. Cluster replicates and tracks pins across a cluster of private IPFS daemons. In short, The Beta app uses public nodes replicates, store data publicly where it cannot be removed, the alpha app uses private cluster that replicates data from public nodes to a swarm of private nodes that is kept within the ViralDAO where the private nodes are notified by ROV to remove pins(media) from the private nodes. Combination of a fully decentralized storage and a semi-centralized storage to combat illicit content\\
 
-Type about how Viral has both IPFS Public and IPFS Private\\
-Removal of Content from Viral IPFS-Clusters\\
-
 
 \textbf{Removal Poll Timer}\\
 
 To ensure faster removals and counter the delay of manual approach of votes calculation, after content is reported it will be directly posted on ROV’s Application where the voting poll for the specific post timer will run according to the category’s emergency for removal. This ensures faster content removals in no time, where it takes 24 – 48 hours for a centralized social media entity. We have listed out the major categories and timings for reporting illicit content in Viral.
 
-\begin{enumerate}[leftmargin=+0.2in]
+\begin{itemize}[leftmargin=+0.2in]
 \item Spam or Fraud – 2 hours
 \item Bullying or Hate Speech – 45 mins
 \item False Information – 1 hour
@@ -1962,7 +1952,7 @@ To ensure faster removals and counter the delay of manual approach of votes calc
 \item Nudity – 30 mins
 \item Violent or Disturbing – 30 mins
 \item Something Else – 2 hours
-\end{enumerate}
+\end{itemize}
 
 \textbf{Algorithmic Automated Removal Methods}\\
 
@@ -2036,19 +2026,9 @@ $r_p$=Remove Votes Percentage, $k_p$ = Keep Votes Percentage\\
 
 Viral’s content reports are only applicable to public accounts. Viral’s vision to bring complete privacy and security to private accounts which are exempted from being reported. ROV curators will not moderate, nor involve to view the contents of secured private accounts. Thus, it leaves decisions in the hands of followers whether to view their content or not. \\
 
-\textbf{Criteria to Join}\\
-
-A specific criteria is set to join as a ROV Curator. To apply for ROV Curator membership one must hold and stake Viral DAO Tokens and be a governance member. They are \\
-
 \textbf{Eliminating Bad Curators}\\
 
 To eliminate biased curators we will be bringing a safe mechanism to filter out bad curators in the community using a feature called positive/negative points. Every single poll will contain two options for the curators to select, “Remove” or “Keep”, the poll results are based on the majority’s decision. When a vote for a poll and falls under the majority’s vote the curator will receive a Positive point, if the curator is on the minority side, which is the losing side he/she be getting a Negative point. Each of the positive and negative points will be added to his profile. An algorithm will run to take the percentage of both points, where if the negative point falls above 30\% to the positive point, his ROV account will be suspended for a couple of days. We have deciphered the factors where there could be no bad actors in the community. There will be records to everyday's positive and negative points. \\
-
-\begin{figure}[H]
-\begin{center}
-\caption{Postive Negative Point If Else}
-\end{center}
-\end{figure}
 
 This Positive/Negative points suspension factor will be running after every single vote after the poll finishes. Some factors determining the suspension are\\
 
@@ -2092,19 +2072,13 @@ ROV will be having a separate section for community help \& support, where ROV c
 
 ROV curators also will be responsible for several actions on the decentralized platform, one of it's the "Verification of Accounts". Since Viral doesn’t take a single byte of data, we won’t be requesting any country’s identification information like other centralized social medias, it is up to the curators to opt for giving a verified tick for the VIPs on the viral platform. Curators vote on Providing Verification where the majority votes decide the verification of a specific individual or organization. Users applying for verification can provide additional data such as popular media websites blogs about them, provide a verification video and also tip the rov community on whole to provide verified tick.Verified Tick is represented by a unique NFT minted by ROV using it's pool's reserve and send the nft to the user applied for it.\\
 
-\begin{figure}[H]
-\begin{center}
-\caption{Flowchart of Verification}
-\end{center}
-\end{figure}
-
 \textbf{Requesting ROV}\\
 
 Since ROV is regarded as a DAO (Decentralized Autonomous Organization) we make sure others request ROV for a specific task, poll, support, etc. This feature will be given only to verified profiles where they can write to ROV in any matter where the curators can come collectively to help regarding the issue. This will help VIPs, Governments to write to ROV curators which will be displayed on their feed where they can take necessary actions for it. \\
 
 \textbf{Rewards for Contribution}\\
 
-Every day according to every individual curators contribution Viral Coins will be allocated to their wallets where they can collect it manually every day after 2AM UTC. 
+Every day according to every individual curators contribution rewards will be allocated to their wallets where they can collect it manually after 2AM UTC. 
 
 
 \subsection{Developer Platform}
@@ -2170,7 +2144,7 @@ The 100\% percent of total daily revenue is distributed as \\
 \item \textbf{Social Users} : For Social Application users according to their daily impression on their media content.
 \item \textbf{Developers} : Allocated for Viral Open Source Developers
 \item \textbf{Bounties} : Rewards for developers who can improve the protocols by detecting major flaws and loopholes in the operating protocols.
-\item \textbf{Crypto Back}: Similar to cashback systems in payment applications. Viral Pay users will receive cashback for every payment they make.
+\item \textbf{Crypto Back}: Similar to cashback systems in payment applications. Viral Pay users will receive crypto-back for every payment they make.
 \item \textbf{Burn} : Portion of the pool allocated to swap tokens to Viral Coin and sending it to a burn address where the supply will be removed.
 \item \textbf{ROV} : Content Moderation community rewards according to their plus votes received for won polls.
 \item \textbf{DAO} : Allocation for governing, maintenance and operation of the decentralized viral applications.
@@ -2198,10 +2172,10 @@ The 100\% percent of total daily revenue is distributed as \\
 pie
 
     title Daily Revenue Distribution
-    "Users - 34%" : 31
-    "Miners - 32%" : 29
-    "Volunteers - 18%" : 16
-    "DAO - 16%" :  14
+    "Users - 39%" : 35
+    "Miners - 31%" : 28
+    "Volunteers - 17%" : 15
+    "DAO - 13%" :  12
 
 
 pie
@@ -2232,9 +2206,9 @@ pie
 
 
 
-\subsection{Social Users (Impression-based) - 31\%}
+\subsection{Social Users (Impression-based) - 30\%}
 
-31\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
+30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
 
 \textbf{Advantages}
 \begin{itemize}[leftmargin=+0.2in]
@@ -2257,7 +2231,7 @@ User\:Percentage(U_p)=\frac{User\:Total\:Impression(U_i)}{Global\:Impression(G)}
 User\:Rewards(x)=\frac{Total\:Rewards(T) \times User\:Reward\:Percentage(U_p)}{100}
 \end{equation}\\
 
-\begin{lstlisting}[language=Solidity, caption={User Reward Contract in Solidity}, numbers=none]
+\begin{lstlisting}[language=Solidity, caption={Example User Reward Contract in Solidity}, numbers=none]
 
 
 // SPDX-License-Identifier: MIT
@@ -2346,7 +2320,7 @@ User Reward : \\
 
 The reward allocation and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 15 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be sent to burn pool after the stipulated time period finishes. This creates a daily deflationary effect to the Viral Coin that will benefit other wallet users who hold Viral Coins.\\
 
-\subsection{DAO - 14\%}
+\subsection{DAO - 12\%}
 
 \subsection{Blockchain-Miners (Gas-based) - 11\%}
 
@@ -2355,7 +2329,7 @@ The reward allocation and analysis of coins for each User(Views-Based) will be d
 \subsection{IPFS-Miners (Storage-based) - 8\%}
 
 
-\subsection{ROV (Contribution-based) - 7.5\%}
+\subsection{ROV (Contribution-based) - 6.5\%}
 
 7.5\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. \\
 
@@ -2384,7 +2358,7 @@ The segregation will take place at 2 AM UTC by taking the total number of data s
 
 7.5\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to development of the beta application which will be available as an open repository. To give rewards for developers' contribution to the decentralized platform and also to encourage developers by giving paid rewards to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform.\\
 
-We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get voted by other developers for rewards. The votes will determine their rewards where the maximum voted contribution will receive more viral coins than the minimum voted contribution. 
+We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get voted by other developers for rewards. The votes will determine their rewards where the maximum voted contribution will receive more viral coins than the minimum voted contribution.\\ 
 
 Developers are the backbone of Viral. Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.\\
 
@@ -2392,7 +2366,9 @@ Viral will give a better world to developers expecting a reward for their contri
 
 The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 15 hours every day.\\
 
-\subsection{DAG-Miners (Transaction-based) - 6\%}
+\subsection{DAG-Miners (Transaction-based) - 5\%}
+
+\subsection{Crypto-Back - 5\%}
 
 \subsection{Bounties (DAO-Vote) - 2\%}
 
@@ -2469,8 +2445,6 @@ Investors Exit Strategies\\
 Phase 1 - Beta Launch, Alpha Launch
 Phase 2 - External Upgrades\\
 Phase 3 - Internal Upgrades\\
-
-\section{Viral DAO Platform and ICO}
 
 \section{Viral Decentralized Ads}
 
