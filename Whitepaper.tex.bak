@@ -2117,7 +2117,7 @@ Viral will provide a web application where developers can join, interact in deve
 
 Mainstream modern-advertisement focusses on targeting social media users by running campaigns collaborating between brand and influencers. It takes the idea of celebrity endorsement and places it into a modern-day content-driven marketing campaign. This type of marketing doesn't only involves celebrities but popular content creators who have an enthusiastic audience. Influencers can be anyone anywhere but what separates them from a amateur creators is their large following. Some will have hundreds of thousands, some even millions, brands do care their reputation build around the specific industry that they are looking for i.e, Fashion, Comedy, Sports. They are the people who make engaging contents, share the best pictures, entertain their viewers, run exciting discussions across social platforms on their own specialized topics. From a smaller market size of \$1.6 billion in 2016 it rose to a figure of \$13.8 billion industry in which for every \$1 spent businesses receive purchases worth \$5.78 from all over the world giving an ROI (Return of Investment) of 500\%. About 1360+ Influencer marketing focused platforms and agencies entered the market in the last 5 years alone.\\
 
-Viral Influencer Ad-Platform is a place where influencers get connected with brands and businesses under specific requirements to place paid-ads using the Gig-based marketplace where Content creators can post their ad-gigs under specific categories such as impressions, engagement, link clicks, etc where brands can purchase with the trust of the blockchain. After the promises of the gig are achieved the payment will be released to the influencers. This effectively reduces the unwanted issues regarding promised results. Viral will be tapping the potential of influencer marketing by running ads through popular content creators. We want to effectively eliminate the excess process of a business to find influencers, contact, fix, transfer amount, etc into a simple user-friendly platform where it can
+Viral Influencer Ad-Platform is a place where influencers get connected with brands and businesses under specific requirements to place paid-ads by determining per-impression rates where Content creators can post brand ads under specific categories such as impressions, engagement, link clicks, etc so brands can purchase with the trust of the blockchain. After the promises of the gig are achieved the payment will be released to the influencers. This effectively reduces the unwanted issues regarding promised results. Viral will be tapping the potential of influencer marketing by running ads through popular content creators. We want to effectively eliminate the excess process of a business to find influencers, contact, fix, transfer amount, etc into a simple user-friendly platform where it can
 \begin{itemize}[leftmargin=+0.2in]
 \item Find tailored Influencers with advanced search algorithm
 \item Payment using Viral Pay and multiple available tokens
@@ -2126,7 +2126,26 @@ Viral Influencer Ad-Platform is a place where influencers get connected with bra
 
 \textbf{Influencers}\\
 
-Businesses looking for influencers for their next ad-campaign shall look in terms of followers count on a specific profile where larger brands involve bigger influencers ($\geq$ million followers) and medium enterprises involve smaller influencers ($\leq$ million followers). For seamless results in the Viral Influencer Platform the creators are categorized into several categories according to their followers count\\
+Businesses looking for influencers for their next ad-campaign shall look in terms of followers count on a specific profile where larger brands involve bigger influencers ($\geq$ million followers) and medium enterprises involve smaller influencers ($\leq$ million followers). For seamless results in the Viral Influencer Platform the creators are categorized into several categories according to their followers count
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Class X} : $\geq$ 10M Followers
+\item \textbf{Class A} : $\leq$ 10M Followers
+\item \textbf{Class B} : $\leq$ 1M Followers
+\item \textbf{Class C} : $\leq$ 500K Followers
+\item \textbf{Class D} : $\leq$ 100K Followers
+\item \textbf{Class E} : $\geq$ 20K Followers
+\end{enumerate}
+
+A minimum follower count (20K) and a daily impression count is required for signing up in the Viral Influencer Program. Influencers shall provide their per-impression rates on their profiles. Their daily, hourly impression counts are taken into account to display brands and businesses expected ad-result in a certain time period, etc. Influencers can post their per-impression rate on promising certain ad-result for the ad-buyers in easy simple steps. Elite influencers fall onto the category of Class X shall be billing higher rates per-impression where smaller Classes will be billing lower rates per-impression. Posting ad-gigs are given below \\
+
+\textbf{Rate Per-Impression}\\
+
+
+\textbf{Ad-campaign}\\
+
+
+\textbf{Billing}\\
+
 
 
 \textbf{How it will work?}
