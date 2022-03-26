@@ -1586,6 +1586,13 @@ Liquidity gets freezed and sent to reserve pool on two occasions
 \item \textbf{Reduced Trading Volume} : Reduced trading volume gives pressure on delayed rebases on sharded pools which can be prevented by decreasing the liquidity in the pool by withdrawing it into a seperate reserve pool (similar to a wallet account but as a smart contract) 
 \end{enumerate}
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=13cm]{reserve-pool-2}
+\caption{Initial Creation of Pools}
+\end{center}
+\end{figure}
+
 Pools will withdraw tokens in to its reserve pool on request. The withdrawal ratio will be equal to the Current Price ratio of the current pool not affecting the pool's price. When each pool has different ratio of tokens (possible scenario due to Time Average Market Prices- TAMP) an equal percentage from all the pools shall be withdrawn to maintain the micro-pool architecture. In simple words from each pools the tokens will be withdrawn at a same percentage and sent to it's reserve pool to decrease the liquidity for better rebases.\\
 
 
@@ -2208,7 +2215,8 @@ Pay-Per Post is a simple, direct advertising by influencers, celebrities and mod
 
 \textbf{Fees \& Billing}\\
 
-5\% on inflencer side and 5\% on business side 
+PPV - Every Withdrawal - 20\%
+
 
 \textbf{Benefits of Viral-Influencer Ads}\\
 
