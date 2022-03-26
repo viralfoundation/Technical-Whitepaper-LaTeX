@@ -2139,7 +2139,7 @@ Businesses looking for influencers for their next ad-campaign shall look in term
 
 A minimum follower count (1K) and a daily impression count is required for signing up in the Viral Influencer Program. Influencers shall provide their per-impression rates on their profiles. Their daily, hourly impression counts are taken into account to display brands and businesses expected ad-result in a certain time period, etc. Influencers can post their per-impression rate on promising certain ad-result for the ad-buyers in easy simple steps. Elite influencers fall onto the category of Class X will be billing higher rates per-impression where smaller Classes will be billing lower rates per-impression. \\
 
-Each Influencer will be classified into niche category. Hashtags of recent posts are taken into account to decide the percentage of posts that is inclined towards a certain category. Sub-categories are also determined for brands to filter and select the best influencer around their target price and ad-performance.\\
+Each Influencer will be classified into niche category. Hashtags of recent posts are taken into account to decide the percentage of posts that is inclined towards a certain category. Sub-categories are also determined for brands to filter and select the best influencer around their target price and ad-performance. Interests of audiences are not taken into any account as Viral is free of data collection systems where the influencer's categories are determined by hastags of recent posts, similarly the influencer can alter his audience interests manually using his/her dashboard.\\
 
 \textbf{Advertising Cost Models}\\
 
@@ -2172,13 +2172,43 @@ Influencers usually charge payments for running brand ads according to the amoun
 
 \textbf{Pay-Per-Post}\\
 
-Pay-Per Post is a simple yet direct advertising brand-ads by pricing it per post. Influencers receive payment per post where the creative side 
-
-
+Pay-Per Post is a simple, direct advertising by influencers, celebrities and models to publish branded-ads by pricing it per post. Influencers can provide their per-post price to directly display how much the cost would be to deliver branded-ads to quality like-minded followers and fans. This direct advertising is preferred by most bigger brands as it costs higher and the ROI is better in terms of other advertisement models.\\
 
 \textbf{Ad-campaign}\\
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{ad-flow}
+\caption{Ad-Campaign Flow}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{ad-selection}
+\caption{Influencer Selection \& Initializing Payment}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{ad-content}
+\caption{Content Creation \& Cancellation}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{ad-publish}
+\caption{Ad-Publishing over various payment models}
+\end{center}
+\end{figure}
+
+
+
 \textbf{Fees \& Billing}\\
+
+5\% on inflencer side and 5\% on business side 
 
 \textbf{Benefits of Viral-Influencer Ads}\\
 
