@@ -1589,7 +1589,7 @@ Liquidity gets freezed and sent to reserve pool on two occasions
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=13cm]{reserve-pool-2}
-\caption{Initial Creation of Pools}
+\caption{Excess Liquidity Freezing}
 \end{center}
 \end{figure}
 
@@ -2190,7 +2190,7 @@ Pay-Per Post is a simple, direct advertising by influencers, celebrities and mod
 \end{center}
 \end{figure}
 
-Each Ad-Campaign comprises of several funnels to give the best advert without compromising quality. The Campaign starts-off with choosing the right set of influencers using 
+Each Ad-Campaign comprises of several funnels to give the best advert without compromising quality. The Campaign starts-off with choosing the right set of influencers using search filters and sorting algorithms. After the selection of influencers the initial payment will be done to pass on the campaign's status to content creation, where the influencer shall provide production ready or draft content for the client's approval. After rigorous checking and updating the content, the ad is finalized and published. The Payment will be withdrawn according the advertisement-model from the client's ad-fund contract. Each step is clearly explained in the following paragraphs.\\ 
 
 \begin{figure}[H]
 \begin{center}
@@ -2198,6 +2198,29 @@ Each Ad-Campaign comprises of several funnels to give the best advert without co
 \caption{Influencer Selection \& Initializing Payment}
 \end{center}
 \end{figure}
+
+Searching Influencers on Viral Influencer Platform is better in terms of finding a targeted niche content creator for best price and ROI. The platform will provide Brands and Businesses looking for promoting their content on Viral where they can narrow their search to their expected influencers. This makes it easy for individuals and businesses without worrying about the research.Some of the filters we are exploring are
+\begin{itemize}[leftmargin=+0.2in]
+\item Niche Category (Eg: Food)
+\item Follower count (Eg: more than 1M followers)
+\item Account Age (Eg: 6 months)
+\item Daily Impression (Eg: 257k views)
+\item Country (Eg: Canada)
+\item Reviews and Ratings
+\item Price-Per Thousand Views (Eg: \$1.23)
+\item Price-Per Conversion (Eg: \$2.5)
+\item Price-Per Post (Eg: \$360)
+\item Price-Per Day (Eg: \$75)
+\end{itemize}
+
+The Influencers are selected and white-listed for further decisions. After a specific/group of influencer is chosen the further proceeding is to fill a Q/A session that consists of default and specified question that help the influencer to tailor up the ad in terms of directly communicating the brand or endorsing the product in a natural and engaging way. An Example Q/A given below
+\begin{enumerate}[leftmargin=+0.2in]
+\item Example
+\end{enumerate}
+After the Q/A is completed the client shall be reverted to pay a Minimum Advance Payment. MAP is a refundable escrow payment allocated for subsidizing the creators in an account of cancellation by the client for an un-fulfilled production of the branded-content. To reduce spamming influencers, the MAP amount is paid and confirmed to start a communication between the client \& the influencer. The MAP amount will be provided by the influencer for a safer payment procedure. Once the MAP is paid, the Q/A and the client details will be sent to the influencer directly where he/she can directly start communicating for the creation of advertisement.
+
+
+
 
 \begin{figure}[H]
 \begin{center}
@@ -2252,17 +2275,7 @@ If the Gig result is not achieved the payment will not be paid to the influencer
 Search Filters\\
 
 
-Influencer Ad-Platform will provide the Business owners and individuals looking for promoting their content on Viral where they can narrow their search to their expected influencers. This makes it easy for individuals and businesses without worrying about the research. We will be providing Filters to narrow down their search as much they can. Some filters are
 
-\begin{itemize}[leftmargin=+0.2in]
-\item Account Category (Eg: Food)
-\item Fan Base (Eg: more than 1M followers)
-\item Account Age (Eg: 6 months)
-\item Daily Impression (Eg: 257k views)
-\item Country (Eg: Canada)
-\item Reviews and Ratings
-\item Sort by : Top/Trending/Age/Fans/Impression/Rating 
-\end{itemize}
 
 
 Cancellation and Refund\\
