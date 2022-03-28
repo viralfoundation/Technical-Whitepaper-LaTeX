@@ -42,26 +42,26 @@
 \contentsline {subsection}{\numberline {10.5}P2P Exchange}{70}{subsection.10.5}%
 \contentsline {section}{\numberline {11}Global Reward Pool}{73}{section.11}%
 \contentsline {subsection}{\numberline {11.1}Social Users (Impression-based) - 30\%}{75}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}DAO - 12\%}{78}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Blockchain-Miners (Gas-based) - 11\%}{78}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Burn - 10\%}{78}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}IPFS-Miners (Storage-based) - 8\%}{78}{subsection.11.5}%
-\contentsline {subsection}{\numberline {11.6}ROV (Contribution-based) - 6.5\%}{78}{subsection.11.6}%
-\contentsline {subsection}{\numberline {11.7}Social Miners (Serving based) - 4\%}{79}{subsection.11.7}%
-\contentsline {subsection}{\numberline {11.8}Developers (Contribution-based) - 7.5\%}{79}{subsection.11.8}%
-\contentsline {subsection}{\numberline {11.9}DAG-Miners (Transaction-based) - 5\%}{80}{subsection.11.9}%
-\contentsline {subsection}{\numberline {11.10}Crypto-Back - 5\%}{80}{subsection.11.10}%
-\contentsline {subsection}{\numberline {11.11}Bounties (DAO-Vote) - 2\%}{80}{subsection.11.11}%
-\contentsline {subsection}{\numberline {11.12}Charity Contribution}{80}{subsection.11.12}%
-\contentsline {section}{\numberline {12}Governance \& Viral DAO}{80}{section.12}%
-\contentsline {section}{\numberline {13}Tokenomics \& ICO}{81}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Token Distribution \& Why}{82}{subsection.13.1}%
-\contentsline {subsection}{\numberline {13.2}Token Sales with Incentives \& Vesting Info}{82}{subsection.13.2}%
-\contentsline {subsection}{\numberline {13.3}Investor Exit Strategies}{82}{subsection.13.3}%
-\contentsline {section}{\numberline {14}Development Roadmap}{82}{section.14}%
-\contentsline {section}{\numberline {15}Future Plans}{83}{section.15}%
-\contentsline {section}{\numberline {16}Development}{83}{section.16}%
-\contentsline {section}{\numberline {17}ICO Funds Allocation}{83}{section.17}%
-\contentsline {section}{\numberline {18}Team}{83}{section.18}%
-\contentsline {section}{\numberline {19}References}{83}{section.19}%
-\contentsline {section}{\numberline {20}Glossary}{83}{section.20}%
+\contentsline {subsection}{\numberline {11.2}DAO - 12\%}{77}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Blockchain-Miners (Gas-based) - 11\%}{77}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Burn - 10\%}{77}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}IPFS-Miners (Storage-based) - 8\%}{77}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}ROV (Contribution-based) - 6.5\%}{77}{subsection.11.6}%
+\contentsline {subsection}{\numberline {11.7}Social Miners (Serving based) - 4\%}{78}{subsection.11.7}%
+\contentsline {subsection}{\numberline {11.8}Developers (Contribution-based) - 7.5\%}{78}{subsection.11.8}%
+\contentsline {subsection}{\numberline {11.9}DAG-Miners (Transaction-based) - 5\%}{79}{subsection.11.9}%
+\contentsline {subsection}{\numberline {11.10}Crypto-Back - 5\%}{79}{subsection.11.10}%
+\contentsline {subsection}{\numberline {11.11}Bounties (DAO-Vote) - 2\%}{79}{subsection.11.11}%
+\contentsline {subsection}{\numberline {11.12}Charity Contribution}{79}{subsection.11.12}%
+\contentsline {section}{\numberline {12}Governance \& Viral DAO}{79}{section.12}%
+\contentsline {section}{\numberline {13}Tokenomics \& ICO}{80}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Token Distribution \& Why}{81}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Token Sales with Incentives \& Vesting Info}{81}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Investor Exit Strategies}{81}{subsection.13.3}%
+\contentsline {section}{\numberline {14}Development Roadmap}{81}{section.14}%
+\contentsline {section}{\numberline {15}Future Plans}{82}{section.15}%
+\contentsline {section}{\numberline {16}Development}{82}{section.16}%
+\contentsline {section}{\numberline {17}ICO Funds Allocation}{82}{section.17}%
+\contentsline {section}{\numberline {18}Team}{82}{section.18}%
+\contentsline {section}{\numberline {19}References}{82}{section.19}%
+\contentsline {section}{\numberline {20}Glossary}{82}{section.20}%

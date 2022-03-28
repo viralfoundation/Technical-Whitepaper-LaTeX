@@ -1874,7 +1874,7 @@ Deposit = \$150 ; Method:Bank Transfer\\
 $Total\:Mint=150-0 = 150$\\
 Total Mint = 150 USD Tokens\\
 $Total\:Token\:Distribution=150-(150 \times 0.1\%)=149.85$\\
-Total Distribution = 148.85 USD\\
+Total Distribution = 149.85 USD\\
 Total Fee = 0.15 USD ; Custodian Allocation = 0.105 USD\\
 
 \textbf{Exchange}\\
@@ -2217,10 +2217,7 @@ The Influencers are selected and white-listed for further decisions. After a spe
 \begin{enumerate}[leftmargin=+0.2in]
 \item Example
 \end{enumerate}
-After the Q/A is completed the client shall be reverted to pay a Minimum Advance Payment. MAP is a refundable escrow payment allocated for subsidizing the creators in an account of cancellation by the client for an un-fulfilled production of the branded-content. To reduce spamming influencers, the MAP amount is paid and confirmed to start a communication between the client \& the influencer. The MAP amount will be provided by the influencer for a safer payment procedure. Once the MAP is paid, the Q/A and the client details will be sent to the influencer directly where he/she can directly start communicating for the creation of advertisement.
-
-
-
+After the Q/A is completed the client shall be reverted to pay a Minimum Advance Payment. MAP is a refundable escrow payment allocated for subsidizing the creators in an account of cancellation by the client for an un-fulfilled production of the branded-content. To reduce spamming influencers, the MAP amount is paid and confirmed to start a communication between the client \& the influencer. The MAP amount will be provided by the influencer for a safer payment procedure. Once the MAP is paid, the Q/A and the client details will be sent to the influencer directly where he/she can directly start communicating for the creation of draft-ad.
 
 \begin{figure}[H]
 \begin{center}
@@ -2229,12 +2226,26 @@ After the Q/A is completed the client shall be reverted to pay a Minimum Advance
 \end{center}
 \end{figure}
 
+Every Content creation starts off-with studying the Q/A and the client's needs regarding how the campaign should sound. The Influencer then starts off with producing the media content and sending the first draft to the client through the influencer portal. The Client goes through the draft and suggests improvement or changes in the content if the client want to. The Improvement suggestions are limited to a maximum of 6, to avoid spamming the creator with multiple iteration of changes to the content. If the content is not approved for a sixth consecutive time, the MAP is deducted and the Ad-Campaign is withdrawn. A subsidiary fee deducted from the MAP will be sent to the influencer for aiding in creating the content for the client. When the client opts to withdraw the ad-campaign the MAP (Minimum Advance Payment) percentage to be deducted will be decided upon the number of drafts the creator provided i.e., $x=35\%+n(10\%)$ where 35\% is the subsidiary fee for the influencer for the first draft and the n denotes the number of improvement suggestions made by the client. If the content is approved before the 6$^{th}$ draft, the MAP is deducted and the Ad will be prepared to publish. An Ad-Fund Contract will be assigned for the client to deposit funds for running the campaign where the funds shall be withdrawn periodically according to the advertisement model the client chooses i.e., PPV - Pay per-Thousand Views, PPD - Pay per-Post, etc.
+
+\begin{equation}
+MAP\:Deducted=35\%+n(10\%)
+\end{equation}
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=13cm]{ad-publish}
 \caption{Ad-Publishing over various payment models}
 \end{center}
 \end{figure}
+
+The Ad is published after the finalization by the client. The Payment is taken periodically according to the ad-model the client opted for. The Pay-per Thousand Views (PPV) model allocates micro-payments for the influencer for every 1000 views reached, the view-feed is taken directly from the viral application and provided onto the ad-fund contract directly through decentralized oracles. The Payments aren't withdrawn from the Ad-Fund Contract rather it is allocated to the influencer's public address similar to "Viral Reward Pool" inside the smart contract itself. The Influencer can withdraw all the allocated tokens from all the ad-campaigns upon signing the transaction via his viral wallet. This way micro-transaction dusts can be eliminated batching all transactions into a single macro-payment. \\
+
+Similarly the Pay-per Conversion allocates funds inside the Ad-Fund Contract for each conversion. The Pay-per Day allocates funds for every 24 hours since the ad-published. When the ad-period finishes a notification is sent to the influencer to un-publish the advertisement. The Pay-per Post directly takes a single payment from the Ad-Fund Contract and directly sends the tokens to the Influencer Wallet.\\
+
+\textbf{Periodic Allocation}\\
+
+
 
 
 
@@ -2245,43 +2256,6 @@ PPV - Every Withdrawal - 20\%
 
 \textbf{Benefits of Viral-Influencer Ads}\\
 
-
-
-
-\textbf{How it will work?}
-\begin{enumerate}[leftmargin=+0.2in]
-\item Business Owners / Individuals / Buyer can search for an influencer account with advanced search filters
-\item Finds an Influencer with the list of gigs 
-\item Purchases a Gig
-\item Amount Paid will be stored in a smart contract (vault/escrow)
-\item The influencer gets a notification to create content
-\item Buyer reviews the created content and approves
-\item Influencer posts the content attributing the buyer
-\item The Ad runs successfully and expected engagement by the gig is reached
-\item Now the smart contract will release the stored amount to the Influencer’s wallet
-\item The buyer gets results, Influencer gets paid
-\end{enumerate}
-
-
-Flowchart\\
-
-
-Complete Trust\\
-
-
-If the Gig result is not achieved the payment will not be paid to the influencer. When an individual purchases a gig, he will be paying through Viral Coins where the amount will be securely stored in a vault (smart contract) which is only released to the influencer’s wallet if the gig achieves its result. Here any individual and business owner can be sure that the influencer will need to achieve the result to get paid.\\
-
-
-Search Filters\\
-
-
-
-
-
-Cancellation and Refund\\
-
-
-The cancellation and refunds window will be updated by the Influencer on every of their gig where if the Buyer cancels and apply for a refund before the certain hour of posting the picture, the smart contract will refund the exact amount paid to the buyer’s wallet. After the refund window, the smart contract will not refund the buyer. \\
 
 
 \subsection{P2P Exchange}
