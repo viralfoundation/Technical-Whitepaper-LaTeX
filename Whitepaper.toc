@@ -39,9 +39,9 @@
 \contentsline {subsection}{\numberline {10.2}Developer Platform}{61}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}Viral Decentralized Ads}{63}{subsection.10.3}%
 \contentsline {subsection}{\numberline {10.4}Influencer-Ad Platform}{63}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}P2P Exchange}{70}{subsection.10.5}%
-\contentsline {section}{\numberline {11}Global Reward Pool}{73}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Social Users (Impression-based) - 30\%}{75}{subsection.11.1}%
+\contentsline {subsection}{\numberline {10.5}P2P Exchange}{71}{subsection.10.5}%
+\contentsline {section}{\numberline {11}Global Reward Pool}{74}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Social Users (Impression-based) - 30\%}{76}{subsection.11.1}%
 \contentsline {subsection}{\numberline {11.2}DAO - 12\%}{78}{subsection.11.2}%
 \contentsline {subsection}{\numberline {11.3}Blockchain-Miners (Gas-based) - 11\%}{78}{subsection.11.3}%
 \contentsline {subsection}{\numberline {11.4}Burn - 10\%}{78}{subsection.11.4}%

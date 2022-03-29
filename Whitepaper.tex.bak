@@ -2252,6 +2252,14 @@ Similarly the Pay-per Conversion allocates funds inside the Ad-Fund Contract for
 \end{center}
 \end{figure}
 
+Periodic Allocation refers to the manual withdrawal function called by the influencer on all the running ad-campaigns to withdraw the allocated tokens for publishing the advertisement on the influencer's viral social account. Withdrawing funds works by taking the necessary data required for  calculating the allocation of funds and withdrawing it directly to the influencer's viral wallet- similar to centralized billing where the billed amount will be auto-debited from the client's credit card to the company, but here directly to the influencer. Every time the influencer opts for withdrawing his/her funds the smart contracts are invoked and the "influencer-withdrawal" function is called.
+
+    
+
+\begin{equation}
+Allocation=Total\:Data-Last\:known\:Data
+\end{equation}
+
 
 
 
