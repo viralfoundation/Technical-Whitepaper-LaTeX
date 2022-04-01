@@ -1669,8 +1669,16 @@ Pool = 1600 : 4,992 LP provides tokens 20 : 62.4 equally to the pool. No.of Micr
 \end{center}
 \end{figure}
 
-When an LP withdraws their funds it will be distributed according to his percentage of initial investment percentage i.e If a LP provide 10:20 in a 100:200 Pool, the LP holds 10\% of the pool's liquidity, after multiple trades and rebases the LP's funds might be proportionally distributed among the main pool, reserve pool and transaction fee pool, when the LP withdraws he shall receive the 10\% allocated. The Reserve pool can be determined as a wallet smart contract that hold's the LP funds which are not required for the main pool. When a small percentage of LP's invest their tokens into a restricted liquidity pool, thet trnsaction fee may distributed among a small group of LP's which can provide a better ROI compared to current AMM pools.
+When it comes to withdrawing funds from main pool and transaction fee pool the funds will be distributed according to his percentage the LP holds in the current pool i.e If a LP provide 10:20 in a 100:200 Pool, the LP holds 10\% of the pool's liquidity. Current AMM models deploy the same concept of withdrawal of percentage investment in a pool of many investors funds. Withdrawing funds from the reserve pool is determined by off-chain oracle's zero-knowledge-snapshots of rebases that contains balances of each investors funds updated every snapshot (here snapshot represent every iteration of freezing user's funds). \\
 
+Snapshots
+\begin{enumerate}[leftmargin=+0.2in]
+\item VNS-id:Token A Balance:Token B Balance
+\item example : 10 : 50
+\end{enumerate}
+
+
+Upon withdrawal the investor deducts his balance from the reserve pool accordingly along with main pool funds and transaction fee pool funds. The Reserve pool can be determined as a wallet smart contract that hold's the LP funds which are not required for the main pool. When a small percentage of LP's invest their tokens into a restricted liquidity pool, trnsaction fee may distributed among a small group of LP's which can provide a better ROI compared to current AMM pools.
 
 \begin{figure}[H]
 \begin{center}
@@ -2082,6 +2090,26 @@ Every day according to every individual curators contribution rewards will be al
 
 \subsection{Developer Platform}
 
+Intro\\
+Emerge of Open-Source\\
+Benefits of Opne-Source Development-Community\\
+Basic Overview\\
+Platform Overview\\
+Automating Beta-Development\\
+Development Community\\
+Bug Fixes\\
+Cost of Development\\
+Developer Overview\\
+Project Selection \& Restrictions\\
+Workspace overview\\
+Github Integration\\
+Commits, Pulls and Pushes\\
+Project Feed \& Appraisals\\
+Reward Allocation\\
+New Projects\\
+Bounties\\
+
+
 Viral Dev-Space is a platform for developers to develop, communicate together with other experts, and receive rewards for their contribution to the Viral Open-Source applications and future development plans of the public and the Viral DAO. The Space for developers is created to decentralize and automize the Software Research \& Development sector of Viral Applications in an efficient way by providing rewards in Viral Coins through unbiased voting based on the intensity of their contribution and popularity in the development community.\\
 
 Viral will be providing an opportunity for all developers regardless of their educational background, region, and language to work on improving the viral decentralized applications on fields such as security, interoperability with other social giants and also to make the application bug-free while providing new updates to the beta software which will be available as an Open-source repository. Giving new opportunities to develop for an upcoming massive social network will pave a way for fastening the development process by using the potential of mass development techniques.\\
@@ -2117,8 +2145,6 @@ Viral will provide a web application where developers can join, interact in deve
 \item Private and Project Group Chats
 \item Add New Projects to Dev-Space by providing a whitepaper
 \end{itemize}
-
-\subsection{Viral Decentralized Ads}
 
 \subsection{Influencer-Ad Platform}
 
@@ -2215,7 +2241,10 @@ Searching Influencers on Viral Influencer Platform is better in terms of finding
 
 The Influencers are selected and white-listed for further decisions. After a specific/group of influencer is chosen the further proceeding is to fill a Q/A session that consists of default and specified question that help the influencer to tailor up the ad in terms of directly communicating the brand or endorsing the product in a natural and engaging way. An Example Q/A given below
 \begin{enumerate}[leftmargin=+0.2in]
-\item Example
+\item Brand Name and External Links
+\item Product or Service Short Brief
+\item Video Links
+\item Ad-Description
 \end{enumerate}
 After the Q/A is completed the client shall be reverted to pay a Minimum Advance Payment. MAP is a refundable escrow payment allocated for subsidizing the creators in an account of cancellation by the client for an un-fulfilled production of the branded-content. To reduce spamming influencers, the MAP amount is paid and confirmed to start a communication between the client \& the influencer. The MAP amount will be provided by the influencer for a safer payment procedure. Once the MAP is paid, the Q/A and the client details will be sent to the influencer directly where he/she can directly start communicating for the creation of draft-ad.
 
@@ -2271,13 +2300,12 @@ The Ad-Fund Contract fetches the necessary data from a decentralized oracle feed
 
 \textbf{Fees \& Billing}\\
 
-PPV - Every Withdrawal - 20\%
+PPV - Every Withdrawal - 20\%\\
 
 
-\textbf{Benefits of Viral-Influencer Ads}\\
-
+\textbf{Benefits of Viral-Influencer Ads}
 \begin{enumerate}[leftmargin=0.2in]
-\item \textbf{Pay for proof} : First Influencer Platform based of pay for proof similar to current social ads which bills clients on the basis of insights.
+\item \textbf{Pay for proof} : Crypto-based Influencer Platform based on pay for proof concept similar to current social ads which bills clients on the basis of insights.
 \item \textbf{Easy Ad-Models} : Pay-per Ad models which is based on Views, Conversions, Days, Post brings whole new opportunities for clients and influencers.
 \item \textbf{Multi-Token Payment} : Promotes tokenized economy and benefits building a portfolio of pre-determined receiving tokens for ads.
 \item \textbf{Secure Ad-Funds} : Ad-Funds are stored in smart-contracts instead of central custodian banks makes it secure and facilitates autonomous payments with additional signatures.
@@ -2285,10 +2313,26 @@ PPV - Every Withdrawal - 20\%
 \item \textbf{Simple Communication} : Efficient communication between the client and the influencer throughout the ad-campaign.
 \item \textbf{Rookie, Intermediary, Elite Categories} : Supports small, mid and veteran influencer for affordable to top-branded ads.
 \item \textbf{Conflict Resolution} : Pre-defined systems like Minimum Advance Payment resolves the sudden cancellation after content production by deducting and sending a subsidiary payment to the influencers.
-\item \textbf{Zero Spams} : Hiring Influencers starts-off with providi Q/A is provided along with a payment.
+\item \textbf{Zero Spams} : Hiring Influencers starts-off with providing a Q/A along with a payment that can reduce spamming influencer with offers.
 \end{enumerate}
 
+\subsection{Viral Decentralized Ads}
 
+Intro\\
+Current Social Ad Benefits \& Problems\\
+Privacy Issues\\
+Current Marketing Models \& Cons\\
+Basic Overview\\
+Concept of Decentralized Privacy Focussed Ads\\
+User Opting \& Quality Based\\
+Use of Zk-Proofs\\
+Technical Overview\\
+Cost Models\\
+Ad-Areas \& Conversion rates\\
+Ad Types\\
+Reducing Spams\\
+Allocation of Ad-cost\\
+Ad-Funds for better targeting\\
 
 
 \subsection{P2P Exchange}
