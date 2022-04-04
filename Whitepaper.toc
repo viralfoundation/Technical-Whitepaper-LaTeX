@@ -38,10 +38,10 @@
 \contentsline {subsection}{\numberline {10.1}Content Moderation Platform}{56}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Developer Platform}{61}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}Influencer-Ad Platform}{63}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Viral Decentralized Ads}{73}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}P2P Exchange}{73}{subsection.10.5}%
-\contentsline {section}{\numberline {11}Global Reward Pool}{76}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Social Users (Impression-based) - 30\%}{78}{subsection.11.1}%
+\contentsline {subsection}{\numberline {10.4}Viral Decentralized Ads}{72}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}P2P Exchange}{72}{subsection.10.5}%
+\contentsline {section}{\numberline {11}Global Reward Pool}{75}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Social Users (Impression-based) - 30\%}{77}{subsection.11.1}%
 \contentsline {subsection}{\numberline {11.2}DAO - 12\%}{80}{subsection.11.2}%
 \contentsline {subsection}{\numberline {11.3}Blockchain-Miners (Gas-based) - 11\%}{80}{subsection.11.3}%
 \contentsline {subsection}{\numberline {11.4}Burn - 10\%}{80}{subsection.11.4}%
