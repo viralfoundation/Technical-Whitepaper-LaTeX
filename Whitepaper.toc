@@ -35,12 +35,12 @@
 \contentsline {subsection}{\numberline {9.5}Other Wallet Features}{55}{subsection.9.5}%
 \contentsline {section}{\numberline {10}Child Platforms}{55}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Content Moderation Platform}{55}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Developer Platform}{60}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.2}Developer Platform}{61}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}Influencer-Ad Platform}{68}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Viral Decentralized Ads}{77}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}P2P Exchange}{77}{subsection.10.5}%
-\contentsline {section}{\numberline {11}Global Reward Pool}{80}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Social Users (Impression-based) - 30\%}{82}{subsection.11.1}%
+\contentsline {subsection}{\numberline {10.4}Viral Decentralized Ads}{78}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}P2P Exchange}{78}{subsection.10.5}%
+\contentsline {section}{\numberline {11}Global Reward Pool}{81}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Social Users (Impression-based) - 30\%}{83}{subsection.11.1}%
 \contentsline {subsection}{\numberline {11.2}DAO - 12\%}{85}{subsection.11.2}%
 \contentsline {subsection}{\numberline {11.3}Blockchain-Miners (Gas-based) - 11\%}{85}{subsection.11.3}%
 \contentsline {subsection}{\numberline {11.4}Burn - 10\%}{85}{subsection.11.4}%
