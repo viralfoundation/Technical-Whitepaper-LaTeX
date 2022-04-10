@@ -19,6 +19,10 @@
 \usepackage {amsmath}
 \usepackage{authblk}
 
+
+%\usepackage{xcolor} \pagecolor[rgb]{0.18,0.18,0.18} \color[rgb]{1,1,1}
+
+
 \usepackage{hyperref}
 \hypersetup{
 	colorlinks=true,
@@ -119,14 +123,14 @@ This is a Sample Problems of the Viral Project.
 \section{Fad of Decentralized Social Media Apps}
 
 \section{Vision Statement}
-To bring blockchain and crypto adoption to the masses we would got to bridge social communication with defi and tokenised economy. The Viral Network of Applications standards are designed in such a way that our vision to bring an proficient, user-friendly mobile application will combine several divisions of decentralized protocols that can lead to an ultimate tool for crypto acknowledgement. The divisions which we are focussing to rebuild is listed\\
+To bring blockchain and crypto adoption to the masses we would got to bridge social communication with defi and tokenised economy. The Viral Network of Applications standards are designed in such a way that our vision to bring an proficient, user-friendly mobile application will combine several divisions of decentralized protocols that can lead to an ultimate tool for crypto acknowledgement. The divisions which we are focussing to rebuild is listed.\\
 \\
 \textbf{\large Social Media}
 \begin{enumerate}
 \item To create a Real-world Decentralised Social Media
 \item To construct an Autonomous self-evolving platform
 \item To construct an Interactive Next-Gen Social Media
-To form a clean people-owned platform appropriate for all age groups
+\item To form a clean people-owned platform appropriate for all age groups
 \end{enumerate}
 \textbf{\large Crypto Adoption}
 \begin{enumerate}
@@ -141,9 +145,11 @@ To form a clean people-owned platform appropriate for all age groups
 \end{enumerate}
 \textbf{\large Blockchain}
 \begin{enumerate}
-\item To supply the utmost speed of transactions through On-Chain and Off-Chain solutions
-\item To Develop a feeless, fast, Zero Inflation, Deflationary, smart contract chain
+\item To supply the utmost speed of transactions through On-Chain and Off-Chain solutions.
+\item To Develop a feeless, fast, Zero Inflation, Deflationary, smart contract chain.
 \end{enumerate}
+
+\section{Proposed Solutions}
 
 \newpage
 \section{Unified Mobile Application - An Intro to Viral}
@@ -154,7 +160,7 @@ External Links : \hyperlink{https://sample.com}{App-Brouchure},\ \hyperlink{http
 
 Viral is a Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies\textsc{\char13} underlying applications into an every-day user-based mobile app. Viral bridges Social Media with Blockchain, Wallets, Exchanges and NFT Markeplaces to bring the ultimate one-app for the common masses to adopt into the tokenised economy.\\
 
-Every media shared on viral is an unique NFT where it can be utilized to create limitless achievable outcomes across the platform. Users can share ultra-short to short videos, thoughts through text, sell NFTs and additionally make communication between one-on-one, private groups and, open channels with total genuine privacy. App users will be benefitted from zero ads, cryptographic encryption, censorship-resistant and, also get to use various cryptocurrencies throughout the platform. Every user is an active contributor to the platform by which they receive rewards (payment) in Viral Coin for effectively utilizing the Viral Application and it\textsc{\char13}s child platforms.\\
+Every media shared on viral is an unique NFT where it can be utilized to create limitless achievable outcomes across the platform. Users can share ultra-short to short videos, thoughts through text, sell NFTs and additionally make communication between one-on-one, private groups and, open channels with total genuine privacy. App users will be benefited from zero ads, cryptographic encryption, censorship-resistant and, also get to use various cryptocurrencies throughout the platform. Every user is an active contributor to the platform by which they receive rewards (payment) in Viral Coin for effectively utilizing the Viral Application and it\textsc{\char13}s child platforms.\\
 
 \section{Viral Platform Architecture}
 
@@ -254,41 +260,6 @@ External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
 	
 
 \end{enumerate}
-
-	\subsection{Development Tech Stack}
-
-	\begin{enumerate}
-
-	\item \hyperlink{https://ipfs.io}{IPFS}: IPFS stands for Interplanetary File System is a peer-to-peer distributed file system that is used for maintaining and distributing files across our Viral IPFS Private network.
-
-	\item \hyperlink{https://gun.eco/}{GunDB}: GunDB is a fully decentralized graph database to store information from user to user meaning that your changes are not affected by any centralized server.
-
-	\item \hyperlink{https://webrtc.org/}{WebRTC}: WebRTC stands for Web Real-Time Communication, an open-source project built primarily for peer-to-peer real-time connections.
-
-	\item \hyperlink{https://www.javascript.com/}{Javascript}: JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
-
-	\item \hyperlink{https://nodejs.org/}{NodeJS}: Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
-
-	\item \hyperlink{https://reactjs.org/}{ReactJS}: React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
-
-	\item \hyperlink{https://docs.soliditylang.org/}{Solidity}:Solidity is an object-oriented, high-level language for implementing smart contracts, mostly used for executing code in Ethereum Virtual Machine
-
-	\item \hyperlink{https://wiki.iota.org/smart-contracts/overview}{IOTA Smart Contract Protocol}: The IOTA ecosystem allows to spin up a smart contract blockchain and anchor it to the IOTA tangle
-	
-	\end{enumerate}
-
-
-\section{How Whitepaper Structured}
-For an efficient understanding, we have seperated the Viral Architecture/Ecosystem\textsc{\char13}s major sectors.\\
-
-\begin{itemize}[leftmargin=+0.2in]
-\item Social Media and User Experience (Page 1-10)
-\item Blockchain, Token Ecosystem (Page 10-15)
-\item Viral Pay - Multi-Token Smart Wallet (Page 15-20)
-\item Child Platforms (Page 20-25)
-\item Revenue and Incentives (Page 25-30)
-\item Viral DAO  and Governance
-\end{itemize}
 
 \section{Social media and User Experience}
 Viral is a multi-media sharing decentralized social network that brings meta-experience with friends, family and other people to communicate, share posts and send messages across the globe with absolute privacy. Viral sets Non-Fungible-Tokens (NFT) as a standard for every post that shared in the network which intends to bring interactive social experience and utility use cases of blockchain environment.\\
@@ -607,9 +578,11 @@ This is classified into
 
 \textbf{1. Media Storage}\\
 
-All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes and Trusted IPFS Cluster Nodes. Thus promising the security of media.\\
+All Media uploaded to Viral is End-to-end Encrypted where all the files are encrypted using Symmetric AES-256 Encryption Standard on the device and gets uploaded to Trustless IPFS Public Nodes and POA based Viral Private IPFS Cluster Nodes. Thus promising the security of media.\\
 
 \textbf{Storing Files using IPFS}\\
+
+
 
 
 
@@ -947,11 +920,9 @@ High Frequency trading cannot be run using automated smart contracts to maintain
 
 Users will be able to stake both coins VRL and VSC proportionally to a smart contract in the mobile app which process all transactions of burning and minting VRL for VSC automatically without the need for user signature and receive profits from arbitrage opportunities by minting and burning the coins to balance the volatility. The Smart Contracts will add and subtract coins on each pools to maintain stability.\\
 
-\subsubsection{Wrapped Tokens}
+\subsubsection{Decentralized Blockchain Bridges}
 
 To acknowledge the tokenized economy Viral will bring popular cryptocurrencies such as Bitcoin, Ethereum, Dogecoin, etc into the Viral Smart Chains using wrapped token method. Since interoperability of blockchains are not possible (blockchains cannot talk to each other), centralized exchanges are used to exchange cryptocurrencies between each other using order books where the exchanges act as a custodian maintaining the user’s crypto holdings (E.g.: Bitcoin to Ethereum). To eliminate centralized processes, tokenization of other blockchain coins are introduced. Original Tokens will be reserved in it's native blockchain and a copy of the tokens, new wrapped tokens will be minted (created) on Viral Smart Chains. The wrapped tokens will be 1:1 pegged with the native cryptocurrency and can be used in various de-fi applications. Viral Smart Chain's approach is to develop several wrapped tokens of popular cryptocurrencies for its users to invest and exchange in a decentralized manner.\\
-
-\textbf{Viral Decentralized Bridge}\\
 
 Intro\\
 Type of Viral Bridges\\
@@ -1673,7 +1644,7 @@ When it comes to withdrawing funds from main pool and transaction fee pool the f
 
 Snapshots
 \begin{enumerate}[leftmargin=+0.2in]
-\item VNS-id:Token A Balance:Token B Balance
+\item VNS-id : Token A Balance : Token B Balance
 \item example : 10 : 50
 \end{enumerate}
 
@@ -1913,11 +1884,15 @@ The need for faster transactions is rising higher every year and new technologie
 
 
 
+Social Media platforms censor user-generated content to prevent abuse on posts and comments which doesn't follows community guidelines that categorizes illegal, inappropriate, violent and offensive content.  Today's social media has become an integral part of our lives from exchanging valuable information to proving individual ideologies. A vast amount of people receive news from several social media platforms including lawmakers, victimizing people to fake news and conspiracy theories became a common tool for social media users who commit fraud by disclosing fake information to the society. Multiple instances of issuing fake propaganda and government manipulating people by hiding free-speech in democratic countries and the never ending ideological hatred among leftist and rightist have proved a need for a moderation of content spreading across social platforms to minimize violence breakouts. A larger portion of teenagers who use social media are exposed to misinformation and conspiracy theories which are very easily believed.\\
+
+Companies like Facebook, Twitter uses a combination of tools to search out and remove posts that violates their policies using AI and human moderators.
+
 Centralized social media holds the administrator rights of users’ data which circulates in their platform and also misuses their authority by deleting or expelling a certain user from posting content. This effectively increases the chance of eliminating individual rights, dealing with governments, and most importantly losing the trust of the people. Usually, content moderators on existing social platforms will be held responsible for removing illicit content whereas sometimes due to a centralized approach these moderators are told to filter independent content posted by creators on certain topics where the companies works with the governments sideways. This is why a decentralized community such as ROV is needed for the Viral Network to automate the process by giving administrative rights of the source-uri of contents inside the Viral-Alpha Application to a swarm of moderators which is going to be the key for independent content and removal of explicit contents in a faster and democratic way possible.\\
 
-ROV is an abbreviation for Republic of Viral, a decentralized community-based organization inside Viral Network to govern, filter out reported contents, give support to users, verify VIPs, vote on involvements of community members, etc. The Community is solely developed to bring a decentralized way of allowing a network of administrators under a voting mechanism to remove NSFW, spam content in the Viral Network, and aims to create a cleaner social media while restraining the power of censorship resistance. \\
+\textbf{ROV - Republic of Viral}\\
 
-ROV is designed for curators to work as employees of an organization with a common goal with maximum trust and anonymity. This decentralized way effectively reduces the opinion of a single person, an entity’s founder, and any external influence where the community only decides which is better for the platform. ROV eliminates the need for a centralized entity to run a social platform that holds the power of democracy while ignoring censorship resistance. \\
+ROV is an abbreviation for Republic of Viral, a decentralized community-based organization inside Viral Network to govern, filter out reported contents, give support to users, verify VIPs, vote on involvements of community members, etc. The Community is solely developed to bring a decentralized way of allowing a network of administrators under a voting mechanism to remove NSFW, spam content in the Viral Network, and aims to create a cleaner social media while restraining the power of censorship resistance. ROV is designed for curators to work as employees of an organization with a common goal with maximum trust and anonymity. This decentralized way effectively reduces the opinion of a single person, an entity’s founder, and any external influence where the community only decides which is better for the platform. ROV eliminates the need for a centralized entity to run a social platform that holds the power of democracy while ignoring censorship resistance. \\
 
 \textbf{Moderation and Manual Removals}\\
 
@@ -1987,30 +1962,11 @@ ROV will be having a separate Mobile Application for curators and moderators to 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=8cm]{rov-poll}
+\includegraphics[width=10cm]{rov-poll}
 \caption{Glimpse of ROV Process}
 \end{center}
 \end{figure}
 
-
-\begin{comment}%rovgrpah
-
-%mermaid graph https://mermaid-js.github.io/
-
-flowchart TB
-
-A([User Reports])--From Viral App-->B[/ROV Receives/]
-B-->C
-C[Creates Poll]-->D[Timer Starts]
-D-->E{If 95% Votes >10}
-D-->|Timer Finishes|H
-E--no-->G[Timer Continues]
-E--yes-->H[Poll Ends]
-G--loop-->E
-H-->|Result: Keep|I([Re-Appeal Notified])
-H-->|Result: Remove|J([IPFS source removed])
-
-\end{comment}
 
 \textbf{Re-Appeals}\\
 
@@ -2089,61 +2045,153 @@ Every day according to every individual curators contribution rewards will be al
 
 \subsection{Developer Platform}
 
-Intro\\
-Emerge of Open-Source\\
-Benefits of Opne-Source Development-Community\\
-Basic Overview\\
-Platform Overview\\
-Automating Beta-Development\\
-Development Community\\
-Bug Fixes\\
-Cost of Development\\
-Developer Overview\\
-Project Selection \& Restrictions\\
-Workspace overview\\
-Github Integration\\
-Commits, Pulls and Pushes\\
-Project Feed \& Appraisals\\
-Reward Allocation\\
-New Projects\\
-Bounties\\
+Open-Source projects are considered as free revolutionary software-technologies in competition with profit-making closed source projects developed by monopoly companies under a team of few high-equipped developers. During the time of internet and usage of computer softwares, a look into source-code with a collaborative structure of development of a particular software built trust among developers and aided to better performance and flexibility. The “open source” label was created at a strategy session held on February 3rd, 1998 in Palo Alto, California, shortly after the announcement of the release of the Netscape source code. By realeasing their code to the public Netscape has illustrated a valuable way to engage with potential software users and developers, and convince them to create and improve source code by participating in an engaged community. The emergence of popular projects like Linux, a Free Open-Source Operating System, released under GNU General Public License (GPL) became the largest open source project in the world shortly after Linus Torvald and 100 other developers launched version 1.0 of the Linux Kernel  on 1994 as a free, alternative Operating System to other UNIX based closed sources at that time.\\
+
+Although most people are rooting for free-softwares the open source projects are mostly lead by groups of developer communities and are discussed and built among white-listed communities due to lack of tooling available for collaboration. By 1999 Source Forge was developed as a collaboration tool where developers can host, manage their code for free and resolve bugs together in one place. These collaborative tools are known as distributed version control systems. While most tools improved the open source initiative, it was Git which revolutionized the distributed version control system by storing references to file snapshots instead of storing list of file changes like other tools in the market. By 2008, Open-source projects became more popular among developers to collaborate in interesting projects with Developer Q/A platforms such as Stack Overflow later expanded to network of Q/A sites which collectively called as Stack Exchange.\\
+
+The inception of Open-source has paved way for the birth of blockchain technology that we see today as a pioneer in financial and immutable applications sector. Although Open-source and Block-chain technology serves different ideologies and techniques, we can see the qualities of both running parallel to each other. The motivation in open-source platforms drove the emergence of block-chain technologies. Almost all the prominent cryptocurrencies in the market, including Bitcoin and Ethereum, are open source. Their design and codebases are available in the public domain. 99\% of all the projects built on top of blockchains are open-sources are driving the most developer activity. These are some of the hundreds if not thousands of ways that blockchain is being implemented with the help of open source collaboration amongst developers across the world. There’s no doubting that open source is a major driving force behind the rapid development and deployment of blockchains across a variety of industries. The creation of blockchains on such a vast scale would have been impossible without open source management systems like GitHub and BitBucket, as well as a version control system like Git. The blockchain revolution is being powered by open source.\\
+
+\textbf{Building a Paid Developer Platform}\\
+
+Developers work with Open-source code improving and building upon it to create better version of the current software. The source code is made available online under specific license to modify, edit or distribute the software. Most of the open source project's initial versions will be built by the founding organization's bootstrapped developers and later the bugs and issues will be resolved by open-source developers by contributing their time, skill and effort. Software users leave feedback and problems they encounter along with new feature requests to make the software more user-friendly and functional.\\ 
+
+Some of the well-known benefits of building an open-source software are
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Lesser Costs} : Open-source software eliminates the fees involved in commercial softwares on licensing and maintenance, while reduces expenditures on documentation, media and support
+\item \textbf{High-Quality Software} : The availability of source code is well audited by various developers producing a neater and a well-structured code base efficiently used for building on top of it.
+\item \textbf{Huge Support} : Easy access to internal code of the available software increases the chance of greater support from online communities, centralized organizations, freelance spaces to grow a well-developed software
+\item \textbf{Speed of Development} : Open-source enables the world of instant issues solving community that can offer faster results in terms of bug fixing, feature building, etc
+\item \textbf{Improved Security} : Building a safer software by issuing transparency for every white-hat professionals in the world to review, find vulnerabilities to constantly build a safer, stronger software
+\item \textbf{Innovation Exchange}: New disruptive features will be contributed by individuals and entities sharing their innovation driving a creative work-space for other developers working on the open-source project.
+\end{enumerate}
+
+Usually open source developers earn from their regular jobs and does not get paid for their contribution to the source code of the project they are working on. Companies that bootstrap the development of open source projects builds it using developers they hire and release it open-source for anyone to fork and make necessary changes to the code. Companies doesn't track contributions and it is upto the developer to choose what he/she finds interesting to work on with or without getting paid. Organizations like RedHat, IBM, Oracle employs developers and pay them accordingly for working on several open projects. Open Source initiatives brings better flexibility of acquiring free developers around the world but majority of the organizations doesn't provide any incentives or a financial motive for a quality source code.\\
+
+The Viral Network of applications provide a new initiate known as "Paid - Open Source Initiative (POSI)" through a open platform/space which allocates incentives for every developer contributing to the repositories source codes without a central entity's authority making it a fully decentralized system leaving the reward allocation of every single developer into the hands of fellow community developers eliminating an elected leader. The platform is named as "Viral Dev-Space" and it comprises the solution provided to develop viral open-source projects seamlessly with forward and backward communication between developers and incentive them accordingly for their contribution every day from the global reward pool.\\
+
+\textbf{Viral Dev-Space}\\
+
+Viral Dev-Space, a platform for developers to develop, communicate together with other experts, and receive rewards for their contribution to the Viral Open-Source applications and future development plans of the public and the Viral DAO. The Space for developers is created to decentralize and automatize the Software Research \& Development sector of Viral Applications in an efficient way by providing rewards in Viral Coins through unbiased voting based on the intensity of their contribution and popularity in the development community.\\
+
+An opportunity for all developers is provided regardless of their educational background, region, and language to work on improving the viral decentralized applications on fields such as security, interoperability with other social giants and also to make the application bug-free while providing new updates to the beta software which will be available as an Open-source repository. Giving new opportunities to develop for an upcoming massive social network will pave a way for fastening the development process by the potential of mass development techniques.\\
 
 
-Viral Dev-Space is a platform for developers to develop, communicate together with other experts, and receive rewards for their contribution to the Viral Open-Source applications and future development plans of the public and the Viral DAO. The Space for developers is created to decentralize and automize the Software Research \& Development sector of Viral Applications in an efficient way by providing rewards in Viral Coins through unbiased voting based on the intensity of their contribution and popularity in the development community.\\
+\textbf{Platform Overview}\\
 
-Viral will be providing an opportunity for all developers regardless of their educational background, region, and language to work on improving the viral decentralized applications on fields such as security, interoperability with other social giants and also to make the application bug-free while providing new updates to the beta software which will be available as an Open-source repository. Giving new opportunities to develop for an upcoming massive social network will pave a way for fastening the development process by using the potential of mass development techniques.\\
+A web application is provided where developers can join, interact in development groups and receive rewards daily every 24 hours according to their contribution. This application will be maintained by Viral DAO. The App will serve as a community platform where any developer can choose their favorite preferences, communities, and development projects. Developers can choose the project of their preference by searching and also by opting for an interactive questionnaire to find out which project is suitable for them. After giving their preference they can choose the project they want to work in. The developer will have a limit of working on two projects at a time, where they can remove themselves from the project team and opt for other projects as well. This will ensure that developers will have an increased productivity and a higher success rate in specific projects.\\
 
+\textbf{Viral-Github Integration}\\
 
-\textbf{Short Benefits}:
+\begin{center}
+\includegraphics[width=4cm]{git-int}
+\end{center}
+
+Developers are registered by integrating their git-hub profile with their viral username on the dev-space application. Since viral immutable user name is the native smart chain's name service system that transports the assets to the public address linked up with the username. This allows developers to sign-up with the viral social application by registering their usernames and creating viral smart wallet, etc for receiving incentives on their daily contribution. Github profiles with commits and merge requests to viral projects main/beta repositories is monitored and feeded to the dev-space specific project's feed for other developers to give shout-outs to their favourite commits to give them increased amount of incentives.\\
+
+Viral makes use of git version control system to keep track of changes made by whom and when those change were made to the code repository. Viral Foundation, the only central entity will be provided the administrator rights that maintains the hosting of repositories through Github, the most popular code hosting provider commonly used by developers around the world. Viral Dev-Space developers can work on repositories by cloning available projects, creating their own copies, making necessary changes and merging them to the development branch repository after the code is peer-reviewed by the open-source developers employed by the Viral Foundation.\\ 
+
+\textbf{Work-space overview}\\
+
+Dev-Space from Viral is a open communication platform for developers that comprises of chat groups, sub groups, feed, reward determination programs, project initialization, collaborator network, vulnerability section, etc that will help in an automated workspace environment for quality collaboration for seamless distributed development. Every developer profile will be publicly accessible which is integrated with their individual viral profiles. List of projects, detailed description, successful merges, codes under review, chat pages \& recent interaction between developers will be available for an open audit by any viral user. Each project will have different chat channels (E.g., Back-End) based on development sector of the current project which will also includes sub-channels (E.g., Database Management) for better communication among team of public developers. In short, Dev-Space is a communication \& reward platform for viral Paid Open Source Initiative (POSI) developers.\\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{devspace-overview}
+\caption{Overview of Dev-Space}
+\end{center}
+\end{figure}
+
+\textbf{Developer privileges}
+
 \begin{itemize}[leftmargin=+0.2in]
-\item Full Automation on Research \& Development
-\item Potential of a bigger development community
-\item New, Exciting Unknown Developments for the application
-\item Shorter Time for fixing bugs and issues
-\item The cost of Development is considerably low
-\item Decentralized HR \& Rewards according to the contribution
-\item Expedite the Development of Viral Future Plans
-\item And many more advantages to receive a contribution for the application’s source code in trade for daily rewards
+\item To sign-up in the Dev-Space Developers are required to integrate their viral account with Git-hub account. All projects will be publicly accessible to see, but are required to join to communicate and start developing.
+\item Newly registered developers will be able to join maximum 2 projects at a time, they can able to remove themselves, rejoin at any-time.
+\item Should successfully merge/pull request one time to the beta repository to receive daily shout-out privileges.
+\item Can always make a shout-out to the developer's own post in the project feed after a successful merge request.
+\item Everyday for project developers 2 shout-outs will be allocated for appreciating other developer's contribution to the project repository.
 \end{itemize}
 
-\textbf{Allocation of Rewards}\\
+\textbf{Communities \& Communication}\\
 
-The rewards are based on democratic voting where every developer will have their own project feed to appreciate the work of other developers. There will be an engagement feature to “Like” the contribution they’ve pushed to the code repository. After a developer makes a commitment to the repository by pushing his/her code and after the merge, their work will be posted on the project’s main feed. At the end of the day every 24 hours, the amount of likes every post received by the user profiles on all the projects will be taken to segregate the amount of rewards per developer. Refer Rewards section for detailed information on the segregation of total revenue separated for developers.\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=9cm]{chat-community}
+\caption{Chat Communities}
+\end{center}
+\end{figure}
 
-\textbf{Application}\\
+The Workspace is divided by chat groups and sub-groups for communication that represents a commitee of developers working on a certain sector in the repository. Developers can able to post messages, review code in terms of series of communications, conduct private chats, make group/sub-group video meetings and more features which will be updated by the developers themselves on how they would want the environment to be.\\
 
-Viral will provide a web application where developers can join, interact in development groups and receive rewards daily every 24 hours according to their contribution. This application will be maintained by Viral DAO. The App will serve as a community platform where any developer can choose their favorite preferences, communities, and development projects. Developers can choose the project of their preference by searching and also by opting for an interactive questionnaire to find out which project is suitable for them. After giving their preference they can choose the project they want to work in. The developer will have a limit of working on two projects at a time, where they can remove themselves from the project team and opt for other projects as well. This will ensure that developers will have an increased productivity and a higher success rate in specific projects.\\
+\textbf{Project Feed \& Shout-outs}\\
 
-\textbf{App Features}\\
-
+The Project Feed is similar to a social media news feed which contains all the successful pull/merge requests by various Public Developers on specific projects. Each Project contains seperate feed where registered developers (who has shout-out privileges) can able to appreciate the contributions that can result in larger reward allocation for a specific contribution. Only the developers currently working on the project can able to shout-out for the inside circle of developers. The feed will be refreshed every 24 hours at 2.00 AM UTC to provide equal time for all the posts to receive shout-outs. The time-line of a pull-request is as follows
 \begin{itemize}[leftmargin=+0.2in]
-\item Choosing preferred project
-\item Collaborative Workspace for Developer Teams
-\item Easy Work-Management
-\item GitHub Account Integration
-\item Private and Project Group Chats
-\item Add New Projects to Dev-Space by providing a whitepaper
+\item Merge requests by Public Developers will be reviewed and if conflicts, resolved by the collaborators
+\item After the merge request is successful the commits will be made to the beta-branch in the project repository and a post will be scheduled to the project feed at 2.00 AM UTC feed
+\item This post will include the developer's VNS (viral) username, git-hub's username and the pull-requet's title, description, snapshot-link, etc.
+\item Every pending post will be scheduled on 2.00 AM UTC to provide a equal time period for all the developers to  receive shout-outs from various developers that aids in larger rewards. 
 \end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{post-dev}
+\caption{Merge/Pull Requests Post in Project's Feed}
+\end{center}
+\end{figure}
+
+
+
+\textbf{Project Collaborators for Conflict Resolutions}\\
+
+\begin{figure}[H]
+\begin{center}
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [Viral Developers
+  	[Private Collaborators]
+  	[Public Developers]
+  ]
+\end{forest}
+\end{center}
+\end{figure}
+
+Private Collaborators and Public Developers work together to develop, make changes and bring a better beta-application. Both are rewarded for their contribution to the Projects that are run by Viral. Being a collaborator, in a viral project repository you can read (pull) the contents of the repository and write (push) changes to the repository without administrator permissions. Collaborators on existing projects are initialized by Viral Foundation which will be frequently updated by taking top developers working on the current project. Collaborators resolve conflicts on merge requests and update the beta repository accordingly for further releases of the updated application. Collaborators sole purpose is to review the pull/merge requests, resolve conflicts and merge the code. The reward allocation for developers are as follows
+\begin{itemize}[leftmargin=+0.2in]
+\item \textbf{No Conflict - Rewards} : 5\% Collaborator, 90\% Public Developer
+\item \textbf{Conflict - Rewards} : 15\% Collaborator, 85\% Public Developer
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=11cm]{dev-reward-distribution}
+\caption{Conflict Resolve Collaborator Reward Allocation}
+\end{center}
+\end{figure}
+
+To add or remove collaborators to the project Git-hub repository, 51\% of the existing collaborators must hold a anonymous vote to prove that the majority would want to add/expel a certain individual from the project.\\
+ 
+\textbf{Rewards for Development}\\
+
+The rewards are based on democratic voting where every developer will have their own project feed to appreciate the work of other developers. There will be an engagement feature to "Shout-out" the contribution they've merged to the code repository. After a developer makes a commitment to the repository by pushing his/her code and after the merge, their work will be posted on to the project's main feed. All posts will be visible for a span of 24 hours 2.00 AM UTC to 2.00 AM UTC, the amount of shout-outs received by the developers on all the projects will be taken to segregate the amount of rewards per developer. Every post will be treated equally where higher the shout-outs higher the rewards. This typically makes a partition of a larger portion of rewards allocated to a bigger developement community project where smaller projects receive only considerable amount of rewards. Refer Rewards section for detailed information on the segregation of total revenue separated for developers.\\
+
+
+\textbf{New Project Proposals}\\
+
+One of the prominent advantages of Viral's POSI- Paid Open Source Initiative is that creative developers will come up new ideas and significant features which will be annexed to the viral social media application, child platforms or the blockchain environment. These ideas usually in other open-source projects is left out openly where the bootstrapper (developer) will eventually start-up the developement and will carried by other public developers that will result in developers abandoning the project, leaving it's code vulnerable (not updated frequently) due to various factors such as finance, time allocation, work-load.  New projects will be financed by the Viral DAO and will be paid accordingly for every merge request by the public developers to the project repository. Application for financing the projects can be applied by creating a proposal in the governance portal of the Viral DAO platform which will be explained vividly in the Governance section of the Whitepaper. The bootstrappers of the new projects shall request to submit a whitepaper explaining the technical information of the project and the financing rounds information by which a vote will be conducted and the funds will be sent from the Viral-DAO Tresury. Commisions or profit taken from the solutions offered by the developers should allocate a certain portion to the Global Reward Pool. \\
+
+\textbf{Security Bounties}\\
+
+Apart from developer rewards, a certain percentage from the global reward pool is allocated for security bounties which will increases the chances of secure vulnerable-less applications. The shout-outs can be given by all the developers under a certain project for maximizing the amount of reward allocation.\\
+
+\textbf{Other Sections in Dev-Space}
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Bugs Feed} : Section specifically allocated to see user bug reports experienced in the project's stable release application.
+\item \textbf{User Requests} : Users can directly request the project developers for a feature additions or other development ideas from which developers can get neccessary ideas for effective user-expected development.
+\end{enumerate}
+
+\textbf{Project Repository Lisencing}\\
+
 
 \subsection{Influencer-Ad Platform}
 
@@ -2159,15 +2207,11 @@ Viral Influencer Ad-Platform is a place where influencers get connected with bra
 \textbf{Influencers}\\
 
 Businesses looking for influencers for their next ad-campaign shall look in terms of followers count on a specific profile where larger brands involve bigger influencers ($\geq$ million followers) and medium enterprises involve smaller influencers ($\leq$ million followers). For seamless results in the Viral Influencer Platform the creators are categorized into several categories according to their followers count
-\begin{enumerate}[leftmargin=+0.2in]
-\item \textbf{Class X} : $\geq$ 10M Followers
-\item \textbf{Class A} : $\leq$ 10M Followers
-\item \textbf{Class B} : $\leq$ 1M Followers
-\item \textbf{Class C} : $\leq$ 500K Followers
-\item \textbf{Class D} : $\leq$ 100K Followers
-\item \textbf{Class E} : $\leq$ 50K Followers
-\item \textbf{Class F} : $\leq$ 10K Followers
-\end{enumerate}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{influencer-class}
+\end{center}
+\end{figure}
 
 A minimum follower count (1K) and a daily impression count is required for signing up in the Viral Influencer Program. Influencers shall provide their per-impression rates on their profiles. Their daily, hourly impression counts are taken into account to display brands and businesses expected ad-result in a certain time period, etc. Influencers can post their per-impression rate on promising certain ad-result for the ad-buyers in easy simple steps. Elite influencers fall onto the category of Class X will be billing higher rates per-impression where smaller Classes will be billing lower rates per-impression. \\
 
