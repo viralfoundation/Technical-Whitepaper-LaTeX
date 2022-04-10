@@ -1,5 +1,5 @@
 \documentclass[10pt]{article}
-\usepackage[a4paper]{geometry}
+\usepackage[a4paper, left=25mm, top=30mm, right=25mm, bottom=40mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -260,6 +260,8 @@ External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
 	
 
 \end{enumerate}
+
+\newpage
 
 \section{Social media and User Experience}
 Viral is a multi-media sharing decentralized social network that brings meta-experience with friends, family and other people to communicate, share posts and send messages across the globe with absolute privacy. Viral sets Non-Fungible-Tokens (NFT) as a standard for every post that shared in the network which intends to bring interactive social experience and utility use cases of blockchain environment.\\
@@ -708,17 +710,8 @@ Viral will be a safe haven for anonymity, privacy, and security in eliminating t
 
 TOR routes you through several additional nodes while encrypted, no one can trace it back to you. VPN will redirect your internet traffic through a secure tunnel, hiding your IP address and encrypting your data in the process.\\
 
-\textbf{Content Delivery}\\
 
-Visualization with changes to minting as NFT\\
-
-\textbf{IPFS Cluster}\\
-
-Visualization of Repetition\\
-
-Addition of Nodes – Trusted Way\\
-
-Phase 2 – Trust less Way (IPFS-VM)\\
+\newpage
 
 \section{Blockchain, Token Ecosystem}
 
@@ -987,6 +980,7 @@ Viral Smart wallet is an integrated open-source EVM based hot wallet application
 
 
 
+\newpage
 
 \subsection{Viral Decentralized Exchanges}
 
@@ -1672,6 +1666,8 @@ Upon withdrawal the investor deducts his balance from the reserve pool according
 \item \textbf{Higher Yields for LPs} : Unlike current AMMs that require larger pools to become stable without volatile effects, Viral requires only a liited amount of Liquidity equal to the trading volume, which can provide a smaller group of LP's maximum yields.
 \end{enumerate}
 
+\newpage
+
 \subsection{Viral Fiat-Exchange}
 
 Centralized exchanges (CEXs) are a type of cryptocurrency exchange that is operated by a company that owns it in a centralized manner. Centralized exchanges most commonly facilitate trades between users by maintaining an order book: a collection of buy and sell orders posted by individual traders. CEX users do not actually exchange crypto or fiat currencies with each other. Instead, when they deposit their funds onto an exchange, the latter takes over the custody of the crypto assets and issues a corresponding amount to the buyer and seller. Users store their crypto assets on the exchange. Since the private key's ownership rests with the exchange, there is a risk of total loss should the exchange be compromised (Not your Keys, not your Coins). Cases of this kind are rare but historically have already occurred with losses in millions. CEX exchanges are under the control of regulators, third-party providers, and legal regulations. To prevent money laundering, operators are required to collect extensive data about their customers (KYC). This regularity is contrary to the basic idea of cryptocurrencies.\\
@@ -1877,6 +1873,8 @@ Fiat-Tag Tokens are burned upon Cash Out request from the KYC User to the corres
 
 The need for faster transactions is rising higher every year and new technologies have been introduced such as NFC, Scan Code, etc. Since Viral Wallet is a crypto wallet, it will be hard for people to use a public address to send and request Viral Coins or other cryptocurrencies to Merchants using the Smart Wallet . QR Pay is a feature to be added on the Smart Wallet to facilitate faster recognition of seller’s wallet address and the amount to be transferred by scanning a simple generated QR Code through Viral Application. This QR Pay will come when the user doesn’t know their username and want to request money from a nearby person. This will be helpful for businesses to collect payment from users swiftly by entering the amount needed to be paid.\\
 
+\newpage
+
 \section{Child Platforms}
 
 
@@ -1886,7 +1884,16 @@ The need for faster transactions is rising higher every year and new technologie
 
 Social Media platforms censor user-generated content to prevent abuse on posts and comments which doesn't follows community guidelines that categorizes illegal, inappropriate, violent and offensive content.  Today's social media has become an integral part of our lives from exchanging valuable information to proving individual ideologies. A vast amount of people receive news from several social media platforms including lawmakers, victimizing people to fake news and conspiracy theories became a common tool for social media users who commit fraud by disclosing fake information to the society. Multiple instances of issuing fake propaganda and government manipulating people by hiding free-speech in democratic countries and the never ending ideological hatred among leftist and rightist have proved a need for a moderation of content spreading across social platforms to minimize violence breakouts. A larger portion of teenagers who use social media are exposed to misinformation and conspiracy theories which are very easily believed.\\
 
-Companies like Facebook, Twitter uses a combination of tools to search out and remove posts that violates their policies using AI and human moderators.
+Moderation in current Social Platforms\\
+
+Companies like Facebook, Twitter uses a combination of tools to search out and remove posts that violates their policies using AI and human moderators.\\
+
+Issues faced by biased views, alogrithms, moderators, payrolls, slow,\\
+
+Methods of Moderation\\
+
+
+
 
 Centralized social media holds the administrator rights of users’ data which circulates in their platform and also misuses their authority by deleting or expelling a certain user from posting content. This effectively increases the chance of eliminating individual rights, dealing with governments, and most importantly losing the trust of the people. Usually, content moderators on existing social platforms will be held responsible for removing illicit content whereas sometimes due to a centralized approach these moderators are told to filter independent content posted by creators on certain topics where the companies works with the governments sideways. This is why a decentralized community such as ROV is needed for the Viral Network to automate the process by giving administrative rights of the source-uri of contents inside the Viral-Alpha Application to a swarm of moderators which is going to be the key for independent content and removal of explicit contents in a faster and democratic way possible.\\
 
@@ -2042,6 +2049,7 @@ Since ROV is regarded as a DAO (Decentralized Autonomous Organization) we make s
 
 Every day according to every individual curators contribution rewards will be allocated to their wallets where they can collect it manually after 2AM UTC. 
 
+\newpage
 
 \subsection{Developer Platform}
 
@@ -2192,6 +2200,7 @@ Apart from developer rewards, a certain percentage from the global reward pool i
 
 \textbf{Project Repository Lisencing}\\
 
+\newpage
 
 \subsection{Influencer-Ad Platform}
 
@@ -2358,7 +2367,7 @@ PPV - Every Withdrawal - 20\%\\
 \item \textbf{Conflict Resolution} : Pre-defined systems like Minimum Advance Payment resolves the sudden cancellation after content production by deducting and sending a subsidiary payment to the influencers.
 \item \textbf{Zero Spams} : Hiring Influencers starts-off with providing a Q/A along with a payment that can reduce spamming influencer with offers.
 \end{enumerate}
-
+\newpage
 \subsection{Viral Decentralized Ads}
 
 Intro\\
@@ -2377,6 +2386,7 @@ Reducing Spams\\
 Allocation of Ad-cost\\
 Ad-Funds for better targeting\\
 
+\newpage
 
 \subsection{P2P Exchange}
 
@@ -2432,7 +2442,7 @@ The Buyer enters the amount of tokens he would like to buy and the current marke
 
 Our ultimate vision is to develop a decentralized social media without any central authority or a need for a company to run its product, a P2P Exchange will carry out its process of buying and selling Viral Coins for Fiat money. This ensures the trades cannot be banned nor withdrawn no matter what the land rules are.\\
 
-
+\newpage
 
 \section{Global Reward Pool}
 
@@ -2689,6 +2699,8 @@ The segregation takes place every day at 2 AM UTC according to the votes they go
 
 If the user opts for transferring the rewards to a Non-Profit-Organizations it can be easily transferred directly to the user's preferred Charity. Viral will have a registration portal for Charities to Register their information and get verified to appear on the Application's Wallet.\\ 
 
+\newpage
+
 \section{Governance \& Viral DAO}
 
 Viral incorporates a vast ecosystem of blockchains and De-Fi application along with the integration of social networking for the masses to adopt cryptocurrencies to the fullest. While aiming for a true-decentralized product, governance plays a huge role in every aspect of decisions on updating the protocols. Most de-fi organizations have separate on-chain governance communities apart from offline-governance to vote and improve their platforms, Viral prepared to seperate governance of current and future products into two governance models and bring decentralized decision making oppurtunity for the members of the community. The Viral Foundatoin decided not to bring in any centralized governance model for any of it's ecosystem except the ViralFEX since it complies with regulatory restrictions.\\
@@ -2738,6 +2750,8 @@ Viral Operations Cost Structure Proposals\\
 DAO Treasury and Decisions\\
 Intial DAO Coin Offering\\
 DAO Bylaws\\
+
+\newpage
 
 \section{Tokenomics \& ICO}
 
@@ -2815,7 +2829,7 @@ pie
 \subsection{Investor Exit Strategies}
 
 
-
+\newpage
 
 \section{Development Roadmap}
 
