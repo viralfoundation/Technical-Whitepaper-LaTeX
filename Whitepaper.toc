@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {9.4}Business-Wallet API and SDK}{50}{subsection.9.4}%
 \contentsline {subsection}{\numberline {9.5}Other Wallet Features}{50}{subsection.9.5}%
 \contentsline {section}{\numberline {10}Child Platforms}{52}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Content Moderation Platform}{52}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.1}ROV - Content Moderation Platform}{52}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Developer Platform}{58}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}Influencer-Ad Platform}{66}{subsection.10.3}%
 \contentsline {subsection}{\numberline {10.4}Viral Decentralized Ads}{74}{subsection.10.4}%
