@@ -1903,34 +1903,25 @@ To counter these issues faced by users and moderators, a decentralized moderatio
 
 ROV is an abbreviation for Republic of Viral, a decentralized community-based organization inside Viral Network to govern, filter out reported contents, give support to users, verify VIPs, vote on involvements of community members, etc. The Community is solely developed to bring a decentralized way of allowing a network of administrators (moderators) under a voting mechanism to remove NSFW, spam content in the Viral Network under it's updated community guidelines, and aims to create a cleaner social media while restraining the power of censorship resistance. ROV is designed for curators (moderators) to work as employees of an organization with a common goal with maximum trust and anonymity. This decentralized way effectively reduces the opinion of a single person, an entity’s founder, and any external influence where the community only decides which is better for the platform to display. ROV eliminates the need for a centralized entity to run a social platform that holds the power of democracy while ignoring censorship resistance. \\
 
-A quick look of ROV-process is looks like this\\
+Viral employs both automated AI tools and human based moderators for reviewing in-appropriate posts circulating the viral social platform. Viral makes use of three different models on moderating content, that is
+\begin{enumerate}[leftmargin=+0.2in]
+\item \textbf{Reactive Moderation} : Posts manually reported by viral users, reviewed and taken down manually by ROV curators.
+\item \textbf{Pre-Moderation} : Automated algorithm runs before publishing to prevent posting contents that emphasize nudity, bullying and abuse.
+\item \textbf{Hybrid Post-Moderation} : Involves automated tools to find illicit content of public accounts, reviewed and taken down manually by ROV curators.
+\end{enumerate}
+
+\textbf{Reactive Moderation of Content}\\
+
+Reactive Moderation is a manual yet highly scalable method that involves both normal users and rov-curators collectively work to filter out contents that doesn't fit the community guidelines \textit{(which will be available to all the curators and users after the alpha-release of the viral social platform)}. User reports an in-appropriate content under a certain category is published as a poll in the ROV application under a certain time limit in accordance to the category, reviewed and voted by the curators which will be decided on majority's vote to keep or take it down.\\
 
 \textbf{Moderation and Manual Removals}\\
 
-To remove a post in centralized social media, the entity governing the application shall remove the user's database tables that contains the post-meta data. Post Metadata is defined as the data providing information about one or more information about a post i.e., image url, description, etc. Unlike centralized social media, Viral is a decentralized social media that doesn't owns user's data, hence Viral and it's developers doesn't have governance over users meta-data. For a clean, appropriate content platform moderation is a key for it's growth. Viral proposes to solve moderation issues by removing the media's source from it's following storage nodes i.e., Private IPFS Cluster.\\
+To remove a post in centralized social media, the entity governing the application shall remove the user's database tables that contains the post-meta data. Post Metadata is defined as the data providing information about one or more information about a post i.e., image url, description, etc. Unlike centralized social media, Viral is a decentralized social media that doesn't owns user's data, hence Viral and it's developers doesn't have governance over users meta-data. For a clean, appropriate content platform moderation is a key for it's growth. Viral proposes to solve moderation issues by removing the media's source from it's Viral Private IPFS Clusters by publishing the black-listed media live using decentralized oracle's.\\
 
-\begin{figure}[H]
-\begin{center}
+Viral's IPFS cluster which is explained in the User Security and Privacy page of the whitewater, replicates data across trusted high efficiency IPFS nodes for a decentralized censorship resistant storage. Viral IPFS Clusters have the authority to remove data/files from it's nodes by fetching black-listed files fingerprints from ledger maintained through decentralized oracles - resistant to data tampering.\\
 
-\begin{forest}
-  forked edges,
-  for tree={edge+={-Latex}},
-  [Viral
-    [Alpha-Release
-        [Private IPFS Clusters]
-    ]
-   [Beta-Developers
-        [IPFS Public Nodes]
-    ]
-  ]
-\end{forest}
-\caption{Available Viral Application Releases}
-\end{center}
-\end{figure}
+Visual Representation of Oracle and Clusters\\
 
-Viral Release Applications are separated into two divisions that will have two methods of storing media in the decentralized way possible. Viral Beta-Developer Application resides Open-source as a repository for developers where it will be publicly accessible—anyone can see, modify, and distribute the code as they see fit. The Beta-Application won't be available in mobile application stores and will use IPFS public nodes to store the media. IPFS — a peer-to-peer distributed file system where all files in the public IPFS network are accessible to everyone which cannot be tampered, removed or moderated at any cost. \\
-
-Viral Alpha-Release is the furninshed battle-tested application that will be available in all stores for users. The alpha-release will be using IPFS private cluster, to pin files from public nodes and store public data privately for moderation purposes. The private network cluster allows IPFS nodes to only connect to other peer nodes with shared key, and the nodes in the network do not respond to the communication from nodes outside the network. Cluster replicates and tracks pins across a cluster of private IPFS daemons. In short, The Beta app uses public nodes replicates, store data publicly where it cannot be removed, the alpha app uses private cluster that replicates data from public nodes to a swarm of private nodes that is kept within the ViralDAO where the private nodes are notified by ROV to remove pins(media) from the private nodes. Combination of a fully decentralized storage and a semi-centralized storage to combat illicit content\\
 
 
 \textbf{Removal Poll Timer}\\
@@ -1949,27 +1940,23 @@ To ensure faster removals and counter the delay of manual approach of votes calc
 
 \textbf{Algorithmic Automated Removal Methods}\\
 
-Additionally, to improve faster removals we will be rolling out another AI feature that finishes the poll timer if the votes are more than 10 (Eq 19) and 95\% have voted to remove content or keep content (Eq 20,21). This effectively eliminates the possibility of waiting to remove the content till the timer ends, if the post is in a high state of emergency to remove. There will be an AI feature also to filter out nudity content on the platform automatically without any votes.\\
+Additionally, to improve faster removals an algorithm is proposed to finish the poll timer if the votes are more than 10 and 90\% have voted to remove content or keep content. This effectively eliminates the possibility of waiting to remove the content till the timer ends, if the post is in a high state of emergency to remove. By taking,
 
 \begin{equation}
-Total\:Votes\:(x) \geq10
+\lambda \geq10
 \end{equation}
 \begin{equation}
-(\frac{Total\:Remove\:Votes\:(r)}{x}) \times  100 = r_p \geq 95
+(\frac{\gamma}{\lambda}) \times  100 = \gamma_p \geq 90
 \end{equation}
 \begin{equation}
-(\frac{Total\:Keep\:Votes\:(k)}{x}) \times  100 = k_p \geq 95
+(\frac{\kappa}{\lambda}) \times  100 = \kappa_p \geq 90
 \end{equation}
-
-$r_p$=Remove Votes Percentage, $k_p$ = Keep Votes Percentage\\
-
-\textbf{Separate Application}\\
-
-ROV will be having a separate Mobile Application for curators and moderators to easily vote for reported contents using swipe methods similar to dating apps. Since ROV is a restricted content application it will not be available on the mobile applications stores. The Application will be only available on Android as a 3rd Party App and won’t be available for iOS devices due to their security policies. This application will be providing productive features for curators to vote on moderating reported content. \\
+\begin{center}
+$\lambda$ = Total Votes, $\gamma$ = Total Remove Votes, $\kappa$ = Total Keep Votes \\
+$\gamma_p$=Remove Votes Percentage, $\kappa_p$ = Keep Votes Percentage\\
+\end{center}
 
 \textbf{Process of Polls}\\
-
-
 
 \begin{figure}[H]
 \begin{center}
@@ -1978,10 +1965,12 @@ ROV will be having a separate Mobile Application for curators and moderators to 
 \end{center}
 \end{figure}
 
+Key Points\\
+
 
 \textbf{Re-Appeals}\\
 
-A unique feature of ROV given to the users of Viral to re-appeal or re-report against the decision of voters while giving an explanation where the ROV curators can again vote to keep the content again or remove based on the explanation given by the user who re-reported. The timer for re-appeal is 5 hours per post where if votes are more than 25 (Eq 22) and 90\% opt again to keep or remove the content (Eq 23,24) the timer will end prematurely.\\
+A unique feature of ROV given to the users of Viral to re-appeal or re-report against the decision of voters while giving an explanation where the ROV curators can again vote to keep the content again or remove based on the explanation given by the user who re-reported. The timer for re-appeal is posted two times the category timer for normal reports where if votes are more than 25 and 90\% opt again to keep or remove the content the timer will end prematurely.\\
 
 \begin{equation}
 Total\:Votes\:(x) \geq25
@@ -1995,6 +1984,10 @@ Total\:Votes\:(x) \geq25
 
 
 $r_p$=Remove Votes Percentage, $k_p$ = Keep Votes Percentage\\
+
+\textbf{Pre-Moderation using AI Tools}
+
+\textbf{Post-Moderation using AI Tools}
 
 \textbf{Private Accounts}\\
 
@@ -2048,6 +2041,11 @@ ROV curators also will be responsible for several actions on the decentralized p
 \textbf{Requesting ROV}\\
 
 Since ROV is regarded as a DAO (Decentralized Autonomous Organization) we make sure others request ROV for a specific task, poll, support, etc. This feature will be given only to verified profiles where they can write to ROV in any matter where the curators can come collectively to help regarding the issue. This will help VIPs, Governments to write to ROV curators which will be displayed on their feed where they can take necessary actions for it. \\
+
+\textbf{Curator App Overview}\\
+
+ROV will be having a separate Mobile Application for curators and moderators to easily vote for reported contents using swipe methods similar to dating apps. Since ROV is a restricted content application it will not be available on the mobile applications stores. The Application will be only available on Android as a 3rd Party App and won’t be available for iOS devices due to their security policies. This application will be providing productive features for curators to vote on moderating reported content. \\
+
 
 \textbf{Rewards for Contribution}\\
 
