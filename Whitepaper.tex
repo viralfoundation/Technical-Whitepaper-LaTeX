@@ -1498,7 +1498,7 @@ There are various factors a user can opt to get the best price possible. A trade
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=11cm]{dex-algorithm}
+\includegraphics[width=14cm]{dex-algorithm}
 \caption{Automated Algorithm for better price among swap orders}
 \end{center}
 \end{figure}
@@ -2470,7 +2470,7 @@ Our ultimate vision is to develop a decentralized social media without any centr
 
 Viral Rewards are daily rewards allocated to every user on the decentralized platform who contributes towards running the platform. It includes Users, Miners, Volunteers, and DAO Members. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in Viral tokens and Wrapped tokens of popular cryptocurrencies such as Bitcoin, Ethereum, Solana, etc for all the users who contribute towards running the social and multi-chain platform.\\
 
-The Reward allocation for each user happens through automated smart contracts every day at 2 AM UTC. Viral Rewards are designed in such a way that every single contributor inside the network will get paid for their contribution through a either democratic voting system or mathematically predicted points. These points prediction program will be calculated from off-chain real-time data through decentralized tamper-proof oracles in a secure  manner to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. 
+The Reward allocation for each user happens through automated smart contracts every day at 2 AM UTC. Viral Rewards are designed in such a way that every single contributor inside the network will get paid for their contribution through a either democratic voting system or mathematically predicted points. These points prediction program will be calculated from off-chain real-time data through decentralized tamper-proof oracles in a secure  manner to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. \\
 
 The 100\% percent of total daily revenue is distributed as \\
 \begin{figure}[H]
@@ -2484,7 +2484,7 @@ The 100\% percent of total daily revenue is distributed as \\
 \item \textbf{Blockchain Miners} : For Viral Multi-Chain Validators according to total gas received per validator.
 \item \textbf{DAG Miners} : For Tangle Full Nodes that stores \& mine transactions.
 \item \textbf{Social Miners} : Nodes running relay servers of various decentralized tech-stack runs on Viral Social Application
-\item \textbf{IPFS Miners} : Storage IPFS Public \& Private Cluster nodes.
+\item \textbf{IPFS Miners} : Storage Viral IPFS Private Cluster nodes.
 \item \textbf{Social Users} : For Social Application users according to their daily impression on their media content.
 \item \textbf{Developers} : Allocated for Viral Open Source Developers
 \item \textbf{Bounties} : Rewards for developers who can improve the protocols by detecting major flaws and loopholes in the operating protocols.
@@ -2513,13 +2513,14 @@ The 100\% percent of total daily revenue is distributed as \\
 
 \begin{comment}%mermaid
 
-pie
+
+    pie
 
     title Daily Revenue Distribution
-    "Users - 39%" : 35
+    "Users - 34%" : 31
     "Miners - 31%" : 28
-    "Volunteers - 17%" : 15
-    "DAO - 13%" :  12
+    "Volunteers - 19%" : 17.5
+    "DAO - 15%" :  14
 
 
 pie
@@ -2530,12 +2531,12 @@ pie
     "Social Miners - 4% " : 4
     "IPFS Miners - 8% " :  8
     "Social Users - 30% " : 30
-    "Developers - 6.5% " : 6.5
+    "Developers - 9% " : 9
     "Bounties - 2% " : 2
-    "Cryptoback - 5%" : 5
+    "Cryptoback - 1%" : 1
     "Burn - 10% " : 10
-    "ROV - 6.5% " : 6.5
-    "DAO - 12% " : 12   
+    "ROV - 6% " : 6
+    "DAO - 14% " : 14   
    
   
 \end{comment}
@@ -2587,21 +2588,12 @@ import "@openzeppelin/contracts@4.5.0/token/ERC20/extensions/ERC20Snapshot.sol";
 import "@openzeppelin/contracts@4.5.0/access/Ownable.sol";
 import "@openzeppelin/contracts@4.5.0/security/Pausable.sol";
 
-contract Reward is Ownable, Pausable {
+contract Reward is Ownable, {
    
     uint256 public rewardamount;
     uint256 public rewardfortheuser;
     uint256 public impression = 0.0;
     uint256 public totalimp = 0;
-
-
-    function pause() public onlyOwner {
-        _pause();
-    }
-
-    function unpause() public onlyOwner {
-        _unpause();
-    }
     
     function totalrewardamount() external view onlyOwner returns(uint256){     // read 
          return rewardamount;
@@ -2777,6 +2769,10 @@ DAO Bylaws\\
 
 \section{Tokenomics \& ICO}
 
+\vspace{5mm}
+
+\begin{multicols}{2}
+
 \begin{enumerate}[leftmargin=+0.2in]
 \item \textbf{Name of the Utility-Token} : Viral Coin
 \item \textbf{Ticker of the Token} : VRL
@@ -2784,12 +2780,16 @@ DAO Bylaws\\
 \item \textbf{Supply Hard-Cap} : 5,000,000,000 Tokens
 \item \textbf{Token Nature} : Deflationary
 \end{enumerate}
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=2.5cm]{viral-coin-logo}
 \caption{Viral Coin Logo}
 \end{center}
 \end{figure}
+\end{multicols}
+
+\vspace{5mm}
 
 \begin{figure}[H]
 \begin{center}
