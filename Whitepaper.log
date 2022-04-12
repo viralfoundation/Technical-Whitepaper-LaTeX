@@ -1,100 +1,98 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.8)  11 APR 2022 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.4.2)  12 APR 2022 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Whitepaper.tex
 (./Whitepaper.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen138
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count175
-\Gm@cntv=\count176
-\c@Gm@tempcnt=\count177
-\Gm@bindingoffset=\dimen135
-\Gm@wd@mp=\dimen136
-\Gm@odd@mp=\dimen137
-\Gm@even@mp=\dimen138
-\Gm@layoutwidth=\dimen139
-\Gm@layoutheight=\dimen140
-\Gm@layouthoffset=\dimen141
-\Gm@layoutvoffset=\dimen142
-\Gm@dimlist=\toks15
+\Gm@cnth=\count187
+\Gm@cntv=\count188
+\c@Gm@tempcnt=\count189
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
 )
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip49
-\enit@outerparindent=\dimen143
-\enit@toks=\toks16
-\enit@inbox=\box45
-\enit@count@id=\count178
-\enitdp@description=\count179
+\enit@outerparindent=\dimen147
+\enit@toks=\toks17
+\enit@inbox=\box47
+\enit@count@id=\count190
+\enitdp@description=\count191
 )
-(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count180
-\float@exts=\toks17
-\float@box=\box46
-\@float@everytoks=\toks18
-\@floatcapt=\box47
+\c@float@type=\count192
+\float@exts=\toks18
+\float@box=\box48
+\@float@everytoks=\toks19
+\@floatcapt=\box49
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count181
-\mult@box=\box48
-\multicol@leftmargin=\dimen144
-\c@unbalance=\count182
-\c@collectmore=\count183
-\doublecol@number=\count184
-\multicoltolerance=\count185
-\multicolpretolerance=\count186
-\full@width=\dimen145
-\page@free=\dimen146
-\premulticols=\dimen147
-\postmulticols=\dimen148
+\c@tracingmulticols=\count193
+\mult@box=\box50
+\multicol@leftmargin=\dimen148
+\c@unbalance=\count194
+\c@collectmore=\count195
+\doublecol@number=\count196
+\multicoltolerance=\count197
+\multicolpretolerance=\count198
+\full@width=\dimen149
+\page@free=\dimen150
+\premulticols=\dimen151
+\postmulticols=\dimen152
 \multicolsep=\skip50
 \multicolbaselineskip=\skip51
-\partial@page=\box49
-\last@line=\box50
-\maxbalancingoverflow=\dimen149
-\mult@rightbox=\box51
-\mult@grightbox=\box52
-\mult@gfirstbox=\box53
-\mult@firstbox=\box54
-\@tempa=\box55
-\@tempa=\box56
+\partial@page=\box51
+\last@line=\box52
+\maxbalancingoverflow=\dimen153
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@gfirstbox=\box55
+\mult@firstbox=\box56
 \@tempa=\box57
 \@tempa=\box58
 \@tempa=\box59
@@ -130,268 +128,278 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box89
 \@tempa=\box90
 \@tempa=\box91
-\c@minrows=\count187
-\c@columnbadness=\count188
-\c@finalcolumnbadness=\count189
-\last@try=\dimen150
-\multicolovershoot=\dimen151
-\multicolundershoot=\dimen152
-\mult@nat@firstbox=\box92
-\colbreak@box=\box93
-\mc@col@check@num=\count190
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count199
+\c@columnbadness=\count266
+\c@finalcolumnbadness=\count267
+\last@try=\dimen154
+\multicolovershoot=\dimen155
+\multicolundershoot=\dimen156
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count268
 )
-(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count191
-\c@Blindtext=\count192
-\c@blind@countparstart=\count193
-\blind@countxx=\count194
-\blindtext@numBlindtext=\count195
-\blind@countyy=\count196
-\c@blindlist=\count197
-\c@blindlistlevel=\count198
-\c@blindlist@level=\count199
-\blind@listitem=\count266
-\c@blind@listcount=\count267
-\c@blind@levelcount=\count268
-\blind@mathformula=\count269
-\blind@Mathformula=\count270
-\c@blind@randomcount=\count271
-\c@blind@randommax=\count272
-\c@blind@pangramcount=\count273
-\c@blind@pangrammax=\count274
+\c@blindtext=\count269
+\c@Blindtext=\count270
+\c@blind@countparstart=\count271
+\blind@countxx=\count272
+\blindtext@numBlindtext=\count273
+\blind@countyy=\count274
+\c@blindlist=\count275
+\c@blindlistlevel=\count276
+\c@blindlist@level=\count277
+\blind@listitem=\count278
+\c@blind@listcount=\count279
+\c@blind@levelcount=\count280
+\blind@mathformula=\count281
+\blind@Mathformula=\count282
+\c@blind@randomcount=\count283
+\c@blind@randommax=\count284
+\c@blind@pangramcount=\count285
+\c@blind@pangrammax=\count286
 )
-(/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count275
-\cp@tempcnt=\count276
+\c@cp@cntr=\count287
+\cp@tempcnt=\count288
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-02-14 L3 programming layer (loader) 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count277
-\l__pdf_internal_box=\box94
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count289
+\l__pdf_internal_box=\box96
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count278
-\g__xparse_grabber_int=\count279
-\l__xparse_m_args_int=\count280
-\l__xparse_v_nesting_int=\count281
-)
-Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
-
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
-File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex)))
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen153
-\ar@mcellbox=\box95
-\extrarowheight=\dimen154
-\NC@list=\toks19
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen157
+\ar@mcellbox=\box97
+\extrarowheight=\dimen158
+\NC@list=\toks20
 \extratabsurround=\skip52
 \backup@length=\skip53
-\ar@cellbox=\box96
+\ar@cellbox=\box98
 )
-\TX@col@width=\dimen155
-\TX@old@table=\dimen156
-\TX@old@col=\dimen157
-\TX@target=\dimen158
-\TX@delta=\dimen159
-\TX@cols=\count282
-\TX@ftn=\toks20
+\TX@col@width=\dimen159
+\TX@old@table=\dimen160
+\TX@old@col=\dimen161
+\TX@target=\dimen162
+\TX@delta=\dimen163
+\TX@cols=\count290
+\TX@ftn=\toks21
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen160
+\@emptytoks=\toks22
+\ex@=\dimen164
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen161
+\pmbraise@=\dimen165
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count283
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count284
-\leftroot@=\count285
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count286
-\DOTSCASE@=\count287
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box97
-\strutbox@=\box98
-\big@size=\dimen162
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count288
-\c@MaxMatrixCols=\count289
+\inf@bad=\count291
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count292
+\leftroot@=\count293
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count294
+\DOTSCASE@=\count295
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box99
+\strutbox@=\box100
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count296
+\c@MaxMatrixCols=\count297
 \dotsspace@=\muskip16
-\c@parentequation=\count290
-\dspbrk@lvl=\count291
-\tag@help=\toks22
-\row@=\count292
-\column@=\count293
-\maxfields@=\count294
-\andhelp@=\toks23
-\eqnshift@=\dimen163
-\alignsep@=\dimen164
-\tagshift@=\dimen165
-\tagwidth@=\dimen166
-\totwidth@=\dimen167
-\lineht@=\dimen168
-\@envbody=\toks24
+\c@parentequation=\count298
+\dspbrk@lvl=\count299
+\tag@help=\toks23
+\row@=\count300
+\column@=\count301
+\maxfields@=\count302
+\andhelp@=\toks24
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks25
 \multlinegap=\skip55
 \multlinetaggap=\skip56
-\mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip57
 \@affilsep=\skip58
-\c@Maxaffil=\count295
-\c@authors=\count296
-\c@affil=\count297
+\c@Maxaffil=\count303
+\c@authors=\count304
+\c@affil=\count305
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen169
-\Hy@linkcounter=\count298
-\Hy@pagecounter=\count299
+\@linkdim=\dimen173
+\Hy@linkcounter=\count306
+\Hy@pagecounter=\count307
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count300
-\pdfmajorversion=\count301
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count302
+\Hy@SavedSpaceFactor=\count308
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count309
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen170
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen174
 
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count303
-\Field@Width=\dimen171
-\Fld@charsize=\dimen172
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
+\Fld@menulength=\count310
+\Field@Width=\dimen175
+\Fld@charsize=\dimen176
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
 
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
 )
-\Hy@abspage=\count304
-\c@Item=\count305
-\c@Hfootnote=\count306
+\Hy@abspage=\count311
+\c@Item=\count312
+\c@Hfootnote=\count313
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
 )
-\Fld@listcount=\count307
-\c@bookmark@seq@number=\count308
+\Fld@listcount=\count314
+\c@bookmark@seq@number=\count315
 
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -400,48 +408,47 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip59
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count309
-\lst@gtempboxa=\box99
-\lst@token=\toks26
-\lst@length=\count310
-\lst@currlwidth=\dimen173
-\lst@column=\count311
-\lst@pos=\count312
-\lst@lostspace=\dimen174
-\lst@width=\dimen175
-\lst@newlines=\count313
-\lst@lineno=\count314
-\lst@maxwidth=\dimen176
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count316
+\lst@gtempboxa=\box101
+\lst@token=\toks27
+\lst@length=\count317
+\lst@currlwidth=\dimen177
+\lst@column=\count318
+\lst@pos=\count319
+\lst@lostspace=\dimen178
+\lst@width=\dimen179
+\lst@newlines=\count320
+\lst@lineno=\count321
+\lst@maxwidth=\dimen180
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count315
-\lst@skipnumbers=\count316
-\lst@framebox=\box100
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count322
+\lst@skipnumbers=\count323
+\lst@framebox=\box102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2019/09/10 1.8c listings configuration
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2019/09/10 1.8c (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (./solidity-highlighting.tex
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -456,560 +463,571 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen177
-\pgfutil@tempdimb=\dimen178
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen181
+\pgfutil@tempdimb=\dimen182
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box101
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box103
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
-))
-Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen179
-\Gin@req@width=\dimen180
+\Gin@req@height=\dimen183
+\Gin@req@width=\dimen184
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
-\pgfkeys@tmptoks=\toks30
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen181
-\pgf@y=\dimen182
-\pgf@xa=\dimen183
-\pgf@ya=\dimen184
-\pgf@xb=\dimen185
-\pgf@yb=\dimen186
-\pgf@xc=\dimen187
-\pgf@yc=\dimen188
-\pgf@xd=\dimen189
-\pgf@yd=\dimen190
+\pgf@x=\dimen185
+\pgf@y=\dimen186
+\pgf@xa=\dimen187
+\pgf@ya=\dimen188
+\pgf@xb=\dimen189
+\pgf@yb=\dimen190
+\pgf@xc=\dimen191
+\pgf@yc=\dimen192
+\pgf@xd=\dimen193
+\pgf@yd=\dimen194
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count317
-\c@pgf@countb=\count318
-\c@pgf@countc=\count319
-\c@pgf@countd=\count320
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count321
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+\c@pgf@counta=\count324
+\c@pgf@countb=\count325
+\c@pgf@countc=\count326
+\c@pgf@countd=\count327
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count328
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
-File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
-File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count322
-\pgfsyssoftpath@bigbuffer@items=\count323
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
-File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen191
-\pgfmath@count=\count324
-\pgfmath@box=\box102
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count325
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
-File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen192
-\pgf@picmaxx=\dimen193
-\pgf@picminy=\dimen194
-\pgf@picmaxy=\dimen195
-\pgf@pathminx=\dimen196
-\pgf@pathmaxx=\dimen197
-\pgf@pathminy=\dimen198
-\pgf@pathmaxy=\dimen199
-\pgf@xx=\dimen256
-\pgf@xy=\dimen257
-\pgf@yx=\dimen258
-\pgf@yy=\dimen259
-\pgf@zx=\dimen260
-\pgf@zy=\dimen261
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
-File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen262
-\pgf@path@lasty=\dimen263
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count329
+\pgfsyssoftpath@bigbuffer@items=\count330
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
-File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen264
-\pgf@shorten@start@additional=\dimen265
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen195
+\pgfmath@count=\count331
+\pgfmath@box=\box104
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
-File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box103
-\pgf@hbox=\box104
-\pgf@layerbox@main=\box105
-\pgf@picture@serial@count=\count326
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count332
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen196
+\pgf@picmaxx=\dimen197
+\pgf@picminy=\dimen198
+\pgf@picmaxy=\dimen199
+\pgf@pathminx=\dimen256
+\pgf@pathmaxx=\dimen257
+\pgf@pathminy=\dimen258
+\pgf@pathmaxy=\dimen259
+\pgf@xx=\dimen260
+\pgf@xy=\dimen261
+\pgf@yx=\dimen262
+\pgf@yy=\dimen263
+\pgf@zx=\dimen264
+\pgf@zy=\dimen265
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
-File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen266
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen266
+\pgf@path@lasty=\dimen267
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
-File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen267
-\pgf@pt@y=\dimen268
-\pgf@pt@temp=\dimen269
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
-File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
-File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen268
+\pgf@shorten@start@additional=\dimen269
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
-File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen270
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box105
+\pgf@hbox=\box106
+\pgf@layerbox@main=\box107
+\pgf@picture@serial@count=\count333
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen271
-\pgf@sys@shading@range@num=\count327
-\pgf@shadingcount=\count328
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen270
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
-File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box106
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
-File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen271
+\pgf@pt@y=\dimen272
+\pgf@pt@temp=\dimen273
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
-File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
-File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box107
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
-Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen272
-\pgf@nodesepend=\dimen273
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
-Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen274
-\pgffor@skip=\dimen275
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
-File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count329
-\pgfplotmarksize=\dimen276
-)
-\tikz@lastx=\dimen277
-\tikz@lasty=\dimen278
-\tikz@lastxsaved=\dimen279
-\tikz@lastysaved=\dimen280
-\tikz@lastmovetox=\dimen281
-\tikz@lastmovetoy=\dimen282
-\tikzleveldistance=\dimen283
-\tikzsiblingdistance=\dimen284
-\tikz@figbox=\box108
-\tikz@figbox@bg=\box109
-\tikz@tempbox=\box110
-\tikz@tempbox@bg=\box111
-\tikztreelevel=\count330
-\tikznumberofchildren=\count331
-\tikznumberofcurrentchild=\count332
-\tikz@fig@count=\count333
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count334
-\pgfmatrixcurrentcolumn=\count335
-\pgf@matrix@numberofcolumns=\count336
-)
-\tikz@expandcount=\count337
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
-tex
-File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen285
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarymindmap.code.tex
-File: tikzlibrarymindmap.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytrees.code.tex
-File: tikzlibrarytrees.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen286
-\pgfdecoratedremainingdistance=\dimen287
-\pgfdecoratedinputsegmentcompleteddistance=\dimen288
-\pgfdecoratedinputsegmentremainingdistance=\dimen289
-\pgf@decorate@distancetomove=\dimen290
-\pgf@decorate@repeatstate=\count338
-\pgfdecorationsegmentamplitude=\dimen291
-\pgfdecorationsegmentlength=\dimen292
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-\tikz@lib@dec@box=\box112
-)) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
-
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks39
-\XKV@tempa@toks=\toks40
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-\XKV@depth=\count339
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen274
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen275
+\pgf@sys@shading@range@num=\count334
+\pgf@shadingcount=\count335
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box108
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box109
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen276
+\pgf@nodesepend=\dimen277
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen278
+\pgffor@skip=\dimen279
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count336
+\pgfplotmarksize=\dimen280
+)
+\tikz@lastx=\dimen281
+\tikz@lasty=\dimen282
+\tikz@lastxsaved=\dimen283
+\tikz@lastysaved=\dimen284
+\tikz@lastmovetox=\dimen285
+\tikz@lastmovetoy=\dimen286
+\tikzleveldistance=\dimen287
+\tikzsiblingdistance=\dimen288
+\tikz@figbox=\box110
+\tikz@figbox@bg=\box111
+\tikz@tempbox=\box112
+\tikz@tempbox@bg=\box113
+\tikztreelevel=\count337
+\tikznumberofchildren=\count338
+\tikznumberofcurrentchild=\count339
+\tikz@fig@count=\count340
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count341
+\pgfmatrixcurrentcolumn=\count342
+\pgf@matrix@numberofcolumns=\count343
+)
+\tikz@expandcount=\count344
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\arrowsize=\dimen289
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarymindmap.code.tex
+File: tikzlibrarymindmap.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen290
+\pgfdecoratedremainingdistance=\dimen291
+\pgfdecoratedinputsegmentcompleteddistance=\dimen292
+\pgfdecoratedinputsegmentremainingdistance=\dimen293
+\pgf@decorate@distancetomove=\dimen294
+\pgf@decorate@repeatstate=\count345
+\pgfdecorationsegmentamplitude=\dimen295
+\pgfdecorationsegmentlength=\dimen296
+)
+\tikz@lib@dec@box=\box114
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+)
+\XKV@depth=\count346
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+(/usr/local/texlive/2021/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box113
+\collectedbox=\box115
 )
-\tc@llx=\dimen293
-\tc@lly=\dimen294
-\tc@urx=\dimen295
-\tc@ury=\dimen296
+\tc@llx=\dimen297
+\tc@lly=\dimen298
+\tc@urx=\dimen299
+\tc@ury=\dimen300
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+(/usr/local/texlive/2021/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen297
-\adjbox@Height=\dimen298
-\adjbox@Depth=\dimen299
-\adjbox@Totalheight=\dimen300
-\adjbox@pwidth=\dimen301
-\adjbox@pheight=\dimen302
-\adjbox@pdepth=\dimen303
-\adjbox@ptotalheight=\dimen304
+\adjbox@Width=\dimen301
+\adjbox@Height=\dimen302
+\adjbox@Depth=\dimen303
+\adjbox@Totalheight=\dimen304
+\adjbox@pwidth=\dimen305
+\adjbox@pheight=\dimen306
+\adjbox@pdepth=\dimen307
+\adjbox@ptotalheight=\dimen308
 
-(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count340
+\c@checkoddpage=\count347
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box114
-\sift@deathcycles=\count341
-\@vwid@loff=\dimen305
-\@vwid@roff=\dimen306
+\@vwid@box=\box116
+\sift@deathcycles=\count348
+\@vwid@loff=\dimen309
+\@vwid@roff=\dimen310
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/forest/forest.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/forest/forest.sty
 Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.symbols.code.tex
-File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.callouts.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.callouts.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodepartlowerbox=\box115
-\pgfnodeparttwobox=\box116
-\pgfnodepartthreebox=\box117
-\pgfnodepartfourbox=\box118
-\pgfnodeparttwentybox=\box119
-\pgfnodepartnineteenbox=\box120
-\pgfnodeparteighteenbox=\box121
-\pgfnodepartseventeenbox=\box122
-\pgfnodepartsixteenbox=\box123
-\pgfnodepartfifteenbox=\box124
-\pgfnodepartfourteenbox=\box125
-\pgfnodepartthirteenbox=\box126
-\pgfnodeparttwelvebox=\box127
-\pgfnodepartelevenbox=\box128
-\pgfnodeparttenbox=\box129
-\pgfnodepartninebox=\box130
-\pgfnodeparteightbox=\box131
-\pgfnodepartsevenbox=\box132
-\pgfnodepartsixbox=\box133
-\pgfnodepartfivebox=\box134
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodepartlowerbox=\box117
+\pgfnodeparttwobox=\box118
+\pgfnodepartthreebox=\box119
+\pgfnodepartfourbox=\box120
+\pgfnodeparttwentybox=\box121
+\pgfnodepartnineteenbox=\box122
+\pgfnodeparteighteenbox=\box123
+\pgfnodepartseventeenbox=\box124
+\pgfnodepartsixteenbox=\box125
+\pgfnodepartfifteenbox=\box126
+\pgfnodepartfourteenbox=\box127
+\pgfnodepartthirteenbox=\box128
+\pgfnodeparttwelvebox=\box129
+\pgfnodepartelevenbox=\box130
+\pgfnodeparttenbox=\box131
+\pgfnodepartninebox=\box132
+\pgfnodeparteightbox=\box133
+\pgfnodepartsevenbox=\box134
+\pgfnodepartsixbox=\box135
+\pgfnodepartfivebox=\box136
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryfit.code.tex
-File: tikzlibraryfit.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
-s.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
-)
-\pgf@intersect@solutions=\count342
-) (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
+ctions.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex)
+\pgf@intersect@solutions=\count349
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks41
-\pgfopts@list@add@b@toks=\toks42
+\pgfopts@list@add@a@toks=\toks42
+\pgfopts@list@add@b@toks=\toks43
 )
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count343
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count350
 )
-(/usr/share/texlive/texmf-dist/tex/latex/elocalloc/elocalloc.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/inlinedef/inlinedef.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/inlinedef/inlinedef.sty
 Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
-\ID@toks=\toks43
-\ID@count=\count344
+\ID@toks=\toks44
+\ID@count=\count351
 )
-\ID@usercommands=\toks44
-\safeloop@depth=\count345
-\safeRKloop@depth=\count346
-\forest@temp@dimen=\dimen307
-\forest@temp@count=\count347
-\forest@n=\count348
-\forest@temp@global@count=\count349
-\forest@temp@toks=\toks45
-\forest@temparray@M=\count350
-\forest@temparray@N=\count351
-\forest@global@temparray@M=\count352
-\forest@global@temparray@N=\count353
-\forest@isnum@count=\count354
-\forest@isdim@nonintpart=\count355
-\forest@isdim@dimen=\dimen308
-\forest@sort@m=\count356
-\forest@sort@k=\count357
-\forest@sort@p=\count358
-\bracket@content=\toks46
-\bracket@afterthought=\toks47
-\forest@node@maxid=\count359
-\forest@process@left@M=\count360
-\forest@process@left@N=\count361
-\forest@process@right@M=\count362
-\forest@process@right@N=\count363
-\forest@process@saved@M=\count364
-\forest@process@saved@N=\count365
-\forest@process@result@M=\count366
-\forest@process@result@N=\count367
-\forest@process@n=\count368
-\forest@nodewalk@branch@toks=\toks48
-\forest@nodewalk@shortsteps@resolution=\toks49
-\forest@do@dynamics=\toks50
-\forest@box=\box135
-\forest@xg=\dimen309
-\forest@yg=\dimen310
-\forest@xs=\dimen311
-\forest@ys=\dimen312
-\forest@pi@toks=\toks51
-\forest@segment@toks=\toks52
-\forest@PIi@toks=\toks53
-\forest@PIii@toks=\toks54
+\ID@usercommands=\toks45
+\safeloop@depth=\count352
+\safeRKloop@depth=\count353
+\forest@temp@dimen=\dimen311
+\forest@temp@count=\count354
+\forest@n=\count355
+\forest@temp@global@count=\count356
+\forest@temp@toks=\toks46
+\forest@temparray@M=\count357
+\forest@temparray@N=\count358
+\forest@global@temparray@M=\count359
+\forest@global@temparray@N=\count360
+\forest@isnum@count=\count361
+\forest@isdim@nonintpart=\count362
+\forest@isdim@dimen=\dimen312
+\forest@sort@m=\count363
+\forest@sort@k=\count364
+\forest@sort@p=\count365
+\bracket@content=\toks47
+\bracket@afterthought=\toks48
+\forest@node@maxid=\count366
+\forest@process@left@M=\count367
+\forest@process@left@N=\count368
+\forest@process@right@M=\count369
+\forest@process@right@N=\count370
+\forest@process@saved@M=\count371
+\forest@process@saved@N=\count372
+\forest@process@result@M=\count373
+\forest@process@result@N=\count374
+\forest@process@n=\count375
+\forest@nodewalk@branch@toks=\toks49
+\forest@nodewalk@shortsteps@resolution=\toks50
+\forest@do@dynamics=\toks51
+\forest@box=\box137
+\forest@xg=\dimen313
+\forest@yg=\dimen314
+\forest@xs=\dimen315
+\forest@ys=\dimen316
+\forest@pi@toks=\toks52
+\forest@segment@toks=\toks53
+\forest@PIi@toks=\toks54
+\forest@PIii@toks=\toks55
 \forest@copy@in=\read3
 \forest@copy@out=\write5
-\forest@externalize@max@outer@n=\count369
-\forest@externalize@inner@n=\count370
+\forest@externalize@max@outer@n=\count376
+\forest@externalize@inner@n=\count377
 )
-(/usr/share/texlive/texmf-dist/tex/latex/forest/forest-lib-edges.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/forest/forest-lib-edges.sty
 Package: forest-lib-edges 2016/12/05 v0.1.1
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
-code.tex
-File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowinset=\dimen313
-\pgfarrowlength=\dimen314
-\pgfarrowwidth=\dimen315
-\pgfarrowlinewidth=\dimen316
-) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip60
-\multirow@cntb=\count371
-\multirow@dima=\skip61
-\bigstrutjot=\dimen317
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowinset=\dimen317
+\pgfarrowlength=\dimen318
+\pgfarrowwidth=\dimen319
+\pgfarrowlinewidth=\dimen320
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count378
+\multirow@dima=\skip61
+\bigstrutjot=\dimen321
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tfrupee/tfrupee.sty
 Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
 Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
 . Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
 \f@nch@headwidth=\skip62
 \f@nch@O@elh=\skip63
 \f@nch@O@erh=\skip64
@@ -1040,6 +1058,8 @@ LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
 LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
 LaTeX Font Info:    ... okay on input line 99.
 
 *geometry* driver: auto-detecting
@@ -1076,71 +1096,71 @@ LaTeX Font Info:    ... okay on input line 99.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box136
 Package hyperref Info: Link coloring ON on input line 99.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count372
+\c@section@level=\count379
 )
 LaTeX Info: Redefining \ref on input line 99.
 LaTeX Info: Redefining \pageref on input line 99.
 LaTeX Info: Redefining \nameref on input line 99.
-
-(./Whitepaper.out) (./Whitepaper.out)
+ (./Whitepaper.out) (./Whitepaper.out)
 \@outlinefile=\write6
 \openout6 = `Whitepaper.out'.
 
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count373
-\scratchdimen=\dimen318
-\scratchbox=\box137
-\nofMPsegments=\count374
-\nofMParguments=\count375
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count376
-\MPscratchDim=\dimen319
-\MPnumerator=\count377
-\makeMPintoPDFobject=\count378
-\everyMPtoPDFconversion=\toks56
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count380
+\scratchdimen=\dimen322
+\scratchbox=\box138
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen323
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks57
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count379
+\c@lstlisting=\count386
 
-ABD: EveryShipout initializing macros [1
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Whitepaper.toc
-<./assets/images/logo.png, id=330, 174.6525pt x 176.66pt>
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 45.
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Whitepaper.toc
+<./assets/images//logo.png, id=330, 174.6525pt x 176.66pt>
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 45.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
 Package xcolor Warning: Incompatible color definition on input line 45.
 
-[2 <./assets/images/logo.png>])
+[2 <./assets/images//logo.png>])
 \tf@toc=\write7
 \openout7 = `Whitepaper.toc'.
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 119.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 119.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
@@ -1151,9 +1171,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--130
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 154.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 154.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 154.
@@ -1178,17 +1198,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 229.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 229.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 229.
 
 [5]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 264.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 264.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
@@ -1249,9 +1269,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 307.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 307.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 307.
@@ -1281,9 +1301,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--324
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 327.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 327.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 327.
@@ -1293,9 +1313,9 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 329.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 331.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 385.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 385.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
@@ -1361,9 +1381,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 441.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 441.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 441.
@@ -1413,10 +1433,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 464--465
 
  []
 
-<./assets/images/tips.jpeg, id=511, 1444.39626pt x 833.1125pt>
-File: ./assets/images/tips.jpeg Graphic file (type jpg)
-<use ./assets/images/tips.jpeg>
-Package pdftex.def Info: ./assets/images/tips.jpeg  used on input line 469.
+<./assets/images//tips.jpeg, id=511, 1444.39626pt x 833.1125pt>
+File: ./assets/images//tips.jpeg Graphic file (type jpg)
+<use ./assets/images//tips.jpeg>
+Package pdftex.def Info: ./assets/images//tips.jpeg  used on input line 469.
 (pdftex.def)             Requested size: 455.24411pt x 262.57166pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 469--470
@@ -1428,9 +1448,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 466--471
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 472.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 472.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 472.
@@ -1440,11 +1460,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
-<./assets/images/privacygroups.jpeg, id=518, 912.40875pt x 140.525pt>
-File: ./assets/images/privacygroups.jpeg Graphic file (type jpg)
-<use ./assets/images/privacygroups.jpeg>
-Package pdftex.def Info: ./assets/images/privacygroups.jpeg  used on input line
- 521.
+<./assets/images//privacygroups.jpeg, id=518, 912.40875pt x 140.525pt>
+File: ./assets/images//privacygroups.jpeg Graphic file (type jpg)
+<use ./assets/images//privacygroups.jpeg>
+Package pdftex.def Info: ./assets/images//privacygroups.jpeg  used on input lin
+e 521.
 (pdftex.def)             Requested size: 455.24411pt x 70.11436pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 521--522
@@ -1452,15 +1472,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 521--522
  []
 
 Excluding 'comment' comment.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 538.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 538.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
 Package xcolor Warning: Incompatible color definition on input line 538.
 
-[12 <./assets/images/tips.jpeg> <./assets/images/privacygroups.jpeg>]
+[12 <./assets/images//tips.jpeg> <./assets/images//privacygroups.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
  []
@@ -1485,9 +1505,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 581--582
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 582.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 582.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 582.
@@ -1507,10 +1527,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 591--592
 
  []
 
-<./assets/images/aes.png, id=550, 3222.0375pt x 1375.1375pt>
-File: ./assets/images/aes.png Graphic file (type png)
-<use ./assets/images/aes.png>
-Package pdftex.def Info: ./assets/images/aes.png  used on input line 595.
+<./assets/images//aes.png, id=550, 3222.0375pt x 1375.1375pt>
+File: ./assets/images//aes.png Graphic file (type png)
+<use ./assets/images//aes.png>
+Package pdftex.def Info: ./assets/images//aes.png  used on input line 595.
 (pdftex.def)             Requested size: 284.52756pt x 121.42793pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 600--601
@@ -1522,36 +1542,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 602--603
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 607.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 607.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 607.
 
-[14 <./assets/images/aes.png>]
+[14 <./assets/images//aes.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
-<./assets/images/encryption.jpg, id=560, 3239.10126pt x 4096.30376pt>
-File: ./assets/images/encryption.jpg Graphic file (type jpg)
-<use ./assets/images/encryption.jpg>
-Package pdftex.def Info: ./assets/images/encryption.jpg  used on input line 615
-.
+<./assets/images//encryption.jpg, id=560, 3239.10126pt x 4096.30376pt>
+File: ./assets/images//encryption.jpg Graphic file (type jpg)
+<use ./assets/images//encryption.jpg>
+Package pdftex.def Info: ./assets/images//encryption.jpg  used on input line 61
+5.
 (pdftex.def)             Requested size: 227.62204pt x 287.83315pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 626.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 626.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 626.
 
-[15 <./assets/images/encryption.jpg>]
+[15 <./assets/images//encryption.jpg>]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 638.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 642--643
@@ -1563,15 +1583,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 650--651
 
  []
 
-<./assets/images/decryption-private.jpg, id=568, 3744.99126pt x 5979.33875pt>
-File: ./assets/images/decryption-private.jpg Graphic file (type jpg)
-<use ./assets/images/decryption-private.jpg>
-Package pdftex.def Info: ./assets/images/decryption-private.jpg  used on input 
-line 654.
+<./assets/images//decryption-private.jpg, id=568, 3744.99126pt x 5979.33875pt>
+File: ./assets/images//decryption-private.jpg Graphic file (type jpg)
+<use ./assets/images//decryption-private.jpg>
+Package pdftex.def Info: ./assets/images//decryption-private.jpg  used on input
+ line 654.
 (pdftex.def)             Requested size: 227.62204pt x 363.39795pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 658.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 658.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 658.
@@ -1581,19 +1601,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 668--669
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 671.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 671.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 671.
 
-[17 <./assets/images/decryption-private.jpg>]
-<./assets/images/decryption-public.jpg, id=590, 2824.5525pt x 4812.98125pt>
-File: ./assets/images/decryption-public.jpg Graphic file (type jpg)
-<use ./assets/images/decryption-public.jpg>
-Package pdftex.def Info: ./assets/images/decryption-public.jpg  used on input l
-ine 674.
+[17 <./assets/images//decryption-private.jpg>]
+<./assets/images//decryption-public.jpg, id=590, 2824.5525pt x 4812.98125pt>
+File: ./assets/images//decryption-public.jpg Graphic file (type jpg)
+<use ./assets/images//decryption-public.jpg>
+Package pdftex.def Info: ./assets/images//decryption-public.jpg  used on input 
+line 674.
 (pdftex.def)             Requested size: 227.62204pt x 387.8371pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 679--680
@@ -1610,19 +1630,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 684--685
 
  []
 
-<./assets/images/chat.jpg, id=591, 4004.9625pt x 1890.06125pt>
-File: ./assets/images/chat.jpg Graphic file (type jpg)
-<use ./assets/images/chat.jpg>
-Package pdftex.def Info: ./assets/images/chat.jpg  used on input line 688.
+<./assets/images//chat.jpg, id=591, 4004.9625pt x 1890.06125pt>
+File: ./assets/images//chat.jpg Graphic file (type jpg)
+<use ./assets/images//chat.jpg>
+Package pdftex.def Info: ./assets/images//chat.jpg  used on input line 688.
 (pdftex.def)             Requested size: 256.0748pt x 120.8395pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 691.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 691.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 691.
 
-[18 <./assets/images/decryption-public.jpg>]
+[18 <./assets/images//decryption-public.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 693--694
 
  []
@@ -1667,14 +1687,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 711--712
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 714.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 714.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 714.
 
-[19 <./assets/images/chat.jpg>]
+[19 <./assets/images//chat.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
  []
@@ -1704,9 +1724,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 747.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 747.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 747.
@@ -1716,15 +1736,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 748--749
 
  []
 
-<./assets/images/Architecture.jpg, id=615, 2825.55624pt x 2444.13126pt>
-File: ./assets/images/Architecture.jpg Graphic file (type jpg)
-<use ./assets/images/Architecture.jpg>
-Package pdftex.def Info: ./assets/images/Architecture.jpg  used on input line 7
-69.
+<./assets/images//Architecture.jpg, id=615, 2825.55624pt x 2444.13126pt>
+File: ./assets/images//Architecture.jpg Graphic file (type jpg)
+<use ./assets/images//Architecture.jpg>
+Package pdftex.def Info: ./assets/images//Architecture.jpg  used on input line 
+769.
 (pdftex.def)             Requested size: 455.24411pt x 393.79149pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 772.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 772.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 772.
@@ -1749,14 +1769,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 782--783
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 783.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 783.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 783.
 
-[22 <./assets/images/Architecture.jpg>]
+[22 <./assets/images//Architecture.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 784--785
 
  []
@@ -1816,9 +1836,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 833--834
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 834.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 834.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 834.
@@ -1843,9 +1863,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 841--842
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 884.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 884.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 884.
@@ -1890,9 +1910,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 908--909
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 909.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 909.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 909.
@@ -1923,9 +1943,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 918--919
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 939.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 939.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 939.
@@ -1950,9 +1970,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 979--980
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 983.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 983.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 983.
@@ -1972,9 +1992,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 991--992
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1008.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1008.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1008.
@@ -2019,9 +2039,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1050--1051
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1051.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1051.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1051.
@@ -2077,9 +2097,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1069.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1069.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1069.
@@ -2094,14 +2114,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 
  []
 
-<./assets/images/dex.png, id=717, 558.085pt x 556.0775pt>
-File: ./assets/images/dex.png Graphic file (type png)
-<use ./assets/images/dex.png>
-Package pdftex.def Info: ./assets/images/dex.png  used on input line 1107.
+<./assets/images//dex.png, id=717, 558.085pt x 556.0775pt>
+File: ./assets/images//dex.png Graphic file (type png)
+<use ./assets/images//dex.png>
+Package pdftex.def Info: ./assets/images//dex.png  used on input line 1107.
 (pdftex.def)             Requested size: 199.16928pt x 198.4483pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1111.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1111.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1111.
@@ -2126,14 +2146,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1187--1188
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1188.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1188.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1188.
 
-[32 <./assets/images/dex.png>]
+[32 <./assets/images//dex.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1189--1190
 
  []
@@ -2163,9 +2183,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1238.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1238.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1238.
@@ -2215,9 +2235,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1284--1285
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1286.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1286.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1286.
@@ -2247,9 +2267,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1356--1357
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1358.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1358.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1358.
@@ -2294,9 +2314,9 @@ Overfull \hbox (2.97299pt too wide) in paragraph at lines 1452--1452
  []|\OT1/cmr/m/n/10 0.78125%| 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1456.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1456.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1456.
@@ -2321,15 +2341,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1463--1464
 
  []
 
-<./assets/images/timeperiod-pools.jpg, id=768, 4173.5925pt x 1728.4575pt>
-File: ./assets/images/timeperiod-pools.jpg Graphic file (type jpg)
-<use ./assets/images/timeperiod-pools.jpg>
-Package pdftex.def Info: ./assets/images/timeperiod-pools.jpg  used on input li
-ne 1469.
+<./assets/images//timeperiod-pools.jpg, id=768, 4173.5925pt x 1728.4575pt>
+File: ./assets/images//timeperiod-pools.jpg Graphic file (type jpg)
+<use ./assets/images//timeperiod-pools.jpg>
+Package pdftex.def Info: ./assets/images//timeperiod-pools.jpg  used on input l
+ine 1469.
 (pdftex.def)             Requested size: 455.24411pt x 188.5221pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1473.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1473.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1473.
@@ -2349,29 +2369,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 1497--1498
 
  []
 
-<./assets/images/dex-algorithm.jpg, id=775, 4110.35625pt x 5817.735pt>
-File: ./assets/images/dex-algorithm.jpg Graphic file (type jpg)
-<use ./assets/images/dex-algorithm.jpg>
-Package pdftex.def Info: ./assets/images/dex-algorithm.jpg  used on input line 
-1501.
+<./assets/images//dex-algorithm.jpg, id=775, 4110.35625pt x 5817.735pt>
+File: ./assets/images//dex-algorithm.jpg Graphic file (type jpg)
+<use ./assets/images//dex-algorithm.jpg>
+Package pdftex.def Info: ./assets/images//dex-algorithm.jpg  used on input line
+ 1501.
 (pdftex.def)             Requested size: 312.9803pt x 442.96916pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1505.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1505.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1505.
 
-[38 <./assets/images/timeperiod-pools.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1513.
+[38 <./assets/images//timeperiod-pools.jpg>]
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1513.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
 Package xcolor Warning: Incompatible color definition on input line 1513.
 
-[39 <./assets/images/dex-algorithm.jpg>]
+[39 <./assets/images//dex-algorithm.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1519--1521
 
  []
@@ -2396,39 +2416,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 1533--1534
 
  []
 
-<./assets/images/reserve-pool-1.jpg, id=787, 3049.3925pt x 1215.54124pt>
-File: ./assets/images/reserve-pool-1.jpg Graphic file (type jpg)
-<use ./assets/images/reserve-pool-1.jpg>
-Package pdftex.def Info: ./assets/images/reserve-pool-1.jpg  used on input line
- 1537.
+<./assets/images//reserve-pool-1.jpg, id=787, 3049.3925pt x 1215.54124pt>
+File: ./assets/images//reserve-pool-1.jpg Graphic file (type jpg)
+<use ./assets/images//reserve-pool-1.jpg>
+Package pdftex.def Info: ./assets/images//reserve-pool-1.jpg  used on input lin
+e 1537.
 (pdftex.def)             Requested size: 369.88582pt x 147.4352pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1541.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1541.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1541.
 
 [40]
-<./assets/images/reserve-pool-2.jpg, id=795, 3098.57625pt x 1222.5675pt>
-File: ./assets/images/reserve-pool-2.jpg Graphic file (type jpg)
-<use ./assets/images/reserve-pool-2.jpg>
-Package pdftex.def Info: ./assets/images/reserve-pool-2.jpg  used on input line
- 1556.
+<./assets/images//reserve-pool-2.jpg, id=795, 3098.57625pt x 1222.5675pt>
+File: ./assets/images//reserve-pool-2.jpg Graphic file (type jpg)
+<use ./assets/images//reserve-pool-2.jpg>
+Package pdftex.def Info: ./assets/images//reserve-pool-2.jpg  used on input lin
+e 1556.
 (pdftex.def)             Requested size: 369.88582pt x 145.93692pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1561--1562
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1564.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1564.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1564.
 
-[41 <./assets/images/reserve-pool-1.jpg> <./assets/images/reserve-pool-2.jpg>]
+[41 <./assets/images//reserve-pool-1.jpg> <./assets/images//reserve-pool-2.jpg>
+]
 Underfull \hbox (badness 10000) in paragraph at lines 1564--1565
 
  []
@@ -2448,10 +2469,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1571--1572
 
  []
 
-<./assets/images/dex-fee.jpg, id=805, 1294.8375pt x 674.52pt>
-File: ./assets/images/dex-fee.jpg Graphic file (type jpg)
-<use ./assets/images/dex-fee.jpg>
-Package pdftex.def Info: ./assets/images/dex-fee.jpg  used on input line 1575.
+<./assets/images//dex-fee.jpg, id=805, 1294.8375pt x 674.52pt>
+File: ./assets/images//dex-fee.jpg Graphic file (type jpg)
+<use ./assets/images//dex-fee.jpg>
+Package pdftex.def Info: ./assets/images//dex-fee.jpg  used on input line 1575.
+
 (pdftex.def)             Requested size: 256.0748pt x 133.39893pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1588--1589
@@ -2468,14 +2490,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1597--1602
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1602.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1602.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1602.
 
-[42 <./assets/images/dex-fee.jpg>]
+[42 <./assets/images//dex-fee.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1604--1605
 
  []
@@ -2500,32 +2522,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 1637--1638
 
  []
 
-<./assets/images/reserve-pool-4.jpg, id=815, 2424.05624pt x 1801.73125pt>
-File: ./assets/images/reserve-pool-4.jpg Graphic file (type jpg)
-<use ./assets/images/reserve-pool-4.jpg>
-Package pdftex.def Info: ./assets/images/reserve-pool-4.jpg  used on input line
- 1649.
+<./assets/images//reserve-pool-4.jpg, id=815, 2424.05624pt x 1801.73125pt>
+File: ./assets/images//reserve-pool-4.jpg Graphic file (type jpg)
+<use ./assets/images//reserve-pool-4.jpg>
+Package pdftex.def Info: ./assets/images//reserve-pool-4.jpg  used on input lin
+e 1649.
 (pdftex.def)             Requested size: 369.88582pt x 274.92169pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1653.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1653.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1653.
 
 [43]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1666.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1666.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
 Package xcolor Warning: Incompatible color definition on input line 1666.
 
-[44 <./assets/images/reserve-pool-4.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1669.
+[44 <./assets/images//reserve-pool-4.jpg>]
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1669.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
@@ -2571,9 +2593,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1696--1697
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1697.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1697.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1697.
@@ -2593,22 +2615,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 1709--1710
 
  []
 
-<./assets/images/user-deposit.png, id=851, 830.10126pt x 485.815pt>
-File: ./assets/images/user-deposit.png Graphic file (type png)
-<use ./assets/images/user-deposit.png>
-Package pdftex.def Info: ./assets/images/user-deposit.png  used on input line 1
-713.
+<./assets/images//user-deposit.png, id=851, 830.10126pt x 485.815pt>
+File: ./assets/images//user-deposit.png Graphic file (type png)
+<use ./assets/images//user-deposit.png>
+Package pdftex.def Info: ./assets/images//user-deposit.png  used on input line 
+1713.
 (pdftex.def)             Requested size: 284.52756pt x 166.51665pt.
 Excluding 'comment' comment.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1752.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1752.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
 Package xcolor Warning: Incompatible color definition on input line 1752.
 
-[47 <./assets/images/user-deposit.png>]
+[47 <./assets/images//user-deposit.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1768--1769
 
  []
@@ -2638,9 +2660,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1791--1792
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1813.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1813.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1813.
@@ -2665,15 +2687,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1837--1838
 
  []
 
-<./assets/images/custodian.png, id=869, 560.0925pt x 246.1998pt>
-File: ./assets/images/custodian.png Graphic file (type png)
-<use ./assets/images/custodian.png>
-Package pdftex.def Info: ./assets/images/custodian.png  used on input line 1841
-.
+<./assets/images//custodian.png, id=869, 560.0925pt x 246.1998pt>
+File: ./assets/images//custodian.png Graphic file (type png)
+<use ./assets/images//custodian.png>
+Package pdftex.def Info: ./assets/images//custodian.png  used on input line 184
+1.
 (pdftex.def)             Requested size: 455.24411pt x 200.11948pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1845.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1845.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1845.
@@ -2713,17 +2735,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1874--1875
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1875.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1875.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1875.
 
-[50 <./assets/images/custodian.png>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1876.
+[50 <./assets/images//custodian.png>]
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1876.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
@@ -2744,9 +2766,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1896--1897
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1897.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1897.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1897.
@@ -2781,9 +2803,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1915--1916
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1916.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1916.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 1916.
@@ -2803,42 +2825,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 1921--1922
 
  []
 
+<./assets/images//content-removal.jpg, id=911, 2135.98pt x 1224.575pt>
+File: ./assets/images//content-removal.jpg Graphic file (type jpg)
+<use ./assets/images//content-removal.jpg>
+Package pdftex.def Info: ./assets/images//content-removal.jpg  used on input li
+ne 1925.
+(pdftex.def)             Requested size: 341.43306pt x 195.73045pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1924
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1927--1928
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1941--1942
+Underfull \hbox (badness 10000) in paragraph at lines 1939--1940
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1959--1960
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1960.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1942.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 1960.
+Package xcolor Warning: Incompatible color definition on input line 1942.
 
-[54]
-<./assets/images/rov-poll.jpg, id=918, 1670.24pt x 1967.35pt>
-File: ./assets/images/rov-poll.jpg Graphic file (type jpg)
-<use ./assets/images/rov-poll.jpg>
-Package pdftex.def Info: ./assets/images/rov-poll.jpg  used on input line 1963.
-
-(pdftex.def)             Requested size: 284.52756pt x 335.13553pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1968--1969
+[54 <./assets/images//content-removal.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1953--1954
 
  []
 
@@ -2847,24 +2853,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1971--1972
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1973--1974
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1986--1987
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1987.
+<./assets/images//rov-poll.jpg, id=917, 1670.24pt x 1967.35pt>
+File: ./assets/images//rov-poll.jpg Graphic file (type jpg)
+<use ./assets/images//rov-poll.jpg>
+Package pdftex.def Info: ./assets/images//rov-poll.jpg  used on input line 1975
+.
+(pdftex.def)             Requested size: 284.52756pt x 335.13553pt.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1979.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 1987.
+Package xcolor Warning: Incompatible color definition on input line 1979.
 
-[55 <./assets/images/rov-poll.jpg>]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 1992--1993
 
  []
@@ -2874,60 +2876,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 1994--1995
 
  []
 
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 1995.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
+Package xcolor Warning: Incompatible color definition on input line 1995.
+
+[56 <./assets/images//rov-poll.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1996--1997
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1998--1999
+Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
+
+ []
+
+! Misplaced alignment tab character &.
+<argument> (explained in the User Security &
+                                             Privacy section)
+l.2015 ...in the User Security & Privacy section)}
+                                                   due to it's publicly avai...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2015--2016
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2000--2001
+Underfull \hbox (badness 10000) in paragraph at lines 2017--2018
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2016--2017
+Underfull \hbox (badness 10000) in paragraph at lines 2019--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2025--2026
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2027--2028
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2031
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2033--2034
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2035--2036
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2036.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-
-Package xcolor Warning: Incompatible color definition on input line 2036.
-
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 2037--2038
+Underfull \hbox (badness 10000) in paragraph at lines 2021--2022
 
  []
 
@@ -2936,23 +2930,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2039--2040
 
  []
 
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2041.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2041--2042
+Package xcolor Warning: Incompatible color definition on input line 2041.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2045--2046
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2047--2048
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
 
  []
 
@@ -2961,14 +2947,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2050--2051
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2054.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2054.
+Underfull \hbox (badness 10000) in paragraph at lines 2052--2054
 
-[57]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2056--2057
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2058--2059
 
  []
@@ -2993,35 +2982,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 2066--2067
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2072.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2068--2069
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2070--2071
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2073--2074
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2075.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2072.
+Package xcolor Warning: Incompatible color definition on input line 2075.
 
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 2078--2079
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2077.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 2077.
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 2081--2082
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2080--2081
+Underfull \hbox (badness 10000) in paragraph at lines 2083--2084
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2082--2083
+Underfull \hbox (badness 10000) in paragraph at lines 2085--2086
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2084--2085
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2086--2087
+Underfull \hbox (badness 10000) in paragraph at lines 2087--2088
 
  []
 
@@ -3030,34 +3038,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2089--2090
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2092.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2095.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2092.
+Package xcolor Warning: Incompatible color definition on input line 2095.
 
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2094
-
- []
-
-<./assets/images/git-int.jpg, id=957, 1047.915pt x 305.14pt>
-File: ./assets/images/git-int.jpg Graphic file (type jpg)
-<use ./assets/images/git-int.jpg>
-Package pdftex.def Info: ./assets/images/git-int.jpg  used on input line 2096.
-(pdftex.def)             Requested size: 113.81102pt x 33.13713pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2099--2100
-
- []
-
-
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 2101--2102
 
  []
@@ -3072,136 +3060,172 @@ Underfull \hbox (badness 10000) in paragraph at lines 2105--2106
 
  []
 
-<./assets/images/devspace-overview.jpg, id=958, 2433.09pt x 2786.41pt>
-File: ./assets/images/devspace-overview.jpg Graphic file (type jpg)
-<use ./assets/images/devspace-overview.jpg>
-Package pdftex.def Info: ./assets/images/devspace-overview.jpg  used on input l
-ine 2109.
-(pdftex.def)             Requested size: 455.24411pt x 521.34515pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2122.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2107--2108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2109--2110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2112--2113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2114--2115
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2115.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2122.
+Package xcolor Warning: Incompatible color definition on input line 2115.
 
-[60 <./assets/images/git-int.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2122.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 2116--2117
+
+ []
+
+<./assets/images//git-int.jpg, id=968, 1047.915pt x 305.14pt>
+File: ./assets/images//git-int.jpg Graphic file (type jpg)
+<use ./assets/images//git-int.jpg>
+Package pdftex.def Info: ./assets/images//git-int.jpg  used on input line 2119.
+
+(pdftex.def)             Requested size: 113.81102pt x 33.13713pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2123
+
+ []
 
 
-Package xcolor Warning: Incompatible color definition on input line 2122.
-
-[61 <./assets/images/devspace-overview.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2124--2125
 
  []
 
-<./assets/images/chat-community.jpg, id=969, 1802.735pt x 847.165pt>
-File: ./assets/images/chat-community.jpg Graphic file (type jpg)
-<use ./assets/images/chat-community.jpg>
-Package pdftex.def Info: ./assets/images/chat-community.jpg  used on input line
- 2128.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2126--2127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2128--2129
+
+ []
+
+<./assets/images//devspace-overview.jpg, id=969, 2433.09pt x 2786.41pt>
+File: ./assets/images//devspace-overview.jpg Graphic file (type jpg)
+<use ./assets/images//devspace-overview.jpg>
+Package pdftex.def Info: ./assets/images//devspace-overview.jpg  used on input 
+line 2132.
+(pdftex.def)             Requested size: 455.24411pt x 521.34515pt.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2145.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+Package xcolor Warning: Incompatible color definition on input line 2145.
+
+[62 <./assets/images//git-int.jpg>]
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2145.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 2145.
+
+[63 <./assets/images//devspace-overview.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2147--2148
+
+ []
+
+<./assets/images//chat-community.jpg, id=979, 1802.735pt x 847.165pt>
+File: ./assets/images//chat-community.jpg Graphic file (type jpg)
+<use ./assets/images//chat-community.jpg>
+Package pdftex.def Info: ./assets/images//chat-community.jpg  used on input lin
+e 2151.
 (pdftex.def)             Requested size: 256.0748pt x 120.33446pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2133--2134
+Underfull \hbox (badness 10000) in paragraph at lines 2156--2157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2135--2136
+Underfull \hbox (badness 10000) in paragraph at lines 2158--2159
 
  []
 
-<./assets/images/post-dev.jpg, id=970, 1810.765pt x 525.965pt>
-File: ./assets/images/post-dev.jpg Graphic file (type jpg)
-<use ./assets/images/post-dev.jpg>
-Package pdftex.def Info: ./assets/images/post-dev.jpg  used on input line 2147.
-
+<./assets/images//post-dev.jpg, id=980, 1810.765pt x 525.965pt>
+File: ./assets/images//post-dev.jpg Graphic file (type jpg)
+<use ./assets/images//post-dev.jpg>
+Package pdftex.def Info: ./assets/images//post-dev.jpg  used on input line 2170
+.
 (pdftex.def)             Requested size: 455.24411pt x 132.22926pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2151.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2174.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2151.
+Package xcolor Warning: Incompatible color definition on input line 2174.
 
-[62 <./assets/images/chat-community.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2154--2155
+[64 <./assets/images//chat-community.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2177--2178
 
  []
 
-<./assets/images/dev-reward-distribution.jpg, id=976, 1140.26pt x 746.79pt>
-File: ./assets/images/dev-reward-distribution.jpg Graphic file (type jpg)
-<use ./assets/images/dev-reward-distribution.jpg>
-Package pdftex.def Info: ./assets/images/dev-reward-distribution.jpg  used on i
-nput line 2177.
+<./assets/images//dev-reward-distribution.jpg, id=986, 1140.26pt x 746.79pt>
+File: ./assets/images//dev-reward-distribution.jpg Graphic file (type jpg)
+<use ./assets/images//dev-reward-distribution.jpg>
+Package pdftex.def Info: ./assets/images//dev-reward-distribution.jpg  used on 
+input line 2200.
 (pdftex.def)             Requested size: 312.9803pt x 204.97475pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2181.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2204.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2181.
+Package xcolor Warning: Incompatible color definition on input line 2204.
 
-[63 <./assets/images/post-dev.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2182--2183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2184--2185
+[65 <./assets/images//post-dev.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2205--2206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2186--2187
+Underfull \hbox (badness 10000) in paragraph at lines 2207--2208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2189--2190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2191--2192
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2193.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-
-Package xcolor Warning: Incompatible color definition on input line 2193.
-
-[64 <./assets/images/dev-reward-distribution.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2193--2194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2195--2196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2203--2204
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2205.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-
-Package xcolor Warning: Incompatible color definition on input line 2205.
-
-[65]
 Underfull \hbox (badness 10000) in paragraph at lines 2209--2210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2212--2213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2214--2215
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2216.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+Package xcolor Warning: Incompatible color definition on input line 2216.
+
+[66 <./assets/images//dev-reward-distribution.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2216--2217
 
  []
 
@@ -3210,45 +3234,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 2218--2219
 
  []
 
-<./assets/images/influencer-class.jpg, id=993, 2971.1pt x 1043.9pt>
-File: ./assets/images/influencer-class.jpg Graphic file (type jpg)
-<use ./assets/images/influencer-class.jpg>
-Package pdftex.def Info: ./assets/images/influencer-class.jpg  used on input li
-ne 2223.
-(pdftex.def)             Requested size: 455.24411pt x 159.93918pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2227--2228
+Underfull \hbox (badness 10000) in paragraph at lines 2226--2227
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2228.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2228.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 2228.
 
-[66 <./assets/images/influencer-class.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2229--2230
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 2232--2233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2231--2232
+Underfull \hbox (badness 10000) in paragraph at lines 2241--2242
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2242--2243
-
- []
-
+<./assets/images//influencer-class.jpg, id=1004, 2971.1pt x 1043.9pt>
+File: ./assets/images//influencer-class.jpg Graphic file (type jpg)
+<use ./assets/images//influencer-class.jpg>
+Package pdftex.def Info: ./assets/images//influencer-class.jpg  used on input l
+ine 2246.
+(pdftex.def)             Requested size: 455.24411pt x 159.93918pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2250--2251
 
  []
 
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2251.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
+Package xcolor Warning: Incompatible color definition on input line 2251.
+
+[68 <./assets/images//influencer-class.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2252--2253
 
  []
@@ -3259,542 +3285,557 @@ Underfull \hbox (badness 10000) in paragraph at lines 2254--2255
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2256--2257
+Underfull \hbox (badness 10000) in paragraph at lines 2265--2266
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2258.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-
-Package xcolor Warning: Incompatible color definition on input line 2258.
-
-[67]
-Underfull \hbox (badness 10000) in paragraph at lines 2258--2259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2260--2261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2262--2263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2264--2265
-
- []
-
-<./assets/images/ad-flow.jpg, id=1007, 1314.9125pt x 1003.75pt>
-File: ./assets/images/ad-flow.jpg Graphic file (type jpg)
-<use ./assets/images/ad-flow.jpg>
-Package pdftex.def Info: ./assets/images/ad-flow.jpg  used on input line 2268.
-(pdftex.def)             Requested size: 170.71652pt x 130.30829pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2273--2274
 
  []
 
-<./assets/images/ad-selection.jpg, id=1008, 1535.7375pt x 1340.00626pt>
-File: ./assets/images/ad-selection.jpg Graphic file (type jpg)
-<use ./assets/images/ad-selection.jpg>
-Package pdftex.def Info: ./assets/images/ad-selection.jpg  used on input line 2
-277.
-(pdftex.def)             Requested size: 199.16928pt x 173.77754pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2281.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2275--2276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2277--2278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2279--2280
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2281.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 2281.
 
-[68 <./assets/images/ad-flow.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2304.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 2281--2282
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2283--2284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2285--2286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2287--2288
+
+ []
+
+<./assets/images//ad-flow.jpg, id=1017, 1314.9125pt x 1003.75pt>
+File: ./assets/images//ad-flow.jpg Graphic file (type jpg)
+<use ./assets/images//ad-flow.jpg>
+Package pdftex.def Info: ./assets/images//ad-flow.jpg  used on input line 2291.
+
+(pdftex.def)             Requested size: 170.71652pt x 130.30829pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2296--2297
+
+ []
+
+<./assets/images//ad-selection.jpg, id=1018, 1535.7375pt x 1340.00626pt>
+File: ./assets/images//ad-selection.jpg Graphic file (type jpg)
+<use ./assets/images//ad-selection.jpg>
+Package pdftex.def Info: ./assets/images//ad-selection.jpg  used on input line 
+2300.
+(pdftex.def)             Requested size: 199.16928pt x 173.77754pt.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2304.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 Package xcolor Warning: Incompatible color definition on input line 2304.
 
-[69 <./assets/images/ad-selection.jpg>]
-<./assets/images/ad-content.jpg, id=1023, 1746.525pt x 3076.49374pt>
-File: ./assets/images/ad-content.jpg Graphic file (type jpg)
-<use ./assets/images/ad-content.jpg>
-Package pdftex.def Info: ./assets/images/ad-content.jpg  used on input line 230
-7.
-(pdftex.def)             Requested size: 199.16928pt x 350.80843pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2313.
+[70 <./assets/images//ad-flow.jpg>]
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2327.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 2313.
+Package xcolor Warning: Incompatible color definition on input line 2327.
 
-[70 <./assets/images/ad-content.jpg>]
-<./assets/images/ad-publish.jpg, id=1029, 3086.53125pt x 3317.39375pt>
-File: ./assets/images/ad-publish.jpg Graphic file (type jpg)
-<use ./assets/images/ad-publish.jpg>
-Package pdftex.def Info: ./assets/images/ad-publish.jpg  used on input line 232
-0.
+[71 <./assets/images//ad-selection.jpg>]
+<./assets/images//ad-content.jpg, id=1033, 1746.525pt x 3076.49374pt>
+File: ./assets/images//ad-content.jpg Graphic file (type jpg)
+<use ./assets/images//ad-content.jpg>
+Package pdftex.def Info: ./assets/images//ad-content.jpg  used on input line 23
+30.
+(pdftex.def)             Requested size: 199.16928pt x 350.80843pt.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2336.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 2336.
+
+[72 <./assets/images//ad-content.jpg>]
+<./assets/images//ad-publish.jpg, id=1039, 3086.53125pt x 3317.39375pt>
+File: ./assets/images//ad-publish.jpg Graphic file (type jpg)
+<use ./assets/images//ad-publish.jpg>
+Package pdftex.def Info: ./assets/images//ad-publish.jpg  used on input line 23
+43.
 (pdftex.def)             Requested size: 369.88582pt x 397.51326pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2325--2326
+Underfull \hbox (badness 10000) in paragraph at lines 2348--2349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2327--2328
+Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2328.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2351.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2328.
+Package xcolor Warning: Incompatible color definition on input line 2351.
 
-[71 <./assets/images/ad-publish.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2329--2330
+[73 <./assets/images//ad-publish.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2352--2353
 
  []
 
-<./assets/images/periodic-allocation.jpg, id=1036, 1962.33125pt x 903.375pt>
-File: ./assets/images/periodic-allocation.jpg Graphic file (type jpg)
-<use ./assets/images/periodic-allocation.jpg>
-Package pdftex.def Info: ./assets/images/periodic-allocation.jpg  used on input
- line 2333.
+<./assets/images//periodic-allocation.jpg, id=1047, 1962.33125pt x 903.375pt>
+File: ./assets/images//periodic-allocation.jpg Graphic file (type jpg)
+<use ./assets/images//periodic-allocation.jpg>
+Package pdftex.def Info: ./assets/images//periodic-allocation.jpg  used on inpu
+t line 2356.
 (pdftex.def)             Requested size: 369.88582pt x 170.27838pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2338--2339
+Underfull \hbox (badness 10000) in paragraph at lines 2361--2362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2345--2347
+Underfull \hbox (badness 10000) in paragraph at lines 2368--2370
 
  []
 
-<./assets/images/periodic-allocation-2.jpg, id=1037, 2815.51875pt x 1380.15625p
-t>
-File: ./assets/images/periodic-allocation-2.jpg Graphic file (type jpg)
-<use ./assets/images/periodic-allocation-2.jpg>
-Package pdftex.def Info: ./assets/images/periodic-allocation-2.jpg  used on inp
-ut line 2350.
+<./assets/images//periodic-allocation-2.jpg, id=1048, 2815.51875pt x 1380.15625
+pt>
+File: ./assets/images//periodic-allocation-2.jpg Graphic file (type jpg)
+<use ./assets/images//periodic-allocation-2.jpg>
+Package pdftex.def Info: ./assets/images//periodic-allocation-2.jpg  used on in
+put line 2373.
 (pdftex.def)             Requested size: 455.24411pt x 223.14606pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2354.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2377.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2354.
+Package xcolor Warning: Incompatible color definition on input line 2377.
 
-[72 <./assets/images/periodic-allocation.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2355--2356
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2357--2358
+[74 <./assets/images//periodic-allocation.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2378--2379
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2372.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2380--2381
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2395.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2372.
+Package xcolor Warning: Incompatible color definition on input line 2395.
 
-[73 <./assets/images/periodic-allocation-2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2375--2390
+[75 <./assets/images//periodic-allocation-2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2398--2413
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2391.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2414.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2391.
+Package xcolor Warning: Incompatible color definition on input line 2414.
 
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 2395--2396
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2397--2398
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 2418--2419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2405--2406
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2407--2408
+Underfull \hbox (badness 10000) in paragraph at lines 2428--2429
 
  []
 
-<./assets/images/p2p-sell.jpg, id=1065, 2178.1375pt x 2958.05125pt>
-File: ./assets/images/p2p-sell.jpg Graphic file (type jpg)
-<use ./assets/images/p2p-sell.jpg>
-Package pdftex.def Info: ./assets/images/p2p-sell.jpg  used on input line 2412.
 
+Underfull \hbox (badness 10000) in paragraph at lines 2430--2431
+
+ []
+
+<./assets/images//p2p-sell.jpg, id=1075, 2178.1375pt x 2958.05125pt>
+File: ./assets/images//p2p-sell.jpg Graphic file (type jpg)
+<use ./assets/images//p2p-sell.jpg>
+Package pdftex.def Info: ./assets/images//p2p-sell.jpg  used on input line 2435
+.
 (pdftex.def)             Requested size: 199.16928pt x 270.45593pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2416.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2439.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2416.
+Package xcolor Warning: Incompatible color definition on input line 2439.
 
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 2432--2433
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2434--2435
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 2455--2456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2436--2437
+Underfull \hbox (badness 10000) in paragraph at lines 2457--2458
 
  []
 
-<./assets/images/p2p-buy.jpg, id=1072, 1904.11375pt x 4243.855pt>
-File: ./assets/images/p2p-buy.jpg Graphic file (type jpg)
-<use ./assets/images/p2p-buy.jpg>
-Package pdftex.def Info: ./assets/images/p2p-buy.jpg  used on input line 2440.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2459--2460
+
+ []
+
+<./assets/images//p2p-buy.jpg, id=1082, 1904.11375pt x 4243.855pt>
+File: ./assets/images//p2p-buy.jpg Graphic file (type jpg)
+<use ./assets/images//p2p-buy.jpg>
+Package pdftex.def Info: ./assets/images//p2p-buy.jpg  used on input line 2463.
+
 (pdftex.def)             Requested size: 170.71652pt x 380.44109pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2444.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2467.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2444.
+Package xcolor Warning: Incompatible color definition on input line 2467.
 
-[76 <./assets/images/p2p-sell.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
+[78 <./assets/images//p2p-sell.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2468--2469
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2447.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2470.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2447.
+Package xcolor Warning: Incompatible color definition on input line 2470.
 
-[77 <./assets/images/p2p-buy.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2451--2452
+[79 <./assets/images//p2p-buy.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2474--2475
 
  []
 
-<./assets/images/global-reward.png, id=1095, 1945.2675pt x 926.46124pt>
-File: ./assets/images/global-reward.png Graphic file (type png)
-<use ./assets/images/global-reward.png>
-Package pdftex.def Info: ./assets/images/global-reward.png  used on input line 
-2458.
+<./assets/images//global-reward.png, id=1106, 1945.2675pt x 926.46124pt>
+File: ./assets/images//global-reward.png Graphic file (type png)
+<use ./assets/images//global-reward.png>
+Package pdftex.def Info: ./assets/images//global-reward.png  used on input line
+ 2481.
 (pdftex.def)             Requested size: 398.33858pt x 189.71373pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2455--2461
+Underfull \hbox (badness 10000) in paragraph at lines 2478--2484
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2473.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2496.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2473.
+Package xcolor Warning: Incompatible color definition on input line 2496.
 
-[78 <./assets/images/global-reward.png>]
-<./assets/images/burn-chart.png, id=1110, 2286.5425pt x 1237.62375pt>
-File: ./assets/images/burn-chart.png Graphic file (type png)
-<use ./assets/images/burn-chart.png>
-Package pdftex.def Info: ./assets/images/burn-chart.png  used on input line 248
-1.
+[80 <./assets/images//global-reward.png>]
+<./assets/images//burn-chart.png, id=1121, 2286.5425pt x 1237.62375pt>
+File: ./assets/images//burn-chart.png Graphic file (type png)
+<use ./assets/images//burn-chart.png>
+Package pdftex.def Info: ./assets/images//burn-chart.png  used on input line 25
+04.
 (pdftex.def)             Requested size: 284.52756pt x 154.00386pt.
-<./assets/images/revenue-distribution.png, id=1111, 2224.31pt x 1080.035pt>
-File: ./assets/images/revenue-distribution.png Graphic file (type png)
-<use ./assets/images/revenue-distribution.png>
-Package pdftex.def Info: ./assets/images/revenue-distribution.png  used on inpu
-t line 2488.
+<./assets/images//revenue-distribution.png, id=1122, 2224.31pt x 1080.035pt>
+File: ./assets/images//revenue-distribution.png Graphic file (type png)
+<use ./assets/images//revenue-distribution.png>
+Package pdftex.def Info: ./assets/images//revenue-distribution.png  used on inp
+ut line 2511.
 (pdftex.def)             Requested size: 284.52756pt x 138.15172pt.
  Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 2535--2536
+Underfull \hbox (badness 10000) in paragraph at lines 2558--2559
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2542.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2565.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2542.
+Package xcolor Warning: Incompatible color definition on input line 2565.
 
-[79 <./assets/images/burn-chart.png> <./assets/images/revenue-distribution.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2546--2547
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2548--2549
+[81 <./assets/images//burn-chart.png> <./assets/images//revenue-distribution.pn
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 2569--2570
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2556--2557
+Underfull \hbox (badness 10000) in paragraph at lines 2571--2572
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2605.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2579--2580
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2628.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2605.
+Package xcolor Warning: Incompatible color definition on input line 2628.
 
-[80]
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2614
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2615--2619
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 2636--2637
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2634--2636
+Underfull \hbox (badness 10000) in paragraph at lines 2638--2642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2637--2643
+Underfull \hbox (badness 10000) in paragraph at lines 2657--2659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2645--2646
+Underfull \hbox (badness 10000) in paragraph at lines 2660--2666
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2658--2659
+Underfull \hbox (badness 10000) in paragraph at lines 2668--2669
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2659.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2681--2682
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2682.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2659.
+Package xcolor Warning: Incompatible color definition on input line 2682.
 
-[81]
-Underfull \hbox (badness 10000) in paragraph at lines 2660--2661
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2670--2671
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2672--2673
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2676--2677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2678--2679
-
- []
-
-
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 2683--2684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2685--2686
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2686.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-
-Package xcolor Warning: Incompatible color definition on input line 2686.
-
-[82]
-Underfull \hbox (badness 10000) in paragraph at lines 2687--2688
+Underfull \hbox (badness 10000) in paragraph at lines 2693--2694
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2689--2690
+Underfull \hbox (badness 10000) in paragraph at lines 2695--2696
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2691--2692
+Underfull \hbox (badness 10000) in paragraph at lines 2699--2700
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2702--2703
+Underfull \hbox (badness 10000) in paragraph at lines 2701--2702
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2704.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2704.
+Underfull \hbox (badness 10000) in paragraph at lines 2706--2707
 
-[83]
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2708--2709
 
  []
 
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2709.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
+Package xcolor Warning: Incompatible color definition on input line 2709.
+
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 2710--2711
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2729--2730
+Underfull \hbox (badness 10000) in paragraph at lines 2712--2713
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2732--2733
+Underfull \hbox (badness 10000) in paragraph at lines 2714--2715
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2734--2738
+Underfull \hbox (badness 10000) in paragraph at lines 2725--2726
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2740--2741
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2744--2755
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2756.
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2727.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2756.
+Package xcolor Warning: Incompatible color definition on input line 2727.
 
-[84]
-<./assets/images/viral-coin-logo.png, id=1205, 140.05814pt x 140.05814pt>
-File: ./assets/images/viral-coin-logo.png Graphic file (type png)
-<use ./assets/images/viral-coin-logo.png>
-Package pdftex.def Info: ./assets/images/viral-coin-logo.png  used on input lin
-e 2769.
-(pdftex.def)             Requested size: 71.13188pt x 71.13164pt.
-<./assets/images/token-distribution.png, id=1206, 2281.52374pt x 925.4575pt>
-File: ./assets/images/token-distribution.png Graphic file (type png)
-<use ./assets/images/token-distribution.png>
-Package pdftex.def Info: ./assets/images/token-distribution.png  used on input 
-line 2776.
-(pdftex.def)             Requested size: 455.24411pt x 184.65045pt.
- Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 2813--2814
+[85]
+Underfull \hbox (badness 10000) in paragraph at lines 2731--2732
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2816--2817
+Underfull \hbox (badness 10000) in paragraph at lines 2733--2734
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2819--2820
+Underfull \hbox (badness 10000) in paragraph at lines 2752--2753
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2822.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2755--2756
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2757--2761
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2763--2764
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2767--2778
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2779.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2822.
-
-[85 <./assets/images/viral-coin-logo.png> <./assets/images/token-distribution.p
-ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 2822--2823
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2834.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-
-Package xcolor Warning: Incompatible color definition on input line 2834.
+Package xcolor Warning: Incompatible color definition on input line 2779.
 
 [86]
-Underfull \hbox (badness 10000) in paragraph at lines 2838--2841
+<./assets/images//viral-coin-logo.png, id=1216, 140.05814pt x 140.05814pt>
+File: ./assets/images//viral-coin-logo.png Graphic file (type png)
+<use ./assets/images//viral-coin-logo.png>
+Package pdftex.def Info: ./assets/images//viral-coin-logo.png  used on input li
+ne 2792.
+(pdftex.def)             Requested size: 71.13188pt x 71.13164pt.
+<./assets/images//token-distribution.png, id=1217, 2281.52374pt x 925.4575pt>
+File: ./assets/images//token-distribution.png Graphic file (type png)
+<use ./assets/images//token-distribution.png>
+Package pdftex.def Info: ./assets/images//token-distribution.png  used on input
+ line 2799.
+(pdftex.def)             Requested size: 455.24411pt x 184.65045pt.
+ Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 2836--2837
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2916.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2839--2840
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2842--2843
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2845.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2916.
+Package xcolor Warning: Incompatible color definition on input line 2845.
 
-[87]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2916.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2916.
- (./Whitepaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2916.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2916.
+[87 <./assets/images//viral-coin-logo.png> <./assets/images//token-distribution
+.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2845--2846
 
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2857.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+Package xcolor Warning: Incompatible color definition on input line 2857.
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 2861--2864
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2939.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+Package xcolor Warning: Incompatible color definition on input line 2939.
+
+[89] (./Whitepaper.aux)
 Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
-(rerunfilecheck)             Checksum: 061EC6283C2C0737FF2E292083D12A02;4628.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2916.
+(rerunfilecheck)             Checksum: 7EC49C3D7ED7EDFC40A7548796965794;11278.
  ) 
 Here is how much of TeX's memory you used:
- 36793 strings out of 481239
- 795756 string characters out of 5920378
- 1351542 words of memory out of 5000000
- 50941 multiletter control sequences out of 15000+600000
- 538558 words of font info for 45 fonts, out of 8000000 for 9000
+ 39237 strings out of 478994
+ 829073 string characters out of 5858185
+ 1492709 words of memory out of 5000000
+ 55596 multiletter control sequences out of 15000+600000
+ 409650 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 174i,14n,204p,1614b,2621s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 155i,14n,146p,1614b,2629s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{https://blog.iota.org/iota-smart-contracts-beta-r
 elease/} has been referenced but does not exist, replaced by a fixed one
 
@@ -3813,32 +3854,34 @@ exist, replaced by a fixed one
 pdfTeX warning (dest): name{https://sample.com} has been referenced but does no
 t exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmtt8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sftt0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (87 pages, 8582088 bytes).
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/tfrupee/tfrupee.pfb>
+Output written on Whitepaper.pdf (89 pages, 8763146 bytes).
 PDF statistics:
- 1425 PDF objects out of 1440 (max. 8388607)
- 1247 compressed objects within 13 object streams
- 575 named destinations out of 1000 (max. 500000)
- 767 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1437 PDF objects out of 1440 (max. 8388607)
+ 1256 compressed objects within 13 object streams
+ 578 named destinations out of 1000 (max. 500000)
+ 772 words of extra memory for PDF output out of 10000 (max. 10000000)
 

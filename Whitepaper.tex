@@ -1918,9 +1918,21 @@ Reactive Moderation is a manual yet highly scalable method that involves both no
 
 To remove a post in centralized social media, the entity governing the application shall remove the user's database tables that contains the post-meta data. Post Metadata is defined as the data providing information about one or more information about a post i.e., image url, description, etc. Unlike centralized social media, Viral is a decentralized social media that doesn't owns user's data, hence Viral and it's developers doesn't have governance over users meta-data. For a clean, appropriate content platform moderation is a key for it's growth. Viral proposes to solve moderation issues by removing the media's source from it's Viral Private IPFS Clusters by publishing the black-listed media live using decentralized oracle's.\\
 
-Viral's IPFS cluster which is explained in the User Security and Privacy page of the whitewater, replicates data across trusted high efficiency IPFS nodes for a decentralized censorship resistant storage. Viral IPFS Clusters have the authority to remove data/files from it's nodes by fetching black-listed files fingerprints from ledger maintained through decentralized oracles - resistant to data tampering.\\
+Viral's IPFS cluster which is explained in the User Security and Privacy page of the whitepater, replicates data across trusted high efficiency IPFS nodes for a decentralized censorship resistant storage. Viral IPFS Clusters have the authority to remove data/files from it's nodes by fetching black-listed files fingerprints from ledger maintained through decentralized oracles - resistant to data tampering.\\
 
-Visual Representation of Oracle and Clusters\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=12cm]{content-removal}
+\end{center}
+\caption{Blacklisted Pins Live Oracle Feed to remove content across Viral IPFS Cluster}
+\end{figure}
+
+\begin{itemize}[leftmargin = +0.2in]
+\item ROV poll is conducted among the curators of the platform to decide on to keep or remove the post.  After deciding on removing the post,  the IPFS CID \textit{(content identification)} of the post is sent to a decentralized oracle ledger for immutability and tamper-resistance
+\item The Oracle feed displays blacklisted CIDs for the Viral IPFS Cluster Peers/Nodes to publish a remove command to the cluster layer
+\item After the pin remove command is published the peers within the cluster removes the pin from their respective nodes
+\item A garbage collection is run on the peers and the content is removed completely from the viral clusters
+\end{itemize}
 
 
 
@@ -1965,25 +1977,34 @@ $\gamma_p$=Remove Votes Percentage, $\kappa_p$ = Keep Votes Percentage\\
 \end{center}
 \end{figure}
 
-Key Points\\
+The reactive-moderation type polls are initiated  in the following steps,
+\begin{itemize}[leftmargin=+0.2in]
+\item A user reports a content in the viral social platform which he/she feels in-appropriate for the community or similar viewers
+\item ROV receives the report under reactive-moderation and creates a poll for the reported user to review, analyze the content for further action
+\item A timer is added in the poll according to the category of report chosen by the reporting-user.  This allocates certain very important categories to be shown first to the active curators.
+\item The poll receives votes based on the curators opinion and the community guidelines followed by the curators. Both "keep" and "remove" votes are calculated until the timer ends
+\item A premature poll ending algorithm runs with every single vote to determine the chances of ending it.  The poll ends if the algorithm satisfies the condition of 90\% of more than 10 votes are voted towards a single decision.
+\item After the Poll ends the decision is taken by calculating the majority of votes. 
+\item The content is removed from Viral IPFS Clusters or kept for further appeal if the curators decision was to keep the content.
+\end{itemize}
 
 
 \textbf{Re-Appeals}\\
 
-A unique feature of ROV given to the users of Viral to re-appeal or re-report against the decision of voters while giving an explanation where the ROV curators can again vote to keep the content again or remove based on the explanation given by the user who re-reported. The timer for re-appeal is posted two times the category timer for normal reports where if votes are more than 25 and 90\% opt again to keep or remove the content the timer will end prematurely.\\
+Re-appeals are similar to regional court's first \& second appeals done by individuals against the decree of the jurisdiction.  Re-Appeals are given to the users of Viral to re-report against the decision of curators while giving an explanation for removing the post where the ROV curators can again vote and decide to keep or remove based the content by taking the explanation given by the user who re-reported. Re-appeals applications will expire in 48hrs after the first-decision is posted by the ROV curators to keep the content. \\
+
+The algorithmic premature poll ending timer for re-appeal is posted two times ($2x$) the category timer for normal reports where if votes are more than 25 and 70\% opt again to keep or remove the content the timer will end prematurely.\\
 
 \begin{equation}
-Total\:Votes\:(x) \geq25
+\lambda \geq25
 \end{equation}
 \begin{equation}
-(\frac{Total\:Remove\:Votes\:(r)}{x}) \times  100 = r_p \geq 90
+(\frac{\gamma}{\lambda}) \times  100 = \gamma_p \geq 70
 \end{equation}
 \begin{equation}
-(\frac{Total\:Keep\:Votes\:(k)}{x}) \times  100 = k_p \geq 90
+(\frac{\kappa}{\lambda}) \times  100 = \kappa_p \geq 70
 \end{equation}
 
-
-$r_p$=Remove Votes Percentage, $k_p$ = Keep Votes Percentage\\
 
 \textbf{Pre-Moderation using AI Tools}
 
@@ -1991,7 +2012,7 @@ $r_p$=Remove Votes Percentage, $k_p$ = Keep Votes Percentage\\
 
 \textbf{Private Accounts}\\
 
-Viral’s content reports are only applicable to public accounts. Viral’s vision to bring complete privacy and security to private accounts which are exempted from being reported. ROV curators will not moderate, nor involve to view the contents of secured private accounts. Thus, it leaves decisions in the hands of followers whether to view their content or not. \\
+Viral’s content reports are only applicable to public accounts. Viral’s vision to bring complete privacy and security to private accounts which are exempted from being reported.  Every single content in the viral platform is encrypted, the curators can only view the public content as a watcher \textit{(explained in the User Security & Privacy section)} due to it's publicly available decryption keys. ROV curators will not moderate, nor involve to view the contents of secured private accounts. Thus, it leaves decisions in the hands of followers whether to view their content or not. \\
 
 \textbf{Eliminating Bad Curators}\\
 
@@ -2005,14 +2026,16 @@ This Positive/Negative points suspension factor will be running after every sing
 \item If Negative Point is more than 50\% - Account suspension for 12 days
 \end{itemize} 
 
+Taking Negative Point as $\eta$ and Positive Point as $\rho$
+
 \begin{equation}
-Positive\:Point(p) \times  30\% \leq Negative\:Point(n) \leq Positive\:Point(p) \times  40\%
+(\rho) \times  30\% \leq (\eta) \leq (\rho) \times  40\%
 \end{equation}
 \begin{equation}
-Positive\:Point(p) \times  40\% \leq Negative\:Point(n) \leq Positive\:Point(p) \times  50\%
+(\rho) \times  40\% \leq (\eta) \leq (\rho) \times  50\%
 \end{equation}
 \begin{equation}
-Positive\:Point(p) \times 50\% \leq Negative\:Point(n)
+(\rho) \times 50\% \leq (\eta)
 \end{equation}\\
 
 We have also made factors to suspend an ROV account forever based on the number of suspensions they get on their account. The factors are
@@ -2026,7 +2049,7 @@ There will be a test-net and live-net to practice voting at its best\\
 
 Example : \\
 
-User A: Day 26; Positive – 234; Negative – 55; Result: More than 20\%: Suspension for 3 days\\
+User A: Day 26; Positive – 234; Negative – 80; Result: More than 30\%: Suspension for 3 days\\
 User B – Day 30; Positive – 523; Negative – 343; Result : More than 50\% : Suspension for 12 days\\
 
 
