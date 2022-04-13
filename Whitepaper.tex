@@ -2468,7 +2468,7 @@ Our ultimate vision is to develop a decentralized social media without any centr
 
 \section{Global Reward Pool}
 
-Viral Rewards are daily rewards allocated to every user on the decentralized platform who contributes towards running the platform. It includes Users, Miners, Volunteers, and DAO Members. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in Viral tokens and Wrapped tokens of popular cryptocurrencies such as Bitcoin, Ethereum, Solana, etc for all the users who contribute towards running the social and multi-chain platform.\\
+To develop a truly decentralized company, the segregation of expenditures and investments should be determined and allocated through an automated smart contract. The profits should be divided across employees - in Viral's case it's volunteers,  investors as dividends, and for further new projects. Viral Rewards are daily rewards allocated to every user on the decentralized platform who contributes towards running the platform. It includes Users, Miners, Volunteers, and DAO Members. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in Viral native tokens and Wrapped tokens of popular cryptocurrencies such as Bitcoin, Ethereum, Solana, etc for all the users who contribute towards running the social and multi-chain platform.\\
 
 The Reward allocation for each user happens through automated smart contracts every day at 2 AM UTC. Viral Rewards are designed in such a way that every single contributor inside the network will get paid for their contribution through a either democratic voting system or mathematically predicted points. These points prediction program will be calculated from off-chain real-time data through decentralized tamper-proof oracles in a secure  manner to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. \\
 
@@ -2486,14 +2486,12 @@ The 100\% percent of total daily revenue is distributed as \\
 \item \textbf{Social Miners} : Nodes running relay servers of various decentralized tech-stack runs on Viral Social Application
 \item \textbf{IPFS Miners} : Storage Viral IPFS Private Cluster nodes.
 \item \textbf{Social Users} : For Social Application users according to their daily impression on their media content.
-\item \textbf{Developers} : Allocated for Viral Open Source Developers
-\item \textbf{Bounties} : Rewards for developers who can improve the protocols by detecting major flaws and loopholes in the operating protocols.
-\item \textbf{Crypto Back}: Similar to cashback systems in payment applications. Viral Pay users will receive crypto-back for every payment they make.
+\item \textbf{Developers} : Allocated for Viral Open Source Developers allocated by amount of Shout-outs they receive for successful merge requests.
+\item \textbf{Bounties} : Rewards for developers who can improve the applications by detecting major flaws and security loopholes.
+\item \textbf{Crypto Back}: Similar to cash-back systems in payment applications. Viral Pay users will receive crypto-back for every payment they make.
 \item \textbf{Burn} : Portion of the pool allocated to swap tokens to Viral Coin and sending it to a burn address where the supply will be removed.
 \item \textbf{ROV} : Content Moderation community rewards according to their plus votes received for won polls.
 \item \textbf{DAO} : Allocation for governing, maintenance and operation of the decentralized viral applications.
-
-
 \end{enumerate} 
 
 \begin{figure}[H]
@@ -2513,15 +2511,13 @@ The 100\% percent of total daily revenue is distributed as \\
 
 \begin{comment}%mermaid
 
-
-    pie
+pie
 
     title Daily Revenue Distribution
     "Users - 34%" : 31
     "Miners - 31%" : 28
     "Volunteers - 19%" : 17.5
     "DAO - 15%" :  14
-
 
 pie
 
@@ -2538,10 +2534,16 @@ pie
     "ROV - 6% " : 6
     "DAO - 14% " : 14   
    
-  
 \end{comment}
 
+\textbf{Portfolio of Multiple Tokens}\\
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{portfolio-reward}
+\caption{Reward Allocation \& Claiming Multi-Tokens }
+\end{center}
+\end{figure}
 
 
 
@@ -2576,6 +2578,7 @@ User\:Percentage(U_p)=\frac{User\:Total\:Impression(U_i)}{Global\:Impression(G)}
 User\:Rewards(x)=\frac{Total\:Rewards(T) \times User\:Reward\:Percentage(U_p)}{100}
 \end{equation}\\
 
+\begin{figure}
 \begin{lstlisting}[language=Solidity, caption={Example User Reward Contract in Solidity}, numbers=none]
 
 
@@ -2588,12 +2591,20 @@ import "@openzeppelin/contracts@4.5.0/token/ERC20/extensions/ERC20Snapshot.sol";
 import "@openzeppelin/contracts@4.5.0/access/Ownable.sol";
 import "@openzeppelin/contracts@4.5.0/security/Pausable.sol";
 
-contract Reward is Ownable, {
+contract Reward is Ownable, Pausable {
    
     uint256 public rewardamount;
     uint256 public rewardfortheuser;
     uint256 public impression = 0.0;
     uint256 public totalimp = 0;
+    
+    function pause() public onlyOwner {
+        _pause();
+    }
+    
+    function unpause() public onlyOwner {
+        _unpause();
+    }
     
     function totalrewardamount() external view onlyOwner returns(uint256){     // read 
          return rewardamount;
@@ -2620,7 +2631,7 @@ contract Reward is Ownable, {
 
 }
 \end{lstlisting}
-
+\end{figure}
 
 \textbf{Example User-Reward}\\
 
@@ -2662,12 +2673,25 @@ The reward allocation and analysis of coins for each User(Views-Based) will be d
 
 \subsection{Burn - 10\%}
 
+\subsection{Developers (Contribution-based) - 9\%}
+
+7.5\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to development of the beta application which will be available as an open repository. To give rewards for developers' contribution to the decentralized platform and also to encourage developers by giving paid rewards to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform.\\
+
+We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get voted by other developers for rewards. The votes will determine their rewards where the maximum voted contribution will receive more viral coins than the minimum voted contribution.\\ 
+
+Developers are the backbone of Viral. Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.\\
+
+Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 7.5\% of daily revenue to a closed community. This will encourage autonomous development of superior technology where all hands matter. \\
+
+The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 15 hours every day.\\
+
+
 \subsection{IPFS-Miners (Storage-based) - 8\%}
 
 
-\subsection{ROV (Contribution-based) - 6.5\%}
+\subsection{ROV (Contribution-based) - 6\%}
 
-7.5\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. \\
+6\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. \\
 
 This ensures rapid results in removing explicit content in a relatively short time without any hassles. In short, ROV is a decentralized autonomous organization to maintain Viral's media contents at its best. The curators will be rewarded by Viral Coins for their contribution to the network.\\
 
@@ -2690,24 +2714,11 @@ Social Miners are people running nodes in the viral decentralized network for st
 The segregation will take place at 2 AM UTC by taking the total number of data served from each technology stack's peer such as GUN, WebRTC, and all other mini peers. The points will be given to Social Nodes based on the percentage they served to total served by all stabilizers in the given 24 hours. The stabilizers can able to receive their Daily rewards to their wallets based on contribution, where the rewards have to be collected manually within the 15 hour stipulated window, in which the uncollected coins will be sent to burn address automatically.\\
 
 
-\subsection{Developers (Contribution-based) - 7.5\%}
-
-7.5\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to development of the beta application which will be available as an open repository. To give rewards for developers' contribution to the decentralized platform and also to encourage developers by giving paid rewards to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform.\\
-
-We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get voted by other developers for rewards. The votes will determine their rewards where the maximum voted contribution will receive more viral coins than the minimum voted contribution.\\ 
-
-Developers are the backbone of Viral. Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.\\
-
-Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 7.5\% of daily revenue to a closed community. This will encourage autonomous development of superior technology where all hands matter. \\
-
-The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 15 hours every day.\\
-
 \subsection{DAG-Miners (Transaction-based) - 5\%}
 
-\subsection{Crypto-Back - 5\%}
+\subsection{Bounties - 2\%}
 
-\subsection{Bounties (DAO-Vote) - 2\%}
-
+\subsection{Crypto-Back - 1\%}
 
 \subsection{Charity Contribution}
 
@@ -2806,9 +2817,9 @@ DAO Bylaws\\
         \textbf{Sl.no} & \textbf{Round} & \textbf{Supply} & \textbf{Tokens} & \textbf{Price} \\ \hline
         1 & Pre-Seed & Private - 3 \% & 150,000,000 & ~ \\ \hline
         2 & Seed & Private - 4.5 \% & 225,000,000 & ~ \\ \hline
-        3 & Pre-Sale & Private - 1.5 \%,  Public (White-list) - 7 \%  & 425,000,000 & ~ \\ \hline
-        4 & Main-Sale & Private -  1 \%, Public - 10 \% & 550,000,000 & ~ \\ \hline
-        5 & Alpha-Sale & Public - 8 \% & 400,000,000 & ~ \\ \hline
+        3 & Pre-Sale & Private - 1.5 \%,  Public (White-list) - 5\%  & 325,000,000 & ~ \\ \hline
+        4 & Main-Sale & Private -  1 \%, Public - 8 \% & 450,000,000 & ~ \\ \hline
+        5 & Alpha-Sale & Public - 12 \% & 600,000,000 & ~ \\ \hline
         6 & Exchange Offering & IEO - 5 \% & 250,000,000 & ~ \\ \hline
     \end{tabular}
 \end{table}
