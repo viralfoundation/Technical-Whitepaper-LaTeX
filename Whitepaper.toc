@@ -41,10 +41,10 @@
 \contentsline {subsection}{\numberline {10.5}P2P Exchange}{76}{subsection.10.5}%
 \contentsline {section}{\numberline {11}Global Reward Pool}{79}{section.11}%
 \contentsline {subsection}{\numberline {11.1}Social Users (Impression-based) - 30\%}{81}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}DAO - 12\%}{83}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Blockchain-Miners (Gas-based) - 11\%}{83}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Burn - 10\%}{83}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Developers (Contribution-based) - 9\%}{83}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.2}DAO - 12\%}{84}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Blockchain-Miners (Gas-based) - 11\%}{84}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Burn - 10\%}{84}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Developers (Contribution-based) - 9\%}{84}{subsection.11.5}%
 \contentsline {subsection}{\numberline {11.6}IPFS-Miners (Storage-based) - 8\%}{84}{subsection.11.6}%
 \contentsline {subsection}{\numberline {11.7}ROV (Contribution-based) - 6\%}{84}{subsection.11.7}%
 \contentsline {subsection}{\numberline {11.8}Social Miners (Serving based) - 4\%}{85}{subsection.11.8}%

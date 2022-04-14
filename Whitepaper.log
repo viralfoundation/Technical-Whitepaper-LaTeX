@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.4.2)  13 APR 2022 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.4.2)  14 APR 2022 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3579,174 +3579,175 @@ Underfull \hbox (badness 10000) in paragraph at lines 2539--2540
 
  []
 
-<./assets/images//portfolio-reward.jpg, id=1117, 2392.94pt x 1233.60875pt>
-File: ./assets/images//portfolio-reward.jpg Graphic file (type jpg)
-<use ./assets/images//portfolio-reward.jpg>
-Package pdftex.def Info: ./assets/images//portfolio-reward.jpg  used on input l
-ine 2543.
-(pdftex.def)             Requested size: 455.24411pt x 234.68927pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2541--2542
+
+ []
+
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2547.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2542.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2547.
+Package xcolor Warning: Incompatible color definition on input line 2542.
 
 [80 <./assets/images//burn-chart.png> <./assets/images//revenue-distribution.pn
 g>]
-Underfull \hbox (badness 10000) in paragraph at lines 2558--2559
+<./assets/images//portfolio-reward.jpg, id=1130, 2050.66125pt x 1306.8825pt>
+File: ./assets/images//portfolio-reward.jpg Graphic file (type jpg)
+<use ./assets/images//portfolio-reward.jpg>
+Package pdftex.def Info: ./assets/images//portfolio-reward.jpg  used on input l
+ine 2545.
+(pdftex.def)             Requested size: 455.24411pt x 290.10742pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2569--2570
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2571--2572
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2579--2580
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2636--2637
+Underfull \hbox (badness 10000) in paragraph at lines 2561--2562
 
  []
 
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2637.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2565.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2637.
+Package xcolor Warning: Incompatible color definition on input line 2565.
 
 [81 <./assets/images//portfolio-reward.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2572--2573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2574--2575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2582--2583
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2639--2640
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2641--2645
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2660--2662
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2663--2669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2671--2672
+
+ []
+
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2637.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2672.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-
-Package xcolor Warning: Incompatible color definition on input line 2637.
+Package xcolor Warning: Incompatible color definition on input line 2672.
 
 [82]
-Underfull \hbox (badness 10000) in paragraph at lines 2638--2642
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2657--2659
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2660--2666
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2668--2669
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2678--2679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2680--2681
-
- []
-
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2681.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2672.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2681.
+
+Package xcolor Warning: Incompatible color definition on input line 2672.
 
 [83]
-Underfull \hbox (badness 10000) in paragraph at lines 2682--2683
+Underfull \hbox (badness 10000) in paragraph at lines 2681--2682
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2684--2685
+Underfull \hbox (badness 10000) in paragraph at lines 2683--2684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2686--2687
+Underfull \hbox (badness 10000) in paragraph at lines 2685--2686
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2694--2695
+Underfull \hbox (badness 10000) in paragraph at lines 2687--2688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2696--2697
+Underfull \hbox (badness 10000) in paragraph at lines 2689--2690
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2706--2707
+Underfull \hbox (badness 10000) in paragraph at lines 2697--2698
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2709
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2712--2713
+Underfull \hbox (badness 10000) in paragraph at lines 2699--2700
 
  []
 
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2713.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2700.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2713.
+Package xcolor Warning: Incompatible color definition on input line 2700.
 
 [84]
-Underfull \hbox (badness 10000) in paragraph at lines 2714--2715
+Underfull \hbox (badness 10000) in paragraph at lines 2709--2710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2725--2726
+Underfull \hbox (badness 10000) in paragraph at lines 2711--2712
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2715--2716
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2717--2718
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2728--2729
 
  []
 
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2727.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2730.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2727.
+Package xcolor Warning: Incompatible color definition on input line 2730.
 
 [85]
-Underfull \hbox (badness 10000) in paragraph at lines 2731--2732
+Underfull \hbox (badness 10000) in paragraph at lines 2734--2735
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2733--2734
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2752--2753
+Underfull \hbox (badness 10000) in paragraph at lines 2736--2737
 
  []
 
@@ -3756,46 +3757,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 2755--2756
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2757--2761
+Underfull \hbox (badness 10000) in paragraph at lines 2758--2759
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2763--2764
+Underfull \hbox (badness 10000) in paragraph at lines 2760--2764
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2767--2778
+Underfull \hbox (badness 10000) in paragraph at lines 2766--2767
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2781
 
  []
 
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2779.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2782.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2779.
+Package xcolor Warning: Incompatible color definition on input line 2782.
 
 [86]
 <./assets/images//viral-coin-logo.png, id=1217, 140.05814pt x 140.05814pt>
 File: ./assets/images//viral-coin-logo.png Graphic file (type png)
 <use ./assets/images//viral-coin-logo.png>
 Package pdftex.def Info: ./assets/images//viral-coin-logo.png  used on input li
-ne 2797.
+ne 2800.
 (pdftex.def)             Requested size: 71.13188pt x 71.13164pt.
 <./assets/images//token-distribution.png, id=1218, 2281.52374pt x 925.4575pt>
 File: ./assets/images//token-distribution.png Graphic file (type png)
 <use ./assets/images//token-distribution.png>
 Package pdftex.def Info: ./assets/images//token-distribution.png  used on input
- line 2807.
+ line 2810.
 (pdftex.def)             Requested size: 455.24411pt x 184.65045pt.
  Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 2844--2845
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2847--2848
 
  []
@@ -3810,34 +3811,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 2853--2854
 
  []
 
-File: ./assets/images//logo.png Graphic file (type png)
-<use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2865.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2865.
-
-[87 <./assets/images//viral-coin-logo.png> <./assets/images//token-distribution
-.png>]
-File: ./assets/images//logo.png Graphic file (type png)
-<use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2865.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-
-
-Package xcolor Warning: Incompatible color definition on input line 2865.
-
-[88]
-Underfull \hbox (badness 10000) in paragraph at lines 2869--2872
+Underfull \hbox (badness 10000) in paragraph at lines 2856--2857
 
  []
 
 File: ./assets/images//logo.png Graphic file (type png)
 <use ./assets/images//logo.png>
-Package pdftex.def Info: ./assets/images//logo.png  used on input line 2947.
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2868.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-Package xcolor Warning: Incompatible color definition on input line 2947.
+Package xcolor Warning: Incompatible color definition on input line 2868.
+
+[87 <./assets/images//viral-coin-logo.png> <./assets/images//token-distribution
+.png>]
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2868.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 2868.
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 2872--2875
+
+ []
+
+File: ./assets/images//logo.png Graphic file (type png)
+<use ./assets/images//logo.png>
+Package pdftex.def Info: ./assets/images//logo.png  used on input line 2950.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+Package xcolor Warning: Incompatible color definition on input line 2950.
 
 [89] (./Whitepaper.aux)
 Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
@@ -3850,7 +3856,7 @@ Here is how much of TeX's memory you used:
  55604 multiletter control sequences out of 15000+600000
  409650 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 155i,14n,146p,1614b,2629s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 155i,14n,146p,1654b,2629s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{https://blog.iota.org/iota-smart-contracts-beta-r
 elease/} has been referenced but does not exist, replaced by a fixed one
 
@@ -3893,7 +3899,7 @@ ist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/
 fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (89 pages, 8979128 bytes).
+Output written on Whitepaper.pdf (89 pages, 9000808 bytes).
 PDF statistics:
  1438 PDF objects out of 1440 (max. 8388607)
  1256 compressed objects within 13 object streams
