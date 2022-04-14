@@ -18,7 +18,7 @@
 \usepackage{tabularx}
 \usepackage {amsmath}
 \usepackage{authblk}
-
+\usepackage{tcolorbox}
 
 %\usepackage{xcolor} \pagecolor[rgb]{0.18,0.18,0.18} \color[rgb]{1,1,1}
 
@@ -2540,8 +2540,6 @@ pie
 
 Viral rewards are multi-token rewards that are collected by various commissions across applications and services provided by the Viral DAO for the Viral Social Media and Viral Pay application. These rewards may include popular cryptocurrencies wrapped inside the viral smart chains such as Bitcoin, Ether, Solana, Cardano, Polygon MATIC, Binance USD, etc. Most of the tokens followed by Ether has 18 decimal places as it's smallest unit, each token has an ability to be transferred to one quintillion (one million trillion) accounts makes possibility of transferring a single token to over 4.66 billion internet users worldwide.  As nano-transactions creates huge amount of dust and bloats the size of the blockchain \& DAG ledger, the concept of Active Pool Percentage Allocation (APPA) is used to batch multi-token transfers and launch a manual method of air-dropping mechanism for the active-only users.  APPA takes a global and a local variable to calculate the percentage of rewards the global variable holds. In an example of user rewards which is determined by impression count, the global variable \textit{which holds the total reward tokens} represents the total impression and the local variable represents the number of impression received by the specific user which then calculates the percentage of rewards the local variable can acquire. The global and the local variable's data is received by the reward smart contract through decentralized oracles which  is made up of independent secure Sybil-resistant nodes for high availability and manipulation resistance. Thus promising security of off-chain data. \\
 
-The live fed to the  is calculated every $x$ minute where the newly updated data of all user's local variables shall not increase the global variable data, promising resistant to users manipulation to change their data \\
-
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=\textwidth]{portfolio-reward}
@@ -2556,41 +2554,55 @@ The reward allocation and claiming is done in simple steps,
 \item The user then calls the function in the specific reward pool smart contract e.g., user rewards, developer rewards, etc to withdraw his/her allocated awards.
 \item The APPA is calculated by fetching the user's local variable and the platform's global variable. The percentage of funds is calculated and the withdrawal process is initiated.
 \item The Marked tokens is directly deposited into the users wallet (VNS address/username), the unmarked tokens is then sent to series of (Unmarked Token - VRL) Viral DEX pools to swap for VRL tokens. 
-\item The swap orders will be instantly added to the swap book and sent to users wallet once swapped successfully. For illiquid markets, the swap orders shall sit on the user swap book pending orders, which can be retrived or cancelled at any time. This provides more liquidity to the DEX Pools.
-\item The user successfully withdraws multi-token rewards from a single transaction.
+\item The swap orders will be instantly added to the swap book and sent to users wallet once swapped successfully. For illiquid markets, the swap orders shall sit on the user swap book pending orders, which can be retrieved or cancelled at any time. This provides more liquidity to the DEX Pools.
+\item The user successfully withdraws viral's multi-token rewards from a single transaction.
 \end{itemize}
 
+\textbf{APPA - Active Pool Percentage Allocation }\\
 
+As mentioned above in the paragraphs, the viral rewards are allocated based on percentages of an individuals according to his/her contribution in the fully allocated rewards for all individuals eventually adding upto 100\%.  Viral Global reward pool maintains all the fees collected from users using various de-fi \& social applications, segregates and transfers the allocated percentages to various specific reward pools upon request by any-user after 2  AM UTC. Users, Miners, Volunteers are requested to receive their allocated rewards manually from the pools. The allocation per user is calculated by using the APPA algorithm which basically calculates the percentage of rewards by including a global and a local variable. The global variable is a sum of all existing local variable, typically total impressions, total shout-outs, etc\\
 
-
-
-\subsection{Social Users (Impression-based) - 30\%}
-
-30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
-
-\textbf{Advantages}
-\begin{itemize}[leftmargin=+0.2in]
-\item Creators can be able to create content expecting a reward for it
-\item A fair share of rewards according to the popularity of the content.
-\item Users will trust the platform which gives them 30\% of it’s daily collected revenue to every user without any centralized company meddling.
-\item Encourages other platform users to join and receive rewards.
-\end{itemize}
-
-
-\textbf{Segregation of Rewards}\\
-
-Global Impressions of all users will be taken to calculate each user’s individual percentage which will be required to allocate individual reward amount from the User Reward Pool.\\
+To explain the APPA algorithm which includes Local Percentage Calculation and Per-Token Reward Calculation an example of user rewards are taken into consideration.  The global variable $	\Psi$ represents the total impressions of all the users combined and the local variable $\lambda$ represents per-individual user's impression.  The Local Percentage is calculated as follows \\
 
 \begin{equation}
-User\:Percentage(U_p)=\frac{User\:Total\:Impression(U_i)}{Global\:Impression(G)} \times 100
+Local\:Percentage(\lambda_p)=\frac{User\:Impression(\lambda)}{Global\:Impression(\Psi)} \times 100
 \end{equation}
 
+The Per-Token Reward signifies the amount of tokens from a specific token $x$ is allocated for a specific individual from the pool. Since Viral incorporates multi-token rewards in which a single token having $x$ amount of units shall be distributed over all the pools for all the recipients of the reward. \\
+
 \begin{equation}
-User\:Rewards(x)=\frac{Total\:Rewards(T) \times User\:Reward\:Percentage(U_p)}{100}
+Per-Token\:Reward(x)=\frac{Total(x) \times Local\:Percentage(\lambda_p)}{100}
 \end{equation}\\
 
+\begin{tcolorbox}
+
+\begin{center}
+\textbf{\underline{APPA Example in User Reward}}
+\end{center}
+
+User Impression ($\lambda$) = 10,000\\
+Global Impression ($\Psi$)= 1,000,000,000\\
+Total Reward ($x$) = 80,000 VRL, 500 BTC, 700 ETH, 1200 SOL \\
+
+\[Local\:Percentage(\lambda_p)=\frac{10,000}{1,000,000,000} \times 100 = 0.001\%\]
+
+\[Per-Token\:Reward(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL\]
+\[Per-Token\:Reward(BTC)=\frac{500 \times 0.001}{100} = 0.005\:BTC\]
+\[Per-Token\:Reward(ETH)=\frac{700 \times 0.001}{100} = 0.007\:ETH\]
+\[Per-Token\:Reward(SOL)=\frac{1200 \times 0.001}{100} = 0.012\:SOL\]
+
+Output:\\
+User Percentage of Rewards ($\lambda_p$) : 0.001\%\\
+User Reward : \\
+0.8 VRL \\
+0.005 BTC \\
+0.007 ETH \\
+0.012 SOL\\
+
+\end{tcolorbox}
+
 \begin{figure}
-\begin{lstlisting}[language=Solidity, caption={Example User Reward Contract in Solidity}, numbers=none]
+\begin{lstlisting}[language=Solidity, caption={Example User Reward APPA Contract in Solidity}, numbers=none]
 
 
 // SPDX-License-Identifier: MIT
@@ -2644,37 +2656,19 @@ contract Reward is Ownable, Pausable {
 \end{lstlisting}
 \end{figure}
 
-\textbf{Example User-Reward}\\
 
-Input:\\
-User Impression = 10,000\\
-Global Impression = 1,000,000,000\\
-Total Reward = 80,000 VRL, 500 BTC, 700 ETH, 1200 SOL \\
 
-\begin{equation}
-User\:Percentage(U_p)=\frac{10,000}{1,000,000,000} \times 100 = 0.001\%
-\end{equation}
-\begin{equation}
-User\:Rewards(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL
-\end{equation}
-\begin{equation}
-User\:Rewards(BTC)=\frac{500 \times 0.001}{100} = 0.005\:BTC
-\end{equation}
-\begin{equation}
-User\:Rewards(ETH)=\frac{700 \times 0.001}{100} = 0.007\:ETH
-\end{equation}
-\begin{equation}
-User\:Rewards(SOL)=\frac{1200 \times 0.001}{100} = 0.012\:SOL
-\end{equation}
-Output:\\
+\subsection{Social Users (Impression-based) - 30\%}
 
-User Percentage of Rewards : 0.001\%\\
-User Reward : \\
-0.8 VRL \\
-0.005 BTC \\
-0.007 ETH \\
-0.012 SOL\\
+30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
 
+\textbf{Advantages}
+\begin{itemize}[leftmargin=+0.2in]
+\item Creators can be able to create content expecting a reward for it
+\item A fair share of rewards according to the popularity of the content.
+\item Users will trust the platform which gives them 30\% of it’s daily collected revenue to every user without any centralized company meddling.
+\item Encourages other platform users to join and receive rewards.
+\end{itemize}
 
 The reward allocation and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 15 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be sent to burn pool after the stipulated time period finishes. This creates a daily deflationary effect to the Viral Coin that will benefit other wallet users who hold Viral Coins.\\
 
