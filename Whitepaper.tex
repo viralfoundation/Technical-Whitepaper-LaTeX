@@ -2598,13 +2598,41 @@ User Reward : \\
 0.005 BTC \\
 0.007 ETH \\
 0.012 SOL\\
-
 \end{tcolorbox}
 
-\textbf{Reward Collection Time-Period}
 
 
-\textbf{VRL Token Automated Burn Pool}
+\textbf{Reward Collection/Claiming Methods}\\
+
+\begin{figure}[H]
+\begin{center}
+
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [Reward Collection
+    [Restricted Periodic Claim
+    		[Users]
+    ]
+   [Dynamic Additive Claim
+   		[Volunteers]
+    ]
+   [Fixed Passive Claim
+   		[Miners]
+    ]
+  ]
+\end{forest}
+\caption{Reward Collection Types in Specific Pools}
+\end{center}
+\end{figure}
+
+Rewards Collections are classified into three types - Restricted Periodic Claim,  Dynamic Additive Claim, Fixed Passive Claim. These different types offers claiming reward based on category of recipients and cause of rewarding. The reward collection methods will be hard-coded on the reward pools and cannot be updated with any DAO proposals, hence it is non-upgradable. Restricted Periodic Claim refers to offering rewards under a specific time period unless obtained cannot be withdrawn. The time period will be established according to the category of recipients a reward pool includes. If the rewards hasn't been claimed, the left-over cannot be claimed back and sent to a burn smart contract pool upon a claim request by any recipient after the time period. This ensures only active-participants to receive rewards with increasing the value of VRL tokens upon shrinking the token-supply by burning left-over tokens. Restricted Periodic Claim is specifically used for larger recipient base with disproportionate contributions whereas Dynamic Additive Claim is used for active-volunteers with smaller base and consistent contribution towards the network. The Dynamic Additive Claim refers to offering rewards without a specified time where individual contributors allocations will be constantly adjusted upon addition of new contributions recognized by the pool. This brings long-term reward pool holders to compete against each other for holding large portion of the pool while withdrawing and also short-term recipients desire to withdraw and cash-out quickly. Fixed Passive Claim is a straightforward claiming method where the allocated rewards can be withdrawn any-time by the recipient.\\
+
+
+
+\textbf{VRL Token Automated Burn Pool}\\
+
+The Burn Pool smart contract is accountable for all the automated burning of VRL Token.\\
 
 \begin{figure}
 \begin{lstlisting}[language=Solidity, caption={Example User Reward APPA Contract in Solidity}, numbers=none]
