@@ -3,6 +3,7 @@
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
+\usepackage[utf8]{inputenc}
 \usepackage{float}
 \setlength{\footnotesep}{0.4cm}
 \usepackage{multicol}
@@ -2538,7 +2539,7 @@ pie
 
 \textbf{Portfolio of Multiple Tokens}\\
 
-Viral rewards are multi-token rewards that are collected by various commissions across applications and services provided by the Viral DAO for the Viral Social Media and Viral Pay application. These rewards may include popular cryptocurrencies wrapped inside the viral smart chains such as Bitcoin, Ether, Solana, Cardano, Polygon MATIC, Binance USD, etc. Most of the tokens followed by Ether has 18 decimal places as it's smallest unit, each token has an ability to be transferred to one quintillion (one million trillion) accounts makes possibility of transferring a single token to over 4.66 billion internet users worldwide.  As nano-transactions creates huge amount of dust and bloats the size of the blockchain \& DAG ledger, the concept of Active Pool Percentage Allocation (APPA) is used to batch multi-token transfers and launch a manual method of air-dropping mechanism for the active-only users.  APPA takes a global and a local variable to calculate the percentage of rewards the global variable holds. In an example of user rewards which is determined by impression count, the global variable \textit{which holds the total reward tokens} represents the total impression and the local variable represents the number of impression received by the specific user which then calculates the percentage of rewards the local variable can acquire. The global and the local variable's data is received by the reward smart contract through decentralized oracles which  is made up of independent secure Sybil-resistant nodes for high availability and manipulation resistance. Thus promising security of off-chain data. \\
+Viral rewards are multi-token rewards that are collected by various commissions across applications and services provided by the Viral DAO for the Viral Social Media and Viral Pay application. These rewards may include popular cryptocurrencies wrapped inside the viral smart chains such as Bitcoin, Ether, Solana, Cardano, Polygon MATIC, Binance USD, etc offered by the Viral Decentralized Bridge. Here, most of the tokens followed by Ether has 18 decimal places as it's smallest unit, each token has an ability to be transferred to one quintillion (one million trillion) accounts makes possibility of transferring a single token to over 4.66 billion internet users worldwide.  As nano-transactions creates huge amount of dust and bloats the size of the blockchain \& DAG ledger, the concept of Active Pool Percentage Allocation (APPA) is used to batch multi-token transfers and launch a manual method of air-dropping mechanism for the active-only users.  APPA takes a global and a local variable to calculate the percentage of rewards the global variable holds. In an example of user rewards which is determined by impression count, the global variable \textit{which holds the total reward tokens} represents the total impression and the local variable represents the number of impression received by the specific user which then calculates the percentage of rewards the local variable can acquire. The global and the local variable's data is received by the reward smart contract through decentralized oracles which  is made up of independent secure Sybil-resistant nodes for high availability and manipulation resistance. Thus promising security of off-chain data. \\
 
 \begin{figure}[H]
 \begin{center}
@@ -2574,67 +2575,8 @@ The Per-Token Reward signifies the amount of tokens from a specific token $x$ is
 Per-Token\:Reward(x)=\frac{Total(x) \times Local\:Percentage(\lambda_p)}{100}
 \end{equation}\\
 
-\begin{tcolorbox}
-
-\begin{center}
-\textbf{\underline{APPA Example in User Reward}}
-\end{center}
-
-User Impression ($\lambda$) = 10,000\\
-Global Impression ($\Psi$)= 1,000,000,000\\
-Total Reward ($x$) = 80,000 VRL, 500 BTC, 700 ETH, 1200 SOL \\
-
-\[Local\:Percentage(\lambda_p)=\frac{10,000}{1,000,000,000} \times 100 = 0.001\%\]
-
-\[Per-Token\:Reward(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL\]
-\[Per-Token\:Reward(BTC)=\frac{500 \times 0.001}{100} = 0.005\:BTC\]
-\[Per-Token\:Reward(ETH)=\frac{700 \times 0.001}{100} = 0.007\:ETH\]
-\[Per-Token\:Reward(SOL)=\frac{1200 \times 0.001}{100} = 0.012\:SOL\]
-
-Output:\\
-User Percentage of Rewards ($\lambda_p$) : 0.001\%\\
-User Reward : \\
-0.8 VRL \\
-0.005 BTC \\
-0.007 ETH \\
-0.012 SOL\\
-\end{tcolorbox}
-
-
-
-\textbf{Reward Collection/Claiming Methods}\\
-
-\begin{figure}[H]
-\begin{center}
-
-\begin{forest}
-  forked edges,
-  for tree={edge+={-Latex}},
-  [Reward Collection
-    [Restricted Periodic Claim
-    		[Users]
-    ]
-   [Dynamic Additive Claim
-   		[Volunteers]
-    ]
-   [Fixed Passive Claim
-   		[Miners]
-    ]
-  ]
-\end{forest}
-\caption{Reward Collection Types in Specific Pools}
-\end{center}
-\end{figure}
-
-Rewards Collections are classified into three types - Restricted Periodic Claim,  Dynamic Additive Claim, Fixed Passive Claim. These different types offers claiming reward based on category of recipients and cause of rewarding. The reward collection methods will be hard-coded on the reward pools and cannot be updated with any DAO proposals, hence it is non-upgradable. Restricted Periodic Claim refers to offering rewards under a specific time period unless obtained cannot be withdrawn. The time period will be established according to the category of recipients a reward pool includes. If the rewards hasn't been claimed, the left-over cannot be claimed back and sent to a burn smart contract pool upon a claim request by any recipient after the time period. This ensures only active-participants to receive rewards with increasing the value of VRL tokens upon shrinking the token-supply by burning left-over tokens. Restricted Periodic Claim is specifically used for larger recipient base with disproportionate contributions whereas Dynamic Additive Claim is used for active-volunteers with smaller base and consistent contribution towards the network. The Dynamic Additive Claim refers to offering rewards without a specified time where individual contributors allocations will be constantly adjusted upon addition of new contributions recognized by the pool. This brings long-term reward pool holders to compete against each other for holding large portion of the pool while withdrawing and also short-term recipients desire to withdraw and cash-out quickly. Fixed Passive Claim is a straightforward claiming method where the allocated rewards can be withdrawn any-time by the recipient.\\
-
-
-
-\textbf{VRL Token Automated Burn Pool}\\
-
-The Burn Pool smart contract is accountable for all the automated burning of VRL Token.\\
-
 \begin{figure}
+
 \begin{lstlisting}[language=Solidity, caption={Example User Reward APPA Contract in Solidity}, numbers=none]
 
 
@@ -2690,37 +2632,118 @@ contract Reward is Ownable, Pausable {
 \end{figure}
 
 
+\begin{tcolorbox}
+
+\begin{center}
+\textbf{\underline{APPA Example in User Reward}}
+\end{center}
+
+User Impression ($\lambda$) = 10,000\\
+Global Impression ($\Psi$)= 1,000,000,000\\
+Total Reward ($x$) = 80,000 VRL, 500 BTC, 700 ETH, 1200 SOL \\
+
+\[Local\:Percentage(\lambda_p)=\frac{10,000}{1,000,000,000} \times 100 = 0.001\%\]
+
+\[Per-Token\:Reward(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL\]
+\[Per-Token\:Reward(BTC)=\frac{500 \times 0.001}{100} = 0.005\:BTC\]
+\[Per-Token\:Reward(ETH)=\frac{700 \times 0.001}{100} = 0.007\:ETH\]
+\[Per-Token\:Reward(SOL)=\frac{1200 \times 0.001}{100} = 0.012\:SOL\]
+
+Output:\\
+User Percentage of Rewards ($\lambda_p$) : 0.001\%\\
+User Reward : \\
+0.8 VRL \\
+0.005 BTC \\
+0.007 ETH \\
+0.012 SOL\\
+\end{tcolorbox}
+
+
+
+\textbf{Reward Collection/Claiming Methods}\\
+
+\begin{figure}[H]
+\begin{center}
+
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [Reward Collection
+    [Restricted Periodic Claim
+    		[Users]
+    ]
+   [Dynamic Additive Claim
+   		[Volunteers]
+    ]
+   [Fixed Passive Claim
+   		[Miners]
+    ]
+  ]
+\end{forest}
+\caption{Reward Collection Types in Specific Pools}
+\end{center}
+\end{figure}
+
+Rewards Collections are classified into three types - Restricted Periodic Claim,  Dynamic Additive Claim, Fixed Passive Claim. These different types offers claiming reward based on category of recipients and cause of rewarding. The reward collection methods will be hard-coded on the reward pools and cannot be updated with any DAO proposals, hence it is non-upgradable. Restricted Periodic Claim refers to offering rewards under a specific time period unless obtained cannot be withdrawn. The time period will be established according to the category of recipients a reward pool includes. If the rewards hasn't been claimed, the left-over cannot be claimed back and sent to a burn smart contract pool upon a claim request by any recipient after the time period. This ensures only active-participants to receive rewards with increasing the value of VRL tokens upon shrinking the token-supply by burning left-over tokens. Restricted Periodic Claim is specifically used for larger recipient base with disproportionate contributions whereas Dynamic Additive Claim is used for active-volunteers with smaller base and consistent contribution towards the network. The Dynamic Additive Claim refers to offering rewards without a specified time where individual contributors allocations will be constantly adjusted upon addition of new contributions recognized by the pool. This brings long-term reward pool holders to compete against each other for holding large portion of the pool while withdrawing and also short-term recipients desire to withdraw and cash-out quickly. Fixed Passive Claim is a straightforward claiming method where the allocated rewards can be withdrawn any-time by the recipient.\\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{claim-rewards}
+\caption{Differences between various Reward-Claiming methods}
+\end{center}
+\end{figure}
+
+
+
+
 
 \subsection{Social Users (Impression-based) - 30\%}
 
-30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
+30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post. The rewards are allocated to the user reward pool from the global reward pool every day at 2.00 AM UTC. The Restricted Periodic Claim is set to 14 hours for manual collection. The users can mark their preferable tokens while the unmarked tokens will be sent for swapping to the Viral DEX swap order book. The pending swap orders will be exchanged for VRL token and will be dropped directly to the user's VNS address/username. After the 14 hour window the funds in the unclaimed tokens in the user-reward pool will be transferred to the burn pool and cannot be claimed back.\\
+
+\begin{center}
+\textbf{Global Variable} $\to$ Combined Impressions of all users / day\\
+\vspace{2mm}
+\textbf{Local Variable} $\to$ Total User Impression / day\\
+\vspace{2mm}
+\textbf{Claiming Method} $\to$ Restricted Periodic Claim = 14 hours\\
+\end{center}
 
 \textbf{Advantages}
 \begin{itemize}[leftmargin=+0.2in]
 \item Creators can be able to create content expecting a reward for it
 \item A fair share of rewards according to the popularity of the content.
 \item Users will trust the platform which gives them 30\% of it’s daily collected revenue to every user without any centralized company meddling.
-\item Encourages other platform users to join and receive rewards.
+\item Encourages other platform users to join and receive multi-token rewards.
 \end{itemize}
 
+\subsection{DAO - 14\%}
 
-\subsection{DAO - 12\%}
 
 \subsection{Blockchain-Miners (Gas-based) - 11\%}
 
+Written After Blockchain\\
+
 \subsection{Burn - 10\%}
+
+
 
 \subsection{Developers (Contribution-based) - 9\%}
 
-7.5\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to development of the beta application which will be available as an open repository. To give rewards for developers' contribution to the decentralized platform and also to encourage developers by giving paid rewards to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform.\\
+9\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to available viral open source repositories and get rewarded for their contribution to the decentralized platform and also to encourage developers by making awareness about the POSI - Paid Open Source Initiative to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform. We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get shout-outs by other developers for rewards. The shout-outs will determine their rewards where the largest receiver will be allocated with more tokens.\\ 
 
-We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get voted by other developers for rewards. The votes will determine their rewards where the maximum voted contribution will receive more viral coins than the minimum voted contribution.\\ 
+Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 9\% of daily revenue to a closed community. This will encourage autonomous development of superior technology where all hands matter. \\
 
-Developers are the backbone of Viral. Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.\\
 
-Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 7.5\% of daily revenue to a closed community. This will encourage autonomous development of superior technology where all hands matter. \\
+\begin{center}
+\textbf{Global Variable} $\to$ Combined Shout-Outs of all developers\\
+\vspace{2mm}
+\textbf{Local Variable} $\to$ Total User Shout-Outs\\
+\vspace{2mm}
+\textbf{Claiming Method} $\to$ Dynamic Additive Claim\\
+\end{center}
 
-The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 15 hours every day.\\
+In Dynamic Additive Claim the Global variable get's constantly updated adding up the total local variables, compared to the Restricted Periodic Claim's constant global variable specified per day.  The allocation of reward gets updated after every withdrawal and addition of various merge-request contributions. \\
 
 
 \subsection{IPFS-Miners (Storage-based) - 8\%}
