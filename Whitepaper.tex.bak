@@ -407,35 +407,19 @@ Flowcharts}
 
 \textbf{Like, Comment, Share, Tip}\\
 
-Users can like, comment, share, reThought, and also tip Tokens to their favorite posts and influencers. The number of likes will influence the recommendations list of other users.\\
+Users can like, comment, share, reThought, and also tip Tokens to their favorite posts and influencers. The number of likes will influence the recommendations list of other users. Additionally a hidden engagement dislike will be added to every post but won\textsc{\char13}t be visible to the users/nor owners, which is exclusively utilized for interest-based algorithm to filter out disliked content\\
 
-Additionally a hidden engagement dislike will be added to every post but won\textsc{\char13}t be visible to the users/nor owners, which is exclusively utilized for interest-based algorithm to filter out disliked content\\
+\textbf{Tipping favorite users}\\
 
-\textit{Algorithm/Mathematical formula for recommendation engine}\\
+The tipping feature in Viral engagements tip/support user\textsc{\char13}s favourite influencers\textsc{\char13} contents. It works as a donation/reward where all the tips will be directly sent to the receivers wallet. Users can send tokens of their own choice to reward other users content on the platform. Viral will charge commissions on Tips and deposits it to the global reward pool. These commissions are calculated in such a way where the percentage varies depending on the end face value. The tipping amount will be round of to tens and will leave the commision on both seperated amounts. The Charges are\\
 
-\textbf{Tip}\\
-
-The tipping feature in Viral engagements tip/support user\textsc{\char13}s favourite influencers\textsc{\char13} contents. It works as a donation/reward where all the tips will be directly sent to the receivers wallet. Users can send tokens of their own choice to reward other users content on the platform.
-
-Viral will charge commisions on Tips and deposits it to the reward pool. These commissions are calculated in such a way where the percentage varies depending on the end face value.\\
-
-The tipping amount will be round of to tens and will leave the commision on both seperated amounts.\\
-
-$Formula$\\
-
-The Charges are\\
+(Ending with 1,2) tips     - \textbf{22\%}   \textit{ (i.e., 11, 62, 761, 952)}\\
+(Ending with 3,4,5) tips   - \textbf{19\%}   \textit{ (i.e., 23, 64, 765, 953)}\\
+(Ending with 6,7,8,9) tips - \textbf{17\%}   \textit{(i.e., 16, 48, 27,  79)}\\
+(Ending with 0) tips       - \textbf{12\%}   \textit{(i.e., 10, 60, 720, 1000)}\\
 
 
-(Ending with 1,2)\$ tips     - 22\%      i.e., 11, 62, 761, 952\\
-(Ending with 3,4,5)\$ tips   - 19\%      i.e., 23, 64, 765, 953\\
-(Ending with 6,7,8,9)\$ tips - 17\%      i.e., 16, 48, 27,  79\\
-(Ending with 0)\$ tips       - 12\%      i.e., 10, 60, 720, 1000\\
-
-
-For example: If a user is tips worth 57\$ then the commissions charged will be:\\
-
-For the first     50\$ - 12\%\\
-And the remaining 7\$  - 17\%\\
+For example: If a user is tips worth 57\$ then the commissions charged will be: For the first     50\$ - 12\%, remaining 7\$  - 17\%\\
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{tips}\\
 \caption{Tips Flowchart}
@@ -469,24 +453,11 @@ sequenceDiagram
 
 \end{comment}
 
-
-\begin{lstlisting}[language=Solidity, caption={Tipping Solidity Snippet}]
-
-pragma solidity ^0.8.10;
-
-contract HelloWorld {
-
-    string public greet = "Hello World!";
-    
-}
-
-\end{lstlisting}
-
 \subsection{Other Features}
 
-\subsubsection{Privacy Groups}
+\textbf{Privacy Groups}\\
 
-Privacy Groups is a unique feature in Viral to create unlimited friend\textsc{\char13}s groups list to ensure maximum privacy for users to post and share to particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can empower complete privacy over viewers for certain posts.\\
+Privacy Groups is a unique feature in Viral to create unlimited friend\textsc{\char13}s groups list to ensure maximum privacy for users to post and share to particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can empower complete privacy over viewers for certain posts. Privacy Groups feature will benefit all the public accounts who wishes to post content specifically to their family, close friends but also maintain a public profile explicitly. Posts will only allow specific users who have read access to the content to download and decrypt the content published.  \\
 
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{privacygroups}\\
@@ -504,40 +475,13 @@ flowchart LR
     E-->G[Restricted User:x]
 \end{comment}
 
-\begin{lstlisting}[language=Solidity, caption={GunDB Privacy Group Snippet}]
 
-pragma solidity ^0.8.10;
 
-contract HelloWorld {
-
-    string public greet = "Hello World!";
-    
-}
-\end{lstlisting}
-
-\subsubsection{Audio Emoji}
+\textbf{Audio Emoji}\\
 
 This is a short feature where all the emojis in Viral if touched will give a \textbf{short sound of the emoji}. This will be accessible on chats and comments section of a post.\\
 
-\subsubsection{Interest Based Recommendation}
-
-To make the viral platform more user-friendly interest-based recommendations are utilized. We have numerous ways to fetch interest from a user \textbf{without collecting data on a centralized server}, a few of them are\\
-
-\begin{itemize}[leftmargin=+0.2in]
-\item Like and Dislike
-\item Hashtag Follows
-\item Search-Based Interests
-\item Based on Activity
-\item Shares with other friends
-\item Following interests
-\item Based on Comments
-\end{itemize}
-
-All the user interests will be \textbf{stored locally} on the device to ensure \textbf{maximum security} and will be taken to show recommendations.\\
-
-$Flow chart$
-
-\subsection{User Security and Privacy}
+\subsection{Viral - User Security and Privacy}
 
 At current world, privacy of user's in social media is being exploited by several centralized monopoly companies that run major social netwroking mobile applications that tracks user's data regarding their interests. These datas are being stored in a centralized database that is prone to attacks and breaches of private information. While targeted-manipulation plays a huge role in advertising industry, the collection of data is still prominent for almost 99\% social media business models except those run in donations. Viral focusses on maximum privacy of user's data by eliminating a central point of storage and heavily encrypts the media content circulating in the platform. It is possible to say Viral collects zero data of users and maintain a secure, trustable application in a generation where our mobiles are who we are.\\
 
@@ -664,8 +608,18 @@ For Chat-based encryption, Viral uses \textbf{public and private key} encryption
 External Links : \hyperlink{https://youtu.be/-SiLnaSDkh4}{GunDB Explanatory Video}\\
 
 \textbf{3. Interests of User}\\
+To make the viral platform more user-friendly interest-based recommendations are utilized. We have numerous ways to fetch interest from a user \textbf{without collecting data on a centralized server}, a few of them are
+\begin{itemize}[leftmargin=+0.2in]
+\item Like and Dislike
+\item Hashtag Follows
+\item Search-Based Interests
+\item Based on Activity
+\item Shares with other friends
+\item Following interests
+\item Based on Comments
+\end{itemize}
 
-Users\textsc{\char13} interests will be \textbf{saved locally} on their devices ensuring full privacy of personal data.\\
+All the user interests will be \textbf{stored locally} on the device to ensure \textbf{maximum security} and will be taken to show recommendations. Users\textsc{\char13} interests will be \textbf{saved locally} on their devices ensuring full privacy of personal data.\\
 
 \textbf{4. Chat Backup}\\
 
@@ -2804,6 +2758,7 @@ Staked Tokens\\
 Viral Improvement Proposal\\
 Addition of New Chains\\
 
+\newpage
 
 \textbf{Viral Ecosystem Governance}\\
 
@@ -2825,12 +2780,17 @@ V-DAO Treasury Types and how it can be withdrawn, etc\\
 Distribution of Profits as Dividends\\
 Dividend Detailed Information\\
 Monthly Operations Proposal - Its Significance and How it will be passed monthly\\
+Reward Pool Alteration Proposal - Every 4 months\\
+No-Dividend Proposal for Higher Cost Development work\\
 Rights of Holders\\
 Initial Sale of V-DAO Tokens for Viral Coins\\
 Minting Procedure of Each Tokens for Further Treasury Funding\\
 Emergency Procedures in case of any event\\
-Centralized Entity Affiliations for Operations\\
-Decentralized Entity Affiliation\\
+Centralized Entity Affiliations for Operations through only Viral Foundation\\
+Decentralized Entity Affiliation  and contribution to Reward Pool\\
+Delegating of Voting Rights to certain cabinet holders\\
+
+
 
 
 
