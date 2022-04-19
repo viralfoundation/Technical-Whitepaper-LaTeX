@@ -8,12 +8,12 @@
 \contentsline {subsection}{\numberline {7.1}Types of Posts}{8}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Viral Avatars}{9}{subsection.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}Meta-Chat}{10}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Live and Rooms}{10}{subsubsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.3}Engagements}{10}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.2.2}Viral Clubs}{10}{subsubsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.3}Engagements}{11}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Other Features}{12}{subsection.7.4}%
 \contentsline {subsubsection}{\numberline {7.4.1}Privacy Groups}{12}{subsubsection.7.4.1}%
-\contentsline {subsubsection}{\numberline {7.4.2}Audio Emoji}{12}{subsubsection.7.4.2}%
-\contentsline {subsubsection}{\numberline {7.4.3}Interest Based Recommendation}{12}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.2}Audio Emoji}{13}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}Interest Based Recommendation}{13}{subsubsection.7.4.3}%
 \contentsline {subsection}{\numberline {7.5}User Security and Privacy}{13}{subsection.7.5}%
 \contentsline {subsection}{\numberline {7.6}TOR/VPN Anonymity}{19}{subsection.7.6}%
 \contentsline {section}{\numberline {8}Blockchain, Token Ecosystem}{20}{section.8}%
@@ -54,14 +54,14 @@
 \contentsline {subsection}{\numberline {12.11}Crypto-Back - 1\%}{89}{subsection.12.11}%
 \contentsline {subsection}{\numberline {12.12}Charity Contribution}{89}{subsection.12.12}%
 \contentsline {section}{\numberline {13}Governance \& Viral DAO}{90}{section.13}%
-\contentsline {section}{\numberline {14}Tokenomics \& ICO}{91}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Token Distribution \& Why}{92}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Token Sales with Incentives \& Vesting Info}{92}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Investor Exit Strategies}{92}{subsection.14.3}%
-\contentsline {section}{\numberline {15}Development Roadmap}{93}{section.15}%
-\contentsline {section}{\numberline {16}Future Plans}{93}{section.16}%
-\contentsline {section}{\numberline {17}Development}{93}{section.17}%
-\contentsline {section}{\numberline {18}ICO Funds Allocation}{93}{section.18}%
-\contentsline {section}{\numberline {19}Team}{93}{section.19}%
-\contentsline {section}{\numberline {20}References}{93}{section.20}%
-\contentsline {section}{\numberline {21}Glossary}{93}{section.21}%
+\contentsline {section}{\numberline {14}Tokenomics \& ICO}{92}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Token Distribution \& Why}{93}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Token Sales with Incentives \& Vesting Info}{93}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Investor Exit Strategies}{93}{subsection.14.3}%
+\contentsline {section}{\numberline {15}Development Roadmap}{94}{section.15}%
+\contentsline {section}{\numberline {16}Future Plans}{94}{section.16}%
+\contentsline {section}{\numberline {17}Development}{94}{section.17}%
+\contentsline {section}{\numberline {18}ICO Funds Allocation}{94}{section.18}%
+\contentsline {section}{\numberline {19}Team}{94}{section.19}%
+\contentsline {section}{\numberline {20}References}{94}{section.20}%
+\contentsline {section}{\numberline {21}Glossary}{94}{section.21}%

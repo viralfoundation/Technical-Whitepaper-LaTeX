@@ -289,7 +289,7 @@ Posts are basically what users share to each other on their profile which will b
 A difference in other social media platforms and Viral is it's open-source nature in which the possibility of providing creative posts is not confined by the founders nor the employees of the bootstrapping organization (Viral Foundation). Centralized Social Platforms holds a pattern of posts for the users in a restricted environment which undermines the creativity of both the developers and the content creators. In some areas, centralized social platforms provide rights to developers to add different filters and AR effects to specific posts i.e., AR effects in Reels, TikToks, etc but fails to compensate the developers with it's huge ad-revenue profits and  leverages it's larger user base for open-source developers contributions. Viral aims to push the restrictions of a pattern of posts the centralized companies and decentralized social media platforms follow, and offer a multitude of creative posts (through Dev-Space Platform, explained in Developer Platform section) which will be added into the "Create" section of the Viral Social Platform where the users create various kinds of posts which will be added continuously. Currently during the social media bootstrapping stage a few post types will be available. The available posts types are given below, \\ 
 
 \begin{enumerate}[leftmargin = +0.2in]
-\item \textbf{Shots} \\
+\item \textbf{Shots}
 
 Shots are \textbf{10 sec motion pictures} with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.\\
 People can share their
@@ -298,34 +298,46 @@ People can share their
 \item Exclusive Photoshoots, commercials, to your fans
 \item Turn photos into lively shots by adding shot animations through Viral
 \end{itemize}
-\item \textbf{Thoughts}\\
+\item \textbf{Thoughts}
 
-Thoughts are \textbf{text-based sharing} for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.\\
-\item \textbf{Drops}\\
+Thoughts are \textbf{text-based sharing} for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.
 
-Drops are \textbf{20 second disappearing stories} shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days. Drops will not be minted as unique NFT due to it\textsc{\char13}s nature of disappearing media.\\
-\item \textbf{Interactive Videos}\\
+\item \textbf{Drops}
 
-IVs are short 30sec full-screen\textbf{narration based videos}. It is based on\textbf{gamification of videos} to interact within the videos.\\
+Drops are \textbf{20 second disappearing stories} shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days. Users will be able to view other users drops for over 30 days, once viewed will be disappeared. Drops can not be minted as unique NFT due to it\textsc{\char13}s nature of disappearing media.
+
+\item \textbf{Interactive Videos}
+
+Interactive Videos (IV) is a short 30sec full-screen \textbf{narration based videos} which is based on interaction and \textbf{gamification of videos}.
 
 
-\item \textbf{NFT Utilities}\\
+\item \textbf{NFT Utilities}
 
-Minting (Creating) an NFT in Viral is\textbf{as easy as creating a social media post}. Viral provides multiple NFT utilities for users to mint, buy, sell with an easy user experience.Viral will take a\textbf{1.5\% commission} selling NFTs which will be reverted to the reward pool\\
+Viral offers numerous NFT utilities within the social platform for the common users to experience the world of Non-Fungible Tokens. Minting (Creating) an NFT in Viral is\textbf{as easy as creating a social media post}. Users can buy, sell and flex their NFTs which can be previwed from the viral profile. Viral's NFTs are private, encrypted and can only be accessed by the followers. The platform will take a commission of 1.5\% per NFT sale and reverts it to the global reward pool.
 \begin{enumerate}
 \item \textbf{Tunes} : Artists can \textbf{sell their music albums}, singles as NFT for the fans/people to buy and own it
 
-\item \textbf{Sketch} : \textbf{Digital arts}, paintings, sketches can be sold through NFTs\\
+\item \textbf{Sketch} : \textbf{Digital arts}, paintings, sketches can be sold through NFTs
 
-\item \textbf{Originals} : \textbf{Physical assets} can be sold through Viral\textsc{\char13}s Original NFTs where people can buy and flex\\
+\item \textbf{Originals} : \textbf{Physical assets} can be sold through Viral\textsc{\char13}s Original NFTs where people can buy and flex
 
 \item \textbf{Tickets} : \textbf{Exclusive passes} for events, ownership of clubs, a digital ticket for everything can be sold as NFT. 
 
-\item \textbf{Filters} : Filters can be sold, and owned by user\textsc{\char13}s thereby get rewards for it\\
+\item \textbf{Filters} : Filters can be sold, and owned by user\textsc{\char13}s thereby get rewards for it
 \end{enumerate}
 \end{enumerate}
 
 \subsection{Viral Avatars}
+
+Intro to Difference in Viral\\
+
+Creating a Meta-Environment\\
+
+What is offered\\
+
+How Avatars are created\\
+
+Future uses\\
 
 Personalized Avatars are generated free for every viral user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see them 3D View. These avatars are brought into Viral to integrate metaverse and to provide an \textbf{interactive experience}\\
 
@@ -343,6 +355,18 @@ Personalized Avatars are generated free for every viral user using a selfie. Use
 
 \subsubsection{Meta-Chat}
 
+Evolution of Chat systems\\
+
+Integration of Live-Emotions nowdays it is all aboout experience\\
+
+Intro to Viral Meta-Chat\\
+
+How it works\\
+
+Future Uses\\
+
+Security\\
+
 Meta-Chat is a feature to \textbf{show your facial reactions} in real-time when you chat with your friend. Viral captures your face reactions and transfer it to your avatar which the mutual friend can see on \textbf{top of his/her chat page}.
 
 \textit{Image}\\
@@ -356,7 +380,18 @@ This gives you a \textbf{virtual experience} of videocalls through avatars and t
 \textit{Formula\\
 Flowcharts}
 
-\subsubsection{Live and Rooms}
+\subsubsection{Viral Clubs}
+
+Intro to Clubs\\
+
+Evolution of Groups and Communities\\
+
+Importance of Live community\\
+
+Whats offered\\
+
+How it works\\
+
 
 Decentralized \textbf{Live Video Events and Audio Rooms using Avatars} (or) Normal Cams. Celebrities can host live events with their fans using their avatars\\
 
@@ -2773,18 +2808,43 @@ Addition of New Chains\\
 \textbf{Viral Ecosystem Governance}\\
 
 
+DAO \& Intro to Decentralized Governance\\
+Centralized companies vs decentralized organizations\\
+How expenditure, revenue, profits and other basic financial terms in companies work in a decentralized environment\\
+Viral DAO Intro\\
+Viral Foundation and V-DAO\\
+What type of Governance V-DAO Do?\\
+Tokenization of Rights - Intro\\
+List of Tokens and its significance\\
+Staking and Unstaking of tokens\\
+Detailed Explanation of each token, ratios, holding benefits, etc\\
+V-DAO Platform Introduction\\
+V-DAO Proposals Intro\\
+V-DAO Proposals - Detailed Explanation\\
+V-DAO Treasury Types and how it can be withdrawn, etc\\
+Distribution of Profits as Dividends\\
+Dividend Detailed Information\\
+Monthly Operations Proposal - Its Significance and How it will be passed monthly\\
+Rights of Holders\\
+Initial Sale of V-DAO Tokens for Viral Coins\\
+Minting Procedure of Each Tokens for Further Treasury Funding\\
+Emergency Procedures in case of any event\\
+Centralized Entity Affiliations for Operations\\
+Decentralized Entity Affiliation\\
 
-DAO Intro\\
-List of Governing Platforms\\
-Viral DAO Tokens\\
-Holding Benefits\\
-DAO Platform\\
-DAO Revenue\\
-Distribution and Dividends\\
-Viral Operations Cost Structure Proposals\\
-DAO Treasury and Decisions\\
-Intial DAO Coin Offering\\
-DAO Bylaws\\
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \newpage
 
