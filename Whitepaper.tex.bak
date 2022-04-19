@@ -3,6 +3,7 @@
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
+\usepackage[utf8]{inputenc}
 \usepackage{float}
 \setlength{\footnotesep}{0.4cm}
 \usepackage{multicol}
@@ -18,7 +19,7 @@
 \usepackage{tabularx}
 \usepackage {amsmath}
 \usepackage{authblk}
-
+\usepackage{tcolorbox}
 
 %\usepackage{xcolor} \pagecolor[rgb]{0.18,0.18,0.18} \color[rgb]{1,1,1}
 
@@ -118,9 +119,28 @@
    \tableofcontents\pagebreak 
    
 \section{User Problems and Basic Solutions}
-This is a Sample Problems of the Viral Project.
+
+
+
+
 
 \section{Fad of Decentralized Social Media Apps}
+
+Rise of Web2 Apps\\
+Rise of Privacy \& Blockchain\\
+Rise of D-Apps\\
+Competition with centralized \\
+User Experience they offer\\
+Lack of new content\\
+Tiktok \& Snapchat growth vs decentralized\\
+Habit forming applications\\
+Transaction fee app vs free centralized apps\\
+Zero Research for user experience\\
+Un-ethical rewards\\
+Reward for content creators only, more content more users\\
+Faster content delivery\\
+Why Viral won't be a fad\\
+Best of decentralization\\
 
 \section{Vision Statement}
 To bring blockchain and crypto adoption to the masses we would got to bridge social communication with defi and tokenised economy. The Viral Network of Applications standards are designed in such a way that our vision to bring an proficient, user-friendly mobile application will combine several divisions of decentralized protocols that can lead to an ultimate tool for crypto acknowledgement. The divisions which we are focussing to rebuild is listed.\\
@@ -154,17 +174,11 @@ To bring blockchain and crypto adoption to the masses we would got to bridge soc
 \newpage
 \section{Unified Mobile Application - An Intro to Viral}
 
-
-External Links : \hyperlink{https://sample.com}{App-Brouchure},\ \hyperlink{https://sample.com}{Intro-Video},\ \hyperlink{https://sample.com}{Light-Paper}\\
-
-
-Viral is a Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies\textsc{\char13} underlying applications into an every-day user-based mobile app. Viral bridges Social Media with Blockchain, Wallets, Exchanges and NFT Markeplaces to bring the ultimate one-app for the common masses to adopt into the tokenised economy.\\
+Viral is a Next-Gen Social Media platform bridging interactive media, NFTs, and blockchain technologies\textsc{\char13} underlying applications into an every-day user-based mobile app. Viral bridges Social Media with Blockchain, Wallets, Exchanges and NFT Markeplaces to bring the ultimate one-solution for the common masses to adopt into the tokenised economy.\\
 
 Every media shared on viral is an unique NFT where it can be utilized to create limitless achievable outcomes across the platform. Users can share ultra-short to short videos, thoughts through text, sell NFTs and additionally make communication between one-on-one, private groups and, open channels with total genuine privacy. App users will be benefited from zero ads, cryptographic encryption, censorship-resistant and, also get to use various cryptocurrencies throughout the platform. Every user is an active contributor to the platform by which they receive rewards (payment) in Viral Coin for effectively utilizing the Viral Application and it\textsc{\char13}s child platforms.\\
 
 \section{Viral Platform Architecture}
-
-External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
 
 \begin{center}
 \begin{adjustbox}{width=12cm}
@@ -266,132 +280,54 @@ External Links : \hyperlink{https://sample.com}{ELI5-Explainer Video}\\
 \section{Social media and User Experience}
 Viral is a multi-media sharing decentralized social network that brings meta-experience with friends, family and other people to communicate, share posts and send messages across the globe with absolute privacy. Viral sets Non-Fungible-Tokens (NFT) as a standard for every post that shared in the network which intends to bring interactive social experience and utility use cases of blockchain environment.\\
 
-\notte{To bring NFT as a standard for a social media post doesn\textsc{\char13}t essentially implies it ought to be sold for tokens, rather it conveys that each post in Viral is a unique piece of data in the blockchain that gives the power of ownership of the user which if needed can be opted to transfer in exchange for tokens inside the Viral Platform.\texttt{notte}.}
+\notte{To bring NFT as a standard for a social media post doesn\textsc{\char13}t essentially implies it ought to be sold for tokens, rather it conveys that each post in Viral is a unique piece of data in the blockchain that gives the power of ownership of the user which if needed can be opted to transfer in exchange for tokens inside the Viral Platform.}
 
-\subsection{Types of Post}
-\hyperlink{https://sample.com}{ELI5 Explanatory Video - Viral NFTs}\\
+\subsection{Types of Posts}
 
-Please read \hyperlink{App Brouchure}{https://sampel.com/} to have a visual experience of the Viral Social Network\\
+Posts are basically what users share to each other on their profile which will be available on the global feed comprising of all the followed and interested users posts where other users view, engage with each other to create a perfect interaction on the certain social platform. These social media posts typically consist of images, videos, texts, interactive polls, etc climbing way back to early 2000's where the advent of Friendster migrated millions of email address users to a basic online networking website, later short 1000 - 5000 word pieces known as "blogs" gained popularity among the early internet users which attracted sharing and networking with each other who shared a common goal or interest. Social Platforms what we see today such as Facebook is a product of providing better user experiences against popular platform known as MySpace which founded in 2003. By early 2006 MySpace was earth's most visited website which been overtook by Facebook in 2008 and became the prominent social media platform of the modern world acquiring various social giants which gained popularity. Media is the most important term in the social world where a social media platform thrives and registers itself as a innovative platform by means of providing better user experience by bringing exciting unique media posts.\\
 
-\textit{Image for all Post Types in a Visualized Manner}
+A difference in other social media platforms and Viral is it's open-source nature in which the possibility of providing creative posts is not confined by the founders nor the employees of the bootstrapping organization (Viral Foundation). Centralized Social Platforms holds a pattern of posts for the users in a restricted environment which undermines the creativity of both the developers and the content creators. In some areas, centralized social platforms provide rights to developers to add different filters and AR effects to specific posts i.e., AR effects in Reels, TikToks, etc but fails to compensate the developers with it's huge ad-revenue profits and  leverages it's larger user base for open-source developers contributions. Viral aims to push the restrictions of a pattern of posts the centralized companies and decentralized social media platforms follow, and offer a multitude of creative posts (through Dev-Space Platform, explained in Developer Platform section) which will be added into the "Create" section of the Viral Social Platform where the users create various kinds of posts which will be added continuously. Currently during the social media bootstrapping stage a few post types will be available. The available posts types are given below, \\ 
 
-\textbf{Shots}
+\begin{enumerate}[leftmargin = +0.2in]
+\item \textbf{Shots} \\
 
 Shots are \textbf{10 sec motion pictures} with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.\\
-
 People can share their
-\begin{enumerate}[leftmargin=+0.2in]
+\begin{itemize}[leftmargin=+0.2in]
 \item Personal Sneak-Peek, Moments and Events
 \item Exclusive Photoshoots, commercials, to your fans
 \item Turn photos into lively shots by adding shot animations through Viral
-\end{enumerate}
+\end{itemize}
+\item \textbf{Thoughts}\\
 
-\textbf{Thoughts}\\
 Thoughts are \textbf{text-based sharing} for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.\\
+\item \textbf{Drops}\\
 
-
-\textbf{Drops}\\
-
-Drops are \textbf{20 second disappearing stories} shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days\\
-
-\notte{Drops will not be minted as unique NFT due to it\textsc{\char13}s nature of disappearing media\texttt{notte}.}
-
-\textbf{Interactive Videos}\\
+Drops are \textbf{20 second disappearing stories} shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days. Drops will not be minted as unique NFT due to it\textsc{\char13}s nature of disappearing media.\\
+\item \textbf{Interactive Videos}\\
 
 IVs are short 30sec full-screen\textbf{narration based videos}. It is based on\textbf{gamification of videos} to interact within the videos.\\
 
 
-\textbf{NFT Utilities}\\
+\item \textbf{NFT Utilities}\\
 
 Minting (Creating) an NFT in Viral is\textbf{as easy as creating a social media post}. Viral provides multiple NFT utilities for users to mint, buy, sell with an easy user experience.Viral will take a\textbf{1.5\% commission} selling NFTs which will be reverted to the reward pool\\
+\begin{enumerate}
+\item \textbf{Tunes} : Artists can \textbf{sell their music albums}, singles as NFT for the fans/people to buy and own it
 
+\item \textbf{Sketch} : \textbf{Digital arts}, paintings, sketches can be sold through NFTs\\
 
-\textbf{Tunes}\\
-Artists can\textbf{sell their music albums}, singles as NFT for the fans/people to buy and own it\\
+\item \textbf{Originals} : \textbf{Physical assets} can be sold through Viral\textsc{\char13}s Original NFTs where people can buy and flex\\
 
+\item \textbf{Tickets} : \textbf{Exclusive passes} for events, ownership of clubs, a digital ticket for everything can be sold as NFT. 
 
-\textbf{Sketch}\\
-\textbf{Digital arts}, paintings, sketches can be sold through NFTs\\
+\item \textbf{Filters} : Filters can be sold, and owned by user\textsc{\char13}s thereby get rewards for it\\
+\end{enumerate}
+\end{enumerate}
 
-\textbf{Originals}\\
-\textbf{Physical assets} can be sold through Viral\textsc{\char13}s Original NFTs where people can buy and flex\\
+\subsection{Viral Avatars}
 
-\textbf{Tickets}\\
-\textbf{Exclusive passes} for events, ownership of clubs, a digital ticket for everything can be sold as NFT. See Listing \ref{single-asset}\\
-
-\textbf{Filters}\\
-Filters can be sold, and owned by user\textsc{\char13}s thereby get rewards for it\\
-
-Please read \hyperlink{App Brouchure}{https://sampel.com/} to have a visual experience of the Viral Social Network
-
-\newpage
-
-\begin{lstlisting}[language=Solidity, caption={NFT Snippet for Enable/Disable Open Sale}, numbers=none]
-
-pragma solidity ^0.8.10;
-
-contract HelloWorld {
-
-    string public greet = "Hello World!";
-    
-}
-\end{lstlisting}
-
-\begin{lstlisting}[language=Solidity, caption={NFT Snippet To Sell Multiple Copies}, numbers=none]
-
-pragma solidity ^0.8.10;
-
-contract HelloWorld {
-
-    string public greet = "Hello World!";
-    
-}
-\end{lstlisting}
-
-\begin{lstlisting}[language=Solidity,label={single-asset}, caption={NFT Snippet to sell single asset}, numbers=none]
-
-pragma solidity ^0.8.10;
-
-contract HelloWorld {
-
-    string public greet = "Hello World!";
-    
-}
-\end{lstlisting}
-
-\begin{lstlisting}[language=Solidity, caption={NFT Snippet to provide extra information such as Name, Address, Mobile Number, before transferring coins with end to end encryption between seller}, numbers=none]
-
-pragma solidity ^0.8.10;
-
-contract HelloWorld {
-
-    string public greet = "Hello World!";
-    
-}
-\end{lstlisting}
-
-\begin{lstlisting}[language=Solidity, caption={NFT Snippet to distribute shares Just like company share where if 100 NFTs is sold, the person who holds 50 NFT will hold 50\% of the company}, numbers=none]
-
-pragma solidity ^0.8.10;
-
-contract HelloWorld {
-
-    string public greet = "Hello World!";
-    
-}
-\end{lstlisting}
-
-\pagebreak
-
-\subsection{Avatars}
-
-Personalized Avatars are generated free for every viral user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see them 3D View.\\
-
-\textit{Image}\\
-
-These avatars are brought into Viral to integrate metaverse and to provide an \textbf{interactive experience}\\
-
-\hyperlink{https://sample.com}{Avatar Demo-Video}\\
+Personalized Avatars are generated free for every viral user using a selfie. Users can edit their avatar skin, outfit, hair, etc. These avatars will be shown in their public profile where other users can see them 3D View. These avatars are brought into Viral to integrate metaverse and to provide an \textbf{interactive experience}\\
 
 \begin{lstlisting}[language=Solidity]
 
@@ -1498,7 +1434,7 @@ There are various factors a user can opt to get the best price possible. A trade
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=11cm]{dex-algorithm}
+\includegraphics[width=14cm]{dex-algorithm}
 \caption{Automated Algorithm for better price among swap orders}
 \end{center}
 \end{figure}
@@ -1918,9 +1854,21 @@ Reactive Moderation is a manual yet highly scalable method that involves both no
 
 To remove a post in centralized social media, the entity governing the application shall remove the user's database tables that contains the post-meta data. Post Metadata is defined as the data providing information about one or more information about a post i.e., image url, description, etc. Unlike centralized social media, Viral is a decentralized social media that doesn't owns user's data, hence Viral and it's developers doesn't have governance over users meta-data. For a clean, appropriate content platform moderation is a key for it's growth. Viral proposes to solve moderation issues by removing the media's source from it's Viral Private IPFS Clusters by publishing the black-listed media live using decentralized oracle's.\\
 
-Viral's IPFS cluster which is explained in the User Security and Privacy page of the whitewater, replicates data across trusted high efficiency IPFS nodes for a decentralized censorship resistant storage. Viral IPFS Clusters have the authority to remove data/files from it's nodes by fetching black-listed files fingerprints from ledger maintained through decentralized oracles - resistant to data tampering.\\
+Viral's IPFS cluster which is explained in the User Security and Privacy page of the whitepater, replicates data across trusted high efficiency IPFS nodes for a decentralized censorship resistant storage. Viral IPFS Clusters have the authority to remove data/files from it's nodes by fetching black-listed files fingerprints from ledger maintained through decentralized oracles - resistant to data tampering.\\
 
-Visual Representation of Oracle and Clusters\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=12cm]{content-removal}
+\end{center}
+\caption{Blacklisted Pins Live Oracle Feed to remove content across Viral IPFS Cluster}
+\end{figure}
+
+\begin{itemize}[leftmargin = +0.2in]
+\item ROV poll is conducted among the curators of the platform to decide on to keep or remove the post.  After deciding on removing the post,  the IPFS CID \textit{(content identification)} of the post is sent to a decentralized oracle ledger for immutability and tamper-resistance
+\item The Oracle feed displays blacklisted CIDs for the Viral IPFS Cluster Peers/Nodes to publish a remove command to the cluster layer
+\item After the pin remove command is published the peers within the cluster removes the pin from their respective nodes
+\item A garbage collection is run on the peers and the content is removed completely from the viral clusters
+\end{itemize}
 
 
 
@@ -1958,6 +1906,17 @@ $\gamma_p$=Remove Votes Percentage, $\kappa_p$ = Keep Votes Percentage\\
 
 \textbf{Process of Polls}\\
 
+The reactive-moderation type polls are initiated  in the following steps,
+\begin{itemize}[leftmargin=+0.2in]
+\item A user reports a content in the viral social platform which he/she feels in-appropriate for the community or similar viewers
+\item ROV receives the report under reactive-moderation and creates a poll for the reported user to review, analyze the content for further action
+\item A timer is added in the poll according to the category of report chosen by the reporting-user.  This allocates certain very important categories to be shown first to the active curators.
+\item The poll receives votes based on the curators opinion and the community guidelines followed by the curators. Both "keep" and "remove" votes are calculated until the timer ends
+\item A premature poll ending algorithm runs with every single vote to determine the chances of ending it.  The poll ends if the algorithm satisfies the condition of 90\% of more than 10 votes are voted towards a single decision.
+\item After the Poll ends the decision is taken by calculating the majority of votes. 
+\item The content is removed from Viral IPFS Clusters or kept for further appeal if the curators decision was to keep the content.
+\end{itemize}
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{rov-poll}
@@ -1965,39 +1924,34 @@ $\gamma_p$=Remove Votes Percentage, $\kappa_p$ = Keep Votes Percentage\\
 \end{center}
 \end{figure}
 
-Key Points\\
-
-
 \textbf{Re-Appeals}\\
 
-A unique feature of ROV given to the users of Viral to re-appeal or re-report against the decision of voters while giving an explanation where the ROV curators can again vote to keep the content again or remove based on the explanation given by the user who re-reported. The timer for re-appeal is posted two times the category timer for normal reports where if votes are more than 25 and 90\% opt again to keep or remove the content the timer will end prematurely.\\
+Re-appeals are similar to regional court's first \& second appeals done by individuals against the decree of the jurisdiction.  Re-Appeals are given to the users of Viral to re-report against the decision of curators while giving an explanation for removing the post where the ROV curators can again vote and decide to keep or remove based the content by taking the explanation given by the user who re-reported. Re-appeals applications will expire in 48hrs after the first-decision is posted by the ROV curators to keep the content. \\
+
+The algorithmic premature poll ending timer for re-appeal is posted two times ($2x$) the category timer for normal reports where if votes are more than 25 and 70\% opt again to keep or remove the content the timer will end prematurely.\\
 
 \begin{equation}
-Total\:Votes\:(x) \geq25
+\lambda \geq25
 \end{equation}
 \begin{equation}
-(\frac{Total\:Remove\:Votes\:(r)}{x}) \times  100 = r_p \geq 90
+(\frac{\gamma}{\lambda}) \times  100 = \gamma_p \geq 70
 \end{equation}
 \begin{equation}
-(\frac{Total\:Keep\:Votes\:(k)}{x}) \times  100 = k_p \geq 90
+(\frac{\kappa}{\lambda}) \times  100 = \kappa_p \geq 70
 \end{equation}
 
 
-$r_p$=Remove Votes Percentage, $k_p$ = Keep Votes Percentage\\
+\textbf{Pre-Moderation \& Post-Moderation using AI Tools}\\
 
-\textbf{Pre-Moderation using AI Tools}
-
-\textbf{Post-Moderation using AI Tools}
+Pre-moderation also known as screening is carried out locally on the device to restrict publishing adult content on the social platform. Various nudity detection programs are available as open source which can be leveraged to develop a minimal version which can be run locally within the device. Post-Moderation requires multiple machine learning \& artificial intelligence tools which can be actively developed by the Dev-Space Community \textit{(further explained in Developer Platform section)} which can find for flagged contents and report it to the ROV-community. Nudity and pornographic contents will be removed at instance if the accuracy is higher using automated tools.\\
 
 \textbf{Private Accounts}\\
 
-Viral’s content reports are only applicable to public accounts. Viral’s vision to bring complete privacy and security to private accounts which are exempted from being reported. ROV curators will not moderate, nor involve to view the contents of secured private accounts. Thus, it leaves decisions in the hands of followers whether to view their content or not. \\
+Viral’s content reports are only applicable to public accounts. Viral’s vision to bring complete privacy and security to private accounts which are exempted from being reported.  Every single content in the viral platform is encrypted, the curators can only view the public content as a watcher \textit{(explained in the User Security \& Privacy section)} due to it's publicly available decryption keys. ROV curators will not moderate, nor involve to view the contents of secured private accounts. Thus, it leaves decisions in the hands of followers whether to view their content or not. \\
 
 \textbf{Eliminating Bad Curators}\\
 
-To eliminate biased curators we will be bringing a safe mechanism to filter out bad curators in the community using a feature called positive/negative points. Every single poll will contain two options for the curators to select, “Remove” or “Keep”, the poll results are based on the majority’s decision. When a vote for a poll and falls under the majority’s vote the curator will receive a Positive point, if the curator is on the minority side, which is the losing side he/she be getting a Negative point. Each of the positive and negative points will be added to his profile. An algorithm will run to take the percentage of both points, where if the negative point falls above 30\% to the positive point, his ROV account will be suspended for a couple of days. We have deciphered the factors where there could be no bad actors in the community. There will be records to everyday's positive and negative points. \\
-
-This Positive/Negative points suspension factor will be running after every single vote after the poll finishes. Some factors determining the suspension are\\
+To eliminate biased curators we will be bringing a safe mechanism to filter out bad curators in the community using a feature called positive/negative points. Every single poll will contain two options for the curators to select, “Remove” or “Keep”, the poll results are based on the majority’s decision. When a vote for a poll and falls under the majority’s vote the curator will receive a Positive point, if the curator is on the minority side, which is the losing side he/she be getting a Negative point. Each of the positive and negative points will be added to his profile. An algorithm will run to take the percentage of both points, where if the negative point falls above 30\% to the positive point, his ROV account will be suspended for a couple of days. We have deciphered the factors where there could be no bad actors in the community. There will be records to everyday's positive and negative points. This Positive/Negative points suspension factor will be running after every single vote after the poll finishes. Some factors determining the suspension are\\
 
 \begin{itemize}[leftmargin=+0.2in]
 \item If Negative Point is 30\%- 40\% to the Positive Point – Account suspension for 3 days
@@ -2005,14 +1959,16 @@ This Positive/Negative points suspension factor will be running after every sing
 \item If Negative Point is more than 50\% - Account suspension for 12 days
 \end{itemize} 
 
+Taking Negative Point as $\eta$ and Positive Point as $\rho$
+
 \begin{equation}
-Positive\:Point(p) \times  30\% \leq Negative\:Point(n) \leq Positive\:Point(p) \times  40\%
+(\rho) \times  30\% \leq (\eta) \leq (\rho) \times  40\%
 \end{equation}
 \begin{equation}
-Positive\:Point(p) \times  40\% \leq Negative\:Point(n) \leq Positive\:Point(p) \times  50\%
+(\rho) \times  40\% \leq (\eta) \leq (\rho) \times  50\%
 \end{equation}
 \begin{equation}
-Positive\:Point(p) \times 50\% \leq Negative\:Point(n)
+(\rho) \times 50\% \leq (\eta)
 \end{equation}\\
 
 We have also made factors to suspend an ROV account forever based on the number of suspensions they get on their account. The factors are
@@ -2026,7 +1982,7 @@ There will be a test-net and live-net to practice voting at its best\\
 
 Example : \\
 
-User A: Day 26; Positive – 234; Negative – 55; Result: More than 20\%: Suspension for 3 days\\
+User A: Day 26; Positive – 234; Negative – 80; Result: More than 30\%: Suspension for 3 days\\
 User B – Day 30; Positive – 523; Negative – 343; Result : More than 50\% : Suspension for 12 days\\
 
 
@@ -2036,7 +1992,7 @@ ROV will be having a separate section for community help \& support, where ROV c
 
 \textbf{Verification of Accounts of Celebrities}\\
 
-ROV curators also will be responsible for several actions on the decentralized platform, one of it's the "Verification of Accounts". Since Viral doesn’t take a single byte of data, we won’t be requesting any country’s identification information like other centralized social medias, it is up to the curators to opt for giving a verified tick for the VIPs on the viral platform. Curators vote on Providing Verification where the majority votes decide the verification of a specific individual or organization. Users applying for verification can provide additional data such as popular media websites blogs about them, provide a verification video and also tip the rov community on whole to provide verified tick.Verified Tick is represented by a unique NFT minted by ROV using it's pool's reserve and send the nft to the user applied for it.\\
+ROV curators also will be responsible for several actions on the decentralized platform, one of it's the "Verification of Accounts". Since Viral doesn’t take a single byte of data, viral won’t be requesting any country’s identification information like other centralized social medias, it is up to the curators to opt for giving a verified tick for the VIPs on the viral platform. Curators vote on Providing Verification where the majority votes decide the verification of a specific individual or organization. Users applying for verification can provide additional data such as popular media websites blogs about them, provide a verification video and also tip the rov community on whole to provide verified tick.Verified Tick is represented by a unique NFT minted by the user after ROV's approval.\\
 
 \textbf{Requesting ROV}\\
 
@@ -2049,7 +2005,7 @@ ROV will be having a separate Mobile Application for curators and moderators to 
 
 \textbf{Rewards for Contribution}\\
 
-Every day according to every individual curators contribution rewards will be allocated to their wallets where they can collect it manually after 2AM UTC. 
+Every day according to every individual curators contribution rewards will be allocated to their wallets where they can collect it manually after 2AM UTC.  More information on reward allocation for ROV curators is explained in the Global Reward Pool section.\\
 
 \newpage
 
@@ -2446,11 +2402,13 @@ Our ultimate vision is to develop a decentralized social media without any centr
 
 \newpage
 
+\section{Viral Open-Source Distributions}
+
 \section{Global Reward Pool}
 
-Viral Rewards are daily rewards allocated to every user on the decentralized platform who contributes towards running the platform. It includes Users, Miners, Volunteers, and DAO Members. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in Viral tokens and Wrapped tokens of popular cryptocurrencies such as Bitcoin, Ethereum, Solana, etc for all the users who contribute towards running the social and multi-chain platform.\\
+To develop a truly decentralized company, the segregation of expenditures and investments should be determined and allocated through an automated smart contract. The profits should be divided across employees - in Viral's case it's volunteers,  investors as dividends, and for further new projects. Viral Rewards are daily rewards allocated to every user on the decentralized platform who contributes towards running the platform. It includes Users, Miners, Volunteers, and DAO Members. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in Viral native tokens and Wrapped tokens of popular cryptocurrencies such as Bitcoin, Ethereum, Solana, etc for all the users who contribute towards running the social and multi-chain platform.\\
 
-The Reward allocation for each user happens through automated smart contracts every day at 2 AM UTC. Viral Rewards are designed in such a way that every single contributor inside the network will get paid for their contribution through a either democratic voting system or mathematically predicted points. These points prediction program will be calculated from off-chain real-time data through decentralized tamper-proof oracles in a secure  manner to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. 
+The Reward allocation for each user happens through automated smart contracts every day at 2 AM UTC. Viral Rewards are designed in such a way that every single contributor inside the network will get paid for their contribution through a either democratic voting system or mathematically predicted points. These points prediction program will be calculated from off-chain real-time data through decentralized tamper-proof oracles in a secure  manner to ensure fair rewards to each user without any influence, third-party recommendation, or external factors. \\
 
 The 100\% percent of total daily revenue is distributed as \\
 \begin{figure}[H]
@@ -2464,16 +2422,14 @@ The 100\% percent of total daily revenue is distributed as \\
 \item \textbf{Blockchain Miners} : For Viral Multi-Chain Validators according to total gas received per validator.
 \item \textbf{DAG Miners} : For Tangle Full Nodes that stores \& mine transactions.
 \item \textbf{Social Miners} : Nodes running relay servers of various decentralized tech-stack runs on Viral Social Application
-\item \textbf{IPFS Miners} : Storage IPFS Public \& Private Cluster nodes.
+\item \textbf{IPFS Miners} : Storage Viral IPFS Private Cluster nodes.
 \item \textbf{Social Users} : For Social Application users according to their daily impression on their media content.
-\item \textbf{Developers} : Allocated for Viral Open Source Developers
-\item \textbf{Bounties} : Rewards for developers who can improve the protocols by detecting major flaws and loopholes in the operating protocols.
-\item \textbf{Crypto Back}: Similar to cashback systems in payment applications. Viral Pay users will receive crypto-back for every payment they make.
+\item \textbf{Developers} : Allocated for Viral Open Source Developers allocated by amount of Shout-outs they receive for successful merge requests.
+\item \textbf{Bounties} : Rewards for developers who can improve the applications by detecting major flaws and security loopholes.
+\item \textbf{Crypto Back}: Similar to cash-back systems in payment applications. Viral Pay users will receive crypto-back for every payment they make.
 \item \textbf{Burn} : Portion of the pool allocated to swap tokens to Viral Coin and sending it to a burn address where the supply will be removed.
 \item \textbf{ROV} : Content Moderation community rewards according to their plus votes received for won polls.
 \item \textbf{DAO} : Allocation for governing, maintenance and operation of the decentralized viral applications.
-
-
 \end{enumerate} 
 
 \begin{figure}[H]
@@ -2496,11 +2452,10 @@ The 100\% percent of total daily revenue is distributed as \\
 pie
 
     title Daily Revenue Distribution
-    "Users - 39%" : 35
+    "Users - 34%" : 31
     "Miners - 31%" : 28
-    "Volunteers - 17%" : 15
-    "DAO - 13%" :  12
-
+    "Volunteers - 19%" : 17.5
+    "DAO - 15%" :  14
 
 pie
 
@@ -2510,52 +2465,56 @@ pie
     "Social Miners - 4% " : 4
     "IPFS Miners - 8% " :  8
     "Social Users - 30% " : 30
-    "Developers - 6.5% " : 6.5
+    "Developers - 9% " : 9
     "Bounties - 2% " : 2
-    "Cryptoback - 5%" : 5
+    "Cryptoback - 1%" : 1
     "Burn - 10% " : 10
-    "ROV - 6.5% " : 6.5
-    "DAO - 12% " : 12   
+    "ROV - 6% " : 6
+    "DAO - 14% " : 14   
    
-  
 \end{comment}
 
+\textbf{Portfolio of Multiple Tokens}\\
 
+Viral rewards are multi-token rewards that are collected by various commissions across applications and services provided by the Viral DAO for the Viral Social Media and Viral Pay application. These rewards may include popular cryptocurrencies wrapped inside the viral smart chains such as Bitcoin, Ether, Solana, Cardano, Polygon MATIC, Binance USD, etc offered by the Viral Decentralized Bridge. Here, most of the tokens followed by Ether has 18 decimal places as it's smallest unit, each token has an ability to be transferred to one quintillion (one million trillion) accounts makes possibility of transferring a single token to over 4.66 billion internet users worldwide.  As nano-transactions creates huge amount of dust and bloats the size of the blockchain \& DAG ledger, the concept of Active Pool Percentage Allocation (APPA) is used to batch multi-token transfers and launch a manual method of air-dropping mechanism for the active-only users.  APPA takes a global and a local variable to calculate the percentage of rewards the global variable holds. In an example of user rewards which is determined by impression count, the global variable \textit{which holds the total reward tokens} represents the total impression and the local variable represents the number of impression received by the specific user which then calculates the percentage of rewards the local variable can acquire. The global and the local variable's data is received by the reward smart contract through decentralized oracles which  is made up of independent secure Sybil-resistant nodes for high availability and manipulation resistance. Thus promising security of off-chain data. \\
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{portfolio-reward}
+\caption{Reward Allocation \& Claiming Multi-Tokens }
+\end{center}
+\end{figure}
 
-
-
-
-
-
-
-
-\subsection{Social Users (Impression-based) - 30\%}
-
-30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post.\\
-
-\textbf{Advantages}
+The reward allocation and claiming is done in simple steps,
 \begin{itemize}[leftmargin=+0.2in]
-\item Creators can be able to create content expecting a reward for it
-\item A fair share of rewards according to the popularity of the content.
-\item Users will trust the platform which gives them 30\% of it’s daily collected revenue to every user without any centralized company meddling.
-\item Encourages other platform users to join and receive rewards.
+\item The User's local variable and the Global variable is constantly fed to the decentralized oracles for a tamper proof record.  
+\item After 2 AM UTC the rewards will be locked for the users to manually request \& receive from the pool. The user can choose the list of token's he/she is interested in i.e., Marked Tokens in which the default option of receiving VRL coins per reward allocation cannot be unmarked.
+\item The user then calls the function in the specific reward pool smart contract e.g., user rewards, developer rewards, etc to withdraw his/her allocated awards.
+\item The APPA is calculated by fetching the user's local variable and the platform's global variable. The percentage of funds is calculated and the withdrawal process is initiated.
+\item The Marked tokens is directly deposited into the users wallet (VNS address/username), the unmarked tokens is then sent to series of (Unmarked Token - VRL) Viral DEX pools to swap for VRL tokens. 
+\item The swap orders will be instantly added to the swap book and sent to users wallet once swapped successfully. For illiquid markets, the swap orders shall sit on the user swap book pending orders, which can be retrieved or cancelled at any time. This provides more liquidity to the DEX Pools.
+\item The user successfully withdraws viral's multi-token rewards from a single transaction.
 \end{itemize}
 
+\textbf{APPA - Active Pool Percentage Allocation }\\
 
-\textbf{Segregation of Rewards}\\
+As mentioned above in the paragraphs, the viral rewards are allocated based on percentages of an individuals according to his/her contribution in the fully allocated rewards for all individuals eventually adding upto 100\%.  Viral Global reward pool maintains all the fees collected from users using various de-fi \& social applications, segregates and transfers the allocated percentages to various specific reward pools upon request by any-user after 2  AM UTC. Users, Miners, Volunteers are requested to receive their allocated rewards manually from the pools. The allocation per user is calculated by using the APPA algorithm which basically calculates the percentage of rewards by including a global and a local variable. The global variable is a sum of all existing local variable, typically total impressions, total shout-outs, etc\\
 
-Global Impressions of all users will be taken to calculate each user’s individual percentage which will be required to allocate individual reward amount from the User Reward Pool.\\
+To explain the APPA algorithm which includes Local Percentage Calculation and Per-Token Reward Calculation an example of user rewards are taken into consideration.  The global variable $	\Psi$ represents the total impressions of all the users combined and the local variable $\lambda$ represents per-individual user's impression.  The Local Percentage is calculated as follows \\
 
 \begin{equation}
-User\:Percentage(U_p)=\frac{User\:Total\:Impression(U_i)}{Global\:Impression(G)} \times 100
+Local\:Percentage(\lambda_p)=\frac{User\:Impression(\lambda)}{Global\:Impression(\Psi)} \times 100
 \end{equation}
 
+The Per-Token Reward signifies the amount of tokens from a specific token $x$ is allocated for a specific individual from the pool. Since Viral incorporates multi-token rewards in which a single token having $x$ amount of units shall be distributed over all the pools for all the recipients of the reward. \\
+
 \begin{equation}
-User\:Rewards(x)=\frac{Total\:Rewards(T) \times User\:Reward\:Percentage(U_p)}{100}
+Per-Token\:Reward(x)=\frac{Total(x) \times Local\:Percentage(\lambda_p)}{100}
 \end{equation}\\
 
-\begin{lstlisting}[language=Solidity, caption={Example User Reward Contract in Solidity}, numbers=none]
+\begin{figure}
+
+\begin{lstlisting}[language=Solidity, caption={Example User Reward APPA Contract in Solidity}, numbers=none]
 
 
 // SPDX-License-Identifier: MIT
@@ -2573,12 +2532,11 @@ contract Reward is Ownable, Pausable {
     uint256 public rewardfortheuser;
     uint256 public impression = 0.0;
     uint256 public totalimp = 0;
-
-
+    
     function pause() public onlyOwner {
         _pause();
     }
-
+    
     function unpause() public onlyOwner {
         _unpause();
     }
@@ -2608,56 +2566,143 @@ contract Reward is Ownable, Pausable {
 
 }
 \end{lstlisting}
+\end{figure}
 
 
-\textbf{Example User-Reward}\\
+\begin{tcolorbox}
 
-Input:\\
-User Impression = 10,000\\
-Global Impression = 1,000,000,000\\
-Total Reward = 80,000 VRL, 500 BTC, 700 ETH, 1200 SOL \\
+\begin{center}
+\textbf{\underline{APPA Example in User Reward}}
+\end{center}
 
-\begin{equation}
-User\:Percentage(U_p)=\frac{10,000}{1,000,000,000} \times 100 = 0.001\%
-\end{equation}
-\begin{equation}
-User\:Rewards(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL
-\end{equation}
-\begin{equation}
-User\:Rewards(BTC)=\frac{500 \times 0.001}{100} = 0.005\:BTC
-\end{equation}
-\begin{equation}
-User\:Rewards(ETH)=\frac{700 \times 0.001}{100} = 0.007\:ETH
-\end{equation}
-\begin{equation}
-User\:Rewards(SOL)=\frac{1200 \times 0.001}{100} = 0.012\:SOL
-\end{equation}
+User Impression ($\lambda$) = 10,000\\
+Global Impression ($\Psi$)= 1,000,000,000\\
+Total Reward ($x$) = 80,000 VRL, 500 BTC, 700 ETH, 1200 SOL \\
+
+\[Local\:Percentage(\lambda_p)=\frac{10,000}{1,000,000,000} \times 100 = 0.001\%\]
+
+\[Per-Token\:Reward(VRL)=\frac{80,000 \times 0.001}{100} = 0.8\:VRL\]
+\[Per-Token\:Reward(BTC)=\frac{500 \times 0.001}{100} = 0.005\:BTC\]
+\[Per-Token\:Reward(ETH)=\frac{700 \times 0.001}{100} = 0.007\:ETH\]
+\[Per-Token\:Reward(SOL)=\frac{1200 \times 0.001}{100} = 0.012\:SOL\]
+
 Output:\\
-
-User Percentage of Rewards : 0.001\%\\
+User Percentage of Rewards ($\lambda_p$) : 0.001\%\\
 User Reward : \\
 0.8 VRL \\
 0.005 BTC \\
 0.007 ETH \\
 0.012 SOL\\
+\end{tcolorbox}
 
 
-The reward allocation and analysis of coins for each User(Views-Based) will be done at 2.00 AM UTC every day. The users can collect their activity-based rewards manually within a stipulated period of 15 hours. Manual collection of rewards are specifically brought to ensure that the non-active users on the platform will not receive the rewards and only the people who contribute to the platform by being active will be receiving their rewards. The non-active users' coins will be sent to the burn address, where the coins will be sent to burn pool after the stipulated time period finishes. This creates a daily deflationary effect to the Viral Coin that will benefit other wallet users who hold Viral Coins.\\
 
-\subsection{DAO - 12\%}
+\textbf{Reward Collection/Claiming Methods}\\
+
+\begin{figure}[H]
+\begin{center}
+
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [Reward Collection
+    [Restricted Periodic Claim
+    		[Users]
+    ]
+   [Dynamic Additive Claim
+   		[Volunteers]
+    ]
+   [Fixed Passive Claim
+   		[Miners]
+    ]
+  ]
+\end{forest}
+\caption{Reward Collection Types in Specific Pools}
+\end{center}
+\end{figure}
+
+Rewards Collections are classified into three types - Restricted Periodic Claim,  Dynamic Additive Claim, Fixed Passive Claim. These different types offers claiming reward based on category of recipients and cause of rewarding. The reward collection methods will be hard-coded on the reward pools and cannot be updated with any DAO proposals, hence it is non-upgradable. Restricted Periodic Claim refers to offering rewards under a specific time period unless obtained cannot be withdrawn. The time period will be established according to the category of recipients a reward pool includes. If the rewards hasn't been claimed, the left-over cannot be claimed back and sent to a burn smart contract pool upon a claim request by any recipient after the time period. This ensures only active-participants to receive rewards with increasing the value of VRL tokens upon shrinking the token-supply by burning left-over tokens. The global variable is set at a constant number and will not be adjusted after withdrawals as the rewards are given for past-day's contribution. Restricted Periodic Claim is specifically used for larger recipient base with disproportionate contributions i.e., Social Users whereas Dynamic Additive Claim is used for active-volunteers with smaller base and consistent contribution towards the network i.e., Developers, ROV Curators. The Dynamic Additive Claim refers to offering rewards without a specified time where individual contributors allocations will be constantly adjusted/changed upon addition of new contributions recognized by the pool. The global variable is adjusted actively after every withdrawal and addition of local variable by recipients. This brings long-term reward pool holders to compete against each other for holding large portion of the pool while withdrawing and also short-term recipients desire to withdraw and cash-out quickly. The Dynamic Additive Claim doesn't includes a time period and the funds allocated for the recipients will be available openly for any-time to withdraw. Fixed Passive Claim is a straightforward claiming method for very-smaller number of recipients compared to Dynamic Additive Claim where the allocated rewards can be withdrawn any-time by the recipient by adding all the rewards allocated on each day which isn't withdrawn. Snapshots of allocated rewards will be updated everyday at 2AM UTC for the Fixed Passive Claim recipients to claim at once.\\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{claim-rewards}
+\caption{Differences between various Reward-Claiming methods}
+\end{center}
+\end{figure}
+
+
+
+
+
+\subsection{Social Users (Impression-based) - 30\%}
+
+30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post. The rewards are allocated to the user reward pool from the global reward pool every day at 2.00 AM UTC. The Restricted Periodic Claim is set to 14 hours for manual collection. The users can mark their preferable tokens while the unmarked tokens will be sent for swapping to the Viral DEX swap order book. The pending swap orders will be exchanged for VRL token and will be dropped directly to the user's VNS address/username. After the 14 hour window the funds in the unclaimed tokens in the user-reward pool will be transferred to the burn pool and cannot be claimed back.\\
+
+\begin{center}
+\textbf{Global Variable} $\to$ Combined Impressions of all users / day\\
+\vspace{2mm}
+\textbf{Local Variable} $\to$ Total User Impression / day\\
+\vspace{2mm}
+\textbf{Claiming Method} $\to$ Restricted Periodic Claim = 14 hours\\
+\end{center}
+
+\textbf{Advantages}
+\begin{itemize}[leftmargin=+0.2in]
+\item Creators can be able to create content expecting a reward for it
+\item A fair share of rewards according to the popularity of the content.
+\item Users will trust the platform which gives them 30\% of it’s daily collected revenue to every user without any centralized company meddling.
+\item Encourages other platform users to join and receive multi-token rewards.
+\end{itemize}
+
+\subsection{DAO - 14\%}
+
 
 \subsection{Blockchain-Miners (Gas-based) - 11\%}
 
+Written After Blockchain\\
+
 \subsection{Burn - 10\%}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{burnpool}
+\end{center}
+\end{figure}
+
+Burning tokens represents permanently removing $x$ amount of tokens from the circulating supply. This process of burning tokens is carried out by transferring the tokens to a burn address i.e., a wallet address which do not have a private key which means the tokens are gone forever. This method is often described as destroying tokens.  Burning VRL (Viral Coin) tokens are used for deflationary purposes by decreasing the supply driving the token's price upward where the traders and investors gets incentived. As VRL token is the default reward token and the utility token of the Viral Social Media and the blockchain applications, the coin's automated deflationary mechanism through the reward pool allocating 10\% of it will incentivize the holders, reward recipients, etc by adding scarce in availability and more value to existing tokens. Since the burn pool may consist of many different tokens, they'll be sent to Viral DEX swap book's for swapping all the other tokens to VRL Tokens, later sent and burnt accordingly.This burned tokens include 10\% of all kinds of fees involved in the blockchain, social and de-fi applications.\\
+
+\subsection{Developers (Contribution-based) - 9\%}
+
+9\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to available viral open source repositories and get rewarded for their contribution to the decentralized platform and also to encourage developers by making awareness about the POSI - Paid Open Source Initiative to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform. We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get shout-outs by other developers for rewards. The shout-outs will determine their rewards where the largest receiver will be allocated with more tokens.\\ 
+
+Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 9\% of daily revenue to a closed community. This will encourage autonomous development of superior technology where all hands matter. \\
+
+
+\begin{center}
+\textbf{Global Variable} $\to$ Combined Shout-Outs of all developers\\
+\vspace{2mm}
+\textbf{Local Variable} $\to$ Total User Shout-Outs\\
+\vspace{2mm}
+\textbf{Claiming Method} $\to$ Dynamic Additive Claim\\
+\end{center}
+
+In Dynamic Additive Claim the Global variable get's constantly updated adding up the total local variables, compared to the Restricted Periodic Claim's constant global variable specified per day.  The allocation of reward gets updated after every withdrawal and addition of various merge-request contributions. \\
+
 
 \subsection{IPFS-Miners (Storage-based) - 8\%}
 
+After IPFS\\
 
-\subsection{ROV (Contribution-based) - 6.5\%}
+\subsection{ROV (Contribution-based) - 6\%}
 
-7.5\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. \\
+6\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. This ensures rapid results in removing explicit content in a relatively short time without any hassles. In short, ROV is a decentralized autonomous organization to maintain Viral's media contents at its best. The curators will be rewarded by Viral Coins for their contribution to the network.\\
 
-This ensures rapid results in removing explicit content in a relatively short time without any hassles. In short, ROV is a decentralized autonomous organization to maintain Viral's media contents at its best. The curators will be rewarded by Viral Coins for their contribution to the network.\\
+\begin{center}
+\textbf{Global Variable} $\to$ Combined Positive Points of all Curators\\
+\vspace{2mm}
+\textbf{Local Variable} $\to$ Total Positive Points\\
+\vspace{2mm}
+\textbf{Claiming Method} $\to$ Dynamic Additive Claim\\
+\end{center}
 
 \textbf{Advantages of ROV over Centralized Organization}
 \begin{itemize}[leftmargin=+0.2in]
@@ -2667,35 +2712,23 @@ This ensures rapid results in removing explicit content in a relatively short ti
 \item Will work in any time zone 24/7 without any hassles
 \end{itemize}
 
-\textbf{Segregation of Rewards}\\
-
-The segregation will be done at 2 AM UTC where the curator's Plus points for the day will be taken and the percentage of rewards will be determined using it. For every vote and every positive contribution they make the points will be increased in the ROV Profile where the curators will get their fair share of rewards considering the total points collected by all curators in 24 hours similar to the segregation algorithm of Users Views-based. Every curator will receive their rewards directly to their wallets where they should collect them manually in a period of 15 hours.\\
+The transfer of funds from global reward pool to the ROV Pool will be carried at 2 AM UTC where the curator's Plus points for the day will be taken and the percentage of rewards will be determined using it. The ROV Pool uses the  Dynamic Additive Claim algorithm in which for every positive contribution the curators make the points will be increased and the local percentage will be adjusted in allocation of rewards. Every curator shall be able to withdraw their reward any-time they would want to.\\
 
 \subsection{Social Miners (Serving based) - 4\%}
 
 Social Miners are people running nodes in the viral decentralized network for storing media and data transfers. It is similar to blockchain mining nodes but here the nodes will run Gun DB Relay server, WebRTC signaling server, and other several mini peers of other stacks simultaneously to provide faster data transfer, decentralization of data, higher encryption, better stability, etc. Users can download the node software and run the program to become a social node for the Viral network and start earning rewards according to the data served for the network\\
 
-The segregation will take place at 2 AM UTC by taking the total number of data served from each technology stack's peer such as GUN, WebRTC, and all other mini peers. The points will be given to Social Nodes based on the percentage they served to total served by all stabilizers in the given 24 hours. The stabilizers can able to receive their Daily rewards to their wallets based on contribution, where the rewards have to be collected manually within the 15 hour stipulated window, in which the uncollected coins will be sent to burn address automatically.\\
-
-
-\subsection{Developers (Contribution-based) - 7.5\%}
-
-7.5\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to development of the beta application which will be available as an open repository. To give rewards for developers' contribution to the decentralized platform and also to encourage developers by giving paid rewards to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform.\\
-
-We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get voted by other developers for rewards. The votes will determine their rewards where the maximum voted contribution will receive more viral coins than the minimum voted contribution.\\ 
-
-Developers are the backbone of Viral. Every single developer should be rewarded fairly for their work and the rewards should be determined by their fellow developers inside the community. Since there is no meddling of Viral DAO and its executives, the developer platform will be democratic, decentralized, and autonomous to keep the social media strong and secure in the most possible way. By rewarding developers, we can expect other developers to join the people-run social media.\\
-
-Viral will give a better world to developers expecting a reward for their contribution and also engages a lot of developers into a small community to get most of the percentage from the allocated 7.5\% of daily revenue to a closed community. This will encourage autonomous development of superior technology where all hands matter. \\
-
-The segregation takes place every day at 2 AM UTC according to the votes they got for every single contribution to the beta platform and future plans. Every developer can vote on the done contribution by other developers on a special ROV-Dev Application. This will determine the popularity of the contribution and give fair rewards to each. The rewards will be sent to the Developers' wallets for manual collection which will be available to collect for a period of 15 hours every day.\\
+Others after\\
 
 \subsection{DAG-Miners (Transaction-based) - 5\%}
 
-\subsection{Crypto-Back - 5\%}
+After DAG Tangle\\
 
-\subsection{Bounties (DAO-Vote) - 2\%}
+\subsection{Bounties - 2\%}
 
+Viral runs a daily bug bounty program called the Viral Find Vulnerability Program (VFVP) is an intiative which rewards ethical hackers and penetration experts to discover software bugs which possesses a threat to the software's security. Viral rewards individuals who report the bugs through the dev-space platform and receive shout-outs from the developers from specific projects. The specially allocated 2\% is only to reward bounties and uses the Fixed-Passive Claim algorithm for claiming the rewards. \\
+
+\subsection{Crypto-Back - 1\%}
 
 \subsection{Charity Contribution}
 
@@ -2757,6 +2790,10 @@ DAO Bylaws\\
 
 \section{Tokenomics \& ICO}
 
+\vspace{5mm}
+
+\begin{multicols}{2}
+
 \begin{enumerate}[leftmargin=+0.2in]
 \item \textbf{Name of the Utility-Token} : Viral Coin
 \item \textbf{Ticker of the Token} : VRL
@@ -2764,12 +2801,16 @@ DAO Bylaws\\
 \item \textbf{Supply Hard-Cap} : 5,000,000,000 Tokens
 \item \textbf{Token Nature} : Deflationary
 \end{enumerate}
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=2.5cm]{viral-coin-logo}
 \caption{Viral Coin Logo}
 \end{center}
 \end{figure}
+\end{multicols}
+
+\vspace{5mm}
 
 \begin{figure}[H]
 \begin{center}
@@ -2786,9 +2827,9 @@ DAO Bylaws\\
         \textbf{Sl.no} & \textbf{Round} & \textbf{Supply} & \textbf{Tokens} & \textbf{Price} \\ \hline
         1 & Pre-Seed & Private - 3 \% & 150,000,000 & ~ \\ \hline
         2 & Seed & Private - 4.5 \% & 225,000,000 & ~ \\ \hline
-        3 & Pre-Sale & Private - 1.5 \%,  Public (White-list) - 7 \%  & 425,000,000 & ~ \\ \hline
-        4 & Main-Sale & Private -  1 \%, Public - 10 \% & 550,000,000 & ~ \\ \hline
-        5 & Alpha-Sale & Public - 8 \% & 400,000,000 & ~ \\ \hline
+        3 & Pre-Sale & Private - 1.5 \%,  Public (White-list) - 5\%  & 325,000,000 & ~ \\ \hline
+        4 & Main-Sale & Private -  1 \%, Public - 8 \% & 450,000,000 & ~ \\ \hline
+        5 & Alpha-Sale & Public - 12 \% & 600,000,000 & ~ \\ \hline
         6 & Exchange Offering & IEO - 5 \% & 250,000,000 & ~ \\ \hline
     \end{tabular}
 \end{table}
