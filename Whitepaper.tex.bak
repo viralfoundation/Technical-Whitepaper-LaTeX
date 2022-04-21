@@ -1,5 +1,5 @@
 \documentclass[10pt]{article}
-\usepackage[a4paper, left=25mm, top=30mm, right=25mm, bottom=40mm]{geometry}
+\usepackage[a4paper]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -71,7 +71,8 @@
 \footnotesize{\light{viralfoundation.org}}
 \end{center}
 }
-
+\usepackage{babel}
+\usepackage{authblk}
 
 
 
@@ -91,11 +92,15 @@
         \addtolength{\leftmargini}{-4em}}
 \graphicspath{ {./assets/images/} }
 
+
+
+
+%Title & Abstract Page of the Whitepaper
+
+
 \title{\textbf{Viral - Next Gen Social Communication \& User Experience}}
 \date{15 January 2022}
-\author{Joby Reuben}
-
-
+\author{Auguth Technologies}
 
 \begin{document}
 
@@ -108,12 +113,6 @@
 
 \vspace{5mm} %5mm vertical space
 
-\textbf{Contributors}
-\begin{enumerate}
-\item{Ajay Joshua}
-\item{Naveen Jose}
-\item {Samarth Kulkarni}
-\end{enumerate}
 
 \newpage
    \tableofcontents\pagebreak 
@@ -838,24 +837,35 @@ High Frequency trading cannot be run using automated smart contracts to maintain
 
 Users will be able to stake both coins VRL and VSC proportionally to a smart contract in the mobile app which process all transactions of burning and minting VRL for VSC automatically without the need for user signature and receive profits from arbitrage opportunities by minting and burning the coins to balance the volatility. The Smart Contracts will add and subtract coins on each pools to maintain stability.\\
 
-\subsubsection{Decentralized Blockchain Bridges}
+\subsubsection{Decentralized Block-chain Bridges}
 
-To acknowledge the tokenized economy Viral will bring popular cryptocurrencies such as Bitcoin, Ethereum, Dogecoin, etc into the Viral Smart Chains using wrapped token method. Since interoperability of blockchains are not possible (blockchains cannot talk to each other), centralized exchanges are used to exchange cryptocurrencies between each other using order books where the exchanges act as a custodian maintaining the user’s crypto holdings (E.g.: Bitcoin to Ethereum). To eliminate centralized processes, tokenization of other blockchain coins are introduced. Original Tokens will be reserved in it's native blockchain and a copy of the tokens, new wrapped tokens will be minted (created) on Viral Smart Chains. The wrapped tokens will be 1:1 pegged with the native cryptocurrency and can be used in various de-fi applications. Viral Smart Chain's approach is to develop several wrapped tokens of popular cryptocurrencies for its users to invest and exchange in a decentralized manner.\\
+With over 12,000 active cryptocurrencies residing in more than 1,000 of public blockchains, the protocols that run the blockchain differ from each other that hinders the interoperability aspect that is very well needed for communicating between blockchains for asset transfers, etc. Most of the tokens are built on Ethereum but due to scalability and higher gas fee issues most developers prefer better-built, faster, more scalable blockchains and sidechains such as Solana,Polygon, Binance, Avalanche. While Ethereum blockchain features a basket of de-fi tokens which involves Fiat-backed/Crypto-backed/Algorithmic Stable-Coins and specific vision-focussed tokens, emerging new public blockchains suffer by not offering a vast options of tokens for the native asset owners. This creates an urgent-need to introduce existing assets on popular blockchains to new public blockchains through cross-chain technologies known as bridges. The availability of such assets restricted to a single blockchain impedes the free-circulation of assets which absolutely delays the value creation which is possible by offering the assets to other platform i.e., blockchain users. With proper cross-chain technologies the inception of multi-token economy shall begin where users can define their choice of tokens without sticking to a specific cryptocurrency as the "One" Internet currency.\\
 
-Intro\\
-Type of Viral Bridges\\
-ERC20 Bridge\\
-Abstract\\
-List of Cryptocurrencies\\
-Mechanisam\\
-Flowcharts\\
-UTXO Bridge\\
-Abstract\\
-List of Cryptocurrencies\\
-Mechanism\\
-Flowchart\\
-Conclusion\\
-Hence Users can invest in Bitcoin and other popular cryptocurrencies if they want to, without any hassles of other wallet applications or other blockchain wallets.
+\textbf{Centralized Exchanges and Multi-Token Wallets}
+
+\textbf{Intro to Cross-Chain Bridges}\\
+
+Trustless vs Trusted Bridges and it's advantages and disadvantages\\
+
+Viral vision to decentralization\\
+
+Risks of Trustless Bridges\\
+
+Recent Bridges hacks\\
+
+RenVM H2H Protocol\\
+
+Why RenVM\\
+
+List of Currently available Chains and Tokens\\
+
+Future Cases\\
+
+Viral's approach\\
+
+Integration of RenVM into Viral Smart-Chains\\
+
+
 
 
 \section{Viral Pay - Smart Wallet}
@@ -1115,11 +1125,6 @@ Swap books contains prices derived from liquidity pool's current price and the t
 
 In AMMs prices of swaps determined by the constant product formula $x \times  y=k$ where to swap $x$ tokens the liquidity pool will simulate the pool's after trade liquidity and by maintaining the $k$ constant it determines the amount of $y$ tokens a trader must provide. Whereas, in Viral DEX the constant product formula isn't used. Viral's Liquidity Pool execution of providing pool's liquidity will always require two simultaneous buy and sell of tokens with an addition of extra tokens to change the current price of pool to market price.
 
-\begin{figure}[H]
-\begin{center}
-\caption{AMMs vs Viral DEX Swap match}
-\end{center}
-\end{figure}
 
 \begin{center}
 $Current\:Price\:of\:A = \frac{B}{A}$
