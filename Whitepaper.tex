@@ -1,6 +1,6 @@
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
-\usepackage[a4paper , left=20mm, top=20mm, right=20mm, bottom=35mm]{geometry}
+\usepackage[a4paper , left=15mm, top=20mm, right=15mm, bottom=32mm, footskip=5mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -66,6 +66,7 @@
 \pagestyle{fancy}
 \fancyhf{} 
 \renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footruleskip}{5mm}
 \fancyfoot[C]{
 \begin{center}
 \includegraphics[width=0.4cm]{logo}\\
@@ -97,6 +98,18 @@
 \graphicspath{ {./assets/images/} }
 
 
+\usepackage{eso-pic}
+\newcommand\AtPageUpperMyright[1]{\AtPageUpperLeft{%
+ \put(\LenToUnit{0.5\paperwidth},\LenToUnit{-1cm}){%
+     \parbox{0.5\textwidth}{\raggedleft\fontsize{9}{11}\selectfont #1}}%
+ }}%
+\newcommand{\conf}[1]{%
+\AddToShipoutPictureBG*{%
+\AtPageUpperMyright{#1}
+}
+}
+
+
 
 
 %Title & Abstract Page of the Whitepaper
@@ -106,14 +119,14 @@
 \date{15 January 2022}
 \author{Auguth Tech Pvt. Ltd.}
 
-\setlength{\columnsep}{18pt}
+\setlength{\columnsep}{23pt}
 
 \begin{document}
 
 \onecolumn
 
 \maketitle
-
+\conf{January 2022}
 \onehalfspacing
 \begin{abstract}
 \lipsum[1]\lipsum[1]
@@ -2262,6 +2275,7 @@ Similarly the Pay-per Conversion allocates funds inside the Ad-Fund Contract for
 \end{figure}
 
 Periodic Allocation refers to the manual withdrawal function called by the influencer on all the running ad-campaigns to withdraw the allocated tokens for publishing the advertisement on the influencer's viral social account. Withdrawing funds works by taking the necessary data required for  calculating the allocation of funds and withdrawing it directly to the influencer's viral wallet- similar to centralized billing where the billed amount will be auto-debited from the client's credit card to the company, but here directly to the influencer. Every time the influencer opts for withdrawing his/her funds the smart contracts are invoked and the "influencer-withdrawal" function is called.\\
+
 \[Withdrawal\:Insight=Total\:Insight-Last\:Withdrawn\:Insight\]
 \[Withdrawal\:Amount=Wuthdrawal\:Insight \times AdModel\:Rate\]
 The Ad-Fund Contract fetches the necessary data from a decentralized oracle feed that directly takes the insights of the advertisement i.e., 25 Conversions, 35k Views, etc and calculates the allocation by subtracting the previous allocation from the total allocation e.g., 10,000 total views, Recent withdrawal at 9,500 views, 500 views allocation for now. The recent Insight calculated for the new withdrawal is taken and the exact amount of token withdrawal is determined by the Ad-Fund Contract. After the Ad-is published the advertisement model-rate will be fed to the ad-fund contract thereby reassuring stable rate throughout the entire ad-campaign e.g., \$1.5 per conversion will always be \$1.5 throughout the campaign from which the withdrawal amount is calculated and sent to the influencer's wallet. Payment in multiple-tokens in the Viral Influencer Platform brings a whole new multi-tokenized marketing opportunities around the globe\\
