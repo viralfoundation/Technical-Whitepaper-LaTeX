@@ -106,7 +106,7 @@
 \date{15 January 2022}
 \author{Auguth Tech Pvt. Ltd.}
 
-\setlength{\columnsep}{36pt}
+\setlength{\columnsep}{18pt}
 
 \begin{document}
 
@@ -297,7 +297,8 @@ Posts are basically what users share to each other on their profile which will b
 A difference in other social media platforms and Viral is it's open-source nature in which the possibility of providing creative posts is not confined by the founders nor the employees of the bootstrapping organization (Viral Foundation). Centralized Social Platforms holds a pattern of posts for the users in a restricted environment which undermines the creativity of both the developers and the content creators. In some areas, centralized social platforms provide rights to developers to add different filters and AR effects to specific posts i.e., AR effects in Reels, TikToks, etc but fails to compensate the developers with it's huge ad-revenue profits and  leverages it's larger user base for open-source developers contributions. Viral aims to push the restrictions of a pattern of posts the centralized companies and decentralized social media platforms follow, and offer a multitude of creative posts (through Dev-Space Platform, explained in Developer Platform section) which will be added into the "Create" section of the Viral Social Platform where the users create various kinds of posts which will be added continuously. Currently during the social media bootstrapping stage a few post types will be available. The available posts types are given below, \\ 
 
 \begin{enumerate}
-\item \textbf{Shots}
+\item \textbf{Shots}\\
+
 Shots are \textbf{10 sec motion pictures} with added loop transitions to bring life to photos. Pictures can be shared as shots, an exciting looped motion picture.\\
 People can share their
 \begin{itemize}[leftmargin=+0.2in]
@@ -307,16 +308,19 @@ People can share their
 \end{itemize}
 
 
-\item \textbf{Thoughts}
+
+\item \textbf{Thoughts}\\
+
 Thoughts are \textbf{text-based sharing} for micro-blogging. Attach photos, long/short videos, documents, etc. There is no limit on words or media. People can share other users thoughts to their followers using re-Thought feature.\\
 
-\item \textbf{Drops}
+\item \textbf{Drops}\\
+
 Drops are \textbf{20 second disappearing stories} shared to followers which auto-disappears once seen. It features AR filters, texts, shot elements, links, music, transitions and, much more. Every Drops will be purged in 30 days. Users will be able to view other users drops for over 30 days, once viewed will be disappeared. Drops can not be minted as unique NFT due to it's nature of disappearing media.\\
 
 \item \textbf{Interactive Videos}\\
 
 
-Interactive Videos (IV) is a short 30sec full-screen \textbf{narration based videos} which is based on interaction and \textbf{gamification of videos}.
+Interactive Videos (IV) is a short 30sec full-screen \textbf{narration based videos} which is based on interaction and \textbf{gamification of videos}.\\
 
 
 \item \textbf{NFT Utilities}\\
@@ -429,10 +433,11 @@ The tipping feature in Viral engagements tip/support user's favourite influencer
 
 
 For example: If a user is tips worth 57\$ then the commissions charged will be: For the first     50\$ - 12\%, remaining 7\$  - 17\%\\
-\begin{figure}[H]
+
+\begin{figure*}
 \includegraphics[width=\textwidth]{tips}\\
-\caption{Tips Flowchart}
-\end{figure}
+\caption{Tipping in Viral Social Media}
+\end{figure*}
 
 \begin{comment}%mermaid
 
@@ -462,14 +467,14 @@ sequenceDiagram
 
 \end{comment}
 
-\subsection{Other Features}
+\subsection{\textbf{Other Features}}
 
 \textbf{Privacy Groups}\\
 
 Privacy Groups is a unique feature in Viral to create unlimited friend's groups list to ensure maximum privacy for users to post and share to particular groups of users i.e., Family, Friends, Close Friends, Besties, etc. This feature can empower complete privacy over viewers for certain posts. Privacy Groups feature will benefit all the public accounts who wishes to post content specifically to their family, close friends but also maintain a public profile explicitly. Posts will only allow specific users who have read access to the content to download and decrypt the content published.  \\
 
 \begin{figure}[H]
-\includegraphics[width=\textwidth]{privacygroups}\\
+\includegraphics[width=8cm]{privacygroups}\\
 \caption{Privacy Groups}
 \end{figure}
 
@@ -490,7 +495,7 @@ flowchart LR
 
 This is a short feature where all the emojis in Viral if touched will give a \textbf{short sound of the emoji}. This will be accessible on chats and comments section of a post.\\
 
-\subsection{Viral - User Security and Privacy}
+\subsection{\textbf{Viral - User Security and Privacy}}
 
 At current world, privacy of user's in social media is being exploited by several centralized monopoly companies that run major social netwroking mobile applications that tracks user's data regarding their interests. These datas are being stored in a centralized database that is prone to attacks and breaches of private information. While targeted-manipulation plays a huge role in advertising industry, the collection of data is still prominent for almost 99\% social media business models except those run in donations. Viral focusses on maximum privacy of user's data by eliminating a central point of storage and heavily encrypts the media content circulating in the platform. It is possible to say Viral collects zero data of users and maintain a secure, trustable application in a generation where our mobiles are who we are.\\
 
@@ -501,6 +506,7 @@ This is classified into
 \item Interests of User
 \item Chat backups
 \end{enumerate}
+
 
 \textbf{1. Media Storage}\\
 
@@ -516,7 +522,7 @@ All Media uploaded to Viral is End-to-end Encrypted where all the files are encr
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{aes}
+\includegraphics[width=8cm]{aes}
 \caption{Symmetric Encryption}
 \end{center}
 \end{figure}
@@ -527,19 +533,18 @@ The major reason why Viral makes use of symmetric cryptographic algorithm for se
 
 There are currently countable quantum algorithms that posses a threat to current cryptography security. Some are
 \begin{enumerate}[leftmargin=+0.2in]
-\item \textbf{Shor's Algorithm} : Originally discovered by American Mathematician Peter Shor in 1994 is a quantum computer algorithm for finding prime factors of an integer. It can target asymmetric cryptography algorithms like RSA, ECDSA, DSA, etc that uses a public-private key pair for encrypting and decrypting cipher texts. The algorithm reduces the time complexity of Integer Factorization and Discrete Logarithm from sub-exponential to polynomial, and targets keys that can have long cryptoperiods. Since, asymmetric encryption standards such as RSA heavily relies on the fact that classical computers cannot find prime factors swiftly, they are secure for now. US National Academy of Sciences, Engineering and Medicine (NASEM) predicted that a powerful quantum computer using Shor’s algorithm would be able to crack a 1024-bit encryption implementation RSA in less than 24 hours.
-\item \textbf{Grover's Algorithm} : The Grover's algorithm discovered by Lev Grover, could theoretically weaken the security of symmetric cryptographic algorithms, such as Advanced Encryption Standard (AES). Grover's algorithm could brute-force a 128-bit symmetric cryptographic key in roughly 2$^{64}$ iterations, or a 256-bit key in roughly 2$^{128}$ iterations. As a result, it is sometimes suggested that symmetric key lengths be doubled to protect against future quantum attacks.  In short, Grover's algorithm reduces the brute-force attack time to it's square root, so the attack time for a 128bit AES encryption is decreased to 2$^{64}$, where the 256bit encryption is reduced to 2$^{128}$ which is considered secure.
-\end{enumerate}
+\item \textbf{Shor's Algorithm}\\
+
+Originally discovered by American Mathematician Peter Shor in 1994 is a quantum computer algorithm for finding prime factors of an integer. It can target asymmetric cryptography algorithms like RSA, ECDSA, DSA, etc that uses a public-private key pair for encrypting and decrypting cipher texts. The algorithm reduces the time complexity of Integer Factorization and Discrete Logarithm from sub-exponential to polynomial, and targets keys that can have long cryptoperiods. Since, asymmetric encryption standards such as RSA heavily relies on the fact that classical computers cannot find prime factors swiftly, they are secure for now. US National Academy of Sciences, Engineering and Medicine (NASEM) predicted that a powerful quantum computer using Shor’s algorithm would be able to crack a 1024-bit encryption implementation RSA in less than 24 hours.\\
+
+\item \textbf{Grover's Algorithm}\\
+
+The Grover's algorithm discovered by Lev Grover, could theoretically weaken the security of symmetric cryptographic algorithms, such as Advanced Encryption Standard (AES). Grover's algorithm could brute-force a 128-bit symmetric cryptographic key in roughly 2$^{64}$ iterations, or a 256-bit key in roughly 2$^{128}$ iterations. As a result, it is sometimes suggested that symmetric key lengths be doubled to protect against future quantum attacks.  In short, Grover's algorithm reduces the brute-force attack time to it's square root, so the attack time for a 128bit AES encryption is decreased to 2$^{64}$, where the 256bit encryption is reduced to 2$^{128}$ which is considered secure.\\
 
 Since AES-256 is proven to be the best well-used algorithm currently during post-quantum era, Viral encrypts all the user data using 256bit key symmetric encryption. \\
+\end{enumerate}
 
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=8cm]{encryption}
-\caption{Encryption of Media in Viral}
-\end{center}
-\end{figure}
+\textbf{Encryption}\\
 
 The steps for Encryption, Media Uploading, IPFS Pinning, Cluster Repetition, Post-Meta-Data Update are given as following
 \begin{itemize}[leftmargin=+0.2in]
@@ -553,13 +558,20 @@ The steps for Encryption, Media Uploading, IPFS Pinning, Cluster Repetition, Pos
 \item The Content is stored in a decentralized, secure and encrypted manner where neither an exploiter nor the developers on Viral can able to view user's content inside publicly available IPFS nodes.
 \end{itemize}
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{encryption}
+\caption{Encryption of Media in Viral}
+\end{center}
+\end{figure}
+
 \begin{lstlisting}[caption={Post Meta-Data}, numbers=none]
 
 	post id:12 {
-    	"cid": "hefTFbifw5P4gXftAwvA4eXQ89f9w7Rv9dCaQRRVQPn93bA",
-   		"caption": "This is a sample caption",
+    	"cid": "hefTFbifw5P4gXftAwvA4eXQ89f9w7RA...",
+    "caption": "This is a sample caption",
     	"gateway": "https://cluster.viral.com/",
-    	"secret-key" : "PdSgVkYp3s6v9y$B?E(H+MbQeThWmZq4"
+    	"secret-key" : "PdSgVkYp3s6v9y$B?E(H+MbQ..."
 	}
 \end{lstlisting}
 
@@ -591,16 +603,14 @@ The Steps on Fetching Public Addresses of content view requester, verification, 
 
 \textbf{Public Account Media Decryption}\\
 
-Viral ensures that all the content in the social application is securely encrypted compared to current poorly encrypted social media platforms that takes a stealthy look on to people's content even if the account is configured as private. While Public accounts are not encrypted, the storage of files is done centralized on the entity's server farms. Viral is a decentralized social media service that allows anyone to contribute as a storage node and receive rewards in return for the contribution towards the network. This positively puts a violation of storing individual/organizations data which can be used for multiple exploitation attempts due to the growing adoption on big data, machine learning, artificial intelligence, etc.  Neverhtless Viral needs to encrypt public accounts data/content in the most secure manner for nodes to collectively host as a decentralized open network and also providing trust and security to users data.
-
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=8cm]{decryption-public}
+\includegraphics[width=7cm]{decryption-public}
 \caption{Decryption Media of Public account in Viral}
 \end{center}
 \end{figure}
 
-The process of decrypting a public account post is done by maintaining a real-time white-list of users public addresses called "Watchers-list". Viewer's public addresses shall be added in the watchers list to fetch the cid and the secret-key from posts that can decrypt the downloaded content. This way we can ensure the exact security we have in private accounts in public accounts as well.\\
+Viral ensures that all the content in the social application is securely encrypted compared to current poorly encrypted social media platforms that takes a stealthy look on to people's content even if the account is configured as private. While Public accounts are not encrypted, the storage of files is done centralized on the entity's server farms. Viral is a decentralized social media service that allows anyone to contribute as a storage node and receive rewards in return for the contribution towards the network. This positively puts a violation of storing individual/organizations data which can be used for multiple exploitation attempts due to the growing adoption on big data, machine learning, artificial intelligence, etc.  Neverhtless Viral needs to encrypt public accounts data/content in the most secure manner for nodes to collectively host as a decentralized open network and also providing trust and security to users data. The process of decrypting a public account post is done by maintaining a real-time white-list of users public addresses called "Watchers-list". Viewer's public addresses shall be added in the watchers list to fetch the cid and the secret-key from posts that can decrypt the downloaded content. This way we can ensure the exact security we have in private accounts in public accounts as well.\\
 
 
 \textbf{2. Chats and Private Messages}\\
@@ -609,14 +619,14 @@ For Chat-based encryption, Viral uses \textbf{public and private key} encryption
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=9cm]{chat}
+\includegraphics[width=7cm]{chat}
 \caption{Asymmetric Chat Encryption}
 \end{center}
 \end{figure}
 
-External Links : \hyperlink{https://youtu.be/-SiLnaSDkh4}{GunDB Explanatory Video}\\
-
 \textbf{3. Interests of User}\\
+
+
 To make the viral platform more user-friendly interest-based recommendations are utilized. We have numerous ways to fetch interest from a user \textbf{without collecting data on a centralized server}, a few of them are
 \begin{itemize}[leftmargin=+0.2in]
 \item Like and Dislike
@@ -638,26 +648,23 @@ Since Viral is a \textbf{Offline-First Chat} messages will not be stored in clou
 
 We will be focussing on Quantum Resilience of all media encryption used in Viral while commencing the Phase 2 of Development Roadmap\\
 
-\subsection{TOR/VPN Anonymity}
+\subsection{\textbf{TOR/VPN Anonymity}}
 
 Viral will be a safe haven for anonymity, privacy, and security in eliminating the tracing of users' identities by exploiters . Users can benefit from TOR and VPN Routing Features built in our Decentralized application to hide their IP address and go fully anonymous.\\
 
 TOR routes you through several additional nodes while encrypted, no one can trace it back to you. VPN will redirect your internet traffic through a secure tunnel, hiding your IP address and encrypting your data in the process.\\
 
+\section{\textbf{Blockchain, Token Ecosystem}}
 
-\newpage
-
-\section{Blockchain, Token Ecosystem}
-
-\subsection{Viral Smart Chain – Short Intro}
+\subsection{\textbf{Viral Smart Chain – Short Intro}}
 
 Viral Smart Chains, is a network of parallel Smart Contract Chains on top of a altered Tangle (IOTA) used for Viral Social network with fully deployed defi ecosystem. Viral Smart Chains aim to provide an easy understandable one-platform for all the non-crypto users who are subjected to higher gas fees, congestion in network, volatility and scattered defi solutions. \\
 
-\subsection{Tangle}
+\subsection{\textbf{Tangle}}
 
 The Tangle (by IOTA Foundation) is a next generation Distibuted Ledger Technology that utilizes a new data structure based on Directed Acyclic Graph. Tangle by contrast, does not consist of transactions grouped into blocks and stored in sequential chains, but as a stream of individual transactions entangled together. To do transactions in the network a participant should need to carry out a small computation work to verify two previous transaction. This makes tangle a linearly scalable ledger by network activity implementing participants/users as miners. Transactions in Tangle are completely feeless where miner incentives/rewards are eliminated by providing validation for their own transaction. Instant confirmations and transaction finality is achieved within seconds with low computation requirements.
 
-\subsection{IOTA Smart Contract Protocol}
+\subsection{\textbf{IOTA Smart Contract Protocol}}
 
 IOTA provides an Off-Chain Smart Contract Solution for developers to create multiple-chains on Top of Tangle. Since Ethereum transactions are processed On-chain by every single node on its network, it faces additional congestion, slow transaction time and subject to higher miner fees. IOTA's off-chain smart contract solution makes use of blockchains anchored to the Tangle where the smart contracts are ran and achieved consensus with small set of committee nodes. This achieves a high scalable throughput and immutable records since the states of smart contracts such as Account Balances, Input Conditions and Consequences over time are updated on the Tangle. There are several components to understand more about IOTA's Smart Contracts Protocol. It gives us multi-chain functionality to run smart contracts from different chains which allows a horizontal scaling of blockchains without a need for plasma or side chains.\\
 
@@ -665,7 +672,7 @@ IOTA provides an Off-Chain Smart Contract Solution for developers to create mult
 
 IOTA's Smart Contract Chain uses a Byzantine Fault Tolerant \(BFT\) Algorithm, which guarantees consistency and byzantine fault tolerance if less than $1/3$ of nodes are malicious. So the verification process runs on Nodes within a chain committee.The validators of the chain \(Nodes\) form a committee, a bound together closed set of nodes. The committee of the chain can allow new validators and validator nodes to be added or replaced. This also makes the chain itself agnostic to its validators \(the committee\).\\
 
-Only when a supermajority of the validators (the quorum) of a chain reaches consensus, the results get added to the chain where a new state update can be signed, which unlocks the AliasOutput for the chain and produces the next state UTXO which is stored on the Tangle as an immutable record. In summary, the chain's state (data) will be stored on Tangle as an immutable record.The amount of the validators to reach a consensus is configurable for each chain. The committee itself can also be variable in size - from a few nodes up to hundreds of nodes, and each node can be part of many different committees.
+Only when a supermajority of the validators (the quorum) of a chain reaches consensus, the results get added to the chain where a new state update can be signed, which unlocks the AliasOutput for the chain and produces the next state UTXO which is stored on the Tangle as an immutable record. In summary, the chain's state (data) will be stored on Tangle as an immutable record.The amount of the validators to reach a consensus is configurable for each chain. The committee itself can also be variable in size - from a few nodes up to hundreds of nodes, and each node can be part of many different committees.\\
 
 \begin{itemize}[leftmargin=+0.2in]
 \item \textbf{Validators} – Each Single Node running the Chain
@@ -675,7 +682,7 @@ Only when a supermajority of the validators (the quorum) of a chain reaches cons
 
 To know more about IOTA's Smart Contracts : \hyperlink{https://files.iota.org/papers/ISC_WP_Nov_10_2021.pdf}{Whitepaper}, \hyperlink{https://wiki.iota.org/smart-contracts/overview}{Documentation}, \hyperlink{https://blog.iota.org/iota-smart-contracts-beta-release/}{Blogs}\\
 
-\subsection{Viral \& IOTA}
+\subsection{\textbf{Viral \& IOTA}}
 
 While Tangle with Multi-chain functionality is the future of decentralized applications and scalable contract executions, there is still room for improvements because of developers facing a multitude of disagreements inside the protocol which also applies for running a user-focussed application like Viral. \\
 
@@ -683,7 +690,7 @@ While Tangle with Multi-chain functionality is the future of decentralized appli
 
 The huge disagreement of the various IOTA Protocols is the Dust protection scheme that requires every wallet to have a returnable deposit of Tangle's native asset IOTA in order to successfully transfer various tokens both fungible and non-fungible. In simple terms if a user would want to hold a Non-Fungible-Token in his/her wallet, the user should have a deposit of a certain IOTA coins. This dust protection scheme is introduced to avoid bloating the distributed ledger's size due to fee-less micro-transactions. By eliminating fees the utility for the native asset will decrease if various tokens are being constantly deployed. Viral users are aimed to be common social media users who may not able to deposit a certain IOTA to mint NFTs, send Viral Coins (assuming it's on Tangle) to their friends and family. The Dust protection scheme of the new tokenization framework avoids the usage of IOTA Foundation's Smart Contract Protocol due to Viral's fundamental vision of dissolving preplexing rules of using a crypto wallet and democratize into a simple solution in blockchain applications that feel the same as current simple web 2.0 applications.
 
-\subsection{Viral - Side Tangle}
+\subsection{\textbf{Viral - Side Tangle}}
 
 During disagreements and inability to change the native protocol due to lack of votes, developers fork native block-chains to run a separate block-chain with added functionality that dissolves the disagreement by bringing required changes to the forked(new) protocol. While forked block-chains takes a snapshot of user's balances until a certain block number in the native protocol to convert current coins into newly forked coins that's circulated. Some forks doesn't take snapshots but only forks the source-code to bring necessary changes to the protocol and run independently starting from the genesis block. Since dust-protection scheme of the tokenization framework is a huge concern for a seamless usage of the Viral Application, a source-code fork of the Tangle and the ISC is intend to happen with added functionalities that tie up with the vision of a non-complex crypto solution for the common people and a better framework for existing problems that IOTA encounters such as dust protection, increasing ledger size, decentralization and security of user's funds on less secure chains on top of Tangle.
 
@@ -697,12 +704,12 @@ During disagreements and inability to change the native protocol due to lack of 
 
 
 
-\subsection{Viral Smart Chains}
+\subsection{\textbf{Viral Smart Chains}}
 
-\begin{figure}[H]
+\begin{figure*}
 \includegraphics[width=\textwidth]{Architecture}
 \caption{Viral Multi-Chain ELI9 Architecture}
-\end{figure}
+\end{figure*}
 
 Viral Smart Chains are a family of separate chains anchored to the IOTA's Tangle where each chain can communicate with each other via intermediary L1 Value Tangle.\\
 
@@ -710,14 +717,16 @@ Viral Smart Chains are a family of separate chains anchored to the IOTA's Tangle
 
 A Single chain will seem complex for setting different fees for different actions on the blockchain i.e Smart Contract Calls/Deployment, Sending Tokens to other Address, etc. Viral's approach is to bring multiple chains categorized by its purpose to serve the Viral Application with fee structure thereby also creating separate chains to provide zero network fees for minting NFTs on Viral App (ERC721 and ERC1155) while rewarding the validators of all Viral chains (including zero fee chains) from the miner pool (total collected fees of all chains) based on validator's total validated transactions for the day through an automated smart contract.\\
 
-\textbf{Family of Chains}
+\textbf{Family of Chains}\\
 
 \begin{itemize}[leftmargin=+0.2in]
 \item \textbf{Genesis Chain} : Initialization of First Chain with Viral Coin and Stable Coin Deployment with Smart Contracts that defines governance, fees, etc\\
 
 \item \textbf{Accounts Chains} : For Every n number of active Viral Wallet users a new general chain is deployed. These chains are used to store user funds and create new accounts on the blockchains. So Users can do intra and inter chain transactions with high throughput and flexible scaling.\\
 \end{itemize}
+
 \textbf{De-Fi Chains}\\
+
 Smart Contract Deployment Chains specifically for categorized DApps
 \begin{itemize}[leftmargin=+0.2in]
 
@@ -737,8 +746,6 @@ Smart Contract Deployment Chains specifically for categorized DApps
 \end{itemize}
 
 \textbf{Consensus}\\
-
-ISC Chains uses a BFT consensus where 
 
 
 \textbf{Validators}\\
@@ -819,7 +826,7 @@ Development
 
 \end{lstlisting}
 
-\subsection{Viral Token Ecosystem}
+\section{\textbf{Viral Token Ecosystem}}
 
 Intro to Viral Token Ecosystem\\
 Different Types of Tokens in Viral, its advantages, disadvantages and need\\
@@ -853,11 +860,11 @@ How VSC a hedge against Inflation\\
 Conversion of VSC into Physical Gold through ETFs and Bullion\\
 
 
-\subsubsection{Viral Coin - Native Token}
+\subsubsection{\textbf{Viral Coin - Native Token}}
 
 Viral Coin is the native currency, a digital coin that does all the operations inside the Viral Smart Chains. It is used to store value, send and receive funds within the Multi-Chain Viral Blockchains. Viral Coin is used for paying fees inside the network, staking, governance, rewards and much more.\\
 
-\subsubsection{Viral Stable Coin}
+\subsubsection{\textbf{Viral Stable Coin}}
 
 Viral Stable Coin is a sub-native token, an algorithmic stable coin pegged to the US Dollar that is widely used in the Viral Application for sending and receiving tokens across users wallets. Due to constant volatility of the crypto market there is a barrier for the common people and businesses to get into cryptocurrencies. As Viral's aim to become the one-stop crypto solution for the masses we are providing a way for the user's to automatically transact in Stable Coin without any complex need for swapping their current tokens. In Short, when an user transact in Viral Coin, he can opt to send the receiver viral stable coins to avoid depreciation of the asset while transacting.\\
 
@@ -879,7 +886,7 @@ High Frequency trading cannot be run using automated smart contracts to maintain
 
 Users will be able to stake both coins VRL and VSC proportionally to a smart contract in the mobile app which process all transactions of burning and minting VRL for VSC automatically without the need for user signature and receive profits from arbitrage opportunities by minting and burning the coins to balance the volatility. The Smart Contracts will add and subtract coins on each pools to maintain stability.\\
 
-\subsubsection{Decentralized Block-chain Bridges}
+\section{\textbf{Decentralized Block-chain Bridges}}
 
 With over 12,000 active cryptocurrencies residing in more than 1,000 of public blockchains, the protocols that run the blockchain differ from each other that hinders the interoperability aspect that is very well needed for communicating between blockchains for asset transfers, etc. Most of the tokens are built on Ethereum but due to scalability and higher gas fee issues most developers prefer better-built, faster, more scalable blockchains and sidechains such as Solana,Polygon, Binance, Avalanche. While Ethereum blockchain features a basket of de-fi tokens which involves Fiat-backed/Crypto-backed/Algorithmic Stable-Coins and specific vision-focussed tokens, emerging new public blockchains suffer by not offering a vast options of tokens for the native asset owners. This creates an urgent-need to introduce existing assets on popular blockchains to new public blockchains through cross-chain technologies known as bridges. The availability of such assets restricted to a single blockchain impedes the free-circulation of assets which absolutely delays the value creation which is possible by offering the assets to other platform i.e., blockchain users. With proper cross-chain technologies the inception of multi-token economy shall begin where users can define their choice of tokens without sticking to a specific cryptocurrency as the "One" Internet currency.\\
 
@@ -910,7 +917,7 @@ Integration of RenVM into Viral Smart-Chains\\
 
 
 
-\section{Viral Pay - Smart Wallet}
+\section{\textbf{Viral Pay - Smart Wallet}}
 
 From early days of bitcoin, crypto wallets serves the one-stop solution to hold and transfer cryptocurrencies through an easy user experience model. There is so much to crypto wallets other than holding coin. Wallets can send, receive digital money, store NFT collectibles, connects to exchanges and a lot more to be integrated in the upcoming future, probably your one account hub for everything in the internet. In,short wallet applications are a place to store your cryptocurrencies securely. 
 
@@ -956,10 +963,7 @@ Viral Smart wallet is an integrated open-source EVM based hot wallet application
 \textbf{Create Wallet on Viral}\\
 
 
-
-\newpage
-
-\subsection{Viral Decentralized Exchanges}
+\section{\textbf{Viral Decentralized Exchanges}}
 
 Decentralized exchanges (DEX) are a type of cryptocurrency exchange that allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need for an intermediary or a custodian, unlike Centralized exchanges. Decentralized exchanges are simply a set of automated smart contracts (code). They establish the prices of various cryptocurrencies against each algorithmically and use “liquidity pools” — in which investors lock funds in exchange for interest-like rewards — to facilitate trades. While transactions on a centralized exchange are recorded on that exchange’s internal database, DEX transactions are settled directly on the blockchain itself. There will be no custodian or any services which need to be maintained by a certain company to run a truly decentralized crypto exchange.DEXs are usually built on open-source code, meaning that anyone interested can see exactly how they work. That also means that developers can adapt existing code to create new competing projects — which is how Uniswap’s code has been adopted by an entire host of DEXs with “swap” in their names like Sushiswap and Pancakeswap.\\
 
@@ -990,10 +994,7 @@ The difference between the current market price and the price a user will pay to
 
 
 
-For example\\
-
-Two Coins $X$ and $Y$\\
-
+For example., Two Coins $X$ and $Y$\\
 
 \textbf{Pool Info/Before Swap}:
 \begin{itemize}[leftmargin=+0.2in]
@@ -1044,7 +1045,7 @@ Decentralized exchanges suffer greater scalability issues during frequent networ
 
 Current AMMs gives the opportunity for non-simultaneous series of buys and sells where two traders can buy A tokens freely which will increase the price impact thereby making the pool's token price to change drastically compared to the original market price. To eliminate price impacts for the next buyer (buy-buy trade) the following swaps (next swap order) should be opposite to the previous swap (sell) i.e., While first swap takes A tokens for B , the following trade should be taking B tokens for A, thereby minimizing price impact by stabilizing the pool for the next (buy) traders. A simultaneous matching of buyers and sellers can minimize the price impact for the next set of buyers and sellers. This matching is in centralized exchanges are done through order books where it matches traders for their input price .i.e, a limit order. The solution is to maintain a swap book on top of the liquidity pool to match buyers and sellers to maintain the stability of the pool and eliminate price impacts.\\
 
-\begin{figure}[H]
+\begin{figure*}
 \begin{center}
 \begin{tabularx}{\textwidth} { 
   | >{\centering\arraybackslash}X 
@@ -1069,9 +1070,9 @@ Current AMMs gives the opportunity for non-simultaneous series of buys and sells
  5 & Sell & 10B & 5A & 0.5 & -75\% & 102.9/194.2   \\
 \hline
 \end{tabularx}
-\caption{Simulation of Simultaneous AMM Orders on current DEXs using Constant Product Formula on low liquidity pools}
+\caption{Example of Simultaneous AMM Orders on current DEXs using Constant Product Formula on low liquidity pools}
 \end{center}
-\end{figure}
+\end{figure*}
 
 
 While conducting an alternate(buy-sell) swap, it leaves significant price impacts on either of the trades for maintaining the $k$ in the Constant Product Formula $x \times  y=k$, it will not be useful to minimize the price impacts by doing two trades one after each other. Also when two trades match it is best in case to make a decentralized atomic swap instead of taking from a Liquidity pool that will revert to it's previous pool price before the trade. This comes to a conclusion that Traders with matching swaps doesn't provide any results for reducing price impacts, changing the pool's price to market price, etc.\\
@@ -1120,7 +1121,7 @@ An Off-Chain Swap book similar to an order matching book will match buyers (Buy 
 
 \begin{figure}[H]
 \begin{center}
-\begin{tabularx}{0.8\textwidth} { 
+\begin{tabularx}{0.5\textwidth} { 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X 
@@ -1148,16 +1149,16 @@ To read a swap book one must need to determine the primary (A) and secondary Tok
 
 \begin{figure}[H]
 \begin{center}
-\begin{tabularx}{0.8\textwidth} { 
+\begin{tabularx}{0.5\textwidth} { 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X | }
  \hline
- \textbf{Sell DAI} & \textbf{Buy ETH} & \textbf{Sell ETH} & \textbf{Buy DAI}\\
+ Sell DAI & Buy ETH & Sell ETH & Buy DAI\\
 \hline
 \end{tabularx}
-\caption{Example of an ETH/DAI Pool}
+\caption{Example of an ETH/DAI Swap Book}
 \end{center}
 \end{figure}
 
@@ -1176,26 +1177,25 @@ A Pool's current price is determined by the ratio of the total tokens in the liq
 
 The Buy and Sell Price will always in regards to the market price because of the Viral's constant rebasing mechanism. The difference of market and current price is calculated by subtracting both prices. For Example in a ETH/DAI pool of ratio 5:2000 the current price is $\frac{B}{A}=\frac{2000}{5}=400$ where if the market price rose to 402 then the difference would be $Market\:Price - Current\:Price=402-400=2$
 
-\begin{equation}
-Difference\:D = Market\:Price - Current\:Price
-\end{equation}
+\[Difference\:D = Market\:Price - Current\:Price\]
+
+
 
 Thus a difference is taken into account to determine the buying and selling price of the current pair to rebase the price. The buy and sell price is determined by whether the difference is positive or negative. During bull market the difference will come in a positive integer when the $M.P>C.P$ market price is more than current price. Here the buy price of primary token will be added with the difference, where the sell price is the current price. During bear market the difference will come in a negeative integer when the $M.P<C.P$ market price is lesser than current price. Here the buy price of primary token will be the current price, where the sell price will be calculated by subtracting the difference\\
 
 If D = positive $+$
-\begin{equation}
-Buy\:A=Current\:Price+Difference
-\end{equation}
-\begin{equation}
-Sell\:A=Current\:Price
-\end{equation}
+
+\[Buy\:A=Current\:Price+Difference\]
+
+\[Sell\:A=Current\:Price\]
+
 If D = negative $-$
-\begin{equation}
-Buy\:A=Current\:Price
-\end{equation}
-\begin{equation}
-Sell\:A=Current\:Price-Difference
-\end{equation}
+
+\[Buy\:A=Current\:Price\]
+
+\[Sell\:A=Current\:Price-Difference\]
+
+
 
 \textbf{Example Problem}\\
 
@@ -1203,57 +1203,54 @@ To understand how prices are calculated let's take an example problem. Find the 
 
 \textit{Given} : Pool = 256/12526\\
 
-\textit{Solution}\\
 Here C.P = Current Price , M.P = Market Price\\
+
 Given A = 256 , B = 12526 ;
 To find current price 
-\begin{equation}
-C.P\:of\:A=\frac{B}{A}=\frac{12526}{256}=\frac{48.9296875}{1}=\frac{B}{A}
-\end{equation}
+
+\[\text{C.P\:of\:A}=\frac{B}{A}=\frac{12526}{256}=\frac{48.9296875}{1}=\frac{B}{A}\]
+
+
 Currently 1A=48.9296875B\\
 
-Find M.P by subtracting 5\% of C.P $48.9296875 - ((48.9296875)(5\%))$ \\
-\begin{equation}
-M.P = 46.483203125
-\end{equation}
+Find M.P by subtracting 5\% of C.P $48.9296875 - ((48.9296875)(5\%))$ 
+
+\[\text{M.P} = 46.483203125\]
 
 Now, Find Difference between C.P and M.P $Difference\:D = Market\:Price - Current\:Price$
-\begin{equation}
-Difference\:D = -2.446484375
-\end{equation}
+
+\[\text{Difference\:D} = -2.446484375\]
+
 If D = negative , $Buy\:A=Current\:Price$, $Sell\:A=Current\:Price-Difference$
-\begin{equation}
-Buy\:A = 48.9296875
-\end{equation}
-\begin{equation}
-Sell\:A = 51.376171875
-\end{equation}
+
+\[\text{Buy\:A} = 48.9296875\]
+
+\[\text{Sell\:A} = 51.376171875\]
 
 \textit{Proof}
-\begin{equation}
-Final\:Price=\frac{C.P+Buy\:Price - Sell\:Price}{A} = 46.483203125
-\end{equation}\\
 
-Taking (7) \& (11) : $M.P=F.P$ Hence the buy and sell price is found and proved to move the token price to the market price. Similarly when the D (Difference) is positive the outcome will be achieved. \\
+\[\text{Final\:Price}=\frac{C.P+Buy\:Price - Sell\:Price}{A} = 46.483203125\]
+
+\[Market\:Price=Final\:Price\]
+
+Hence the buy and sell price is found and proved to move the token price to the market price. Similarly when the D (Difference) is positive the outcome will be achieved. \\
 
 
 \textbf{Conditions and Requirements}\\
 
 In centralized Order Books buyers are matched with sellers on the same price rate where in a swap book an order is executed when the sum of all buyers amount (Buy A or Buy B) should equal sum of all sellers amount (Sell A or Sell B) regardless of which token it is. This is a condition in a swap book for it to execute the order to a Liquidity Pool. Off-Chain Trading engines shall match summations of both buy \& sell amounts randomly and execute order and send funds to the users.\\
 
-\begin{equation}
-\sum_{n}^{\infty} BA_n = \sum_{n}^{\infty} SA_n
-\end{equation}
+\[\sum_{n}^{\infty} BA_n = \sum_{n}^{\infty} SA_n\]
+
+
 \begin{center}
 (or)
 \end{center}
-\begin{equation}
-\sum_{n}^{\infty} BB_n = \sum_{n}^{\infty} SB_n
-\end{equation}\\
+\[\sum_{n}^{\infty} BB_n = \sum_{n}^{\infty} SB_n\]
 
-In Equation (12) \& (13) the final index of the summations $\infty$ represents the limit of total number of table rows in the swap book e.g., $BA_1$ represents 1st row and Buy A column. The initial index $n$ indicates the swap book tables rows serial numbers where it's numbers are taken i.e., the swap amounts. The Summation term $BA_n, SA_n, BB_n, SB_n$ represents the addition of values taken from the tables. Here the Equation (12) constitutes that the summation of BA should be equal to summation SA and vice versa to be able to execute the swap. Where Equation (13) constitutes that the summation of BB should be equal to summation SB and vice versa to be able to execute the swap.\\
-
-\textit{Example Swap Order}\\
+The final index of the summations $\infty$ represents the limit of total number of table rows in the swap book e.g., $BA_1$ represents 1st row and Buy A column. The initial index $n$ indicates the swap book tables rows serial numbers where it's numbers are taken i.e., the swap amounts. The Summation term $BA_n, SA_n, BB_n, SB_n$ represents the addition of values taken from the tables. Here the Equation (12) constitutes that the summation of BA should be equal to summation SA and vice versa to be able to execute the swap. Where Equation (13) constitutes that the summation of BB should be equal to summation SB and vice versa to be able to execute the swap.\\
+\onecolumn
+\textit{\textbf{Example Swap Order}}\\
 
 A swap order in a Pool ratio of 256:1256 where it satisfies equation (12) to commence an order to the liquidity pool
 \begin{center}
@@ -1262,6 +1259,7 @@ D=-1.9296875, Buy 1 A=48.9296875 B , Sell 1 A=50.859375 B
 \end{center}
 \begin{figure}[H]
 \begin{center}
+
 \begin{tabularx}{0.8\textwidth} { 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X 
@@ -1287,9 +1285,7 @@ D=-1.9296875, Buy 1 A=48.9296875 B , Sell 1 A=50.859375 B
 \end{center}
 \end{figure}
 
-\begin{equation}
-Final\:Price=\frac{B+\sum SB - \sum BB}{A} = \frac{12526+133.088748-138.337499}{256}= 48.9091845664
-\end{equation}\\
+\[Final\:Price=\frac{B+\sum SB - \sum BB}{A} = \frac{12526+133.088748-138.337499}{256}= 48.9091845664\]\\
 
 Here the total $\sum BA = \sum SA$ $2.72=2.72$ executes the order and changes the current price of 48.9296875 to  a final price of 48.9091845664 (Eq 14). After this trade the buy and sell price will be changed according to the difference $D=-1.9091845664$ Buy 1A=48.9091845664 and Sell 1A=50.8183691328 to bring the M.P to 47. Until the M.P is achieved the buy and sell price will change after each order execution.\\
 
@@ -1321,11 +1317,11 @@ D=-0.00543749, Buy 1 B=0.02043749 A , Sell 1 B=0.02587498 A
 \caption{Example Swap Book matched order for $\sum_{n}^{\infty} BB_n = \sum_{n}^{\infty} SB_n$}
 \end{center}
 \end{figure}
-\begin{equation}
-Final\:Price=\frac{A+\sum BA - \sum SB}{B} = \frac{256+134.778676837+170.637175484}{12526}= 0.017574764
-\end{equation}\\
+\[Final\:Price=\frac{A+\sum BA - \sum SB}{B} = \frac{256+134.778676837+170.637175484}{12526}= 0.017574764\]\\
 
 Here the total $\sum SB = \sum BB$ $6594.678546=6594.678546$ executes the order and changes the current price of 0.02043749 to  a final price of 0.0175747644 (Eq 15). After this trade the buy and sell price will be changed according to the difference $D=-0.0025747644$ Buy 1B=0.0175747644 A and Sell 1B=0.0201495288 A to bring the M.P to 0.015. Until the M.P is achieved the buy and sell price will change after each order execution.\\
+
+\twocolumn
 
 \textbf{Liquidity Limits for Rebase}\\
 
@@ -1390,9 +1386,9 @@ Each Micro-Pool determines each DEX blockchain added to the Viral Smart Chains w
 The pools are represented in tables with rows mentioning number of pools where each pool will run on different blockchains and columns are represented to determine the cell value and percentage. Here $C_{11}, C_{22}, C_{33}, C_{44}.....C_{rc}$ are the pools that will be separated into two divisions equally ($50\%+50\%$) to form the new pool\\
 
 
-\begin{figure}[H]
+\begin{figure*}
 \begin{center}
-\begin{tabularx}{1\textwidth} { 
+\begin{tabularx}{0.9\textwidth} { 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X 
   | >{\centering\arraybackslash}X 
@@ -1424,7 +1420,7 @@ The pools are represented in tables with rows mentioning number of pools where e
 \end{tabularx}
 \caption{Micro-Pool Table}
 \end{center}
-\end{figure}
+\end{figure*}
 
 \textbf{TAMP - Time Average Market Price}\\
 
@@ -1438,7 +1434,7 @@ Every Pool will have strict time period after which it can able to fetch the mar
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=\textwidth]{timeperiod-pools}
+\includegraphics[width=8cm]{timeperiod-pools}
 \caption{Time-period of Sharded Pools}
 \end{center}
 \end{figure}
@@ -1468,12 +1464,12 @@ Traders typically use DEX agregator softwares and applications to run complex ma
 
 There are various factors a user can opt to get the best price possible. A trader can opt for two models of dex aggregator service provided in the Viral DEX, 1. Automated 2. Manual. In an automated service an algorithm is run to provide the best possible price by finding the perfect pool with the best price and instant swap support. Automated algorithm will be much faster than manual selection since it implies high efficient off-chain pool finder algorithm and can reduce man work. The user can opt for a manual method of selecting a specific pool according to his/her preference\\
 
-\begin{figure}[H]
+\begin{figure*}
 \begin{center}
-\includegraphics[width=14cm]{dex-algorithm}
+\includegraphics[width=11cm]{dex-algorithm}
 \caption{Automated Algorithm for better price among swap orders}
 \end{center}
-\end{figure}
+\end{figure*}
 
 The algorithm run as follows,
 \begin{itemize}[leftmargin=+0.2in]
@@ -1486,16 +1482,10 @@ The algorithm run as follows,
 \item Executing a swap in a lower instant swap possibility pools may increase the time to sucessfully carry out a swap on the Viral DEX pools.
 \item Smaller Pools may have higher instant swap possibility, but the prices reflected are realtime. Hence the prices are near to market prices offering straightforward pricing rather than low buy and high sell prices.
 \end{itemize}
-\begin{equation}
-Swap\:Order \leq Pool\:Liquidity 
-\end{equation}
+\[Swap\:Order \leq Pool\:Liquidity \]
 The Swap Order should always be lesser than each of the sharded pools i.e., the bigger pool may receive bigger orders but will always be limited to the pool's total liquidity, a trader cannot place a 100A Token order if the pool has a total liquidity of 80A. Since Viral has sharded pools the total liquiidty of all the pools are not considered rather a single pool is considered, so the pool of the bigger pool is considered as the max i.e., the 50\% Pool.\\
-\begin{equation}
-Instant\:Swap\:Possibility \geq n = 60\%
-\end{equation}
-\begin{equation}
-For\:Unsuccessful\:Rounds \rightarrow n-10\%
-\end{equation}\\
+\[Instant\:Swap\:Possibility \geq n = 60\%\]
+\[For\:Unsuccessful\:Rounds \rightarrow n-10\%\]
 The Instant Swap Possibility is determined by calculating the total pending swap orders in the particular sharded pool's swap book that can execute the newly created swap order by matching the summation of the total buy orders and sell orders. The automated pool finding algorithm will find the best pool by calculating the pool's instant swap possibility and chooses the best pool accordingly.\\
 
 \textbf{Reserve Pools}\\
@@ -1506,16 +1496,12 @@ Reserve Pools are smart contract accounts that is maintained by the trading pair
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=13cm]{reserve-pool-1}
+\includegraphics[width=9cm]{reserve-pool-1}
 \caption{Initial Creation of Pools}
 \end{center}
 \end{figure}
 
-During the initialization of the pool, the reserve pool will be set to zero where the pools will be sharded according to the pool creator's configuration where the number of dex-chains are the limit. The pools get sharded by percentage and the market price is been set by an oracle to fetch and provide buy and sell price according to the difference in current price of the pool and market price of the trading pair.
-
-\begin{equation}
-Limit Equation For Number Of Dex Chains = Pool Shards Configurations
-\end{equation}
+During the initialization of the pool, the reserve pool will be set to zero where the pools will be sharded according to the pool creator's configuration where the number of dex-chains are the limit. The pools get sharded by percentage and the market price is been set by an oracle to fetch and provide buy and sell price according to the difference in current price of the pool and market price of the trading pair.\\
 
 Liquidity gets freezed and sent to reserve pool on two occasions
 \begin{enumerate}[leftmargin=+0.2in]
@@ -1525,7 +1511,7 @@ Liquidity gets freezed and sent to reserve pool on two occasions
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=13cm]{reserve-pool-2}
+\includegraphics[width=9cm]{reserve-pool-2}
 \caption{Excess Liquidity Freezing}
 \end{center}
 \end{figure}
@@ -1544,21 +1530,13 @@ Viral DEX subtracts a swap fee on every swap order executed. There are two types
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=9cm]{dex-fee}
+\includegraphics[width=7cm]{dex-fee}
 \caption{Fee Structure}
 \end{center}
 \end{figure}
-
-\begin{equation}
-Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.2\%
-\end{equation}
-\begin{equation}
-Stable\:Pair\:Swap\:Fee=Swap\:Amount \times  0.02\%
-\end{equation}
-\begin{equation}
-Transfer\:Fee=After\:Swap\:Fee\:Rate \times  Transfer\:Fee
-\end{equation}\\
-
+\[Normal\:Pair\:Swap\:Fee=Swap\:Amount \times  0.2\%\]
+\[Stable\:Pair\:Swap\:Fee=Swap\:Amount \times  0.02\%\]
+\[Transfer\:Fee=After\:Swap\:Fee\:Rate \times  Transfer\:Fee\]
 \textit{For Example} 
 (Fee Type : Normal Pair) \\
 Total Swap amount = $500$\\
@@ -1574,6 +1552,14 @@ Final = $499.65005$\\
  
  
 \textbf{Liquidity Providers}\\
+
+\begin{figure*}
+\begin{center}
+\includegraphics[width=13cm]{reserve-pool-4}
+\caption{Liquidity Provider withdrawal of Funds from all reserves}
+\end{center}
+\end{figure*}
+
 
 Liquidity providers are investors who stake their cryptocurrency tokens on DEXs to earn transaction fees, often referred to as liquidity mining or market making. Viral Liquidity providers earn transaction fees for their staked tokens in the Viral Smart Chains protocol. The transaction fees are distributed proportionally to all the liquidity providers in the pool according to their percentage of investment. Sine Viral implies micro-pool architecture the liquidity is divided among several micro-pool running blockchains while depositing and withdrawing funds.\\
 
@@ -1616,12 +1602,6 @@ Snapshots
 
 Upon withdrawal the investor deducts his balance from the reserve pool accordingly along with main pool funds and transaction fee pool funds. The Reserve pool can be determined as a wallet smart contract that hold's the LP funds which are not required for the main pool. When a small percentage of LP's invest their tokens into a restricted liquidity pool, trnsaction fee may distributed among a small group of LP's which can provide a better ROI compared to current AMM pools.
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{reserve-pool-4}
-\caption{Liquidity Provider withdrawal of Funds from all reserves}
-\end{center}
-\end{figure}
 
 \textbf{Benefits of Viral DEX}
 \begin{enumerate}[leftmargin=+0.2in]
@@ -1638,9 +1618,7 @@ Upon withdrawal the investor deducts his balance from the reserve pool according
 \item \textbf{Higher Yields for LPs} : Unlike current AMMs that require larger pools to become stable without volatile effects, Viral requires only a liited amount of Liquidity equal to the trading volume, which can provide a smaller group of LP's maximum yields.
 \end{enumerate}
 
-\newpage
-
-\subsection{Viral Fiat-Exchange}
+\section{\textbf{Viral Fiat-Exchange}}
 
 Centralized exchanges (CEXs) are a type of cryptocurrency exchange that is operated by a company that owns it in a centralized manner. Centralized exchanges most commonly facilitate trades between users by maintaining an order book: a collection of buy and sell orders posted by individual traders. CEX users do not actually exchange crypto or fiat currencies with each other. Instead, when they deposit their funds onto an exchange, the latter takes over the custody of the crypto assets and issues a corresponding amount to the buyer and seller. Users store their crypto assets on the exchange. Since the private key's ownership rests with the exchange, there is a risk of total loss should the exchange be compromised (Not your Keys, not your Coins). Cases of this kind are rare but historically have already occurred with losses in millions. CEX exchanges are under the control of regulators, third-party providers, and legal regulations. To prevent money laundering, operators are required to collect extensive data about their customers (KYC). This regularity is contrary to the basic idea of cryptocurrencies.\\
 
@@ -1682,7 +1660,7 @@ A solution which combines decentralized solutions is a better, safer and cheaper
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{user-deposit}\\
+\includegraphics[width=8cm]{user-deposit}\\
 \caption{User Deposit and Fiat-Tag Token Distribution}
 \end{center}
 \end{figure}
@@ -1730,7 +1708,9 @@ While Viral application doesn't require any user information, ViralFEX will requ
   for tree={edge+={-Latex}},
 	[Fetches Viral Username
 		[Whitelists-username
-			[$username$ returns address $0x71C7656EC7ab88b098defB751B7401B5f6d8976F$]		
+			[$username$ returns address
+				[$0x71C7656EC7ab88b098defB751B7401B5f6d8976F$]
+			]		
 		]	
 	]
 \end{forest}
@@ -1738,7 +1718,6 @@ While Viral application doesn't require any user information, ViralFEX will requ
 \end{figure}
 
 \textbf{Fee Structure}\\
-
 Since Viral-FEX deals with only deposit \& withdrawal where the exchanging mechanism depends on swap books and ViralDEX Pools the fees on  Viral Semi-CEX is considerably low compared to other popular centralized exchanges. Viral takes fees based on deposit, withdrawal and trade. These fees doesn't include the network fees paid to the Viral Smart Chain which will be included seperately. Since Viral Smart Chain doesn't take gas fees and takes a very minute amount of base fee \$0.0005 and a transfer fee of 0.05\% it will not affect the users trades. The exchange fees are listed below\\
 
 \textbf{Deposit fees}
@@ -1748,7 +1727,6 @@ Since Viral-FEX deals with only deposit \& withdrawal where the exchanging mecha
 \end{enumerate}
 
 \textbf{Trade Fee}\\
-
 The trade fee is fixed to 0.2\% for Viral Coin- Fiat Pairs and 0.02\% for Viral Stable Coin - Fiat Pairs. These fees will be allocated to 70\% Liquidity Providers and 30\% Viral Global Revenue Pool\\
 
 \textbf{Withdrawal Fee}
@@ -1759,10 +1737,9 @@ The trade fee is fixed to 0.2\% for Viral Coin- Fiat Pairs and 0.02\% for Viral 
 
 
 \textbf{Fiat-Tag Token Supply}\\
-
 Fiat-Tag Tokens are limited tokens that is minted and supplied to FEX users after depositing fiat money i.e., USD, EUR, INR, etc to their exchange accounts. The utility of these tokens is only limited for exchanging purposes inside the viral application. The tokens are classified by listed fiat currencies from which users are allowed to exchange e.g., If Euro can be deposited to Viral FEX account, EUR Tokens will be generated and sent. The supply of tokens are elastic in nature while minting and burning while depositing and withdrawing fiat funds. KYC users addresses will be white-listed for transacting fiat-tag tokens to eliminate spam and usage of tokens by a non-kyc users.\\
 
-\begin{figure}[H]
+\begin{figure*}
 \begin{center}
 \begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
  \hline
@@ -1781,39 +1758,21 @@ Fiat-Tag Tokens are limited tokens that is minted and supplied to FEX users afte
 \end{tabular}
 \caption{ViralFEX Fiat Tag Tokens}
 \end{center}
-\end{figure}
+\end{figure*}
 
 
 \textbf{Minting Tag-Tokens / Fiat Deposit}\\
-
 Fiat-Tag Tokens will be minted upon a KYC user's deposit of funds to allocated fiat-holding reserve bank. User's funds are holded by custodian banks fiat holding accounts. Viral allows partnership of centralized banks for holding, minting and distributing tokens to Viral-FEX users for a decentralized approach of exchanging crypto for fiat. Minting Tag-Tokens are carried out by the  custodians on behalf of Viral-FEX after deposit is successful. According to the region and it's native fiat currency the funds will be deposited onto the custodian's traditional account where user's funds will be stored securely.\\
-
-\begin{lstlisting}[language=Solidity, caption={Custodian Mint}, numbers=none]
-
-pragma solidity ^0.8.10;
-
-contract HelloWorld {
-
-    string public greet = "Hello World!";
-    
-}
-\end{lstlisting}
-
-\begin{equation}
-Total\:Mint=Total\:Fiat\:Deposit-External\:Fees
-\end{equation}
-\begin{equation}
-Total\:Token\:Distribution=Total\:Mint-Deposit\:Fee
-\end{equation}\\
-
+\[Total\:Mint=Total\:Fiat\:Deposit-External\:Fees\]
+\[Total\:Token\:Distribution=Total\:Mint-Deposit\:Fee\]
 70\% of the 0.1\% deposit fee will go to the custodians and 30\% will be reverted to the Viral Global revenue pool. The custodians are paid upto 0.07\% every deposit for securely storing and sending funds to users via direct bank transfers. The deposit fees will be deducted upon minting to maintain the equilibrium of circulating supply of tokens and reserve funds on custodian banks.\\
 
-\begin{figure}[H]
+\begin{figure*}
 \begin{center}
-\includegraphics[width=\textwidth]{custodian}
+\includegraphics[width=12cm]{custodian}
 \caption{Fiat Funds Custodian Banks}
 \end{center}
-\end{figure}
+\end{figure*}
 
 \textit{Example}\\\\
 Deposit = \$150 ; Method:Bank Transfer\\
@@ -1835,24 +1794,22 @@ Viral-FEX makes use of ViralDEX Swap Book DEXs for exchanging Tag-Tokens to Vira
 Fiat-Tag Tokens are burned upon Cash Out request from the KYC User to the corresponding custodian. The Custodian shall burn the tokens excluding the withdrawal fee and maintain the equilibrium of assets on both bank reserve and token circulating supply. The KYC User is required to add bank accounts or payment ids for the stipulated fiat-money i.e., Burning USD requires USD Bank account integration. 
 
 
-\subsection{Custodian Services}
+\section{\textbf{Other Wallet Features}}
 
-\subsection{Business-Wallet API and SDK}
+\textbf{Custodian Services}\\
 
-\subsection{Other Wallet Features}
+\textbf{Business-Wallet API and SDK}\\
 
 \textbf{QR Pay}\\
 
 The need for faster transactions is rising higher every year and new technologies have been introduced such as NFC, Scan Code, etc. Since Viral Wallet is a crypto wallet, it will be hard for people to use a public address to send and request Viral Coins or other cryptocurrencies to Merchants using the Smart Wallet . QR Pay is a feature to be added on the Smart Wallet to facilitate faster recognition of seller’s wallet address and the amount to be transferred by scanning a simple generated QR Code through Viral Application. This QR Pay will come when the user doesn’t know their username and want to request money from a nearby person. This will be helpful for businesses to collect payment from users swiftly by entering the amount needed to be paid.\\
 
-\newpage
+\section{\textbf{Child Platforms}}
 
-\section{Child Platforms}
-
-
-\subsection{ROV - Content Moderation Platform}
+Intro about Child Platforms\\
 
 
+\section{\textbf{ROV - Content Moderation Platform}}
 
 Social Media platforms censor user-generated content to prevent abuse on posts and comments which doesn't follows community guidelines that categorizes illegal, inappropriate, violent and offensive content.  Today's social media has become an integral part of our lives from exchanging valuable information to proving individual ideologies. A vast amount of people receive news from several social media platforms including lawmakers, victimizing people to fake news and conspiracy theories became a common tool for social media users who commit fraud by disclosing fake information to the society. Multiple instances of issuing fake propaganda and government manipulating people by hiding free-speech in democratic countries and the never ending ideological hatred among leftist and rightist have proved a need for a moderation of content spreading across social platforms to minimize violence breakouts. A larger portion of teenagers who use social media are exposed to misinformation and conspiracy theories which are very easily believed.\\
 
@@ -1894,7 +1851,7 @@ Viral's IPFS cluster which is explained in the User Security and Privacy page of
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=12cm]{content-removal}
+\includegraphics[width=8cm]{content-removal}
 \end{center}
 \caption{Blacklisted Pins Live Oracle Feed to remove content across Viral IPFS Cluster}
 \end{figure}
@@ -1925,22 +1882,21 @@ To ensure faster removals and counter the delay of manual approach of votes calc
 \textbf{Algorithmic Automated Removal Methods}\\
 
 Additionally, to improve faster removals an algorithm is proposed to finish the poll timer if the votes are more than 10 and 90\% have voted to remove content or keep content. This effectively eliminates the possibility of waiting to remove the content till the timer ends, if the post is in a high state of emergency to remove. By taking,
-
-\begin{equation}
-\lambda \geq10
-\end{equation}
-\begin{equation}
-(\frac{\gamma}{\lambda}) \times  100 = \gamma_p \geq 90
-\end{equation}
-\begin{equation}
-(\frac{\kappa}{\lambda}) \times  100 = \kappa_p \geq 90
-\end{equation}
 \begin{center}
 $\lambda$ = Total Votes, $\gamma$ = Total Remove Votes, $\kappa$ = Total Keep Votes \\
 $\gamma_p$=Remove Votes Percentage, $\kappa_p$ = Keep Votes Percentage\\
 \end{center}
+\[\lambda \geq10\]
+\[(\frac{\gamma}{\lambda}) \times  100 = \gamma_p \geq 90\]
+\[(\frac{\kappa}{\lambda}) \times  100 = \kappa_p \geq 90\]
 
 \textbf{Process of Polls}\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{rov-poll}
+\caption{Glimpse of ROV Process}
+\end{center}
+\end{figure}
 
 The reactive-moderation type polls are initiated  in the following steps,
 \begin{itemize}[leftmargin=+0.2in]
@@ -1953,28 +1909,15 @@ The reactive-moderation type polls are initiated  in the following steps,
 \item The content is removed from Viral IPFS Clusters or kept for further appeal if the curators decision was to keep the content.
 \end{itemize}
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=10cm]{rov-poll}
-\caption{Glimpse of ROV Process}
-\end{center}
-\end{figure}
 
 \textbf{Re-Appeals}\\
 
 Re-appeals are similar to regional court's first \& second appeals done by individuals against the decree of the jurisdiction.  Re-Appeals are given to the users of Viral to re-report against the decision of curators while giving an explanation for removing the post where the ROV curators can again vote and decide to keep or remove based the content by taking the explanation given by the user who re-reported. Re-appeals applications will expire in 48hrs after the first-decision is posted by the ROV curators to keep the content. \\
 
 The algorithmic premature poll ending timer for re-appeal is posted two times ($2x$) the category timer for normal reports where if votes are more than 25 and 70\% opt again to keep or remove the content the timer will end prematurely.\\
-
-\begin{equation}
-\lambda \geq25
-\end{equation}
-\begin{equation}
-(\frac{\gamma}{\lambda}) \times  100 = \gamma_p \geq 70
-\end{equation}
-\begin{equation}
-(\frac{\kappa}{\lambda}) \times  100 = \kappa_p \geq 70
-\end{equation}
+\[\lambda \geq25\]
+\[(\frac{\gamma}{\lambda}) \times  100 = \gamma_p \geq 70\]
+\[(\frac{\kappa}{\lambda}) \times  100 = \kappa_p \geq 70\]
 
 
 \textbf{Pre-Moderation \& Post-Moderation using AI Tools}\\
@@ -1997,15 +1940,9 @@ To eliminate biased curators we will be bringing a safe mechanism to filter out 
 
 Taking Negative Point as $\eta$ and Positive Point as $\rho$
 
-\begin{equation}
-(\rho) \times  30\% \leq (\eta) \leq (\rho) \times  40\%
-\end{equation}
-\begin{equation}
-(\rho) \times  40\% \leq (\eta) \leq (\rho) \times  50\%
-\end{equation}
-\begin{equation}
-(\rho) \times 50\% \leq (\eta)
-\end{equation}\\
+\[(\rho) \times  30\% \leq (\eta) \leq (\rho) \times  40\%\]
+\[(\rho) \times  40\% \leq (\eta) \leq (\rho) \times  50\%\]
+\[(\rho) \times 50\% \leq (\eta)\]
 
 We have also made factors to suspend an ROV account forever based on the number of suspensions they get on their account. The factors are
 \begin{enumerate}[leftmargin=+0.2in]
@@ -2043,9 +1980,7 @@ ROV will be having a separate Mobile Application for curators and moderators to 
 
 Every day according to every individual curators contribution rewards will be allocated to their wallets where they can collect it manually after 2AM UTC.  More information on reward allocation for ROV curators is explained in the Global Reward Pool section.\\
 
-\newpage
-
-\subsection{Developer Platform}
+\section{\textbf{Developer Platform}}
 
 Open-Source projects are considered as free revolutionary software-technologies in competition with profit-making closed source projects developed by monopoly companies under a team of few high-equipped developers. During the time of internet and usage of computer softwares, a look into source-code with a collaborative structure of development of a particular software built trust among developers and aided to better performance and flexibility. The “open source” label was created at a strategy session held on February 3rd, 1998 in Palo Alto, California, shortly after the announcement of the release of the Netscape source code. By realeasing their code to the public Netscape has illustrated a valuable way to engage with potential software users and developers, and convince them to create and improve source code by participating in an engaged community. The emergence of popular projects like Linux, a Free Open-Source Operating System, released under GNU General Public License (GPL) became the largest open source project in the world shortly after Linus Torvald and 100 other developers launched version 1.0 of the Linux Kernel  on 1994 as a free, alternative Operating System to other UNIX based closed sources at that time.\\
 
@@ -2096,12 +2031,12 @@ Viral makes use of git version control system to keep track of changes made by w
 
 Dev-Space from Viral is a open communication platform for developers that comprises of chat groups, sub groups, feed, reward determination programs, project initialization, collaborator network, vulnerability section, etc that will help in an automated workspace environment for quality collaboration for seamless distributed development. Every developer profile will be publicly accessible which is integrated with their individual viral profiles. List of projects, detailed description, successful merges, codes under review, chat pages \& recent interaction between developers will be available for an open audit by any viral user. Each project will have different chat channels (E.g., Back-End) based on development sector of the current project which will also includes sub-channels (E.g., Database Management) for better communication among team of public developers. In short, Dev-Space is a communication \& reward platform for viral Paid Open Source Initiative (POSI) developers.\\
 
-\begin{figure}
+\begin{figure*}
 \begin{center}
-\includegraphics[width=\textwidth]{devspace-overview}
+\includegraphics[width=13cm]{devspace-overview}
 \caption{Overview of Dev-Space}
 \end{center}
-\end{figure}
+\end{figure*}
 
 \textbf{Developer privileges}
 
@@ -2136,7 +2071,7 @@ The Project Feed is similar to a social media news feed which contains all the s
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=\textwidth]{post-dev}
+\includegraphics[width=8cm]{post-dev}
 \caption{Merge/Pull Requests Post in Project's Feed}
 \end{center}
 \end{figure}
@@ -2166,7 +2101,7 @@ Private Collaborators and Public Developers work together to develop, make chang
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=11cm]{dev-reward-distribution}
+\includegraphics[width=8cm]{dev-reward-distribution}
 \caption{Conflict Resolve Collaborator Reward Allocation}
 \end{center}
 \end{figure}
@@ -2194,8 +2129,6 @@ Apart from developer rewards, a certain percentage from the global reward pool i
 
 \textbf{Project Repository Lisencing}\\
 
-\newpage
-
 \subsection{Influencer-Ad Platform}
 
 Mainstream modern-advertisement focusses on targeting social media users by running campaigns collaborating between brand and influencers. It takes the idea of celebrity endorsement and places it into a modern-day content-driven marketing campaign. This type of marketing doesn't only involves celebrities but popular content creators who have an enthusiastic audience. Influencers can be anyone anywhere but what separates them from a amateur creators is their large following. Some will have hundreds of thousands, some even millions, brands do care their reputation build around the specific industry that they are looking for i.e, Fashion, Comedy, Sports. They are the people who make engaging contents, share the best pictures, entertain their viewers, run exciting discussions across social platforms on their own specialized topics. From a smaller market size of \$1.6 billion in 2016 it rose to a figure of \$13.8 billion industry in which for every \$1 spent businesses receive purchases worth \$5.78 from all over the world giving an ROI (Return of Investment) of 500\%. About 1360+ Influencer marketing focused platforms and agencies entered the market in the last 5 years alone.\\
@@ -2210,11 +2143,12 @@ Viral Influencer Ad-Platform is a place where influencers get connected with bra
 \textbf{Influencers}\\
 
 Businesses looking for influencers for their next ad-campaign shall look in terms of followers count on a specific profile where larger brands involve bigger influencers ($\geq$ million followers) and medium enterprises involve smaller influencers ($\leq$ million followers). For seamless results in the Viral Influencer Platform the creators are categorized into several categories according to their followers count
-\begin{figure}[H]
+
+\begin{figure*}
 \begin{center}
-\includegraphics[width=\textwidth]{influencer-class}
+\includegraphics[width=12cm]{influencer-class}
 \end{center}
-\end{figure}
+\end{figure*}
 
 A minimum follower count (1K) and a daily impression count is required for signing up in the Viral Influencer Program. Influencers shall provide their per-impression rates on their profiles. Their daily, hourly impression counts are taken into account to display brands and businesses expected ad-result in a certain time period, etc. Influencers can post their per-impression rate on promising certain ad-result for the ad-buyers in easy simple steps. Elite influencers fall onto the category of Class X will be billing higher rates per-impression where smaller Classes will be billing lower rates per-impression. \\
 
@@ -2296,7 +2230,7 @@ After the Q/A is completed the client shall be reverted to pay a Minimum Advance
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=7cm]{ad-content}
+\includegraphics[width=6cm]{ad-content}
 \caption{Content Creation \& Cancellation}
 \end{center}
 \end{figure}
@@ -2307,12 +2241,12 @@ Every Content creation starts off-with studying the Q/A and the client's needs r
 MAP\:Deducted=35\%+n(10\%)
 \end{equation}
 
-\begin{figure}[H]
+\begin{figure*}
 \begin{center}
-\includegraphics[width=13cm]{ad-publish}
+\includegraphics[width=11cm]{ad-publish}
 \caption{Ad-Publishing over various payment models}
 \end{center}
-\end{figure}
+\end{figure*}
 
 The Ad is published after the finalization by the client. The Payment is taken periodically according to the ad-model the client opted for. The Pay-per Thousand Views (PPV) model allocates micro-payments for the influencer for every 1000 views reached, the view-feed is taken directly from the viral application and provided onto the ad-fund contract directly through decentralized oracles. The Payments aren't withdrawn from the Ad-Fund Contract rather it is allocated to the influencer's public address similar to "Viral Reward Pool" inside the smart contract itself. The Influencer can withdraw all the allocated tokens from all the ad-campaigns upon signing the transaction via his viral wallet. This way micro-transaction dusts can be eliminated batching all transactions into a single macro-payment. \\
 
@@ -2322,27 +2256,22 @@ Similarly the Pay-per Conversion allocates funds inside the Ad-Fund Contract for
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=13cm]{periodic-allocation}
+\includegraphics[width=8cm]{periodic-allocation}
 \caption{Influencer Withdrawal of Funds}
 \end{center}
 \end{figure}
 
 Periodic Allocation refers to the manual withdrawal function called by the influencer on all the running ad-campaigns to withdraw the allocated tokens for publishing the advertisement on the influencer's viral social account. Withdrawing funds works by taking the necessary data required for  calculating the allocation of funds and withdrawing it directly to the influencer's viral wallet- similar to centralized billing where the billed amount will be auto-debited from the client's credit card to the company, but here directly to the influencer. Every time the influencer opts for withdrawing his/her funds the smart contracts are invoked and the "influencer-withdrawal" function is called.\\
-\begin{equation}
-Withdrawal\:Insight=Total\:Insight-Last\:Withdrawn\:Insight
-\end{equation}
-
-\begin{equation}
-Withdrawal\:Amount=Wuthdrawal\:Insight \times AdModel\:Rate
-\end{equation}
+\[Withdrawal\:Insight=Total\:Insight-Last\:Withdrawn\:Insight\]
+\[Withdrawal\:Amount=Wuthdrawal\:Insight \times AdModel\:Rate\]
 The Ad-Fund Contract fetches the necessary data from a decentralized oracle feed that directly takes the insights of the advertisement i.e., 25 Conversions, 35k Views, etc and calculates the allocation by subtracting the previous allocation from the total allocation e.g., 10,000 total views, Recent withdrawal at 9,500 views, 500 views allocation for now. The recent Insight calculated for the new withdrawal is taken and the exact amount of token withdrawal is determined by the Ad-Fund Contract. After the Ad-is published the advertisement model-rate will be fed to the ad-fund contract thereby reassuring stable rate throughout the entire ad-campaign e.g., \$1.5 per conversion will always be \$1.5 throughout the campaign from which the withdrawal amount is calculated and sent to the influencer's wallet. Payment in multiple-tokens in the Viral Influencer Platform brings a whole new multi-tokenized marketing opportunities around the globe\\
 
-\begin{figure}[H]
+\begin{figure*}
 \begin{center}
-\includegraphics[width=\textwidth]{periodic-allocation-2}
+\includegraphics[width=12cm]{periodic-allocation-2}
 \caption{Sequence of Withdrawal}
 \end{center}
-\end{figure}
+\end{figure*}
 
 \textbf{Fees \& Billing}\\
 
@@ -2362,7 +2291,7 @@ PPV - Every Withdrawal - 20\%\\
 \item \textbf{Zero Spams} : Hiring Influencers starts-off with providing a Q/A along with a payment that can reduce spamming influencer with offers.
 \end{enumerate}
 \newpage
-\subsection{Viral Decentralized Ads}
+\section{\textbf{Viral Decentralized Ads}}
 
 Intro\\
 Current Social Ad Benefits \& Problems\\
@@ -2380,9 +2309,7 @@ Reducing Spams\\
 Allocation of Ad-cost\\
 Ad-Funds for better targeting\\
 
-\newpage
-
-\subsection{P2P Exchange}
+\section{\textbf{P2P Exchange}}
 
 Nowadays people want cryptocurrencies without transaction fees, exchange fees, and also without KYC process in an anonymous way. But in order to buy on central exchanges using Fiat-Money, it is not possible without disclosing their personal information and identity cards for Anti-Money-Laundering purposes. Buying cryptocurrencies using fiat money is not possible on Decentralized Exchanges, since it is a platform to swap from one cryptocurrency to another cryptocurrency in a decentralized manner without any centralized order books.\\
 
@@ -2401,7 +2328,7 @@ Seller listing will be initiated by the token seller. The tokens are allocated o
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=7cm]{p2p-sell}
+\includegraphics[width=6cm]{p2p-sell}
 \caption{Selling Tokens via P2P}
 \end{center}
 \end{figure}
@@ -2429,18 +2356,17 @@ The Buyer enters the amount of tokens he would like to buy and the current marke
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=6cm]{p2p-buy}
+\includegraphics[width=5cm]{p2p-buy}
 \caption{Selling Tokens via P2P}
 \end{center}
 \end{figure}
 
 Our ultimate vision is to develop a decentralized social media without any central authority or a need for a company to run its product, a P2P Exchange will carry out its process of buying and selling Viral Coins for Fiat money. This ensures the trades cannot be banned nor withdrawn no matter what the land rules are.\\
 
-\newpage
 
-\section{Viral Open-Source Distributions}
+\section{\textbf{Viral Open-Source Distributions}}
 
-\section{Global Reward Pool}
+\section{\textbf{Global Reward Pool}}
 
 To develop a truly decentralized company, the segregation of expenditures and investments should be determined and allocated through an automated smart contract. The profits should be divided across employees - in Viral's case it's volunteers,  investors as dividends, and for further new projects. Viral Rewards are daily rewards allocated to every user on the decentralized platform who contributes towards running the platform. It includes Users, Miners, Volunteers, and DAO Members. Since it is a decentralized platform, it requires no maintenance and authority by a centralized entity. The contribution of every single individual user is needed to run the platform seamlessly. We would be giving out rewards in Viral native tokens and Wrapped tokens of popular cryptocurrencies such as Bitcoin, Ethereum, Solana, etc for all the users who contribute towards running the social and multi-chain platform.\\
 
@@ -2449,7 +2375,7 @@ The Reward allocation for each user happens through automated smart contracts ev
 The 100\% percent of total daily revenue is distributed as \\
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=14cm]{global-reward}
+\includegraphics[width=8cm]{global-reward}
 \caption{Allocation of Daily Revenue in percentage}
 \end{center}
 \end{figure}
@@ -2470,14 +2396,14 @@ The 100\% percent of total daily revenue is distributed as \\
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{burn-chart}
+\includegraphics[width=8cm]{burn-chart}
 \caption{Burn percentage from Global Reward Pool}
 \end{center}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{revenue-distribution}
+\includegraphics[width=8cm]{revenue-distribution}
 \caption{Total Distribution of Funds excluding burn}
 \end{center}
 \end{figure}
@@ -2514,12 +2440,12 @@ pie
 
 Viral rewards are multi-token rewards that are collected by various commissions across applications and services provided by the Viral DAO for the Viral Social Media and Viral Pay application. These rewards may include popular cryptocurrencies wrapped inside the viral smart chains such as Bitcoin, Ether, Solana, Cardano, Polygon MATIC, Binance USD, etc offered by the Viral Decentralized Bridge. Here, most of the tokens followed by Ether has 18 decimal places as it's smallest unit, each token has an ability to be transferred to one quintillion (one million trillion) accounts makes possibility of transferring a single token to over 4.66 billion internet users worldwide.  As nano-transactions creates huge amount of dust and bloats the size of the blockchain \& DAG ledger, the concept of Active Pool Percentage Allocation (APPA) is used to batch multi-token transfers and launch a manual method of air-dropping mechanism for the active-only users.  APPA takes a global and a local variable to calculate the percentage of rewards the global variable holds. In an example of user rewards which is determined by impression count, the global variable \textit{which holds the total reward tokens} represents the total impression and the local variable represents the number of impression received by the specific user which then calculates the percentage of rewards the local variable can acquire. The global and the local variable's data is received by the reward smart contract through decentralized oracles which  is made up of independent secure Sybil-resistant nodes for high availability and manipulation resistance. Thus promising security of off-chain data. \\
 
-\begin{figure}[H]
+\begin{figure*}
 \begin{center}
-\includegraphics[width=\textwidth]{portfolio-reward}
+\includegraphics[width=12cm]{portfolio-reward}
 \caption{Reward Allocation \& Claiming Multi-Tokens }
 \end{center}
-\end{figure}
+\end{figure*}
 
 The reward allocation and claiming is done in simple steps,
 \begin{itemize}[leftmargin=+0.2in]
@@ -2535,18 +2461,10 @@ The reward allocation and claiming is done in simple steps,
 \textbf{APPA - Active Pool Percentage Allocation }\\
 
 As mentioned above in the paragraphs, the viral rewards are allocated based on percentages of an individuals according to his/her contribution in the fully allocated rewards for all individuals eventually adding upto 100\%.  Viral Global reward pool maintains all the fees collected from users using various de-fi \& social applications, segregates and transfers the allocated percentages to various specific reward pools upon request by any-user after 2  AM UTC. Users, Miners, Volunteers are requested to receive their allocated rewards manually from the pools. The allocation per user is calculated by using the APPA algorithm which basically calculates the percentage of rewards by including a global and a local variable. The global variable is a sum of all existing local variable, typically total impressions, total shout-outs, etc\\
-
 To explain the APPA algorithm which includes Local Percentage Calculation and Per-Token Reward Calculation an example of user rewards are taken into consideration.  The global variable $	\Psi$ represents the total impressions of all the users combined and the local variable $\lambda$ represents per-individual user's impression.  The Local Percentage is calculated as follows \\
-
-\begin{equation}
-Local\:Percentage(\lambda_p)=\frac{User\:Impression(\lambda)}{Global\:Impression(\Psi)} \times 100
-\end{equation}
-
+\[Local\:Percentage(\lambda_p)=\frac{User\:Impression(\lambda)}{Global\:Impression(\Psi)} \times 100\]
 The Per-Token Reward signifies the amount of tokens from a specific token $x$ is allocated for a specific individual from the pool. Since Viral incorporates multi-token rewards in which a single token having $x$ amount of units shall be distributed over all the pools for all the recipients of the reward. \\
-
-\begin{equation}
-Per-Token\:Reward(x)=\frac{Total(x) \times Local\:Percentage(\lambda_p)}{100}
-\end{equation}\\
+\[Per-Token\:Reward(x)=\frac{Total(x) \times (\lambda_p)}{100}\]
 
 \begin{figure}
 
@@ -2604,7 +2522,7 @@ contract Reward is Ownable, Pausable {
 \end{lstlisting}
 \end{figure}
 
-
+\begin{figure*}
 \begin{tcolorbox}
 
 \begin{center}
@@ -2630,7 +2548,7 @@ User Reward : \\
 0.007 ETH \\
 0.012 SOL\\
 \end{tcolorbox}
-
+\end{figure*}
 
 
 \textbf{Reward Collection/Claiming Methods}\\
@@ -2642,13 +2560,13 @@ User Reward : \\
   forked edges,
   for tree={edge+={-Latex}},
   [Reward Collection
-    [Restricted Periodic Claim
+    [Restricted Periodic.C
     		[Users]
     ]
-   [Dynamic Additive Claim
+   [Dynamic Additive.C
    		[Volunteers]
     ]
-   [Fixed Passive Claim
+   [Fixed Passive.C
    		[Miners]
     ]
   ]
@@ -2659,18 +2577,18 @@ User Reward : \\
 
 Rewards Collections are classified into three types - Restricted Periodic Claim,  Dynamic Additive Claim, Fixed Passive Claim. These different types offers claiming reward based on category of recipients and cause of rewarding. The reward collection methods will be hard-coded on the reward pools and cannot be updated with any DAO proposals, hence it is non-upgradable. Restricted Periodic Claim refers to offering rewards under a specific time period unless obtained cannot be withdrawn. The time period will be established according to the category of recipients a reward pool includes. If the rewards hasn't been claimed, the left-over cannot be claimed back and sent to a burn smart contract pool upon a claim request by any recipient after the time period. This ensures only active-participants to receive rewards with increasing the value of VRL tokens upon shrinking the token-supply by burning left-over tokens. The global variable is set at a constant number and will not be adjusted after withdrawals as the rewards are given for past-day's contribution. Restricted Periodic Claim is specifically used for larger recipient base with disproportionate contributions i.e., Social Users whereas Dynamic Additive Claim is used for active-volunteers with smaller base and consistent contribution towards the network i.e., Developers, ROV Curators. The Dynamic Additive Claim refers to offering rewards without a specified time where individual contributors allocations will be constantly adjusted/changed upon addition of new contributions recognized by the pool. The global variable is adjusted actively after every withdrawal and addition of local variable by recipients. This brings long-term reward pool holders to compete against each other for holding large portion of the pool while withdrawing and also short-term recipients desire to withdraw and cash-out quickly. The Dynamic Additive Claim doesn't includes a time period and the funds allocated for the recipients will be available openly for any-time to withdraw. Fixed Passive Claim is a straightforward claiming method for very-smaller number of recipients compared to Dynamic Additive Claim where the allocated rewards can be withdrawn any-time by the recipient by adding all the rewards allocated on each day which isn't withdrawn. Snapshots of allocated rewards will be updated everyday at 2AM UTC for the Fixed Passive Claim recipients to claim at once.\\
 
-\begin{figure}
+\begin{figure*}
 \begin{center}
 \includegraphics[width=\textwidth]{claim-rewards}
 \caption{Differences between various Reward-Claiming methods}
 \end{center}
-\end{figure}
+\end{figure*}
 
 
 
 
 
-\subsection{Social Users (Impression-based) - 30\%}
+\subsection{\textbf{Social Users (Impression-based) - 30\%}}
 
 30\% of rewards from the global reward pool is allocated to Application Users based on the total views/impressions users get on their profiles. Impressions counts are agnostic to the type of content that is published in the Viral Application. Impressions/Views are a basic engagement of a typical post in all of social networking platforms. This ensures every content creator on the platform will get rewards according to their reach, popularity, and usage they get for their content on the decentralized platform. This can keep content creators getting paid every day according to the traffic they receive on their profile/content they post. The rewards are allocated to the user reward pool from the global reward pool every day at 2.00 AM UTC. The Restricted Periodic Claim is set to 14 hours for manual collection. The users can mark their preferable tokens while the unmarked tokens will be sent for swapping to the Viral DEX swap order book. The pending swap orders will be exchanged for VRL token and will be dropped directly to the user's VNS address/username. After the 14 hour window the funds in the unclaimed tokens in the user-reward pool will be transferred to the burn pool and cannot be claimed back.\\
 
@@ -2690,23 +2608,23 @@ Rewards Collections are classified into three types - Restricted Periodic Claim,
 \item Encourages other platform users to join and receive multi-token rewards.
 \end{itemize}
 
-\subsection{DAO - 14\%}
+\subsection{\textbf{DAO - 14\%}}
 
 
-\subsection{Blockchain-Miners (Gas-based) - 11\%}
+\subsection{\textbf{Blockchain-Miners (Gas-based) - 11\%}}
 
 Written After Blockchain\\
 
-\subsection{Burn - 10\%}
+\subsection{\textbf{Burn - 10\%}}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{burnpool}
+\includegraphics[width=7cm]{burnpool}
 \end{center}
 \end{figure}
 
 Burning tokens represents permanently removing $x$ amount of tokens from the circulating supply. This process of burning tokens is carried out by transferring the tokens to a burn address i.e., a wallet address which do not have a private key which means the tokens are gone forever. This method is often described as destroying tokens.  Burning VRL (Viral Coin) tokens are used for deflationary purposes by decreasing the supply driving the token's price upward where the traders and investors gets incentived. As VRL token is the default reward token and the utility token of the Viral Social Media and the blockchain applications, the coin's automated deflationary mechanism through the reward pool allocating 10\% of it will incentivize the holders, reward recipients, etc by adding scarce in availability and more value to existing tokens. Since the burn pool may consist of many different tokens, they'll be sent to Viral DEX swap book's for swapping all the other tokens to VRL Tokens, later sent and burnt accordingly.This burned tokens include 10\% of all kinds of fees involved in the blockchain, social and de-fi applications.\\
 
-\subsection{Developers (Contribution-based) - 9\%}
+\subsection{\textbf{Developers (Contribution-based) - 9\%}}
 
 9\% of rewards from the global reward pool is allocated to Developers. Viral is an Open-source platform where developers contribute to available viral open source repositories and get rewarded for their contribution to the decentralized platform and also to encourage developers by making awareness about the POSI - Paid Open Source Initiative to structure a better, safer, secure social media for the masses using collaborative work is the ultimate goal. By bringing mass development to life we can ensure that the people who run social media will be the product of hundreds of developers working every day for a common goal of a powerful social communication platform. We will be linking developers' GitHub and viral accounts in a separate ROV-Dev Application in which the developers can contribute their work and get shout-outs by other developers for rewards. The shout-outs will determine their rewards where the largest receiver will be allocated with more tokens.\\ 
 
@@ -2724,11 +2642,11 @@ Every single developer should be rewarded fairly for their work and the rewards 
 In Dynamic Additive Claim the Global variable get's constantly updated adding up the total local variables, compared to the Restricted Periodic Claim's constant global variable specified per day.  The allocation of reward gets updated after every withdrawal and addition of various merge-request contributions. \\
 
 
-\subsection{IPFS-Miners (Storage-based) - 8\%}
+\subsection{\textbf{IPFS-Miners (Storage-based) - 8\%}}
 
 After IPFS\\
 
-\subsection{ROV (Contribution-based) - 6\%}
+\subsection{\textbf{ROV (Contribution-based) - 6\%}}
 
 6\% of rewards from the global reward pool is allocated to ROV (Republic of Viral), a content moderation community for the Viral Decentralized platform. There, curators will be filtering and voting posts to eliminate spam, inappropriate content which is reported by users and also govern the application's content in a democratic nature considering every curator's vote. This method of democratic voting community eliminates the power of a single individual to decide the type of content if it's violating the social media's posting guidelines. This ensures rapid results in removing explicit content in a relatively short time without any hassles. In short, ROV is a decentralized autonomous organization to maintain Viral's media contents at its best. The curators will be rewarded by Viral Coins for their contribution to the network.\\
 
@@ -2750,29 +2668,29 @@ After IPFS\\
 
 The transfer of funds from global reward pool to the ROV Pool will be carried at 2 AM UTC where the curator's Plus points for the day will be taken and the percentage of rewards will be determined using it. The ROV Pool uses the  Dynamic Additive Claim algorithm in which for every positive contribution the curators make the points will be increased and the local percentage will be adjusted in allocation of rewards. Every curator shall be able to withdraw their reward any-time they would want to.\\
 
-\subsection{Social Miners (Serving based) - 4\%}
+\subsection{\textbf{Social Miners (Serving based) - 4\%}}
 
 Social Miners are people running nodes in the viral decentralized network for storing media and data transfers. It is similar to blockchain mining nodes but here the nodes will run Gun DB Relay server, WebRTC signaling server, and other several mini peers of other stacks simultaneously to provide faster data transfer, decentralization of data, higher encryption, better stability, etc. Users can download the node software and run the program to become a social node for the Viral network and start earning rewards according to the data served for the network\\
 
 Others after\\
 
-\subsection{DAG-Miners (Transaction-based) - 5\%}
+\subsection{\textbf{DAG-Miners (Transaction-based) - 5\%}}
 
 After DAG Tangle\\
 
-\subsection{Bounties - 2\%}
+\subsection{\textbf{Bounties - 2\%}}
 
 Viral runs a daily bug bounty program called the Viral Find Vulnerability Program (VFVP) is an intiative which rewards ethical hackers and penetration experts to discover software bugs which possesses a threat to the software's security. Viral rewards individuals who report the bugs through the dev-space platform and receive shout-outs from the developers from specific projects. The specially allocated 2\% is only to reward bounties and uses the Fixed-Passive Claim algorithm for claiming the rewards. \\
 
-\subsection{Crypto-Back - 1\%}
+\subsection{\textbf{Crypto-Back - 1\%}}
 
-\subsection{Charity Contribution}
+\subsection{\textbf{Charity Contribution}}
 
 If the user opts for transferring the rewards to a Non-Profit-Organizations it can be easily transferred directly to the user's preferred Charity. Viral will have a registration portal for Charities to Register their information and get verified to appear on the Application's Wallet.\\ 
 
 \newpage
 
-\section{Governance \& Viral DAO}
+\section{\textbf{Governance \& Viral DAO}}
 
 Viral incorporates a vast ecosystem of blockchains and De-Fi application along with the integration of social networking for the masses to adopt cryptocurrencies to the fullest. While aiming for a true-decentralized product, governance plays a huge role in every aspect of decisions on updating the protocols. Most de-fi organizations have separate on-chain governance communities apart from offline-governance to vote and improve their platforms, Viral prepared to seperate governance of current and future products into two governance models and bring decentralized decision making oppurtunity for the members of the community. The Viral Foundatoin decided not to bring in any centralized governance model for any of it's ecosystem except the ViralFEX since it complies with regulatory restrictions.\\
 
@@ -2805,7 +2723,6 @@ Staked Tokens\\
 Viral Improvement Proposal\\
 Addition of New Chains\\
 
-\newpage
 
 \textbf{Viral Ecosystem Governance}\\
 
@@ -2838,28 +2755,7 @@ Decentralized Entity Affiliation  and contribution to Reward Pool\\
 Delegating of Voting Rights to certain cabinet holders\\
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\newpage
-
-\section{Tokenomics \& ICO}
-
-\vspace{5mm}
-
-\begin{multicols}{2}
+\section{\textbf{Tokenomics \& ICO}}
 
 \begin{enumerate}[leftmargin=+0.2in]
 \item \textbf{Name of the Utility-Token} : Viral Coin
@@ -2875,13 +2771,11 @@ Delegating of Voting Rights to certain cabinet holders\\
 \caption{Viral Coin Logo}
 \end{center}
 \end{figure}
-\end{multicols}
-
-\vspace{5mm}
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=\textwidth]{token-distribution}
+\includegraphics[width=10cm]{token-distribution}
+\caption{Token Distribution}
 \end{center}
 \end{figure}
 
@@ -2930,18 +2824,15 @@ pie
 \textbf{Price Predictions}\\
 
 
-\subsection{Token Distribution \& Why}
+\textbf{Token Distribution \& Why}
 
 
-\subsection{Token Sales with Incentives \& Vesting Info}
+\textbf{Token Sales with Incentives \& Vesting Info}
 
 
-\subsection{Investor Exit Strategies}
+\textbf{Investor Exit Strategies}
 
-
-\newpage
-
-\section{Development Roadmap}
+\section{\textbf{Development Roadmap}}
 
 Phase 1 - Beta Launch, Alpha Launch
 Phase 2 - External Upgrades\\
@@ -2950,9 +2841,9 @@ Phase 3 - Internal Upgrades\\
 
 
 
-\section{Future Plans}
+\section{\textbf{Future Plans}}
 
-\section{Development}
+\section{\textbf{Development}}
 
 \begin{table}[!ht]
     \centering
@@ -2969,15 +2860,15 @@ Phase 3 - Internal Upgrades\\
     \end{tabular}
 \end{table}
 
-\section{ICO Funds Allocation}
+\section{\textbf{ICO Funds Allocation}}
 
 
 
-\section{Team}
+\section{\textbf{Team}}
 
-\section{References}
+\section{\textbf{References}}
 
-\section{Glossary}
+\section{\textbf{Glossary}}
 
 
 

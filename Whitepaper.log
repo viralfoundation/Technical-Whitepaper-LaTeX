@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.23)  25 APR 2022 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.23)  25 APR 2022 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1201,7 +1201,7 @@ LaTeX Font Info:    ... okay on input line 111.
 * \footskip=40.5821pt
 * \marginparwidth=20.0pt
 * \marginparsep=10.0pt
-* \columnsep=36.0pt
+* \columnsep=18.0pt
 * \skip\footins=14.22636pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -1261,11 +1261,21 @@ LaTeX Info: Redefining \nameref on input line 111.
  (./Whitepaper.toc [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (1.9397pt too wide) detected at line 57
+\OT1/ptm/b/n/10 XXVII 
+ []
+
+
+Overfull \hbox (5.82959pt too wide) detected at line 58
+\OT1/ptm/b/n/10 XXVIII 
+ []
+
+)
 \tf@toc=\write9
 \openout9 = `Whitepaper.toc'.
 
-<./assets/images/logo.png, id=336, 174.6525pt x 176.66pt>
+<./assets/images/logo.png, id=311, 174.6525pt x 176.66pt>
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 125.
@@ -1281,23 +1291,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--157
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-[]\OT1/ptm/m/n/10 To construct an Autonomous self-evolving
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-[]\OT1/ptm/m/n/10 To form a clean people-owned platform
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 []\OT1/ptm/m/n/10 To Develop a feeless, fast, Zero Inflation,
- []
-
-
-Underfull \hbox (badness 6592) in paragraph at lines 185--186
-\OT1/ptm/m/n/10 underlying applications into an every-day user-
  []
 
 
@@ -1306,8 +1301,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--186
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 187--188
-\OT1/ptm/m/n/10 cryptographic encryption, censorship-resistant and,
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+\OT1/ptm/m/n/10 make communication between one-on-one, private
  []
 
 
@@ -1315,19 +1310,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 242.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[3
-
-]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 246--247
+Underfull \hbox (badness 7685) in paragraph at lines 246--247
 \OT1/ptm/m/n/10 bridging Blockchain applications for limitless
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 248.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[3
+
+]
+Underfull \hbox (badness 1817) in paragraph at lines 252--253
+[]\OT1/ptm/b/n/10 Payment Channels (L2)\OT1/ptm/m/n/10 : State Channels to
  []
 
 
@@ -1336,58 +1335,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--256
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 255--256
+Underfull \hbox (badness 7308) in paragraph at lines 255--256
 \OT1/ptm/m/n/10 major cryotocurrencies by wrapping tokens
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 255--256
-\OT1/ptm/m/n/10 decentralized such as Bitcoin, Ethereum,etc
+Underfull \hbox (badness 1527) in paragraph at lines 256--257
+\OT1/ptm/m/n/10 anchored to IOTA Tangle that communicates
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 256--257
-\OT1/ptm/m/n/10 between multiple Viral Smart Chains for
+Underfull \hbox (badness 2894) in paragraph at lines 264--265
+[]\OT1/ptm/b/n/10 Viral CEX-Centralized Exchange\OT1/ptm/m/n/10 : Trustless
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-\OT1/ptm/m/n/10 Non-Custodial Exchange for Fiat-Crypto
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-[]\OT1/ptm/b/n/10 Viral DEX-Decentralized Exchange\OT1/ptm/m/n/10 :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\OT1/ptm/m/n/10 Automated Market Making Protocol for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
-[]\OT1/ptm/b/n/10 P2P Exchange\OT1/ptm/m/n/10 : Trustsless anonymous
- []
-
-
-Underfull \hbox (badness 3942) in paragraph at lines 275--276
-[]\OT1/ptm/b/n/10 Dev-Space\OT1/ptm/m/n/10 : Application for Developers to
- []
-
-
-Underfull \hbox (badness 5504) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 []\OT1/ptm/b/n/10 Ad Platform\OT1/ptm/m/n/10 : Decentralized Ad platform
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 []\OT1/ptm/b/n/10 Global Rewards\OT1/ptm/m/n/10 : To incentivize all users,
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 289--290
-\OT1/ptm/m/n/10 network that brings meta-experience with friends,
+Underfull \hbox (badness 2359) in paragraph at lines 289--290
+[]\OT1/ptm/m/n/10 Viral is a multi-media sharing decentralized social
  []
 
 
@@ -1395,32 +1369,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 295--296
-\OT1/ptm/m/n/10 MySpace was earth's most visited website which
- []
-
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 290.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 297--298
-\OT1/ptm/m/n/10 founders nor the employees of the bootstrapping
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 297--298
-\OT1/ptm/m/n/10 organization (Viral Foundation). Centralized Social
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 297--298
-\OT1/ptm/m/n/10 posts (through Dev-Space Platform, explained in
  []
 
 
@@ -1428,11 +1383,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 298.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
@@ -1443,7 +1394,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--313
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 314--315
+Underfull \hbox (badness 6188) in paragraph at lines 314--315
 []\OT1/ptm/m/n/10 Thoughts are \OT1/ptm/b/n/10 text-based sharing \OT1/ptm/m/n/
 10 for micro-
  []
@@ -1464,6 +1415,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--317
  []
 
 
+Underfull \hbox (badness 1694) in paragraph at lines 318--319
+\OT1/ptm/m/n/10 features AR filters, texts, shot elements, links,
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
@@ -1471,6 +1427,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
 Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 323--324
+[]\OT1/ptm/m/n/10 Interactive Videos (IV) is a short 30sec full-
  []
 
 
@@ -1484,29 +1445,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--327
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 329--331
-[]\OT1/ptm/m/n/10 Viral offers numerous NFT utilities within
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 331.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 334.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
-[]\OT1/ptm/b/n/10 Tickets \OT1/ptm/m/n/10 : \OT1/ptm/b/n/10 Exclusive passes \O
-T1/ptm/m/n/10 for events,
- []
-
-
-Underfull \hbox (badness 6236) in paragraph at lines 337--338
-\OT1/ptm/m/n/10 ownership of clubs, a digital ticket for
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
@@ -1645,89 +1590,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 428.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 429--433
 
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 433.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[6]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 35.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<./assets/images/tips.jpeg, id=428, 1444.39626pt x 833.1125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+ []
+
+<./assets/images/tips.jpeg, id=403, 1444.39626pt x 833.1125pt>
 File: ./assets/images/tips.jpeg Graphic file (type jpg)
 <use ./assets/images/tips.jpeg>
-Package pdftex.def Info: ./assets/images/tips.jpeg  used on input line 437.
+Package pdftex.def Info: ./assets/images/tips.jpeg  used on input line 438.
 (pdftex.def)             Requested size: 483.69687pt x 278.98318pt.
 
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 437--438
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--439
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
-
- []
-
-<./assets/images/privacygroups.jpeg, id=429, 912.40875pt x 140.525pt>
+<./assets/images/privacygroups.jpeg, id=404, 912.40875pt x 140.525pt>
 File: ./assets/images/privacygroups.jpeg Graphic file (type jpg)
 <use ./assets/images/privacygroups.jpeg>
 Package pdftex.def Info: ./assets/images/privacygroups.jpeg  used on input line
- 476.
-(pdftex.def)             Requested size: 483.69687pt x 74.49504pt.
+ 477.
+(pdftex.def)             Requested size: 227.62204pt x 35.0561pt.
 
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 476--477
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
-
+Underfull \hbox (badness 1783) in paragraph at lines 500--501
+\OT1/ptm/m/n/10 is being exploited by several centralized monopoly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
-
+Underfull \hbox (badness 3068) in paragraph at lines 500--501
+\OT1/ptm/m/n/10 applications that tracks user's data regarding their
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 511--512
-\OT1/ptm/m/n/10 AES-256 Encryption Standard on the device and
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
  []
 
 
@@ -1736,87 +1671,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 511--512
  []
 
 
+Underfull \hbox (badness 1859) in paragraph at lines 513--514
+\OT1/ptm/m/n/10 where all the files are encrypted using Symmetric
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 513--514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
-<./assets/images/aes.png, id=430, 3222.0375pt x 1375.1375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+ []
+
+<./assets/images/aes.png, id=405, 3222.0375pt x 1375.1375pt>
 File: ./assets/images/aes.png Graphic file (type png)
 <use ./assets/images/aes.png>
-Package pdftex.def Info: ./assets/images/aes.png  used on input line 523.
-(pdftex.def)             Requested size: 284.52756pt x 121.42793pt.
-
-Overfull \hbox (60.67912pt too wide) in paragraph at lines 523--524
- [] 
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 526.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[7 <./assets/images/tips.jpeg> <./assets/images/privacygroups.jpeg>]
-Underfull \hbox (badness 2884) in paragraph at lines 528--529
-\OT1/ptm/m/n/10 publicly accessible cipher approved by the U.S.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--529
-
- []
-
-
-Underfull \hbox (badness 4913) in paragraph at lines 530--531
-\OT1/ptm/m/n/10 computers go mainstream most encryption used
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 530--531
-\OT1/ptm/m/n/10 the most common attack (bruteforce) requiring a
- []
-
-
-Underfull \hbox (badness 3780) in paragraph at lines 530--531
-\OT1/ptm/m/n/10 encryptions that cannot be cracked by classical
- []
-
+Package pdftex.def Info: ./assets/images/aes.png  used on input line 525.
+(pdftex.def)             Requested size: 227.62204pt x 97.12976pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 530--531
 
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 534--535
-[]\OT1/ptm/b/n/10 Shor's Algorithm \OT1/ptm/m/n/10 : Originally discovered by
+Underfull \hbox (badness 2197) in paragraph at lines 532--533
+\OT1/ptm/m/n/10 cryptographic algorithm for securing user's data is
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 534--535
-\OT1/ptm/m/n/10 the time complexity of Integer Factorization
+Underfull \hbox (badness 2189) in paragraph at lines 532--533
+\OT1/ptm/m/n/10 computers go mainstream most encryption used in
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 534--535
-\OT1/ptm/m/n/10 and Discrete Logarithm from sub-exponential
+Underfull \hbox (badness 1789) in paragraph at lines 532--533
+\OT1/ptm/m/n/10 emails, secure messaging, banking services will be
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 534--535
-\OT1/ptm/m/n/10 (NASEM) predicted that a powerful quantum
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 534.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[7 <./assets/images/privacygroups.jpeg> <./assets/images/aes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
+
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 535--536
-\OT1/ptm/m/n/10 discovered by Lev Grover, could theoretically
+Underfull \hbox (badness 7081) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 asymmetric cryptography algorithms like RSA,
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 535--536
-\OT1/ptm/m/n/10 (AES). Grover's algorithm could brute-force a
+Underfull \hbox (badness 1888) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 pair for encrypting and decrypting cipher texts.
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 The algorithm reduces the time complexity of
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 can have long cryptoperiods. Since, asymmetric
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 prime factors swiftly, they are secure for now.
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 US National Academy of Sciences, Engineering
  []
 
 
@@ -1824,146 +1764,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 538--539
 
  []
 
-<./assets/images/encryption.jpg, id=442, 1385.175pt x 1752.5475pt>
-File: ./assets/images/encryption.jpg Graphic file (type jpg)
-<use ./assets/images/encryption.jpg>
-Package pdftex.def Info: ./assets/images/encryption.jpg  used on input line 543
-.
-(pdftex.def)             Requested size: 227.62204pt x 287.98123pt.
 
-Overfull \hbox (3.7736pt too wide) in paragraph at lines 543--544
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
+
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+\OT1/ptm/m/n/10 cryptographic algorithms, such as Advanced
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 542--543
+\OT1/ptm/m/n/10 Encryption Standard (AES). Grover's algorithm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 549--550
+[]\OT1/ptm/m/n/10 The steps for Encryption, Media Uploading, IPFS
+ []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 547.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 554.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [8 <./assets/images/aes.png>]
-Underfull \hbox (badness 3514) in paragraph at lines 555--556
-\OT1/ptm/m/n/10 by configuring a minimum and a maximum
+[8 <./assets/images/tips.jpeg>]
+Underfull \hbox (badness 1509) in paragraph at lines 556--557
+\OT1/ptm/m/n/10 the file will be repetitively stored across IPFS-
  []
 
+<./assets/images/encryption.jpg, id=426, 1385.175pt x 1752.5475pt>
+File: ./assets/images/encryption.jpg Graphic file (type jpg)
+<use ./assets/images/encryption.jpg>
+Package pdftex.def Info: ./assets/images/encryption.jpg  used on input line 563
+.
+(pdftex.def)             Requested size: 199.16928pt x 251.98691pt.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 560.
-
-Overfull \hbox (50.55415pt too wide) in paragraph at lines 563--564
-[][][][] 
- []
-
+nput line 568.
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 5
-66.
+74.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 578--579
 
  []
 
-<./assets/images/decryption-private.jpg, id=452, 1604.99625pt x 2562.57375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
+
+ []
+
+<./assets/images/decryption-private.jpg, id=427, 1604.99625pt x 2562.57375pt>
 File: ./assets/images/decryption-private.jpg Graphic file (type jpg)
 <use ./assets/images/decryption-private.jpg>
 Package pdftex.def Info: ./assets/images/decryption-private.jpg  used on input 
-line 582.
+line 590.
 (pdftex.def)             Requested size: 227.62204pt x 363.41098pt.
 
-Overfull \hbox (3.7736pt too wide) in paragraph at lines 582--583
- [] 
+Underfull \hbox (badness 1629) in paragraph at lines 597--598
+[]\OT1/ptm/m/n/10 A Private Account will be limiting it's content
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1354) in paragraph at lines 597--598
+\OT1/ptm/m/n/10 access to certain white-listed users that is been
+ []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 586.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 598.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [9 <./assets/images/encryption.jpg>]
-Underfull \hbox (badness 5203) in paragraph at lines 587--588
-\OT1/ptm/m/n/10 view requester, verification, fetching IPFS CID,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 596--597
+[9 <./assets/images/encryption.jpg> <./assets/images/decryption-private.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
-
-Underfull \hbox (badness 2680) in paragraph at lines 598--599
-[]\OT1/ptm/m/n/10 Viral ensures that all the content in the social
- []
-
-<./assets/images/decryption-public.jpg, id=469, 1210.5225pt x 2062.70625pt>
+<./assets/images/decryption-public.jpg, id=444, 1210.5225pt x 2062.70625pt>
 File: ./assets/images/decryption-public.jpg Graphic file (type jpg)
 <use ./assets/images/decryption-public.jpg>
 Package pdftex.def Info: ./assets/images/decryption-public.jpg  used on input l
-ine 602.
-(pdftex.def)             Requested size: 227.62204pt x 387.85808pt.
+ine 608.
+(pdftex.def)             Requested size: 199.16928pt x 339.35614pt.
 
-Overfull \hbox (3.7736pt too wide) in paragraph at lines 602--603
- [] 
+Underfull \hbox (badness 4001) in paragraph at lines 613--614
+\OT1/ptm/m/n/10 is securely encrypted compared to current poorly
  []
 
 
-Underfull \hbox (badness 6001) in paragraph at lines 607--608
-\OT1/ptm/m/n/10 public addresses called "Watchers-list". Viewer's
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 607--608
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 608.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[10 <./assets/images/decryption-private.jpg> <./assets/images/decryption-public
-.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--613
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
 
  []
 
-<./assets/images/chat.jpg, id=476, 4004.9625pt x 1890.06125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+
+ []
+
+<./assets/images/chat.jpg, id=445, 4004.9625pt x 1890.06125pt>
 File: ./assets/images/chat.jpg Graphic file (type jpg)
 <use ./assets/images/chat.jpg>
-Package pdftex.def Info: ./assets/images/chat.jpg  used on input line 616.
-(pdftex.def)             Requested size: 256.0748pt x 120.8395pt.
+Package pdftex.def Info: ./assets/images/chat.jpg  used on input line 622.
+(pdftex.def)             Requested size: 199.16928pt x 93.98947pt.
 
-Overfull \hbox (32.22636pt too wide) in paragraph at lines 616--617
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 635--636
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 639--640
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
 
  []
 
@@ -1978,6 +1902,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 643--644
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 646.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[10 <./assets/images/decryption-public.jpg> <./assets/images/chat.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
@@ -1987,201 +1920,144 @@ Underfull \hbox (badness 10000) in paragraph at lines 649--650
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 652.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[11 <./assets/images/chat.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 658--659
+
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 662--663
-\OT1/ptm/m/n/10 data structure based on Directed Acyclic Graph.
+Underfull \hbox (badness 10000) in paragraph at lines 655--656
+
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 662--663
-\OT1/ptm/m/n/10 together. To do transactions in the network a
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
+
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 662--663
-\OT1/ptm/m/n/10 participant should need to carry out a small
+Underfull \hbox (badness 1365) in paragraph at lines 665--666
+\OT1/ptm/m/n/10 of individual transactions entangled together. To do
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 662--663
-\OT1/ptm/m/n/10 This makes tangle a linearly scalable ledger by
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 662--663
+Underfull \hbox (badness 5726) in paragraph at lines 665--666
 \OT1/ptm/m/n/10 where miner incentives/rewards are eliminated by
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 666--667
-\OT1/ptm/m/n/10 achieved consensus with small set of committee
- []
-
-
-Underfull \hbox (badness 1953) in paragraph at lines 666--667
-\OT1/ptm/m/n/10 such as Account Balances, Input Conditions and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
+Underfull \hbox (badness 10000) in paragraph at lines 669--670
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--669
+Underfull \hbox (badness 10000) in paragraph at lines 671--672
 
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 670--671
-[]\OT1/ptm/m/n/10 IOTA's Smart Contract Chain uses a Byzantine
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 670--671
-\OT1/ptm/m/n/10 Fault Tolerant $\OML/cmm/m/it/10 BFT$ \OT1/ptm/m/n/10 Algorithm
-, which guarantees
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 670--671
-\OT1/ptm/m/n/10 consistency and byzantine fault tolerance if less
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
 
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 680--681
+Underfull \hbox (badness 2671) in paragraph at lines 675--676
+[]\OT1/ptm/m/n/10 Only when a supermajority of the validators (the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
+
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 683--684
 []\OT1/ptm/m/n/10 To know more about IOTA's Smart Contracts :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--681
+Underfull \hbox (badness 10000) in paragraph at lines 683--684
 
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 684--685
-[]\OT1/ptm/m/n/10 While Tangle with Multi-chain functionality is
+Underfull \hbox (badness 2253) in paragraph at lines 687--688
+[]\OT1/ptm/m/n/10 While Tangle with Multi-chain functionality is the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
-\OT1/ptm/m/n/10 the future of decentralized applications and
+Underfull \hbox (badness 2809) in paragraph at lines 687--688
+\OT1/ptm/m/n/10 of developers facing a multitude of disagreements
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 684--685
-\OT1/ptm/m/n/10 scalable contract executions, there is still room
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 684--685
-\OT1/ptm/m/n/10 for improvements because of developers facing a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 690.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 688.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[12]
-Underfull \hbox (badness 1975) in paragraph at lines 692--693
-\OT1/ptm/m/n/10 by bringing required changes to the forked(new)
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 689--690
+
  []
 
-
-Underfull \hbox (badness 1527) in paragraph at lines 692--693
-\OT1/ptm/m/n/10 bring necessary changes to the protocol and run
- []
-
-<./assets/images/Architecture.jpg, id=496, 2825.55624pt x 2444.13126pt>
+<./assets/images/Architecture.jpg, id=465, 2825.55624pt x 2444.13126pt>
 File: ./assets/images/Architecture.jpg Graphic file (type jpg)
 <use ./assets/images/Architecture.jpg>
 Package pdftex.def Info: ./assets/images/Architecture.jpg  used on input line 7
-07.
+10.
 (pdftex.def)             Requested size: 483.69687pt x 418.36848pt.
 
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 707--708
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 714--715
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 715--716
-\OT1/ptm/m/n/10 separate chains to provide zero network fees for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 718--719
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 716.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[13 <./assets/images/Architecture.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
 
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 732--733
-[]\OT1/ptm/b/n/10 Viral NFT Chain \OT1/ptm/m/n/10 : Feeless Viral ran Smart
+Underfull \hbox (badness 1540) in paragraph at lines 725--726
+\OT1/ptm/m/n/10 These chains are used to store user funds and
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 734--735
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--729
+
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 730--731
+[]\OT1/ptm/m/n/10 Smart Contract Deployment Chains specifically for
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 739--740
 \OT1/ptm/m/n/10 Tokens for other platforms outside the Viral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-\OT1/ptm/m/n/10 asset tokenization, yield farming, tools and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 743--744
-
  []
 
 
@@ -2190,42 +2066,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 748--749
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 750--751
-\OT1/ptm/m/n/10 for validating transactions. Chance of validating
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 750--751
-\OT1/ptm/m/n/10 transactions depends on the amount of coins a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 750--751
+Underfull \hbox (badness 10000) in paragraph at lines 751--752
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 752--753
+Underfull \hbox (badness 2799) in paragraph at lines 753--754
+\OT1/ptm/m/n/10 validators (Read IOTA Protocol), the state of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--754
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 754.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 755--756
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 754--755
+Underfull \hbox (badness 10000) in paragraph at lines 757--758
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
+Underfull \hbox (badness 10000) in paragraph at lines 759--760
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--759
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
 
  []
 
@@ -2235,266 +2110,269 @@ Underfull \hbox (badness 10000) in paragraph at lines 763--764
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 769--770
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
 
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 771--772
-\OT1/ptm/m/n/10 the governance core-contracts. Such fee model is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 771--772
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--774
+Underfull \hbox (badness 1622) in paragraph at lines 774--775
+\OT1/ptm/m/n/10 blockchains. Transaction fees are only leaved as a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 774--775
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 777--778
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 779--780
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 786.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 778.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[13 <./assets/images/Architecture.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 831--856
+\OT1/ptm/m/n/10 Different Types of Tokens in Viral, its advantages,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 831--856
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 857--861
+
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 865.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--870
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 870.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 828--853
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 854--858
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 866--867
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 868--869
-
- []
-
-
-Underfull \hbox (badness 2837) in paragraph at lines 870--871
+Underfull \hbox (badness 6641) in paragraph at lines 873--874
 []\OT1/ptm/m/n/10 Terra blockchain is the most successful running
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--871
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 871.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 872--873
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 874--875
-[]\OT1/ptm/b/n/10 1 VSC - \TS1/ptm/b/n/10 $\OT1/ptm/b/n/10 1 (Expansion) \OT1/p
-tm/m/n/10 : When Viral Stable
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 874--875
+Underfull \hbox (badness 10000) in paragraph at lines 875--876
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--877
+Underfull \hbox (badness 10000) in paragraph at lines 877--878
 
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 878--879
-\OT1/ptm/m/n/10 bots will burn VSC and mints VRL, which has
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 878--879
+Underfull \hbox (badness 10000) in paragraph at lines 879--880
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 880--881
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--883
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--885
+Underfull \hbox (badness 2359) in paragraph at lines 885--886
+\OT1/ptm/m/n/10 Coin. Users can stake their Coins, run automated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 885--886
 
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 888--889
- \OT1/ptm/m/it/10 3) Decentralized Block-chain Bridges: [][][] \OT1/ptm/m/n/10 
-With over
+Underfull \hbox (badness 10000) in paragraph at lines 887--888
+
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 888--889
-\OT1/ptm/m/n/10 for communicating between blockchains for asset
+Underfull \hbox (badness 2005) in paragraph at lines 891--892
+\OT1/ptm/m/n/10 needed for communicating between blockchains for
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 888--889
+Underfull \hbox (badness 1688) in paragraph at lines 891--892
+\OT1/ptm/m/n/10 blockchains and sidechains such as Solana,Polygon,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 891--892
 \OT1/ptm/m/n/10 Binance, Avalanche. While Ethereum blockchain
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 888--889
-\OT1/ptm/m/n/10 features a basket of de-fi tokens which involves
+Underfull \hbox (badness 10000) in paragraph at lines 891--892
+\OT1/ptm/m/n/10 backed/Crypto-backed/Algorithmic Stable-Coins and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
-\OT1/ptm/m/n/10 Fiat-backed/Crypto-backed/Algorithmic Stable-Coins
+Underfull \hbox (badness 1735) in paragraph at lines 891--892
+\OT1/ptm/m/n/10 urgent-need to introduce existing assets on popular
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 888--889
-\OT1/ptm/m/n/10 public blockchains suffer by not offering a vast
- []
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 888--889
-\OT1/ptm/m/n/10 blockchain impedes the free-circulation of assets
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 892--893
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 894--895
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 896--897
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 898--899
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 902--903
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 904--905
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 906--907
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
+Underfull \hbox (badness 10000) in paragraph at lines 891--892
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 917.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 895.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 941--942
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 895--896
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 956--957
+Underfull \hbox (badness 10000) in paragraph at lines 897--898
 
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 958--959
-\OT1/ptm/m/n/10 multiple wallets and get access to fiat-exchange,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 958--959
+Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 960--961
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 964.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[17]
-Underfull \hbox (badness 6608) in paragraph at lines 968--969
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--906
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--908
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 909--910
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--912
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--914
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 915--916
+
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 944--945
+\OT1/ptm/m/n/10 Hot wallets are non-custodial wallets that's always
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 944--945
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
+
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 961--962
+\OT1/ptm/m/n/10 based hot wallet application that is used to store,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
 []\OT1/ptm/m/n/10 Decentralized exchanges (DEX) are a type of
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 968--969
+Underfull \hbox (badness 5374) in paragraph at lines 968--969
 \OT1/ptm/m/n/10 exchanges are simply a set of automated smart
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 968--969
+\OT1/ptm/m/n/10 \liquidity pools" | in which investors lock funds
  []
 
 
@@ -2507,9 +2385,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 970--971
 
  []
 
-
-Underfull \hbox (badness 1436) in paragraph at lines 972--973
-\OT1/ptm/m/n/10 decentralized exchange (DEX) protocol that relies
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 972.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[16]
+Underfull \hbox (badness 1571) in paragraph at lines 972--973
+[]\OT1/ptm/m/n/10 An automated market maker (AMM) is a type of
  []
 
 
@@ -2518,28 +2400,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 972--973
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 977--978
-[]\OT1/ptm/b/n/10 Secure \OT1/ptm/m/n/10 : DEXs are secure as the funds are
+Underfull \hbox (badness 1533) in paragraph at lines 978--979
+[]\OT1/ptm/b/n/10 Non Custodial\OT1/ptm/m/n/10 : Liquidity Providers can provid
+e
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 984--985
-[]\OT1/ptm/b/n/10 Scalability\OT1/ptm/m/n/10 : Various DEXs are suffered from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 988--989
-\OT1/ptm/m/n/10 the temporary loss of funds occasionally
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 988--989
-\OT1/ptm/m/n/10 experienced by liquidity providers because of
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 988--989
-\OT1/ptm/m/n/10 outside the pool. Volatility and Price Impacts
+Underfull \hbox (badness 2990) in paragraph at lines 988--989
+\OT1/ptm/m/n/10 trading pair. Liquidity Providers suffer negative
  []
 
 
@@ -2558,27 +2426,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 997--998
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 999--1000
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1002.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
 
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 1028--1029
-[]\OT1/ptm/m/n/10 To take 9,000 Y Tokens from XY Pool having
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
+
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 1028--1029
+\OT1/ptm/m/n/10 to splitting trades manually. To conclude there are
  []
 
 
@@ -2586,108 +2450,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
 
  []
 
-
-Underfull \hbox (badness 3954) in paragraph at lines 1031--1032
-\OT1/ptm/m/n/10 markets. Aggregators also command substantially
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 1031--1032
-\OT1/ptm/m/n/10 trades manually. To conclude there are different
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1032
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1029.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+Underfull \hbox (badness 4193) in paragraph at lines 1032--1033
+[]\OT1/ptm/m/n/10 Order book centralized exchanges offers advanced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
-\OT1/ptm/m/n/10 Market Maker (AMM) based Liquidity Pools.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1043--1044
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 1045--1046
-[]\OT1/ptm/m/n/10 Decentralized exchanges suffer greater scalability
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1045--1046
-\OT1/ptm/m/n/10 issues during frequent network congestions of
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 1045--1046
-\OT1/ptm/m/n/10 blockchains. The scalability of DEXs is directly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1045--1046
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1047--1048
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+[]\OT1/ptm/m/n/10 Current AMMs gives the opportunity for non-
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 1046--1047
+\OT1/ptm/m/n/10 simultaneous series of buys and sells where two
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1048.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1081.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[19]
-Underfull \hbox (badness 5302) in paragraph at lines 1049--1050
-[]\OT1/ptm/m/n/10 Current AMMs gives the opportunity for non-
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 1049--1050
-\OT1/ptm/m/n/10 simultaneous series of buys and sells where two
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1049--1050
-\OT1/ptm/m/n/10 trade should be taking B tokens for A, thereby
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
-
- []
-
-
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 1075--1076
- [] 
+[18]
+Underfull \hbox (badness 3965) in paragraph at lines 1081--1082
+\OT1/ptm/m/n/10 problems we should be allowing traders to only
  []
 
 
@@ -2695,82 +2533,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
 
  []
 
-
-Underfull \hbox (badness 1668) in paragraph at lines 1084--1085
-\OT1/ptm/m/n/10 problems we should be allowing traders to only
- []
-
-
-Underfull \hbox (badness 1960) in paragraph at lines 1084--1085
-\OT1/ptm/m/n/10 withdraw if they match with their corresponding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
-
- []
-
-<./assets/images/dex.png, id=585, 558.085pt x 556.0775pt>
+<./assets/images/dex.png, id=552, 558.085pt x 556.0775pt>
 File: ./assets/images/dex.png Graphic file (type png)
 <use ./assets/images/dex.png>
-Package pdftex.def Info: ./assets/images/dex.png  used on input line 1088.
+Package pdftex.def Info: ./assets/images/dex.png  used on input line 1085.
 (pdftex.def)             Requested size: 199.16928pt x 198.4483pt.
 
-Underfull \vbox (badness 2503) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1117--1118
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
 
  []
 
 
-Overfull \hbox (163.11053pt too wide) in paragraph at lines 1146--1147
+Underfull \hbox (badness 1796) in paragraph at lines 1120--1121
+\OT1/ptm/m/n/10 pool to swap between tokens. This order book is
+ []
+
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 1143--1144
  [] 
  []
 
 
-Overfull \hbox (163.11053pt too wide) in paragraph at lines 1163--1164
+Overfull \hbox (9.0pt too wide) in paragraph at lines 1160--1161
  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1167.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1177.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[20 <./assets/images/dex.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
+[19 <./assets/images/dex.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
+Underfull \hbox (badness 10000) in paragraph at lines 1200--1201
 
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 1172--1173
-\OT1/ptm/m/n/10 product formula $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^B \OML/c
-mm/m/it/10 y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 k$ \OT1/ptm/m/n/10 where to swa
-p $\OML/cmm/m/it/10 x$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1179--1180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1187--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1203
 
  []
 
@@ -2785,34 +2613,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1208--1209
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1216--1218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
-[]\OT1/ptm/m/n/10 Find M.P by subtracting 5% of C.P
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1221
 []\OT1/ptm/m/n/10 Now, Find Difference between C.P and M.P
  []
 
 
-Overfull \hbox (47.3925pt too wide) detected at line 1239
-[]\OML/cmm/m/it/10 Final Price \OT1/cmr/m/n/10 = [] = 46\OML/cmm/m/it/10 :\OT1/
-cmr/m/n/10 483203125
+Overfull \hbox (30.96306pt too wide) detected at line 1232
+[] \OT1/cmr/m/n/10 = [] = 46\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 483203125
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
+
  []
 
 
@@ -2825,89 +2642,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 1241--1242
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
+
+ []
+
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1242.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1252.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1245
+[20]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1252.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [21
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1253--1254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1246--1247
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1256--1257
+Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
 
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 1258--1259
-[]\OT1/ptm/m/n/10 In Equation (12) & (13) the final index of the
- []
-
-
-Underfull \hbox (badness 2689) in paragraph at lines 1258--1259
-\OT1/ptm/m/n/10 Summation term $\OML/cmm/m/it/10 BA[]; SA[]; BB[]; SB[]$ \OT1/p
-tm/m/n/10 represents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1258--1259
+Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1260--1261
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1321
 
  []
 
 
-Overfull \hbox (163.11053pt too wide) in paragraph at lines 1289--1290
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (167.43439pt too wide) detected at line 1296
-[]\OML/cmm/m/it/10 Final Price \OT1/cmr/m/n/10 = [] = [] = 48\OML/cmm/m/it/10 :
-\OT1/cmr/m/n/10 9091845664
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1296--1297
+Underfull \hbox (badness 10000) in paragraph at lines 1322--1323
 
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1324.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[22
 
-Underfull \hbox (badness 10000) in paragraph at lines 1298--1299
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
 
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 1300--1301
-[]\OT1/ptm/m/n/10 Swap book order that satisfies equation (13) to
- []
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1329
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1300--1301
-
- []
-
-
-Overfull \hbox (163.11053pt too wide) in paragraph at lines 1324--1325
- [] 
- []
-
-
-Overfull \hbox (176.26083pt too wide) detected at line 1330
-[]\OML/cmm/m/it/10 Final Price \OT1/cmr/m/n/10 = [] = [] = 0\OML/cmm/m/it/10 :\
-OT1/cmr/m/n/10 017574764
  []
 
 
@@ -2916,299 +2710,268 @@ Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 1332--1333
-\OT1/cmr/m/n/10 6594\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 678546$ \OT1/ptm/m/n/10 e
-xecutes the order and changes the
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 1332--1333
-\OT1/ptm/m/n/10 current price of 0.02043749 to a final price of
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
-
+Underfull \hbox (badness 2735) in paragraph at lines 1383--1384
+[]\OT1/ptm/m/n/10 Each Micro-Pool determines each DEX blockchain
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1336.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 1336--1337
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
+Overfull \hbox (4.90503pt too wide) in paragraph at lines 1420--1420
+ []|\OT1/ptm/m/n/10 0.78125%| 
+ []
+
+
+Overfull \hbox (4.90503pt too wide) in paragraph at lines 1420--1420
+ []|\OT1/ptm/m/n/10 0.78125%| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
 
  []
 
 
-Overfull \hbox (1.45677pt too wide) in paragraph at lines 1386--1387
- [] 
+Underfull \hbox (badness 1859) in paragraph at lines 1427--1428
+[]\OT1/ptm/m/n/10 As discussed in the earlier paragraphs the rebases
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 1391--1392
-\OT1/ptm/m/n/10 can get increased volume in smaller transactions.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1391--1392
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
 
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 1394--1395
-[]\OT1/ptm/m/n/10 The pools are represented in tables with rows
+Underfull \hbox (badness 2181) in paragraph at lines 1429--1430
+\OT1/ptm/m/n/10 pool $\OT1/cmr/m/n/10 50% + 50%$ \OT1/ptm/m/n/10 the time perio
+d will start with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1394--1395
-
- []
-
-
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 1428--1429
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1434
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1430
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1435--1436
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1440.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[23]
-<./assets/images/timeperiod-pools.jpg, id=632, 4173.5925pt x 1728.4575pt>
+<./assets/images/timeperiod-pools.jpg, id=584, 4173.5925pt x 1728.4575pt>
 File: ./assets/images/timeperiod-pools.jpg Graphic file (type jpg)
 <use ./assets/images/timeperiod-pools.jpg>
 Package pdftex.def Info: ./assets/images/timeperiod-pools.jpg  used on input li
-ne 1445.
-(pdftex.def)             Requested size: 483.69687pt x 200.31131pt.
-
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 1445--1446
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1469--1470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1471--1472
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1473--1474
-
- []
-
-<./assets/images/dex-algorithm.jpg, id=633, 2356.805pt x 3324.42pt>
-File: ./assets/images/dex-algorithm.jpg Graphic file (type jpg)
-<use ./assets/images/dex-algorithm.jpg>
-Package pdftex.def Info: ./assets/images/dex-algorithm.jpg  used on input line 
-1477.
-(pdftex.def)             Requested size: 398.33858pt x 561.84671pt.
-
-Overfull \hbox (174.49014pt too wide) in paragraph at lines 1477--1478
- [] 
- []
-
+ne 1437.
+(pdftex.def)             Requested size: 227.62204pt x 94.26105pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1481.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1441.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [24 <./assets/images/timeperiod-pools.jpg>]
-Underfull \hbox (badness 2644) in paragraph at lines 1488--1489
-[]\OT1/ptm/m/n/10 The instant swap possibility is calculated by
+ [23
+
+]
+Underfull \hbox (badness 2809) in paragraph at lines 1442--1443
+[]\OT1/ptm/m/n/10 For every new pool creation, the time period of
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 1491--1492
+Underfull \hbox (badness 10000) in paragraph at lines 1461--1462
+
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 1463--1464
+[]\OT1/ptm/m/n/10 Traders typically use DEX agregator softwares and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1463--1464
+
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 1465--1466
+\OT1/ptm/m/n/10 instant swap support. Automated algorithm will be
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 1465--1466
+\OT1/ptm/m/n/10 much faster than manual selection since it implies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1465--1466
+
+ []
+
+<./assets/images/dex-algorithm.jpg, id=590, 2356.805pt x 3324.42pt>
+File: ./assets/images/dex-algorithm.jpg Graphic file (type jpg)
+<use ./assets/images/dex-algorithm.jpg>
+Package pdftex.def Info: ./assets/images/dex-algorithm.jpg  used on input line 
+1469.
+(pdftex.def)             Requested size: 312.9803pt x 441.47273pt.
+
+Underfull \hbox (badness 6204) in paragraph at lines 1483--1484
 []\OT1/ptm/m/n/10 Smaller Pools may have higher instant swap
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1495--1497
-
- []
-
-
-Underfull \hbox (badness 5417) in paragraph at lines 1502--1504
-\OT1/ptm/m/n/10 The Instant Swap Possibility is determined by
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 1502--1504
-\OT1/ptm/m/n/10 calculating the total pending swap orders in the
- []
-
-
-Underfull \hbox (badness 3118) in paragraph at lines 1502--1504
-\OT1/ptm/m/n/10 the newly created swap order by matching the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1502--1504
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1505--1506
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1507--1508
-
+Underfull \hbox (badness 1728) in paragraph at lines 1483--1484
+\OT1/ptm/m/n/10 possibility, but the prices reflected are realtime.
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1508.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1484.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[25 <./assets/images/dex-algorithm.jpg>]
-Underfull \hbox (badness 1831) in paragraph at lines 1509--1510
-\OT1/ptm/m/n/10 a certain percentage of liquidity but to a smart
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1509--1510
+[24 <./assets/images/timeperiod-pools.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1485--1487
 
  []
 
-<./assets/images/reserve-pool-1.jpg, id=649, 3049.3925pt x 1215.54124pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1493--1494
+
+ []
+
+
+Underfull \vbox (badness 6268) has occurred while \output is active []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1494.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [25 <./assets/images/dex-algorithm.jpg>]
+Underfull \hbox (badness 2512) in paragraph at lines 1495--1496
+[]\OT1/ptm/m/n/10 Reserve Pools are smart contract accounts that is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1495--1496
+
+ []
+
+<./assets/images/reserve-pool-1.jpg, id=604, 3049.3925pt x 1215.54124pt>
 File: ./assets/images/reserve-pool-1.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-1.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-1.jpg  used on input line
- 1513.
-(pdftex.def)             Requested size: 369.88582pt x 147.4352pt.
+ 1499.
+(pdftex.def)             Requested size: 256.0748pt x 102.06767pt.
 
-Overfull \hbox (146.03738pt too wide) in paragraph at lines 1513--1514
+Overfull \hbox (23.22636pt too wide) in paragraph at lines 1499--1500
  [] 
  []
 
 
-Overfull \hbox (102.7163pt too wide) detected at line 1522
-[]\OML/cmm/m/it/10 LimitEquationForNumberOfDexChains \OT1/cmr/m/n/10 = \OML/cmm
-/m/it/10 PoolShardsConfigurations
+Underfull \hbox (badness 10000) in paragraph at lines 1504--1505
+
  []
 
-
-Underfull \hbox (badness 1931) in paragraph at lines 1527--1528
-[]\OT1/ptm/b/n/10 Reduced Trading Volume \OT1/ptm/m/n/10 : Reduced trading
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 1527--1528
-\OT1/ptm/m/n/10 volume gives pressure on delayed rebases on
- []
-
-<./assets/images/reserve-pool-2.jpg, id=650, 3098.57625pt x 1222.5675pt>
+<./assets/images/reserve-pool-2.jpg, id=605, 3098.57625pt x 1222.5675pt>
 File: ./assets/images/reserve-pool-2.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-2.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-2.jpg  used on input line
- 1532.
-(pdftex.def)             Requested size: 369.88582pt x 145.93692pt.
+ 1514.
+(pdftex.def)             Requested size: 256.0748pt x 101.03468pt.
 
-Overfull \hbox (146.03738pt too wide) in paragraph at lines 1532--1533
+Overfull \hbox (23.22636pt too wide) in paragraph at lines 1514--1515
  [] 
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 1537--1538
-\OT1/ptm/m/n/10 Prices- TAMP) an equal percentage from all the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1537--1538
+Underfull \hbox (badness 10000) in paragraph at lines 1519--1520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1540--1541
+Underfull \hbox (badness 10000) in paragraph at lines 1522--1523
 
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 1542--1543
-\OT1/ptm/m/n/10 rebasing the pool's liquidity to fetched real-time
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1542--1543
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1543.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[26 <./assets/images/reserve-pool-1.jpg> <./assets/images/reserve-pool-2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1546
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1525
 
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 1547--1548
-[]\OT1/ptm/m/n/10 Viral DEX subtracts a swap fee on every swap
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1548
+Underfull \hbox (badness 10000) in paragraph at lines 1527--1528
 
  []
 
-<./assets/images/dex-fee.jpg, id=660, 1294.8375pt x 674.52pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1529--1530
+
+ []
+
+<./assets/images/dex-fee.jpg, id=606, 1294.8375pt x 674.52pt>
 File: ./assets/images/dex-fee.jpg Graphic file (type jpg)
 <use ./assets/images/dex-fee.jpg>
-Package pdftex.def Info: ./assets/images/dex-fee.jpg  used on input line 1551.
-(pdftex.def)             Requested size: 256.0748pt x 133.39893pt.
+Package pdftex.def Info: ./assets/images/dex-fee.jpg  used on input line 1533.
+(pdftex.def)             Requested size: 199.16928pt x 103.74672pt.
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1537.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[26 <./assets/images/reserve-pool-1.jpg> <./assets/images/reserve-pool-2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1539--1546
 
-Overfull \hbox (32.22636pt too wide) in paragraph at lines 1551--1552
- [] 
  []
 
 
-Overfull \hbox (7.696pt too wide) detected at line 1564
-[]\OML/cmm/m/it/10 Transfer Fee \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 After Swap F
-ee Rate \OMS/cmsy/m/n/10 ^^B \OML/cmm/m/it/10 Transfer Fee
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1552
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1554--1555
+
+ []
+
+<./assets/images/reserve-pool-4.jpg, id=615, 1457.445pt x 1078.0275pt>
+File: ./assets/images/reserve-pool-4.jpg Graphic file (type jpg)
+<use ./assets/images/reserve-pool-4.jpg>
+Package pdftex.def Info: ./assets/images/reserve-pool-4.jpg  used on input line
+ 1558.
+(pdftex.def)             Requested size: 369.88582pt x 273.58565pt.
+
+Underfull \hbox (badness 5022) in paragraph at lines 1564--1565
+[]\OT1/ptm/m/n/10 Liquidity providers are investors who stake their
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 1564--1565
+\OT1/ptm/m/n/10 transaction fees are distributed proportionally to all
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 1564--1565
+\OT1/ptm/m/n/10 architecture the liquidity is divided among several
  []
 
 
@@ -3217,343 +2980,410 @@ Underfull \hbox (badness 10000) in paragraph at lines 1564--1565
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1572
+Underfull \hbox (badness 10000) in paragraph at lines 1567--1568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1573--1578
+Underfull \hbox (badness 10000) in paragraph at lines 1569--1570
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1580--1581
-
- []
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 1582--1583
-[]\OT1/ptm/m/n/10 Liquidity providers are investors who stake their
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 1582--1583
-\OT1/ptm/m/n/10 making. Viral Liquidity providers earn transaction
- []
-
-
-Underfull \hbox (badness 2359) in paragraph at lines 1582--1583
-\OT1/ptm/m/n/10 fees for their staked tokens in the Viral Smart
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1583
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1585--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
-
- []
-
-
-Underfull \hbox (badness 3623) in paragraph at lines 1613--1614
-\OT1/ptm/m/n/10 determined by off-chain oracle's zero-knowledge-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
-
- []
-
-<./assets/images/reserve-pool-4.jpg, id=661, 1457.445pt x 1078.0275pt>
-File: ./assets/images/reserve-pool-4.jpg Graphic file (type jpg)
-<use ./assets/images/reserve-pool-4.jpg>
-Package pdftex.def Info: ./assets/images/reserve-pool-4.jpg  used on input line
- 1625.
-(pdftex.def)             Requested size: 369.88582pt x 273.58565pt.
-
-Overfull \hbox (146.03738pt too wide) in paragraph at lines 1625--1626
- [] 
- []
-
-
-Underfull \vbox (badness 6691) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1629.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [27 <./assets/images/dex-fee.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1645.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [28 <./assets/images/reserve-pool-4.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1649--1650
-[]\OT1/ptm/m/n/10 Centralized exchanges (CEXs) are a type of
- []
-
-
-Underfull \hbox (badness 5533) in paragraph at lines 1649--1650
-\OT1/ptm/m/n/10 cryptocurrency exchange that is operated by a
- []
-
-
-Underfull \hbox (badness 3209) in paragraph at lines 1649--1650
-\OT1/ptm/m/n/10 company that owns it in a centralized manner.
- []
-
-
-Underfull \hbox (badness 7344) in paragraph at lines 1649--1650
-\OT1/ptm/m/n/10 Centralized exchanges most commonly facilitate
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 1649--1650
-\OT1/ptm/m/n/10 private key's ownership rests with the exchange,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1649--1650
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1651--1652
-
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 1657--1658
-\OT1/ptm/m/n/10 for bad actors. The most notorious exchange
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 1657--1658
-\OT1/ptm/m/n/10 Coincheck, Mt. Gox, BitGrail, NiceHash, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1662--1663
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1664--1665
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1666--1667
-
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 1668--1669
-[]\OT1/ptm/m/n/10 Decentralization refers to freedom and ownership.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1668--1669
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1670--1671
-
- []
-
-
-Underfull \hbox (badness 4266) in paragraph at lines 1672--1673
-[]\OT1/ptm/m/n/10 Viral Buy/Sell Exchange works differently from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1672--1673
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1674--1675
-
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 1676--1677
-[]\OT1/ptm/m/n/10 In simple words while today's crypto exchanges
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1676--1677
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1677.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 1685--1686
-
- []
-
-<./assets/images/user-deposit.png, id=697, 830.10126pt x 485.815pt>
-File: ./assets/images/user-deposit.png Graphic file (type png)
-<use ./assets/images/user-deposit.png>
-Package pdftex.def Info: ./assets/images/user-deposit.png  used on input line 1
-689.
-(pdftex.def)             Requested size: 284.52756pt x 166.51665pt.
-
-Overfull \hbox (60.67912pt too wide) in paragraph at lines 1689--1689
- [] 
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 1727--1728
-[]\OT1/ptm/m/n/10 While Viral application doesn't require any user
- []
-
-
-Overfull \hbox (128.01787pt too wide) in paragraph at lines 1740--1741
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1744--1745
-
- []
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 1746--1747
-\OT1/ptm/m/n/10 centralized exchanges. Viral takes fees based on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1746--1747
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1754--1755
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1756--1757
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1765--1766
-
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 1767--1768
-\OT1/ptm/m/n/10 purposes inside the viral application. The tokens
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1767--1768
-
- []
-
-LaTeX Info: Symbol \textwon not provided by
-            font family ptm in TS1 encoding.
-            Default family used instead on input line 1781.
-
-Overfull \hbox (169.98457pt too wide) in paragraph at lines 1771--1786
- [] 
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1789.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[30 <./assets/images/user-deposit.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1791--1792
-
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 1793--1794
-\OT1/ptm/m/n/10 deposit of funds to allocated fiat-holding reserve
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 1793--1794
-\OT1/ptm/m/n/10 fiat holding accounts. Viral allows partnership of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1793--1794
-
- []
-
-
-Overfull \hbox (6.11176pt too wide) detected at line 1811
-[]\OML/cmm/m/it/10 Total Token Distribution \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 
-Total Mint \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Deposit Fee
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1811--1812
-
- []
-
-
-Underfull \hbox (badness 1596) in paragraph at lines 1813--1814
-\OT1/ptm/m/n/10 pool. The custodians are paid upto 0.07% every
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1813--1814
-
- []
-
-<./assets/images/custodian.png, id=711, 560.0925pt x 246.1998pt>
-File: ./assets/images/custodian.png Graphic file (type png)
-<use ./assets/images/custodian.png>
-Package pdftex.def Info: ./assets/images/custodian.png  used on input line 1817
-.
-(pdftex.def)             Requested size: 483.69687pt x 212.6293pt.
-
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 1817--1818
- [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1822--1829
+Underfull \hbox (badness 1708) in paragraph at lines 1595--1596
+\OT1/ptm/m/n/10 models deploy the same concept of withdrawal of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1595--1596
+\OT1/ptm/m/n/10 by off-chain oracle's zero-knowledge-snapshots of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1595--1596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1822--1829
+Underfull \hbox (badness 1831) in paragraph at lines 1609--1610
+[]\OT1/ptm/b/n/10 Free from Price Impacts \OT1/ptm/m/n/10 : Price impacts are
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 1609--1610
+\OT1/ptm/m/n/10 buyer and seller orders should be matched and
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 1613--1614
+[]\OT1/ptm/b/n/10 Multi-Layer Security \OT1/ptm/m/n/10 : The Viral Multi-Chain
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1614.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[27 <./assets/images/dex-fee.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1623--1624
+[]\OT1/ptm/m/n/10 Centralized exchanges (CEXs) are a type of
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 1623--1624
+\OT1/ptm/m/n/10 that owns it in a centralized manner. Centralized
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 1623--1624
+\OT1/ptm/m/n/10 exchanges most commonly facilitate trades between
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1623--1624
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1830--1831
+Underfull \hbox (badness 10000) in paragraph at lines 1625--1626
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1633.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[28 <./assets/images/reserve-pool-4.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1636--1637
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1832--1833
+Underfull \hbox (badness 2582) in paragraph at lines 1638--1639
+[]\OT1/ptm/m/n/10 As the security threats continues, there's currently
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 1638--1639
+\OT1/ptm/m/n/10 no effective solution for a non-custodial fiat-crypto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1638--1639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1837--1838
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1641
 
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 1642--1643
+\OT1/ptm/m/n/10 by supplying fiat-pegged-tokens and exchanging via
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1642--1643
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1645
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1646--1647
+[]\OT1/ptm/m/n/10 Viral Buy/Sell Exchange works differently from
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 1646--1647
+\OT1/ptm/m/n/10 centralized exchanges. In current CEXs when user
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 1646--1647
+\OT1/ptm/m/n/10 total figure he would have deposited. CEXs tracks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1646--1647
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1648--1649
+
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 1650--1651
+\OT1/ptm/m/n/10 amount of special Fiat-Tagged tokens (Eg; USD,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1650--1651
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1659--1660
+
+ []
+
+<./assets/images/user-deposit.png, id=642, 830.10126pt x 485.815pt>
+File: ./assets/images/user-deposit.png Graphic file (type png)
+<use ./assets/images/user-deposit.png>
+Package pdftex.def Info: ./assets/images/user-deposit.png  used on input line 1
+663.
+(pdftex.def)             Requested size: 227.62204pt x 133.21036pt.
+
+Underfull \hbox (badness 5622) in paragraph at lines 1701--1702
+[]\OT1/ptm/m/n/10 While Viral application doesn't require any user
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1702.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[29 <./assets/images/user-deposit.png>]
+Overfull \hbox (6.17607pt too wide) in paragraph at lines 1716--1717
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1720--1722
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1731
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1739--1741
+
+ []
+
+LaTeX Info: Symbol \textwon not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 1754.
+
+Underfull \hbox (badness 1655) in paragraph at lines 1764--1766
+\OT1/ptm/m/n/10 custodians on behalf of Viral-FEX after deposit is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1766
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1769
+
+ []
+
+<./assets/images/custodian.png, id=653, 560.0925pt x 246.1998pt>
+File: ./assets/images/custodian.png Graphic file (type png)
+<use ./assets/images/custodian.png>
+Package pdftex.def Info: ./assets/images/custodian.png  used on input line 1772
+.
+(pdftex.def)             Requested size: 341.43306pt x 150.08772pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1777--1784
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1777--1784
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1785--1786
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1787--1788
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1792--1793
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1795.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1799--1800
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1801--1802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1803--1804
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1805--1806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1809--1810
+
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 1814--1815
+\OT1/ptm/m/n/10 several social media platforms including lawmakers,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1814--1815
+
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 1816--1817
+[]\OT1/ptm/m/n/10 Moderating users content is broadly classified into
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 1816--1817
+\OT1/ptm/m/n/10 manual and automated way of moderation. Manual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1816--1817
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1817.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[31 <./assets/images/custodian.png>]
+Underfull \hbox (badness 1616) in paragraph at lines 1820--1821
+\OT1/ptm/m/n/10 (video, photo, text) before it is published. Pre-
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 1820--1821
+\OT1/ptm/m/n/10 found out with high accuracy by the deployed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1822--1823
+[]\OT1/ptm/b/n/10 Reactive-Moderation \OT1/ptm/m/n/10 : Depends on active
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 1822--1823
+\OT1/ptm/m/n/10 contribution by users to flag or report contents
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 1825--1826
+\OT1/ptm/m/n/10 regional governments to moderate free-speech anti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1826
+
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 1827--1828
+[]\OT1/ptm/m/n/10 Moderators who are employed by popular social
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 1827--1828
+\OT1/ptm/m/n/10 with strict schedules and aggressive quotas leaving
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1827--1828
+
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 1829--1830
+\OT1/ptm/m/n/10 independent content creation without the external
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 1829--1830
+\OT1/ptm/m/n/10 Meddling of centralized companies are eliminated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1832
+
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 1833--1834
+[]\OT1/ptm/m/n/10 ROV is an abbreviation for Republic of Viral, a
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 1833--1834
+\OT1/ptm/m/n/10 a network of administrators (moderators) under a
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 1833--1834
+\OT1/ptm/m/n/10 voting mechanism to remove NSFW, spam content
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1834.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1842--1843
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1844--1845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1846--1847
+
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 1848--1849
+[]\OT1/ptm/m/n/10 To remove a post in centralized social media, the
  []
 
 
@@ -3562,25 +3392,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1848--1849
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1850.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [31 <./assets/images/custodian.png>]
-Underfull \hbox (badness 1902) in paragraph at lines 1850--1851
-\OT1/ptm/m/n/10 year and new technologies have been introduced
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 1850--1851
-\OT1/ptm/m/n/10 or other cryptocurrencies to Merchants using the
- []
-
-
-Underfull \hbox (badness 2057) in paragraph at lines 1850--1851
-\OT1/ptm/m/n/10 the user doesn't know their username and want
+Underfull \hbox (badness 1910) in paragraph at lines 1850--1851
+\OT1/ptm/m/n/10 it's nodes by fetching black-listed files fingerprints
  []
 
 
@@ -3588,211 +3401,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 1850--1851
 
  []
 
-
-Underfull \hbox (badness 2073) in paragraph at lines 1861--1862
-\OT1/ptm/m/n/10 to prevent abuse on posts and comments which
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1861--1862
-
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 1863--1864
-\OT1/ptm/m/n/10 finding flagged contents across the platform and
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 1863--1864
-\OT1/ptm/m/n/10 Nudity, sexual abuse, etc. Automated moderation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1863--1864
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1867--1868
-[]\OT1/ptm/b/n/10 Pre-Moderation \OT1/ptm/m/n/10 : An automated way of
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 1867--1868
-\OT1/ptm/m/n/10 Pre-moderation is commonly used for finding
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1869.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 1869--1870
-[]\OT1/ptm/b/n/10 Reactive-Moderation \OT1/ptm/m/n/10 : Depends on active
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 1872--1873
-\OT1/ptm/m/n/10 social media platform owners/entities misuses the
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 1872--1873
-\OT1/ptm/m/n/10 authority of moderating user's content in several
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 1872--1873
-\OT1/ptm/m/n/10 over people's original content. Entities governing
- []
-
-
-Underfull \hbox (badness 5622) in paragraph at lines 1872--1873
-\OT1/ptm/m/n/10 content moderators on existing social platforms
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1872--1873
-
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 1874--1875
-[]\OT1/ptm/m/n/10 Moderators who are employed by popular social
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 1874--1875
-\OT1/ptm/m/n/10 community to watch inappropriate violent content
- []
-
-
-Underfull \hbox (badness 5288) in paragraph at lines 1874--1875
-\OT1/ptm/m/n/10 without providing emotional support for mental
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1874--1875
-
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 1876--1877
-\OT1/ptm/m/n/10 a decentralized moderation community solution is
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 1876--1877
-\OT1/ptm/m/n/10 proposed in the white-paper for the viral social
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 1876--1877
-\OT1/ptm/m/n/10 network to ensure independent content creation
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 1876--1877
-\OT1/ptm/m/n/10 such as governments, large entities and also to
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 1876--1877
-\OT1/ptm/m/n/10 based consensus moderation. Moderators are well
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 1876--1877
-\OT1/ptm/m/n/10 companies. The administrative rights of removing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1876--1877
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1878--1879
-
- []
-
-
-Underfull \hbox (badness 3503) in paragraph at lines 1880--1881
-\OT1/ptm/m/n/10 decentralized community-based organization inside
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1880--1881
-
- []
-
-
-Underfull \hbox (badness 5908) in paragraph at lines 1885--1886
-[]\OT1/ptm/b/n/10 Pre-Moderation \OT1/ptm/m/n/10 : Automated algorithm runs
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 1886--1887
-\OT1/ptm/m/n/10 reviewed and taken down manually by ROV
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1889--1890
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1890.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[33]
-Underfull \hbox (badness 1960) in paragraph at lines 1891--1892
-\OT1/ptm/m/n/10 doesn't fit the community guidelines \OT1/ptm/m/it/10 (which wi
-ll
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1891--1892
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1893--1894
-
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 1895--1896
-\OT1/ptm/m/n/10 a clean, appropriate content platform moderation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1895--1896
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1897--1898
-
- []
-
-<./assets/images/content-removal.jpg, id=746, 2135.98pt x 1224.575pt>
+<./assets/images/content-removal.jpg, id=678, 2135.98pt x 1224.575pt>
 File: ./assets/images/content-removal.jpg Graphic file (type jpg)
 <use ./assets/images/content-removal.jpg>
 Package pdftex.def Info: ./assets/images/content-removal.jpg  used on input lin
-e 1901.
-(pdftex.def)             Requested size: 341.43306pt x 195.73045pt.
+e 1854.
+(pdftex.def)             Requested size: 227.62204pt x 130.48074pt.
 
-Overfull \hbox (117.58463pt too wide) in paragraph at lines 1901--1902
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 1868--1869
+
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 1882--1883
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1884.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[33 <./assets/images/content-removal.jpg>]
+<./assets/images/rov-poll.jpg, id=687, 1670.24pt x 1967.35pt>
+File: ./assets/images/rov-poll.jpg Graphic file (type jpg)
+<use ./assets/images/rov-poll.jpg>
+Package pdftex.def Info: ./assets/images/rov-poll.jpg  used on input line 1896.
+
+(pdftex.def)             Requested size: 199.16928pt x 234.57085pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1893--1899
+
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 1906--1907
+[]\OT1/ptm/m/n/10 The poll receives votes based on the curators
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1913--1914
+
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1915--1916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1918
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1923--1924
+
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 1925--1926
+[]\OT1/ptm/m/n/10 Pre-moderation also known as screening is carried
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1925--1926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1927--1928
 
  []
 
@@ -3803,26 +3480,344 @@ Underfull \hbox (badness 10000) in paragraph at lines 1929--1930
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1932.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1930.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[34 <./assets/images/content-removal.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1947--1948
+[34 <./assets/images/rov-poll.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1931--1932
 
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 1956--1957
-[]\OT1/ptm/m/n/10 After the Poll ends the decision is taken by
+Underfull \hbox (badness 3449) in paragraph at lines 1933--1934
+\OT1/ptm/m/n/10 There will be records to everyday's positive and
  []
 
-<./assets/images/rov-poll.jpg, id=752, 1670.24pt x 1967.35pt>
-File: ./assets/images/rov-poll.jpg Graphic file (type jpg)
-<use ./assets/images/rov-poll.jpg>
-Package pdftex.def Info: ./assets/images/rov-poll.jpg  used on input line 1962.
 
-(pdftex.def)             Requested size: 284.52756pt x 335.13553pt.
+Underfull \hbox (badness 10000) in paragraph at lines 1933--1934
 
-Overfull \hbox (60.67912pt too wide) in paragraph at lines 1962--1963
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1954--1955
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1956--1957
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1958--1960
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1962--1963
+
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 1964--1965
+\OT1/ptm/m/n/10 providing answers for their problems. It will be a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1964--1965
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1966--1967
+
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 1968--1969
+[]\OT1/ptm/m/n/10 ROV curators also will be responsible for several
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 1968--1969
+\OT1/ptm/m/n/10 vote on Providing Verification where the majority
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1968--1969
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1970--1971
+
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 1972--1973
+[]\OT1/ptm/m/n/10 Since ROV is regarded as a DAO (Decentralized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1972--1973
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1975
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1976--1977
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1977.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1979--1980
+
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 1981--1982
+[]\OT1/ptm/m/n/10 Every day according to every individual curators
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1981--1982
+
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 1985--1986
+\OT1/ptm/m/n/10 of development of a particular software built trust
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
+
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 1987--1988
+\OT1/ptm/m/n/10 developed as a collaboration tool where developers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1987--1988
+
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 1989--1990
+\OT1/ptm/m/n/10 Although Open-source and Block-chain technology
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 1989--1990
+\OT1/ptm/m/n/10 collaboration amongst developers across the world.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1989--1990
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1991--1992
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1993--1994
+
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 1997--1998
+\OT1/ptm/m/n/10 and maintenance, while reduces expenditures on
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 1999--2000
+[]\OT1/ptm/b/n/10 Huge Support \OT1/ptm/m/n/10 : Easy access to internal code
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 1999--2000
+\OT1/ptm/m/n/10 organizations, freelance spaces to grow a well-
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2000.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[36]
+Underfull \hbox (badness 3323) in paragraph at lines 2001--2002
+\OT1/ptm/m/n/10 in the world to review, find vulnerabilities to
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 2005--2006
+\OT1/ptm/m/n/10 Companies that bootstrap the development of open
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2005--2006
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2007--2008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
+
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 2011--2012
+\OT1/ptm/m/n/10 & Development sector of Viral Applications in an
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 2011--2012
+\OT1/ptm/m/n/10 efficient way by providing rewards in Viral Coins
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 2011--2012
+\OT1/ptm/m/n/10 through unbiased voting based on the intensity of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2011--2012
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2017
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2018--2019
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2020--2021
+
+ []
+
+<./assets/images/git-int.jpg, id=708, 1047.915pt x 305.14pt>
+File: ./assets/images/git-int.jpg Graphic file (type jpg)
+<use ./assets/images/git-int.jpg>
+Package pdftex.def Info: ./assets/images/git-int.jpg  used on input line 2023.
+(pdftex.def)             Requested size: 113.81102pt x 33.13713pt.
+
+Underfull \hbox (badness 1796) in paragraph at lines 2026--2027
+\OT1/ptm/m/n/10 profile with their viral username on the dev-space
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2026--2027
+
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 2028--2029
+[]\OT1/ptm/m/n/10 Viral makes use of git version control system to
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 2028--2029
+\OT1/ptm/m/n/10 keep track of changes made by whom and when
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 2028--2029
+\OT1/ptm/m/n/10 repositories through Github, the most popular code
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2028--2029
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2029.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[37 <./assets/images/git-int.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2030--2031
+
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 2032--2033
+[]\OT1/ptm/m/n/10 Dev-Space from Viral is a open communication
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 2032--2033
+\OT1/ptm/m/n/10 sub groups, feed, reward determination programs,
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 2032--2033
+\OT1/ptm/m/n/10 environment for quality collaboration for seamless
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 2032--2033
+\OT1/ptm/m/n/10 individual viral profiles. List of projects, detailed
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 2032--2033
+\OT1/ptm/m/n/10 description, successful merges, codes under review,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2032--2033
+
+ []
+
+<./assets/images/devspace-overview.jpg, id=717, 2433.09pt x 2786.41pt>
+File: ./assets/images/devspace-overview.jpg Graphic file (type jpg)
+<use ./assets/images/devspace-overview.jpg>
+Package pdftex.def Info: ./assets/images/devspace-overview.jpg  used on input l
+ine 2036.
+(pdftex.def)             Requested size: 369.88582pt x 423.59825pt.
+
+Underfull \hbox (badness 5203) in paragraph at lines 2048--2049
+\OT1/ptm/m/n/10 be allocated for appreciating other developer's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2051--2052
+
+ []
+
+<./assets/images/chat-community.jpg, id=718, 1802.735pt x 847.165pt>
+File: ./assets/images/chat-community.jpg Graphic file (type jpg)
+<use ./assets/images/chat-community.jpg>
+Package pdftex.def Info: ./assets/images/chat-community.jpg  used on input line
+ 2055.
+(pdftex.def)             Requested size: 256.0748pt x 120.33446pt.
+
+Overfull \hbox (23.22636pt too wide) in paragraph at lines 2055--2056
  [] 
  []
 
@@ -3830,230 +3825,8 @@ Overfull \hbox (60.67912pt too wide) in paragraph at lines 1962--1963
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1967--1968
-
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 1969--1970
-\OT1/ptm/m/n/10 of the jurisdiction. Re-Appeals are given to the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1969--1970
-
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 1971--1972
-[]\OT1/ptm/m/n/10 The algorithmic premature poll ending timer for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1971--1972
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1984--1985
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1985.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[35 <./assets/images/rov-poll.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1986--1987
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1988--1989
-
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 1990--1991
-\OT1/ptm/m/n/10 available decryption keys. ROV curators will not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1990--1991
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1992--1993
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1994--1995
-
- []
-
-
-Underfull \hbox (badness 4634) in paragraph at lines 1998--1999
-[]\OT1/ptm/m/n/10 If Negative Point is 40%- 50% - Account
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2012--2013
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2021--2022
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2023--2024
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2025--2027
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2030
-
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 2031--2032
-\OT1/ptm/m/n/10 providing answers for their problems. It will be
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 2031--2032
-\OT1/ptm/m/n/10 a decentralized substitute for centralized customer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2031--2032
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2033--2034
-
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 2035--2036
-\OT1/ptm/m/n/10 any country's identification information like other
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2035--2036
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2036.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 2037--2038
-
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 2039--2040
-\OT1/ptm/m/n/10 Autonomous Organization) we make sure others
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2039--2040
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2041--2042
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2046--2047
-
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 2048--2049
-[]\OT1/ptm/m/n/10 Every day according to every individual curators
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 2048--2049
-\OT1/ptm/m/n/10 More information on reward allocation for ROV
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 2048--2049
-\OT1/ptm/m/n/10 curators is explained in the Global Reward Pool
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2054--2055
-[]\OT1/ptm/m/n/10 Open-Source projects are considered as free
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 2054--2055
-\OT1/ptm/m/n/10 revolutionary software-technologies in competition
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2054--2055
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2056--2057
-
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 2058--2059
-\OT1/ptm/m/n/10 across the world. There's no doubting that open
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2058--2059
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2059.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[37]
 Underfull \hbox (badness 10000) in paragraph at lines 2060--2061
 
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 2062--2063
-\OT1/ptm/m/n/10 online under specific license to modify, edit or
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 2062--2063
-\OT1/ptm/m/n/10 distribute the software. Most of the open source
  []
 
 
@@ -4062,208 +3835,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 2062--2063
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 2067--2068
-[]\OT1/ptm/b/n/10 High-Quality Software \OT1/ptm/m/n/10 : The availability of
+Underfull \hbox (badness 2057) in paragraph at lines 2069--2070
+[]\OT1/ptm/m/n/10 Every pending post will be scheduled on 2.00
  []
 
+<./assets/images/post-dev.jpg, id=719, 1358.07375pt x 394.47375pt>
+File: ./assets/images/post-dev.jpg Graphic file (type jpg)
+<use ./assets/images/post-dev.jpg>
+Package pdftex.def Info: ./assets/images/post-dev.jpg  used on input line 2074.
 
-Underfull \hbox (badness 4765) in paragraph at lines 2068--2069
-\OT1/ptm/m/n/10 of greater support from online communities,
- []
+(pdftex.def)             Requested size: 227.62204pt x 66.11462pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 7308) in paragraph at lines 2070--2071
-\OT1/ptm/m/n/10 by issuing transparency for every white-hat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2070--2071
-\OT1/ptm/m/n/10 professionals in the world to review, find
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 2074--2075
-\OT1/ptm/m/n/10 developers around the world but majority of the
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 2074--2075
-\OT1/ptm/m/n/10 organizations doesn't provide any incentives or a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2074--2075
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2078.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [38 <./assets/images/chat-community.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2081--2082
 
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 2076--2077
-\OT1/ptm/m/n/10 initiate known as "Paid - Open Source Initiative
+Underfull \hbox (badness 4913) in paragraph at lines 2096--2097
+[]\OT1/ptm/m/n/10 Private Collaborators and Public Developers work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2076--2077
-\OT1/ptm/m/n/10 (POSI)" through a open platform/space which
+Underfull \hbox (badness 2080) in paragraph at lines 2096--2097
+\OT1/ptm/m/n/10 to the repository without administrator permissions.
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 2076--2077
-\OT1/ptm/m/n/10 to develop viral open-source projects seamlessly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2076--2077
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2078--2079
-
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 2080--2081
-\OT1/ptm/m/n/10 applications and future development plans of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2080--2081
-
- []
-
-
-Underfull \hbox (badness 7116) in paragraph at lines 2082--2083
-[]\OT1/ptm/m/n/10 An opportunity for all developers is provided
- []
-
-
-Underfull \hbox (badness 3219) in paragraph at lines 2082--2083
-\OT1/ptm/m/n/10 with other social giants and also to make the
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 2082--2083
-\OT1/ptm/m/n/10 application bug-free while providing new updates
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2082--2083
-
+Underfull \hbox (badness 1460) in paragraph at lines 2096--2097
+\OT1/ptm/m/n/10 Collaborators on existing projects are initialized by
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2083.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2100.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 2085--2086
+[39 <./assets/images/devspace-overview.jpg> <./assets/images/post-dev.jpg>]
+<./assets/images/dev-reward-distribution.jpg, id=731, 855.195pt x 560.0925pt>
+File: ./assets/images/dev-reward-distribution.jpg Graphic file (type jpg)
+<use ./assets/images/dev-reward-distribution.jpg>
+Package pdftex.def Info: ./assets/images/dev-reward-distribution.jpg  used on i
+nput line 2104.
+(pdftex.def)             Requested size: 227.62204pt x 149.07332pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2109--2110
 
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 2087--2088
-[]\OT1/ptm/m/n/10 A web application is provided where developers
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 2087--2088
-\OT1/ptm/m/n/10 rewards daily every 24 hours according to their
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2087--2088
+Underfull \hbox (badness 10000) in paragraph at lines 2111--2112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2090
-
- []
-
-<./assets/images/git-int.jpg, id=789, 1047.915pt x 305.14pt>
-File: ./assets/images/git-int.jpg Graphic file (type jpg)
-<use ./assets/images/git-int.jpg>
-Package pdftex.def Info: ./assets/images/git-int.jpg  used on input line 2092.
-(pdftex.def)             Requested size: 113.81102pt x 33.13713pt.
-
-Underfull \hbox (badness 2875) in paragraph at lines 2095--2096
-\OT1/ptm/m/n/10 application. Since viral immutable user name is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2095--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2097--2098
+Underfull \hbox (badness 10000) in paragraph at lines 2116--2117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2099--2100
+Underfull \hbox (badness 10000) in paragraph at lines 2118--2119
 
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 2101--2102
-[]\OT1/ptm/m/n/10 Dev-Space from Viral is a open communication
- []
-
-
-Underfull \hbox (badness 5050) in paragraph at lines 2101--2102
-\OT1/ptm/m/n/10 platform for developers that comprises of chat
- []
-
-
-Underfull \hbox (badness 6608) in paragraph at lines 2101--2102
-\OT1/ptm/m/n/10 groups, sub groups, feed, reward determination
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 2101--2102
-\OT1/ptm/m/n/10 seamless distributed development. Every developer
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 2101--2102
-\OT1/ptm/m/n/10 review, chat pages & recent interaction between
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 2101--2102
-\OT1/ptm/m/n/10 channels (E.g., Back-End) based on development
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 2101--2102
-\OT1/ptm/m/n/10 communication among team of public developers.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2101--2102
-
- []
-
-<./assets/images/devspace-overview.jpg, id=790, 2433.09pt x 2786.41pt>
-File: ./assets/images/devspace-overview.jpg Graphic file (type jpg)
-<use ./assets/images/devspace-overview.jpg>
-Package pdftex.def Info: ./assets/images/devspace-overview.jpg  used on input l
-ine 2105.
-(pdftex.def)             Requested size: 483.69687pt x 553.91328pt.
-
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 2105--2106
- [] 
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 2113--2114
-[]\OT1/ptm/m/n/10 To sign-up in the Dev-Space Developers are
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 2117--2118
-\OT1/ptm/m/n/10 be allocated for appreciating other developer's
  []
 
 
@@ -4271,90 +3913,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 2120--2121
 
  []
 
-<./assets/images/chat-community.jpg, id=791, 1802.735pt x 847.165pt>
-File: ./assets/images/chat-community.jpg Graphic file (type jpg)
-<use ./assets/images/chat-community.jpg>
-Package pdftex.def Info: ./assets/images/chat-community.jpg  used on input line
- 2124.
-(pdftex.def)             Requested size: 256.0748pt x 120.33446pt.
 
-Overfull \hbox (32.22636pt too wide) in paragraph at lines 2124--2125
- [] 
+Underfull \hbox (badness 1430) in paragraph at lines 2122--2123
+[]\OT1/ptm/m/n/10 Apart from developer rewards, a certain percentage
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2130
-
+Underfull \hbox (badness 3049) in paragraph at lines 2122--2123
+\OT1/ptm/m/n/10 vulnerable-less applications. The shout-outs can be
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2130.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[39 <./assets/images/git-int.jpg> <./assets/images/chat-community.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2131--2132
+
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2135--2136
-[]\OT1/ptm/m/n/10 Merge requests by Public Developers will
+Underfull \hbox (badness 5417) in paragraph at lines 2127--2128
+\OT1/ptm/m/n/10 development ideas from which developers can
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 2135--2136
-\OT1/ptm/m/n/10 be reviewed and if conflicts, resolved by the
- []
-
-<./assets/images/post-dev.jpg, id=797, 1358.07375pt x 394.47375pt>
-File: ./assets/images/post-dev.jpg Graphic file (type jpg)
-<use ./assets/images/post-dev.jpg>
-Package pdftex.def Info: ./assets/images/post-dev.jpg  used on input line 2143.
-
-(pdftex.def)             Requested size: 483.69687pt x 140.4936pt.
-
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 2143--2144
- [] 
+Underfull \hbox (badness 3128) in paragraph at lines 2127--2128
+\OT1/ptm/m/n/10 get neccessary ideas for effective user-expected
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2150--2151
+Underfull \hbox (badness 10000) in paragraph at lines 2130--2131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2134--2135
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2164.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2135.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[40 <./assets/images/devspace-overview.jpg> <./assets/images/post-dev.jpg>]
-Underfull \hbox (badness 1496) in paragraph at lines 2165--2166
-[]\OT1/ptm/m/n/10 Private Collaborators and Public Developers work
+[40 <./assets/images/dev-reward-distribution.jpg>]
+Underfull \hbox (badness 1590) in paragraph at lines 2136--2137
+\OT1/ptm/m/n/10 requirements to place paid-ads by determining per-
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 2165--2166
-\OT1/ptm/m/n/10 together to develop, make changes and bring a
+Underfull \hbox (badness 2961) in paragraph at lines 2136--2137
+\OT1/ptm/m/n/10 ads under specific categories such as impressions,
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 2165--2166
-\OT1/ptm/m/n/10 conflicts on merge requests and update the beta
+Underfull \hbox (badness 4531) in paragraph at lines 2138--2139
+[]\OT1/ptm/m/n/10 Find tailored Influencers with advanced search
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 2165--2166
-\OT1/ptm/m/n/10 repository accordingly for further releases of the
+Underfull \hbox (badness 10000) in paragraph at lines 2143--2144
+
  []
 
-<./assets/images/dev-reward-distribution.jpg, id=804, 855.195pt x 560.0925pt>
-File: ./assets/images/dev-reward-distribution.jpg Graphic file (type jpg)
-<use ./assets/images/dev-reward-distribution.jpg>
-Package pdftex.def Info: ./assets/images/dev-reward-distribution.jpg  used on i
-nput line 2173.
-(pdftex.def)             Requested size: 312.9803pt x 204.97475pt.
+<./assets/images/influencer-class.jpg, id=739, 2971.1pt x 1043.9pt>
+File: ./assets/images/influencer-class.jpg Graphic file (type jpg)
+<use ./assets/images/influencer-class.jpg>
+Package pdftex.def Info: ./assets/images/influencer-class.jpg  used on input li
+ne 2149.
+(pdftex.def)             Requested size: 341.43306pt x 119.95836pt.
 
-Overfull \hbox (89.13187pt too wide) in paragraph at lines 2173--2174
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 2153--2154
+
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 2155--2156
+\OT1/ptm/m/n/10 by hastags of recent posts, similarly the influencer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2157--2158
+
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 2159--2160
+\OT1/ptm/m/n/10 heavily on tracking user's interest to provide them
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2168--2169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2174
+[]\OT1/ptm/b/n/10 Conversions \OT1/ptm/m/n/10 : To determine the number of
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 2176--2177
+[]\OT1/ptm/m/n/10 The PPV cost of influencers are provided upon
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 2176--2177
+\OT1/ptm/m/n/10 registration and will be available for brands and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2176--2177
+
  []
 
 
@@ -4368,52 +4039,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 2180--2181
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 2182--2183
-\OT1/ptm/m/n/10 they've merged to the code repository. After a
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2182--2183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2185--2186
-
- []
-
-
-Underfull \hbox (badness 7012) in paragraph at lines 2187--2188
-\OT1/ptm/m/n/10 child platforms or the blockchain environment.
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 2187--2188
-\OT1/ptm/m/n/10 to submit a whitepaper explaining the technical
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2189--2190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2191--2192
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2195.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2184.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[41 <./assets/images/dev-reward-distribution.jpg>]
-Underfull \hbox (badness 1728) in paragraph at lines 2196--2197
-\OT1/ptm/m/n/10 development ideas from which developers can
+[41]
+Underfull \hbox (badness 1852) in paragraph at lines 2184--2185
+\OT1/ptm/m/n/10 reside on their page. Different influencers such as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2184--2185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2186--2187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2188--2189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2191
+
+ []
+
+<./assets/images/ad-flow.jpg, id=748, 785.93625pt x 602.25pt>
+File: ./assets/images/ad-flow.jpg Graphic file (type jpg)
+<use ./assets/images/ad-flow.jpg>
+Package pdftex.def Info: ./assets/images/ad-flow.jpg  used on input line 2194.
+(pdftex.def)             Requested size: 170.71652pt x 130.8137pt.
+
+Underfull \hbox (badness 1867) in paragraph at lines 2199--2200
+\OT1/ptm/m/n/10 give the best advert without compromising quality.
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 2199--2200
+\OT1/ptm/m/n/10 according the advertisement-model from the client's
  []
 
 
@@ -4421,305 +4092,196 @@ Underfull \hbox (badness 10000) in paragraph at lines 2199--2200
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2205--2206
-[]\OT1/ptm/m/n/10 Mainstream modern-advertisement focusses on
- []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 2205--2206
-\OT1/ptm/m/n/10 of Investment) of 500%. About 1360+ Influencer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2205--2206
-
- []
-
-
-Underfull \hbox (badness 5954) in paragraph at lines 2207--2208
-[]\OT1/ptm/m/n/10 Viral Influencer Ad-Platform is a place where
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 2207--2208
-\OT1/ptm/m/n/10 under specific requirements to place paid-ads by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2207--2208
-\OT1/ptm/m/n/10 determining per-impression rates where Content
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 2207--2208
-\OT1/ptm/m/n/10 reduces the unwanted issues regarding promised
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2214--2215
-
- []
-
-<./assets/images/influencer-class.jpg, id=810, 2971.1pt x 1043.9pt>
-File: ./assets/images/influencer-class.jpg Graphic file (type jpg)
-<use ./assets/images/influencer-class.jpg>
-Package pdftex.def Info: ./assets/images/influencer-class.jpg  used on input li
-ne 2219.
-(pdftex.def)             Requested size: 483.69687pt x 169.94234pt.
-
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 2219--2220
- [] 
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 2216--2221
-\OT1/ptm/m/n/10 campaign shall look in terms of followers count
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 2216--2221
-\OT1/ptm/m/n/10 enterprises involve smaller influencers ($\OMS/cmsy/m/n/10 ^^T$
- \OT1/ptm/m/n/10 million
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 2216--2221
-\OT1/ptm/m/n/10 Platform the creators are categorized into several
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2222.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 2223--2224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2225--2226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2227--2228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2238--2239
-
- []
-
-
-Underfull \hbox (badness 4454) in paragraph at lines 2243--2244
-[]\OT1/ptm/b/n/10 Conversions \OT1/ptm/m/n/10 : To determine the number of
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 2246--2247
-[]\OT1/ptm/m/n/10 The PPV cost of influencers are provided upon
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 2246--2247
-\OT1/ptm/m/n/10 registration and will be available for brands and
- []
-
-
-Underfull \hbox (badness 6995) in paragraph at lines 2246--2247
-\OT1/ptm/m/n/10 businesses to research for their advertisements.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2246--2247
-\OT1/ptm/m/n/10 Currently targeted advertisements by various
- []
-
-
-Underfull \hbox (badness 6927) in paragraph at lines 2246--2247
-\OT1/ptm/m/n/10 centralized social entities are charging \TS1/ptm/m/n/10 $\OT1/
-ptm/m/n/10 7 per
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2246--2247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2248--2249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2250--2251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2252--2253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2256--2257
-
- []
-
-
-Underfull \hbox (badness 3179) in paragraph at lines 2258--2259
-[]\OT1/ptm/m/n/10 Pay-Per Post is a simple, direct advertising by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2258--2259
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2259.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[43 <./assets/images/influencer-class.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2260--2261
-
- []
-
-<./assets/images/ad-flow.jpg, id=827, 785.93625pt x 602.25pt>
-File: ./assets/images/ad-flow.jpg Graphic file (type jpg)
-<use ./assets/images/ad-flow.jpg>
-Package pdftex.def Info: ./assets/images/ad-flow.jpg  used on input line 2264.
-(pdftex.def)             Requested size: 170.71652pt x 130.8137pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2269--2270
-
- []
-
-<./assets/images/ad-selection.jpg, id=828, 921.4425pt x 804.00375pt>
+<./assets/images/ad-selection.jpg, id=749, 921.4425pt x 804.00375pt>
 File: ./assets/images/ad-selection.jpg Graphic file (type jpg)
 <use ./assets/images/ad-selection.jpg>
 Package pdftex.def Info: ./assets/images/ad-selection.jpg  used on input line 2
-273.
+203.
 (pdftex.def)             Requested size: 199.16928pt x 173.77754pt.
-<./assets/images/ad-content.jpg, id=829, 1047.915pt x 1845.89626pt>
+
+Underfull \hbox (badness 1365) in paragraph at lines 2208--2209
+\OT1/ptm/m/n/10 influencers. This makes it easy for individuals and
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2219.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[42 <./assets/images/influencer-class.jpg> <./assets/images/ad-flow.jpg> <./ass
+ets/images/ad-selection.jpg>]
+<./assets/images/ad-content.jpg, id=756, 1047.915pt x 1845.89626pt>
 File: ./assets/images/ad-content.jpg Graphic file (type jpg)
 <use ./assets/images/ad-content.jpg>
-Package pdftex.def Info: ./assets/images/ad-content.jpg  used on input line 230
+Package pdftex.def Info: ./assets/images/ad-content.jpg  used on input line 223
 3.
-(pdftex.def)             Requested size: 199.16928pt x 350.8366pt.
+(pdftex.def)             Requested size: 170.71652pt x 300.70099pt.
+<./assets/images/ad-publish.jpg, id=757, 1851.91875pt x 1990.43625pt>
+File: ./assets/images/ad-publish.jpg Graphic file (type jpg)
+<use ./assets/images/ad-publish.jpg>
+Package pdftex.def Info: ./assets/images/ad-publish.jpg  used on input line 224
+6.
+(pdftex.def)             Requested size: 312.9803pt x 336.36516pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2253--2254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2255--2256
+
+ []
+
+<./assets/images/periodic-allocation.jpg, id=758, 1962.33125pt x 903.375pt>
+File: ./assets/images/periodic-allocation.jpg Graphic file (type jpg)
+<use ./assets/images/periodic-allocation.jpg>
+Package pdftex.def Info: ./assets/images/periodic-allocation.jpg  used on input
+ line 2259.
+(pdftex.def)             Requested size: 227.62204pt x 104.77502pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2307.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2263.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [44 <./assets/images/ad-flow.jpg> <./assets/images/ad-selection.jpg>]
-<./assets/images/ad-publish.jpg, id=840, 1851.91875pt x 1990.43625pt>
-File: ./assets/images/ad-publish.jpg Graphic file (type jpg)
-<use ./assets/images/ad-publish.jpg>
-Package pdftex.def Info: ./assets/images/ad-publish.jpg  used on input line 231
-6.
-(pdftex.def)             Requested size: 369.88582pt x 397.53351pt.
-
-Overfull \hbox (146.03738pt too wide) in paragraph at lines 2316--2317
- [] 
+ [43 <./assets/images/ad-content.jpg>]
+Underfull \hbox (badness 2119) in paragraph at lines 2264--2265
+\OT1/ptm/m/n/10 ad-campaigns to withdraw the allocated tokens for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2321--2322
+Underfull \hbox (badness 10000) in paragraph at lines 2264--2265
+
+ []
+
+
+Overfull \hbox (41.44806pt too wide) detected at line 2265
+\OML/cmm/m/it/10 Withdrawal Insight \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Total In
+sight \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Last Withdrawn Insight
+ []
+
+
+Overfull \hbox (33.08504pt too wide) detected at line 2266
+\OML/cmm/m/it/10 Withdrawal Amount \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Wuthdrawa
+l Insight \OMS/cmsy/m/n/10 ^^B \OML/cmm/m/it/10 AdModel Rate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2266--2268
+
+ []
+
+<./assets/images/periodic-allocation-2.jpg, id=770, 2815.51875pt x 1380.15625pt
+>
+File: ./assets/images/periodic-allocation-2.jpg Graphic file (type jpg)
+<use ./assets/images/periodic-allocation-2.jpg>
+Package pdftex.def Info: ./assets/images/periodic-allocation-2.jpg  used on inp
+ut line 2271.
+(pdftex.def)             Requested size: 341.43306pt x 167.35954pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2276--2277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2278--2279
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2322.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2281.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[45 <./assets/images/ad-content.jpg> <./assets/images/ad-publish.jpg>]
-Underfull \hbox (badness 2941) in paragraph at lines 2323--2324
-[]\OT1/ptm/m/n/10 Similarly the Pay-per Conversion allocates funds
+[44 <./assets/images/ad-publish.jpg> <./assets/images/periodic-allocation.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2285--2286
+[]\OT1/ptm/b/n/10 Multi-Token Payment \OT1/ptm/m/n/10 : Promotes tokenized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2323--2324
-
+Underfull \hbox (badness 5519) in paragraph at lines 2285--2286
+\OT1/ptm/m/n/10 economy and benefits building a portfolio of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2325--2326
-
- []
-
-<./assets/images/periodic-allocation.jpg, id=848, 1962.33125pt x 903.375pt>
-File: ./assets/images/periodic-allocation.jpg Graphic file (type jpg)
-<use ./assets/images/periodic-allocation.jpg>
-Package pdftex.def Info: ./assets/images/periodic-allocation.jpg  used on input
- line 2329.
-(pdftex.def)             Requested size: 369.88582pt x 170.27838pt.
-
-Overfull \hbox (146.03738pt too wide) in paragraph at lines 2329--2330
- [] 
+Underfull \hbox (badness 3657) in paragraph at lines 2290--2291
+[]\OT1/ptm/b/n/10 Conflict Resolution \OT1/ptm/m/n/10 : Pre-defined systems lik
+e
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 2334--2335
-\OT1/ptm/m/n/10 publishing the advertisement on the influencer's
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2334--2335
+Underfull \hbox (badness 10000) in paragraph at lines 2296--2311
 
  []
 
 
-Overfull \hbox (50.44806pt too wide) detected at line 2337
-[]\OML/cmm/m/it/10 Withdrawal Insight \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Total 
-Insight \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Last Withdrawn Insight
+Underfull \hbox (badness 10000) in paragraph at lines 2314--2315
+[]\OT1/ptm/m/n/10 Nowadays people want cryptocurrencies without
  []
 
 
-Overfull \hbox (42.08504pt too wide) detected at line 2341
-[]\OML/cmm/m/it/10 Withdrawal Amount \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Wuthdra
-wal Insight \OMS/cmsy/m/n/10 ^^B \OML/cmm/m/it/10 AdModel Rate
+Underfull \hbox (badness 6625) in paragraph at lines 2314--2315
+\OT1/ptm/m/n/10 without disclosing their personal information and
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 2341--2343
-\OT1/ptm/m/n/10 contract thereby reassuring stable rate throughout
+Underfull \hbox (badness 3049) in paragraph at lines 2314--2315
+\OT1/ptm/m/n/10 identity cards for Anti-Money-Laundering purposes.
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 2341--2343
-\OT1/ptm/m/n/10 influencer's wallet. Payment in multiple-tokens in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2341--2343
+Underfull \hbox (badness 10000) in paragraph at lines 2314--2315
 
  []
 
-<./assets/images/periodic-allocation-2.jpg, id=849, 2815.51875pt x 1380.15625pt
->
-File: ./assets/images/periodic-allocation-2.jpg Graphic file (type jpg)
-<use ./assets/images/periodic-allocation-2.jpg>
-Package pdftex.def Info: ./assets/images/periodic-allocation-2.jpg  used on inp
-ut line 2346.
-(pdftex.def)             Requested size: 483.69687pt x 237.08742pt.
 
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 2346--2347
- [] 
+Underfull \hbox (badness 1655) in paragraph at lines 2316--2317
+\OT1/ptm/m/n/10 a central authority. These P2P exchanges work on
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2316--2317
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2317.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[45 <./assets/images/periodic-allocation-2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2324--2325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2326--2327
+
+ []
+
+<./assets/images/p2p-sell.jpg, id=791, 933.4875pt x 1267.73625pt>
+File: ./assets/images/p2p-sell.jpg Graphic file (type jpg)
+<use ./assets/images/p2p-sell.jpg>
+Package pdftex.def Info: ./assets/images/p2p-sell.jpg  used on input line 2331.
+
+(pdftex.def)             Requested size: 170.71652pt x 231.83871pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2351--2352
 
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 2353--2354
+\OT1/ptm/m/n/10 all the potential seller listing that can be selected
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 2353--2354
+\OT1/ptm/m/n/10 connected, the seller and buyer shall communicate
  []
 
 
@@ -4728,448 +4290,314 @@ Underfull \hbox (badness 10000) in paragraph at lines 2353--2354
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 2360--2361
-[]\OT1/ptm/b/n/10 Multi-Token Payment \OT1/ptm/m/n/10 : Promotes tokenized
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2362.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[46 <./assets/images/periodic-allocation.jpg> <./assets/images/periodic-allocat
-ion-2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2371--2386
+Underfull \hbox (badness 10000) in paragraph at lines 2355--2356
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2387.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[47]
-Underfull \hbox (badness 7047) in paragraph at lines 2391--2392
-[]\OT1/ptm/m/n/10 Nowadays people want cryptocurrencies without
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 2391--2392
-\OT1/ptm/m/n/10 without disclosing their personal information and
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 2391--2392
-\OT1/ptm/m/n/10 Buying cryptocurrencies using fiat money is not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2391--2392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2393--2394
-
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 2397--2398
-\OT1/ptm/m/n/10 the involved parties to provide identification,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2398--2399
-[]\OT1/ptm/m/n/10 P2P exchanges allow the purchase of
- []
-
-
-Underfull \hbox (badness 3713) in paragraph at lines 2398--2399
-\OT1/ptm/m/n/10 cryptocurrencies through the regional medium
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2401--2402
-
- []
-
-
-Underfull \hbox (badness 3000) in paragraph at lines 2403--2404
-\OT1/ptm/m/n/10 listing consists of Token name, Tokens amount,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2403--2404
-
- []
-
-<./assets/images/p2p-sell.jpg, id=871, 933.4875pt x 1267.73625pt>
-File: ./assets/images/p2p-sell.jpg Graphic file (type jpg)
-<use ./assets/images/p2p-sell.jpg>
-Package pdftex.def Info: ./assets/images/p2p-sell.jpg  used on input line 2408.
-
-(pdftex.def)             Requested size: 199.16928pt x 270.46883pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2428--2429
-
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 2430--2431
-\OT1/ptm/m/n/10 by connecting with sellers using the P2P Viral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2430--2431
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2432--2433
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2433.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[48 <./assets/images/p2p-sell.jpg>]
-<./assets/images/p2p-buy.jpg, id=891, 816.04875pt x 1821.80624pt>
+<./assets/images/p2p-buy.jpg, id=792, 816.04875pt x 1821.80624pt>
 File: ./assets/images/p2p-buy.jpg Graphic file (type jpg)
 <use ./assets/images/p2p-buy.jpg>
-Package pdftex.def Info: ./assets/images/p2p-buy.jpg  used on input line 2436.
-(pdftex.def)             Requested size: 170.71652pt x 381.11728pt.
+Package pdftex.def Info: ./assets/images/p2p-buy.jpg  used on input line 2359.
+(pdftex.def)             Requested size: 142.26378pt x 317.59773pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2364--2365
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2365.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[46 <./assets/images/p2p-sell.jpg> <./assets/images/p2p-buy.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2371--2372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2373--2374
+
+ []
+
+<./assets/images/global-reward.png, id=813, 2221.29875pt x 1058.95625pt>
+File: ./assets/images/global-reward.png Graphic file (type png)
+<use ./assets/images/global-reward.png>
+Package pdftex.def Info: ./assets/images/global-reward.png  used on input line 
+2378.
+(pdftex.def)             Requested size: 227.62204pt x 108.50331pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2375--2381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2384--2385
+[]\OT1/ptm/b/n/10 Blockchain Miners \OT1/ptm/m/n/10 : For Viral Multi-Chain
+ []
+
+
+Underfull \hbox (badness 4634) in paragraph at lines 2384--2385
+\OT1/ptm/m/n/10 Validators according to total gas received per
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 2389--2390
+[]\OT1/ptm/b/n/10 Developers \OT1/ptm/m/n/10 : Allocated for Viral Open Source
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 2391--2392
+[]\OT1/ptm/b/n/10 Crypto Back\OT1/ptm/m/n/10 : Similar to cash-back systems in
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 2393--2394
+[]\OT1/ptm/b/n/10 ROV \OT1/ptm/m/n/10 : Content Moderation community rewards
+ []
+
+<./assets/images/burn-chart.png, id=814, 2286.5425pt x 1237.62375pt>
+File: ./assets/images/burn-chart.png Graphic file (type png)
+<use ./assets/images/burn-chart.png>
+Package pdftex.def Info: ./assets/images/burn-chart.png  used on input line 239
+9.
+(pdftex.def)             Requested size: 227.62204pt x 123.20308pt.
+<./assets/images/revenue-distribution.png, id=815, 1885.0425pt x 1037.8775pt>
+File: ./assets/images/revenue-distribution.png Graphic file (type png)
+<use ./assets/images/revenue-distribution.png>
+Package pdftex.def Info: ./assets/images/revenue-distribution.png  used on inpu
+t line 2406.
+(pdftex.def)             Requested size: 227.62204pt x 125.31592pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2439--2440
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2440.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[47 <./assets/images/global-reward.png> <./assets/images/burn-chart.png> <./ass
+ets/images/revenue-distribution.png>]
+Underfull \hbox (badness 5939) in paragraph at lines 2441--2442
+\OT1/ptm/m/n/10 popular cryptocurrencies wrapped inside the viral
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 2441--2442
+\OT1/ptm/m/n/10 (one million trillion) accounts makes possibility of
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 2441--2442
+\OT1/ptm/m/n/10 users worldwide. As nano-transactions creates huge
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 2441--2442
+\OT1/ptm/m/n/10 manipulation resistance. Thus promising security of
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 2441--2442
 
  []
 
-
-Underfull \hbox (badness 5417) in paragraph at lines 2449--2450
-[]\OT1/ptm/m/n/10 To develop a truly decentralized company, the
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 2449--2450
-\OT1/ptm/m/n/10 as dividends, and for further new projects. Viral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2449--2450
-\OT1/ptm/m/n/10 on the decentralized platform who contributes
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 2449--2450
-\OT1/ptm/m/n/10 towards running the platform. It includes Users,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2449--2450
-
- []
-
-
-Underfull \hbox (badness 1635) in paragraph at lines 2451--2452
-\OT1/ptm/m/n/10 voting system or mathematically predicted points.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2451--2452
-
- []
-
-<./assets/images/global-reward.png, id=892, 2221.29875pt x 1058.95625pt>
-File: ./assets/images/global-reward.png Graphic file (type png)
-<use ./assets/images/global-reward.png>
-Package pdftex.def Info: ./assets/images/global-reward.png  used on input line 
-2456.
-(pdftex.def)             Requested size: 398.33858pt x 189.89293pt.
-
-Overfull \hbox (174.49014pt too wide) in paragraph at lines 2456--2457
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2453--2459
-
- []
-
-
-Underfull \hbox (badness 4403) in paragraph at lines 2462--2463
-[]\OT1/ptm/b/n/10 Blockchain Miners \OT1/ptm/m/n/10 : For Viral Multi-Chain
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 2462--2463
-\OT1/ptm/m/n/10 Validators according to total gas received per
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2463.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[49 <./assets/images/p2p-buy.jpg> <./assets/images/global-reward.png>]
-Underfull \hbox (badness 3209) in paragraph at lines 2466--2467
-[]\OT1/ptm/b/n/10 Social Users \OT1/ptm/m/n/10 : For Social Application users
- []
-
-
-Underfull \hbox (badness 3029) in paragraph at lines 2468--2469
-[]\OT1/ptm/b/n/10 Bounties \OT1/ptm/m/n/10 : Rewards for developers who can
- []
-
-<./assets/images/burn-chart.png, id=901, 2286.5425pt x 1237.62375pt>
-File: ./assets/images/burn-chart.png Graphic file (type png)
-<use ./assets/images/burn-chart.png>
-Package pdftex.def Info: ./assets/images/burn-chart.png  used on input line 247
-7.
-(pdftex.def)             Requested size: 284.52756pt x 154.00386pt.
-
-Overfull \hbox (60.67912pt too wide) in paragraph at lines 2477--2478
- [] 
- []
-
-<./assets/images/revenue-distribution.png, id=902, 1885.0425pt x 1037.8775pt>
-File: ./assets/images/revenue-distribution.png Graphic file (type png)
-<use ./assets/images/revenue-distribution.png>
-Package pdftex.def Info: ./assets/images/revenue-distribution.png  used on inpu
-t line 2484.
-(pdftex.def)             Requested size: 284.52756pt x 156.65678pt.
-
-Overfull \hbox (60.67912pt too wide) in paragraph at lines 2484--2485
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2518
-
- []
-
-
-Underfull \hbox (badness 5533) in paragraph at lines 2519--2520
-[]\OT1/ptm/m/n/10 Viral rewards are multi-token rewards that are
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2519--2520
-
- []
-
-<./assets/images/portfolio-reward.jpg, id=903, 2050.66125pt x 1306.8825pt>
+<./assets/images/portfolio-reward.jpg, id=838, 2050.66125pt x 1306.8825pt>
 File: ./assets/images/portfolio-reward.jpg Graphic file (type jpg)
 <use ./assets/images/portfolio-reward.jpg>
 Package pdftex.def Info: ./assets/images/portfolio-reward.jpg  used on input li
-ne 2523.
-(pdftex.def)             Requested size: 483.69687pt x 308.25409pt.
+ne 2445.
+(pdftex.def)             Requested size: 341.43306pt x 217.58057pt.
 
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 2523--2524
+Underfull \hbox (badness 1590) in paragraph at lines 2455--2456
+\OT1/ptm/m/n/10 variable and the platform's global variable. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2461--2462
+
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 2463--2465
+\OT1/ptm/m/n/10 the APPA algorithm which basically calculates the
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 2463--2465
+\OT1/ptm/m/n/10 To explain the APPA algorithm which includes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2463--2465
+
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 2465--2467
+\OT1/ptm/m/n/10 individual from the pool. Since Viral incorporates
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2465--2467
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2543--2550
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2554--2555
+
+ []
+
+
+Overfull \hbox (36.54483pt too wide) in paragraph at lines 2573--2574
  [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2527.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [50 <./assets/images/burn-chart.png> <./assets/images/revenue-distribution.png
->]
-Underfull \hbox (badness 10000) in paragraph at lines 2539--2540
-
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 2541--2542
-[]\OT1/ptm/m/n/10 As mentioned above in the paragraphs, the viral
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 2541--2542
-\OT1/ptm/m/n/10 Miners, Volunteers are requested to receive their
- []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 2541--2542
-\OT1/ptm/m/n/10 allocated rewards manually from the pools. The
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2541--2542
-
- []
-
-
-Underfull \hbox (badness 3601) in paragraph at lines 2543--2544
-[]\OT1/ptm/m/n/10 To explain the APPA algorithm which includes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2543--2544
-
- []
-
-
-Overfull \hbox (6.79898pt too wide) detected at line 2547
-[]\OML/cmm/m/it/10 Local Percentage\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^U[]\OT1/
-cmr/m/n/10 ) = [] \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 100
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2549--2550
-
- []
-
-
-Overfull \hbox (39.40219pt too wide) detected at line 2553
-[]\OML/cmm/m/it/10 Per \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Token Reward\OT1/c
-mr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2553--2554
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2618--2621
-
- []
-
-
-Overfull \hbox (47.3413pt too wide) detected at line 2622
-\OML/cmm/m/it/10 Local Percentage\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^U[]\OT1/cm
-r/m/n/10 ) = [] \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 100 = 0\OML/cmm/m/it/10 :\
-OT1/cmr/m/n/10 001%
- []
-
-
-Overfull \hbox (54.9052pt too wide) detected at line 2624
-\OML/cmm/m/it/10 Per \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Token Reward\OT1/cmr
-/m/n/10 (\OML/cmm/m/it/10 VRL\OT1/cmr/m/n/10 ) = [] = 0\OML/cmm/m/it/10 :\OT1/c
-mr/m/n/10 8 \OML/cmm/m/it/10 VRL
- []
-
-
-Overfull \hbox (51.76212pt too wide) detected at line 2625
-\OML/cmm/m/it/10 Per \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Token Reward\OT1/cmr
-/m/n/10 (\OML/cmm/m/it/10 BTC\OT1/cmr/m/n/10 ) = [] = 0\OML/cmm/m/it/10 :\OT1/c
-mr/m/n/10 005 \OML/cmm/m/it/10 BTC
- []
-
-
-Overfull \hbox (54.03009pt too wide) detected at line 2626
-\OML/cmm/m/it/10 Per \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Token Reward\OT1/cmr
-/m/n/10 (\OML/cmm/m/it/10 ETH\OT1/cmr/m/n/10 ) = [] = 0\OML/cmm/m/it/10 :\OT1/c
-mr/m/n/10 007 \OML/cmm/m/it/10 ETH
- []
-
-
-Overfull \hbox (53.2371pt too wide) detected at line 2627
-\OML/cmm/m/it/10 Per \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Token Reward\OT1/cmr
-/m/n/10 (\OML/cmm/m/it/10 SOL\OT1/cmr/m/n/10 ) = [] = 0\OML/cmm/m/it/10 :\OT1/c
-mr/m/n/10 012 \OML/cmm/m/it/10 SOL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2629--2636
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2637.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [51 <./assets/images/portfolio-reward.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2640--2641
-
- []
-
-
-Overfull \hbox (101.89099pt too wide) in paragraph at lines 2659--2660
- [] 
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 2664--2665
+Underfull \hbox (badness 3919) in paragraph at lines 2578--2579
 \OT1/ptm/m/n/10 Fixed Passive Claim. These different types offers
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 2664--2665
-\OT1/ptm/m/n/10 are given for past-day's contribution. Restricted
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 2664--2665
-\OT1/ptm/m/n/10 active-volunteers with smaller base and consistent
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 2664--2665
-\OT1/ptm/m/n/10 contribution towards the network i.e., Developers,
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 2664--2665
-\OT1/ptm/m/n/10 large portion of the pool while withdrawing and
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 2664--2665
-\OT1/ptm/m/n/10 also short-term recipients desire to withdraw and
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 2664--2665
-\OT1/ptm/m/n/10 compared to Dynamic Additive Claim where the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2664--2665
+Underfull \hbox (badness 10000) in paragraph at lines 2578--2579
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2665.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2579.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[52]
-<./assets/images/claim-rewards.jpg, id=987, 1936.23375pt x 2740.2375pt>
+[48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./assets/images/claim-rewards.jpg, id=844, 1936.23375pt x 2740.2375pt>
 File: ./assets/images/claim-rewards.jpg Graphic file (type jpg)
 <use ./assets/images/claim-rewards.jpg>
 Package pdftex.def Info: ./assets/images/claim-rewards.jpg  used on input line 
-2668.
+2582.
 (pdftex.def)             Requested size: 483.69687pt x 684.51414pt.
 
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 2668--2669
- [] 
+
+LaTeX Warning: Float too large for page by 25.28941pt on input line 2585.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2593--2594
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2598.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[49 <./assets/images/portfolio-reward.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2616--2617
+
+ []
+
+<./assets/images/burnpool.jpg, id=851, 1087.06125pt x 433.62pt>
+File: ./assets/images/burnpool.jpg Graphic file (type jpg)
+<use ./assets/images/burnpool.jpg>
+Package pdftex.def Info: ./assets/images/burnpool.jpg  used on input line 2621.
+
+(pdftex.def)             Requested size: 199.16928pt x 79.4443pt.
+
+Underfull \hbox (badness 2564) in paragraph at lines 2625--2626
+[]\OT1/ptm/m/n/10 Burning tokens represents permanently removing $\OML/cmm/m/it
+/10 x$
  []
 
 
-LaTeX Warning: Float too large for page by 25.28941pt on input line 2671.
+Underfull \hbox (badness 10000) in paragraph at lines 2625--2626
 
-
-Underfull \hbox (badness 5331) in paragraph at lines 2679--2680
-[]\OT1/ptm/m/n/10 30% of rewards from the global reward pool
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 2679--2680
-\OT1/ptm/m/n/10 is allocated to Application Users based on the
+Underfull \hbox (badness 10000) in paragraph at lines 2629--2630
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2630.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[50 <./assets/images/burnpool.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2631--2632
+
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 2679--2680
-\OT1/ptm/m/n/10 Impressions counts are agnostic to the type of
+Underfull \vbox (badness 1661) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2642--2643
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2647--2648
+
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 2651--2652
+\OT1/ptm/m/n/10 to ROV (Republic of Viral), a content moderation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2651--2652
+
+ []
+
+
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2652.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [51]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2652.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+
+[52 <./assets/images/claim-rewards.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2665--2666
+[]\OT1/ptm/m/n/10 A better-decentralized approach to centralized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2669--2670
+
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 2673--2674
+\OT1/ptm/m/n/10 decentralized network for storing media and data
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 2673--2674
+\OT1/ptm/m/n/10 decentralization of data, higher encryption, better
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2673--2674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2676
+
  []
 
 
@@ -5177,297 +4605,144 @@ Underfull \hbox (badness 10000) in paragraph at lines 2679--2680
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2680.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[53 <./assets/images/claim-rewards.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2702--2703
 
- []
-
-<./assets/images/burnpool.jpg, id=993, 1087.06125pt x 433.62pt>
-File: ./assets/images/burnpool.jpg Graphic file (type jpg)
-<use ./assets/images/burnpool.jpg>
-Package pdftex.def Info: ./assets/images/burnpool.jpg  used on input line 2707.
-
-(pdftex.def)             Requested size: 284.52756pt x 113.49281pt.
-
-Overfull \hbox (60.67912pt too wide) in paragraph at lines 2707--2708
- [] 
+Underfull \hbox (badness 2343) in paragraph at lines 2683--2684
+\OT1/ptm/m/n/10 Find Vulnerability Program (VFVP) is an intiative
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2711--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2683--2684
 
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 2715--2716
-\OT1/ptm/m/n/10 developers by making awareness about the POSI
- []
-
-
-Underfull \hbox (badness 2478) in paragraph at lines 2715--2716
-\OT1/ptm/m/n/10 safer, secure social media for the masses using
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2715--2716
-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 2717--2718
-\OT1/ptm/m/n/10 by their fellow developers inside the community.
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 2717--2718
-\OT1/ptm/m/n/10 decentralized, and autonomous to keep the social
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 2717--2718
-\OT1/ptm/m/n/10 a better world to developers expecting a reward
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 2717--2718
-\OT1/ptm/m/n/10 for their contribution and also engages a lot of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2717--2718
-
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 2728--2729
-\OT1/ptm/m/n/10 global variable specified per day. The allocation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2728--2729
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2733--2734
+Underfull \hbox (badness 10000) in paragraph at lines 2689--2690
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2735.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2691.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[54 <./assets/images/burnpool.jpg>]
-Underfull \hbox (badness 3471) in paragraph at lines 2737--2738
-\OT1/ptm/m/n/10 community for the Viral Decentralized platform.
+[53]
+Underfull \hbox (badness 1533) in paragraph at lines 2695--2696
+\OT1/ptm/m/n/10 on updating the protocols. Most de-fi organizations
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 2737--2738
-\OT1/ptm/m/n/10 content in a democratic nature considering every
+Underfull \hbox (badness 2644) in paragraph at lines 2695--2696
+\OT1/ptm/m/n/10 from offline-governance to vote and improve their
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 2737--2738
-\OT1/ptm/m/n/10 curator's vote. This method of democratic voting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2737--2738
+Underfull \hbox (badness 10000) in paragraph at lines 2695--2696
 
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 2751--2752
-[]\OT1/ptm/m/n/10 A better-decentralized approach to centralized
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2755--2756
+Underfull \hbox (badness 10000) in paragraph at lines 2697--2698
 
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 2759--2760
-\OT1/ptm/m/n/10 decentralized network for storing media and data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2759--2760
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2761--2762
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2765--2766
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2769--2770
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2775--2776
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2777.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[55]
-Underfull \hbox (badness 6493) in paragraph at lines 2781--2782
-\OT1/ptm/m/n/10 organizations have separate on-chain governance
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2781--2782
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2783--2784
-
- []
-
-
-Underfull \hbox (badness 3568) in paragraph at lines 2802--2803
+Underfull \hbox (badness 10000) in paragraph at lines 2716--2717
 \OT1/ptm/m/n/10 application comprising de-fi protocols requires a
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 2802--2803
-\OT1/ptm/m/n/10 decentralized autonomous organization (DAO) to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2802--2803
+Underfull \hbox (badness 10000) in paragraph at lines 2716--2717
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2805--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2719--2720
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2807--2811
+Underfull \hbox (badness 10000) in paragraph at lines 2721--2725
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2814--2815
+Underfull \hbox (badness 10000) in paragraph at lines 2727--2728
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2817--2843
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2860.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 2869--2870
-[]\OT1/ptm/b/n/10 Name of the
+Underfull \hbox (badness 3088) in paragraph at lines 2730--2756
+\OT1/ptm/m/n/10 How expenditure, revenue, profits and other basic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2869--2870
-\OT1/ptm/b/n/10 Utility-Token \OT1/ptm/m/n/10 :
+Underfull \hbox (badness 1688) in paragraph at lines 2730--2756
+\OT1/ptm/m/n/10 Detailed Explanation of each token, ratios, holding
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2870--2871
-[]\OT1/ptm/b/n/10 Ticker of the
+Underfull \hbox (badness 2894) in paragraph at lines 2730--2756
+\OT1/ptm/m/n/10 Decentralized Entity Affiliation and contribution to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2871--2872
-\OT1/ptm/m/n/10 : 5,000,000,000
+Underfull \hbox (badness 10000) in paragraph at lines 2730--2756
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2871--2872
-\OT1/ptm/m/n/10 Tokens will be
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2872--2873
-\OT1/ptm/m/n/10 : 5,000,000,000
- []
-
-
-Underfull \hbox (badness 7030) in paragraph at lines 2873--2874
-[]\OT1/ptm/b/n/10 Token Nature \OT1/ptm/m/n/10 :
- []
-
-<./assets/images/viral-coin-logo.png, id=1008, 140.05814pt x 140.05814pt>
+<./assets/images/viral-coin-logo.png, id=921, 140.05814pt x 140.05814pt>
 File: ./assets/images/viral-coin-logo.png Graphic file (type png)
 <use ./assets/images/viral-coin-logo.png>
 Package pdftex.def Info: ./assets/images/viral-coin-logo.png  used on input lin
-e 2878.
+e 2770.
 (pdftex.def)             Requested size: 71.13188pt x 71.13164pt.
-<./assets/images/token-distribution.png, id=1009, 2281.52374pt x 925.4575pt>
+<./assets/images/token-distribution.png, id=922, 2281.52374pt x 925.4575pt>
 File: ./assets/images/token-distribution.png Graphic file (type png)
 <use ./assets/images/token-distribution.png>
 Package pdftex.def Info: ./assets/images/token-distribution.png  used on input 
-line 2888.
-(pdftex.def)             Requested size: 483.69687pt x 196.2017pt.
+line 2777.
+(pdftex.def)             Requested size: 284.52756pt x 115.41359pt.
 
-Overfull \hbox (259.84843pt too wide) in paragraph at lines 2888--2889
+Overfull \hbox (51.67912pt too wide) in paragraph at lines 2777--2778
  [] 
  []
 
 
-Overfull \hbox (177.13919pt too wide) in paragraph at lines 2896--2906
+Overfull \hbox (168.13919pt too wide) in paragraph at lines 2786--2796
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2925--2926
+Underfull \hbox (badness 10000) in paragraph at lines 2815--2816
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2928--2929
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2931--2932
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2934--2935
+Underfull \hbox (badness 10000) in paragraph at lines 2818--2819
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2946.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2819.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[57 <./assets/images/viral-coin-logo.png> <./assets/images/token-distribution.p
+[54 <./assets/images/viral-coin-logo.png> <./assets/images/token-distribution.p
 ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 2950--2953
+Underfull \hbox (badness 10000) in paragraph at lines 2821--2822
 
  []
 
 
-Overfull \hbox (114.43945pt too wide) in paragraph at lines 2963--2974
+Underfull \hbox (badness 10000) in paragraph at lines 2824--2825
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2837--2840
+
+ []
+
+
+Overfull \hbox (105.43945pt too wide) in paragraph at lines 2850--2861
  [][] 
  []
 
@@ -5484,25 +4759,25 @@ Before submitting the final camera ready copy, remember to:
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 3028.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2915.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[58
+[55
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3028.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3028.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2915.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2915.
  (./Whitepaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3028.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3028.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2915.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2915.
 
 Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
-(rerunfilecheck)             Checksum: EECF55710A38DB974A9A74FBEF73864C;4464.
+(rerunfilecheck)             Checksum: 9999D998F518E6C4A1CC1D3D7E18FADF;3932.
  ) 
 Here is how much of TeX's memory you used:
- 39865 strings out of 481239
- 864284 string characters out of 5920377
- 1532815 words of memory out of 5000000
- 54057 multiletter control sequences out of 15000+600000
+ 39805 strings out of 481239
+ 863400 string characters out of 5920377
+ 1533812 words of memory out of 5000000
+ 54051 multiletter control sequences out of 15000+600000
  572417 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  174i,14n,204p,2445b,2582s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5514,9 +4789,6 @@ pdfTeX warning (dest): name{https://wiki.iota.org/smart-contracts/overview} has
 
 pdfTeX warning (dest): name{https://files.iota.org/papers/ISC_WP_Nov_10_2021.pd
 f} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{https://youtu.be/-SiLnaSDkh4} has been referenced b
-ut does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{https://sample.com} has been referenced but does no
 t exist, replaced by a fixed one
@@ -5541,10 +4813,10 @@ are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Whitepaper.pdf (58 pages, 6406755 bytes).
+Output written on Whitepaper.pdf (55 pages, 6409255 bytes).
 PDF statistics:
- 1200 PDF objects out of 1200 (max. 8388607)
- 1051 compressed objects within 11 object streams
- 482 named destinations out of 1000 (max. 500000)
- 771 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1103 PDF objects out of 1200 (max. 8388607)
+ 958 compressed objects within 10 object streams
+ 428 named destinations out of 1000 (max. 500000)
+ 731 words of extra memory for PDF output out of 10000 (max. 10000000)
 
