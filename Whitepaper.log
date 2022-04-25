@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.23)  23 APR 2022 06:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.23)  25 APR 2022 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -571,6 +571,9 @@ Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \tcb@out=\write5
 \tcb@record@out=\write6
 )
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
@@ -691,7 +694,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+Package hyperref Info: Option `colorlinks' set `true' on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count325
@@ -1062,25 +1065,29 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 ))
 \Lnote=\skip71
 
+
+LaTeX Warning: Unused global option(s):
+    [9pt].
+
 (./Whitepaper.aux)
 \openout1 = `Whitepaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1140,7 +1147,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box145
-Package hyperref Info: Link coloring ON on input line 105.
+Package hyperref Info: Link coloring ON on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1153,9 +1160,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count383
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
 
 (./Whitepaper.out) (./Whitepaper.out)
 \@outlinefile=\write8
@@ -1165,10 +1172,10 @@ LaTeX Info: Redefining \nameref on input line 105.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Whitepaper.toc
-<./assets/images/logo.png, id=317, 174.6525pt x 176.66pt>
+<./assets/images/logo.png, id=310, 174.6525pt x 176.66pt>
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 45.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 38.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
  [2 <./assets/images/logo.png>])
 \tf@toc=\write9
@@ -1176,36 +1183,31 @@ Package pdftex.def Info: ./assets/images/logo.png  used on input line 45.
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 119.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 121.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 128--143
+Underfull \hbox (badness 10000) in paragraph at lines 130--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--149
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 173.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 166.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [4]
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 173.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 175.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
  [5]
-Overfull \hbox (14.0089pt too wide) in paragraph at lines 176--177
+Overfull \hbox (14.0089pt too wide) in paragraph at lines 178--179
 \OT1/cmr/m/n/10 Viral is a Next-Gen Social Media platform bridging interactive 
 media, NFTs, and blockchain technologies\OT1/cmr/m/sc/10 ^^M
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
  []
 
 
@@ -1214,20 +1216,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
  []
 
 
-Overfull \hbox (1.00206pt too wide) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Overfull \hbox (1.00206pt too wide) in paragraph at lines 227--227
  \OT1/cmr/m/n/8 Community 
- []
-
-
-Overfull \hbox (25.98068pt too wide) in paragraph at lines 242--243
-[]\OT1/cmr/bx/n/10 Viral Bridge\OT1/cmr/m/n/10 : Interopability of various majo
-r cryotocurrencies by wrapping tokens decentralized
- []
-
-
-Overfull \hbox (11.29317pt too wide) in paragraph at lines 243--244
-[]\OT1/cmr/bx/n/10 Horizontal Chains\OT1/cmr/m/n/10 : Additional of New Chains 
-anchored to IOTA Tangle that communicates
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
@@ -1235,28 +1230,35 @@ File: ./assets/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 244.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [6]
-Overfull \hbox (13.11185pt too wide) in paragraph at lines 252--253
+Overfull \hbox (25.98068pt too wide) in paragraph at lines 244--245
+[]\OT1/cmr/bx/n/10 Viral Bridge\OT1/cmr/m/n/10 : Interopability of various majo
+r cryotocurrencies by wrapping tokens decentralized
+ []
+
+
+Overfull \hbox (11.29317pt too wide) in paragraph at lines 245--246
+[]\OT1/cmr/bx/n/10 Horizontal Chains\OT1/cmr/m/n/10 : Additional of New Chains 
+anchored to IOTA Tangle that communicates
+ []
+
+
+Overfull \hbox (13.11185pt too wide) in paragraph at lines 254--255
 []\OT1/cmr/bx/n/10 Viral DEX-Decentralized Exchange\OT1/cmr/m/n/10 : Automated 
 Market Making Protocol for exchanging
  []
 
 
-Overfull \hbox (8.81525pt too wide) in paragraph at lines 258--259
+Overfull \hbox (8.81525pt too wide) in paragraph at lines 260--261
 []\OT1/cmr/bx/n/10 Child Platforms\OT1/cmr/m/n/10 : Independent platforms ancho
 red to the viral network for effective improvement
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 277.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 279.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
@@ -1265,19 +1267,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 299.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[8]
-Overfull \hbox (10.55972pt too wide) in paragraph at lines 302--303
-[]\OT1/cmr/m/n/10 Thoughts are \OT1/cmr/bx/n/10 text-based sharing \OT1/cmr/m/n
-/10 for micro-blogging. Attach photos, long/short videos, documents,
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 291.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[8]
+Overfull \hbox (10.55972pt too wide) in paragraph at lines 304--305
+[]\OT1/cmr/m/n/10 Thoughts are \OT1/cmr/bx/n/10 text-based sharing \OT1/cmr/m/n
+/10 for micro-blogging. Attach photos, long/short videos, documents,
  []
 
 
@@ -1285,7 +1287,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 335.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
@@ -1305,17 +1311,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 341--342
 
  []
 
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 347.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 349.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 349.
 
 Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
@@ -1342,22 +1344,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 375.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 377--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
@@ -1382,32 +1388,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 392--393
  []
 
 
-Overfull \hbox (7.16992pt too wide) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+
+ []
+
+
+Overfull \hbox (7.16992pt too wide) in paragraph at lines 397--398
 []\OT1/cmr/m/n/10 Decentralized \OT1/cmr/bx/n/10 Live Video Events and Audio Ro
 oms using Avatars \OT1/cmr/m/n/10 (or) Normal Cams. Celebrities
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 403.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
@@ -1427,31 +1429,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--414
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--419
-
- []
-
-<./assets/images/tips.jpeg, id=449, 1444.39626pt x 833.1125pt>
-File: ./assets/images/tips.jpeg Graphic file (type jpg)
-<use ./assets/images/tips.jpeg>
-Package pdftex.def Info: ./assets/images/tips.jpeg  used on input line 423.
-(pdftex.def)             Requested size: 438.17245pt x 252.73238pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--425
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 426.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 416.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 417--421
+
+ []
+
+<./assets/images/tips.jpeg, id=453, 1444.39626pt x 833.1125pt>
+File: ./assets/images/tips.jpeg Graphic file (type jpg)
+<use ./assets/images/tips.jpeg>
+Package pdftex.def Info: ./assets/images/tips.jpeg  used on input line 425.
+(pdftex.def)             Requested size: 438.17245pt x 252.73238pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--427
 
  []
 
@@ -1460,19 +1462,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
-<./assets/images/privacygroups.jpeg, id=454, 912.40875pt x 140.525pt>
-File: ./assets/images/privacygroups.jpeg Graphic file (type jpg)
-<use ./assets/images/privacygroups.jpeg>
-Package pdftex.def Info: ./assets/images/privacygroups.jpeg  used on input line
- 462.
-(pdftex.def)             Requested size: 438.17245pt x 67.48338pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 462.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[12 <./assets/images/tips.jpeg>]
+<./assets/images/privacygroups.jpeg, id=460, 912.40875pt x 140.525pt>
+File: ./assets/images/privacygroups.jpeg Graphic file (type jpg)
+<use ./assets/images/privacygroups.jpeg>
+Package pdftex.def Info: ./assets/images/privacygroups.jpeg  used on input line
+ 464.
+(pdftex.def)             Requested size: 438.17245pt x 67.48338pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
 
  []
 
@@ -1482,16 +1489,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 481--482
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 486.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[12 <./assets/images/tips.jpeg> <./assets/images/privacygroups.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 
  []
 
@@ -1506,70 +1509,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 499--500
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
-<./assets/images/aes.png, id=462, 3222.0375pt x 1375.1375pt>
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 502.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[13 <./assets/images/privacygroups.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+
+ []
+
+<./assets/images/aes.png, id=471, 3222.0375pt x 1375.1375pt>
 File: ./assets/images/aes.png Graphic file (type png)
 <use ./assets/images/aes.png>
-Package pdftex.def Info: ./assets/images/aes.png  used on input line 509.
+Package pdftex.def Info: ./assets/images/aes.png  used on input line 511.
 (pdftex.def)             Requested size: 284.52756pt x 121.42793pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--515
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
+
+ []
+
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 517.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 523.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[13 <./assets/images/aes.png>]
-Overfull \hbox (2.67102pt too wide) in paragraph at lines 521--522
+[14 <./assets/images/aes.png>]
+Overfull \hbox (2.67102pt too wide) in paragraph at lines 523--524
 \OT1/cmr/m/n/10 weaken the security of symmetric cryptographic algorithms, such
  as Advanced Encryption Standard
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 
  []
 
-<./assets/images/encryption.jpg, id=474, 1385.175pt x 1752.5475pt>
+<./assets/images/encryption.jpg, id=479, 1385.175pt x 1752.5475pt>
 File: ./assets/images/encryption.jpg Graphic file (type jpg)
 <use ./assets/images/encryption.jpg>
-Package pdftex.def Info: ./assets/images/encryption.jpg  used on input line 529
+Package pdftex.def Info: ./assets/images/encryption.jpg  used on input line 531
 .
 (pdftex.def)             Requested size: 227.62204pt x 287.98123pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 533.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 541.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[14]
+[15 <./assets/images/encryption.jpg>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 546.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 551.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [15 <./assets/images/encryption.jpg>]
+nput line 548.
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-552.
+554.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--565
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
 
  []
 
@@ -1577,58 +1584,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 564--565
 File: ./assets/images/decryption-private.jpg Graphic file (type jpg)
 <use ./assets/images/decryption-private.jpg>
 Package pdftex.def Info: ./assets/images/decryption-private.jpg  used on input 
-line 568.
+line 570.
 (pdftex.def)             Requested size: 227.62204pt x 363.41098pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 575.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 574.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[16 <./assets/images/decryption-private.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
 
  []
 
-<./assets/images/decryption-public.jpg, id=504, 1210.5225pt x 2062.70625pt>
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 587.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[17 <./assets/images/decryption-private.jpg>]
+<./assets/images/decryption-public.jpg, id=508, 1210.5225pt x 2062.70625pt>
 File: ./assets/images/decryption-public.jpg Graphic file (type jpg)
 <use ./assets/images/decryption-public.jpg>
 Package pdftex.def Info: ./assets/images/decryption-public.jpg  used on input l
-ine 588.
+ine 590.
 (pdftex.def)             Requested size: 227.62204pt x 387.85808pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
+
+ []
+
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 592.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 596.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 593--594
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 596--597
-
- []
-
-
+[18 <./assets/images/decryption-public.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 598--599
 
  []
 
-<./assets/images/chat.jpg, id=509, 4004.9625pt x 1890.06125pt>
-File: ./assets/images/chat.jpg Graphic file (type jpg)
-<use ./assets/images/chat.jpg>
-Package pdftex.def Info: ./assets/images/chat.jpg  used on input line 602.
-(pdftex.def)             Requested size: 256.0748pt x 120.8395pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 606.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[18 <./assets/images/decryption-public.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 607--608
+
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 
  []
 
+<./assets/images/chat.jpg, id=514, 4004.9625pt x 1890.06125pt>
+File: ./assets/images/chat.jpg Graphic file (type jpg)
+<use ./assets/images/chat.jpg>
+Package pdftex.def Info: ./assets/images/chat.jpg  used on input line 604.
+(pdftex.def)             Requested size: 256.0748pt x 120.8395pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 
  []
 
@@ -1647,13 +1650,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 627--628
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 628.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[19 <./assets/images/chat.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--634
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
@@ -1662,22 +1669,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 635--636
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 636.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[19 <./assets/images/chat.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 638.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [20]
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 652--653
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 640.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
@@ -1691,17 +1693,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 656--657
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 664.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
+
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 661.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 668--669
 
  []
 
@@ -1710,21 +1712,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 672--673
 
  []
 
-<./assets/images/Architecture.jpg, id=535, 2825.55624pt x 2444.13126pt>
-File: ./assets/images/Architecture.jpg Graphic file (type jpg)
-<use ./assets/images/Architecture.jpg>
-Package pdftex.def Info: ./assets/images/Architecture.jpg  used on input line 6
-93.
-(pdftex.def)             Requested size: 438.17245pt x 379.0229pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 696.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 681.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[22]
+<./assets/images/Architecture.jpg, id=542, 2825.55624pt x 2444.13126pt>
+File: ./assets/images/Architecture.jpg Graphic file (type jpg)
+<use ./assets/images/Architecture.jpg>
+Package pdftex.def Info: ./assets/images/Architecture.jpg  used on input line 6
+95.
+(pdftex.def)             Requested size: 438.17245pt x 379.0229pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 699--700
 
@@ -1736,13 +1739,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 701--702
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+Underfull \hbox (badness 10000) in paragraph at lines 703--704
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 708.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 704.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [23 <./assets/images/Architecture.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 708--709
@@ -1750,12 +1753,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 708--709
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 729--730
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--735
+Underfull \hbox (badness 10000) in paragraph at lines 731--732
 
  []
 
@@ -1769,7 +1772,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 739.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 740--741
 
  []
@@ -1790,12 +1797,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 746--747
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 749--750
+Underfull \hbox (badness 10000) in paragraph at lines 748--749
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 755--756
+Underfull \hbox (badness 10000) in paragraph at lines 751--752
 
  []
 
@@ -1804,11 +1811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 757--758
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 758.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[24]
+
 Underfull \hbox (badness 10000) in paragraph at lines 759--760
 
  []
@@ -1824,101 +1827,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 763--764
  []
 
 
-Overfull \hbox (3.2172pt too wide) in paragraph at lines 765--766
+Underfull \hbox (badness 10000) in paragraph at lines 765--766
+
+ []
+
+
+Overfull \hbox (3.2172pt too wide) in paragraph at lines 767--768
 \OT1/cmr/m/n/10 separate zero-fee chains for deploying ERC721 and ERC1155 Token
  directly from the Viral Application.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--766
+Underfull \hbox (badness 10000) in paragraph at lines 767--768
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 806.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 768.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 816--817
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 824--825
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 826--827
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 830--831
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 832--833
+Underfull \hbox (badness 10000) in paragraph at lines 816--846
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 833.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 846.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 836--837
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 838--839
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 842--843
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 846--847
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 848--849
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 850--851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
 
  []
 
@@ -1932,7 +1870,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 856--857
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 857.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 858--859
 
  []
@@ -1942,11 +1884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 860--861
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 862.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[27]
+
 Underfull \hbox (badness 10000) in paragraph at lines 862--863
 
  []
@@ -1962,120 +1900,178 @@ Underfull \hbox (badness 10000) in paragraph at lines 866--867
  []
 
 
-Overfull \hbox (18.16167pt too wide) in paragraph at lines 873--874
+Underfull \hbox (badness 10000) in paragraph at lines 868--869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 872--873
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 873.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 882--883
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 886--887
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--891
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--893
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 894--895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 896--897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 900.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
+
+ []
+
+
+Overfull \hbox (18.16167pt too wide) in paragraph at lines 907--908
 \OT1/cmr/m/n/10 From early days of bitcoin, crypto wallets serves the one-stop 
 solution to hold and transfer cryptocurrencies
  []
 
 
-Overfull \hbox (28.48566pt too wide) in paragraph at lines 895--896
+Overfull \hbox (28.48566pt too wide) in paragraph at lines 929--930
 []\OT1/cmr/m/n/10 Wallets are classified into centralized custodial wallets and
  decentralized non-custodial wallets. Decentralized
  []
 
 
-Overfull \hbox (3.60611pt too wide) in paragraph at lines 895--896
+Overfull \hbox (3.60611pt too wide) in paragraph at lines 929--930
 \OT1/cmr/m/n/10 wallets offer high security and total freedom, while custodial 
 wallets in exchanges comply to regulations.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--896
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
 
  []
 
 
-Overfull \hbox (5.81148pt too wide) in paragraph at lines 906--907
+Overfull \hbox (5.81148pt too wide) in paragraph at lines 940--941
 []\OT1/cmr/bx/n/10 Less Secure than Cold Wallet \OT1/cmr/m/n/10 : Hot wallets a
 re connected to internet which leaves a vulnerability
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
+Underfull \hbox (badness 10000) in paragraph at lines 944--945
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 913.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 946.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 914--915
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 918.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 952.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[29]
-Overfull \hbox (2.80054pt too wide) in paragraph at lines 922--923
+[31]
+Overfull \hbox (2.80054pt too wide) in paragraph at lines 956--957
 \OT1/cmr/m/n/10 peer cryptocurrency transactions to take place online securely 
 and without the need for an intermediary
  []
 
 
-Overfull \hbox (11.2913pt too wide) in paragraph at lines 922--923
+Overfull \hbox (11.2913pt too wide) in paragraph at lines 956--957
 \OT1/cmr/m/n/10 smart contracts (code). They establish the prices of various cr
 yptocurrencies against each algorithmically
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--923
+Underfull \hbox (badness 10000) in paragraph at lines 956--957
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 958--959
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 926--927
+Underfull \hbox (badness 10000) in paragraph at lines 960--961
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 942.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 973.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 945--946
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 979--980
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--948
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 951--952
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 953--954
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--983
+Underfull \hbox (badness 10000) in paragraph at lines 981--982
 
  []
 
@@ -2084,58 +2080,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 985--986
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 986.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[31]
+
 Underfull \hbox (badness 10000) in paragraph at lines 987--988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 989--990
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 993--994
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 995--996
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 997--998
-
- []
-
-
-Overfull \hbox (20.71715pt too wide) in paragraph at lines 999--1000
-[]\OT1/cmr/m/n/10 Decentralized exchanges suffer greater scalability issues dur
-ing frequent network congestions of blockchains.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1000
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
+Underfull \hbox (badness 10000) in paragraph at lines 998--999
 
  []
 
@@ -2143,61 +2094,116 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1004.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[32]
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1028.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1032
+
+ []
+
+
+Overfull \hbox (20.71715pt too wide) in paragraph at lines 1033--1034
+[]\OT1/cmr/m/n/10 Decentralized exchanges suffer greater scalability issues dur
+ing frequent network congestions of blockchains.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
 
  []
 
-<./assets/images/dex.png, id=645, 558.085pt x 556.0775pt>
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1067.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1070
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1073
+
+ []
+
+<./assets/images/dex.png, id=657, 558.085pt x 556.0775pt>
 File: ./assets/images/dex.png Graphic file (type png)
 <use ./assets/images/dex.png>
-Package pdftex.def Info: ./assets/images/dex.png  used on input line 1042.
+Package pdftex.def Info: ./assets/images/dex.png  used on input line 1076.
 (pdftex.def)             Requested size: 199.16928pt x 198.4483pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1046.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1122--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1123.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1107.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[34 <./assets/images/dex.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+[36 <./assets/images/dex.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1109--1110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1141--1142
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
 
  []
 
@@ -2207,80 +2213,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1170.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1168.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 1170--1172
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
+Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1200--1201
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1210--1211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1214--1215
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1217.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1204.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1252--1253
+Underfull \hbox (badness 10000) in paragraph at lines 1207--1208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
+Underfull \hbox (badness 10000) in paragraph at lines 1227--1228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1247
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1247.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1249
 
  []
 
@@ -2301,89 +2311,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 1288--1289
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1289.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1316.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1294--1295
+Underfull \hbox (badness 10000) in paragraph at lines 1322--1323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1348--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
 
  []
 
 
-Overfull \hbox (4.86984pt too wide) in paragraph at lines 1382--1382
- []|\OT1/cmr/m/n/10 0.78125%| 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1329
 
-
-Overfull \hbox (4.86984pt too wide) in paragraph at lines 1382--1382
- []|\OT1/cmr/m/n/10 0.78125%| 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1386.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1378.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 1387--1388
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1389--1390
+Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1391--1392
+Overfull \hbox (4.86984pt too wide) in paragraph at lines 1416--1416
+ []|\OT1/cmr/m/n/10 0.78125%| 
+ []
+
+
+Overfull \hbox (4.86984pt too wide) in paragraph at lines 1416--1416
+ []|\OT1/cmr/m/n/10 0.78125%| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1422
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1393--1394
-
- []
-
-<./assets/images/timeperiod-pools.jpg, id=695, 4173.5925pt x 1728.4575pt>
-File: ./assets/images/timeperiod-pools.jpg Graphic file (type jpg)
-<use ./assets/images/timeperiod-pools.jpg>
-Package pdftex.def Info: ./assets/images/timeperiod-pools.jpg  used on input li
-ne 1399.
-(pdftex.def)             Requested size: 438.17245pt x 181.45383pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1403.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[39]
 Underfull \hbox (badness 10000) in paragraph at lines 1423--1424
 
  []
 
-
-Overfull \hbox (9.85507pt too wide) in paragraph at lines 1425--1426
-[]\OT1/cmr/m/n/10 Traders typically use DEX agregator softwares and application
-s to run complex mathematical algorithms
- []
-
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1424.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
 
  []
@@ -2393,29 +2391,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
 
  []
 
-<./assets/images/dex-algorithm.jpg, id=701, 2356.805pt x 3324.42pt>
-File: ./assets/images/dex-algorithm.jpg Graphic file (type jpg)
-<use ./assets/images/dex-algorithm.jpg>
-Package pdftex.def Info: ./assets/images/dex-algorithm.jpg  used on input line 
-1431.
-(pdftex.def)             Requested size: 398.33858pt x 561.84671pt.
+<./assets/images/timeperiod-pools.jpg, id=713, 4173.5925pt x 1728.4575pt>
+File: ./assets/images/timeperiod-pools.jpg Graphic file (type jpg)
+<use ./assets/images/timeperiod-pools.jpg>
+Package pdftex.def Info: ./assets/images/timeperiod-pools.jpg  used on input li
+ne 1433.
+(pdftex.def)             Requested size: 438.17245pt x 181.45383pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1435.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1456.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[40 <./assets/images/timeperiod-pools.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1440.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [41 <./assets/images/dex-algorithm.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1449--1451
+[43 <./assets/images/timeperiod-pools.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1456--1458
-
+Overfull \hbox (9.85507pt too wide) in paragraph at lines 1459--1460
+[]\OT1/cmr/m/n/10 Traders typically use DEX agregator softwares and application
+s to run complex mathematical algorithms
  []
 
 
@@ -2428,176 +2422,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 1461--1462
 
  []
 
+<./assets/images/dex-algorithm.jpg, id=720, 2356.805pt x 3324.42pt>
+File: ./assets/images/dex-algorithm.jpg Graphic file (type jpg)
+<use ./assets/images/dex-algorithm.jpg>
+Package pdftex.def Info: ./assets/images/dex-algorithm.jpg  used on input line 
+1465.
+(pdftex.def)             Requested size: 398.33858pt x 561.84671pt.
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1469.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[44]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1473.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [45 <./assets/images/dex-algorithm.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1483--1485
 
-Underfull \hbox (badness 10000) in paragraph at lines 1463--1464
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1493--1494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1495--1496
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1464.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1496.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[42]
-<./assets/images/reserve-pool-1.jpg, id=721, 3049.3925pt x 1215.54124pt>
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 1497--1498
+
+ []
+
+<./assets/images/reserve-pool-1.jpg, id=738, 3049.3925pt x 1215.54124pt>
 File: ./assets/images/reserve-pool-1.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-1.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-1.jpg  used on input line
- 1467.
+ 1501.
 (pdftex.def)             Requested size: 369.88582pt x 147.4352pt.
-<./assets/images/reserve-pool-2.jpg, id=722, 3098.57625pt x 1222.5675pt>
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1516.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[47 <./assets/images/reserve-pool-1.jpg>]
+<./assets/images/reserve-pool-2.jpg, id=746, 3098.57625pt x 1222.5675pt>
 File: ./assets/images/reserve-pool-2.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-2.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-2.jpg  used on input line
- 1486.
+ 1520.
 (pdftex.def)             Requested size: 369.88582pt x 145.93692pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1525--1526
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1528--1529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1530--1531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1533--1534
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1536
+
+ []
+
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1490.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1536.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [43 <./assets/images/reserve-pool-1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1491--1492
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1494--1495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1499--1500
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1501--1502
-
- []
-
-<./assets/images/dex-fee.jpg, id=732, 1294.8375pt x 674.52pt>
+[48 <./assets/images/reserve-pool-2.jpg>]
+<./assets/images/dex-fee.jpg, id=753, 1294.8375pt x 674.52pt>
 File: ./assets/images/dex-fee.jpg Graphic file (type jpg)
 <use ./assets/images/dex-fee.jpg>
-Package pdftex.def Info: ./assets/images/dex-fee.jpg  used on input line 1505.
+Package pdftex.def Info: ./assets/images/dex-fee.jpg  used on input line 1539.
 (pdftex.def)             Requested size: 256.0748pt x 133.39893pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1509.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[44 <./assets/images/reserve-pool-2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1518--1519
+
+Underfull \hbox (badness 10000) in paragraph at lines 1552--1553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1520--1526
+Underfull \hbox (badness 10000) in paragraph at lines 1554--1560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1527--1532
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1566
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1534--1535
+Underfull \hbox (badness 10000) in paragraph at lines 1568--1569
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1537
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1571
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1539--1540
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1541--1542
+Underfull \hbox (badness 10000) in paragraph at lines 1573--1574
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1566.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1574.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[45 <./assets/images/dex-fee.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1567--1568
+[49 <./assets/images/dex-fee.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1575--1576
 
  []
 
-<./assets/images/reserve-pool-4.jpg, id=746, 1457.445pt x 1078.0275pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1601--1602
+
+ []
+
+<./assets/images/reserve-pool-4.jpg, id=763, 1457.445pt x 1078.0275pt>
 File: ./assets/images/reserve-pool-4.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-4.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-4.jpg  used on input line
- 1579.
+ 1613.
 (pdftex.def)             Requested size: 369.88582pt x 273.58565pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1586.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1617.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[46 <./assets/images/reserve-pool-4.jpg>]
+[50]
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1599.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1628.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [47]
-Underfull \hbox (badness 10000) in paragraph at lines 1603--1604
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1605--1606
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1616--1617
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1618--1619
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1620--1621
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1622--1623
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1624--1625
-
- []
-
+ [51 <./assets/images/reserve-pool-4.jpg>]
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1626.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1633.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1627
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1628--1629
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
+ [52]
+Underfull \hbox (badness 10000) in paragraph at lines 1637--1638
 
  []
 
@@ -2606,191 +2592,181 @@ Underfull \hbox (badness 10000) in paragraph at lines 1639--1640
 
  []
 
-<./assets/images/user-deposit.png, id=777, 830.10126pt x 485.815pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1650--1651
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1652--1653
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1654--1655
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1657
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1657.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 1658--1659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1660--1661
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1662--1663
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1664--1665
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1670.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1674
+
+ []
+
+<./assets/images/user-deposit.png, id=804, 830.10126pt x 485.815pt>
 File: ./assets/images/user-deposit.png Graphic file (type png)
 <use ./assets/images/user-deposit.png>
 Package pdftex.def Info: ./assets/images/user-deposit.png  used on input line 1
-643.
+677.
 (pdftex.def)             Requested size: 284.52756pt x 166.51665pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1647.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1699
+
+Underfull \hbox (badness 10000) in paragraph at lines 1732--1733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1700--1701
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1708--1709
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1710--1711
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1716.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1739.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[50 <./assets/images/user-deposit.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1719--1720
+[55 <./assets/images/user-deposit.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1742--1743
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1721--1722
+Underfull \hbox (badness 10000) in paragraph at lines 1744--1745
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1745--1746
+Underfull \hbox (badness 10000) in paragraph at lines 1753--1754
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1747--1748
+Underfull \hbox (badness 10000) in paragraph at lines 1755--1756
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1765--1766
+Underfull \hbox (badness 10000) in paragraph at lines 1779--1780
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1767--1768
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1782
 
  []
 
-<./assets/images/custodian.png, id=795, 560.0925pt x 246.1998pt>
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1783.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1799--1800
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1801--1802
+
+ []
+
+<./assets/images/custodian.png, id=823, 560.0925pt x 246.1998pt>
 File: ./assets/images/custodian.png Graphic file (type png)
 <use ./assets/images/custodian.png>
-Package pdftex.def Info: ./assets/images/custodian.png  used on input line 1771
+Package pdftex.def Info: ./assets/images/custodian.png  used on input line 1805
 .
 (pdftex.def)             Requested size: 438.17245pt x 192.61359pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1775.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1783
+
+Underfull \hbox (badness 10000) in paragraph at lines 1810--1817
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1783
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1784--1785
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1786--1787
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1791--1792
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1802--1803
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1804--1805
+Underfull \hbox (badness 10000) in paragraph at lines 1810--1817
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1805.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1817.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[52 <./assets/images/custodian.png>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1806.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [53]
-Underfull \hbox (badness 10000) in paragraph at lines 1815--1816
+[57 <./assets/images/custodian.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1818--1819
 
  []
 
 
-Overfull \hbox (10.37473pt too wide) in paragraph at lines 1817--1818
-\OT1/cmr/m/n/10 employ moderators based on contracts whereas small platforms em
-ploy moderators full time. Automated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1817--1818
+Underfull \hbox (badness 10000) in paragraph at lines 1820--1821
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1826--1827
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1827.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1826
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1830--1831
+Underfull \hbox (badness 10000) in paragraph at lines 1836--1837
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1832--1833
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1834--1835
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1843--1844
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1845--1846
+Underfull \hbox (badness 10000) in paragraph at lines 1838--1839
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1846.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1840.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 1847--1848
-
- []
-
-
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 1849--1850
 
+ []
+
+
+Overfull \hbox (10.37473pt too wide) in paragraph at lines 1851--1852
+\OT1/cmr/m/n/10 employ moderators based on contracts whereas small platforms em
+ploy moderators full time. Automated
  []
 
 
@@ -2798,209 +2774,217 @@ Underfull \hbox (badness 10000) in paragraph at lines 1851--1852
 
  []
 
-<./assets/images/content-removal.jpg, id=839, 2135.98pt x 1224.575pt>
-File: ./assets/images/content-removal.jpg Graphic file (type jpg)
-<use ./assets/images/content-removal.jpg>
-Package pdftex.def Info: ./assets/images/content-removal.jpg  used on input lin
-e 1855.
-(pdftex.def)             Requested size: 341.43306pt x 195.73045pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1869--1870
+Underfull \hbox (badness 10000) in paragraph at lines 1860--1861
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1870.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1861.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[56 <./assets/images/content-removal.jpg>]
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1862--1863
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1864--1865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1866--1867
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1868--1869
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1869.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 1877--1878
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1879--1880
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1881--1882
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1883--1884
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1901--1902
+Underfull \hbox (badness 10000) in paragraph at lines 1885--1886
 
  []
 
-<./assets/images/rov-poll.jpg, id=845, 1670.24pt x 1967.35pt>
+<./assets/images/content-removal.jpg, id=856, 2135.98pt x 1224.575pt>
+File: ./assets/images/content-removal.jpg Graphic file (type jpg)
+<use ./assets/images/content-removal.jpg>
+Package pdftex.def Info: ./assets/images/content-removal.jpg  used on input lin
+e 1889.
+(pdftex.def)             Requested size: 341.43306pt x 195.73045pt.
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1893.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 1903--1904
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1915.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[62 <./assets/images/content-removal.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1918
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1935--1936
+
+ []
+
+<./assets/images/rov-poll.jpg, id=870, 1670.24pt x 1967.35pt>
 File: ./assets/images/rov-poll.jpg Graphic file (type jpg)
 <use ./assets/images/rov-poll.jpg>
-Package pdftex.def Info: ./assets/images/rov-poll.jpg  used on input line 1916.
+Package pdftex.def Info: ./assets/images/rov-poll.jpg  used on input line 1950.
 
 (pdftex.def)             Requested size: 284.52756pt x 335.13553pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1920.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1954.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 1921--1922
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 1955--1956
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1924
+Underfull \hbox (badness 10000) in paragraph at lines 1957--1958
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1925--1926
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1938--1939
+Underfull \hbox (badness 10000) in paragraph at lines 1959--1960
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1939.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1969.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[58 <./assets/images/rov-poll.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1940--1941
+[64 <./assets/images/rov-poll.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1972--1973
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1942--1943
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1975
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1944--1945
+Underfull \hbox (badness 10000) in paragraph at lines 1976--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1946--1947
+Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1948--1949
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1981
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1967
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1975--1976
+Underfull \hbox (badness 10000) in paragraph at lines 1982--1983
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1977.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1997.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 1977--1978
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1979--1981
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1983--1984
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1987--1988
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1989--1990
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1991--1992
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1993--1994
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1995--1996
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1997--1998
-
- []
-
-
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 2000--2001
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2002--2003
+Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2011--2012
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2013--2015
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2017--2018
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2019--2020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2021--2022
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2023--2024
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2025--2026
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2028
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2004.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2028.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 2008--2009
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 2029--2030
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2010--2011
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2012--2013
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2014--2015
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2016--2017
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2022.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 2028--2029
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2030--2031
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2032--2033
+Underfull \hbox (badness 10000) in paragraph at lines 2031--2032
 
  []
 
@@ -3014,167 +2998,181 @@ Underfull \hbox (badness 10000) in paragraph at lines 2036--2037
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2039--2040
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2038.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 2042--2043
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2041--2042
+Underfull \hbox (badness 10000) in paragraph at lines 2044--2045
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2046--2047
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2050--2051
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2042.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2051.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 2062--2063
 
  []
 
-<./assets/images/git-int.jpg, id=890, 1047.915pt x 305.14pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2064--2065
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2065.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2067
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2068--2069
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2070--2071
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2073--2074
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2075--2076
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2077--2078
+
+ []
+
+<./assets/images/git-int.jpg, id=919, 1047.915pt x 305.14pt>
 File: ./assets/images/git-int.jpg Graphic file (type jpg)
 <use ./assets/images/git-int.jpg>
-Package pdftex.def Info: ./assets/images/git-int.jpg  used on input line 2046.
+Package pdftex.def Info: ./assets/images/git-int.jpg  used on input line 2080.
 (pdftex.def)             Requested size: 113.81102pt x 33.13713pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2049--2050
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2051--2052
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2053--2054
-
- []
-
-
-Overfull \hbox (7.57845pt too wide) in paragraph at lines 2055--2056
-\OT1/cmr/m/n/10 vulnerability section, etc that will help in an automated works
-pace environment for quality collaboration
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2056
-
- []
-
-<./assets/images/devspace-overview.jpg, id=891, 2433.09pt x 2786.41pt>
-File: ./assets/images/devspace-overview.jpg Graphic file (type jpg)
-<use ./assets/images/devspace-overview.jpg>
-Package pdftex.def Info: ./assets/images/devspace-overview.jpg  used on input l
-ine 2059.
-(pdftex.def)             Requested size: 438.17245pt x 501.78728pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2070.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[63 <./assets/images/git-int.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2070.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [64 <./assets/images/devspace-overview.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2074--2075
-
- []
-
-<./assets/images/chat-community.jpg, id=901, 1802.735pt x 847.165pt>
-File: ./assets/images/chat-community.jpg Graphic file (type jpg)
-<use ./assets/images/chat-community.jpg>
-Package pdftex.def Info: ./assets/images/chat-community.jpg  used on input line
- 2078.
-(pdftex.def)             Requested size: 256.0748pt x 120.33446pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2083--2084
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2084.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[70 <./assets/images/git-int.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2085--2086
 
  []
 
-<./assets/images/post-dev.jpg, id=902, 1358.07375pt x 394.47375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2087--2088
+
+ []
+
+
+Overfull \hbox (7.57845pt too wide) in paragraph at lines 2089--2090
+\OT1/cmr/m/n/10 vulnerability section, etc that will help in an automated works
+pace environment for quality collaboration
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2089--2090
+
+ []
+
+<./assets/images/devspace-overview.jpg, id=924, 2433.09pt x 2786.41pt>
+File: ./assets/images/devspace-overview.jpg Graphic file (type jpg)
+<use ./assets/images/devspace-overview.jpg>
+Package pdftex.def Info: ./assets/images/devspace-overview.jpg  used on input l
+ine 2093.
+(pdftex.def)             Requested size: 438.17245pt x 501.78728pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2108--2109
+
+ []
+
+<./assets/images/chat-community.jpg, id=925, 1802.735pt x 847.165pt>
+File: ./assets/images/chat-community.jpg Graphic file (type jpg)
+<use ./assets/images/chat-community.jpg>
+Package pdftex.def Info: ./assets/images/chat-community.jpg  used on input line
+ 2112.
+(pdftex.def)             Requested size: 256.0748pt x 120.33446pt.
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2116.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[71]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2116.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [72 <./assets/images/devspace-overview.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2119--2120
+
+ []
+
+<./assets/images/post-dev.jpg, id=935, 1358.07375pt x 394.47375pt>
 File: ./assets/images/post-dev.jpg Graphic file (type jpg)
 <use ./assets/images/post-dev.jpg>
-Package pdftex.def Info: ./assets/images/post-dev.jpg  used on input line 2097.
+Package pdftex.def Info: ./assets/images/post-dev.jpg  used on input line 2131.
 
 (pdftex.def)             Requested size: 438.17245pt x 127.26947pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2101.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2135.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[65 <./assets/images/chat-community.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2104--2105
+[73 <./assets/images/chat-community.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2138--2139
 
  []
 
-<./assets/images/dev-reward-distribution.jpg, id=908, 855.195pt x 560.0925pt>
+<./assets/images/dev-reward-distribution.jpg, id=942, 855.195pt x 560.0925pt>
 File: ./assets/images/dev-reward-distribution.jpg Graphic file (type jpg)
 <use ./assets/images/dev-reward-distribution.jpg>
 Package pdftex.def Info: ./assets/images/dev-reward-distribution.jpg  used on i
-nput line 2127.
+nput line 2161.
 (pdftex.def)             Requested size: 312.9803pt x 204.97475pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2131.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2165.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[66 <./assets/images/post-dev.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2132--2133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2134--2135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2136--2137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2139--2140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2141--2142
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2142.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[67 <./assets/images/dev-reward-distribution.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2143--2144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2145--2146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2153--2154
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2155.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 2159--2160
+[74 <./assets/images/post-dev.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2166--2167
 
  []
 
@@ -3183,44 +3181,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 2168--2169
 
  []
 
-<./assets/images/influencer-class.jpg, id=926, 2971.1pt x 1043.9pt>
-File: ./assets/images/influencer-class.jpg Graphic file (type jpg)
-<use ./assets/images/influencer-class.jpg>
-Package pdftex.def Info: ./assets/images/influencer-class.jpg  used on input li
-ne 2173.
-(pdftex.def)             Requested size: 438.17245pt x 153.95001pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2177--2178
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2175--2176
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2178.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2176.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[69 <./assets/images/influencer-class.jpg>]
+[75 <./assets/images/dev-reward-distribution.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2177--2178
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2179--2180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2181--2182
+Underfull \hbox (badness 10000) in paragraph at lines 2187--2188
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2192--2193
-
- []
-
-
-Overfull \hbox (8.43007pt too wide) in paragraph at lines 2200--2201
-\OT1/cmr/m/n/10 businesses to research for their advertisements. Currently targ
-eted advertisements by various centralized
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2200--2201
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2189.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 2193--2194
 
  []
 
@@ -3229,240 +3229,257 @@ Underfull \hbox (badness 10000) in paragraph at lines 2202--2203
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2204--2205
+<./assets/images/influencer-class.jpg, id=960, 2971.1pt x 1043.9pt>
+File: ./assets/images/influencer-class.jpg Graphic file (type jpg)
+<use ./assets/images/influencer-class.jpg>
+Package pdftex.def Info: ./assets/images/influencer-class.jpg  used on input li
+ne 2207.
+(pdftex.def)             Requested size: 438.17245pt x 153.95001pt.
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2210.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 2211--2212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2206--2207
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2215--2216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2226--2227
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2208.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2229.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[70]
-Underfull \hbox (badness 10000) in paragraph at lines 2208--2209
+[78 <./assets/images/influencer-class.jpg>]
+Overfull \hbox (8.43007pt too wide) in paragraph at lines 2234--2235
+\OT1/cmr/m/n/10 businesses to research for their advertisements. Currently targ
+eted advertisements by various centralized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2234--2235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2210--2211
+Underfull \hbox (badness 10000) in paragraph at lines 2236--2237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2212--2213
+Underfull \hbox (badness 10000) in paragraph at lines 2238--2239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2214--2215
+Underfull \hbox (badness 10000) in paragraph at lines 2240--2241
 
  []
 
-<./assets/images/ad-flow.jpg, id=939, 785.93625pt x 602.25pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2242--2243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2244--2245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2246--2247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2248--2249
+
+ []
+
+<./assets/images/ad-flow.jpg, id=973, 785.93625pt x 602.25pt>
 File: ./assets/images/ad-flow.jpg Graphic file (type jpg)
 <use ./assets/images/ad-flow.jpg>
-Package pdftex.def Info: ./assets/images/ad-flow.jpg  used on input line 2218.
+Package pdftex.def Info: ./assets/images/ad-flow.jpg  used on input line 2252.
 (pdftex.def)             Requested size: 170.71652pt x 130.8137pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2223--2224
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2256.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 2257--2258
 
  []
 
-<./assets/images/ad-selection.jpg, id=940, 921.4425pt x 804.00375pt>
+<./assets/images/ad-selection.jpg, id=979, 921.4425pt x 804.00375pt>
 File: ./assets/images/ad-selection.jpg Graphic file (type jpg)
 <use ./assets/images/ad-selection.jpg>
 Package pdftex.def Info: ./assets/images/ad-selection.jpg  used on input line 2
-227.
+261.
 (pdftex.def)             Requested size: 199.16928pt x 173.77754pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2231.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2271.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[71 <./assets/images/ad-flow.jpg>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2254.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [72 <./assets/images/ad-selection.jpg>]
-<./assets/images/ad-content.jpg, id=956, 1047.915pt x 1845.89626pt>
+[80 <./assets/images/ad-flow.jpg> <./assets/images/ad-selection.jpg>]
+<./assets/images/ad-content.jpg, id=986, 1047.915pt x 1845.89626pt>
 File: ./assets/images/ad-content.jpg Graphic file (type jpg)
 <use ./assets/images/ad-content.jpg>
-Package pdftex.def Info: ./assets/images/ad-content.jpg  used on input line 225
-7.
+Package pdftex.def Info: ./assets/images/ad-content.jpg  used on input line 229
+1.
 (pdftex.def)             Requested size: 199.16928pt x 350.8366pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2263.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2295.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [81]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2300.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 
-[73 <./assets/images/ad-content.jpg>]
-<./assets/images/ad-publish.jpg, id=963, 1851.91875pt x 1990.43625pt>
+[82 <./assets/images/ad-content.jpg>]
+<./assets/images/ad-publish.jpg, id=1000, 1851.91875pt x 1990.43625pt>
 File: ./assets/images/ad-publish.jpg Graphic file (type jpg)
 <use ./assets/images/ad-publish.jpg>
-Package pdftex.def Info: ./assets/images/ad-publish.jpg  used on input line 227
-0.
+Package pdftex.def Info: ./assets/images/ad-publish.jpg  used on input line 230
+4.
 (pdftex.def)             Requested size: 369.88582pt x 397.53351pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2276
+Underfull \hbox (badness 10000) in paragraph at lines 2309--2310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2277--2278
+Underfull \hbox (badness 10000) in paragraph at lines 2311--2312
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2278.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2312.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[74 <./assets/images/ad-publish.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2279--2280
+[83 <./assets/images/ad-publish.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2313--2314
 
  []
 
-<./assets/images/periodic-allocation.jpg, id=970, 1962.33125pt x 903.375pt>
+<./assets/images/periodic-allocation.jpg, id=1007, 1962.33125pt x 903.375pt>
 File: ./assets/images/periodic-allocation.jpg Graphic file (type jpg)
 <use ./assets/images/periodic-allocation.jpg>
 Package pdftex.def Info: ./assets/images/periodic-allocation.jpg  used on input
- line 2283.
+ line 2317.
 (pdftex.def)             Requested size: 369.88582pt x 170.27838pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2288--2289
+Underfull \hbox (badness 10000) in paragraph at lines 2322--2323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2295--2297
+Underfull \hbox (badness 10000) in paragraph at lines 2329--2331
 
  []
 
-<./assets/images/periodic-allocation-2.jpg, id=971, 2815.51875pt x 1380.15625pt
->
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2331.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[84 <./assets/images/periodic-allocation.jpg>]
+<./assets/images/periodic-allocation-2.jpg, id=1015, 2815.51875pt x 1380.15625p
+t>
 File: ./assets/images/periodic-allocation-2.jpg Graphic file (type jpg)
 <use ./assets/images/periodic-allocation-2.jpg>
 Package pdftex.def Info: ./assets/images/periodic-allocation-2.jpg  used on inp
-ut line 2300.
+ut line 2334.
 (pdftex.def)             Requested size: 438.17245pt x 214.78545pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2304.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[75 <./assets/images/periodic-allocation.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2305--2306
+
+Underfull \hbox (badness 10000) in paragraph at lines 2339--2340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2307--2308
+Underfull \hbox (badness 10000) in paragraph at lines 2341--2342
 
  []
 
 
-Overfull \hbox (15.21179pt too wide) in paragraph at lines 2317--2318
+Overfull \hbox (15.21179pt too wide) in paragraph at lines 2351--2352
 []\OT1/cmr/bx/n/10 Simple Communication \OT1/cmr/m/n/10 : Efficient communicati
 on between the client and the influencer throughout
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2322.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2354.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[76 <./assets/images/periodic-allocation-2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2325--2340
+[85 <./assets/images/periodic-allocation-2.jpg>]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2356.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [86]
+Underfull \hbox (badness 10000) in paragraph at lines 2359--2374
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2341.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2375.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[77]
-Underfull \hbox (badness 10000) in paragraph at lines 2345--2346
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 2379--2380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2347--2348
+Underfull \hbox (badness 10000) in paragraph at lines 2381--2382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2355--2356
+Underfull \hbox (badness 10000) in paragraph at lines 2389--2390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2357--2358
+Underfull \hbox (badness 10000) in paragraph at lines 2391--2392
 
  []
 
-<./assets/images/p2p-sell.jpg, id=997, 933.4875pt x 1267.73625pt>
+<./assets/images/p2p-sell.jpg, id=1039, 933.4875pt x 1267.73625pt>
 File: ./assets/images/p2p-sell.jpg Graphic file (type jpg)
 <use ./assets/images/p2p-sell.jpg>
-Package pdftex.def Info: ./assets/images/p2p-sell.jpg  used on input line 2362.
+Package pdftex.def Info: ./assets/images/p2p-sell.jpg  used on input line 2396.
 
 (pdftex.def)             Requested size: 199.16928pt x 270.46883pt.
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2366.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2400.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[78]
-Underfull \hbox (badness 10000) in paragraph at lines 2382--2383
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 2416--2417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2384--2385
+Underfull \hbox (badness 10000) in paragraph at lines 2418--2419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2386--2387
-
- []
-
-<./assets/images/p2p-buy.jpg, id=1004, 816.04875pt x 1821.80624pt>
-File: ./assets/images/p2p-buy.jpg Graphic file (type jpg)
-<use ./assets/images/p2p-buy.jpg>
-Package pdftex.def Info: ./assets/images/p2p-buy.jpg  used on input line 2390.
-(pdftex.def)             Requested size: 170.71652pt x 381.11728pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2394.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[79 <./assets/images/p2p-sell.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2395--2396
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2397.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[80 <./assets/images/p2p-buy.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2403--2404
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2405--2406
-
- []
-
-<./assets/images/global-reward.png, id=1028, 2221.29875pt x 1058.95625pt>
-File: ./assets/images/global-reward.png Graphic file (type png)
-<use ./assets/images/global-reward.png>
-Package pdftex.def Info: ./assets/images/global-reward.png  used on input line 
-2410.
-(pdftex.def)             Requested size: 398.33858pt x 189.89293pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2407--2413
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2421
 
  []
 
@@ -3470,62 +3487,65 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 2421.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[81 <./assets/images/global-reward.png>]
-<./assets/images/burn-chart.png, id=1039, 2286.5425pt x 1237.62375pt>
+[89 <./assets/images/p2p-sell.jpg>]
+<./assets/images/p2p-buy.jpg, id=1063, 816.04875pt x 1821.80624pt>
+File: ./assets/images/p2p-buy.jpg Graphic file (type jpg)
+<use ./assets/images/p2p-buy.jpg>
+Package pdftex.def Info: ./assets/images/p2p-buy.jpg  used on input line 2424.
+(pdftex.def)             Requested size: 170.71652pt x 381.11728pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2429--2430
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2431.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[90 <./assets/images/p2p-buy.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2437--2438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2439--2440
+
+ []
+
+<./assets/images/global-reward.png, id=1069, 2221.29875pt x 1058.95625pt>
+File: ./assets/images/global-reward.png Graphic file (type png)
+<use ./assets/images/global-reward.png>
+Package pdftex.def Info: ./assets/images/global-reward.png  used on input line 
+2444.
+(pdftex.def)             Requested size: 398.33858pt x 189.89293pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2441--2447
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2452.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[91 <./assets/images/global-reward.png>]
+<./assets/images/burn-chart.png, id=1078, 2286.5425pt x 1237.62375pt>
 File: ./assets/images/burn-chart.png Graphic file (type png)
 <use ./assets/images/burn-chart.png>
-Package pdftex.def Info: ./assets/images/burn-chart.png  used on input line 243
-1.
+Package pdftex.def Info: ./assets/images/burn-chart.png  used on input line 246
+5.
 (pdftex.def)             Requested size: 284.52756pt x 154.00386pt.
-<./assets/images/revenue-distribution.png, id=1040, 1885.0425pt x 1037.8775pt>
+<./assets/images/revenue-distribution.png, id=1079, 1885.0425pt x 1037.8775pt>
 File: ./assets/images/revenue-distribution.png Graphic file (type png)
 <use ./assets/images/revenue-distribution.png>
 Package pdftex.def Info: ./assets/images/revenue-distribution.png  used on inpu
-t line 2438.
+t line 2472.
 (pdftex.def)             Requested size: 284.52756pt x 156.65678pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2471--2472
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2473--2474
-
- []
-
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2474.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2476.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[82 <./assets/images/burn-chart.png> <./assets/images/revenue-distribution.png>
-]
-<./assets/images/portfolio-reward.jpg, id=1056, 2050.66125pt x 1306.8825pt>
-File: ./assets/images/portfolio-reward.jpg Graphic file (type jpg)
-<use ./assets/images/portfolio-reward.jpg>
-Package pdftex.def Info: ./assets/images/portfolio-reward.jpg  used on input li
-ne 2477.
-(pdftex.def)             Requested size: 438.17245pt x 279.23936pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2486.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [83 <./assets/images/portfolio-reward.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2493--2494
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2495--2496
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2497--2498
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2503--2504
+ [92 <./assets/images/burn-chart.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2505--2506
 
  []
 
@@ -3534,257 +3554,301 @@ Underfull \hbox (badness 10000) in paragraph at lines 2507--2508
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2572--2575
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2583--2590
+<./assets/images/portfolio-reward.jpg, id=1097, 2050.66125pt x 1306.8825pt>
+File: ./assets/images/portfolio-reward.jpg Graphic file (type jpg)
+<use ./assets/images/portfolio-reward.jpg>
+Package pdftex.def Info: ./assets/images/portfolio-reward.jpg  used on input li
+ne 2511.
+(pdftex.def)             Requested size: 438.17245pt x 279.23936pt.
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2515.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[93 <./assets/images/revenue-distribution.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2528
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2591.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2529.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[84]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2591.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [85]
-Underfull \hbox (badness 10000) in paragraph at lines 2594--2595
+[94 <./assets/images/portfolio-reward.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2529--2530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2618--2619
+Underfull \hbox (badness 10000) in paragraph at lines 2531--2532
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2537--2538
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2541--2542
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2606--2609
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2617--2624
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2619.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2625.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[86]
-<./assets/images/claim-rewards.jpg, id=1130, 1936.23375pt x 2740.2375pt>
+[95]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2625.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [96]
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2629
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2652--2653
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2653.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[97]
+<./assets/images/claim-rewards.jpg, id=1176, 1936.23375pt x 2740.2375pt>
 File: ./assets/images/claim-rewards.jpg Graphic file (type jpg)
 <use ./assets/images/claim-rewards.jpg>
 Package pdftex.def Info: ./assets/images/claim-rewards.jpg  used on input line 
-2622.
+2656.
 (pdftex.def)             Requested size: 438.17245pt x 620.12273pt.
 
 
-LaTeX Warning: Float too large for page by 8.1896pt on input line 2625.
+LaTeX Warning: Float too large for page by 8.1896pt on input line 2659.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2633--2634
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2656--2657
+Underfull \hbox (badness 10000) in paragraph at lines 2667--2668
 
  []
 
-<./assets/images/burnpool.jpg, id=1131, 1087.06125pt x 433.62pt>
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2681.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[98]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2681.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [99 <./assets/images/claim-rewards.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2690--2691
+
+ []
+
+<./assets/images/burnpool.jpg, id=1186, 1087.06125pt x 433.62pt>
 File: ./assets/images/burnpool.jpg Graphic file (type jpg)
 <use ./assets/images/burnpool.jpg>
-Package pdftex.def Info: ./assets/images/burnpool.jpg  used on input line 2661.
+Package pdftex.def Info: ./assets/images/burnpool.jpg  used on input line 2695.
 
 (pdftex.def)             Requested size: 284.52756pt x 113.49281pt.
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2664.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[87]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2664.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [88 <./assets/images/claim-rewards.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2665--2666
+
+Underfull \hbox (badness 10000) in paragraph at lines 2699--2700
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2669--2670
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2671--2672
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2682--2683
+Underfull \hbox (badness 10000) in paragraph at lines 2703--2704
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2683.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2704.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[89 <./assets/images/burnpool.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2687--2688
+[100 <./assets/images/burnpool.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2705--2706
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2691--2692
+Underfull \hbox (badness 10000) in paragraph at lines 2716--2717
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2709--2710
+Underfull \hbox (badness 10000) in paragraph at lines 2721--2722
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2713--2714
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2715--2716
+Underfull \hbox (badness 10000) in paragraph at lines 2725--2726
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2717.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2730.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 2719--2720
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 2743--2744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2723--2724
+Underfull \hbox (badness 10000) in paragraph at lines 2747--2748
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2729--2730
+Underfull \hbox (badness 10000) in paragraph at lines 2749--2750
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2753--2754
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2757--2758
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2763--2764
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2731.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2764.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[91]
-Underfull \hbox (badness 10000) in paragraph at lines 2735--2736
+[102]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2765.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [103]
+Underfull \hbox (badness 10000) in paragraph at lines 2769--2770
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2737--2738
+Underfull \hbox (badness 10000) in paragraph at lines 2771--2772
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2756--2757
+Underfull \hbox (badness 10000) in paragraph at lines 2790--2791
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2759--2760
+Underfull \hbox (badness 10000) in paragraph at lines 2793--2794
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2761--2765
+Underfull \hbox (badness 10000) in paragraph at lines 2795--2799
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2766.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2800.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[92]
-Underfull \hbox (badness 10000) in paragraph at lines 2768--2769
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 2802--2803
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2771--2797
+Underfull \hbox (badness 10000) in paragraph at lines 2805--2831
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2814.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2848.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[93]
-<./assets/images/viral-coin-logo.png, id=1163, 140.05814pt x 140.05814pt>
+[105]
+<./assets/images/viral-coin-logo.png, id=1214, 140.05814pt x 140.05814pt>
 File: ./assets/images/viral-coin-logo.png Graphic file (type png)
 <use ./assets/images/viral-coin-logo.png>
 Package pdftex.def Info: ./assets/images/viral-coin-logo.png  used on input lin
-e 2832.
+e 2866.
 (pdftex.def)             Requested size: 71.13188pt x 71.13164pt.
-<./assets/images/token-distribution.png, id=1164, 2281.52374pt x 925.4575pt>
+<./assets/images/token-distribution.png, id=1215, 2281.52374pt x 925.4575pt>
 File: ./assets/images/token-distribution.png Graphic file (type png)
 <use ./assets/images/token-distribution.png>
 Package pdftex.def Info: ./assets/images/token-distribution.png  used on input 
-line 2842.
+line 2876.
 (pdftex.def)             Requested size: 438.17245pt x 177.731pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2879--2880
+Underfull \hbox (badness 10000) in paragraph at lines 2913--2914
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2882--2883
+Underfull \hbox (badness 10000) in paragraph at lines 2916--2917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2885--2886
+Underfull \hbox (badness 10000) in paragraph at lines 2919--2920
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2888--2889
-
- []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2900.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[94 <./assets/images/viral-coin-logo.png> <./assets/images/token-distribution.p
-ng>]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2900.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [95]
-Underfull \hbox (badness 10000) in paragraph at lines 2904--2907
+Underfull \hbox (badness 10000) in paragraph at lines 2922--2923
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2982.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2934.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[96]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2982.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2982.
+[106 <./assets/images/viral-coin-logo.png> <./assets/images/token-distribution.
+png>]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2934.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [107]
+Underfull \hbox (badness 10000) in paragraph at lines 2938--2941
+
+ []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 3016.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[108]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3016.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3016.
  (./Whitepaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2982.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2982.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3016.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3016.
 
 Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
-(rerunfilecheck)             Checksum: 8360CE0CAE61455AEF0CF5B3D528EECD;4458.
+(rerunfilecheck)             Checksum: EECF55710A38DB974A9A74FBEF73864C;4464.
  ) 
 Here is how much of TeX's memory you used:
- 38992 strings out of 481239
- 846615 string characters out of 5920377
- 1423079 words of memory out of 5000000
- 53175 multiletter control sequences out of 15000+600000
+ 39041 strings out of 481239
+ 847365 string characters out of 5920377
+ 1421382 words of memory out of 5000000
+ 53208 multiletter control sequences out of 15000+600000
  538558 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  174i,14n,204p,2445b,2625s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3824,10 +3888,10 @@ fonts/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sftt0800.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (96 pages, 6498930 bytes).
+Output written on Whitepaper.pdf (108 pages, 6507373 bytes).
 PDF statistics:
- 1369 PDF objects out of 1440 (max. 8388607)
- 1180 compressed objects within 12 object streams
- 519 named destinations out of 1000 (max. 500000)
+ 1422 PDF objects out of 1440 (max. 8388607)
+ 1220 compressed objects within 13 object streams
+ 531 named destinations out of 1000 (max. 500000)
  771 words of extra memory for PDF output out of 10000 (max. 10000000)
 

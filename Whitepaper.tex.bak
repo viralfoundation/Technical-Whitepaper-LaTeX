@@ -1,5 +1,5 @@
-\documentclass[10pt]{article}
-\usepackage[a4paper]{geometry}
+\documentclass[9pt]{article}
+\usepackage[a4paper , left=28mm, top=30mm, right=28mm, bottom=40mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -20,6 +20,7 @@
 \usepackage {amsmath}
 \usepackage{authblk}
 \usepackage{tcolorbox}
+\usepackage{setspace}
 
 %\usepackage{xcolor} \pagecolor[rgb]{0.18,0.18,0.18} \color[rgb]{1,1,1}
 
@@ -100,8 +101,9 @@
 
 \title{\textbf{Viral - Next Gen Social Communication \& User Experience}}
 \date{15 January 2022}
-\author{Auguth Technologies}
+\author{Auguth Tech Pvt. Ltd.}
 
+\onehalfspacing
 \begin{document}
 
 
@@ -809,7 +811,39 @@ Development
 
 \end{lstlisting}
 
-\subsection{Token Ecosystem}
+\subsection{Viral Token Ecosystem}
+
+Intro to Viral Token Ecosystem\\
+Different Types of Tokens in Viral, its advantages, disadvantages and need\\
+Intro to VRL Token and its use cases inside the block-chain\\
+Intro to VSC Token\\
+Need for stable coin\\
+Types of Stable Coin\\
+Gold Pegged Stable Coin and its advantages over fiat currencies\\
+Charts and Statistics about Inflation, PP, and CPI\\
+Stability of Fiat over Gold, How fiat is bad and how gold is better\\
+Risks and complexity of reserving physical gold\\
+ETN / Price pegged Gold Stable Coin\\
+Algorithmic Shock absorbing stable coin\\
+Expansion and Contraction of Supply for stability\\
+Decentralized Price Oracles\\
+Introduction to Shock Absorption Pools aka Volatility Pools\\
+Burning and Minting Protocol\\
+User Profits by Seigniorage\\
+Pool User Deposit\\
+Pool User Withdrawal\\
+Need for Fiat Coins amidst Gold Stable Coin\\
+Introduction to Fiat-Pegged Stable Coins\\
+Shock Absorption via Viral Stable Coin\\
+Minting Fiat Stable Tokens\\
+Redeeming Viral Stable Coin (Gold)\\
+Withdrawal and DEX Allocation from Volatility Pools\\
+Stability of All Tokens Overview\\
+Risks : In case of Fiat Inflation\\
+Risks : For VRL Coin Holders, VSC and Fiat Holders\\
+How VSC a hedge against Inflation\\
+Conversion of VSC into Physical Gold through ETFs and Bullion\\
+
 
 \subsubsection{Viral Coin - Native Token}
 
