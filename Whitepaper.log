@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.23)  26 APR 2022 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.27)  27 APR 2022 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1179,7 +1179,7 @@ LaTeX Font Info:    ... okay on input line 124.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
 LaTeX Font Info:    ... okay on input line 124.
 
--- Lines per column: 57 (approximate, difference = 10.24725pt).
+-- Lines per column: 58 (approximate, difference = 6.78308pt).
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1189,11 +1189,11 @@ LaTeX Font Info:    ... okay on input line 124.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(51.21495pt, 495.07797pt, 51.21495pt)
-* v-part:(T,H,B)=(56.9055pt, 694.24725pt, 93.89409pt)
+* v-part:(T,H,B)=(56.9055pt, 702.78308pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=495.07797pt
-* \textheight=694.24725pt
+* \textheight=702.78308pt
 * \oddsidemargin=-21.05504pt
 * \evensidemargin=-21.05504pt
 * \topmargin=-45.9321pt
@@ -1422,7 +1422,7 @@ Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 322.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1688) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 330--331
@@ -1465,18 +1465,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--345
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 345.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [3]
-
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 348.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 348.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
@@ -1730,7 +1729,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 551.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 552.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [5 <./assets/images/privacygroups.jpeg> <./assets/images/aes.png>]
 
@@ -1801,15 +1800,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 565--566
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 568.
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 570.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[6 <./assets/images/tips.jpeg>]
+
 Underfull \hbox (badness 1629) in paragraph at lines 572--573
 \OT1/ptm/m/n/10 IPFS-CID (content-identifier) that CID is pinned on
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 573.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[6 <./assets/images/tips.jpeg>]
 <./assets/images/encryption.jpg, id=361, 1385.175pt x 1752.5475pt>
 File: ./assets/images/encryption.jpg Graphic file (type jpg)
 <use ./assets/images/encryption.jpg>
@@ -1820,6 +1820,7 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 586.
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 5
 92.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
@@ -1846,11 +1847,7 @@ line 608.
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 614.
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 617.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[7 <./assets/images/encryption.jpg> <./assets/images/decryption-private.jpg>]
+
 Underfull \hbox (badness 2582) in paragraph at lines 618--619
 []\OT1/ptm/m/n/10 The file is downloaded and decrypted using the
  []
@@ -1860,13 +1857,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 622--623
 
  []
 
-<./assets/images/decryption-public.jpg, id=380, 1210.5225pt x 2062.70625pt>
+<./assets/images/decryption-public.jpg, id=363, 1210.5225pt x 2062.70625pt>
 File: ./assets/images/decryption-public.jpg Graphic file (type jpg)
 <use ./assets/images/decryption-public.jpg>
 Package pdftex.def Info: ./assets/images/decryption-public.jpg  used on input l
 ine 626.
 (pdftex.def)             Requested size: 199.16928pt x 339.35614pt.
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 630.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[7 <./assets/images/encryption.jpg> <./assets/images/decryption-private.jpg>]
 Underfull \hbox (badness 5374) in paragraph at lines 631--632
 \OT1/ptm/m/n/10 is securely encrypted compared to current poorly
  []
@@ -1920,11 +1921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 664.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[8 <./assets/images/decryption-public.jpg> <./assets/images/chat.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 665--666
 
  []
@@ -1939,7 +1936,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 671--672
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 672.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[8 <./assets/images/decryption-public.jpg> <./assets/images/chat.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 673--674
 
  []
@@ -2107,11 +2108,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 779--780
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 780.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 781--782
 
  []
@@ -2141,7 +2138,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 794--795
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 795.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 796--797
 
  []
@@ -2162,13 +2163,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 800--801
  []
 
 
+Underfull \vbox (badness 5519) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 802--803
 
  []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 803.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 823.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [11 <./assets/images/Architecture.jpg>]
 Underfull \hbox (badness 1946) in paragraph at lines 851--876
@@ -2219,11 +2223,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 893--894
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 894.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[12]
+
 Underfull \hbox (badness 10000) in paragraph at lines 895--896
 
  []
@@ -2233,7 +2233,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 897--898
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 898.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
  []
@@ -2343,15 +2347,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 935--936
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 943.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 964--965
 
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 965.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[13]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 967.
@@ -2410,11 +2415,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 995--996
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 996.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[14]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 998.
@@ -2425,6 +2425,11 @@ Underfull \hbox (badness 2818) in paragraph at lines 1001--1002
 e
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1003.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[14]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 1006.
@@ -2491,11 +2496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1056.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[15]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1057--1058
 
  []
@@ -2505,7 +2506,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1060.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
 
  []
@@ -2552,13 +2557,6 @@ File: ./assets/images/dex.png Graphic file (type png)
 Package pdftex.def Info: ./assets/images/dex.png  used on input line 1108.
 (pdftex.def)             Requested size: 199.16928pt x 198.4483pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1112.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [16]
 Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 
  []
@@ -2583,10 +2581,11 @@ Overfull \hbox (11.5pt too wide) in paragraph at lines 1166--1167
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1169.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[16 <./assets/images/dex.png>]
 Overfull \hbox (11.5pt too wide) in paragraph at lines 1183--1184
  [] 
  []
@@ -2606,11 +2605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1200.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[17 <./assets/images/dex.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1207--1208
 
  []
@@ -2620,7 +2615,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1224.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
 
  []
@@ -2675,13 +2674,6 @@ File: ./assets/images/logo.png Graphic file (type png)
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1275.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
 [18]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1275.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [19
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 1276--1277
 
  []
@@ -2715,7 +2707,7 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1347.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[20
+[19
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1349--1350
@@ -2788,7 +2780,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1454--1455
 
  []
 
-<./assets/images/timeperiod-pools.jpg, id=519, 4173.5925pt x 1728.4575pt>
+<./assets/images/timeperiod-pools.jpg, id=515, 4173.5925pt x 1728.4575pt>
 File: ./assets/images/timeperiod-pools.jpg Graphic file (type jpg)
 <use ./assets/images/timeperiod-pools.jpg>
 Package pdftex.def Info: ./assets/images/timeperiod-pools.jpg  used on input li
@@ -2801,7 +2793,7 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1464.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [21
+ [20
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1484--1485
@@ -2848,7 +2840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1488--1489
 
  []
 
-<./assets/images/dex-algorithm.jpg, id=525, 2356.805pt x 3324.42pt>
+<./assets/images/dex-algorithm.jpg, id=521, 2356.805pt x 3324.42pt>
 File: ./assets/images/dex-algorithm.jpg Graphic file (type jpg)
 <use ./assets/images/dex-algorithm.jpg>
 Package pdftex.def Info: ./assets/images/dex-algorithm.jpg  used on input line 
@@ -2867,7 +2859,7 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1510.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[22 <./assets/images/timeperiod-pools.jpg>]
+[21 <./assets/images/timeperiod-pools.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1511--1513
 
  []
@@ -2885,11 +2877,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1516--1517
 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1517.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[23 <./assets/images/dex-algorithm.jpg>]
+ [22 <./assets/images/dex-algorithm.jpg>]
 Underfull \hbox (badness 3375) in paragraph at lines 1518--1519
 []\OT1/ptm/m/n/10 Reserve Pools are smart contract accounts that is
  []
@@ -2904,7 +2899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1518--1519
 
  []
 
-<./assets/images/reserve-pool-1.jpg, id=538, 3049.3925pt x 1215.54124pt>
+<./assets/images/reserve-pool-1.jpg, id=534, 3049.3925pt x 1215.54124pt>
 File: ./assets/images/reserve-pool-1.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-1.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-1.jpg  used on input line
@@ -2924,7 +2919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1527--1528
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 1530.
 
-<./assets/images/reserve-pool-2.jpg, id=539, 3098.57625pt x 1222.5675pt>
+<./assets/images/reserve-pool-2.jpg, id=535, 3098.57625pt x 1222.5675pt>
 File: ./assets/images/reserve-pool-2.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-2.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-2.jpg  used on input line
@@ -2963,7 +2958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1552--1553
 
  []
 
-<./assets/images/dex-fee.jpg, id=540, 1294.8375pt x 674.52pt>
+<./assets/images/dex-fee.jpg, id=536, 1294.8375pt x 674.52pt>
 File: ./assets/images/dex-fee.jpg Graphic file (type jpg)
 <use ./assets/images/dex-fee.jpg>
 Package pdftex.def Info: ./assets/images/dex-fee.jpg  used on input line 1556.
@@ -2975,7 +2970,7 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1560.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [24 <./assets/images/reserve-pool-1.jpg> <./assets/images/reserve-pool-2.jpg>]
+ [23 <./assets/images/reserve-pool-1.jpg> <./assets/images/reserve-pool-2.jpg>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 1562--1569
 
@@ -2991,7 +2986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1577--1578
 
  []
 
-<./assets/images/reserve-pool-4.jpg, id=549, 1457.445pt x 1078.0275pt>
+<./assets/images/reserve-pool-4.jpg, id=545, 1457.445pt x 1078.0275pt>
 File: ./assets/images/reserve-pool-4.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-4.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-4.jpg  used on input line
@@ -3054,7 +3049,7 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1640.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[25 <./assets/images/dex-fee.jpg>]
+[24 <./assets/images/dex-fee.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1646--1647
 []\OT1/ptm/m/n/10 Centralized exchanges (CEXs) are a type of
  []
@@ -3112,7 +3107,7 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 1662.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[26 <./assets/images/reserve-pool-4.jpg>]
+[25 <./assets/images/reserve-pool-4.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1663--1664
 
  []
@@ -3166,7 +3161,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1682--1683
 
  []
 
-<./assets/images/user-deposit.png, id=578, 830.10126pt x 485.815pt>
+<./assets/images/user-deposit.png, id=574, 830.10126pt x 485.815pt>
 File: ./assets/images/user-deposit.png Graphic file (type png)
 <use ./assets/images/user-deposit.png>
 Package pdftex.def Info: ./assets/images/user-deposit.png  used on input line 1
@@ -3183,17 +3178,15 @@ Overfull \hbox (2.98552pt too wide) in paragraph at lines 1739--1740
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1742.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [27 <./assets/images/user-deposit.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1743--1745
 
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1745.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[26 <./assets/images/user-deposit.png>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 1747.
@@ -3221,11 +3214,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1787--1789
  []
 
 
+Underfull \vbox (badness 1077) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1790--1792
 
  []
 
-<./assets/images/custodian.png, id=589, 560.0925pt x 246.1998pt>
+<./assets/images/custodian.png, id=585, 560.0925pt x 246.1998pt>
 File: ./assets/images/custodian.png Graphic file (type png)
 <use ./assets/images/custodian.png>
 Package pdftex.def Info: ./assets/images/custodian.png  used on input line 1795
@@ -3266,11 +3262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1821--1825
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1826.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1831--1832
 
  []
@@ -3290,7 +3282,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1836--1837
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1837.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[27]
 Underfull \hbox (badness 3128) in paragraph at lines 1838--1839
 []\OT1/ptm/m/n/10 Moderating users content is broadly classified into
  []
@@ -3321,9 +3317,9 @@ Underfull \hbox (badness 1412) in paragraph at lines 1843--1844
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1844.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1845.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[29 <./assets/images/custodian.png>]
+[28 <./assets/images/custodian.png>]
 Underfull \hbox (badness 1715) in paragraph at lines 1847--1848
 \OT1/ptm/m/n/10 media platform owners/entities misuses the authority
  []
@@ -3357,9 +3353,6 @@ Underfull \hbox (badness 2326) in paragraph at lines 1851--1852
 Underfull \hbox (badness 10000) in paragraph at lines 1851--1852
 
  []
-
-
-Underfull \vbox (badness 1107) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1853--1854
@@ -3400,11 +3393,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1866--1867
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1867.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[30]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1868--1869
 
  []
@@ -3419,12 +3408,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 1870--1871
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1871.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 1872--1873
 
  []
 
-<./assets/images/content-removal.jpg, id=616, 2135.98pt x 1224.575pt>
+<./assets/images/content-removal.jpg, id=612, 2135.98pt x 1224.575pt>
 File: ./assets/images/content-removal.jpg Graphic file (type jpg)
 <use ./assets/images/content-removal.jpg>
 Package pdftex.def Info: ./assets/images/content-removal.jpg  used on input lin
@@ -3448,7 +3441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1904--1905
 
  []
 
-<./assets/images/rov-poll.jpg, id=617, 1670.24pt x 1967.35pt>
+<./assets/images/rov-poll.jpg, id=613, 1670.24pt x 1967.35pt>
 File: ./assets/images/rov-poll.jpg Graphic file (type jpg)
 <use ./assets/images/rov-poll.jpg>
 Package pdftex.def Info: ./assets/images/rov-poll.jpg  used on input line 1918.
@@ -3460,18 +3453,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1915--1921
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1922.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [31 <./assets/images/content-removal.jpg>]
-
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 1924.
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1926.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[30 <./assets/images/content-removal.jpg> <./assets/images/rov-poll.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1935--1936
 
  []
@@ -3516,11 +3505,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1955--1956
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 1956.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[32 <./assets/images/rov-poll.jpg>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 1957.
@@ -3534,7 +3518,11 @@ Underfull \hbox (badness 2626) in paragraph at lines 1960--1961
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 1970.
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 1974.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 1976--1977
 
  []
@@ -3624,16 +3612,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2007--2008
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2008.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[33]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2010.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[32]
 Underfull \hbox (badness 2809) in paragraph at lines 2011--2012
 \OT1/ptm/m/n/10 open source management systems like GitHub and
  []
@@ -3647,9 +3635,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2011--2012
 Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
 
  []
-
-
-Underfull \vbox (badness 5460) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2015--2016
@@ -3706,11 +3691,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2029--2030
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2030.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[34]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2031--2032
 
  []
@@ -3725,7 +3706,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2035--2036
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2036.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 2038--2039
 
  []
@@ -3740,7 +3725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2042--2043
 
  []
 
-<./assets/images/git-int.jpg, id=646, 1047.915pt x 305.14pt>
+<./assets/images/git-int.jpg, id=642, 1047.915pt x 305.14pt>
 File: ./assets/images/git-int.jpg Graphic file (type jpg)
 <use ./assets/images/git-int.jpg>
 Package pdftex.def Info: ./assets/images/git-int.jpg  used on input line 2045.
@@ -3770,7 +3755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2054--2055
 
  []
 
-<./assets/images/devspace-overview.jpg, id=647, 2433.09pt x 2786.41pt>
+<./assets/images/devspace-overview.jpg, id=643, 2433.09pt x 2786.41pt>
 File: ./assets/images/devspace-overview.jpg Graphic file (type jpg)
 <use ./assets/images/devspace-overview.jpg>
 Package pdftex.def Info: ./assets/images/devspace-overview.jpg  used on input l
@@ -3785,16 +3770,12 @@ Underfull \hbox (badness 2065) in paragraph at lines 2067--2068
 []\OT1/ptm/m/n/10 Newly registered developers will be able to join
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2068.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[35 <./assets/images/git-int.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2073--2074
 
  []
 
-<./assets/images/chat-community.jpg, id=652, 1802.735pt x 847.165pt>
+<./assets/images/chat-community.jpg, id=644, 1802.735pt x 847.165pt>
 File: ./assets/images/chat-community.jpg Graphic file (type jpg)
 <use ./assets/images/chat-community.jpg>
 Package pdftex.def Info: ./assets/images/chat-community.jpg  used on input line
@@ -3806,9 +3787,6 @@ Overfull \hbox (20.03581pt too wide) in paragraph at lines 2077--2078
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2082--2083
 
  []
@@ -3817,8 +3795,7 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 2083.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[36 <./assets/images/devspace-overview.jpg> <./assets/images/chat-community.jpg
->]
+[34 <./assets/images/git-int.jpg> <./assets/images/chat-community.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2084--2085
 
  []
@@ -3827,13 +3804,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 2084--2085
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2087.
 
-<./assets/images/post-dev.jpg, id=659, 1358.07375pt x 394.47375pt>
+<./assets/images/post-dev.jpg, id=650, 1358.07375pt x 394.47375pt>
 File: ./assets/images/post-dev.jpg Graphic file (type jpg)
 <use ./assets/images/post-dev.jpg>
 Package pdftex.def Info: ./assets/images/post-dev.jpg  used on input line 2096.
 
 (pdftex.def)             Requested size: 227.62204pt x 66.11462pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2100.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [35 <./assets/images/devspace-overview.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2103--2104
 
  []
@@ -3852,7 +3836,7 @@ Underfull \hbox (badness 3199) in paragraph at lines 2118--2119
 \OT1/ptm/m/n/10 to the repository without administrator permissions.
  []
 
-<./assets/images/dev-reward-distribution.jpg, id=660, 855.195pt x 560.0925pt>
+<./assets/images/dev-reward-distribution.jpg, id=656, 855.195pt x 560.0925pt>
 File: ./assets/images/dev-reward-distribution.jpg Graphic file (type jpg)
 <use ./assets/images/dev-reward-distribution.jpg>
 Package pdftex.def Info: ./assets/images/dev-reward-distribution.jpg  used on i
@@ -3898,12 +3882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2140--2141
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2141.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[37 <./assets/images/post-dev.jpg> <./assets/images/dev-reward-distribution.jpg
->]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2142--2143
 
  []
@@ -3913,6 +3892,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
 
  []
 
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2146.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[36 <./assets/images/post-dev.jpg> <./assets/images/dev-reward-distribution.jpg
+>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2147.
@@ -3966,7 +3951,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2165--2166
 
  []
 
-<./assets/images/influencer-class.jpg, id=668, 2971.1pt x 1043.9pt>
+<./assets/images/influencer-class.jpg, id=663, 2971.1pt x 1043.9pt>
 File: ./assets/images/influencer-class.jpg Graphic file (type jpg)
 <use ./assets/images/influencer-class.jpg>
 Package pdftex.def Info: ./assets/images/influencer-class.jpg  used on input li
@@ -3987,11 +3972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2177--2178
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2178.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[38]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2179--2180
 
  []
@@ -4009,7 +3990,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2190--2191
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2193.
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2196.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 2198--2199
 
  []
@@ -4055,13 +4040,6 @@ File: ./assets/images/ad-flow.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./assets/images/ad-flow.jpg  used on input line 2216.
 (pdftex.def)             Requested size: 170.71652pt x 130.8137pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2220.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [39 <./assets/images/influencer-class.jpg>]
 Underfull \hbox (badness 1983) in paragraph at lines 2221--2222
 []\OT1/ptm/m/n/10 Each Ad-Campaign comprises of several funnels to
  []
@@ -4081,12 +4059,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 2221--2222
 
  []
 
-<./assets/images/ad-selection.jpg, id=684, 921.4425pt x 804.00375pt>
+<./assets/images/ad-selection.jpg, id=676, 921.4425pt x 804.00375pt>
 File: ./assets/images/ad-selection.jpg Graphic file (type jpg)
 <use ./assets/images/ad-selection.jpg>
 Package pdftex.def Info: ./assets/images/ad-selection.jpg  used on input line 2
 225.
 (pdftex.def)             Requested size: 199.16928pt x 173.77754pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2229.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [38 <./assets/images/influencer-class.jpg> <./assets/images/ad-flow.jpg>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2231.
@@ -4100,21 +4086,21 @@ Underfull \hbox (badness 1648) in paragraph at lines 2230--2231
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2245.
 
-<./assets/images/ad-content.jpg, id=685, 1047.915pt x 1845.89626pt>
+<./assets/images/ad-content.jpg, id=682, 1047.915pt x 1845.89626pt>
 File: ./assets/images/ad-content.jpg Graphic file (type jpg)
 <use ./assets/images/ad-content.jpg>
 Package pdftex.def Info: ./assets/images/ad-content.jpg  used on input line 225
 5.
 (pdftex.def)             Requested size: 170.71652pt x 300.70099pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2302) has occurred while \output is active []
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2259.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2264.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [40 <./assets/images/ad-flow.jpg> <./assets/images/ad-selection.jpg>]
-<./assets/images/ad-publish.jpg, id=696, 1851.91875pt x 1990.43625pt>
+ [39 <./assets/images/ad-selection.jpg> <./assets/images/ad-content.jpg>]
+<./assets/images/ad-publish.jpg, id=693, 1851.91875pt x 1990.43625pt>
 File: ./assets/images/ad-publish.jpg Graphic file (type jpg)
 <use ./assets/images/ad-publish.jpg>
 Package pdftex.def Info: ./assets/images/ad-publish.jpg  used on input line 226
@@ -4140,7 +4126,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2277--2278
 
  []
 
-<./assets/images/periodic-allocation.jpg, id=697, 1962.33125pt x 903.375pt>
+<./assets/images/periodic-allocation.jpg, id=694, 1962.33125pt x 903.375pt>
 File: ./assets/images/periodic-allocation.jpg Graphic file (type jpg)
 <use ./assets/images/periodic-allocation.jpg>
 Package pdftex.def Info: ./assets/images/periodic-allocation.jpg  used on input
@@ -4178,12 +4164,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2289--2291
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2291.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[41 <./assets/images/ad-content.jpg> <./assets/images/periodic-allocation.jpg>]
-<./assets/images/periodic-allocation-2.jpg, id=705, 2815.51875pt x 1380.15625pt
+<./assets/images/periodic-allocation-2.jpg, id=695, 2815.51875pt x 1380.15625pt
 >
 File: ./assets/images/periodic-allocation-2.jpg Graphic file (type jpg)
 <use ./assets/images/periodic-allocation-2.jpg>
@@ -4237,18 +4218,21 @@ th
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2315.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [42 <./assets/images/ad-publish.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2318--2333
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2333.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[40 <./assets/images/periodic-allocation.jpg>]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2333.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [41 <./assets/images/ad-publish.jpg> <./assets/images/periodic-allocation-2.jp
+g>]
 Underfull \hbox (badness 10000) in paragraph at lines 2335--2336
 []\OT1/ptm/m/n/10 Nowadays people want cryptocurrencies without
  []
@@ -4292,20 +4276,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2348--2349
 
  []
 
-<./assets/images/p2p-sell.jpg, id=721, 933.4875pt x 1267.73625pt>
+<./assets/images/p2p-sell.jpg, id=718, 933.4875pt x 1267.73625pt>
 File: ./assets/images/p2p-sell.jpg Graphic file (type jpg)
 <use ./assets/images/p2p-sell.jpg>
 Package pdftex.def Info: ./assets/images/p2p-sell.jpg  used on input line 2352.
 
 (pdftex.def)             Requested size: 170.71652pt x 231.83871pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2356.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [43 <./assets/images/periodic-allocation-2.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2371--2372
 
  []
@@ -4315,7 +4292,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2373--2374
 
  []
 
-<./assets/images/p2p-buy.jpg, id=730, 816.04875pt x 1821.80624pt>
+<./assets/images/p2p-buy.jpg, id=719, 816.04875pt x 1821.80624pt>
 File: ./assets/images/p2p-buy.jpg Graphic file (type jpg)
 <use ./assets/images/p2p-buy.jpg>
 Package pdftex.def Info: ./assets/images/p2p-buy.jpg  used on input line 2378.
@@ -4325,7 +4302,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2375--2381
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2382.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[42 <./assets/images/p2p-sell.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2382--2383
 
  []
@@ -4340,11 +4321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2384--2392
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2392.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[44 <./assets/images/p2p-sell.jpg> <./assets/images/p2p-buy.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2393--2394
 
  []
@@ -4354,7 +4331,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2395--2396
 
  []
 
-<./assets/images/global-reward.png, id=749, 2221.29875pt x 1058.95625pt>
+<./assets/images/global-reward.png, id=739, 2221.29875pt x 1058.95625pt>
 File: ./assets/images/global-reward.png Graphic file (type png)
 <use ./assets/images/global-reward.png>
 Package pdftex.def Info: ./assets/images/global-reward.png  used on input line 
@@ -4374,18 +4351,22 @@ Underfull \hbox (badness 4505) in paragraph at lines 2411--2412
 []\OT1/ptm/b/n/10 Developers \OT1/ptm/m/n/10 : Allocated for Viral Open Source
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2412.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[43 <./assets/images/p2p-buy.jpg> <./assets/images/global-reward.png>]
 Underfull \hbox (badness 2134) in paragraph at lines 2415--2416
 []\OT1/ptm/b/n/10 ROV \OT1/ptm/m/n/10 : Content Moderation community rewards
  []
 
-<./assets/images/burn-chart.png, id=750, 2286.5425pt x 1237.62375pt>
+<./assets/images/burn-chart.png, id=753, 2286.5425pt x 1237.62375pt>
 File: ./assets/images/burn-chart.png Graphic file (type png)
 <use ./assets/images/burn-chart.png>
 Package pdftex.def Info: ./assets/images/burn-chart.png  used on input line 242
 1.
 (pdftex.def)             Requested size: 227.62204pt x 123.20308pt.
-<./assets/images/revenue-distribution.png, id=751, 1885.0425pt x 1037.8775pt>
+<./assets/images/revenue-distribution.png, id=754, 1885.0425pt x 1037.8775pt>
 File: ./assets/images/revenue-distribution.png Graphic file (type png)
 <use ./assets/images/revenue-distribution.png>
 Package pdftex.def Info: ./assets/images/revenue-distribution.png  used on inpu
@@ -4401,19 +4382,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2463--2464
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2464.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[45 <./assets/images/global-reward.png> <./assets/images/burn-chart.png> <./ass
-ets/images/revenue-distribution.png>]
-<./assets/images/portfolio-reward.jpg, id=773, 2050.66125pt x 1306.8825pt>
+<./assets/images/portfolio-reward.jpg, id=755, 2050.66125pt x 1306.8825pt>
 File: ./assets/images/portfolio-reward.jpg Graphic file (type jpg)
 <use ./assets/images/portfolio-reward.jpg>
 Package pdftex.def Info: ./assets/images/portfolio-reward.jpg  used on input li
 ne 2467.
 (pdftex.def)             Requested size: 341.43306pt x 217.58057pt.
-
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2473.
@@ -4433,7 +4407,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2485--2487
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2487.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[44 <./assets/images/burn-chart.png> <./assets/images/revenue-distribution.png>
+]
 Underfull \hbox (badness 1436) in paragraph at lines 2487--2489
 \OT1/ptm/m/n/10 from a specific token $\OML/cmm/m/it/10 x$ \OT1/ptm/m/n/10 is a
 llocated for a specific
@@ -4465,6 +4444,9 @@ Overfull \hbox (33.35428pt too wide) in paragraph at lines 2595--2596
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1755) in paragraph at lines 2600--2601
 \OT1/ptm/m/n/10 Restricted Periodic Claim, Dynamic Additive Claim,
  []
@@ -4493,8 +4475,8 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 2601.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[46]
-<./assets/images/claim-rewards.jpg, id=779, 1936.23375pt x 2740.2375pt>
+[45 <./assets/images/portfolio-reward.jpg>]
+<./assets/images/claim-rewards.jpg, id=776, 1936.23375pt x 2740.2375pt>
 File: ./assets/images/claim-rewards.jpg Graphic file (type jpg)
 <use ./assets/images/claim-rewards.jpg>
 Package pdftex.def Info: ./assets/images/claim-rewards.jpg  used on input line 
@@ -4516,26 +4498,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2615--2616
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2626.
 
-
-Underfull \vbox (badness 1320) has occurred while \output is active []
-
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2629.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2631.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [47 <./assets/images/portfolio-reward.jpg>]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 2638--2639
 
  []
 
-<./assets/images/burnpool.jpg, id=785, 1087.06125pt x 433.62pt>
+<./assets/images/burnpool.jpg, id=833, 1087.06125pt x 433.62pt>
 File: ./assets/images/burnpool.jpg Graphic file (type jpg)
 <use ./assets/images/burnpool.jpg>
 Package pdftex.def Info: ./assets/images/burnpool.jpg  used on input line 2643.
@@ -4571,13 +4546,15 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 2652.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[48 <./assets/images/burnpool.jpg>]
+[47 <./assets/images/burnpool.jpg>]
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2652.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+ [48 <./assets/images/claim-rewards.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2653--2654
 
  []
-
-
-Underfull \vbox (badness 2134) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2664--2665
@@ -4599,16 +4576,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2673--2674
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2674.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[49]
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2674.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [50 <./assets/images/claim-rewards.jpg>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2684.
@@ -4678,7 +4645,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2717--2718
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2718.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 2719--2720
 
  []
@@ -4728,22 +4699,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2752--2778
 
  []
 
-File: ./assets/images/logo.png Graphic file (type png)
-<use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2778.
-(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[51]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2782.
 
-<./assets/images/viral-coin-logo.png, id=857, 140.05814pt x 140.05814pt>
+<./assets/images/viral-coin-logo.png, id=848, 140.05814pt x 140.05814pt>
 File: ./assets/images/viral-coin-logo.png Graphic file (type png)
 <use ./assets/images/viral-coin-logo.png>
 Package pdftex.def Info: ./assets/images/viral-coin-logo.png  used on input lin
 e 2792.
 (pdftex.def)             Requested size: 71.13188pt x 71.13164pt.
-<./assets/images/token-distribution.png, id=858, 2281.52374pt x 925.4575pt>
+<./assets/images/token-distribution.png, id=849, 2281.52374pt x 925.4575pt>
 File: ./assets/images/token-distribution.png Graphic file (type png)
 <use ./assets/images/token-distribution.png>
 Package pdftex.def Info: ./assets/images/token-distribution.png  used on input 
@@ -4753,9 +4719,6 @@ line 2799.
 Overfull \hbox (48.48857pt too wide) in paragraph at lines 2799--2800
  [] 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (164.94864pt too wide) in paragraph at lines 2808--2818
@@ -4782,7 +4745,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2846--2847
 
  []
 
-
+File: ./assets/images/logo.png Graphic file (type png)
+<use ./assets/images/logo.png>
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2847.
+(pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
+[50 <./assets/images/viral-coin-logo.png> <./assets/images/token-distribution.p
+ng>]
 Underfull \hbox (badness 10000) in paragraph at lines 2859--2862
 
  []
@@ -4794,15 +4762,16 @@ Overfull \hbox (102.2489pt too wide) in paragraph at lines 2872--2883
 
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
-Package pdftex.def Info: ./assets/images/logo.png  used on input line 2896.
+Package pdftex.def Info: ./assets/images/logo.png  used on input line 2897.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[52 <./assets/images/viral-coin-logo.png> <./assets/images/token-distribution.p
-ng>] (./Whitepaper.toc
+[51
+
+] (./Whitepaper.toc
 File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 43.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
- [53
+ [52
 
 ]
 Overfull \hbox (1.9397pt too wide) detected at line 57
@@ -4834,7 +4803,7 @@ File: ./assets/images/logo.png Graphic file (type png)
 <use ./assets/images/logo.png>
 Package pdftex.def Info: ./assets/images/logo.png  used on input line 2939.
 (pdftex.def)             Requested size: 11.38092pt x 11.51025pt.
-[54]
+[53]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2939.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 2939.
  (./Whitepaper.aux)
@@ -4845,9 +4814,9 @@ Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
 (rerunfilecheck)             Checksum: E7D21C23974CA5994A63C5450CD7B9B8;3993.
  ) 
 Here is how much of TeX's memory you used:
- 39905 strings out of 481239
- 864930 string characters out of 5920377
- 1536434 words of memory out of 5000000
+ 39904 strings out of 481239
+ 864923 string characters out of 5920377
+ 1535432 words of memory out of 5000000
  54146 multiletter control sequences out of 15000+600000
  573513 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4884,10 +4853,10 @@ are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Whitepaper.pdf (54 pages, 6408950 bytes).
+Output written on Whitepaper.pdf (53 pages, 6408107 bytes).
 PDF statistics:
- 1103 PDF objects out of 1200 (max. 8388607)
- 959 compressed objects within 10 object streams
- 428 named destinations out of 1000 (max. 500000)
+ 1099 PDF objects out of 1200 (max. 8388607)
+ 956 compressed objects within 10 object streams
+ 427 named destinations out of 1000 (max. 500000)
  739 words of extra memory for PDF output out of 10000 (max. 10000000)
 
