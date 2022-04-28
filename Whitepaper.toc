@@ -29,33 +29,32 @@
 \contentsline {section}{\numberline {XII}\textbf {Viral Decentralized Exchanges}}{14}{section.12}%
 \contentsline {section}{\numberline {XIII}\textbf {Viral Fiat-Exchange}}{25}{section.13}%
 \contentsline {section}{\numberline {XIV}\textbf {Custodian Services}}{27}{section.14}%
-\contentsline {section}{\numberline {XV}\textbf {Business-Wallet API and SDK}}{27}{section.15}%
-\contentsline {section}{\numberline {XVI}\textbf {Child Platforms}}{27}{section.16}%
-\contentsline {section}{\numberline {XVII}\textbf {ROV - Content Moderation Platform}}{28}{section.17}%
-\contentsline {section}{\numberline {XVIII}\textbf {Developer Platform}}{32}{section.18}%
-\contentsline {subsection}{\numberline {\mbox {XVIII-A}}\textbf {Influencer-Ad Platform}}{37}{subsection.18.1}%
-\contentsline {section}{\numberline {XIX}\textbf {Viral Decentralized Ads}}{40}{section.19}%
-\contentsline {section}{\numberline {XX}\textbf {P2P Exchange}}{42}{section.20}%
-\contentsline {section}{\numberline {XXI}\textbf {Viral Open-Source Distributions}}{43}{section.21}%
-\contentsline {section}{\numberline {XXII}\textbf {Global Reward Pool}}{43}{section.22}%
-\contentsline {subsection}{\numberline {\mbox {XXII-A}}\textbf {Social Users (Impression-based) - 30\%}}{46}{subsection.22.1}%
-\contentsline {subsection}{\numberline {\mbox {XXII-B}}\textbf {DAO - 14\%}}{47}{subsection.22.2}%
-\contentsline {subsection}{\numberline {\mbox {XXII-C}}\textbf {Blockchain-Miners (Gas-based) - 11\%}}{47}{subsection.22.3}%
-\contentsline {subsection}{\numberline {\mbox {XXII-D}}\textbf {Burn - 10\%}}{47}{subsection.22.4}%
-\contentsline {subsection}{\numberline {\mbox {XXII-E}}\textbf {Developers (Contribution-based) - 9\%}}{47}{subsection.22.5}%
-\contentsline {subsection}{\numberline {\mbox {XXII-F}}\textbf {IPFS-Miners (Storage-based) - 8\%}}{49}{subsection.22.6}%
-\contentsline {subsection}{\numberline {\mbox {XXII-G}}\textbf {ROV (Contribution-based) - 6\%}}{49}{subsection.22.7}%
-\contentsline {subsection}{\numberline {\mbox {XXII-H}}\textbf {Social Miners (Serving based) - 4\%}}{49}{subsection.22.8}%
-\contentsline {subsection}{\numberline {\mbox {XXII-I}}\textbf {DAG-Miners (Transaction-based) - 5\%}}{49}{subsection.22.9}%
-\contentsline {subsection}{\numberline {\mbox {XXII-J}}\textbf {Bounties - 2\%}}{49}{subsection.22.10}%
-\contentsline {subsection}{\numberline {\mbox {XXII-K}}\textbf {Crypto-Back - 1\%}}{49}{subsection.22.11}%
-\contentsline {subsection}{\numberline {\mbox {XXII-L}}\textbf {Charity Contribution}}{49}{subsection.22.12}%
-\contentsline {section}{\numberline {XXIII}\textbf {Governance \& Viral DAO}}{50}{section.23}%
-\contentsline {section}{\numberline {XXIV}\textbf {Tokenomics \& ICO}}{50}{section.24}%
-\contentsline {section}{\numberline {XXV}\textbf {Development Roadmap}}{51}{section.25}%
-\contentsline {section}{\numberline {XXVI}\textbf {Future Plans}}{51}{section.26}%
-\contentsline {section}{\numberline {XXVII}\textbf {Development}}{51}{section.27}%
-\contentsline {section}{\numberline {XXVIII}\textbf {ICO Funds Allocation}}{51}{section.28}%
-\contentsline {section}{\numberline {XXIX}\textbf {Team}}{51}{section.29}%
-\contentsline {section}{\numberline {XXX}\textbf {References}}{51}{section.30}%
-\contentsline {section}{\numberline {XXXI}\textbf {Glossary}}{51}{section.31}%
+\contentsline {section}{\numberline {XV}\textbf {Pay using Viral Pay}}{27}{section.15}%
+\contentsline {section}{\numberline {XVI}\textbf {ROV - Content Moderation Platform}}{28}{section.16}%
+\contentsline {section}{\numberline {XVII}\textbf {Developer Platform}}{32}{section.17}%
+\contentsline {subsection}{\numberline {\mbox {XVII-A}}\textbf {Influencer-Ad Platform}}{37}{subsection.17.1}%
+\contentsline {section}{\numberline {XVIII}\textbf {Viral Decentralized Ads}}{40}{section.18}%
+\contentsline {section}{\numberline {XIX}\textbf {P2P Exchange}}{42}{section.19}%
+\contentsline {section}{\numberline {XX}\textbf {Viral Open-Source Distributions}}{43}{section.20}%
+\contentsline {section}{\numberline {XXI}\textbf {Global Reward Pool}}{43}{section.21}%
+\contentsline {subsection}{\numberline {\mbox {XXI-A}}\textbf {Social Users (Impression-based) - 30\%}}{46}{subsection.21.1}%
+\contentsline {subsection}{\numberline {\mbox {XXI-B}}\textbf {DAO - 14\%}}{47}{subsection.21.2}%
+\contentsline {subsection}{\numberline {\mbox {XXI-C}}\textbf {Blockchain-Miners (Gas-based) - 11\%}}{47}{subsection.21.3}%
+\contentsline {subsection}{\numberline {\mbox {XXI-D}}\textbf {Burn - 10\%}}{47}{subsection.21.4}%
+\contentsline {subsection}{\numberline {\mbox {XXI-E}}\textbf {Developers (Contribution-based) - 9\%}}{47}{subsection.21.5}%
+\contentsline {subsection}{\numberline {\mbox {XXI-F}}\textbf {IPFS-Miners (Storage-based) - 8\%}}{49}{subsection.21.6}%
+\contentsline {subsection}{\numberline {\mbox {XXI-G}}\textbf {ROV (Contribution-based) - 6\%}}{49}{subsection.21.7}%
+\contentsline {subsection}{\numberline {\mbox {XXI-H}}\textbf {Social Miners (Serving based) - 4\%}}{49}{subsection.21.8}%
+\contentsline {subsection}{\numberline {\mbox {XXI-I}}\textbf {DAG-Miners (Transaction-based) - 5\%}}{49}{subsection.21.9}%
+\contentsline {subsection}{\numberline {\mbox {XXI-J}}\textbf {Bounties - 2\%}}{49}{subsection.21.10}%
+\contentsline {subsection}{\numberline {\mbox {XXI-K}}\textbf {Crypto-Back - 1\%}}{49}{subsection.21.11}%
+\contentsline {subsection}{\numberline {\mbox {XXI-L}}\textbf {Charity Contribution}}{49}{subsection.21.12}%
+\contentsline {section}{\numberline {XXII}\textbf {Governance \& Viral DAO}}{50}{section.22}%
+\contentsline {section}{\numberline {XXIII}\textbf {Tokenomics \& ICO}}{50}{section.23}%
+\contentsline {section}{\numberline {XXIV}\textbf {Development Roadmap}}{51}{section.24}%
+\contentsline {section}{\numberline {XXV}\textbf {Future Plans}}{51}{section.25}%
+\contentsline {section}{\numberline {XXVI}\textbf {Development}}{51}{section.26}%
+\contentsline {section}{\numberline {XXVII}\textbf {ICO Funds Allocation}}{51}{section.27}%
+\contentsline {section}{\numberline {XXVIII}\textbf {Team}}{51}{section.28}%
+\contentsline {section}{\numberline {XXIX}\textbf {References}}{51}{section.29}%
+\contentsline {section}{\numberline {XXX}\textbf {Glossary}}{51}{section.30}%
