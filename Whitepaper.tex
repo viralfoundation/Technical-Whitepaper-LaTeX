@@ -1,6 +1,6 @@
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
-\usepackage[a4paper , left=18mm, top=20mm, right=18mm, bottom=30mm, footskip=8mm]{geometry}
+\usepackage[a4paper , left=18mm, top=20mm, right=18mm, bottom=30mm, footskip=6mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -143,12 +143,6 @@
 
 %\twocolumn
 
-\section{\textbf{User Problems and Basic Solutions}}
-
-\lipsum[1]
-
-
-
 \section{\textbf{Fad of Decentralized Social Media Apps}}
 
 Rise of Web2 Apps\\
@@ -207,6 +201,8 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 
 \section{\textbf{Viral Platform Architecture}}
 
+The Viral Platform is a fool-proof multi-platform architecture which opens up new possibilities where each platform relies on each other and supports each other's existence. The \textit{Fig.1} lists an overview about the architecture where each one are proposed vividly in further sections with it's significance and following protocols used.\\
+
 \begin{figure*}[h]
 \begin{center}
 \begin{adjustbox}{width=12cm}
@@ -220,30 +216,28 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
       ]
       \node [root concept] {Viral Social Platform}
         child [concept color=purple!10, rotate=-40]{
-          node    {Viral Smart Chains}
-          child { node    {Payment Channels - L2} }
-          child { node    {Zk-Rollups} }
-          child { node    {Viral Bridge}}
-          child { node    {Horizontal Chains} }
+          node    {Viral Blockchain}
+          child { node    {VRL Token Ecosystem} }
+          child { node    {Smart Contract Chains} }
         }
-        child [concept color=teal!10, rotate=-20]{
+        child [concept color=teal!10, rotate=-30]{
           node     {Viral Pay - MultiToken Smart Wallet}
-          child { node    {Viral CEX} }
-          child { node    {Viral DEX} }
-          child { node    {P2P Exchange} }
-          child { node    {Atomic DEX} }
+          child { node    {Viral-FEX} }
+          child { node    {Viral-DEX} }
+          child { node    {P2P-Exchange} }
+          child { node    {Cross-Chain Bridges} }
           child { node    {Viral Name System} }
         }
         child [concept color=green!10, rotate=-2]{
           node  {Child Platforms}
           child { node {ROV Community} }
           child { node {Dev-Space} }
-          child { node {Social Nodes} }
-          child { node {Ad-Platform} }
+          child { node {Influencer Platform} }
+          child { node {D-Ads Platform} }
         }
         child [concept color=blue!10, rotate=-4]{
           node  {Governance Organizations}
-          child { node {Viral Foundation} }
+          child { node {On-Chain Governance} }
           child { node {Viral DAO} }
         }
         child [concept color=yellow!10, rotate=-20]{
@@ -261,17 +255,15 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 
 \begin{enumerate}[wide, labelwidth=!, labelindent=0pt]
 
-\item \textbf{Viral App}: Decentralized Social Media Platform bridging Blockchain applications for limitless possibilities.
+\item \textbf{Viral Social Platform}: Decentralized Social Media Platform bridging Blockchain applications for limitless possibilities.
 
 \item \textbf{Viral Smart Chains}: Horizontally Scalable EVM Smart Chain on Top of IOTA's Tangle.
 
 \begin{enumerate}[wide, labelwidth=!, labelindent=0pt]
 
-	\item \textbf{Payment Channels (L2)}: State Channels to move value off-chain for lightning fast micro-transactions.
+	\item \textbf{VRL Token Ecosystem}: State Channels to move value off-chain for lightning fast micro-transactions.
 
-	\item \textbf{Zk-Rollups (L2)}: Batching Multiple Off-chain NFT Standard Tokens (ERC721) to On-Chain,
-	\item \textbf{Viral Bridge}: Interopability of various major cryotocurrencies by wrapping tokens decentralized such as Bitcoin, Ethereum,etc into Viral Smart Chains.
-	\item \textbf{Horizontal Chains}: Additional of New Chains anchored to IOTA Tangle that communicates between multiple Viral Smart Chains for unlimited scaling
+	\item \textbf{Smart Contract Chains}: Sharded Horizontally scalable Smart Contract Chains anchored to Viral DAG that communicates between multiple Viral Smart Chains
 
 \end{enumerate}
 
@@ -279,10 +271,14 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 
 \begin{enumerate}[wide, labelwidth=!, labelindent=0pt]
 
-\item \textbf{Viral CEX-Centralized Exchange}: Trustless Non-Custodial Exchange for Fiat-Crypto trading
-\item \textbf{Viral DEX-Decentralized Exchange}: Automated Market Making Protocol for exchanging Viral tokens
+\item \textbf{Viral FEX- Fiat Exchange}: Trustless Non-Custodial Exchange for Fiat-Crypto trading
+\item \textbf{Viral DEX-Decentralized Exchange}: Trustless swap between multiple tokens with the new Viral Sharded DEX Protocol.
+
 \item \textbf{P2P Exchange}: Trustsless anonymous exchange leveraging Peer-to-Peer protocol
-\item \textbf{Viral Name System}: Decentralized blockchain based username protocol for transfers instead of cryptographic public address.
+
+\item \textbf{Cross-Chain Bridges}: Interopability of various major cryotocurrencies such as Bitcoin, Ethereum,etc by wrapping tokens into Viral Smart Chains.
+
+\item \textbf{Viral Name System}: Decentralized blockchain based username protocol with token receiving preference configuration for smooth and dedicated transfers to primary wallet.
 
 \end{enumerate}
 
@@ -291,8 +287,11 @@ Every media shared on viral is an unique NFT where it can be utilized to create 
 \begin{enumerate}[wide, labelwidth=!, labelindent=0pt]
 
 \item \textbf{Dev-Space}: Application for Developers to decide on reward allocation for improving Viral-Beta
+
 \item \textbf{ROV Community}: Curator Platform to vote and remove reported content on Viral-Alpha
-\item \textbf{Ad Platform}: Decentralized Ad platform connecting Influencers,businesses and users for trustless engagement-proof ads.
+\item \textbf{Influencer Platform}: Decentralized platform connecting Influencers,businesses and users for trustless engagement-proof ads.
+
+\item \textbf{D-Ads Platform}: Targeted Decentralized Ads without leveraging social user's data using recursive zk-snarks.
 
 \end{enumerate}
 
@@ -1867,7 +1866,7 @@ Statistics of Loss of Private Keys\\
 Intro to Viral Custodian Service\\
 Secure Custodian Protocol\\
 
-\section{\textbf{Pay using Viral Pay}}
+\section{\textbf{Viral Payment Gateway}}
 
 Importance of Business Transactions\\
 Support to Businesses\\
@@ -2194,7 +2193,7 @@ Apart from developer rewards, a certain percentage from the global reward pool i
 
 \textbf{Project Repository Lisencing}\\
 
-\subsection{\textbf{Influencer-Ad Platform}}
+\section{\textbf{Influencer-Ad Platform}}
 
 Mainstream modern-advertisement focusses on targeting social media users by running campaigns collaborating between brand and influencers. It takes the idea of celebrity endorsement and places it into a modern-day content-driven marketing campaign. This type of marketing doesn't only involves celebrities but popular content creators who have an enthusiastic audience. Influencers can be anyone anywhere but what separates them from a amateur creators is their large following. Some will have hundreds of thousands, some even millions, brands do care their reputation build around the specific industry that they are looking for i.e, Fashion, Comedy, Sports. They are the people who make engaging contents, share the best pictures, entertain their viewers, run exciting discussions across social platforms on their own specialized topics. From a smaller market size of \$1.6 billion in 2016 it rose to a figure of \$13.8 billion industry in which for every \$1 spent businesses receive purchases worth \$5.78 from all over the world giving an ROI (Return of Investment) of 500\%. About 1360+ Influencer marketing focused platforms and agencies entered the market in the last 5 years alone.\\
 
@@ -2788,13 +2787,12 @@ Staked Tokens\\
 Viral Improvement Proposal\\
 Addition of New Chains\\
 
-
 \textbf{Viral Ecosystem Governance}\\
-
 
 DAO \& Intro to Decentralized Governance\\
 Centralized companies vs decentralized organizations\\
 How expenditure, revenue, profits and other basic financial terms in companies work in a decentralized environment\\
+Popular DAOs History, debates, failures and lessons to be learnt\\
 Viral DAO Intro\\
 Viral Foundation and V-DAO\\
 What type of Governance V-DAO Do?\\

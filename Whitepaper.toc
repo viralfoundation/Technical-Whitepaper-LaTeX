@@ -1,38 +1,37 @@
 \babel@toc {nil}{}
-\contentsline {section}{\numberline {I}\textbf {User Problems and Basic Solutions}}{1}{section.1}%
-\contentsline {section}{\numberline {II}\textbf {Fad of Decentralized Social Media Apps}}{1}{section.2}%
-\contentsline {section}{\numberline {III}\textbf {Vision Statement}}{1}{section.3}%
-\contentsline {section}{\numberline {IV}\textbf {Proposed Solutions}}{1}{section.4}%
-\contentsline {section}{\numberline {V}\textbf {Unified Mobile Application - An Intro to Viral}}{2}{section.5}%
-\contentsline {section}{\numberline {VI}\textbf {Viral Platform Architecture}}{2}{section.6}%
-\contentsline {section}{\numberline {VII}\textbf {Social media and User Experience}}{2}{section.7}%
-\contentsline {subsection}{\numberline {\mbox {VII-A}}\textbf {Types of Posts}}{2}{subsection.7.1}%
-\contentsline {subsection}{\numberline {\mbox {VII-B}}\textbf {Viral Avatars}}{4}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-B}1}\textbf {Meta-Chat}}{4}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-B}2}\textbf {Viral Clubs}}{4}{subsubsection.7.2.2}%
-\contentsline {subsection}{\numberline {\mbox {VII-C}}\textbf {Engagements}}{4}{subsection.7.3}%
-\contentsline {subsection}{\numberline {\mbox {VII-D}}\textbf {Other Features}}{5}{subsection.7.4}%
-\contentsline {subsection}{\numberline {\mbox {VII-E}}\textbf {Viral - User Security and Privacy}}{5}{subsection.7.5}%
-\contentsline {subsection}{\numberline {\mbox {VII-F}}\textbf {TOR/VPN Anonymity}}{8}{subsection.7.6}%
-\contentsline {section}{\numberline {VIII}\textbf {Blockchain, Token Ecosystem}}{9}{section.8}%
-\contentsline {subsection}{\numberline {\mbox {VIII-A}}\textbf {Viral Smart Chain – Short Intro}}{9}{subsection.8.1}%
-\contentsline {subsection}{\numberline {\mbox {VIII-B}}\textbf {Tangle}}{9}{subsection.8.2}%
-\contentsline {subsection}{\numberline {\mbox {VIII-C}}\textbf {IOTA Smart Contract Protocol}}{9}{subsection.8.3}%
-\contentsline {subsection}{\numberline {\mbox {VIII-D}}\textbf {Viral \& IOTA}}{9}{subsection.8.4}%
-\contentsline {subsection}{\numberline {\mbox {VIII-E}}\textbf {Viral - Side Tangle}}{10}{subsection.8.5}%
-\contentsline {subsection}{\numberline {\mbox {VIII-F}}\textbf {Viral Smart Chains}}{10}{subsection.8.6}%
-\contentsline {section}{\numberline {IX}\textbf {Viral Token Ecosystem}}{12}{section.9}%
-\contentsline {subsubsection}{\numberline {\mbox {IX-}1}\textbf {Viral Coin - Native Token}}{12}{subsubsection.9.0.1}%
-\contentsline {subsubsection}{\numberline {\mbox {IX-}2}\textbf {Viral Stable Coin}}{12}{subsubsection.9.0.2}%
-\contentsline {section}{\numberline {X}\textbf {Decentralized Block-chain Bridges}}{13}{section.10}%
-\contentsline {section}{\numberline {XI}\textbf {Viral Pay - Smart Wallet}}{13}{section.11}%
-\contentsline {section}{\numberline {XII}\textbf {Viral Decentralized Exchanges}}{14}{section.12}%
-\contentsline {section}{\numberline {XIII}\textbf {Viral Fiat-Exchange}}{25}{section.13}%
-\contentsline {section}{\numberline {XIV}\textbf {Custodian Services}}{27}{section.14}%
-\contentsline {section}{\numberline {XV}\textbf {Pay using Viral Pay}}{27}{section.15}%
-\contentsline {section}{\numberline {XVI}\textbf {ROV - Content Moderation Platform}}{28}{section.16}%
-\contentsline {section}{\numberline {XVII}\textbf {Developer Platform}}{32}{section.17}%
-\contentsline {subsection}{\numberline {\mbox {XVII-A}}\textbf {Influencer-Ad Platform}}{37}{subsection.17.1}%
+\contentsline {section}{\numberline {I}\textbf {Fad of Decentralized Social Media Apps}}{1}{section.1}%
+\contentsline {section}{\numberline {II}\textbf {Vision Statement}}{1}{section.2}%
+\contentsline {section}{\numberline {III}\textbf {Proposed Solutions}}{1}{section.3}%
+\contentsline {section}{\numberline {IV}\textbf {Unified Mobile Application - An Intro to Viral}}{1}{section.4}%
+\contentsline {section}{\numberline {V}\textbf {Viral Platform Architecture}}{2}{section.5}%
+\contentsline {section}{\numberline {VI}\textbf {Social media and User Experience}}{2}{section.6}%
+\contentsline {subsection}{\numberline {\mbox {VI-A}}\textbf {Types of Posts}}{2}{subsection.6.1}%
+\contentsline {subsection}{\numberline {\mbox {VI-B}}\textbf {Viral Avatars}}{4}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}1}\textbf {Meta-Chat}}{4}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {\mbox {VI-B}2}\textbf {Viral Clubs}}{4}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {\mbox {VI-C}}\textbf {Engagements}}{4}{subsection.6.3}%
+\contentsline {subsection}{\numberline {\mbox {VI-D}}\textbf {Other Features}}{5}{subsection.6.4}%
+\contentsline {subsection}{\numberline {\mbox {VI-E}}\textbf {Viral - User Security and Privacy}}{5}{subsection.6.5}%
+\contentsline {subsection}{\numberline {\mbox {VI-F}}\textbf {TOR/VPN Anonymity}}{8}{subsection.6.6}%
+\contentsline {section}{\numberline {VII}\textbf {Blockchain, Token Ecosystem}}{9}{section.7}%
+\contentsline {subsection}{\numberline {\mbox {VII-A}}\textbf {Viral Smart Chain – Short Intro}}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {\mbox {VII-B}}\textbf {Tangle}}{9}{subsection.7.2}%
+\contentsline {subsection}{\numberline {\mbox {VII-C}}\textbf {IOTA Smart Contract Protocol}}{9}{subsection.7.3}%
+\contentsline {subsection}{\numberline {\mbox {VII-D}}\textbf {Viral \& IOTA}}{9}{subsection.7.4}%
+\contentsline {subsection}{\numberline {\mbox {VII-E}}\textbf {Viral - Side Tangle}}{10}{subsection.7.5}%
+\contentsline {subsection}{\numberline {\mbox {VII-F}}\textbf {Viral Smart Chains}}{10}{subsection.7.6}%
+\contentsline {section}{\numberline {VIII}\textbf {Viral Token Ecosystem}}{12}{section.8}%
+\contentsline {subsubsection}{\numberline {\mbox {VIII-}1}\textbf {Viral Coin - Native Token}}{12}{subsubsection.8.0.1}%
+\contentsline {subsubsection}{\numberline {\mbox {VIII-}2}\textbf {Viral Stable Coin}}{12}{subsubsection.8.0.2}%
+\contentsline {section}{\numberline {IX}\textbf {Decentralized Block-chain Bridges}}{13}{section.9}%
+\contentsline {section}{\numberline {X}\textbf {Viral Pay - Smart Wallet}}{13}{section.10}%
+\contentsline {section}{\numberline {XI}\textbf {Viral Decentralized Exchanges}}{14}{section.11}%
+\contentsline {section}{\numberline {XII}\textbf {Viral Fiat-Exchange}}{25}{section.12}%
+\contentsline {section}{\numberline {XIII}\textbf {Custodian Services}}{27}{section.13}%
+\contentsline {section}{\numberline {XIV}\textbf {Viral Payment Gateway}}{27}{section.14}%
+\contentsline {section}{\numberline {XV}\textbf {ROV - Content Moderation Platform}}{28}{section.15}%
+\contentsline {section}{\numberline {XVI}\textbf {Developer Platform}}{32}{section.16}%
+\contentsline {section}{\numberline {XVII}\textbf {Influencer-Ad Platform}}{37}{section.17}%
 \contentsline {section}{\numberline {XVIII}\textbf {Viral Decentralized Ads}}{41}{section.18}%
 \contentsline {section}{\numberline {XIX}\textbf {P2P Exchange}}{41}{section.19}%
 \contentsline {section}{\numberline {XX}\textbf {Viral Open-Source Distributions}}{43}{section.20}%
