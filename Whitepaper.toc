@@ -33,8 +33,8 @@
 \contentsline {section}{\numberline {XVI}\textbf {ROV - Content Moderation Platform}}{28}{section.16}%
 \contentsline {section}{\numberline {XVII}\textbf {Developer Platform}}{32}{section.17}%
 \contentsline {subsection}{\numberline {\mbox {XVII-A}}\textbf {Influencer-Ad Platform}}{37}{subsection.17.1}%
-\contentsline {section}{\numberline {XVIII}\textbf {Viral Decentralized Ads}}{40}{section.18}%
-\contentsline {section}{\numberline {XIX}\textbf {P2P Exchange}}{42}{section.19}%
+\contentsline {section}{\numberline {XVIII}\textbf {Viral Decentralized Ads}}{41}{section.18}%
+\contentsline {section}{\numberline {XIX}\textbf {P2P Exchange}}{41}{section.19}%
 \contentsline {section}{\numberline {XX}\textbf {Viral Open-Source Distributions}}{43}{section.20}%
 \contentsline {section}{\numberline {XXI}\textbf {Global Reward Pool}}{43}{section.21}%
 \contentsline {subsection}{\numberline {\mbox {XXI-A}}\textbf {Social Users (Impression-based) - 30\%}}{46}{subsection.21.1}%
