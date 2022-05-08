@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {I}\textbf {Fad of Decentralized Social Media Apps}}{1}{section.1}%
 \contentsline {section}{\numberline {II}\textbf {Vision Statement}}{1}{section.2}%
 \contentsline {section}{\numberline {III}\textbf {Proposed Solutions}}{1}{section.3}%
-\contentsline {section}{\numberline {IV}\textbf {Unified Mobile Application - An Intro to Viral}}{1}{section.4}%
+\contentsline {section}{\numberline {IV}\textbf {Unified Mobile Application - An Intro to Viral}}{2}{section.4}%
 \contentsline {section}{\numberline {V}\textbf {Viral Platform Architecture}}{2}{section.5}%
 \contentsline {section}{\numberline {VI}\textbf {Social media and User Experience}}{2}{section.6}%
 \contentsline {subsection}{\numberline {\mbox {VI-A}}\textbf {Types of Posts}}{2}{subsection.6.1}%
@@ -12,48 +12,48 @@
 \contentsline {subsection}{\numberline {\mbox {VI-C}}\textbf {Engagements}}{4}{subsection.6.3}%
 \contentsline {subsection}{\numberline {\mbox {VI-D}}\textbf {Other Features}}{5}{subsection.6.4}%
 \contentsline {subsection}{\numberline {\mbox {VI-E}}\textbf {Viral - User Security and Privacy}}{5}{subsection.6.5}%
-\contentsline {subsection}{\numberline {\mbox {VI-F}}\textbf {TOR/VPN Anonymity}}{8}{subsection.6.6}%
+\contentsline {subsection}{\numberline {\mbox {VI-F}}\textbf {TOR/VPN Anonymity}}{9}{subsection.6.6}%
 \contentsline {section}{\numberline {VII}\textbf {Blockchain, Token Ecosystem}}{9}{section.7}%
 \contentsline {subsection}{\numberline {\mbox {VII-A}}\textbf {Viral Smart Chain – Short Intro}}{9}{subsection.7.1}%
 \contentsline {subsection}{\numberline {\mbox {VII-B}}\textbf {Tangle}}{9}{subsection.7.2}%
 \contentsline {subsection}{\numberline {\mbox {VII-C}}\textbf {IOTA Smart Contract Protocol}}{9}{subsection.7.3}%
-\contentsline {subsection}{\numberline {\mbox {VII-D}}\textbf {Viral \& IOTA}}{9}{subsection.7.4}%
+\contentsline {subsection}{\numberline {\mbox {VII-D}}\textbf {Viral \& IOTA}}{10}{subsection.7.4}%
 \contentsline {subsection}{\numberline {\mbox {VII-E}}\textbf {Viral - Side Tangle}}{10}{subsection.7.5}%
 \contentsline {subsection}{\numberline {\mbox {VII-F}}\textbf {Viral Smart Chains}}{10}{subsection.7.6}%
 \contentsline {section}{\numberline {VIII}\textbf {Viral Token Ecosystem}}{12}{section.8}%
-\contentsline {subsubsection}{\numberline {\mbox {VIII-}1}\textbf {Viral Coin - Native Token}}{12}{subsubsection.8.0.1}%
-\contentsline {subsubsection}{\numberline {\mbox {VIII-}2}\textbf {Viral Stable Coin}}{12}{subsubsection.8.0.2}%
+\contentsline {subsubsection}{\numberline {\mbox {VIII-}1}\textbf {Viral Coin - Native Token}}{13}{subsubsection.8.0.1}%
+\contentsline {subsubsection}{\numberline {\mbox {VIII-}2}\textbf {Viral Stable Coin}}{13}{subsubsection.8.0.2}%
 \contentsline {section}{\numberline {IX}\textbf {Decentralized Block-chain Bridges}}{13}{section.9}%
-\contentsline {section}{\numberline {X}\textbf {Viral Pay - Smart Wallet}}{13}{section.10}%
-\contentsline {section}{\numberline {XI}\textbf {Viral Decentralized Exchanges}}{14}{section.11}%
-\contentsline {section}{\numberline {XII}\textbf {Viral Fiat-Exchange}}{25}{section.12}%
-\contentsline {section}{\numberline {XIII}\textbf {Custodian Services}}{27}{section.13}%
-\contentsline {section}{\numberline {XIV}\textbf {Viral Payment Gateway}}{27}{section.14}%
-\contentsline {section}{\numberline {XV}\textbf {ROV - Content Moderation Platform}}{28}{section.15}%
-\contentsline {section}{\numberline {XVI}\textbf {Developer Platform}}{32}{section.16}%
-\contentsline {section}{\numberline {XVII}\textbf {Influencer-Ad Platform}}{37}{section.17}%
-\contentsline {section}{\numberline {XVIII}\textbf {Viral Decentralized Ads}}{41}{section.18}%
-\contentsline {section}{\numberline {XIX}\textbf {P2P Exchange}}{41}{section.19}%
-\contentsline {section}{\numberline {XX}\textbf {Viral Open-Source Distributions}}{43}{section.20}%
-\contentsline {section}{\numberline {XXI}\textbf {Global Reward Pool}}{43}{section.21}%
-\contentsline {subsection}{\numberline {\mbox {XXI-A}}\textbf {Social Users (Impression-based) - 30\%}}{46}{subsection.21.1}%
-\contentsline {subsection}{\numberline {\mbox {XXI-B}}\textbf {DAO - 14\%}}{47}{subsection.21.2}%
-\contentsline {subsection}{\numberline {\mbox {XXI-C}}\textbf {Blockchain-Miners (Gas-based) - 11\%}}{47}{subsection.21.3}%
-\contentsline {subsection}{\numberline {\mbox {XXI-D}}\textbf {Burn - 10\%}}{47}{subsection.21.4}%
-\contentsline {subsection}{\numberline {\mbox {XXI-E}}\textbf {Developers (Contribution-based) - 9\%}}{47}{subsection.21.5}%
+\contentsline {section}{\numberline {X}\textbf {Viral Pay - Smart Wallet}}{14}{section.10}%
+\contentsline {section}{\numberline {XI}\textbf {Viral Decentralized Exchanges}}{15}{section.11}%
+\contentsline {section}{\numberline {XII}\textbf {Viral Fiat-Exchange}}{26}{section.12}%
+\contentsline {section}{\numberline {XIII}\textbf {Custodian Services}}{28}{section.13}%
+\contentsline {section}{\numberline {XIV}\textbf {Viral Payment Gateway - Web2 Integrations}}{28}{section.14}%
+\contentsline {section}{\numberline {XV}\textbf {ROV - Content Moderation Platform}}{29}{section.15}%
+\contentsline {section}{\numberline {XVI}\textbf {Developer Platform}}{33}{section.16}%
+\contentsline {section}{\numberline {XVII}\textbf {Influencer-Ad Platform}}{38}{section.17}%
+\contentsline {section}{\numberline {XVIII}\textbf {Viral Decentralized Ads}}{43}{section.18}%
+\contentsline {section}{\numberline {XIX}\textbf {P2P Exchange}}{43}{section.19}%
+\contentsline {section}{\numberline {XX}\textbf {Viral Open-Source Distributions}}{44}{section.20}%
+\contentsline {section}{\numberline {XXI}\textbf {Global Reward Pool}}{45}{section.21}%
+\contentsline {subsection}{\numberline {\mbox {XXI-A}}\textbf {Social Users (Impression-based) - 30\%}}{47}{subsection.21.1}%
+\contentsline {subsection}{\numberline {\mbox {XXI-B}}\textbf {DAO - 14\%}}{48}{subsection.21.2}%
+\contentsline {subsection}{\numberline {\mbox {XXI-C}}\textbf {Blockchain-Miners (Gas-based) - 11\%}}{48}{subsection.21.3}%
+\contentsline {subsection}{\numberline {\mbox {XXI-D}}\textbf {Burn - 10\%}}{48}{subsection.21.4}%
+\contentsline {subsection}{\numberline {\mbox {XXI-E}}\textbf {Developers (Contribution-based) - 9\%}}{48}{subsection.21.5}%
 \contentsline {subsection}{\numberline {\mbox {XXI-F}}\textbf {IPFS-Miners (Storage-based) - 8\%}}{49}{subsection.21.6}%
 \contentsline {subsection}{\numberline {\mbox {XXI-G}}\textbf {ROV (Contribution-based) - 6\%}}{49}{subsection.21.7}%
-\contentsline {subsection}{\numberline {\mbox {XXI-H}}\textbf {Social Miners (Serving based) - 4\%}}{49}{subsection.21.8}%
-\contentsline {subsection}{\numberline {\mbox {XXI-I}}\textbf {DAG-Miners (Transaction-based) - 5\%}}{49}{subsection.21.9}%
-\contentsline {subsection}{\numberline {\mbox {XXI-J}}\textbf {Bounties - 2\%}}{49}{subsection.21.10}%
-\contentsline {subsection}{\numberline {\mbox {XXI-K}}\textbf {Crypto-Back - 1\%}}{49}{subsection.21.11}%
-\contentsline {subsection}{\numberline {\mbox {XXI-L}}\textbf {Charity Contribution}}{49}{subsection.21.12}%
-\contentsline {section}{\numberline {XXII}\textbf {Governance \& Viral DAO}}{50}{section.22}%
-\contentsline {section}{\numberline {XXIII}\textbf {Tokenomics \& ICO}}{50}{section.23}%
-\contentsline {section}{\numberline {XXIV}\textbf {Development Roadmap}}{51}{section.24}%
-\contentsline {section}{\numberline {XXV}\textbf {Future Plans}}{51}{section.25}%
-\contentsline {section}{\numberline {XXVI}\textbf {Development}}{51}{section.26}%
-\contentsline {section}{\numberline {XXVII}\textbf {ICO Funds Allocation}}{51}{section.27}%
-\contentsline {section}{\numberline {XXVIII}\textbf {Team}}{51}{section.28}%
-\contentsline {section}{\numberline {XXIX}\textbf {References}}{51}{section.29}%
-\contentsline {section}{\numberline {XXX}\textbf {Glossary}}{51}{section.30}%
+\contentsline {subsection}{\numberline {\mbox {XXI-H}}\textbf {Social Miners (Serving based) - 4\%}}{51}{subsection.21.8}%
+\contentsline {subsection}{\numberline {\mbox {XXI-I}}\textbf {DAG-Miners (Transaction-based) - 5\%}}{51}{subsection.21.9}%
+\contentsline {subsection}{\numberline {\mbox {XXI-J}}\textbf {Bounties - 2\%}}{51}{subsection.21.10}%
+\contentsline {subsection}{\numberline {\mbox {XXI-K}}\textbf {Crypto-Back - 1\%}}{51}{subsection.21.11}%
+\contentsline {subsection}{\numberline {\mbox {XXI-L}}\textbf {Charity Contribution}}{51}{subsection.21.12}%
+\contentsline {section}{\numberline {XXII}\textbf {Governance \& Viral DAO}}{51}{section.22}%
+\contentsline {section}{\numberline {XXIII}\textbf {Tokenomics \& ICO}}{52}{section.23}%
+\contentsline {section}{\numberline {XXIV}\textbf {Development Roadmap}}{52}{section.24}%
+\contentsline {section}{\numberline {XXV}\textbf {Future Plans}}{52}{section.25}%
+\contentsline {section}{\numberline {XXVI}\textbf {Development}}{52}{section.26}%
+\contentsline {section}{\numberline {XXVII}\textbf {ICO Funds Allocation}}{52}{section.27}%
+\contentsline {section}{\numberline {XXVIII}\textbf {Team}}{52}{section.28}%
+\contentsline {section}{\numberline {XXIX}\textbf {References}}{52}{section.29}%
+\contentsline {section}{\numberline {XXX}\textbf {Glossary}}{52}{section.30}%
