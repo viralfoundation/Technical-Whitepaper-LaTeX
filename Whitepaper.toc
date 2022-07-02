@@ -11,38 +11,49 @@
 \contentsline {subsubsection}{\numberline {\mbox {VI-A}3}Wallets Significance and User Experience}{4}{subsubsection.6.1.3}%
 \contentsline {subsubsection}{\numberline {\mbox {VI-A}4}Chain Integrated Scaling Solutions}{4}{subsubsection.6.1.4}%
 \contentsline {subsubsection}{\numberline {\mbox {VI-A}5}Comparison of Other Blockchain Platforms}{4}{subsubsection.6.1.5}%
-\contentsline {subsection}{\numberline {\mbox {VI-B}}Tendermint \& Cosmos SDK}{4}{subsection.6.2}%
-\contentsline {subsection}{\numberline {\mbox {VI-C}}Masked Taxation for Regional Regulatory Benefits}{4}{subsection.6.3}%
-\contentsline {subsection}{\numberline {\mbox {VI-D}}Lightning Payments}{4}{subsection.6.4}%
-\contentsline {subsection}{\numberline {\mbox {VI-E}}Anchored Smart Contract Chains}{4}{subsection.6.5}%
-\contentsline {subsection}{\numberline {\mbox {VI-F}}Transaction Fee using multiple Tokens}{4}{subsection.6.6}%
-\contentsline {subsection}{\numberline {\mbox {VI-G}}Accredited Tokens Minting using Oracle Token Standard}{4}{subsection.6.7}%
-\contentsline {subsection}{\numberline {\mbox {VI-H}}Verified and Registered Wallet Identities}{4}{subsection.6.8}%
-\contentsline {subsection}{\numberline {\mbox {VI-I}}Prime Chain's Blocks and Validators}{4}{subsection.6.9}%
-\contentsline {subsection}{\numberline {\mbox {VI-J}}Consensus, Staking and Delegation}{4}{subsection.6.10}%
-\contentsline {subsection}{\numberline {\mbox {VI-K}}Block Rewards \& Token's Monetary Policy}{4}{subsection.6.11}%
-\contentsline {subsection}{\numberline {\mbox {VI-L}}DLT Model of Chains}{4}{subsection.6.12}%
-\contentsline {subsection}{\numberline {\mbox {VI-M}}On-Chain Oracles}{4}{subsection.6.13}%
-\contentsline {subsection}{\numberline {\mbox {VI-N}}Ethereum Security Layer for Checkpoints}{4}{subsection.6.14}%
-\contentsline {subsection}{\numberline {\mbox {VI-O}}Hard \& Soft Forks}{4}{subsection.6.15}%
-\contentsline {subsection}{\numberline {\mbox {VI-P}}On-Chain Bridges for Regulated Spending of Cryptocurrencies}{4}{subsection.6.16}%
-\contentsline {subsection}{\numberline {\mbox {VI-Q}}Proposed Token Ecosystem - An Intro}{4}{subsection.6.17}%
-\contentsline {subsection}{\numberline {\mbox {VI-R}}On-Chain Governance and DAO - An Intro}{4}{subsection.6.18}%
-\contentsline {section}{\numberline {VII}\textbf {\textit {Solution 2} : Prime \& ASC Chains Integrated DApps}}{4}{section.7}%
-\contentsline {subsection}{\numberline {\mbox {VII-A}}Smart Wallet}{4}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-A}1}Guarded Social Wallets}{5}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-A}2}Zero-Knowledge Mobile Number / Username based Universal Payment Address}{5}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-A}3}On-Chain Auto-Debit \& Subscription Services}{5}{subsubsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {\mbox {VII-A}4}Public Key Privacy using HD wallet keys}{5}{subsubsection.7.1.4}%
-\contentsline {subsection}{\numberline {\mbox {VII-B}}Lightning based nano-DEX}{5}{subsection.7.2}%
+\contentsline {subsection}{\numberline {\mbox {VI-B}}Outline of Blockchain}{4}{subsection.6.2}%
+\contentsline {subsection}{\numberline {\mbox {VI-C}}Terminology}{4}{subsection.6.3}%
+\contentsline {subsection}{\numberline {\mbox {VI-D}}Proof of Speed}{4}{subsection.6.4}%
+\contentsline {subsection}{\numberline {\mbox {VI-E}}Wallets and Transaction Types}{4}{subsection.6.5}%
+\contentsline {subsection}{\numberline {\mbox {VI-F}}Transaction Fee}{4}{subsection.6.6}%
+\contentsline {subsection}{\numberline {\mbox {VI-G}}UTXO \& Stable Account Model}{4}{subsection.6.7}%
+\contentsline {subsection}{\numberline {\mbox {VI-H}}Masked Taxation for Regulation}{4}{subsection.6.8}%
+\contentsline {subsection}{\numberline {\mbox {VI-I}}Taxation Types and Examples}{4}{subsection.6.9}%
+\contentsline {subsection}{\numberline {\mbox {VI-J}}Anchored Smart Contract Chains}{4}{subsection.6.10}%
+\contentsline {subsection}{\numberline {\mbox {VI-K}}Token Minter Module}{4}{subsection.6.11}%
+\contentsline {subsection}{\numberline {\mbox {VI-L}}Block Architecture}{4}{subsection.6.12}%
+\contentsline {subsection}{\numberline {\mbox {VI-M}}Staking and Delegation}{4}{subsection.6.13}%
+\contentsline {subsection}{\numberline {\mbox {VI-N}}Block Rewards \& Token's Monetary Policy}{4}{subsection.6.14}%
+\contentsline {subsection}{\numberline {\mbox {VI-O}}Gossip Protocol}{4}{subsection.6.15}%
+\contentsline {subsection}{\numberline {\mbox {VI-P}}Epoch Requirements \& Production}{4}{subsection.6.16}%
+\contentsline {subsection}{\numberline {\mbox {VI-Q}}Clocks Synchronizing and Legates}{4}{subsection.6.17}%
+\contentsline {subsection}{\numberline {\mbox {VI-R}}Adding Kicking Validators}{4}{subsection.6.18}%
+\contentsline {subsection}{\numberline {\mbox {VI-S}}Validator Election}{4}{subsection.6.19}%
+\contentsline {subsection}{\numberline {\mbox {VI-T}}Verification of Hash count}{4}{subsection.6.20}%
+\contentsline {subsection}{\numberline {\mbox {VI-U}}On-Chain Oracles \& Central Bank Currencies}{4}{subsection.6.21}%
+\contentsline {subsection}{\numberline {\mbox {VI-V}}Surprise Rewards for Personal Wallets}{4}{subsection.6.22}%
+\contentsline {subsection}{\numberline {\mbox {VI-W}}Government Wallets \& Tax Registration}{4}{subsection.6.23}%
+\contentsline {subsection}{\numberline {\mbox {VI-X}}Ethereum Security Layer for Checkpoints}{4}{subsection.6.24}%
+\contentsline {subsection}{\numberline {\mbox {VI-Y}}Hard \& Soft Forks}{4}{subsection.6.25}%
+\contentsline {subsection}{\numberline {\mbox {VI-Z}}TPS Analyzed}{4}{subsection.6.26}%
+\contentsline {subsection}{\numberline {\mbox {VI-\GenericError { }{LaTeX Error: Counter too large}{See the LaTeX manual or LaTeX Companion for explanation.}{You've lost some text. Try typing <return> to proceed.\MessageBreak If that doesn't work, type X <return> to quit.}}}On-Chain Bridges for Regulated Spending of Cryptocurrencies}{4}{subsection.6.27}%
+\contentsline {subsection}{\numberline {\mbox {VI-\GenericError { }{LaTeX Error: Counter too large}{See the LaTeX manual or LaTeX Companion for explanation.}{You've lost some text. Try typing <return> to proceed.\MessageBreak If that doesn't work, type X <return> to quit.}}}Proposed Token Ecosystem - An Intro}{5}{subsection.6.28}%
+\contentsline {subsection}{\numberline {\mbox {VI-\GenericError { }{LaTeX Error: Counter too large}{See the LaTeX manual or LaTeX Companion for explanation.}{You've lost some text. Try typing <return> to proceed.\MessageBreak If that doesn't work, type X <return> to quit.}}}On-Chain Governance and DAO - An Intro}{5}{subsection.6.29}%
+\contentsline {section}{\numberline {VII}\textbf {\textit {Solution 2} : Prime \& ASC Chains Integrated DApps}}{5}{section.7}%
+\contentsline {subsection}{\numberline {\mbox {VII-A}}Smart Wallet}{5}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {\mbox {VII-A}1}Guarded Social Wallets}{6}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {\mbox {VII-A}2}Zero-Knowledge Mobile Number / Username based Universal Payment Address}{6}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {\mbox {VII-A}3}On-Chain Auto-Debit \& Subscription Services}{6}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {\mbox {VII-A}4}Public Key Privacy using HD wallet keys}{6}{subsubsection.7.1.4}%
+\contentsline {subsection}{\numberline {\mbox {VII-B}}Lightning based nano-DEX}{6}{subsection.7.2}%
 \contentsline {subsection}{\numberline {\mbox {VII-C}}AMM based Decentralized Exchange}{17}{subsection.7.3}%
 \contentsline {subsection}{\numberline {\mbox {VII-D}}Regulated Banks based trusted-mirrored wallets}{17}{subsection.7.4}%
-\contentsline {subsection}{\numberline {\mbox {VII-E}}\textbf {X Fiat-Exchange}}{17}{subsection.7.5}%
+\contentsline {subsection}{\numberline {\mbox {VII-E}}X Fiat-Exchange}{17}{subsection.7.5}%
 \contentsline {subsection}{\numberline {\mbox {VII-F}}Stable Token Ecosystem}{19}{subsection.7.6}%
 \contentsline {subsection}{\numberline {\mbox {VII-G}}Decentralized Wallet Custodian Services}{20}{subsection.7.7}%
 \contentsline {subsection}{\numberline {\mbox {VII-H}}Decentralized Central Bank Digital Currencies}{21}{subsection.7.8}%
-\contentsline {subsection}{\numberline {\mbox {VII-I}}\textbf {X Payment Gateway - Web2 Integrations}}{21}{subsection.7.9}%
-\contentsline {subsection}{\numberline {\mbox {VII-J}}\textbf {P2P Exchange}}{21}{subsection.7.10}%
+\contentsline {subsection}{\numberline {\mbox {VII-I}}X Payment Gateway - Web2 Integrations}{21}{subsection.7.9}%
+\contentsline {subsection}{\numberline {\mbox {VII-J}}P2P Exchange}{21}{subsection.7.10}%
 \contentsline {section}{\numberline {VIII}\textbf {\textit {Solution 3} : Social Media}}{22}{section.8}%
 \contentsline {subsection}{\numberline {\mbox {VIII-A}}\textbf {X Platform Architecture}}{22}{subsection.8.1}%
 \contentsline {subsection}{\numberline {\mbox {VIII-B}}\textbf {Social media and User Experience}}{23}{subsection.8.2}%
