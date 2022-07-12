@@ -1,23 +1,13 @@
-\documentclass[conference]{IEEEtran}
-\IEEEoverridecommandlockouts
-\usepackage[a4paper , left=18mm, top=20mm, right=18mm, bottom=30mm, footskip=6mm]{geometry}
+\documentclass[letterpaper,11pt]{article}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
-\setlength{\footnotesep}{0.4cm}
-\usepackage{multicol}
 \usepackage{blindtext}
 \usepackage{changepage} 
 \usepackage{alphalph}
 \usepackage{lipsum} 
-\setlength{\skip\footins}{0.5cm}
-\renewcommand{\footnoterule}{%
-  \kern -3pt
-  \hrule width \textwidth height 0.1pt
-  \kern 2.6pt
-}
 \usepackage{tabularx}
 \usepackage {amsmath}
 \usepackage{authblk}
@@ -33,13 +23,8 @@
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=cyan,
-    pdftitle={X-Technical Whitepaper}
+    pdftitle={X-Whitepaper Draft 0.1}
 }
-
-\usepackage{color}
-\definecolor{light}{rgb}{0.5, 0.5, 0.5}
-\def\light#1{{\color{light}#1}}
-
 
 \usepackage{listings}
 \input{solidity-highlighting.tex}
@@ -63,18 +48,6 @@
 
 \usepackage{multirow}
 \usepackage{tfrupee}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{} 
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footruleskip}{5mm}
-\fancyfoot[C]{
-\begin{center}
-\thepage\\
-\vspace{0.3mm}
-\footnotesize{\light{Xfoundation.org}}
-\end{center}
-}
 \usepackage{babel}
 \usepackage{authblk}
 
@@ -118,18 +91,10 @@
 \date{15 January 2022}
 \author[1]{XDAO}
 
-\setlength{\columnsep}{23pt}
-
 \begin{document}
-\singlespace
-
-\onecolumn
-
-\vspace{50mm}
 
 \maketitle
-\conf{January 2022}
-\onehalfspacing
+
 \begin{abstract}
 
 \lipsum[1]
@@ -138,14 +103,8 @@
 
 \vspace{5mm}
 
-\tableofcontents
- 
-\twocolumn
 
 
-
-
-\singlespacing
 \section{\textbf{Introduction}}
 
 \section{\textbf{Vision of X}}
@@ -207,7 +166,7 @@ Benefits of both decentralized and centralized worlds\\
 Features needed for a widespread option\\
 Need for a universal bridge for connecting blockchains to governments for financial revolution\\
 
-	\subsection{High-Level Infrastructure Overview}
+\subsection{High-Level Infrastructure Overview}
 
 		\subsubsection{Figures}
 
@@ -685,7 +644,7 @@ In centralized Order Books buyers are matched with sellers on the same price rat
 \[\sum_{n}^{\infty} BB_n = \sum_{n}^{\infty} SB_n\]
 
 The final index of the summations $\infty$ represents the limit of total number of table rows in the swap book e.g., $BA_1$ represents 1st row and Buy A column. The initial index $n$ indicates the swap book tables rows serial numbers where it's numbers are taken i.e., the swap amounts. The Summation term $BA_n, SA_n, BB_n, SB_n$ represents the addition of values taken from the tables. Here the Equation (12) constitutes that the summation of BA should be equal to summation SA and vice versa to be able to execute the swap. Where Equation (13) constitutes that the summation of BB should be equal to summation SB and vice versa to be able to execute the swap.\\
-\onecolumn
+
 \textit{\textbf{Example Swap Order}}\\
 
 A swap order in a Pool ratio of 256:1256 where it satisfies equation (12) to commence an order to the liquidity pool
@@ -756,8 +715,6 @@ D=-0.00543749, Buy 1 B=0.02043749 A , Sell 1 B=0.02587498 A
 \[Final\:Price=\frac{A+\sum BA - \sum SB}{B} = \frac{256+134.778676837+170.637175484}{12526}= 0.017574764\]\\
 
 Here the total $\sum SB = \sum BB$ $6594.678546=6594.678546$ executes the order and changes the current price of 0.02043749 to  a final price of 0.0175747644 (Eq 15). After this trade the buy and sell price will be changed according to the difference $D=-0.0025747644$ Buy 1B=0.0175747644 A and Sell 1B=0.0201495288 A to bring the M.P to 0.015. Until the M.P is achieved the buy and sell price will change after each order execution.\\
-
-\twocolumn
 
 \textbf{Liquidity Limits for Rebase}\\
 
@@ -2906,7 +2863,7 @@ Phase 3 - Internal Upgrades\\
 	\subsection{IPFS}
 	
 
-
+\tableofcontents
 	
 
 
