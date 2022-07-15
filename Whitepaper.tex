@@ -1,4 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
+\usepackage[a4paper , top=40mm, right=35mm,left=35mm, bottom=40mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -87,9 +88,11 @@
 %Title & Abstract Page of the Whitepaper
 
 
-\title{\textbf{X - A Decentralized Regulated Multi-Tokenized Economy with Lightning Payments and Social Communication}}
-\date{15 January 2022}
-\author[1]{XDAO}
+\title{\textbf{Project Blink}\\
+\vspace{3mm}
+Blinkchain - A Regulation Friendly Permisionless Proof-of-Speed Blockchain with Dynamic L1 Scaling, Offline L2 Payments, Adaptive Governance and Social Communication}
+\date{15 January 2022, Draft Version 1.0}
+\author[1]{The Blink DAO}
 
 \begin{document}
 
@@ -100,9 +103,6 @@
 \lipsum[1]
 
 \end{abstract}
-
-\vspace{5mm}
-
 
 
 \section{\textbf{Introduction}}
@@ -168,65 +168,166 @@ Need for a universal bridge for connecting blockchains to governments for financ
 
 \subsection{High-Level Infrastructure Overview}
 
-		\subsubsection{Figures}
+\subsubsection{Figures}
 
-		\subsubsection{Definitions and Short Notes}
+\subsubsection{Definitions and Short Notes}
 
-		\subsubsection{Wallets Significance and User Experience}
+\subsubsection{Wallets Significance and User Experience}
 
-		\subsubsection{Chain Integrated Scaling Solutions}
+\subsubsection{Chain Integrated Scaling Solutions}
 
-		\subsubsection{Comparison of Other Blockchain Platforms}
+\subsubsection{Comparison of Other Blockchain Platforms}
 
-	\subsection{Outline of Blockchain}	
+\subsection{Outline of Blockchain}	
 	
-	\subsection{Terminology}
-	
-	\subsection{Proof of Speed}
-	
-	\subsection{Wallets and Transaction Types}
-	
-	\subsection{Transaction Fee}
-	
-	\subsection{UTXO \& Stable Account Model}
+\subsection{Terminology}
 
-	\subsection{Masked Taxation for Regulation}
-	
-	\subsection{Taxation Types and Examples}
+\begin{enumerate}[wide, labelwidth=!, labelindent=0pt]
+\item \textbf{Legate} -  The basic unit of calculating time passed inside the blink-chain which is almost equal to One Second in real time data. A Legate represents the hashrate calculated from the legacy hardware's single thread under one second (1000ms). 
+\item \textbf{Block Producer} - Nodes which are allowed to produce/mints/mines blocks by validating transactions \& signatures thereby attain consensus on the state of the chain are known as Block Producers.
+\item \textbf{IHR} - Individual Hash Rate Relation represents the relationship between the legacy hashrate per second and the individual node's hashrate per second by expressing it's IHR in terms of Legates.
+\item \textbf{Delegators} - LPs who delegate their stake for the producers to mint the block for the assigned packet.
+\item \textbf{Blink}- The Time interval between a block's first and last transaction in a linear sequence calculated in Legates.
+\item \textbf{Blink Time} - In Each Epoch a Blink Time (represented in legates)the maximum time interval of a blink will be decided by the protocol. Surpassing it's maximum limit will account in slashing of delegated stake and reduces the block reward.
+\item \textbf{Block} - A Data File which comprises of Series of Transaction Data with Legate Proof serving as a immutable ledger once blocks are stacked on top of each other like a chain representing a Blockchain.
+\item \textbf{Gains Tax} - Percentage of Tax leaved on a UTXO when it's spent by calculating it's oracle profit, later remitted by the regional government citing tax on profits.
+\item \textbf{Stable Tax} - Tax leaved on wallets holding stable funds/assets grouped by total oracle value.
+\item \textbf{Layered Tax} - External Taxes paid by Merchants on Point of Sale inside the consumer transaction itself. It includes Goods and Service Tax.
+\end{enumerate}
 
-	\subsection{Anchored Smart Contract Chains}
+	
+\subsection{Proof of Speed}
+	
+\subsection{Wallets and Transaction Types}
+	
+\subsection{Transaction Fee}
+	
+\subsection{UTXO DLT Model}
 
-	\subsection{Token Minter Module}
-	
-	\subsection{Block Architecture}
+\subsection{Regulatory-Compliant Masked Taxation}
 
-	\subsection{Staking and Delegation}
+The primary way countries and governments finance public projects are through the collection of taxes and fees. This allows them to set aside money for social projects that benefit the citizens of the country. Without taxes, governments cannot meet the demands of their citizens. Some of the sectors like healthcare, education, medical research, national security, and foreign affairs can only be funded and run smoothly by spending taxpayers' money. Governments are always looking for ways to increase their tax revenue, as inflation continues to rise in most countries. This money is then used to pay public servants, law enforcement officers, institutions, and public services.\\
 
-	\subsection{Block Rewards \& Token's Monetary Policy}
-	
-	\subsection{Gossip Protocol}
-	
-	\subsection{Epoch Requirements \& Production}
-	
-	\subsection{Clocks Synchronizing and Legates}
-	
-	\subsection{Adding Kicking Validators}
-	
-	\subsection{Validator Election}
-	
-	\subsection{Verification of Hash count}
+Governments that control their central bank currencies can print more fiat money to meet growing spending needs. While a centralized institution like a central bank has its monetary policy to control the flow of money supplied into the economy,  the same is not true for a decentralized currency like Bitcoin, Ethereum, Blinkcoin, and a wide range of currencies on which its monetary policy is built on predefined immutable code replicated across thousands of nodes, making it nearly impossible to change the policies.\\
 
-	\subsection{On-Chain Oracles \& Central Bank Currencies}
-	
-	\subsection{Surprise Rewards for Personal Wallets}
-	
-	\subsection{Government Wallets \& Tax Registration}
+As the governance of blockchain technology is carried by pseudonymous identities, developing countries cannot change their policies or classify it as illegal as it falls under the category of virtual assets. In 2010, the first fiat bitcoin exchange rate was opened for users to buy/sell bitcoin using fiat currency by integrating centralized payment gateways like Paypal, which was later revoked due to a series of related frauds. These exchanges have created an intermediary between fiat and cryptocurrencies to freely exchange and hold virtual assets, effectively reducing the risk of decentralization. Although exchanges centralize transactions on behalf of users, they were not subject to capital gains taxes until recent years, when countries passed bills to regulate or increase sales taxes on cryptocurrency transactions by imposing fixed percentage tax and capital gains tax on the centralized exchange per transaction basis. This has erratically affected users who have been hit with heavy direct visible taxes on their funds.\\
 
-	\subsection{Ethereum Security Layer for Checkpoints}
+Since it is not possible to claim taxes inside blockchains that account for the minting of the native assets, heavy taxes are imposed on exchanges to compensate for earnings that cannot be claimed under any circumstances. Suppose a centralized entity with a centralized blockchain payment system can facilitate the country's legal tender from a digital perspective. In that case, it can halt its nodes and update the protocol, exactly like Paypal. To properly regulate a blockchain or its cryptocurrencies, a tax-friendly decentralized blockchain must be created from scratch, which facilitates non-visible tax policies that can be helpful to governments to claim tax instantly at the point of transfer or point-of-sale without affecting end-users and asset owners. Because each country's tax policy is different, carefully selected general tax methods can bring the highest possible revenue for governments inside the blockchain.\\
 
-	\subsection{Hard \& Soft Forks}
+A government's financial treasury that sits on a decentralized blockchain could lead to a government-approved and financially regulated permissionless payment system for transferring assets between wallets. This creates countless opportunities for the taxed blockchain and its circulating tokens to be spent legally, in a regulated environment. It helps to settle government officials' income directly from the claimed taxes. Running a regulatory-compliant blockchain will also encourage private institutions to make their intermediary payments in a decentralized system across multiple wallets without having to worry about criminalizing illegal tenders shortly. Currently, different national payment systems are in use and only support domestic payments within the country, while some organizations that provide international payments such as Paypal, Transferwise, and WesternUnion use SWIFT transfers and IBAN, which is very inefficient compared to a blockchain-based international payment system. A network that includes different tax bands for different countries will result in a decentralized single payment network that the whole world can rely on.\\
+
+While Taxes are remitted and sent to Governments on each transaction basis, this makes regulators offload tax audits and verify taxes for every wallet including merchant, personal, non-profit, etc by simply providing a proof-of-tax for the particular wallet address. Tax evasion attempts are debunked in the following sections and digitally minimized in a permissionless public ledger. Centralized exchanges can transfer assets from tax-exempt blockchains to blinkchain and hold assets for traders without having to worry about off-chain tax payments for each transaction. Tax evasion attempts and money laundering can be avoided by sending taxes on all transactions without hurting the end user.\\
+
+\textbf{Tax Models}\\
+
+The tax model can be divided into two main categories: Blinkchain's function as a decentralized bank and the POS (Point of Sale) system for buying and selling  goods and services. Basically, the address of each wallet is represented as a bank, and each bank has its own key to sign the transaction and add it to the blockchain. Tokens that circulate within the blinkchain serve as assets that are classified as regular tokens and stable tokens that differ from each other in terms of their actual market value. Regular tokens such as Bitcoin, Ethereum, Solana and Blinkcoin are unstable due to supply and demand gaps, investor and user sentiment, government regulations, media enthusiasm and more. Therefore, in the long run, volatility leads to capital gains, selling tokens to individuals, businesses, and merchants at a higher price than the original price the user originally paid to buy the token. Motivating the owner. \\
+
+As Stated in the IRS Webpage (Internal Revenue Service) on capital gains,\\
+
+\textit{Almost everything you own and use for personal or investment purposes is a capital asset. Examples include a home, personal-use items like household furnishings, and stocks or bonds held as investments. When you sell a capital asset, the difference between the adjusted basis in the asset and the amount you realized from the sale is a capital gain or a capital loss. Generally, an asset's basis is its cost to the owner, but if you received the asset as a gift or inheritance, refer to Topic No. 703 for information about your basis. For information on calculating adjusted basis, refer to Publication 551, Basis of Assets. You have a capital gain if you sell the asset for more than your adjusted basis. You have a capital loss if you sell the asset for less than your adjusted basis. Losses from the sale of personal-use property, such as your home or car, aren't tax deductible.}\\
+
+\begin{figure}
+\begin{center}
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [Tax Models
+    [Asset Tax
+        [Gains Tax]
+        [Regional Stable Tax]
+        [Foreign Stable Tax]
+    ]
+    [Layered Tax
+    ]
+  ]
+\end{forest}
+\caption{Regulatory-Friendly Tax Methods in Blinkchain}
+\end{center}
+\end{figure}
+
+Gains as an incentive to own an asset is taxed under the Gains Tax Model for each UTXO issued. Regular tokens fall into the gains tax category because of market demand changes disproportionately, whereas stable tokens are not sold at premium prices, but are determined when stable assets are created / minted using it's smart contract script. It is traded at a stable value. Blinkchain's stable tax is similar to threshold tax holding fiat currency in a traditional bank. In traditional banks, the bank collects taxes when the total balance exceeds an amount set by the government. Therefore, a stable tax will be levied when the user wallet reaches the threshold.\\
+
+Gains and stable taxes are directly proportional to the amount of funds in a particular asset held by the wallet address owner, but these are friendly solutions to the regulation of a particular blockchain as a digital administrator / custodian of virtual assets. It's just that. As daily payments from individuals to merchants increase, the taxation of goods and service taxes on goods sold through Blinkchain should be simplified and paid to the government at the time of sale of the transaction itself. Merchants can cryptographically prove to the government that they have paid taxes on goods and services sold to  consumers during the filing of quarterly or semi-annual tax audits. This type of taxation, known as layered taxes, can represent any tax slab on any category of goods and services announced by the goverment that imposes  external taxes on customers / consumers based on  pre-tax values. Therefore, Blinkchain has three tax models that help regulate cryptocurrencies.\\
+
+\textbf{Capital Gains Tax}\\
+
+Technical Introduction \& Abstract
+Usual UTXO Value
+Here Spend Value and remaining is tax value
+About Spend Value
+What if it's above the spend value
+Client Side Balance
+No Active Update but only while transacting
+Tax on Losses not gains
+Transaction Construction by Client Wallet Apps
+To Note : Transfer Fees, Base Fee, etc not included
+
+\begin{center}
+\begin{figure}
+\includegraphics[width=\textwidth]{gainstaxutxo}
+\caption{Gains Tax on UTXOs during a transaction}
+\end{figure}
+\end{center}
+
+\textbf{Stable Tax}\\
+
+Intro
+Only for Stable Tokens represnted
+UTXO brings seperate balance added one by one
+So UTXOs should be cleaned once every appointed time
+UTXO Cleaning and threshold days
+Limit reached old UTXO Penalty
+Missing UTXOs drawback losing funds
+
+
+
+
+
+
+
+
+
+
+
+\textbf{Layered Tax}\\
+
+
+
+
+
+\subsection{Anchored Smart Contract Chains}
+
+\subsection{Token Minter Module}
 	
-	\subsection{TPS Analyzed}
+\subsection{Block Architecture}
+
+\subsection{Proof-of-Delegation}
+
+\subsection{Block Rewards \& Token's Monetary Policy}
+	
+\subsection{Gossip Protocol}
+	
+\subsection{Epoch Requirements \& Production}
+	
+\subsection{Legate based Clock Synchronization}
+	
+\subsection{Adding Kicking Block Producer Nodes}
+	
+\subsection{Block Producer Election}
+	
+\subsection{Verification of Hash count}
+
+\subsection{On-Chain Oracles \& Central Bank Currencies}
+	
+\subsection{Surprise Rewards for Personal Wallets}
+	
+\subsection{Government Wallets \& Tax Registration}
+
+\subsection{Ethereum Security Layer for Checkpoints}
+
+\subsection{Hard \& Soft Forks}
+	
+\subsection{TPS Analyzed}
 
 \subsection{On-Chain Bridges for Regulated Spending of Cryptocurrencies}
 
@@ -358,7 +459,7 @@ The need for faster transactions is rising higher every year and new technologie
 		\subsubsection{Public Key Privacy using HD wallet keys}
 		
 		
-\subsection{Lightning based nano-DEX}	
+\subsection{UTXO Based Nano-DEX}	
 
 Decentralized exchanges (DEX) are a type of cryptocurrency exchange that allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need for an intermediary or a custodian, unlike Centralized exchanges. Decentralized exchanges are simply a set of automated smart contracts (code). They establish the prices of various cryptocurrencies against each algorithmically and use “liquidity pools” — in which investors lock funds in exchange for interest-like rewards — to facilitate trades. While transactions on a centralized exchange are recorded on that exchange’s internal database, DEX transactions are settled directly on the blockchain itself. There will be no custodian or any services which need to be maintained by a certain company to run a truly decentralized crypto exchange.DEXs are usually built on open-source code, meaning that anyone interested can see exactly how they work. That also means that developers can adapt existing code to create new competing projects — which is how Uniswap’s code has been adopted by an entire host of DEXs with “swap” in their names like Sushiswap and Pancakeswap.\\
 
