@@ -1,5 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
-%\usepackage[a4paper , top=45mm, right=40mm,left=40mm, bottom=45mm]{geometry}
+\usepackage[a4paper , top=40mm, right=35mm,left=35mm, bottom=40mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -316,7 +316,7 @@ An Overview of how Blinkchain's UTXO JSON Object will look like, which will incl
 \textbf{Initial Oracle Value}\\
 
 
-For each transaction, the Oracle value is stamped by a validator or client within the block and the gains tax is analyzed when a particular utxo is spent (transferred) in a later block. The node must comein consensus to the oracle value of the block's transaction in order to keep track of the live oracle data updated per slot (more on this in the  oracle section on the chain).\\
+For each transaction, the Oracle value is stamped by a validator or client within the block and the gains tax is analyzed when a particular utxo is spent (transferred) in a later block. The nodes must come in consensus to the oracle value of the block's transaction and keep track of the live oracle data updated per slot (more on this in the  oracle section on the chain).\\
 
 
 \begin{figure}
@@ -351,25 +351,42 @@ As the above values are calculated at series to find and verify if the taxes are
 \begin{itemize}[wide, labelwidth=!, labelindent=0pt]
 \item The Locked Value $V_l$ is stamped in winks ($10^8$) which represents the smallest divisible value of the asset. This applies to every asset that circulates inside the blinkchain.
 \item The Initial Oracle Value $O_i$ in usd winks ($10^8 \times x USD$) that marks the value of the total utxo in USD.
-\item These two are stamped and the other values can be actively updated in wallet applccations in real-time to provide real-time balance with remitted taxes, but will only calculated and verified by the nodes only when the utxo is spent.
-\item The Oracle Price $O_w$ of every asset accepted as a registered blinkchain tender (More on Token Minter Module) is updated as an On-Chain oracle for every slot (typically 2 mins) that can provide the Current Oracle Price $O_c$ for every UTXO which can update Spend $V_s$ and Tax values $V_t$.
-\item 
+\item These two are stamped and the other values can be actively updated in wallet applications in real-time to provide real-time balance with remitted taxes, but will only be calculated and verified by the nodes only when the utxo is spent.
+\item The Oracle Price $O_w$ of every asset accepted as a registered blinkchain tender (More on Token Minter Module) is updated as an On-Chain oracle for every slot (typically 2 mins) that can provide the Current Oracle Value $O_c$ for every UTXO which can update Spend $V_s$ and Tax values $V_t$.
+\item At First, the Locked Value $V_l$ is stamped in winks of the particular asset E.g., 1 ETH = 100,000,000 ETH winks or 0.35 BTC = 35,000,000 BTC Winks 
+\[V_l = Asset Value \times 10^8\]
+\item For calculating the intial oracle value $O_i$, the Oracle Price/wink $O_w$ is broadcasted to every block producer nodes (More on Node Types in Further Sections) per slots by the elected slot leaders through which the producers can stamp the oracle value of the particular utxo.
+\item For E.g., price of 1 BTC = 45k USD , which can be denoted in winks as 100,000,000 BTC Winks = 4,500,000,000,000 USD winks i.e., 1 BTC Wink = 45,000 USD winks.
+\item The Initial Oracle Value $O_i$ is calculated by taking the Oracle Price/wink $O_w$ and the total locked value $V_l$ in winks. 
+\[O_i = V_l \times O_w\]
+\item E.g., from previous examples $V_l$ = 35,000,000 BTC Winks \& $O_w$ = 45,000 USD Winks. Hence $O_i$ = 1,575,000,000,000 usd winks i.e., 15750 $\times 10^{-8}$ USD winks.
+\item The locked value $V_l$ and the initial oracle value $O_i$ is stamped at the transaction when the utxo is created.
+\item The current oracle value $O_c$ is calculated in the same manner as $O_i$. As for each slot the $O_w$ changes for regular tokens.
+\[O_c = V_l \times O_w\]
+\item E.g., If the $O_w$ is 1 BTC = 70k USD i.e., 1 BTC wink = 70,000 USD winks. Hence the $O_c$ = 35,000,000 BTC Winks $\times$ 70,000 USD winks ; $O_c$ = 2,450,000,000,000 USD winks.
+\item When a UTXO is attested as an input to spend, the validator will verify the transaction construction if the gains tax are remitted without fail by calculating the gains tax in a series of arithmetic calculations in simple steps.
+\item The Profit $P$ of the UTXO is calculated by calculating the positive difference between the current oracle value $O_c$ and the initial oracle value $O_i$ stamped aong with the utxo when it's created. The Profits are calculated in USD Winks $O_p$. If the profits are displayed in negative, the profit oracle value $O_p$ will be set to $0$.
+\[P_o = O_c - O_i\]
+\item E.g., $O_p$ = $2,450,000,000,000 - 1,575,000,000,000$ = 875000000000 USD winks
+\item The tax oracle value $O_t$ can be calculated once the profit in oracle value is positive $1,1.1,...n$. For each tax model and wallet type, the tax percentage $T$ will be registered by governments or government authorized agencies (More on futher sections).
+\[O_t = O_p \times T\%\]
+\item E.g., Lets assume that the gains tax are @ 15\% hence the total tax oracle value $O_t$ = $875,000,000,000 \times 15\%$ = 131,250,000,000 USD Winks
+\item While the tax oracle value $O_t$ is found, the spend oracle value $O_s$ can be also calculated by taking the current oracle value $O_c$
+\[O_s = O_c - O_t\]
+\item E.g., from the above examples the spend oracle value $O_s$ = $2,450,000,000,000 - 131,250,000,000$ = 2,318,750,000,000 USD winks
+\item The oracle representations are only to calculate gains from the global value creation. But Asset's Tax $V_t$ and Spend value $V_s$ should be taken into consideration to construct the transaction with proper tax remittance to the authorised government or agency.
+\[V_t = O_t / O_w\]
+\[V_s = V_l - V_t\]
+\item E.g., The Tax Value $V_t$ = $131,250,000,000 / 70,000$ = 1875000 BTC Winks i.e., 0.01875 BTC and the Spend Value $V_s$ = $35,000,000 - 1,875,000$ = 33125000 BTC Wink i.e., 0.33125 BTC, where it concludes the summation of tax value $V_t$ and spend value $V_s$ gives the exact locked value $V_l$ = $0.01875 + 0.33125$ = 0.35 BTC.
+
 \end{itemize}
 
-
-
-
-Here Spend Value and remaining is tax value
-About Spend Value
-What if it's above the spend value
-Client Side Balance
-No Active Update but only while transacting
-Tax on Losses not gains
+\begin{comment}
 Transaction Construction by Client Wallet Apps
 To Note : Transfer Fees, Base Fee, etc not included
-When the tax value is not correct, deducted from payers change or rejects the tx
-Bitcoin UTXO vs Blinkchain UTXO
-Removes non-taxable gifts while selling at exchanges.
+When the tax value is not correct
+\end{comment}
+
 
 \begin{center}
 \begin{figure}
@@ -379,6 +396,7 @@ Removes non-taxable gifts while selling at exchanges.
 \end{center}
 
 \subsubsection{Stable Tax}
+
 
 Intro
 Only for Stable Tokens represnted
