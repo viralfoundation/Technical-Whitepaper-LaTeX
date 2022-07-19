@@ -1,5 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
-\usepackage[a4paper , top=45mm, right=40mm,left=40mm, bottom=45mm]{geometry}
+%\usepackage[a4paper , top=45mm, right=40mm,left=40mm, bottom=45mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -323,12 +323,38 @@ For each transaction, the Oracle value is stamped by a validator or client withi
 \caption{Stamping Oracle Data in UTXO}
 \end{figure} 
 
-The oracle value stamped can be called as the \textit{initial oracle value} as it represents the oracle value of the particular utxo's asset balance taken from the slot it's created (Epochs, Slots and Packets is explained in the Block Architecture). The United States Dollar (USD) is currently suitable for most of the nodes to collaborate and provide oracle data, so the \textit{initial oracle value} is stamped in a smallest denomination of USD ($10^{-8}$) which is comparable to the smallest denomination ($10^{-8}$) of all the assets circulating in the Blinkchain.\\
+The oracle value stamped can be called as the \textit{initial oracle value} as it represents the oracle value of the particular utxo's asset balance taken from the slot it's created (Epochs, Slots and Packets is explained in the Block Architecture). The United States Dollar (USD) is currently suitable for most of the nodes to collaborate and provide oracle data, so the \textit{initial oracle value} is stamped in a smallest denomination of USD ($10^{-8}$) which is comparable to the smallest denomination ($10^{-8}$) of all the assets circulating in the Blinkchain. The smallest denomination of any assets and oracles in the Blinkchain can be called as winks.\\
 
 \begin{center}
-$1$ USD = $1 * 10^{-8}$ Oracles = $100,000,000$ Oracles
+$1$ USD = $1 \times 10^{8}$ USD Winks = $100,000,000$ USD Winks\\
+\vspace{2mm}
+E.g., $1$ BTC = $40,000$ USD\\
+$100,000,000$ BTC Winks (sats) = $4,000,000,000,000$ USD Winks
 \end{center}
 
+The oracle value specifies the real world value of a specific UTXO which can tell the public that a profit has been made and it can be taxed while it's spent. Through the \textit{initial oracle value} and \textit{locked value}, the gains shall be calculated and the tax can also be put forth for the transaction to take place. The values that are used for calculating gains tax are given,\\
+
+\begin{enumerate}[wide, labelwidth=!, labelindent=0pt]
+\item \textbf{Locked Value($V_l$)} : Total Asset Value locked inside the utxo (E.g., 5 BTC)
+\item \textbf{Initial Oracle Value($O_i$)} : Oracle (USD) Value of the total locked value during the slot period of utxo creation.
+\item \textbf{Current Oracle Value($O_c$)} : Oracle (USD) Value of the total locked value during the slot period when the utxo is spent.
+\item \textbf{Profit Oracle Value($O_p$)} : Positive Difference from the current and initial oracle value termed as Profit, as the value increases in time.
+\item \textbf{Tax Oracle Value($O_s$)} : Total Gains Taxes calculated in Oracle (USD) value 
+\item \textbf{Spend Oracle Value($O_t$)} : Total Spendable Output in Oracle (USD) from which the utxo owner can spend.
+\item \textbf{Tax Value($V_t$)} : Total Tax amount in asset value acts as a illiquid layer inside the locked value where it can only be spent to the government/authority.
+\item \textbf{Spend Value($V_s$)} : Total Spend value of a given utxo acts as a liquid layer where the payer can initiate the transaction below the spend value.
+\item \textbf{Oracle Price / wink ($O_w$)} : The UTXO Asset's 1 wink price in usd winks.
+\end{enumerate}
+
+As the above values are calculated at series to find and verify if the taxes are remitted without evasion, only few are needed to stamped inside a utxo such as \textit{initial oracle value} $O_i$ and \textit{locked value} $V_l$. All the other values are calculated in sequence in an algorithm that follows below,
+
+\begin{itemize}[wide, labelwidth=!, labelindent=0pt]
+\item The Locked Value $V_l$ is stamped in winks ($10^8$) which represents the smallest divisible value of the asset. This applies to every asset that circulates inside the blinkchain.
+\item The Initial Oracle Value $O_i$ in usd winks ($10^8 \times x USD$) that marks the value of the total utxo in USD.
+\item These two are stamped and the other values can be actively updated in wallet applccations in real-time to provide real-time balance with remitted taxes, but will only calculated and verified by the nodes only when the utxo is spent.
+\item The Oracle Price $O_w$ of every asset accepted as a registered blinkchain tender (More on Token Minter Module) is updated as an On-Chain oracle for every slot (typically 2 mins) that can provide the Current Oracle Price $O_c$ for every UTXO which can update Spend $V_s$ and Tax values $V_t$.
+\item 
+\end{itemize}
 
 
 
