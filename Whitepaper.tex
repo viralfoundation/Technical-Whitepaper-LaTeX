@@ -1,5 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
-\usepackage[a4paper , top=40mm, right=35mm,left=35mm, bottom=40mm]{geometry}
+\usepackage[a4paper , top=45mm, right=40mm,left=40mm, bottom=45mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -218,7 +218,7 @@ A government's financial treasury that sits on a decentralized blockchain could 
 
 While Taxes are remitted and sent to Governments on each transaction basis, this makes regulators offload tax audits and verify taxes for every wallet including merchant, personal, non-profit, etc by simply providing a proof-of-tax for the particular wallet address. Tax evasion attempts are debunked in the following sections and digitally minimized in a permissionless public ledger. Centralized exchanges can transfer assets from tax-exempt blockchains to blinkchain and hold assets for traders without having to worry about off-chain tax payments for each transaction. Tax evasion attempts and money laundering can be avoided by sending taxes on all transactions without hurting the end user.\\
 
-\textbf{Tax Models}\\
+\subsubsection{Tax Models}
 
 The tax model can be divided into two main categories: Blinkchain's function as a decentralized bank and the POS (Point of Sale) system for buying and selling  goods and services. Basically, the address of each wallet is represented as a bank, and each bank has its own key to sign the transaction and add it to the blockchain. Tokens that circulate within the blinkchain serve as assets that are classified as regular tokens and stable tokens that differ from each other in terms of their actual market value. Regular tokens such as Bitcoin, Ethereum, Solana and Blinkcoin are unstable due to supply and demand gaps, investor and user sentiment, government regulations, media enthusiasm and more. Therefore, in the long run, volatility leads to capital gains, selling tokens to individuals, businesses, and merchants at a higher price than the original price the user originally paid to buy the token. Motivating the owner. \\
 
@@ -249,10 +249,90 @@ Gains as an incentive to own an asset is taxed under the Gains Tax Model for eac
 
 Gains and stable taxes are directly proportional to the amount of funds in a particular asset held by the wallet address owner, but these are friendly solutions to the regulation of a particular blockchain as a digital administrator / custodian of virtual assets. It's just that. As daily payments from individuals to merchants increase, the taxation of goods and service taxes on goods sold through Blinkchain should be simplified and paid to the government at the time of sale of the transaction itself. Merchants can cryptographically prove to the government that they have paid taxes on goods and services sold to  consumers during the filing of quarterly or semi-annual tax audits. This type of taxation, known as layered taxes, can represent any tax slab on any category of goods and services announced by the goverment that imposes  external taxes on customers / consumers based on  pre-tax values. Therefore, Blinkchain has three tax models that help regulate cryptocurrencies.\\
 
-\textbf{Capital Gains Tax}\\
+\subsubsection{Capital Gains Tax}
 
-Technical Introduction \& Abstract
-Usual UTXO Value
+\textbf{Summary}\\
+
+A new method of passively restricting  access to certain funds during  an individual UTXO transaction by calculating the fiat-equivalent profit of the input terming it as "tax on profits" or "gains tax". UTXO owners are not affected by this profit tax scheme as it involves both  passive and active deductions from both the client side and the network side. The Client Wallet Application  is responsible for proactively updating the amount deducted from the tax, during the transaction the \textit{tax value} is sent to the government wallet address and the rest is used as the \textit{spend value} of the individual UTXO. The total balance of a wallet is calculated by the client application summing up all the UTXO's \textit{spend values}. The validator validates the transaction construction i.e., the input and output passively and verifies the tax output provided by the client by locally calculating the difference between the \textit{current oracle value} assigned for every slot \& \textit{initial oracle value} stamped inside the utxo, and attest the transaction in a particular block after successful verification by the block producer node. Therefore, for each Blinkchain transaction, the profit of a regular token is calculated on every UTXO used as input and the taxes is sent  to the government-published wallet address.\\
+
+\textbf{UTXOs and Benefits}\\
+
+
+The primary reason for constructing Blinkchain, a UTXO based blockchain similar to Bitcoin and Cardano is it's ability to track indivisible chunks of outputs created during a transaction which will be more easier to regulate by tracking each individual output rather than a wholesome balance. Account based blockchains like Ethereum and Solana are harder to track profits and timestamp the transaction to remit taxes for the particular value of tokens since it treats the balance as whole. As UTXOs are consumed only once, this allows the taxes to be remitted instantly during a transaction event of consuming the particular UTXO as an input. Since blockchain acts as a distrubuted trustless network, tax evasion attempts will be neutralized by involving gains tax in every output created.\\
+
+\textbf{Blinkchain UTXO Architecture}\\
+
+Satoshi Nakamoto's Bitcoin is the first to incorporate the UTXO monetory model in which Bitcoin's total supply and individual holdings can be calculated per public key hash efficiently after the nodes come into consensus without any fault tolerance. The Unspent Transaction Output (UTXO) holds discrete pieces of bitcoin in the smallest divisible output - satoshis. The UTXO model makes Bitcoin more auditable, transparent, and efficient than traditional financial systems, which rely on accounts, balances, and third parties. \\
+
+Blinkchain shares its UTXO architecture with Bitcoin and Cardano while adding oracle information to the utxo data to effectively partition the utxo funds into spendable and non-spendable values. The spendable value is known as \textit{spend value} and the non-spendable value is known as \textit{tax value}. The UTXOs in Blinkchain contain an additional data known as \textit{initial oracle value} which stamps the current oracle value of the utxo in USD. UTXOs are created through the consumption of existing UTXOs and during every UTXO creation in Blinkchain, the validator or the client shall stamp the oracle value of each outputs.\\
+
+Below is the JSON object data of a UTXO output in a Bitcoin transaction that contains the value (in satoshis), transaction hash \& index, script address and number of confirmations.\\
+
+\begin{lstlisting}[caption={Bitcoin UTXO JSON Object Data}, numbers=none]
+
+    "unspent_outputs":[
+    
+	{
+	
+	"tx_hash":"ebadfaa92f1fd29e.....1ffd52313e986e99ddad9084062167",
+	"tx_index":51919767,
+	"tx_output_n": 1,
+	"script":"76a9148c7e252f.....985915110fcfefcf4a2d88ac",
+	"value": 8000000,
+	"value_hex": "7a1200",
+	"confirmations":28691
+	
+	},
+	]}
+\end{lstlisting}
+
+An Overview of how Blinkchain's UTXO JSON Object will look like, which will include an oracle value in USD, the elapsed time of the UTXO calculated in negative count (Further explained in Stable Taxes Section) and further calculation done by client to provide output of spend value and tax value which are calculated actively in the backend of the client server. The following data, calculations and terminologies are described in the below topics.
+
+\begin{lstlisting}[caption={Blinkchain UTXO JSON Object Data}, numbers=none]
+
+    "unspent_outputs":[
+    
+	{
+	
+	"tx_hash":"ebadfaa92f1fd29e2.....2313e986e99ddad9084062167",
+	"tx_index":51919767,
+	"tx_output_n": 1,
+	"script":"76a9148c7e252f8d64b.....915110fcfefcf4a2d88ac",
+	"locked_value": 800000000,
+	"locked_value_hex": "7a1200",
+	"confirmations":28691,
+	"initial_oracle_value" : 100000000,
+	"current_oracle_value" : 200000000,
+	"spend_oracle_value" : 150000000,
+	"tax_oracle_value" : 50000000,
+	"spend_value" : 750000000, 			//Random data please don't calculate
+	"tax_value" : 250000000,
+	"elapse_time" : 46378,
+	
+	},
+	]}
+\end{lstlisting}
+
+\textbf{Initial Oracle Value}\\
+
+
+For each transaction, the Oracle value is stamped by a validator or client within the block and the gains tax is analyzed when a particular utxo is spent (transferred) in a later block. The node must comein consensus to the oracle value of the block's transaction in order to keep track of the live oracle data updated per slot (more on this in the  oracle section on the chain).\\
+
+
+\begin{figure}
+\caption{Stamping Oracle Data in UTXO}
+\end{figure} 
+
+The oracle value stamped can be called as the \textit{initial oracle value} as it represents the oracle value of the particular utxo's asset balance taken from the slot it's created (Epochs, Slots and Packets is explained in the Block Architecture). The United States Dollar (USD) is currently suitable for most of the nodes to collaborate and provide oracle data, so the \textit{initial oracle value} is stamped in a smallest denomination of USD ($10^{-8}$) which is comparable to the smallest denomination ($10^{-8}$) of all the assets circulating in the Blinkchain.\\
+
+\begin{center}
+$1$ USD = $1 * 10^{-8}$ Oracles = $100,000,000$ Oracles
+\end{center}
+
+
+
+
+
 Here Spend Value and remaining is tax value
 About Spend Value
 What if it's above the spend value
@@ -261,6 +341,9 @@ No Active Update but only while transacting
 Tax on Losses not gains
 Transaction Construction by Client Wallet Apps
 To Note : Transfer Fees, Base Fee, etc not included
+When the tax value is not correct, deducted from payers change or rejects the tx
+Bitcoin UTXO vs Blinkchain UTXO
+Removes non-taxable gifts while selling at exchanges.
 
 \begin{center}
 \begin{figure}
@@ -269,7 +352,7 @@ To Note : Transfer Fees, Base Fee, etc not included
 \end{figure}
 \end{center}
 
-\textbf{Stable Tax}\\
+\subsubsection{Stable Tax}
 
 Intro
 Only for Stable Tokens represnted
@@ -289,7 +372,7 @@ Missing UTXOs drawback losing funds
 
 
 
-\textbf{Layered Tax}\\
+\subsubsection{Layered Tax}
 
 
 
