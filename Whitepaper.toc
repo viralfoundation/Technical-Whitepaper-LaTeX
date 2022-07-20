@@ -21,81 +21,82 @@
 \contentsline {subsubsection}{\numberline {6.8.1}Tax Models}{5}{subsubsection.6.8.1}%
 \contentsline {subsubsection}{\numberline {6.8.2}Capital Gains Tax}{6}{subsubsection.6.8.2}%
 \contentsline {subsubsection}{\numberline {6.8.3}Stable Tax}{12}{subsubsection.6.8.3}%
-\contentsline {subsubsection}{\numberline {6.8.4}Layered Tax}{13}{subsubsection.6.8.4}%
-\contentsline {subsection}{\numberline {6.9}Anchored Smart Contract Chains}{13}{subsection.6.9}%
-\contentsline {subsection}{\numberline {6.10}Token Minter Module}{13}{subsection.6.10}%
-\contentsline {subsection}{\numberline {6.11}Block Architecture}{13}{subsection.6.11}%
-\contentsline {subsection}{\numberline {6.12}Proof-of-Delegation}{13}{subsection.6.12}%
-\contentsline {subsection}{\numberline {6.13}Block Rewards \& Token's Monetary Policy}{13}{subsection.6.13}%
-\contentsline {subsection}{\numberline {6.14}Gossip Protocol}{13}{subsection.6.14}%
-\contentsline {subsection}{\numberline {6.15}Epoch Requirements \& Production}{13}{subsection.6.15}%
-\contentsline {subsection}{\numberline {6.16}Legate based Clock Synchronization}{13}{subsection.6.16}%
-\contentsline {subsection}{\numberline {6.17}Adding Kicking Block Producer Nodes}{13}{subsection.6.17}%
-\contentsline {subsection}{\numberline {6.18}Block Producer Election}{13}{subsection.6.18}%
-\contentsline {subsection}{\numberline {6.19}Verification of Hash count}{13}{subsection.6.19}%
-\contentsline {subsection}{\numberline {6.20}On-Chain Oracles \& Central Bank Currencies}{13}{subsection.6.20}%
-\contentsline {subsection}{\numberline {6.21}Surprise Rewards for Personal Wallets}{13}{subsection.6.21}%
-\contentsline {subsection}{\numberline {6.22}Government Wallets \& Tax Registration}{13}{subsection.6.22}%
-\contentsline {subsection}{\numberline {6.23}Ethereum Security Layer for Checkpoints}{13}{subsection.6.23}%
-\contentsline {subsection}{\numberline {6.24}Hard \& Soft Forks}{13}{subsection.6.24}%
-\contentsline {subsection}{\numberline {6.25}TPS Analyzed}{13}{subsection.6.25}%
-\contentsline {subsection}{\numberline {6.26}On-Chain Bridges for Regulated Spending of Cryptocurrencies}{13}{subsection.6.26}%
-\contentsline {subsection}{\numberline {6.27}Proposed Token Ecosystem - An Intro}{14}{subsection.6.27}%
-\contentsline {subsection}{\numberline {6.28}On-Chain Governance and DAO - An Intro}{14}{subsection.6.28}%
-\contentsline {section}{\numberline {7}\textbf {\textit {Solution 2} : Prime \& ASC Chains Integrated DApps}}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Smart Wallet}{14}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Guarded Social Wallets}{17}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Zero-Knowledge Mobile Number / Username based Universal Payment Address}{17}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}On-Chain Auto-Debit \& Subscription Services}{17}{subsubsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {7.1.4}Public Key Privacy using HD wallet keys}{17}{subsubsection.7.1.4}%
-\contentsline {subsection}{\numberline {7.2}UTXO Based Nano-DEX}{17}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}AMM based Decentralized Exchange}{38}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Regulated Banks based trusted-mirrored wallets}{38}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}X Fiat-Exchange}{38}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Stable Token Ecosystem}{44}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Decentralized Wallet Custodian Services}{44}{subsection.7.7}%
-\contentsline {subsection}{\numberline {7.8}Decentralized Central Bank Digital Currencies}{45}{subsection.7.8}%
-\contentsline {subsection}{\numberline {7.9}X Payment Gateway - Web2 Integrations}{45}{subsection.7.9}%
-\contentsline {subsection}{\numberline {7.10}P2P Exchange}{45}{subsection.7.10}%
-\contentsline {section}{\numberline {8}\textbf {\textit {Solution 3} : Social Media}}{48}{section.8}%
-\contentsline {subsection}{\numberline {8.1}\textbf {X Platform Architecture}}{49}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}\textbf {Social media and User Experience}}{51}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}\textbf {Introduction to X Social Media}}{51}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}\textbf {Types of Posts}}{51}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}\textbf {X Avatars}}{53}{subsection.8.5}%
-\contentsline {subsubsection}{\numberline {8.5.1}\textbf {Meta-Chat}}{53}{subsubsection.8.5.1}%
-\contentsline {subsubsection}{\numberline {8.5.2}\textbf {X Clubs}}{54}{subsubsection.8.5.2}%
-\contentsline {subsection}{\numberline {8.6}\textbf {Engagements}}{55}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}\textbf {Other Features}}{55}{subsection.8.7}%
-\contentsline {subsection}{\numberline {8.8}\textbf {X - User Security and Privacy}}{56}{subsection.8.8}%
-\contentsline {subsection}{\numberline {8.9}\textbf {TOR/VPN Anonymity}}{64}{subsection.8.9}%
-\contentsline {section}{\numberline {9}\textbf {\textit {Solution 4} : Child Platforms}}{64}{section.9}%
-\contentsline {subsection}{\numberline {9.1}\textbf {ROV - Content Moderation Platform}}{64}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}\textbf {Developer Platform}}{73}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}\textbf {Influencer-Ad Platform}}{81}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}\textbf {X Decentralized Ads}}{90}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}\textbf {X Open-Source Distributions}}{91}{subsection.9.5}%
-\contentsline {section}{\numberline {10}\textbf {\textit {Solution 5} : Global Reward Pool}}{91}{section.10}%
-\contentsline {subsection}{\numberline {10.1}\textbf {Social Users (Impression-based) - 30\%}}{98}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}\textbf {DAO - 14\%}}{100}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}\textbf {Blockchain-Miners (Gas-based) - 11\%}}{100}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}\textbf {Burn - 10\%}}{100}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}\textbf {Developers (Contribution-based) - 9\%}}{101}{subsection.10.5}%
-\contentsline {subsection}{\numberline {10.6}\textbf {IPFS-Miners (Storage-based) - 8\%}}{102}{subsection.10.6}%
-\contentsline {subsection}{\numberline {10.7}\textbf {ROV (Contribution-based) - 6\%}}{102}{subsection.10.7}%
-\contentsline {subsection}{\numberline {10.8}\textbf {Social Miners (Serving based) - 4\%}}{103}{subsection.10.8}%
-\contentsline {subsection}{\numberline {10.9}\textbf {DAG-Miners (Transaction-based) - 5\%}}{103}{subsection.10.9}%
-\contentsline {subsection}{\numberline {10.10}\textbf {Bounties - 2\%}}{103}{subsection.10.10}%
-\contentsline {subsection}{\numberline {10.11}\textbf {Crypto-Back - 1\%}}{103}{subsection.10.11}%
-\contentsline {subsection}{\numberline {10.12}\textbf {Charity Contribution}}{103}{subsection.10.12}%
-\contentsline {section}{\numberline {11}\textbf {\textit {Solution 6} : Governance \& X DAO}}{103}{section.11}%
-\contentsline {section}{\numberline {12}\textbf {\textit {Solution 7} : Future Plans}}{105}{section.12}%
-\contentsline {section}{\numberline {13}\textbf {Tokenomics \& ICO}}{105}{section.13}%
-\contentsline {section}{\numberline {14}\textbf {Development Roadmap}}{106}{section.14}%
-\contentsline {section}{\numberline {15}\textbf {Development}}{107}{section.15}%
-\contentsline {section}{\numberline {16}\textbf {ICO Funds Allocation}}{107}{section.16}%
-\contentsline {section}{\numberline {17}\textbf {Team}}{107}{section.17}%
-\contentsline {section}{\numberline {18}\textbf {References}}{107}{section.18}%
-\contentsline {section}{\numberline {19}\textbf {Glossary}}{107}{section.19}%
-\contentsline {section}{\numberline {20}Social Media}{108}{section.20}%
-\contentsline {subsection}{\numberline {20.1}IPFS}{108}{subsection.20.1}%
+\contentsline {subsubsection}{\numberline {6.8.4}Layered Tax}{15}{subsubsection.6.8.4}%
+\contentsline {subsection}{\numberline {6.9}Tax Registration Process}{15}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Anchored Smart Contract Chains}{15}{subsection.6.10}%
+\contentsline {subsection}{\numberline {6.11}Token Minter Module}{15}{subsection.6.11}%
+\contentsline {subsection}{\numberline {6.12}Block Architecture}{15}{subsection.6.12}%
+\contentsline {subsection}{\numberline {6.13}Proof-of-Delegation}{15}{subsection.6.13}%
+\contentsline {subsection}{\numberline {6.14}Block Rewards \& Token's Monetary Policy}{15}{subsection.6.14}%
+\contentsline {subsection}{\numberline {6.15}Gossip Protocol}{15}{subsection.6.15}%
+\contentsline {subsection}{\numberline {6.16}Epoch Requirements \& Production}{15}{subsection.6.16}%
+\contentsline {subsection}{\numberline {6.17}Legate based Clock Synchronization}{15}{subsection.6.17}%
+\contentsline {subsection}{\numberline {6.18}Adding Kicking Block Producer Nodes}{15}{subsection.6.18}%
+\contentsline {subsection}{\numberline {6.19}Block Producer Election}{15}{subsection.6.19}%
+\contentsline {subsection}{\numberline {6.20}Verification of Hash count}{15}{subsection.6.20}%
+\contentsline {subsection}{\numberline {6.21}On-Chain Oracles \& Central Bank Currencies}{15}{subsection.6.21}%
+\contentsline {subsection}{\numberline {6.22}Surprise Rewards for Personal Wallets}{15}{subsection.6.22}%
+\contentsline {subsection}{\numberline {6.23}Government Wallets \& Tax Registration}{15}{subsection.6.23}%
+\contentsline {subsection}{\numberline {6.24}Ethereum Security Layer for Checkpoints}{15}{subsection.6.24}%
+\contentsline {subsection}{\numberline {6.25}Hard \& Soft Forks}{15}{subsection.6.25}%
+\contentsline {subsection}{\numberline {6.26}TPS Analyzed}{15}{subsection.6.26}%
+\contentsline {subsection}{\numberline {6.27}On-Chain Bridges for Regulated Spending of Cryptocurrencies}{15}{subsection.6.27}%
+\contentsline {subsection}{\numberline {6.28}Proposed Token Ecosystem - An Intro}{16}{subsection.6.28}%
+\contentsline {subsection}{\numberline {6.29}On-Chain Governance and DAO - An Intro}{16}{subsection.6.29}%
+\contentsline {section}{\numberline {7}\textbf {\textit {Solution 2} : Prime \& ASC Chains Integrated DApps}}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Smart Wallet}{16}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Guarded Social Wallets}{19}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Zero-Knowledge Mobile Number / Username based Universal Payment Address}{19}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}On-Chain Auto-Debit \& Subscription Services}{19}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Public Key Privacy using HD wallet keys}{19}{subsubsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.2}UTXO Based Nano-DEX}{19}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}AMM based Decentralized Exchange}{40}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Regulated Banks based trusted-mirrored wallets}{40}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}X Fiat-Exchange}{40}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Stable Token Ecosystem}{46}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Decentralized Wallet Custodian Services}{46}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Decentralized Central Bank Digital Currencies}{47}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}X Payment Gateway - Web2 Integrations}{47}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}P2P Exchange}{47}{subsection.7.10}%
+\contentsline {section}{\numberline {8}\textbf {\textit {Solution 3} : Social Media}}{50}{section.8}%
+\contentsline {subsection}{\numberline {8.1}\textbf {X Platform Architecture}}{51}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}\textbf {Social media and User Experience}}{53}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}\textbf {Introduction to X Social Media}}{53}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}\textbf {Types of Posts}}{53}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}\textbf {X Avatars}}{55}{subsection.8.5}%
+\contentsline {subsubsection}{\numberline {8.5.1}\textbf {Meta-Chat}}{55}{subsubsection.8.5.1}%
+\contentsline {subsubsection}{\numberline {8.5.2}\textbf {X Clubs}}{56}{subsubsection.8.5.2}%
+\contentsline {subsection}{\numberline {8.6}\textbf {Engagements}}{57}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}\textbf {Other Features}}{57}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}\textbf {X - User Security and Privacy}}{58}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}\textbf {TOR/VPN Anonymity}}{66}{subsection.8.9}%
+\contentsline {section}{\numberline {9}\textbf {\textit {Solution 4} : Child Platforms}}{66}{section.9}%
+\contentsline {subsection}{\numberline {9.1}\textbf {ROV - Content Moderation Platform}}{66}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}\textbf {Developer Platform}}{75}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}\textbf {Influencer-Ad Platform}}{83}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}\textbf {X Decentralized Ads}}{92}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}\textbf {X Open-Source Distributions}}{93}{subsection.9.5}%
+\contentsline {section}{\numberline {10}\textbf {\textit {Solution 5} : Global Reward Pool}}{93}{section.10}%
+\contentsline {subsection}{\numberline {10.1}\textbf {Social Users (Impression-based) - 30\%}}{100}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}\textbf {DAO - 14\%}}{102}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}\textbf {Blockchain-Miners (Gas-based) - 11\%}}{102}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}\textbf {Burn - 10\%}}{102}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}\textbf {Developers (Contribution-based) - 9\%}}{103}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}\textbf {IPFS-Miners (Storage-based) - 8\%}}{104}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}\textbf {ROV (Contribution-based) - 6\%}}{104}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}\textbf {Social Miners (Serving based) - 4\%}}{105}{subsection.10.8}%
+\contentsline {subsection}{\numberline {10.9}\textbf {DAG-Miners (Transaction-based) - 5\%}}{105}{subsection.10.9}%
+\contentsline {subsection}{\numberline {10.10}\textbf {Bounties - 2\%}}{105}{subsection.10.10}%
+\contentsline {subsection}{\numberline {10.11}\textbf {Crypto-Back - 1\%}}{105}{subsection.10.11}%
+\contentsline {subsection}{\numberline {10.12}\textbf {Charity Contribution}}{105}{subsection.10.12}%
+\contentsline {section}{\numberline {11}\textbf {\textit {Solution 6} : Governance \& X DAO}}{105}{section.11}%
+\contentsline {section}{\numberline {12}\textbf {\textit {Solution 7} : Future Plans}}{107}{section.12}%
+\contentsline {section}{\numberline {13}\textbf {Tokenomics \& ICO}}{107}{section.13}%
+\contentsline {section}{\numberline {14}\textbf {Development Roadmap}}{108}{section.14}%
+\contentsline {section}{\numberline {15}\textbf {Development}}{109}{section.15}%
+\contentsline {section}{\numberline {16}\textbf {ICO Funds Allocation}}{109}{section.16}%
+\contentsline {section}{\numberline {17}\textbf {Team}}{109}{section.17}%
+\contentsline {section}{\numberline {18}\textbf {References}}{109}{section.18}%
+\contentsline {section}{\numberline {19}\textbf {Glossary}}{109}{section.19}%
+\contentsline {section}{\numberline {20}Social Media}{110}{section.20}%
+\contentsline {subsection}{\numberline {20.1}IPFS}{110}{subsection.20.1}%

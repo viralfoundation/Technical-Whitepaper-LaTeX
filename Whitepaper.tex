@@ -92,7 +92,7 @@
 \vspace{3mm}
 Blinkchain - A Regulation Friendly Permisionless Proof-of-Speed Blockchain with Dynamic L1 Scaling, Offline L2 Payments, Adaptive Governance and Social Communication}
 \date{15 January 2022, Draft Version 1.0}
-\author[1]{The Blink DAO}
+\author[1]{The Blink DAO \& Auguth Tech Pvt. Ltd}
 
 \begin{document}
 
@@ -391,36 +391,62 @@ As the above values are calculated at series to find and verify if the taxes are
 
 Transactions are constructed by Client-side wallet applications, which chooses the available utxos and designs the inputs and output utxos. The transaction should include a gains tax output by which the taxes are remitted. The validator shall verify the outputs and accepts the transaction to be attested in the block. Transfer Fees and Base fee (More in Transaction Fee section) will be subtracted from the output utxos. If the tax output is faulty or incorrect, the transaction can be rejected by the nodes to be attested in the block similar to faulty signatures.\\
 
-\begin{center}
+
 \begin{figure}
+\begin{center}
 \includegraphics[width=\textwidth]{gainstaxutxo}
 \caption{Gains Tax on UTXOs during a transaction - not in winks}
-\end{figure}
 \end{center}
+\end{figure}
+
 
 \subsubsection{Stable Tax}
 
-Intro
-Only for Stable Tokens represnted
-UTXO brings seperate balance added one by one
-So UTXOs should be cleaned once every appointed time
-UTXO Cleaning and threshold days
-Limit reached old UTXO Penalty
-Missing UTXOs drawback losing funds
+\textbf{Summary}\\
+
+UTXO, which contains stable tokens, does not increase in oracle value and avoids taxation. As a result, ownership of funds will increase and public development in their respective regions will decrease without the regulation of licensed governments. The solution is to issue a stable tax, much like a bank taxes a balance above a certain value. It's actually more difficult to implement balance sheet based taxes because UTXO is part of the total balance that is added together to form for an address. So, a novel UTXO Purging algorithm is introduced for taxing stable tokens. The tax authorities / government / agencies set the block interval period $ Block_ {period} $. During this period, each utxo in a particular region is purged (dust collection), all  available utxos for a particular stable asset are taken as inputs and two utxo outputs are generated (tax, to payer). Stable taxes are predefined by the government in an inverted pyramid scheme (explained in further sections), which encourages users to pay taxes by collecting all utxos  to avoid losing funds in the Pyramid scheme. Therefore, to pay taxes without losing money with a penalty, users need to clean up each utxo before the end of $ Block_ {period} $. Governments can set different taxes on regional stable tokens that represent fiat currencies and foreign stable tokens in other countries. This allows users to hold both types of stable tokens with  adjusted taxation, so payments will be made with regional stable tokens rather than foreign tokens. \\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=11cm]{stabletaxfig}
+\caption{Inputs and Outputs of a Stable Purge-Tx}
+\end{center}
+\end{figure}
+
+
+\textbf{UTXO Purging}\\
+
+UTXO purging activity refers to combining a large set of small value utxos to create a single UTXO that can contain all the individual balances from the small value utxos. This makes it easier to verify public addresses and calculate balance-based taxes. UTXO is good at calculating gains tax because of its unique "cash-like" nature, it's harder to implement balance sheet-based taxes due to it's limited functionality and agnostic approach to total balances. Therefore, users should be prompted and incentivized to calculate their total balances by combining the UTXOs at certain time intervals to remit the stable taxes automatically.\\
+
+
+\textbf{Inverted Pyramid Taxes}\\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=5cm]{invertedtriangle}
+\caption{Inverted Stable Tax Slabs on Regional and Foreign Stable Tokens}
+\end{center}
+\end{figure}
+
+
+\textbf{Block Interval Period and Penalty}\\
 
 
 
+\textbf{Zero Transfer / Base Fee incentive}\\
 
 
+\textbf{Purged UTXOs inclusion}\\
 
 
+\textbf{Debunking Transfer-Tax Evasion}\\
 
 
-
+\textbf{Regional \& Foreign Tax}\\
 
 \subsubsection{Layered Tax}
 
-
+\subsection{Tax Registration Process}
 
 
 
