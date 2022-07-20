@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {6.8}Regulatory-Compliant Masked Taxation}{3}{subsection.6.8}%
 \contentsline {subsubsection}{\numberline {6.8.1}Tax Models}{5}{subsubsection.6.8.1}%
 \contentsline {subsubsection}{\numberline {6.8.2}Capital Gains Tax}{6}{subsubsection.6.8.2}%
-\contentsline {subsubsection}{\numberline {6.8.3}Stable Tax}{11}{subsubsection.6.8.3}%
+\contentsline {subsubsection}{\numberline {6.8.3}Stable Tax}{12}{subsubsection.6.8.3}%
 \contentsline {subsubsection}{\numberline {6.8.4}Layered Tax}{13}{subsubsection.6.8.4}%
 \contentsline {subsection}{\numberline {6.9}Anchored Smart Contract Chains}{13}{subsection.6.9}%
 \contentsline {subsection}{\numberline {6.10}Token Minter Module}{13}{subsection.6.10}%

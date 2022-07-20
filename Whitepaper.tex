@@ -378,25 +378,27 @@ As the above values are calculated at series to find and verify if the taxes are
 \[V_t = O_t / O_w\]
 \[V_s = V_l - V_t\]
 \item E.g., The Tax Value $V_t$ = $131,250,000,000 / 70,000$ = 1875000 BTC Winks i.e., 0.01875 BTC and the Spend Value $V_s$ = $35,000,000 - 1,875,000$ = 33125000 BTC Wink i.e., 0.33125 BTC, where it concludes the summation of tax value $V_t$ and spend value $V_s$ gives the exact locked value $V_l$ = $0.01875 + 0.33125$ = 0.35 BTC.
-
 \end{itemize}
 
-\begin{comment}
-Transaction Construction by Client Wallet Apps
-To Note : Transfer Fees, Base Fee, etc not included
-When the tax value is not correct
-\end{comment}
+\begin{center}
+\begin{figure}
+\includegraphics[width=\textwidth]{gainstaxeg}
+\caption{Visual representation of example calculated}
+\end{figure}
+\end{center}
 
+\textbf{Transaction Construction}\\
+
+Transactions are constructed by Client-side wallet applications, which chooses the available utxos and designs the inputs and output utxos. The transaction should include a gains tax output by which the taxes are remitted. The validator shall verify the outputs and accepts the transaction to be attested in the block. Transfer Fees and Base fee (More in Transaction Fee section) will be subtracted from the output utxos. If the tax output is faulty or incorrect, the transaction can be rejected by the nodes to be attested in the block similar to faulty signatures.\\
 
 \begin{center}
 \begin{figure}
 \includegraphics[width=\textwidth]{gainstaxutxo}
-\caption{Gains Tax on UTXOs during a transaction}
+\caption{Gains Tax on UTXOs during a transaction - not in winks}
 \end{figure}
 \end{center}
 
 \subsubsection{Stable Tax}
-
 
 Intro
 Only for Stable Tokens represnted
