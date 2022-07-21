@@ -21,27 +21,27 @@
 \BOOKMARK [3][-]{subsubsection.6.8.2}{Capital Gains Tax}{subsection.6.8}% 21
 \BOOKMARK [3][-]{subsubsection.6.8.3}{Stable Tax}{subsection.6.8}% 22
 \BOOKMARK [3][-]{subsubsection.6.8.4}{Layered Tax}{subsection.6.8}% 23
-\BOOKMARK [2][-]{subsection.6.9}{Tax Registration Process}{section.6}% 24
-\BOOKMARK [2][-]{subsection.6.10}{Anchored Smart Contract Chains}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.11}{Token Minter Module}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.12}{Block Architecture}{section.6}% 27
-\BOOKMARK [2][-]{subsection.6.13}{Proof-of-Delegation}{section.6}% 28
-\BOOKMARK [2][-]{subsection.6.14}{Block Rewards \046 Token's Monetary Policy}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.15}{Gossip Protocol}{section.6}% 30
-\BOOKMARK [2][-]{subsection.6.16}{Epoch Requirements \046 Production}{section.6}% 31
-\BOOKMARK [2][-]{subsection.6.17}{Legate based Clock Synchronization}{section.6}% 32
-\BOOKMARK [2][-]{subsection.6.18}{Adding Kicking Block Producer Nodes}{section.6}% 33
-\BOOKMARK [2][-]{subsection.6.19}{Block Producer Election}{section.6}% 34
-\BOOKMARK [2][-]{subsection.6.20}{Verification of Hash count}{section.6}% 35
-\BOOKMARK [2][-]{subsection.6.21}{On-Chain Oracles \046 Central Bank Currencies}{section.6}% 36
-\BOOKMARK [2][-]{subsection.6.22}{Surprise Rewards for Personal Wallets}{section.6}% 37
-\BOOKMARK [2][-]{subsection.6.23}{Government Wallets \046 Tax Registration}{section.6}% 38
-\BOOKMARK [2][-]{subsection.6.24}{Ethereum Security Layer for Checkpoints}{section.6}% 39
-\BOOKMARK [2][-]{subsection.6.25}{Hard \046 Soft Forks}{section.6}% 40
-\BOOKMARK [2][-]{subsection.6.26}{TPS Analyzed}{section.6}% 41
-\BOOKMARK [2][-]{subsection.6.27}{On-Chain Bridges for Regulated Spending of Cryptocurrencies}{section.6}% 42
-\BOOKMARK [2][-]{subsection.6.28}{Proposed Token Ecosystem - An Intro}{section.6}% 43
-\BOOKMARK [2][-]{subsection.6.29}{On-Chain Governance and DAO - An Intro}{section.6}% 44
+\BOOKMARK [3][-]{subsubsection.6.8.5}{Tax Registration Process}{subsection.6.8}% 24
+\BOOKMARK [2][-]{subsection.6.9}{Anchored Smart Contract Chains}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.10}{Token Minter Module}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.11}{Block Architecture}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.12}{Proof-of-Delegation}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.13}{Block Rewards \046 Token's Monetary Policy}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.14}{Gossip Protocol}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.15}{Epoch Requirements \046 Production}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.16}{Legate based Clock Synchronization}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.17}{Adding Kicking Block Producer Nodes}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.18}{Block Producer Election}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.19}{Verification of Hash count}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.20}{On-Chain Oracles \046 Central Bank Currencies}{section.6}% 36
+\BOOKMARK [2][-]{subsection.6.21}{Surprise Rewards for Personal Wallets}{section.6}% 37
+\BOOKMARK [2][-]{subsection.6.22}{Government Wallets \046 Tax Registration}{section.6}% 38
+\BOOKMARK [2][-]{subsection.6.23}{Ethereum Security Layer for Checkpoints}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.24}{Hard \046 Soft Forks}{section.6}% 40
+\BOOKMARK [2][-]{subsection.6.25}{TPS Analyzed}{section.6}% 41
+\BOOKMARK [2][-]{subsection.6.26}{On-Chain Bridges for Regulated Spending of Cryptocurrencies}{section.6}% 42
+\BOOKMARK [2][-]{subsection.6.27}{Proposed Token Ecosystem - An Intro}{section.6}% 43
+\BOOKMARK [2][-]{subsection.6.28}{On-Chain Governance and DAO - An Intro}{section.6}% 44
 \BOOKMARK [1][-]{section.7}{Solution 2 : Prime \046 ASC Chains Integrated DApps}{}% 45
 \BOOKMARK [2][-]{subsection.7.1}{Smart Wallet}{section.7}% 46
 \BOOKMARK [3][-]{subsubsection.7.1.1}{Guarded Social Wallets}{subsection.7.1}% 47

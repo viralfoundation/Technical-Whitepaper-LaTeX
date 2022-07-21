@@ -299,7 +299,6 @@ An Overview of how Blinkchain's Type 1 (regular tokens) UTXO JSON Object will lo
 	"tx_output_n": 1,
 	"script":"76a9148c7e252f8d64b.....915110fcfefcf4a2d88ac",
 	"asset" : "btc",
-	"type" : 1,
 	"locked_value": 800000000,
 	"locked_value_hex": "7a1200",
 	"confirmations":28691,
@@ -446,8 +445,8 @@ To remit stable taxes, the governments or authorized agency should acknowledge t
 	"tx_index":238,
 	"tx_output_n": 1,
 	"script":"sjdb92f8.....wfb8u2fewfhbe",
-	"asset" : "euro",the elapsed time of the UTXO calculated in negative count (Further explained in Stable Taxes Section) 
-	"type" : 2,
+	"asset" : "euro",
+	"currency" : "euro",
 	"locked_value": 1800000000,
 	"locked_value_hex": "7a1200",
 	"initial_oracle_value" : 1500000000,
@@ -460,22 +459,37 @@ To remit stable taxes, the governments or authorized agency should acknowledge t
 \end{lstlisting}
 
 
-
 \textbf{Zero Transfer / Base Fee incentive}\\
 
-
-\textbf{Purged UTXOs inclusion}\\
-
-
-\textbf{Debunking Transfer-Tax Evasion}\\
-
+As Purging UTXOs will decrease the UTXO storage space, validators incentivize the users who purge utxos by not imposing the transfer or base fee on the particular transaction. This will ensure users will receive tax-remitted funds. The Client Apps are supposed to actively calculate the taxes and display the balance remitting the taxes in the client side. Purging utxos are encourage for regular tokens too, as it reduces the storage leading to increased node arrivals making Blinkchain more decentralized expecting more participation. Regardless of the token type the incentive will be provided to users.\\
 
 \textbf{Regional \& Foreign Tax}\\
 
+Stable tokens play a major role in payments and transfers. Payments with stable tokens are mostly backed or pegged with US dollar (USDT, USDC, DAI) which pose a threat to other developing countries that have their own central bank currency e.g., India, Europe, UK, etc. These countries and their citizens prefer to pay in their fiat currency. Therefore, to avoid citizens holding other currencies, taxes are levied on those holding foreign stable tokens to avoid citizens holding other currencies even if their currency is weak against a stronger currency. To avoid weakening the fiat currency of a country's central bank, it is necessary to ensure that its citizens own their fiat currency. Blockchains such as Ethereum, Avalanche, Polygon, and Solana offers users to hold stable tokens regardless of region, which will allow authorities to ignore regulation and legalization until the distant future, and blocks the innovation of fiat-money and cash notes to a cryptographically secure digital money through blockchain - a decentralized, permissionless, trustless technology.\\
+
+Taxes can be static - applied per UTXO or similar to regional stable taxation - based on total balance. Both can also be applied for foreign stable tax which will remit taxes efficiently and benefits the country's central bank bringing fiat-money to fiat-cryptocurrency. UTXOs having stable tokens will include a data which specifies the currency which the token is pegged to (On-chain oracle). Foreign and regional stable tokens can be differentiated and the transaction can be verified by the block producer if the transaction and taxes output are fault-free.
+
 \subsubsection{Layered Tax}
 
-\subsection{Tax Registration Process}
+\textbf{Summary}\\
 
+\textbf{Universal Merchant-Payment Hub}\\
+
+\textbf{Client Side-Construction}\\
+
+\textbf{Verification of Layered Taxes}\\
+
+\textbf{On-Chain Zero-knowledge Audits}\\
+
+\subsubsection{Tax Registration Process}
+
+\textbf{Summary}\\
+
+\textbf{Central and State Wallets}\\
+
+\textbf{Registration of Tax Slabs}\\
+
+\textbf{Updating Tax Slabs}\\
 
 
 \subsection{Anchored Smart Contract Chains}
