@@ -286,9 +286,9 @@ Below is the JSON object data of a UTXO output in a Bitcoin transaction that con
 	]}
 \end{lstlisting}
 
-An Overview of how Blinkchain's UTXO JSON Object will look like, which will include an oracle value in USD, the elapsed time of the UTXO calculated in negative count (Further explained in Stable Taxes Section) and further calculation done by client to provide output of spend value and tax value which are calculated actively in the backend of the client server. The following data, calculations and terminologies are described in the below topics.
+An Overview of how Blinkchain's Type 1 (regular tokens) UTXO JSON Object will look like, which will include an oracle value in USD and further calculation done by client to provide output of spend value and tax value which are calculated actively in the backend of the client server. The following data, calculations and terminologies are described in the below topics.
 
-\begin{lstlisting}[caption={Blinkchain UTXO JSON Object Data}, numbers=none]
+\begin{lstlisting}[caption={Blinkchain Type 1 UTXO JSON Object Data}, numbers=none]
 
     "unspent_outputs":[
     
@@ -298,6 +298,8 @@ An Overview of how Blinkchain's UTXO JSON Object will look like, which will incl
 	"tx_index":51919767,
 	"tx_output_n": 1,
 	"script":"76a9148c7e252f8d64b.....915110fcfefcf4a2d88ac",
+	"asset" : "btc",
+	"type" : 1,
 	"locked_value": 800000000,
 	"locked_value_hex": "7a1200",
 	"confirmations":28691,
@@ -307,7 +309,6 @@ An Overview of how Blinkchain's UTXO JSON Object will look like, which will incl
 	"tax_oracle_value" : 50000000,
 	"spend_value" : 750000000, 			//Random data please don't calculate
 	"tax_value" : 250000000,
-	"elapse_time" : 46378,
 	
 	},
 	]}
@@ -406,14 +407,6 @@ Transactions are constructed by Client-side wallet applications, which chooses t
 
 UTXO, which contains stable tokens, does not increase in oracle value and avoids taxation. As a result, ownership of funds will increase and public development in their respective regions will decrease without the regulation of licensed governments. The solution is to issue a stable tax, much like a bank taxes a balance above a certain value. It's actually more difficult to implement balance sheet based taxes because UTXO is part of the total balance that is added together to form for an address. So, a novel UTXO Purging algorithm is introduced for taxing stable tokens. The tax authorities / government / agencies set the block interval period $ Block_ {period} $. During this period, each utxo in a particular region is purged (dust collection), all  available utxos for a particular stable asset are taken as inputs and two utxo outputs are generated (tax, to payer). Stable taxes are predefined by the government in an inverted pyramid scheme (explained in further sections), which encourages users to pay taxes by collecting all utxos  to avoid losing funds in the Pyramid scheme. Therefore, to pay taxes without losing money with a penalty, users need to clean up each utxo before the end of $ Block_ {period} $. Governments can set different taxes on regional stable tokens that represent fiat currencies and foreign stable tokens in other countries. This allows users to hold both types of stable tokens with  adjusted taxation, so payments will be made with regional stable tokens rather than foreign tokens. \\
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=11cm]{stabletaxfig}
-\caption{Inputs and Outputs of a Stable Purge-Tx}
-\end{center}
-\end{figure}
-
-
 \textbf{UTXO Purging}\\
 
 UTXO purging activity refers to combining a large set of small value utxos to create a single UTXO that can contain all the individual balances from the small value utxos. This makes it easier to verify public addresses and calculate balance-based taxes. UTXO is good at calculating gains tax because of its unique "cash-like" nature, it's harder to implement balance sheet-based taxes due to it's limited functionality and agnostic approach to total balances. Therefore, users should be prompted and incentivized to calculate their total balances by combining the UTXOs at certain time intervals to remit the stable taxes automatically.\\
@@ -421,15 +414,50 @@ UTXO purging activity refers to combining a large set of small value utxos to cr
 
 \textbf{Inverted Pyramid Taxes}\\
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=5cm]{invertedtriangle}
 \caption{Inverted Stable Tax Slabs on Regional and Foreign Stable Tokens}
 \end{center}
 \end{figure}
 
+Tax slabs are put forth using the inverted pyramid method where higher the savings you have lower the percentage of taxes. This is to incentivize the wallet holders to always include their pre-purged and always attach un-purged utxos to the transaction to calculate the total balance. This avoids evasion of utxos for minimizing taxes as it only costs the users a higher percentage of taxes. Taxes are applied in segregated balances of the total inputs, for e.g., For a Balance of 1500 Euros where taxes are 0-1000 @ 1\% \& 1000-5000 @ 0.8\% , hence the taxes are 1000 @ 1\% = 10 \& 500 @ 0.8\% = 4 , total taxes = 14. Users can include their pre-purged utxos which haven't been spent where the taxes will not be remitted.\\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{stabletaxfig2}
+\caption{Un-purged and Pre-purged Inputs}
+\end{center}
+\end{figure}
+
 
 \textbf{Block Interval Period and Penalty}\\
+
+To remit stable taxes, the governments or authorized agency should acknowledge the $Block_{period}$ which is initially set to 23652000 (quaterly-year). The $Block_{period}$ represents the block height in which all the utxos funded with stable tokens (regional \& foreign) of the country should do a Purging-event in which all the utxos are spent to create a single tax-free utxo thereby reducing the dusts. This $Block_{period}$ is common for all the utxos irrespective of country, thus users cannot evade taxes by transferring between each other wallet. In every un-purged utxo the $Block_{interval}$ is added to represent the next block period's height in which the utxo should be purged. In Purged utxos the $Block_{interval}$ is set to 0 differentiate between unpurged utxos. Failure to purge utxos will result in penalty of the utxo which will be discussed in further topics.\\
+
+
+\begin{lstlisting}[caption={Blinkchain Type 2 UTXO JSON Object Data}, numbers=none]
+
+    "unspent_outputs":[
+    
+	{
+	
+	"tx_hash":"bufhw38gf7wjbh.....f8whbf2fu89fwj",
+	"tx_index":238,
+	"tx_output_n": 1,
+	"script":"sjdb92f8.....wfb8u2fewfhbe",
+	"asset" : "euro",the elapsed time of the UTXO calculated in negative count (Further explained in Stable Taxes Section) 
+	"type" : 2,
+	"locked_value": 1800000000,
+	"locked_value_hex": "7a1200",
+	"initial_oracle_value" : 1500000000,
+	"confirmations":28691,
+	"block_interval" : 567432
+	"elapse_time" : 46378,
+	
+	},
+	]}
+\end{lstlisting}
 
 
 
