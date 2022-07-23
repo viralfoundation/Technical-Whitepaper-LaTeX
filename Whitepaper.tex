@@ -1,5 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
-\usepackage[a4paper , top=40mm, right=35mm,left=35mm, bottom=40mm]{geometry}
+%\usepackage[a4paper , top=40mm, right=35mm,left=35mm, bottom=40mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -168,17 +168,21 @@ Need for a universal bridge for connecting blockchains to governments for financ
 
 \subsection{High-Level Infrastructure Overview}
 
+
 \subsubsection{Figures}
+
 
 \subsubsection{Definitions and Short Notes}
 
+
 \subsubsection{Wallets Significance and User Experience}
 
-\subsubsection{Chain Integrated Scaling Solutions}
 
 \subsubsection{Comparison of Other Blockchain Platforms}
 
+
 \subsection{Outline of Blockchain}	
+
 	
 \subsection{Terminology}
 
@@ -190,19 +194,29 @@ Need for a universal bridge for connecting blockchains to governments for financ
 \item \textbf{Blink}- The Time interval between a block's first and last transaction in a linear sequence calculated in Legates.
 \item \textbf{Blink Time} - In Each Epoch a Blink Time (represented in legates)the maximum time interval of a blink will be decided by the protocol. Surpassing it's maximum limit will account in slashing of delegated stake and reduces the block reward.
 \item \textbf{Block} - A Data File which comprises of Series of Transaction Data with Legate Proof serving as a immutable ledger once blocks are stacked on top of each other like a chain representing a Blockchain.
+\item \textbf{Winks} : Smallest divisible value of anything that is represented as an asset, oracle,etc in the Blinkchain. For e.g., 1 BTC = $1 \times 10^8$ BTC winks, 1 USD = $1 \times 10^8$ USD winks.
 \item \textbf{Gains Tax} - Percentage of Tax leaved on a UTXO when it's spent by calculating it's oracle profit, later remitted by the regional government citing tax on profits.
 \item \textbf{Stable Tax} - Tax leaved on wallets holding stable funds/assets grouped by total oracle value.
 \item \textbf{Layered Tax} - External Taxes paid by Merchants on Point of Sale inside the consumer transaction itself. It includes Goods and Service Tax.
+\item \textbf{Base Fee} : Fixed Fee typically paid in any asset caculated from a pre-determined oracle value increases by 8\% a year. 0.00015 USD / year increased by 8\% after every 94 million blocks. 
+\item \textbf{Transfer Fee} : Fixed percentage fee subtracted from each output in every transaction i.e., 0.05\% per output.
 \end{enumerate}
 
-	
 \subsection{Proof of Speed}
+
+
 	
 \subsection{Wallets and Transaction Types}
+
+
 	
 \subsection{Transaction Fee}
+
+
 	
 \subsection{UTXO DLT Model}
+
+
 
 \subsection{Regulatory-Compliant Masked Taxation}
 
@@ -245,7 +259,7 @@ As Stated in the IRS Webpage (Internal Revenue Service) on capital gains,\\
 \end{center}
 \end{figure}
 
-Gains as an incentive to own an asset is taxed under the Gains Tax Model for each UTXO issued. Regular tokens fall into the gains tax category because of market demand changes disproportionately, whereas stable tokens are not sold at premium prices, but are determined when stable assets are created / minted using it's smart contract script. It is traded at a stable value. Blinkchain's stable tax is similar to threshold tax holding fiat currency in a traditional bank. In traditional banks, the bank collects taxes when the total balance exceeds an amount set by the government. Therefore, a stable tax will be levied when the user wallet reaches the threshold.\\
+Gains as an incentive to own an asset is taxed under the Gains Tax Model for each UTXO issued. Regular tokens fall into the gains tax category because of market demand changes disproportionately, whereas stable tokens are not sold at premium prices, but are determined when stable assets are created / minted using it's smart contract script. It is traded at a stable value. Blinkchain's stable tax is similar to threshold tax holding fiat currency in a traditional bank. In traditional banks, the bank collects taxes when the total balance exceeds an amount set by the government. Therefore, a stable tax will be levied when the user wallet reaches the threshold. Government wallets are categorized into Central and State Governments differentiated by vanity addresses (further explained in Wallets and Transaction types section) which can receive taxes from the user in state and central defined tax slabs.\\
 
 Gains and stable taxes are directly proportional to the amount of funds in a particular asset held by the wallet address owner, but these are friendly solutions to the regulation of a particular blockchain as a digital administrator / custodian of virtual assets. It's just that. As daily payments from individuals to merchants increase, the taxation of goods and service taxes on goods sold through Blinkchain should be simplified and paid to the government at the time of sale of the transaction itself. Merchants can cryptographically prove to the government that they have paid taxes on goods and services sold to  consumers during the filing of quarterly or semi-annual tax audits. This type of taxation, known as layered taxes, can represent any tax slab on any category of goods and services announced by the goverment that imposes  external taxes on customers / consumers based on  pre-tax values. Therefore, Blinkchain has three tax models that help regulate cryptocurrencies.\\
 
@@ -264,7 +278,7 @@ The primary reason for constructing Blinkchain, a UTXO based blockchain similar 
 
 Satoshi Nakamoto's Bitcoin is the first to incorporate the UTXO monetory model in which Bitcoin's total supply and individual holdings can be calculated per public key hash efficiently after the nodes come into consensus without any fault tolerance. The Unspent Transaction Output (UTXO) holds discrete pieces of bitcoin in the smallest divisible output - satoshis. The UTXO model makes Bitcoin more auditable, transparent, and efficient than traditional financial systems, which rely on accounts, balances, and third parties. \\
 
-Blinkchain shares its UTXO architecture with Bitcoin and Cardano while adding oracle information to the utxo data to effectively partition the utxo funds into spendable and non-spendable values. The spendable value is known as \textit{spend value} and the non-spendable value is known as \textit{tax value}. The UTXOs in Blinkchain contain an additional data known as \textit{initial oracle value} which stamps the current oracle value of the utxo in USD. UTXOs are created through the consumption of existing UTXOs and during every UTXO creation in Blinkchain, the validator or the client shall stamp the oracle value of each outputs.\\
+Blinkchain shares its UTXO architecture with Bitcoin and Cardano while adding oracle information to the utxo data to effectively partition the utxo funds into spendable and non-spendable values. The spendable value is known as \textit{spend value} and the non-spendable value is known as \textit{tax value}. The UTXOs in Blinkchain contain an additional data known as \textit{initial oracle value} which stamps the current oracle value of the utxo in USD and the tax slab which is required to calculate the \textit{tax value}. UTXOs are created through the consumption of existing UTXOs and during every UTXO creation in Blinkchain, the validator or the client shall stamp the oracle value and tax slabs of each outputs.\\
 
 Below is the JSON object data of a UTXO output in a Bitcoin transaction that contains the value (in satoshis), transaction hash \& index, script address and number of confirmations.\\
 
@@ -286,7 +300,7 @@ Below is the JSON object data of a UTXO output in a Bitcoin transaction that con
 	]}
 \end{lstlisting}
 
-An Overview of how Blinkchain's Type 1 (regular tokens) UTXO JSON Object will look like, which will include an oracle value in USD and further calculation done by client to provide output of spend value and tax value which are calculated actively in the backend of the client server. The following data, calculations and terminologies are described in the below topics.
+An Overview of how Blinkchain's Type 1 (regular tokens) UTXO JSON Object will look like, which will include an oracle value in USD, tax slab and further calculation done by client to provide output of spend value and tax value which are calculated actively in the backend of the client server. The following data, calculations and terminologies are described in the below topics.
 
 \begin{lstlisting}[caption={Blinkchain Type 1 UTXO JSON Object Data}, numbers=none]
 
@@ -301,6 +315,7 @@ An Overview of how Blinkchain's Type 1 (regular tokens) UTXO JSON Object will lo
 	"asset" : "btc",
 	"locked_value": 800000000,
 	"locked_value_hex": "7a1200",
+	"tax_slab" : 750,
 	"confirmations":28691,
 	"initial_oracle_value" : 100000000,
 	"current_oracle_value" : 200000000,
@@ -332,7 +347,7 @@ E.g., $1$ BTC = $40,000$ USD\\
 $100,000,000$ BTC Winks (sats) = $4,000,000,000,000$ USD Winks
 \end{center}
 
-The oracle value specifies the real world value of a specific UTXO which can tell the public that a profit has been made and it can be taxed while it's spent. Through the \textit{initial oracle value} and \textit{locked value}, the gains shall be calculated and the tax can also be put forth for the transaction to take place. The values that are used for calculating gains tax are given,\\
+The oracle value specifies the real world value of a specific UTXO which can tell the public that a profit has been made and it can be taxed while it's spent. Through the \textit{initial oracle value} and \textit{tax slab}, the gains shall be calculated from the \textit{locked value} and the tax can also be put forth for the transaction to take place. The values that are used for calculating gains tax are given,\\
 
 \begin{enumerate}[wide, labelwidth=!, labelindent=0pt]
 \item \textbf{Locked Value($V_l$)} : Total Asset Value locked inside the utxo (E.g., 5 BTC)
@@ -344,14 +359,18 @@ The oracle value specifies the real world value of a specific UTXO which can tel
 \item \textbf{Tax Value($V_t$)} : Total Tax amount in asset value acts as a illiquid layer inside the locked value where it can only be spent to the government/authority.
 \item \textbf{Spend Value($V_s$)} : Total Spend value of a given utxo acts as a liquid layer where the payer can initiate the transaction below the spend value.
 \item \textbf{Oracle Price / wink ($O_w$)} : The UTXO Asset's 1 wink price in usd winks.
+\item \textbf{Tax Percentage ($T$)} : Tax slab for the particular utxo stamped, might change if the government updates.
 \end{enumerate}
 
-As the above values are calculated at series to find and verify if the taxes are remitted without evasion, only few are needed to stamped inside a utxo such as \textit{initial oracle value} $O_i$ and \textit{locked value} $V_l$. All the other values are calculated in sequence in an algorithm that follows below,
+As the above values are calculated at series to find and verify if the taxes are remitted without evasion, only few extra fields are needed to stamped inside a utxo such as \textit{initial oracle value} $O_i$ and \textit{tax slab} $V_l$. All the other values are calculated in sequence in an algorithm that follows below,
 
 \begin{itemize}[wide, labelwidth=!, labelindent=0pt]
 \item The Locked Value $V_l$ is stamped in winks ($10^8$) which represents the smallest divisible value of the asset. This applies to every asset that circulates inside the blinkchain.
 \item The Initial Oracle Value $O_i$ in usd winks ($10^8 \times x USD$) that marks the value of the total utxo in USD.
-\item These two are stamped and the other values can be actively updated in wallet applications in real-time to provide real-time balance with remitted taxes, but will only be calculated and verified by the nodes only when the utxo is spent.
+
+\item The Tax Percentage Slab $T$ is represented in $10^{2}$. Hence the actual $T\%$ is calculated as $(T \times 10^{-2}) / 100$
+
+\item These three are stamped and the other values can be actively updated in wallet applications in real-time to provide real-time balance with remitted taxes, but will only be calculated and verified by the nodes only when the utxo is spent.
 \item The Oracle Price $O_w$ of every asset accepted as a registered blinkchain tender (More on Token Minter Module) is updated as an On-Chain oracle for every slot (typically 2 mins) that can provide the Current Oracle Value $O_c$ for every UTXO which can update Spend $V_s$ and Tax values $V_t$.
 \item At First, the Locked Value $V_l$ is stamped in winks of the particular asset E.g., 1 ETH = 100,000,000 ETH winks or 0.35 BTC = 35,000,000 BTC Winks 
 \[V_l = Asset Value \times 10^8\]
@@ -369,8 +388,8 @@ As the above values are calculated at series to find and verify if the taxes are
 \[P_o = O_c - O_i\]
 \item E.g., $O_p$ = $2,450,000,000,000 - 1,575,000,000,000$ = 875000000000 USD winks
 \item The tax oracle value $O_t$ can be calculated once the profit in oracle value is positive $1,1.1,...n$. For each tax model and wallet type, the tax percentage $T$ will be registered by governments or government authorized agencies (More on futher sections).
-\[O_t = O_p \times T\%\]
-\item E.g., Lets assume that the gains tax are @ 15\% hence the total tax oracle value $O_t$ = $875,000,000,000 \times 15\%$ = 131,250,000,000 USD Winks
+\[O_t = O_p \times T\]
+\item E.g., Lets assume that the gains tax are 1500, calculating the $T = 1500 \times 10^{-2}) / 100 = 0.15 $ hence the total tax oracle value $O_t$ = $875,000,000,000 \times 0.15 $ = 131,250,000,000 USD Winks
 \item While the tax oracle value $O_t$ is found, the spend oracle value $O_s$ can be also calculated by taking the current oracle value $O_c$
 \[O_s = O_c - O_t\]
 \item E.g., from the above examples the spend oracle value $O_s$ = $2,450,000,000,000 - 131,250,000,000$ = 2,318,750,000,000 USD winks
@@ -467,19 +486,45 @@ As Purging UTXOs will decrease the UTXO storage space, validators incentivize th
 
 Stable tokens play a major role in payments and transfers. Payments with stable tokens are mostly backed or pegged with US dollar (USDT, USDC, DAI) which pose a threat to other developing countries that have their own central bank currency e.g., India, Europe, UK, etc. These countries and their citizens prefer to pay in their fiat currency. Therefore, to avoid citizens holding other currencies, taxes are levied on those holding foreign stable tokens to avoid citizens holding other currencies even if their currency is weak against a stronger currency. To avoid weakening the fiat currency of a country's central bank, it is necessary to ensure that its citizens own their fiat currency. Blockchains such as Ethereum, Avalanche, Polygon, and Solana offers users to hold stable tokens regardless of region, which will allow authorities to ignore regulation and legalization until the distant future, and blocks the innovation of fiat-money and cash notes to a cryptographically secure digital money through blockchain - a decentralized, permissionless, trustless technology.\\
 
-Taxes can be static - applied per UTXO or similar to regional stable taxation - based on total balance. Both can also be applied for foreign stable tax which will remit taxes efficiently and benefits the country's central bank bringing fiat-money to fiat-cryptocurrency. UTXOs having stable tokens will include a data which specifies the currency which the token is pegged to (On-chain oracle). Foreign and regional stable tokens can be differentiated and the transaction can be verified by the block producer if the transaction and taxes output are fault-free.
+Taxes can be static - applied per UTXO or similar to regional stable taxation - based on total balance. Both can also be applied for foreign stable tax which will remit taxes efficiently and benefits the country's central bank bringing fiat-money to fiat-cryptocurrency. UTXOs having stable tokens will include a data which specifies the currency which the token is pegged to (On-chain oracle). Foreign and regional stable tokens can be differentiated and the transaction can be verified by the block producer if the transaction and taxes output are fault-free.\\
 
 \subsubsection{Layered Tax}
 
 \textbf{Summary}\\
 
+Layered taxes is a general term that expresses real-world Value-added Tax (VAT), Goods and Service Tax (GST), Sales Tax, etc which are levied on top of a transaction by the payer where the payee is in compliant to pay taxes for the transfer which includes a sale of product, services, etc. Transactions are constructed in the client side, in which the layered taxes are designed and added in the outputs of the transaction. Layered Taxes . These taxes will contain different slabs and harder to implement on the network-side, this involves centralization  procedures that will be audited by the government and imposes penalties and imprisonment during failure on payment. Merchant's are required to pay layered taxes under a certain period, typically quarterly or monthly e.g., GST in India. This involves submitting tax receipts and audits by a professional charted accountant. To ease out the need for paying taxes collectively, a novel method of taxation-during point-of-sale is proposed in Blinkchain. Layered Taxes are based on pay and prove mechanism in which clients are required to channel sales-tax included customer transactions to separated outputs including the merchant and the government. Later during the audit-period the merchants can prove that the tax is paid using a zk-proof that inspects and declare that the merchant has indeed paid the taxes. This involves a zk-proof creation and an On-Chain verification that is immutable and impossible to tamper.\\
+
 \textbf{Universal Merchant-Payment Hub}\\
+
+Be it, Ecommerce websites or Native Applications, all use a payment gateway i.e., a wallet application to buy products and services. This involves domestic and international purchases which will be subjected to domestic sales tax and international sales tax. Merchants of different kinds of businesses can include the layered tax percentage added it's product, later construct a transaction involving tax outputs at the time of sale. Since Blinkchain provides solution for Central and State Government taxes, the taxes are easily transferred. In Layered Taxes, the client can also include an output for city-wise sales tax too. Governments can add slabs for international payments denoted by public keys from different country's and include foreign sales taxation rates. As the taxes are completely revolving around off-chain construction, it offloads the computation. Layered tax slabs can be re-calculated from a previously minted block's transaction effortlessly.\\
 
 \textbf{Client Side-Construction}\\
 
-\textbf{Verification of Layered Taxes}\\
+When a Buyer (payer) initiates a transaction, the seller (payee) returns the outputs including the layered tax and the payee value. The Client (Wallet) constructs the inputs and tx outputs that may consist of gains tax of the input utxos. The Payer then signs the transaction and broadcast it to the network and benefit the taxes paid at the Point of Sale without any hassles. During a domestic transaction, the layered tax address shall be same as the gains tax address, so to optimize the utxo storage space, the layered tax and gains tax shall be included in a single output. In a international purchase, the layered taxes should be sent to the merchant's government, hence an additional output shall be added to the transaction.\\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{layeredtaxdmst}
+\caption{Domestic Sales Tax}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{layeredtaxint}
+\caption{International Sales Tax}
+\end{center}
+\end{figure}
+
+\[V_{lt} = Out_{tax}^n - In\sum_{0}^{n} V_t \]\\
+
+
+During a merchant transaction construction, the seller shall provide the layered tax percentage to be remitted and thereby the wallet contrcuts the inputs and outputs in which the buyer signs and broadcast the transaction. To calculate the layered tax percentage of a international transaction, the user shall only have to verify the output created separately for the layered tax. During a domestic transaction the layered taxes can be calculated by subtracting the gains tax from all the input to reveal the total layered tax.\\
+
 
 \textbf{On-Chain Zero-knowledge Audits}\\
+
+Blockchains are an immutable storage of transactions which can be verified without trusting a party. Publicly anyone can audit the authenticity of the transaction that tool place at a certain block which is represented by a hash. In Blinkchain, the transactions are compressed by "merkle-proofs" where a single transaction happened at $n$ time can be verified by a single 256-bit SHA hash. This also makes on-chain transactions auditable by any third party requiring final verification from the blinkchain similar to a supreme court. Hence, governments can verify the proofs submitted by merchants for layered taxes payment without trusting the merchants. Merkle-proofs are discussed in the Storage of Blocks Section.\\
 
 \subsubsection{Tax Registration Process}
 
@@ -503,6 +548,8 @@ Taxes can be static - applied per UTXO or similar to regional stable taxation - 
 \subsection{Block Rewards \& Token's Monetary Policy}
 	
 \subsection{Gossip Protocol}
+
+\subsection{Storage of Blocks}
 	
 \subsection{Epoch Requirements \& Production}
 	
