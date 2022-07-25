@@ -215,15 +215,36 @@ Cryptocurrency wallets doesn't store your tokens rather it maintains a public le
 
 In real-world conditions, the regulation of cryptocurrencies and digital assets are decided by seperate governments that may include seperate bills on parliaments and may not be the same or share the governance methods. As Blockchains are decentralized and require individual votes to decide among the community to pass neccessary changes without resulting in forks, taxing regulations that can lead to a decentralized-regulated digital payment system require governments to audit their regional pseudonymous wallets. This can lead to proper taxation imposed by a particular country/state for a country's/state's wallet in a permisionless network.\\
 
-
-
 \subsubsection{Blinkchain Wallet}
+
 
 
 
 \subsubsection{Regional Segregation}
 
+Wallets are classified into three main categories
+\begin{enumerate}
+\item Country (E.g., USA, India, Germany)
+\item State (E.g., Florida, Hamburg, Tamil Nadu)
+\item Type
+	\begin{enumerate}
+	\item Personal
+	\item Merchant
+	\item Central Government
+	\item State Government
+	\item Non-Profit
+	\end{enumerate}
+\end{enumerate}
+
+There are 5 individual categories in wallet types that are common for all the countries and states. Each On-Chain wallet is identifiable by it's country, state and type. States are determined by first-level administrative divisions, whereas second and further levels cannot be classified as it increases the difficulty to generate vanity addresses as the prefix patterns exponentially increases the computation needed.  
+
 \subsubsection{White-listed Vanity Addresses}
+
+Vanity pattern with 3 digit prefix can produce 195112 combinations in which each combination white-listed. To identify every wallet by it's country,state and type we would combinations to be $< 195112$
+
+\[Combinations = C^n = 58^3 = 195112\]
+
+
 
 \textbf{On-Chain UTXO Scripts Addresses}\\
 
