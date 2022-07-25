@@ -14,17 +14,17 @@
 \contentsline {subsection}{\numberline {6.3}Terminology}{3}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Proof of Speed}{4}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Wallets and Transaction Types}{4}{subsection.6.5}%
-\contentsline {subsubsection}{\numberline {6.5.1}Different Wallet Types}{5}{subsubsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.1}Blinkchain Wallet}{5}{subsubsection.6.5.1}%
 \contentsline {subsubsection}{\numberline {6.5.2}Regional Segregation}{5}{subsubsection.6.5.2}%
 \contentsline {subsubsection}{\numberline {6.5.3}White-listed Vanity Addresses}{5}{subsubsection.6.5.3}%
 \contentsline {subsection}{\numberline {6.6}Transaction Fee}{5}{subsection.6.6}%
-\contentsline {subsubsection}{\numberline {6.6.1}Base Fee}{5}{subsubsection.6.6.1}%
-\contentsline {subsubsection}{\numberline {6.6.2}Transfer Fee}{5}{subsubsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.7}UTXO DLT Model}{5}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}Regulatory-Compliant Masked Taxation}{5}{subsection.6.8}%
-\contentsline {subsubsection}{\numberline {6.8.1}Tax Models}{7}{subsubsection.6.8.1}%
+\contentsline {subsubsection}{\numberline {6.6.1}Base Fee}{6}{subsubsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.2}Transfer Fee}{6}{subsubsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.7}UTXO DLT Model}{6}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Regulatory-Compliant Masked Taxation}{6}{subsection.6.8}%
+\contentsline {subsubsection}{\numberline {6.8.1}Tax Models}{8}{subsubsection.6.8.1}%
 \contentsline {subsubsection}{\numberline {6.8.2}Capital Gains Tax}{9}{subsubsection.6.8.2}%
-\contentsline {subsubsection}{\numberline {6.8.3}Stable Tax}{16}{subsubsection.6.8.3}%
+\contentsline {subsubsection}{\numberline {6.8.3}Stable Tax}{17}{subsubsection.6.8.3}%
 \contentsline {subsubsection}{\numberline {6.8.4}Layered Tax}{21}{subsubsection.6.8.4}%
 \contentsline {subsubsection}{\numberline {6.8.5}Tax Registration Process}{24}{subsubsection.6.8.5}%
 \contentsline {subsection}{\numberline {6.9}Anchored Smart Contract Chains}{25}{subsection.6.9}%
