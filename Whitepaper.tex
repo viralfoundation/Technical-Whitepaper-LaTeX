@@ -1,5 +1,5 @@
 \documentclass[letterpaper,11pt]{article}
-%\usepackage[a4paper , top=40mm, right=35mm,left=35mm, bottom=40mm]{geometry}
+\usepackage[a4paper , top=40mm, right=35mm,left=35mm, bottom=40mm]{geometry}
 \setlength\parindent{0pt}
 \usepackage{enumitem}
 \usepackage{comment}
@@ -215,11 +215,6 @@ Cryptocurrency wallets doesn't store your tokens rather it maintains a public le
 
 In real-world conditions, the regulation of cryptocurrencies and digital assets are decided by seperate governments that may include seperate bills on parliaments and may not be the same or share the governance methods. As Blockchains are decentralized and require individual votes to decide among the community to pass neccessary changes without resulting in forks, taxing regulations that can lead to a decentralized-regulated digital payment system require governments to audit their regional pseudonymous wallets. This can lead to proper taxation imposed by a particular country/state for a country's/state's wallet in a permisionless network.\\
 
-\subsubsection{Blinkchain Wallet}
-
-
-
-
 \subsubsection{Regional Segregation}
 
 Wallets are classified into three main categories
@@ -230,19 +225,100 @@ Wallets are classified into three main categories
 	\begin{enumerate}
 	\item Personal
 	\item Merchant
-	\item Central Government
 	\item State Government
 	\item Non-Profit
 	\end{enumerate}
 \end{enumerate}
 
-There are 5 individual categories in wallet types that are common for all the countries and states. Each On-Chain wallet is identifiable by it's country, state and type. States are determined by first-level administrative divisions, whereas second and further levels cannot be classified as it increases the difficulty to generate vanity addresses as the prefix patterns exponentially increases the computation needed.  
+There are 4 individual categories in wallet types that are common for all the countries and states. Each On-Chain wallet is identifiable by it's country, state and type. States are determined by first-level administrative divisions, whereas second and further levels cannot be classified as it increases the difficulty to generate vanity addresses as the prefix patterns exponentially increases the computation needed. 
+
+
+\subsubsection{Blinkchain Wallet}
+
+Blinkchain Wallet address is exactly same as a bitcoin vanity address, but the verification and tax slab identification rests on the public key hash encoding. Blinkchain nodes add a layer of verification that results in determining the tax slab in a trust-less manner. The process is called as "Tax-Slab Decoding" which identifies the country, state and the type of the wallet address that creates the outputs in a transaction.\\
+
+The Wallet address is generated in the method as follows
+\begin{itemize}[wide, labelwidth=!, labelindent=0pt]
+\item A 12 (128-bit) or 24 word (256-bit) mnemonic is generated from the list of (BIP-39 word list) to form a vanity address that is predefined by the blink network according to the input parameters i.e., Country, State and Type.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{vanity-terminal}
+\caption{Example Mnemonic-Vanity Generation}
+\end{center}
+\end{figure}
+
+\item To understand the address generation process the below figure shall explain the hashing and encoding procedure.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{encodebip39}
+\caption{Address Generation}
+\end{center}
+\end{figure}
+
+\item The Address generation process is exactly as Bitcoin, since by far it is the most efficient, well-thought and shorter address compared to non-encoded pub-key formats. The only difference is Blinkchain only accepts addresses with a list of white-listed prefix of 3 character length. Blinkchain does this to identify the regional status and nature of the address which is associated to. These vanity addresses help nodes to verify the taxations without trusting the client constructed transaction.
+
+\item The Classification of Blinkchain Address is given below
+
+\[1JobZXL2RJDF4XTK67W9Fbs1bBVX7h2h8v\]
+
+1 - Represents P2PKH addresses\\
+Job - Vanity Pattern representing the Country, State and the Type
+
+\item The Vanity address is solely for human-identification and node-verfication. As human typo-errors are common the base58 is encoded with a checksum to avoid errors of sending to a non-private key address. The client applications decode the base58 address, constructs the transactions in pub-key formats and are stamped in the public ledger/state.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{clienttxvanity}
+\caption{Client Tx Vanity Check}
+\end{center}
+\end{figure}
+
+\item During validating a transaction, the block producer nodes shall validate the address by running the same encoding scheme, identifies the vanity pattern and verifies the tax slabs authenticity constructed by the client. Non-whitelisted vanity patterned base58 addresses's transactions are termed malicious and gets rejected by the producer node.   
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{nodetxvanity}
+\caption{Nodes Tx Vanity Check}
+\end{center}
+\end{figure}
+
+\end{itemize}
+
+
+
+
+
 
 \subsubsection{White-listed Vanity Addresses}
 
-Vanity pattern with 3 digit prefix can produce 195112 combinations in which each combination white-listed. To identify every wallet by it's country,state and type we would combinations to be $< 195112$
-
 \[Combinations = C^n = 58^3 = 195112\]
+\[VanityPatterns = States_n \times Types_n \approx 5000 \times 4 = 20,000\]
+
+
+Vanity pattern with 3 digit prefix can produce 195,112 combinations in which few combinations are well thought without max computation and hard-coded into the blink-core software. To identify every wallet by it's country,state and type we would combinations to be $< 195112$. Taxes slabs are added by state-wise since most countries adopt taxation based on first-level administrative division to encourage flexible taxes throughout the country. Wallets are categorized by States / single-state country and types. Each Blinkchain Vanity Wallet shall expose it's type i.e., Personal, Merchant, Government or Non-Profit and it's State. Hence for a single state there shall be four types of wallet accounting to four base58 vanity pattern per state. In Total, there are lesser than 5,000 states in the world requiring upto 20,000 vanity patterns.\\
+
+
+\begin{table}[H]\footnotesize
+	\raggedleft
+	\begin{tabular}{|l|l|l|l|l|}
+	\hline
+		\textbf{Pattern} & \textbf{Country} & \textbf{State} & \textbf{Type} & \textbf{Example P2PKH Base58 Address} \\ \hline
+	8dy & USA & Michigan & Personal & 18dyStGY8tTj52NKrhtehq9bUCsqG16imC \\ \hline
+	ue3 & USA & Michigan & Merchant & 1ue3tgZh9SxN3kgrjvdpeU8n2AHRGqa4Y \\ \hline
+	8ue & USA & Michigan & Government & 18ueE2twMTws1xqLhMRcgV45Rf9UXvuXVJ \\ \hline
+	r4b & USA & Michigan & Non-Profit & 1r4b3ErwCt24j5aspoRaPneaPMFGUMG4H \\ \hline
+	8ed & India & Tamil Nadu & Personal & 18edwoNQAcb6uMD5vL8WMGAHMcjdpfdQAE \\ \hline
+	hif & India & Tamil Nadu & Merchant & 1hifUDQ4isKne419qxmRy4DExaCYhRAHV \\ \hline
+	8rr & India & Tamil Nadu & Government & 18rrWVS7e65BHVizPNqhJyhQ7JjYSZ96ow \\ \hline
+	jsx & India & Tamil Nadu & Non-Profit & 1jsxZiaw8wFBXabwA4hBVeWQv99woRN76 \\ \hline
+	\end{tabular}
+	\caption{Example Vanity Pattern}
+	\end{table}
+\normalsize
+
+Additionally Central Governments are allocated with Vanity Pattern for state governments to channel state collected taxes. While there are $58^3$ patterns can be constructed for the regional identification, the computation per pattern differs from each other. To generate the vanity pattern in smaller mobile devices which uses computationally-less efficient processors with lower per-thread performance, the pattern should be generated at the highest speed possible to offer better user-experience in comparison to centralized wallets which can generate vanity addresses in loads of servers for users, but store the private keys which is more-susceptible to breach. Hence the patterns are analyzed in various devices, where the first 20,000 less-computation needed patterns are determined for each wallet identification. During governance approved addition of next-set of patterns for future identification, the following patterns are taken. The vanity-generation program in non-custodial client-apps should be optimized and experimented in efficient languages to provide utmost speed in generating the mnemonic phrase and the first-derived Base58 address.\\
 
 
 
