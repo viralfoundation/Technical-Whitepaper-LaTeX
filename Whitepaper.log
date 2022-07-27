@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.27)  27 JUL 2022 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.27)  27 JUL 2022 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1169,14 +1169,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 241.
 
-<./assets/images/vanity-terminal.png, id=467, 965.6075pt x 102.3825pt>
+<./assets/images/vanity-terminal.png, id=466, 965.6075pt x 102.3825pt>
 File: ./assets/images/vanity-terminal.png Graphic file (type png)
 <use ./assets/images/vanity-terminal.png>
 Package pdftex.def Info: ./assets/images/vanity-terminal.png  used on input lin
 e 246.
 (pdftex.def)             Requested size: 398.3386pt x 42.23486pt.
 [4]
-<./assets/images/encodebip39.jpg, id=481, 1508.63625pt x 1903.11pt>
+<./assets/images/encodebip39.jpg, id=480, 1508.63625pt x 1903.11pt>
 File: ./assets/images/encodebip39.jpg Graphic file (type jpg)
 <use ./assets/images/encodebip39.jpg>
 Package pdftex.def Info: ./assets/images/encodebip39.jpg  used on input line 25
@@ -1189,7 +1189,7 @@ encoded pub-key formats.
  []
 
 [5 <./assets/images/vanity-terminal.png> <./assets/images/encodebip39.jpg>]
-<./assets/images/clienttxvanity.jpg, id=490, 1553.805pt x 846.16125pt>
+<./assets/images/clienttxvanity.jpg, id=489, 1553.805pt x 846.16125pt>
 File: ./assets/images/clienttxvanity.jpg Graphic file (type jpg)
 <use ./assets/images/clienttxvanity.jpg>
 Package pdftex.def Info: ./assets/images/clienttxvanity.jpg  used on input line
@@ -1207,7 +1207,7 @@ Overfull \hbox (5.74731pt too wide) in paragraph at lines 278--279
 s rejected by the producer
  []
 
-<./assets/images/nodetxvanity.jpg, id=491, 1559.8275pt x 816.04875pt>
+<./assets/images/nodetxvanity.jpg, id=490, 1559.8275pt x 816.04875pt>
 File: ./assets/images/nodetxvanity.jpg Graphic file (type jpg)
 <use ./assets/images/nodetxvanity.jpg>
 Package pdftex.def Info: ./assets/images/nodetxvanity.jpg  used on input line 2
@@ -1427,7 +1427,7 @@ Overfull \hbox (4.10419pt too wide) in paragraph at lines 524--525
 m the global value creation.
  []
 
-<./assets/images/gainstaxeg.jpg, id=596, 2490.30376pt x 966.61125pt>
+<./assets/images/gainstaxeg.jpg, id=595, 2490.30376pt x 966.61125pt>
 File: ./assets/images/gainstaxeg.jpg Graphic file (type jpg)
 <use ./assets/images/gainstaxeg.jpg>
 Package pdftex.def Info: ./assets/images/gainstaxeg.jpg  used on input line 532
@@ -1443,7 +1443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
-<./assets/images/gainstaxutxo.jpg, id=597, 3574.35374pt x 2833.58624pt>
+<./assets/images/gainstaxutxo.jpg, id=596, 3574.35374pt x 2833.58624pt>
 File: ./assets/images/gainstaxutxo.jpg Graphic file (type jpg)
 <use ./assets/images/gainstaxutxo.jpg>
 Package pdftex.def Info: ./assets/images/gainstaxutxo.jpg  used on input line 5
@@ -1474,7 +1474,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 561--562
 
  []
 
-<./assets/images/invertedtriangle.jpg, id=608, 996.72375pt x 725.71124pt>
+<./assets/images/invertedtriangle.jpg, id=607, 996.72375pt x 725.71124pt>
 File: ./assets/images/invertedtriangle.jpg Graphic file (type jpg)
 <use ./assets/images/invertedtriangle.jpg>
 Package pdftex.def Info: ./assets/images/invertedtriangle.jpg  used on input li
@@ -1491,7 +1491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
-<./assets/images/stabletaxfig2.jpg, id=613, 3812.2425pt x 1689.31125pt>
+<./assets/images/stabletaxfig2.jpg, id=612, 3812.2425pt x 1689.31125pt>
 File: ./assets/images/stabletaxfig2.jpg Graphic file (type jpg)
 <use ./assets/images/stabletaxfig2.jpg>
 Package pdftex.def Info: ./assets/images/stabletaxfig2.jpg  used on input line 
@@ -1563,13 +1563,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
-<./assets/images/layeredtaxdmst.jpg, id=651, 2490.30376pt x 936.49875pt>
+<./assets/images/layeredtaxdmst.jpg, id=650, 2490.30376pt x 936.49875pt>
 File: ./assets/images/layeredtaxdmst.jpg Graphic file (type jpg)
 <use ./assets/images/layeredtaxdmst.jpg>
 Package pdftex.def Info: ./assets/images/layeredtaxdmst.jpg  used on input line
  635.
 (pdftex.def)             Requested size: 398.3386pt x 149.78569pt.
-<./assets/images/layeredtaxint.jpg, id=652, 2490.30376pt x 1087.06125pt>
+<./assets/images/layeredtaxint.jpg, id=651, 2490.30376pt x 1087.06125pt>
 File: ./assets/images/layeredtaxint.jpg Graphic file (type jpg)
 <use ./assets/images/layeredtaxint.jpg>
 Package pdftex.def Info: ./assets/images/layeredtaxint.jpg  used on input line 
@@ -4510,8 +4510,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 3379.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3379.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3379.
 
-Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
-(rerunfilecheck)             Checksum: 70922AD9D1706A48BCCE8DB42D8CFE68;7937.
+
+
+Package rerunfilecheck Warning: File `Whitepaper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Whitepaper.out':
+(rerunfilecheck)             Before: F53949A5E9764031A146C084B2209973;7964
+(rerunfilecheck)             After:  B918F9D1A2B8939F6F78E108443F1346;7936.
  ) 
 Here is how much of TeX's memory you used:
  39059 strings out of 481239
@@ -4543,7 +4550,7 @@ pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm10
 95.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (121 pages, 7396213 bytes).
+Output written on Whitepaper.pdf (121 pages, 7395960 bytes).
 PDF statistics:
  1704 PDF objects out of 1728 (max. 8388607)
  1481 compressed objects within 15 object streams
