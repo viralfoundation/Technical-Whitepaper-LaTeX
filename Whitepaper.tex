@@ -337,10 +337,9 @@ Additionally Central Governments are allocated with Vanity Pattern to channel st
 \textbf{On-Chain UTXO Scripts Addresses}\\
 
 
-\subsection{Transaction Fee}
+\subsection{Blink-Fee (Transaction Fee)}
 
 \textbf{Summary}\\
-
 
 
 
@@ -352,18 +351,51 @@ Transaction Fees play a huge role in user adoption, that could make a blockchain
 
 Miners/Validators carry their operations spending electricity, capital to validate blockchain transactions that require the native currency of the network on behalf of users. In today's blockchains users pay calculated gas/network fee in native currency (Ethereum - Ether, Bitcoin - Satoshi, Polygon - MATIC) and add transactions to the immutable ledger of balance entries or compute arbitrary code. There is a constant pressure on users to buy/acquire the native currency in-order to perform any single transaction. As the market capitalization of native coins grows, so does network charges over time, making chains more expensive. While there are numerous reasons why native currency should be used to pay network-fee, most importantly is to avoid spamming miners with developer-created tokens which hold zero to no value that cannot compensate the electricity/stake/computation for validating the non-native fee paid transaction. Founders and Developers of blockchains have instructed and written consensus rules for miners to only acquire native currency in-order to keep the demand up, although it is upto the miners/validators to determine which token to collect as fee for validating and attesting the transaction in the mined/minted block. To provide trustless transfers for the whole world, non-native tokens should have fee-paying opportunity that can provide convenience to users in transacting without pressure and additional requirements. In addition while native currency support the chain's security and verification without compromising demand and market value.\\
 
-
-
 \textbf{Multi-asset Ledger}\\
 
+Blinkchain can be regarded as true multi-asset ledger which can perform individual transactions of different tokens inside the network. Most blockchains which offer token development also somehow brings their native token in every transaction, this creates a demand for the native coin whereas non-native tokens cannot transact independently. Ethereum requires Ether in form of gas-fee payment, Cardano requires 1 ADA to be attested in every UTXO along with the other tokens. A true Multi-asset ledger should reflect the in-dependency of non-native currencies without the need of a network defined coins. This section is explained in detail in Token Minter Module Section.\\
 
 \textbf{Fee Types}\\
 
+In Blinkchain, the fee types are classified into two categories which reflect the in-dependancy of tokens which can be paid for transaction fee.
+\begin{enumerate}
+\item \textbf{Base Fee} - Fixed Fee in Oracle Value (USD Winks) to be paid for every transaction. Increases by 6\% every year to challenge inflation.
+\item \textbf{Transfer Fee} - Determined per Epoch, percentage fee imposed on UTXO outputs of a transaction. Dynamically adjusts as per Oracle Volume of epoch's total outputs.
+\end{enumerate}
 
 \subsubsection{Base Fee}
 
+Base Fee is a fixed fee - initially \$0.00010 (10000 USD winks) which can be paid out by the transacting token. In Blinkchain UTXOs are independent of native coin and can be taken as inputs for a transaction. Since, UTXOs are inputs consumed outputs created, the base fee is deducted from the inputs of the transacting token e.g., BTC, ETH, USDC, etc. During the genesis block, the base fee is fixed at 10000 USD winks $\approx$ \$0.0001 which is gradually increase by 6\% at a yearly block period. This gradual increase is it go along with inflation of fiat-currencies which can balance the fixed fee annually.\\
+
+\begin{center}
+1 ETH = 1500 USD ; 1ETH Wink = 1500 USD Wink\\
+Base Fee = 10000 USD Winks = 10000 / 1500 $\approx$ 7 ETH wink\\
+7 ETH Wink = 0.00000007 ETH = 0.000105 USD\\
+\end{center}
+
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+        Year & USD  & USD Winks \\ \hline
+        1 & 0.0001 & 10000 \\ 
+        2 & 0.000106 & 10600 \\ 
+        3 & 0.00011236 & 11236 \\ 
+        4 & 0.0001191016 & 11910 \\  
+        5 & 0.000126247696 & 12625 \\ 
+        6 & 0.0001338225578 & 13382 \\ 
+        7 & 0.0001418519112 & 14185 \\ 
+        8 & 0.0001503630259 & 15036 \\ 
+        9 & 0.0001593848075 & 15938 \\ 
+        10 & 0.0001689478959 & 16895 \\ 
+        11 & 0.0001790847697 & 17908 \\ 
+        12 & 0.0001898298558 & 18983 \\ \hline
+    \end{tabular}
+    \caption{Yearly Base-Fee}
+\end{table}
 
 \subsubsection{Transfer Fee}
+
 
 	
 \subsection{UTXO DLT Model}
