@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.27)  27 JUL 2022 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.27)  29 JUL 2022 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,113 +1145,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
 
-Overfull \hbox (12.33765pt too wide) in paragraph at lines 238--239
+Overfull \hbox (12.33765pt too wide) in paragraph at lines 257--258
 \OT1/cmr/m/n/10.95 verification and tax slab identification rests on the public
  key hash encoding. Blinkchain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
+[4]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 241.
+(enumitem)                sense, on input line 260.
 
-<./assets/images/vanity-terminal.png, id=466, 965.6075pt x 102.3825pt>
+<./assets/images/vanity-terminal.png, id=477, 965.6075pt x 102.3825pt>
 File: ./assets/images/vanity-terminal.png Graphic file (type png)
 <use ./assets/images/vanity-terminal.png>
 Package pdftex.def Info: ./assets/images/vanity-terminal.png  used on input lin
-e 246.
+e 265.
 (pdftex.def)             Requested size: 398.3386pt x 42.23486pt.
-[4]
-<./assets/images/encodebip39.jpg, id=480, 1508.63625pt x 1903.11pt>
+<./assets/images/encodebip39.jpg, id=479, 1508.63625pt x 1903.11pt>
 File: ./assets/images/encodebip39.jpg Graphic file (type jpg)
 <use ./assets/images/encodebip39.jpg>
-Package pdftex.def Info: ./assets/images/encodebip39.jpg  used on input line 25
-5.
+Package pdftex.def Info: ./assets/images/encodebip39.jpg  used on input line 27
+4.
 (pdftex.def)             Requested size: 199.16928pt x 251.24614pt.
 
-Overfull \hbox (3.19229pt too wide) in paragraph at lines 260--261
+Overfull \hbox (3.19229pt too wide) in paragraph at lines 279--280
 \OT1/cmr/m/n/10.95 efficient, well-thought and shorter address compared to non-
 encoded pub-key formats.
  []
 
 [5 <./assets/images/vanity-terminal.png> <./assets/images/encodebip39.jpg>]
-<./assets/images/clienttxvanity.jpg, id=489, 1553.805pt x 846.16125pt>
+<./assets/images/clienttxvanity.jpg, id=488, 1553.805pt x 846.16125pt>
 File: ./assets/images/clienttxvanity.jpg Graphic file (type jpg)
 <use ./assets/images/clienttxvanity.jpg>
 Package pdftex.def Info: ./assets/images/clienttxvanity.jpg  used on input line
- 273.
+ 292.
 (pdftex.def)             Requested size: 199.16928pt x 108.45546pt.
 
-Overfull \hbox (2.15756pt too wide) in paragraph at lines 278--279
+Overfull \hbox (2.15756pt too wide) in paragraph at lines 297--298
 []\OT1/cmr/m/n/10.95 During validating a transaction, the block producer nodes 
 shall validate the address
  []
 
 
-Overfull \hbox (5.74731pt too wide) in paragraph at lines 278--279
+Overfull \hbox (5.74731pt too wide) in paragraph at lines 297--298
 \OT1/cmr/m/n/10.95 base58 addresses's transactions are termed malicious and get
 s rejected by the producer
  []
 
-<./assets/images/nodetxvanity.jpg, id=490, 1559.8275pt x 816.04875pt>
+<./assets/images/nodetxvanity.jpg, id=489, 1559.8275pt x 816.04875pt>
 File: ./assets/images/nodetxvanity.jpg Graphic file (type jpg)
 <use ./assets/images/nodetxvanity.jpg>
-Package pdftex.def Info: ./assets/images/nodetxvanity.jpg  used on input line 2
-82.
+Package pdftex.def Info: ./assets/images/nodetxvanity.jpg  used on input line 3
+01.
 (pdftex.def)             Requested size: 199.16928pt x 104.19737pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
 [6 <./assets/images/clienttxvanity.jpg> <./assets/images/nodetxvanity.jpg>]
-Overfull \hbox (34.56384pt too wide) in paragraph at lines 305--317
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+
+Overfull \hbox (34.56384pt too wide) in paragraph at lines 319--331
  [][]
- []
-
-
-Overfull \hbox (26.87169pt too wide) in paragraph at lines 321--322
-[]\OT1/cmr/m/n/10.95 Additionally Central Governments are allocated with Vanity
- Pattern for state governments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
-
  []
 
 
@@ -1264,8 +1233,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+
+Overfull \hbox (24.3624pt too wide) in paragraph at lines 349--350
+\OT1/cmr/m/n/10.95 heavier the transaction higher the fee collected in satoshis
+ (smallest divisible denomination
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
@@ -1279,314 +1264,290 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
-Overfull \hbox (15.6834pt too wide) in paragraph at lines 355--356
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+
+Overfull \hbox (15.6834pt too wide) in paragraph at lines 378--379
 \OT1/cmr/m/n/10.95 frauds. These exchanges have created an intermediary between
  fiat and cryptocurrencies
  []
 
 
-Overfull \hbox (19.6174pt too wide) in paragraph at lines 355--356
+Overfull \hbox (19.6174pt too wide) in paragraph at lines 378--379
 \OT1/cmr/m/n/10.95 to freely exchange and hold virtual assets, effectively redu
 cing the risk of decentralization.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-
- []
-
-[8]
-Overfull \hbox (20.00264pt too wide) in paragraph at lines 359--360
+Overfull \hbox (20.00264pt too wide) in paragraph at lines 382--383
 \OT1/cmr/m/n/10.95 taxes. Running a regulatory-compliant blockchain will also e
 ncourage private institutions
  []
 
 
-Overfull \hbox (2.23927pt too wide) in paragraph at lines 359--360
+Overfull \hbox (2.23927pt too wide) in paragraph at lines 382--383
 \OT1/cmr/m/n/10.95 wallets without having to worry about criminalizing illegal 
 tenders shortly. Currently,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
 
-Overfull \hbox (9.42778pt too wide) in paragraph at lines 361--362
+Overfull \hbox (9.42778pt too wide) in paragraph at lines 384--385
 \OT1/cmr/m/n/10.95 merchant, personal, non-profit, etc by simply providing a pr
 oof-of-tax for the particular
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
-
- []
-
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
 
-Overfull \hbox (1.23053pt too wide) in paragraph at lines 392--393
-[]\OT1/cmr/m/n/10.95 Gains and stable taxes are directly proportional to the am
-ount of funds in a particular
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+Overfull \hbox (1.23053pt too wide) in paragraph at lines 415--416
+[]\OT1/cmr/m/n/10.95 Gains and stable taxes are directly proportional to the am
+ount of funds in a particular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 413.
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
-
- []
-
+nput line 436.
 [13]
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 480.
+(enumitem)                sense, on input line 503.
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 495.
+(enumitem)                sense, on input line 518.
 
-[14] [15]
-Overfull \hbox (4.10419pt too wide) in paragraph at lines 524--525
+[15] [16]
+Overfull \hbox (4.10419pt too wide) in paragraph at lines 547--548
 []\OT1/cmr/m/n/10.95 The oracle representations are only to calculate gains fro
 m the global value creation.
  []
 
-<./assets/images/gainstaxeg.jpg, id=595, 2490.30376pt x 966.61125pt>
+<./assets/images/gainstaxeg.jpg, id=599, 2490.30376pt x 966.61125pt>
 File: ./assets/images/gainstaxeg.jpg Graphic file (type jpg)
 <use ./assets/images/gainstaxeg.jpg>
-Package pdftex.def Info: ./assets/images/gainstaxeg.jpg  used on input line 532
+Package pdftex.def Info: ./assets/images/gainstaxeg.jpg  used on input line 555
 .
 (pdftex.def)             Requested size: 398.3386pt x 154.60196pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
-<./assets/images/gainstaxutxo.jpg, id=596, 3574.35374pt x 2833.58624pt>
+<./assets/images/gainstaxutxo.jpg, id=600, 3574.35374pt x 2833.58624pt>
 File: ./assets/images/gainstaxutxo.jpg Graphic file (type jpg)
 <use ./assets/images/gainstaxutxo.jpg>
 Package pdftex.def Info: ./assets/images/gainstaxutxo.jpg  used on input line 5
-44.
+67.
 (pdftex.def)             Requested size: 398.3386pt x 315.75974pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 554--555
-
- []
-
-[16] [17 <./assets/images/gainstaxeg.jpg> <./assets/images/gainstaxutxo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--559
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+
+ []
+
+[18 <./assets/images/gainstaxeg.jpg> <./assets/images/gainstaxutxo.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 579--580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 
  []
 
-<./assets/images/invertedtriangle.jpg, id=607, 996.72375pt x 725.71124pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+
+ []
+
+<./assets/images/invertedtriangle.jpg, id=611, 996.72375pt x 725.71124pt>
 File: ./assets/images/invertedtriangle.jpg Graphic file (type jpg)
 <use ./assets/images/invertedtriangle.jpg>
 Package pdftex.def Info: ./assets/images/invertedtriangle.jpg  used on input li
-ne 565.
+ne 591.
 (pdftex.def)             Requested size: 142.26378pt x 103.58102pt.
-[18]
-Overfull \hbox (0.51564pt too wide) in paragraph at lines 570--571
-\OT1/cmr/m/n/10.95 always include their pre-purged and always attach un-purged 
-utxos to the transaction
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
 
  []
 
-<./assets/images/stabletaxfig2.jpg, id=612, 3812.2425pt x 1689.31125pt>
+<./assets/images/stabletaxfig2.jpg, id=617, 3812.2425pt x 1689.31125pt>
 File: ./assets/images/stabletaxfig2.jpg Graphic file (type jpg)
 <use ./assets/images/stabletaxfig2.jpg>
 Package pdftex.def Info: ./assets/images/stabletaxfig2.jpg  used on input line 
-574.
+600.
 (pdftex.def)             Requested size: 398.3386pt x 176.49362pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 
  []
 
-[19 <./assets/images/stabletaxfig2.jpg> <./assets/images/invertedtriangle.jpg>]
+[20 <./assets/images/stabletaxfig2.jpg> <./assets/images/invertedtriangle.jpg>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 609--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--612
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--614
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 615--616
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--628
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 629--630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
-
- []
-
-<./assets/images/layeredtaxdmst.jpg, id=650, 2490.30376pt x 936.49875pt>
-File: ./assets/images/layeredtaxdmst.jpg Graphic file (type jpg)
-<use ./assets/images/layeredtaxdmst.jpg>
-Package pdftex.def Info: ./assets/images/layeredtaxdmst.jpg  used on input line
- 635.
-(pdftex.def)             Requested size: 398.3386pt x 149.78569pt.
-<./assets/images/layeredtaxint.jpg, id=651, 2490.30376pt x 1087.06125pt>
-File: ./assets/images/layeredtaxint.jpg Graphic file (type jpg)
-<use ./assets/images/layeredtaxint.jpg>
-Package pdftex.def Info: ./assets/images/layeredtaxint.jpg  used on input line 
-642.
-(pdftex.def)             Requested size: 398.3386pt x 173.867pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 649--650
 
  []
 
-[22 <./assets/images/layeredtaxdmst.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 653--654
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
 
  []
 
@@ -1595,7 +1556,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 659--660
 
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
@@ -1611,75 +1572,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 665--666
  []
 
 
-Overfull \hbox (2.14478pt too wide) in paragraph at lines 704--704
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
+
+ []
+
+<./assets/images/layeredtaxdmst.jpg, id=657, 2490.30376pt x 936.49875pt>
+File: ./assets/images/layeredtaxdmst.jpg Graphic file (type jpg)
+<use ./assets/images/layeredtaxdmst.jpg>
+Package pdftex.def Info: ./assets/images/layeredtaxdmst.jpg  used on input line
+ 671.
+(pdftex.def)             Requested size: 398.3386pt x 149.78569pt.
+<./assets/images/layeredtaxint.jpg, id=658, 2490.30376pt x 1087.06125pt>
+File: ./assets/images/layeredtaxint.jpg Graphic file (type jpg)
+<use ./assets/images/layeredtaxint.jpg>
+Package pdftex.def Info: ./assets/images/layeredtaxint.jpg  used on input line 
+678.
+(pdftex.def)             Requested size: 398.3386pt x 173.867pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 683--684
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
+
+ []
+
+[23] [24 <./assets/images/layeredtaxdmst.jpg> <./assets/images/layeredtaxint.jp
+g>]
+Underfull \hbox (badness 10000) in paragraph at lines 689--690
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--700
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 701--702
+
+ []
+
+
+Overfull \hbox (2.14478pt too wide) in paragraph at lines 740--740
 []\OT1/cmr/bx/n/12 On-Chain Bridges for Regulated Spending of Cryptocurrencies 
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+Underfull \hbox (badness 10000) in paragraph at lines 742--743
 
  []
 
-[23 <./assets/images/layeredtaxint.jpg>] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 712--713
+[25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--715
+Underfull \hbox (badness 10000) in paragraph at lines 748--749
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 718--719
+Underfull \hbox (badness 10000) in paragraph at lines 752--753
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--721
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 724--725
+Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--729
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
 
- []
-
-[25]
-Overfull \hbox (5.44307pt too wide) in paragraph at lines 766--767
-[]\OT1/cmr/m/n/10.95 Wallets are classified into centralized custodial wallets 
-and decentralized non-custodial
  []
 
 
@@ -1687,103 +1690,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 766--767
 
  []
 
+[27]
+Overfull \hbox (5.44307pt too wide) in paragraph at lines 802--803
+[]\OT1/cmr/m/n/10.95 Wallets are classified into centralized custodial wallets 
+and decentralized non-custodial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 802--803
+
+ []
+
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 769.
+(enumitem)                sense, on input line 805.
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 775.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 781--782
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 785--786
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 787--788
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 789--790
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 793--794
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 795--796
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 801--802
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 803--804
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 805--806
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 807--808
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 809--810
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 813--814
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 815--816
-
- []
+(enumitem)                sense, on input line 811.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 817--818
@@ -1805,143 +1729,208 @@ Underfull \hbox (badness 10000) in paragraph at lines 823--824
 
  []
 
-[27]
-Overfull \hbox (25.07085pt too wide) in paragraph at lines 827--827
-[]\OT1/cmr/bx/n/10.95 Zero-Knowledge Mobile Number / Username based Universal P
-ayment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 836--837
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 838--839
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 840--841
-
- []
-
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 843.
-
 [28]
+Underfull \hbox (badness 10000) in paragraph at lines 825--826
 
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 851.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 827--828
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 829--830
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 831--832
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 833--834
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 835--836
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 837--838
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 839--840
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 841--842
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 843--844
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 847--848
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 849--850
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 851--852
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
+
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 859--860
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 865--866
-
- []
-
 [29]
+Overfull \hbox (25.07085pt too wide) in paragraph at lines 863--863
+[]\OT1/cmr/bx/n/10.95 Zero-Knowledge Mobile Number / Username based Universal P
+ayment
+ []
 
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 868.
+
+Underfull \hbox (badness 10000) in paragraph at lines 872--873
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--876
+Underfull \hbox (badness 10000) in paragraph at lines 874--875
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 878.
-
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 884.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 891--892
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 896--897
-
- []
+(enumitem)                sense, on input line 879.
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 898--899
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 887.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--896
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
+Underfull \hbox (badness 10000) in paragraph at lines 897--898
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 902--903
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 904--905
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 906--907
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
-
- []
-
-
-Overfull \hbox (7.19716pt too wide) in paragraph at lines 910--911
-\OT1/cmr/m/n/10.95 congestions of blockchains. The scalability of DEXs is direc
-tly related to the scalability
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 904.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 911--912
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 914--915
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 914.
+
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 920.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 927--928
 
  []
 
 
-Overfull \hbox (5.43501pt too wide) in paragraph at lines 940--940
- []|\OT1/cmr/m/n/10.95 97.9/204.2| 
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
+
  []
 
 
-Overfull \hbox (10.91002pt too wide) in paragraph at lines 940--940
- []|\OT1/cmr/m/n/10.95 102.9/194.2| 
+Underfull \hbox (badness 10000) in paragraph at lines 932--933
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 938--939
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 942--943
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 944--945
+
+ []
+
+
+Overfull \hbox (7.19716pt too wide) in paragraph at lines 946--947
+\OT1/cmr/m/n/10.95 congestions of blockchains. The scalability of DEXs is direc
+tly related to the scalability
  []
 
 
@@ -1949,252 +1938,191 @@ Underfull \hbox (badness 10000) in paragraph at lines 946--947
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 949--950
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
 
  []
 
-[32]
-<./assets/images/dex.png, id=718, 558.085pt x 556.0775pt>
-File: ./assets/images/dex.png Graphic file (type png)
-<use ./assets/images/dex.png>
-Package pdftex.def Info: ./assets/images/dex.png  used on input line 953.
-(pdftex.def)             Requested size: 199.16928pt x 198.4483pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 950--951
+
+ []
+
+
+Overfull \hbox (5.43501pt too wide) in paragraph at lines 976--976
+ []|\OT1/cmr/m/n/10.95 97.9/204.2| 
+ []
+
+
+Overfull \hbox (10.91002pt too wide) in paragraph at lines 976--976
+ []|\OT1/cmr/m/n/10.95 102.9/194.2| 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 982--983
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 984--985
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 986--987
-
- []
-
-
-Overfull \hbox (9.54938pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 48.929687| 
- []
-
-
-Overfull \hbox (9.54938pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 21.869531| 
- []
-
-
-Overfull \hbox (9.54938pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 19.571875| 
- []
-
-
-Overfull \hbox (9.54938pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 48.112968| 
- []
-
-
-Overfull \hbox (9.54938pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 63.608593| 
- []
-
-
-Overfull \hbox (9.54938pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 17.495625| 
- []
-
-
-Overfull \hbox (4.07437pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 0.978593| 
- []
-
-
-Overfull \hbox (9.54938pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 50.859375| 
- []
-
-
-Overfull \hbox (15.02438pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 133.088748| 
- []
-
-
-Overfull \hbox (15.02438pt too wide) in paragraph at lines 1011--1011
- []|\OT1/cmr/m/n/10.95 138.337499| 
- []
-
-[33 <./assets/images/dex.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 985--986
 
  []
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
+<./assets/images/dex.png, id=729, 558.085pt x 556.0775pt>
+File: ./assets/images/dex.png Graphic file (type png)
+<use ./assets/images/dex.png>
+Package pdftex.def Info: ./assets/images/dex.png  used on input line 989.
+(pdftex.def)             Requested size: 199.16928pt x 198.4483pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1019
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1021
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1073
+Overfull \hbox (9.54938pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 48.929687| 
+ []
+
+
+Overfull \hbox (9.54938pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 21.869531| 
+ []
+
+
+Overfull \hbox (9.54938pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 19.571875| 
+ []
+
+
+Overfull \hbox (9.54938pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 48.112968| 
+ []
+
+
+Overfull \hbox (9.54938pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 63.608593| 
+ []
+
+
+Overfull \hbox (9.54938pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 17.495625| 
+ []
+
+
+Overfull \hbox (4.07437pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 0.978593| 
+ []
+
+
+Overfull \hbox (9.54938pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 50.859375| 
+ []
+
+
+Overfull \hbox (15.02438pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 133.088748| 
+ []
+
+
+Overfull \hbox (15.02438pt too wide) in paragraph at lines 1047--1047
+ []|\OT1/cmr/m/n/10.95 138.337499| 
+ []
+
+[35 <./assets/images/dex.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1083
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
 
  []
 
-[35]
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1109--1110
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
-
- []
-
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1111
 
  []
 
 
-Overfull \hbox (1.0623pt too wide) in paragraph at lines 1151--1151
+Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1143--1144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1155--1156
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
+
+ []
+
+
+Overfull \hbox (1.0623pt too wide) in paragraph at lines 1187--1187
  []|\OT1/cmr/m/n/10.95 133.088748| 
  []
 
 
-Overfull \hbox (1.0623pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (1.0623pt too wide) in paragraph at lines 1187--1187
  []|\OT1/cmr/m/n/10.95 138.337499| 
  []
 
 
-Overfull \hbox (29.6599pt too wide) detected at line 1156
+Overfull \hbox (29.6599pt too wide) detected at line 1192
 \OML/cmm/m/it/10.95 Final Price \OT1/cmr/m/n/10.95 = [] = [] = 48\OML/cmm/m/it/
 10.95 :\OT1/cmr/m/n/10.95 9091845664
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
-
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 85.3185877421| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 39.0858162828| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 1912.45677834| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 2110.29713472| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 54.6038961549| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 1187.04213828| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 30.7146915872| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 48.5203236614| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 2374.08427656| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 170.637175484| 
- []
-
-
-Overfull \hbox (1.57372pt too wide) in paragraph at lines 1184--1184
- []|\OT1/cmr/m/n/10.95 134.778676837| 
- []
-
-[37]
-Overfull \hbox (39.32484pt too wide) detected at line 1188
-\OML/cmm/m/it/10.95 Final Price \OT1/cmr/m/n/10.95 = [] = [] = 0\OML/cmm/m/it/1
-0.95 :\OT1/cmr/m/n/10.95 017574764
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
-
  []
 
 
@@ -2213,152 +2141,212 @@ Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
-
- []
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 1249--1250
-
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 85.3185877421| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1252--1253
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 39.0858162828| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 1912.45677834| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 2110.29713472| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 54.6038961549| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 1187.04213828| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 30.7146915872| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 48.5203236614| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 2374.08427656| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 170.637175484| 
+ []
+
+
+Overfull \hbox (1.57372pt too wide) in paragraph at lines 1220--1220
+ []|\OT1/cmr/m/n/10.95 134.778676837| 
+ []
+
+[39]
+Overfull \hbox (39.32484pt too wide) detected at line 1224
+\OML/cmm/m/it/10.95 Final Price \OT1/cmr/m/n/10.95 = [] = [] = 0\OML/cmm/m/it/1
+0.95 :\OT1/cmr/m/n/10.95 017574764
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
 
  []
 
 
-Overfull \hbox (10.28316pt too wide) in paragraph at lines 1286--1286
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1289
+
+ []
+
+
+Overfull \hbox (10.28316pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/bx/n/10.95 Chains| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 12.5%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 12.5%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 12.5%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 6.25%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 6.25%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 12.5%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 6.25%| 
  []
 
 
-Overfull \hbox (6.67755pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (6.67755pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 3.125%| 
  []
 
 
-Overfull \hbox (6.67755pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (6.67755pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 3.125%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 12.5%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 6.25%| 
  []
 
 
-Overfull \hbox (6.67755pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (6.67755pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 3.125%| 
  []
 
 
-Overfull \hbox (12.15256pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (12.15256pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 1.5625%| 
  []
 
 
-Overfull \hbox (12.15256pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (12.15256pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 1.5625%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 12.5%| 
  []
 
 
-Overfull \hbox (1.20255pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (1.20255pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 6.25%| 
  []
 
 
-Overfull \hbox (6.67755pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (6.67755pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 3.125%| 
  []
 
 
-Overfull \hbox (12.15256pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (12.15256pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 1.5625%| 
  []
 
 
-Overfull \hbox (17.62756pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (17.62756pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 0.78125%| 
  []
 
 
-Overfull \hbox (17.62756pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (17.62756pt too wide) in paragraph at lines 1322--1322
  []|\OT1/cmr/m/n/10.95 0.78125%| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1291--1292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1293--1294
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 1295--1296
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1297--1298
-
- []
-
-<./assets/images/timeperiod-pools.jpg, id=757, 4173.5925pt x 1728.4575pt>
-File: ./assets/images/timeperiod-pools.jpg Graphic file (type jpg)
-<use ./assets/images/timeperiod-pools.jpg>
-Package pdftex.def Info: ./assets/images/timeperiod-pools.jpg  used on input li
-ne 1303.
-(pdftex.def)             Requested size: 227.62204pt x 94.26105pt.
-[40 <./assets/images/timeperiod-pools.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1327--1328
 
  []
@@ -2368,85 +2356,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
 
  []
 
-
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
 
  []
 
-<./assets/images/dex-algorithm.jpg, id=763, 1728.4575pt x 2399.96625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1334
+
+ []
+
+<./assets/images/timeperiod-pools.jpg, id=768, 4173.5925pt x 1728.4575pt>
+File: ./assets/images/timeperiod-pools.jpg Graphic file (type jpg)
+<use ./assets/images/timeperiod-pools.jpg>
+Package pdftex.def Info: ./assets/images/timeperiod-pools.jpg  used on input li
+ne 1339.
+(pdftex.def)             Requested size: 227.62204pt x 94.26105pt.
+[42 <./assets/images/timeperiod-pools.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1363--1364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1365--1366
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1367--1368
+
+ []
+
+<./assets/images/dex-algorithm.jpg, id=774, 1728.4575pt x 2399.96625pt>
 File: ./assets/images/dex-algorithm.jpg Graphic file (type jpg)
 <use ./assets/images/dex-algorithm.jpg>
 Package pdftex.def Info: ./assets/images/dex-algorithm.jpg  used on input line 
-1335.
+1371.
 (pdftex.def)             Requested size: 327.20668pt x 454.31378pt.
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1341.
+(enumitem)                sense, on input line 1377.
 
-[41] [42 <./assets/images/dex-algorithm.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1353
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1356
+[43] [44 <./assets/images/dex-algorithm.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1387--1389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
-
- []
-
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 1361--1362
-
- []
-
-<./assets/images/reserve-pool-1.jpg, id=779, 3049.3925pt x 1215.54124pt>
-File: ./assets/images/reserve-pool-1.jpg Graphic file (type jpg)
-<use ./assets/images/reserve-pool-1.jpg>
-Package pdftex.def Info: ./assets/images/reserve-pool-1.jpg  used on input line
- 1365.
-(pdftex.def)             Requested size: 256.0748pt x 102.06767pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1371
-
- []
-
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1373.
-
-<./assets/images/reserve-pool-2.jpg, id=780, 3098.57625pt x 1222.5675pt>
-File: ./assets/images/reserve-pool-2.jpg Graphic file (type jpg)
-<use ./assets/images/reserve-pool-2.jpg>
-Package pdftex.def Info: ./assets/images/reserve-pool-2.jpg  used on input line
- 1380.
-(pdftex.def)             Requested size: 256.0748pt x 101.03468pt.
-[44 <./assets/images/reserve-pool-1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1385--1386
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1388--1389
-
- []
-
-
-Overfull \hbox (3.92113pt too wide) in paragraph at lines 1390--1391
-[]\OT1/cmr/m/n/10.95 X uses an off-chain swap book that matches the summation o
-f primary coin/secondary
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1392
 
  []
 
@@ -2456,29 +2413,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 1393--1394
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1399
+Underfull \hbox (badness 10000) in paragraph at lines 1395--1396
+
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1398
+
+ []
+
+<./assets/images/reserve-pool-1.jpg, id=790, 3049.3925pt x 1215.54124pt>
+File: ./assets/images/reserve-pool-1.jpg Graphic file (type jpg)
+<use ./assets/images/reserve-pool-1.jpg>
+Package pdftex.def Info: ./assets/images/reserve-pool-1.jpg  used on input line
+ 1401.
+(pdftex.def)             Requested size: 256.0748pt x 102.06767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 1409.
+
+<./assets/images/reserve-pool-2.jpg, id=791, 3098.57625pt x 1222.5675pt>
+File: ./assets/images/reserve-pool-2.jpg Graphic file (type jpg)
+<use ./assets/images/reserve-pool-2.jpg>
+Package pdftex.def Info: ./assets/images/reserve-pool-2.jpg  used on input line
+ 1416.
+(pdftex.def)             Requested size: 256.0748pt x 101.03468pt.
+[46 <./assets/images/reserve-pool-1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1422
 
  []
 
-[45 <./assets/images/reserve-pool-2.jpg>]
-<./assets/images/dex-fee.jpg, id=793, 1294.8375pt x 674.52pt>
-File: ./assets/images/dex-fee.jpg Graphic file (type jpg)
-<use ./assets/images/dex-fee.jpg>
-Package pdftex.def Info: ./assets/images/dex-fee.jpg  used on input line 1405.
-(pdftex.def)             Requested size: 199.16928pt x 103.74672pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1411--1418
+Underfull \hbox (badness 10000) in paragraph at lines 1424--1425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1424
-
+Overfull \hbox (3.92113pt too wide) in paragraph at lines 1426--1427
+[]\OT1/cmr/m/n/10.95 X uses an off-chain swap book that matches the summation o
+f primary coin/secondary
  []
 
 
@@ -2486,516 +2464,494 @@ Underfull \hbox (badness 10000) in paragraph at lines 1426--1427
 
  []
 
-<./assets/images/reserve-pool-4.jpg, id=794, 1457.445pt x 1081.03876pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1430
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+
+ []
+
+[47 <./assets/images/reserve-pool-2.jpg>]
+<./assets/images/dex-fee.jpg, id=804, 1294.8375pt x 674.52pt>
+File: ./assets/images/dex-fee.jpg Graphic file (type jpg)
+<use ./assets/images/dex-fee.jpg>
+Package pdftex.def Info: ./assets/images/dex-fee.jpg  used on input line 1441.
+(pdftex.def)             Requested size: 199.16928pt x 103.74672pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1447--1454
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1455--1460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1463
+
+ []
+
+<./assets/images/reserve-pool-4.jpg, id=805, 1457.445pt x 1081.03876pt>
 File: ./assets/images/reserve-pool-4.jpg Graphic file (type jpg)
 <use ./assets/images/reserve-pool-4.jpg>
 Package pdftex.def Info: ./assets/images/reserve-pool-4.jpg  used on input line
- 1430.
+ 1466.
 (pdftex.def)             Requested size: 369.88582pt x 274.34985pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1436--1437
+Underfull \hbox (badness 10000) in paragraph at lines 1472--1473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
+Underfull \hbox (badness 10000) in paragraph at lines 1475--1476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1441--1442
+Underfull \hbox (badness 10000) in paragraph at lines 1477--1478
 
  []
 
-[46 <./assets/images/dex-fee.jpg>] [47 <./assets/images/reserve-pool-4.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1467--1468
+[48 <./assets/images/dex-fee.jpg>] [49 <./assets/images/reserve-pool-4.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1503--1504
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1470.
+(enumitem)                sense, on input line 1506.
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1479.
+(enumitem)                sense, on input line 1515.
 
-[48]
-Overfull \hbox (1.24567pt too wide) in paragraph at lines 1502--1503
+[50]
+Overfull \hbox (1.24567pt too wide) in paragraph at lines 1538--1539
 \OT1/cmr/m/n/10.95 Centralized exchanges (CEXs) are a type of cryptocurrency ex
 change that is operated
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1502--1503
-
- []
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 1504--1505
-
- []
-
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1507.
-
-
-Overfull \hbox (19.06989pt too wide) in paragraph at lines 1512--1513
-\OT1/cmr/m/n/10.95 their opaque nature and conducting insider trading, fake vol
-ume, and price manipulation. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1515--1516
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1517--1518
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1519--1520
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1521--1522
-
- []
-
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 1523--1524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1525--1526
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1527--1528
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1529--1530
-
- []
-
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1532.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1538--1539
 
  []
 
-<./assets/images/user-deposit.png, id=835, 830.10126pt x 485.815pt>
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 1540--1541
+
+ []
+
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 1543.
+
+
+Overfull \hbox (19.06989pt too wide) in paragraph at lines 1548--1549
+\OT1/cmr/m/n/10.95 their opaque nature and conducting insider trading, fake vol
+ume, and price manipulation. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1552
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1555--1556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1557--1558
+
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 1559--1560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1565--1566
+
+ []
+
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 1568.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1574--1575
+
+ []
+
+<./assets/images/user-deposit.png, id=846, 830.10126pt x 485.815pt>
 File: ./assets/images/user-deposit.png Graphic file (type png)
 <use ./assets/images/user-deposit.png>
 Package pdftex.def Info: ./assets/images/user-deposit.png  used on input line 1
-542.
+578.
 (pdftex.def)             Requested size: 227.62204pt x 133.21036pt.
-[51]
-Overfull \hbox (5.25833pt too wide) in paragraph at lines 1580--1581
+[53]
+Overfull \hbox (5.25833pt too wide) in paragraph at lines 1616--1617
 \OT1/cmr/m/n/10.95 Customer (KYC) and Anti-Money-laundering (AML) policies for 
 regulatory purposes.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1599--1601
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1637
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1603.
+(enumitem)                sense, on input line 1639.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1608--1610
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1646
 
  []
 
-[52 <./assets/images/user-deposit.png>]
+[54 <./assets/images/user-deposit.png>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1612.
+(enumitem)                sense, on input line 1648.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1618--1620
+Underfull \hbox (badness 10000) in paragraph at lines 1654--1656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1633--1633
+Underfull \hbox (badness 10000) in paragraph at lines 1669--1669
 []|\OT1/cmr/m/n/10.95 South Korean
  []
 
 
-Overfull \hbox (16.83807pt too wide) in paragraph at lines 1643--1645
+Overfull \hbox (16.83807pt too wide) in paragraph at lines 1679--1681
 \OT1/cmr/m/n/10.95 accounts. X allows partnership of centralized banks for hold
 ing, minting and distributing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1643--1645
+Underfull \hbox (badness 10000) in paragraph at lines 1679--1681
 
  []
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 1646--1648
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 1682--1684
 
  []
 
-<./assets/images/custodian.png, id=859, 560.0925pt x 246.1998pt>
+<./assets/images/custodian.png, id=872, 560.0925pt x 246.1998pt>
 File: ./assets/images/custodian.png Graphic file (type png)
 <use ./assets/images/custodian.png>
-Package pdftex.def Info: ./assets/images/custodian.png  used on input line 1651
+Package pdftex.def Info: ./assets/images/custodian.png  used on input line 1687
 .
 (pdftex.def)             Requested size: 341.43306pt x 150.08772pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1656--1663
+Underfull \hbox (badness 10000) in paragraph at lines 1692--1699
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1656--1663
+Underfull \hbox (badness 10000) in paragraph at lines 1692--1699
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1664--1665
+Underfull \hbox (badness 10000) in paragraph at lines 1700--1701
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1666--1667
+Underfull \hbox (badness 10000) in paragraph at lines 1702--1703
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1671--1672
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1708
 
  []
 
 
-Overfull \hbox (15.34888pt too wide) in paragraph at lines 1673--1674
+Overfull \hbox (15.34888pt too wide) in paragraph at lines 1709--1710
 \OT1/cmr/m/n/10.95 corresponding custodian. The Custodian shall burn the tokens
  excluding the withdrawal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1677--1714
+Underfull \hbox (badness 10000) in paragraph at lines 1713--1750
 
  []
 
-[54 <./assets/images/custodian.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1717--1738
+[56 <./assets/images/custodian.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1753--1774
 
  []
 
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 1743--1753
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1743--1753
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 1779--1789
 
  []
 
 
-Overfull \hbox (44.30563pt too wide) in paragraph at lines 1756--1757
+Underfull \hbox (badness 10000) in paragraph at lines 1779--1789
+
+ []
+
+
+Overfull \hbox (44.30563pt too wide) in paragraph at lines 1792--1793
 \OT1/cmr/m/n/10.95 information and identity cards for Anti-Money-Laundering pur
 poses. Buying cryptocurrencies
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1756--1757
+Underfull \hbox (badness 10000) in paragraph at lines 1792--1793
 
  []
 
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 1758--1759
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1794--1795
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1762.
+(enumitem)                sense, on input line 1798.
 
 
-Overfull \hbox (5.95901pt too wide) in paragraph at lines 1764--1765
+Overfull \hbox (5.95901pt too wide) in paragraph at lines 1800--1801
 []\OT1/cmr/m/n/10.95 P2P exchanges allow the purchase of cryptocurrencies throu
 gh the regional medium
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1767--1768
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1769--1770
-
- []
-
-<./assets/images/p2p-sell.jpg, id=875, 933.4875pt x 1267.73625pt>
-File: ./assets/images/p2p-sell.jpg Graphic file (type jpg)
-<use ./assets/images/p2p-sell.jpg>
-Package pdftex.def Info: ./assets/images/p2p-sell.jpg  used on input line 1773.
-
-(pdftex.def)             Requested size: 170.71652pt x 231.83871pt.
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 1792--1793
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1794--1795
-
- []
-
-<./assets/images/p2p-buy.jpg, id=882, 816.04875pt x 1818.795pt>
-File: ./assets/images/p2p-buy.jpg Graphic file (type jpg)
-<use ./assets/images/p2p-buy.jpg>
-Package pdftex.def Info: ./assets/images/p2p-buy.jpg  used on input line 1799.
-(pdftex.def)             Requested size: 142.26378pt x 317.07278pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1796--1802
-
- []
-
-[58 <./assets/images/p2p-sell.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 1803--1804
 
  []
 
 
-Overfull \hbox (16.16765pt too wide) in paragraph at lines 1808--1809
+Underfull \hbox (badness 10000) in paragraph at lines 1805--1806
+
+ []
+
+<./assets/images/p2p-sell.jpg, id=886, 933.4875pt x 1267.73625pt>
+File: ./assets/images/p2p-sell.jpg Graphic file (type jpg)
+<use ./assets/images/p2p-sell.jpg>
+Package pdftex.def Info: ./assets/images/p2p-sell.jpg  used on input line 1809.
+
+(pdftex.def)             Requested size: 170.71652pt x 231.83871pt.
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1830--1831
+
+ []
+
+<./assets/images/p2p-buy.jpg, id=893, 816.04875pt x 1818.795pt>
+File: ./assets/images/p2p-buy.jpg Graphic file (type jpg)
+<use ./assets/images/p2p-buy.jpg>
+Package pdftex.def Info: ./assets/images/p2p-buy.jpg  used on input line 1835.
+(pdftex.def)             Requested size: 142.26378pt x 317.07278pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1832--1838
+
+ []
+
+[60 <./assets/images/p2p-sell.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1839--1840
+
+ []
+
+
+Overfull \hbox (16.16765pt too wide) in paragraph at lines 1844--1845
 \OT1/cmr/m/n/10.95 app. X bridges Social Media with Blockchain, Wallets, Exchan
 ges and NFT Markeplaces
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1808--1809
+Underfull \hbox (badness 10000) in paragraph at lines 1844--1845
 
  []
 
-[59 <./assets/images/p2p-buy.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1810--1811
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1815--1816
+[61 <./assets/images/p2p-buy.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1846--1847
 
  []
 
 
-Overfull \hbox (4.85529pt too wide) in paragraph at lines 1859--1859
+Underfull \hbox (badness 10000) in paragraph at lines 1851--1852
+
+ []
+
+
+Overfull \hbox (4.85529pt too wide) in paragraph at lines 1895--1895
  \OT1/cmr/m/n/9 Community 
  []
 
 
-Overfull \hbox (3.73354pt too wide) in paragraph at lines 1859--1859
+Overfull \hbox (3.73354pt too wide) in paragraph at lines 1895--1895
  \OT1/cmr/m/n/10 Organizations 
  []
 
 
-Overfull \hbox (4.43304pt too wide) in paragraph at lines 1859--1859
+Overfull \hbox (4.43304pt too wide) in paragraph at lines 1895--1895
  \OT1/cmr/m/n/9 Governance 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1867.
+(enumitem)                sense, on input line 1903.
 
-[60]
+[62]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1873.
+(enumitem)                sense, on input line 1909.
 
 
-Overfull \hbox (6.21935pt too wide) in paragraph at lines 1877--1878
+Overfull \hbox (6.21935pt too wide) in paragraph at lines 1913--1914
 []\OT1/cmr/bx/n/10.95 Smart Contract Chains\OT1/cmr/m/n/10.95 : Sharded Horizon
 tally scalable Smart Contract Chains
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1883.
+(enumitem)                sense, on input line 1919.
 
 
-Overfull \hbox (8.96938pt too wide) in paragraph at lines 1888--1889
+Overfull \hbox (8.96938pt too wide) in paragraph at lines 1924--1925
 []\OT1/cmr/bx/n/10.95 P2P Exchange\OT1/cmr/m/n/10.95 : Trustsless anonymous exc
 hange leveraging Peer-to-Peer protocol 
  []
 
 
-Overfull \hbox (6.05156pt too wide) in paragraph at lines 1892--1893
+Overfull \hbox (6.05156pt too wide) in paragraph at lines 1928--1929
 \OT1/cmr/m/n/10.95 token receiving preference configuration for smooth and dedi
 cated transfers to primary
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1898.
+(enumitem)                sense, on input line 1934.
 
 
-Overfull \hbox (1.64786pt too wide) in paragraph at lines 1903--1904
+Overfull \hbox (1.64786pt too wide) in paragraph at lines 1939--1940
 []\OT1/cmr/bx/n/10.95 Influencer Platform\OT1/cmr/m/n/10.95 : Decentralized pla
 tform connecting Influencers,businesses
  []
 
 
-Overfull \hbox (11.17752pt too wide) in paragraph at lines 1909--1910
+Overfull \hbox (11.17752pt too wide) in paragraph at lines 1945--1946
 []\OT1/cmr/bx/n/10.95 Global Rewards\OT1/cmr/m/n/10.95 : To incentivize all use
 rs, miners, developers using smart contracts
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1924
+Underfull \hbox (badness 10000) in paragraph at lines 1959--1960
 
  []
 
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 1929--1930
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 1965--1966
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1931--1932
+Underfull \hbox (badness 10000) in paragraph at lines 1967--1968
 
  []
 
-[62]
+[64]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1933.
+(enumitem)                sense, on input line 1969.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1934--1935
+Underfull \hbox (badness 10000) in paragraph at lines 1970--1971
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1938.
+(enumitem)                sense, on input line 1974.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1946--1947
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1948--1949
+Underfull \hbox (badness 10000) in paragraph at lines 1982--1983
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1950--1951
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1985
 
  []
 
 
-Overfull \hbox (9.80508pt too wide) in paragraph at lines 1952--1953
+Underfull \hbox (badness 10000) in paragraph at lines 1986--1987
+
+ []
+
+
+Overfull \hbox (9.80508pt too wide) in paragraph at lines 1988--1989
 []\OT1/cmr/m/n/10.95 Drops are \OT1/cmr/bx/n/10.95 20 second disappearing stori
 es \OT1/cmr/m/n/10.95 shared to followers which auto-disappears
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1952--1953
+Underfull \hbox (badness 10000) in paragraph at lines 1988--1989
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1954--1955
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1991
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1957--1958
+Underfull \hbox (badness 10000) in paragraph at lines 1993--1994
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1960--1961
+Underfull \hbox (badness 10000) in paragraph at lines 1996--1997
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 1964.
+(enumitem)                sense, on input line 2000.
 
-[63]
-Overfull \hbox (5.87267pt too wide) in paragraph at lines 1965--1966
+[65]
+Overfull \hbox (5.87267pt too wide) in paragraph at lines 2001--2002
 []\OT1/cmr/bx/n/10.95 Tunes \OT1/cmr/m/n/10.95 : Artists can \OT1/cmr/bx/n/10.9
 5 sell their music albums\OT1/cmr/m/n/10.95 , singles as NFT for the fans/peopl
 e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1979--1980
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1981--1982
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1983--1984
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1987--1988
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1989--1990
-
- []
-
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1995.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2005--2006
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2007--2008
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2011--2012
-
- []
-
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
-
  []
 
 
@@ -3004,7 +2960,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2015--2016
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 2017--2018
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2019--2020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2021--2022
 
  []
 
@@ -3018,35 +2984,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2025--2026
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2032--2033
-
- []
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2031.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2034--2035
+Underfull \hbox (badness 10000) in paragraph at lines 2041--2042
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2036--2037
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2038--2039
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2040--2041
-
- []
-
-
-Overfull \hbox (1.96431pt too wide) in paragraph at lines 2043--2044
-[]\OT1/cmr/m/n/10.95 Decentralized \OT1/cmr/bx/n/10.95 Live Video Events and Au
-dio Rooms using Avatars \OT1/cmr/m/n/10.95 (or) Normal
  []
 
 
@@ -3055,22 +2998,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2045--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2045--2046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
+Underfull \hbox (badness 10000) in paragraph at lines 2047--2048
+
+ []
+
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 2049--2050
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2051--2052
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2055--2056
-
- []
-
-[65]
-Underfull \hbox (badness 10000) in paragraph at lines 2057--2058
 
  []
 
@@ -3080,142 +3028,158 @@ Underfull \hbox (badness 10000) in paragraph at lines 2059--2060
  []
 
 
-Overfull \hbox (10.97777pt too wide) in paragraph at lines 2061--2062
-[]\OT1/cmr/m/n/10.95 The tipping feature in X engagements tip/support user's fa
-vourite influencers' contents.
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2061--2062
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2063--2067
+Underfull \hbox (badness 10000) in paragraph at lines 2068--2069
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2069--2070
+Underfull \hbox (badness 10000) in paragraph at lines 2070--2071
 
  []
 
-<./assets/images/tips.jpeg, id=983, 1444.39626pt x 833.1125pt>
-File: ./assets/images/tips.jpeg Graphic file (type jpg)
-<use ./assets/images/tips.jpeg>
-Package pdftex.def Info: ./assets/images/tips.jpeg  used on input line 2072.
-(pdftex.def)             Requested size: 398.3386pt x 229.74861pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2072--2073
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2106--2107
+Underfull \hbox (badness 10000) in paragraph at lines 2074--2075
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2076--2077
+
+ []
+
+
+Overfull \hbox (1.96431pt too wide) in paragraph at lines 2079--2080
+[]\OT1/cmr/m/n/10.95 Decentralized \OT1/cmr/bx/n/10.95 Live Video Events and Au
+dio Rooms using Avatars \OT1/cmr/m/n/10.95 (or) Normal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2079--2080
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2081--2083
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2084--2085
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
+
+ []
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2094
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2095--2096
+
+ []
+
+
+Overfull \hbox (10.97777pt too wide) in paragraph at lines 2097--2098
+[]\OT1/cmr/m/n/10.95 The tipping feature in X engagements tip/support user's fa
+vourite influencers' contents.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2097--2098
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2099--2103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2105--2106
+
+ []
+
+<./assets/images/tips.jpeg, id=995, 1444.39626pt x 833.1125pt>
+File: ./assets/images/tips.jpeg Graphic file (type jpg)
+<use ./assets/images/tips.jpeg>
+Package pdftex.def Info: ./assets/images/tips.jpeg  used on input line 2108.
+(pdftex.def)             Requested size: 398.3386pt x 229.74861pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2108--2109
 
  []
 
-<./assets/images/privacygroups.jpeg, id=984, 912.40875pt x 140.525pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2142--2143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
+
+ []
+
+<./assets/images/privacygroups.jpeg, id=996, 912.40875pt x 140.525pt>
 File: ./assets/images/privacygroups.jpeg Graphic file (type jpg)
 <use ./assets/images/privacygroups.jpeg>
 Package pdftex.def Info: ./assets/images/privacygroups.jpeg  used on input line
- 2111.
+ 2147.
 (pdftex.def)             Requested size: 227.62204pt x 35.0561pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2111--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2147--2148
 
  []
 
-[66]
-Underfull \hbox (badness 10000) in paragraph at lines 2128--2129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2130--2131
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 2164--2165
 
  []
 
 
-Overfull \hbox (4.3786pt too wide) in paragraph at lines 2134--2135
+Underfull \hbox (badness 10000) in paragraph at lines 2166--2167
+
+ []
+
+
+Overfull \hbox (4.3786pt too wide) in paragraph at lines 2170--2171
 \OT1/cmr/m/n/10.95 centralized monopoly companies that run major social netwrok
 ing mobile applications
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2134--2135
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2171
 
  []
 
-[67 <./assets/images/tips.jpeg> <./assets/images/privacygroups.jpeg>]
+[69 <./assets/images/tips.jpeg> <./assets/images/privacygroups.jpeg>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2137.
+(enumitem)                sense, on input line 2173.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2145--2146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2156
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2157--2158
+Underfull \hbox (badness 10000) in paragraph at lines 2183--2192
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2159--2167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2168--2169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2170--2177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2178--2179
-
- []
-
-<./assets/images/aes.png, id=996, 3222.0375pt x 1375.1375pt>
-File: ./assets/images/aes.png Graphic file (type png)
-<use ./assets/images/aes.png>
-Package pdftex.def Info: ./assets/images/aes.png  used on input line 2182.
-(pdftex.def)             Requested size: 227.62204pt x 97.12976pt.
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2188
-
- []
-
-
-Overfull \hbox (4.79424pt too wide) in paragraph at lines 2189--2190
-\OT1/cmr/m/n/10.95 securing user's data is due to the threat of quantum suprema
-cy. If quantum computers
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2189--2190
-
- []
-
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2192.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2193--2194
@@ -3223,28 +3187,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2193--2194
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2195--2196
-
- []
-
-[69 <./assets/images/aes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2197--2198
-
- []
-
-
-Overfull \hbox (14.112pt too wide) in paragraph at lines 2199--2200
-\OT1/cmr/m/n/10.95 security of symmetric cryptographic algorithms, such as Adva
-nced Encryption Standard
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2199--2200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2201--2202
+Underfull \hbox (badness 10000) in paragraph at lines 2195--2203
 
  []
 
@@ -3254,225 +3197,214 @@ Underfull \hbox (badness 10000) in paragraph at lines 2204--2205
  []
 
 
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2207.
+Underfull \hbox (badness 10000) in paragraph at lines 2206--2213
 
-
-Overfull \hbox (7.31888pt too wide) in paragraph at lines 2213--2214
-\OT1/cmr/m/n/10.95 Cluster Nodes. The repetition is monitored by configuring a 
-minimum and a maximum
  []
 
-<./assets/images/encryption.jpg, id=1012, 461.725pt x 584.1825pt>
-File: ./assets/images/encryption.jpg Graphic file (type jpg)
-<use ./assets/images/encryption.jpg>
-Package pdftex.def Info: ./assets/images/encryption.jpg  used on input line 222
-0.
-(pdftex.def)             Requested size: 199.16928pt x 251.98691pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2214--2215
+
+ []
+
+<./assets/images/aes.png, id=1007, 3222.0375pt x 1375.1375pt>
+File: ./assets/images/aes.png Graphic file (type png)
+<use ./assets/images/aes.png>
+Package pdftex.def Info: ./assets/images/aes.png  used on input line 2218.
+(pdftex.def)             Requested size: 227.62204pt x 97.12976pt.
 [70]
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-2231.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
-File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
+Underfull \hbox (badness 10000) in paragraph at lines 2223--2224
+
+ []
+
+
+Overfull \hbox (4.79424pt too wide) in paragraph at lines 2225--2226
+\OT1/cmr/m/n/10.95 securing user's data is due to the threat of quantum suprema
+cy. If quantum computers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2225--2226
+
+ []
+
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 2228.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2229--2230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2231--2232
+
+ []
+
+[71 <./assets/images/aes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2233--2234
+
+ []
+
+
+Overfull \hbox (14.112pt too wide) in paragraph at lines 2235--2236
+\OT1/cmr/m/n/10.95 security of symmetric cryptographic algorithms, such as Adva
+nced Encryption Standard
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2235--2236
 
  []
 
 
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2238.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2243--2244
+Underfull \hbox (badness 10000) in paragraph at lines 2237--2238
 
  []
 
-<./assets/images/decryption-private.jpg, id=1018, 1213.53375pt x 2159.06625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2240--2241
+
+ []
+
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 2243.
+
+
+Overfull \hbox (7.31888pt too wide) in paragraph at lines 2249--2250
+\OT1/cmr/m/n/10.95 Cluster Nodes. The repetition is monitored by configuring a 
+minimum and a maximum
+ []
+
+<./assets/images/encryption.jpg, id=1023, 461.725pt x 584.1825pt>
+File: ./assets/images/encryption.jpg Graphic file (type jpg)
+<use ./assets/images/encryption.jpg>
+Package pdftex.def Info: ./assets/images/encryption.jpg  used on input line 225
+6.
+(pdftex.def)             Requested size: 199.16928pt x 251.98691pt.
+[72]
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+2267.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2271--2272
+
+ []
+
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 2274.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2279--2280
+
+ []
+
+<./assets/images/decryption-private.jpg, id=1029, 1213.53375pt x 2159.06625pt>
 File: ./assets/images/decryption-private.jpg Graphic file (type jpg)
 <use ./assets/images/decryption-private.jpg>
 Package pdftex.def Info: ./assets/images/decryption-private.jpg  used on input 
-line 2247.
+line 2283.
 (pdftex.def)             Requested size: 170.71652pt x 303.71678pt.
-[71 <./assets/images/encryption.jpg>]
+[73 <./assets/images/encryption.jpg>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2253.
+(enumitem)                sense, on input line 2289.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2261--2262
+Underfull \hbox (badness 10000) in paragraph at lines 2297--2298
 
  []
 
-<./assets/images/decryption-public.jpg, id=1035, 1207.51125pt x 2062.70625pt>
+<./assets/images/decryption-public.jpg, id=1047, 1207.51125pt x 2062.70625pt>
 File: ./assets/images/decryption-public.jpg Graphic file (type jpg)
 <use ./assets/images/decryption-public.jpg>
 Package pdftex.def Info: ./assets/images/decryption-public.jpg  used on input l
-ine 2265.
+ine 2301.
 (pdftex.def)             Requested size: 170.71652pt x 291.60959pt.
-[72 <./assets/images/decryption-private.jpg>]
-Overfull \hbox (1.15321pt too wide) in paragraph at lines 2270--2271
+[74 <./assets/images/decryption-private.jpg>]
+Overfull \hbox (1.15321pt too wide) in paragraph at lines 2306--2307
 []\OT1/cmr/m/n/10.95 X ensures that all the content in the social application i
 s securely encrypted compared
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2270--2271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2273--2274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2276
-
- []
-
-[73 <./assets/images/decryption-public.jpg>]
-<./assets/images/chat.jpg, id=1047, 4004.9625pt x 1890.06125pt>
-File: ./assets/images/chat.jpg Graphic file (type jpg)
-<use ./assets/images/chat.jpg>
-Package pdftex.def Info: ./assets/images/chat.jpg  used on input line 2279.
-(pdftex.def)             Requested size: 199.16928pt x 93.98947pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2284--2285
-
- []
-
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2288.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2298--2299
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2300--2301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2302--2303
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2304--2305
-
- []
-
-[74 <./assets/images/chat.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 2306--2307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2310--2311
+Underfull \hbox (badness 10000) in paragraph at lines 2309--2310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2312--2313
+Underfull \hbox (badness 10000) in paragraph at lines 2311--2312
 
  []
 
-
-Overfull \hbox (2.3711pt too wide) in paragraph at lines 2318--2319
-\OT1/cmr/m/n/10.95 a common tool for social media users who commit fraud by dis
-closing fake information
- []
-
-
-Overfull \hbox (26.5422pt too wide) in paragraph at lines 2318--2319
-\OT1/cmr/m/n/10.95 to the society. Multiple instances of issuing fake propagand
-a and government manipulating
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2318--2319
-
- []
-
+[75 <./assets/images/decryption-public.jpg>]
+<./assets/images/chat.jpg, id=1058, 4004.9625pt x 1890.06125pt>
+File: ./assets/images/chat.jpg Graphic file (type jpg)
+<use ./assets/images/chat.jpg>
+Package pdftex.def Info: ./assets/images/chat.jpg  used on input line 2315.
+(pdftex.def)             Requested size: 199.16928pt x 93.98947pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2320--2321
 
  []
 
-[75]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2323.
+(enumitem)                sense, on input line 2324.
 
 
-Overfull \hbox (12.52219pt too wide) in paragraph at lines 2325--2326
-[]\OT1/cmr/bx/n/10.95 Post-Moderation \OT1/cmr/m/n/10.95 : A specific type of m
-oderation which searches for in-appropriate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2329--2330
+Underfull \hbox (badness 10000) in paragraph at lines 2334--2335
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2331--2332
-
- []
-
-[76]
-Overfull \hbox (1.63089pt too wide) in paragraph at lines 2333--2334
-\OT1/cmr/m/n/10.95 given similar to centralized companies. The administrative r
-ights of removing content
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2333--2334
+Underfull \hbox (badness 10000) in paragraph at lines 2336--2337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2335--2336
+Underfull \hbox (badness 10000) in paragraph at lines 2338--2339
 
  []
 
 
-Overfull \hbox (17.39569pt too wide) in paragraph at lines 2337--2338
-[]\OT1/cmr/m/n/10.95 ROV is an abbreviation for Republic of X, a decentralized 
-community-based organization
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2337--2338
+Underfull \hbox (badness 10000) in paragraph at lines 2340--2341
 
  []
 
+[76 <./assets/images/chat.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2342--2343
 
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2340.
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2346--2347
 
  []
 
-[77]
+
 Underfull \hbox (badness 10000) in paragraph at lines 2348--2349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
-
+Overfull \hbox (2.3711pt too wide) in paragraph at lines 2354--2355
+\OT1/cmr/m/n/10.95 a common tool for social media users who commit fraud by dis
+closing fake information
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2352--2353
-
+Overfull \hbox (26.5422pt too wide) in paragraph at lines 2354--2355
+\OT1/cmr/m/n/10.95 to the society. Multiple instances of issuing fake propagand
+a and government manipulating
  []
 
 
@@ -3480,25 +3412,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 2354--2355
 
  []
 
-<./assets/images/content-removal.jpg, id=1071, 1601.985pt x 915.42pt>
-File: ./assets/images/content-removal.jpg Graphic file (type jpg)
-<use ./assets/images/content-removal.jpg>
-Package pdftex.def Info: ./assets/images/content-removal.jpg  used on input lin
-e 2358.
-(pdftex.def)             Requested size: 227.62204pt x 130.05759pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2356--2357
+
+ []
+
+[77]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2363.
+(enumitem)                sense, on input line 2359.
 
-[78 <./assets/images/content-removal.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2372--2373
+
+Overfull \hbox (12.52219pt too wide) in paragraph at lines 2361--2362
+[]\OT1/cmr/bx/n/10.95 Post-Moderation \OT1/cmr/m/n/10.95 : A specific type of m
+oderation which searches for in-appropriate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2365--2366
 
  []
 
 
-Overfull \hbox (12.98643pt too wide) in paragraph at lines 2374--2375
-[]\OT1/cmr/m/n/10.95 To ensure faster removals and counter the delay of manual 
-approach of votes calculation,
+Underfull \hbox (badness 10000) in paragraph at lines 2367--2368
+
+ []
+
+[78]
+Overfull \hbox (1.63089pt too wide) in paragraph at lines 2369--2370
+\OT1/cmr/m/n/10.95 given similar to centralized companies. The administrative r
+ights of removing content
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2369--2370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2371--2372
+
+ []
+
+
+Overfull \hbox (17.39569pt too wide) in paragraph at lines 2373--2374
+[]\OT1/cmr/m/n/10.95 ROV is an abbreviation for Republic of X, a decentralized 
+community-based organization
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2373--2374
+
  []
 
 
@@ -3506,348 +3470,339 @@ Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 2376.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2386--2387
-
- []
-
-<./assets/images/rov-poll.jpg, id=1077, 1252.68pt x 1475.5125pt>
-File: ./assets/images/rov-poll.jpg Graphic file (type jpg)
-<use ./assets/images/rov-poll.jpg>
-Package pdftex.def Info: ./assets/images/rov-poll.jpg  used on input line 2400.
-
-(pdftex.def)             Requested size: 199.16928pt x 234.57835pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2397--2403
+Underfull \hbox (badness 10000) in paragraph at lines 2382--2383
 
  []
 
 [79]
+Underfull \hbox (badness 10000) in paragraph at lines 2384--2385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2388--2389
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2390--2391
+
+ []
+
+<./assets/images/content-removal.jpg, id=1083, 1601.985pt x 915.42pt>
+File: ./assets/images/content-removal.jpg Graphic file (type jpg)
+<use ./assets/images/content-removal.jpg>
+Package pdftex.def Info: ./assets/images/content-removal.jpg  used on input lin
+e 2394.
+(pdftex.def)             Requested size: 227.62204pt x 130.05759pt.
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2406.
+(enumitem)                sense, on input line 2399.
 
-
-Overfull \hbox (0.48457pt too wide) in paragraph at lines 2410--2411
-[]\OT1/cmr/m/n/10.95 The poll receives votes based on the curators opinion and 
-the community guidelines
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2417--2418
-
- []
-
-[80 <./assets/images/rov-poll.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2419--2420
+[80 <./assets/images/content-removal.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2408--2409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2422
-
+Overfull \hbox (12.98643pt too wide) in paragraph at lines 2410--2411
+[]\OT1/cmr/m/n/10.95 To ensure faster removals and counter the delay of manual 
+approach of votes calculation,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2427--2428
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 2412.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2422--2423
 
  []
 
+<./assets/images/rov-poll.jpg, id=1089, 1252.68pt x 1475.5125pt>
+File: ./assets/images/rov-poll.jpg Graphic file (type jpg)
+<use ./assets/images/rov-poll.jpg>
+Package pdftex.def Info: ./assets/images/rov-poll.jpg  used on input line 2436.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2430
+(pdftex.def)             Requested size: 199.16928pt x 234.57835pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2431--2432
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2433--2434
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2435--2436
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2437--2438
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2439
 
  []
 
 [81]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2439.
+(enumitem)                sense, on input line 2442.
+
+
+Overfull \hbox (0.48457pt too wide) in paragraph at lines 2446--2447
+[]\OT1/cmr/m/n/10.95 The poll receives votes based on the curators opinion and 
+the community guidelines
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2453--2454
+
+ []
+
+[82 <./assets/images/rov-poll.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2455--2456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2457--2458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2463--2464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2465--2466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2467--2468
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2469--2470
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2471--2472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2473--2474
+
+ []
+
+[83]
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 2475.
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2452.
+(enumitem)                sense, on input line 2488.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2458--2459
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2460--2461
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2462--2464
+Underfull \hbox (badness 10000) in paragraph at lines 2496--2497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2466--2467
+Underfull \hbox (badness 10000) in paragraph at lines 2498--2500
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2468--2469
-
- []
-
-[82]
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2471
+Underfull \hbox (badness 10000) in paragraph at lines 2502--2503
 
  []
 
 
-Overfull \hbox (5.71567pt too wide) in paragraph at lines 2472--2473
+Underfull \hbox (badness 10000) in paragraph at lines 2504--2505
+
+ []
+
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 2506--2507
+
+ []
+
+
+Overfull \hbox (5.71567pt too wide) in paragraph at lines 2508--2509
 []\OT1/cmr/m/n/10.95 ROV curators also will be responsible for several actions 
 on the decentralized platform,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2472--2473
+Underfull \hbox (badness 10000) in paragraph at lines 2508--2509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2474--2475
+Underfull \hbox (badness 10000) in paragraph at lines 2510--2511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2476--2477
+Underfull \hbox (badness 10000) in paragraph at lines 2512--2513
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2478--2479
+Underfull \hbox (badness 10000) in paragraph at lines 2514--2515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2480--2481
+Underfull \hbox (badness 10000) in paragraph at lines 2516--2517
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2483--2484
+Underfull \hbox (badness 10000) in paragraph at lines 2519--2520
 
  []
 
 
-Overfull \hbox (7.6332pt too wide) in paragraph at lines 2485--2486
+Overfull \hbox (7.6332pt too wide) in paragraph at lines 2521--2522
 []\OT1/cmr/m/n/10.95 Every day according to every individual curators contribut
 ion rewards will be allocated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2485--2486
+Underfull \hbox (badness 10000) in paragraph at lines 2521--2522
 
  []
 
-[83]
-Overfull \hbox (18.09654pt too wide) in paragraph at lines 2489--2490
+[85]
+Overfull \hbox (18.09654pt too wide) in paragraph at lines 2525--2526
 \OT1/cmr/m/n/10.95 competition with profit-making closed source projects develo
 ped by monopoly companies
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2489--2490
+Underfull \hbox (badness 10000) in paragraph at lines 2525--2526
 
  []
 
 
-Overfull \hbox (14.49214pt too wide) in paragraph at lines 2491--2492
+Overfull \hbox (14.49214pt too wide) in paragraph at lines 2527--2528
 \OT1/cmr/m/n/10.95 tools improved the open source initiative, it was Git which 
 revolutionized the distributed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2491--2492
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2528
 
  []
 
 
-Overfull \hbox (10.09688pt too wide) in paragraph at lines 2493--2494
+Overfull \hbox (10.09688pt too wide) in paragraph at lines 2529--2530
 \OT1/cmr/m/n/10.95 of ways that blockchain is being implemented with the help o
 f open source collaboration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2493--2494
+Underfull \hbox (badness 10000) in paragraph at lines 2529--2530
 
  []
 
-[84]
-Underfull \hbox (badness 10000) in paragraph at lines 2495--2496
+[86]
+Underfull \hbox (badness 10000) in paragraph at lines 2531--2532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2497--2498
+Underfull \hbox (badness 10000) in paragraph at lines 2533--2534
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2500.
+(enumitem)                sense, on input line 2536.
 
 
-Overfull \hbox (7.45062pt too wide) in paragraph at lines 2501--2502
+Overfull \hbox (7.45062pt too wide) in paragraph at lines 2537--2538
 \OT1/cmr/m/n/10.95 softwares on licensing and maintenance, while reduces expend
 itures on documentation,
  []
 
 
-Overfull \hbox (6.63611pt too wide) in paragraph at lines 2506--2507
+Overfull \hbox (6.63611pt too wide) in paragraph at lines 2542--2543
 []\OT1/cmr/bx/n/10.95 Innovation Exchange\OT1/cmr/m/n/10.95 : New disruptive fe
 atures will be contributed by individuals
  []
 
 
-Overfull \hbox (4.25691pt too wide) in paragraph at lines 2506--2507
+Overfull \hbox (4.25691pt too wide) in paragraph at lines 2542--2543
 \OT1/cmr/m/n/10.95 and entities sharing their innovation driving a creative wor
 k-space for other developers
  []
 
 
-Overfull \hbox (6.44696pt too wide) in paragraph at lines 2509--2510
+Overfull \hbox (6.44696pt too wide) in paragraph at lines 2545--2546
 \OT1/cmr/m/n/10.95 Organizations like RedHat, IBM, Oracle employs developers an
 d pay them accordingly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2509--2510
+Underfull \hbox (badness 10000) in paragraph at lines 2545--2546
 
  []
 
-[85]
-Underfull \hbox (badness 10000) in paragraph at lines 2511--2512
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2513--2514
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 2547--2548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2515--2516
+Underfull \hbox (badness 10000) in paragraph at lines 2549--2550
 
  []
 
 
-Overfull \hbox (14.29445pt too wide) in paragraph at lines 2517--2518
+Underfull \hbox (badness 10000) in paragraph at lines 2551--2552
+
+ []
+
+
+Overfull \hbox (14.29445pt too wide) in paragraph at lines 2553--2554
 []\OT1/cmr/m/n/10.95 An opportunity for all developers is provided regardless o
 f their educational background,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2518
+Underfull \hbox (badness 10000) in paragraph at lines 2553--2554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2520--2521
+Underfull \hbox (badness 10000) in paragraph at lines 2556--2557
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2522--2523
+Underfull \hbox (badness 10000) in paragraph at lines 2558--2559
 
  []
 
-[86]
-Underfull \hbox (badness 10000) in paragraph at lines 2524--2525
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 2560--2561
 
  []
 
-<./assets/images/git-int.jpg, id=1123, 1047.915pt x 305.14pt>
+<./assets/images/git-int.jpg, id=1134, 1047.915pt x 305.14pt>
 File: ./assets/images/git-int.jpg Graphic file (type jpg)
 <use ./assets/images/git-int.jpg>
-Package pdftex.def Info: ./assets/images/git-int.jpg  used on input line 2527.
+Package pdftex.def Info: ./assets/images/git-int.jpg  used on input line 2563.
 (pdftex.def)             Requested size: 113.81102pt x 33.13713pt.
 
-Overfull \hbox (3.64735pt too wide) in paragraph at lines 2530--2531
+Overfull \hbox (3.64735pt too wide) in paragraph at lines 2566--2567
 \OT1/cmr/m/n/10.95 by registering their usernames and creating X smart wallet, 
 etc for receiving incentives
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2530--2531
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2532--2533
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2534--2535
-
- []
-
-
-Overfull \hbox (6.69023pt too wide) in paragraph at lines 2536--2537
-\OT1/cmr/m/n/10.95 workspace environment for quality collaboration for seamless
- distributed development.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2536--2537
-
- []
-
-<./assets/images/devspace-overview.jpg, id=1124, 1824.8175pt x 2086.79625pt>
-File: ./assets/images/devspace-overview.jpg Graphic file (type jpg)
-<use ./assets/images/devspace-overview.jpg>
-Package pdftex.def Info: ./assets/images/devspace-overview.jpg  used on input l
-ine 2540.
-(pdftex.def)             Requested size: 369.88582pt x 422.98787pt.
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2547.
-
-[87 <./assets/images/git-int.jpg>] [88 <./assets/images/devspace-overview.jpg>]
-
-Underfull \hbox (badness 10000) in paragraph at lines 2555--2556
-
- []
-
-<./assets/images/chat-community.jpg, id=1134, 1802.735pt x 847.165pt>
-File: ./assets/images/chat-community.jpg Graphic file (type jpg)
-<use ./assets/images/chat-community.jpg>
-Package pdftex.def Info: ./assets/images/chat-community.jpg  used on input line
- 2559.
-(pdftex.def)             Requested size: 256.0748pt x 120.33446pt.
-
-Overfull \hbox (9.09312pt too wide) in paragraph at lines 2564--2565
-\OT1/cmr/m/n/10.95 Developers can able to post messages, review code in terms o
-f series of communications,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2564--2565
-
  []
 
 
@@ -3856,554 +3811,573 @@ Underfull \hbox (badness 10000) in paragraph at lines 2566--2567
  []
 
 
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2569.
+Underfull \hbox (badness 10000) in paragraph at lines 2568--2569
 
-[89 <./assets/images/chat-community.jpg>]
-<./assets/images/post-dev.jpg, id=1140, 1358.07375pt x 394.47375pt>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2570--2571
+
+ []
+
+
+Overfull \hbox (6.69023pt too wide) in paragraph at lines 2572--2573
+\OT1/cmr/m/n/10.95 workspace environment for quality collaboration for seamless
+ distributed development.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2572--2573
+
+ []
+
+<./assets/images/devspace-overview.jpg, id=1135, 1824.8175pt x 2086.79625pt>
+File: ./assets/images/devspace-overview.jpg Graphic file (type jpg)
+<use ./assets/images/devspace-overview.jpg>
+Package pdftex.def Info: ./assets/images/devspace-overview.jpg  used on input l
+ine 2576.
+(pdftex.def)             Requested size: 369.88582pt x 422.98787pt.
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 2583.
+
+[89 <./assets/images/git-int.jpg>] [90 <./assets/images/devspace-overview.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 2591--2592
+
+ []
+
+<./assets/images/chat-community.jpg, id=1145, 1802.735pt x 847.165pt>
+File: ./assets/images/chat-community.jpg Graphic file (type jpg)
+<use ./assets/images/chat-community.jpg>
+Package pdftex.def Info: ./assets/images/chat-community.jpg  used on input line
+ 2595.
+(pdftex.def)             Requested size: 256.0748pt x 120.33446pt.
+
+Overfull \hbox (9.09312pt too wide) in paragraph at lines 2600--2601
+\OT1/cmr/m/n/10.95 Developers can able to post messages, review code in terms o
+f series of communications,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2600--2601
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2602--2603
+
+ []
+
+
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 2605.
+
+[91 <./assets/images/chat-community.jpg>]
+<./assets/images/post-dev.jpg, id=1152, 1358.07375pt x 394.47375pt>
 File: ./assets/images/post-dev.jpg Graphic file (type jpg)
 <use ./assets/images/post-dev.jpg>
-Package pdftex.def Info: ./assets/images/post-dev.jpg  used on input line 2578.
+Package pdftex.def Info: ./assets/images/post-dev.jpg  used on input line 2614.
 
 (pdftex.def)             Requested size: 227.62204pt x 66.11462pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2585--2586
+Underfull \hbox (badness 10000) in paragraph at lines 2621--2622
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2601.
+(enumitem)                sense, on input line 2637.
 
-<./assets/images/dev-reward-distribution.jpg, id=1141, 855.195pt x 560.0925pt>
+<./assets/images/dev-reward-distribution.jpg, id=1153, 855.195pt x 560.0925pt>
 File: ./assets/images/dev-reward-distribution.jpg Graphic file (type jpg)
 <use ./assets/images/dev-reward-distribution.jpg>
 Package pdftex.def Info: ./assets/images/dev-reward-distribution.jpg  used on i
-nput line 2608.
+nput line 2644.
 (pdftex.def)             Requested size: 227.62204pt x 149.07332pt.
-[90 <./assets/images/post-dev.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2614
+[92 <./assets/images/post-dev.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2649--2650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2615--2616
+Underfull \hbox (badness 10000) in paragraph at lines 2651--2652
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2617--2618
+Underfull \hbox (badness 10000) in paragraph at lines 2653--2654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2620--2621
+Underfull \hbox (badness 10000) in paragraph at lines 2656--2657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2622--2623
+Underfull \hbox (badness 10000) in paragraph at lines 2658--2659
 
  []
 
-[91 <./assets/images/dev-reward-distribution.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2624--2625
+[93 <./assets/images/dev-reward-distribution.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2660--2661
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2626--2627
+Underfull \hbox (badness 10000) in paragraph at lines 2662--2663
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2629.
+(enumitem)                sense, on input line 2665.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2634--2635
+Underfull \hbox (badness 10000) in paragraph at lines 2670--2671
 
  []
 
 
-Overfull \hbox (7.48108pt too wide) in paragraph at lines 2638--2639
+Overfull \hbox (7.48108pt too wide) in paragraph at lines 2674--2675
 \OT1/cmr/m/n/10.95 Mainstream modern-advertisement focusses on targeting social
  media users by running
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2638--2639
+Underfull \hbox (badness 10000) in paragraph at lines 2674--2675
 
  []
 
-[92]
+[94]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2641.
+(enumitem)                sense, on input line 2677.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2647--2648
+Underfull \hbox (badness 10000) in paragraph at lines 2683--2684
 
  []
 
 
-Overfull \hbox (12.2755pt too wide) in paragraph at lines 2649--2650
+Overfull \hbox (12.2755pt too wide) in paragraph at lines 2685--2686
 \OT1/cmr/m/n/10.95 followers). For seamless results in the X Influencer Platfor
 m the creators are categorized
  []
 
-<./assets/images/influencer-class.jpg, id=1159, 2971.1pt x 1043.9pt>
+<./assets/images/influencer-class.jpg, id=1170, 2971.1pt x 1043.9pt>
 File: ./assets/images/influencer-class.jpg Graphic file (type jpg)
 <use ./assets/images/influencer-class.jpg>
 Package pdftex.def Info: ./assets/images/influencer-class.jpg  used on input li
-ne 2653.
+ne 2689.
 (pdftex.def)             Requested size: 341.43306pt x 119.95836pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2657--2658
+Underfull \hbox (badness 10000) in paragraph at lines 2693--2694
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2660
+Underfull \hbox (badness 10000) in paragraph at lines 2695--2696
 
  []
 
-[93 <./assets/images/influencer-class.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2661--2662
+[95 <./assets/images/influencer-class.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2697--2698
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2664.
+(enumitem)                sense, on input line 2700.
 
 
-Overfull \hbox (1.06198pt too wide) in paragraph at lines 2663--2664
+Overfull \hbox (1.06198pt too wide) in paragraph at lines 2699--2700
 []\OT1/cmr/m/n/10.95 Advertising using X Influencer Platform is economic and a 
 better substitution against
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2672--2673
+Underfull \hbox (badness 10000) in paragraph at lines 2708--2709
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2675.
+(enumitem)                sense, on input line 2711.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2680--2681
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2682--2683
-
- []
-
-[94]
-Underfull \hbox (badness 10000) in paragraph at lines 2684--2685
+Underfull \hbox (badness 10000) in paragraph at lines 2716--2717
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2686--2687
+Underfull \hbox (badness 10000) in paragraph at lines 2718--2719
+
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 2720--2721
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2688--2689
+Underfull \hbox (badness 10000) in paragraph at lines 2722--2723
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2690--2691
+Underfull \hbox (badness 10000) in paragraph at lines 2724--2725
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2692--2693
+Underfull \hbox (badness 10000) in paragraph at lines 2726--2727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2694--2695
+Underfull \hbox (badness 10000) in paragraph at lines 2728--2729
 
  []
 
-<./assets/images/ad-flow.jpg, id=1172, 785.93625pt x 602.25pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2730--2731
+
+ []
+
+<./assets/images/ad-flow.jpg, id=1183, 785.93625pt x 602.25pt>
 File: ./assets/images/ad-flow.jpg Graphic file (type jpg)
 <use ./assets/images/ad-flow.jpg>
-Package pdftex.def Info: ./assets/images/ad-flow.jpg  used on input line 2698.
+Package pdftex.def Info: ./assets/images/ad-flow.jpg  used on input line 2734.
 (pdftex.def)             Requested size: 142.26378pt x 109.01602pt.
 
-Overfull \hbox (7.10593pt too wide) in paragraph at lines 2703--2704
+Overfull \hbox (7.10593pt too wide) in paragraph at lines 2739--2740
 \OT1/cmr/m/n/10.95 influencers using search filters and sorting algorithms. Aft
 er the selection of influencers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2703--2704
+Underfull \hbox (badness 10000) in paragraph at lines 2739--2740
 
  []
 
-[95 <./assets/images/ad-flow.jpg>]
-<./assets/images/ad-selection.jpg, id=1178, 921.4425pt x 804.00375pt>
+[97 <./assets/images/ad-flow.jpg>]
+<./assets/images/ad-selection.jpg, id=1190, 921.4425pt x 804.00375pt>
 File: ./assets/images/ad-selection.jpg Graphic file (type jpg)
 <use ./assets/images/ad-selection.jpg>
 Package pdftex.def Info: ./assets/images/ad-selection.jpg  used on input line 2
-707.
+743.
 (pdftex.def)             Requested size: 170.71652pt x 148.94691pt.
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2713.
+(enumitem)                sense, on input line 2749.
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2727.
+(enumitem)                sense, on input line 2763.
 
 
-Overfull \hbox (14.89258pt too wide) in paragraph at lines 2726--2727
+Overfull \hbox (14.89258pt too wide) in paragraph at lines 2762--2763
 []\OT1/cmr/m/n/10.95 The Influencers are selected and white-listed for further 
 decisions. After a specific/group
  []
 
-[96 <./assets/images/ad-selection.jpg>]
-<./assets/images/ad-content.jpg, id=1184, 1047.915pt x 1845.89626pt>
+[98 <./assets/images/ad-selection.jpg>]
+<./assets/images/ad-content.jpg, id=1196, 1047.915pt x 1845.89626pt>
 File: ./assets/images/ad-content.jpg Graphic file (type jpg)
 <use ./assets/images/ad-content.jpg>
-Package pdftex.def Info: ./assets/images/ad-content.jpg  used on input line 273
-7.
+Package pdftex.def Info: ./assets/images/ad-content.jpg  used on input line 277
+3.
 (pdftex.def)             Requested size: 170.71652pt x 300.70099pt.
- [97 <./assets/images/ad-content.jpg>]
-<./assets/images/ad-publish.jpg, id=1195, 1854.93pt x 1990.43625pt>
+ [99 <./assets/images/ad-content.jpg>]
+<./assets/images/ad-publish.jpg, id=1206, 1854.93pt x 1990.43625pt>
 File: ./assets/images/ad-publish.jpg Graphic file (type jpg)
 <use ./assets/images/ad-publish.jpg>
-Package pdftex.def Info: ./assets/images/ad-publish.jpg  used on input line 275
-0.
+Package pdftex.def Info: ./assets/images/ad-publish.jpg  used on input line 278
+6.
 (pdftex.def)             Requested size: 312.9803pt x 335.81848pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2755--2756
+Underfull \hbox (badness 10000) in paragraph at lines 2791--2792
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2757--2758
+Underfull \hbox (badness 10000) in paragraph at lines 2793--2794
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2759--2760
+Underfull \hbox (badness 10000) in paragraph at lines 2795--2796
 
  []
 
-<./assets/images/periodic-allocation.jpg, id=1196, 1962.33125pt x 903.375pt>
+<./assets/images/periodic-allocation.jpg, id=1207, 1962.33125pt x 903.375pt>
 File: ./assets/images/periodic-allocation.jpg Graphic file (type jpg)
 <use ./assets/images/periodic-allocation.jpg>
 Package pdftex.def Info: ./assets/images/periodic-allocation.jpg  used on input
- line 2763.
+ line 2799.
 (pdftex.def)             Requested size: 227.62204pt x 104.77502pt.
-[98] [99 <./assets/images/ad-publish.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2768--2769
+[100] [101 <./assets/images/ad-publish.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2804--2805
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2771--2773
+Underfull \hbox (badness 10000) in paragraph at lines 2807--2809
 
  []
 
-<./assets/images/periodic-allocation-2.jpg, id=1207, 2815.51875pt x 1380.15625p
+<./assets/images/periodic-allocation-2.jpg, id=1218, 2815.51875pt x 1380.15625p
 t>
 File: ./assets/images/periodic-allocation-2.jpg Graphic file (type jpg)
 <use ./assets/images/periodic-allocation-2.jpg>
 Package pdftex.def Info: ./assets/images/periodic-allocation-2.jpg  used on inp
-ut line 2776.
+ut line 2812.
 (pdftex.def)             Requested size: 341.43306pt x 167.35954pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2781--2782
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2818
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2783--2784
+Underfull \hbox (badness 10000) in paragraph at lines 2819--2820
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2787.
+(enumitem)                sense, on input line 2823.
 
-[100 <./assets/images/periodic-allocation.jpg>]
-Overfull \hbox (1.7932pt too wide) in paragraph at lines 2791--2792
+[102 <./assets/images/periodic-allocation.jpg>]
+Overfull \hbox (1.7932pt too wide) in paragraph at lines 2827--2828
 \OT1/cmr/m/n/10.95 custodian banks makes it secure and facilitates autonomous p
 ayments with additional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2800--2815
+Underfull \hbox (badness 10000) in paragraph at lines 2836--2851
 
  []
 
-[101 <./assets/images/periodic-allocation-2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2817--2825
+[103 <./assets/images/periodic-allocation-2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2853--2861
 
  []
 
 
-Overfull \hbox (8.69777pt too wide) in paragraph at lines 2826--2827
+Overfull \hbox (8.69777pt too wide) in paragraph at lines 2862--2863
 \OT1/cmr/m/n/10.95 investments should be determined and allocated through an au
 tomated smart contract.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2826--2827
+Underfull \hbox (badness 10000) in paragraph at lines 2862--2863
 
  []
 
-[102]
-Overfull \hbox (6.52806pt too wide) in paragraph at lines 2828--2829
+[104]
+Overfull \hbox (6.52806pt too wide) in paragraph at lines 2864--2865
 \OT1/cmr/m/n/10.95 democratic voting system or mathematically predicted points.
  These points prediction
  []
 
 
-Overfull \hbox (7.63315pt too wide) in paragraph at lines 2828--2829
+Overfull \hbox (7.63315pt too wide) in paragraph at lines 2864--2865
 \OT1/cmr/m/n/10.95 program will be calculated from off-chain real-time data thr
 ough decentralized tamper-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2828--2829
+Underfull \hbox (badness 10000) in paragraph at lines 2864--2865
 
  []
 
-<./assets/images/global-reward.png, id=1231, 2221.29875pt x 1058.95625pt>
+<./assets/images/global-reward.png, id=1244, 2221.29875pt x 1058.95625pt>
 File: ./assets/images/global-reward.png Graphic file (type png)
 <use ./assets/images/global-reward.png>
 Package pdftex.def Info: ./assets/images/global-reward.png  used on input line 
-2833.
+2869.
 (pdftex.def)             Requested size: 227.62204pt x 108.50331pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2830--2836
+Underfull \hbox (badness 10000) in paragraph at lines 2866--2872
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2838.
+(enumitem)                sense, on input line 2874.
 
 
-Overfull \hbox (0.54718pt too wide) in paragraph at lines 2845--2846
+Overfull \hbox (0.54718pt too wide) in paragraph at lines 2881--2882
 []\OT1/cmr/bx/n/10.95 Bounties \OT1/cmr/m/n/10.95 : Rewards for developers who 
 can improve the applications by detecting
  []
 
-[103 <./assets/images/global-reward.png>]
-<./assets/images/burn-chart.png, id=1249, 2286.5425pt x 1237.62375pt>
+[105 <./assets/images/global-reward.png>]
+<./assets/images/burn-chart.png, id=1260, 2286.5425pt x 1237.62375pt>
 File: ./assets/images/burn-chart.png Graphic file (type png)
 <use ./assets/images/burn-chart.png>
-Package pdftex.def Info: ./assets/images/burn-chart.png  used on input line 285
-4.
+Package pdftex.def Info: ./assets/images/burn-chart.png  used on input line 289
+0.
 (pdftex.def)             Requested size: 227.62204pt x 123.20308pt.
-<./assets/images/revenue-distribution.png, id=1250, 1885.0425pt x 1037.8775pt>
+<./assets/images/revenue-distribution.png, id=1261, 1885.0425pt x 1037.8775pt>
 File: ./assets/images/revenue-distribution.png Graphic file (type png)
 <use ./assets/images/revenue-distribution.png>
 Package pdftex.def Info: ./assets/images/revenue-distribution.png  used on inpu
-t line 2861.
+t line 2897.
 (pdftex.def)             Requested size: 227.62204pt x 125.31592pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2895
+Underfull \hbox (badness 10000) in paragraph at lines 2930--2931
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2896--2897
+Underfull \hbox (badness 10000) in paragraph at lines 2932--2933
 
  []
 
-[104 <./assets/images/burn-chart.png> <./assets/images/revenue-distribution.png
+[106 <./assets/images/burn-chart.png> <./assets/images/revenue-distribution.png
 >]
-<./assets/images/portfolio-reward.jpg, id=1261, 2053.6725pt x 1306.8825pt>
+<./assets/images/portfolio-reward.jpg, id=1272, 2053.6725pt x 1306.8825pt>
 File: ./assets/images/portfolio-reward.jpg Graphic file (type jpg)
 <use ./assets/images/portfolio-reward.jpg>
 Package pdftex.def Info: ./assets/images/portfolio-reward.jpg  used on input li
-ne 2900.
+ne 2936.
 (pdftex.def)             Requested size: 341.43306pt x 217.2615pt.
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 2906.
+(enumitem)                sense, on input line 2942.
 
 
-Overfull \hbox (12.08858pt too wide) in paragraph at lines 2907--2908
+Overfull \hbox (12.08858pt too wide) in paragraph at lines 2943--2944
 []\OT1/cmr/m/n/10.95 The User's local variable and the Global variable is const
 antly fed to the decentralized
  []
 
 
-Overfull \hbox (19.88924pt too wide) in paragraph at lines 2911--2912
+Overfull \hbox (19.88924pt too wide) in paragraph at lines 2947--2948
 []\OT1/cmr/m/n/10.95 The Marked tokens is directly deposited into the users wal
 let (VNS address/username),
  []
 
-[105 <./assets/images/portfolio-reward.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2916--2917
+[107 <./assets/images/portfolio-reward.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2952--2953
 
  []
 
 
-Overfull \hbox (15.1448pt too wide) in paragraph at lines 2918--2920
+Overfull \hbox (15.1448pt too wide) in paragraph at lines 2954--2956
 []\OT1/cmr/m/n/10.95 As mentioned above in the paragraphs, the X rewards are al
 located based on percentages
  []
 
 
-Overfull \hbox (10.2489pt too wide) in paragraph at lines 2918--2920
+Overfull \hbox (10.2489pt too wide) in paragraph at lines 2954--2956
 \OT1/cmr/m/n/10.95 Per-Token Reward Calculation an example of user rewards are 
 taken into consideration.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2918--2920
+Underfull \hbox (badness 10000) in paragraph at lines 2954--2956
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2920--2922
+Underfull \hbox (badness 10000) in paragraph at lines 2956--2958
 
  []
 
 
-LaTeX Warning: Float too large for page by 29.00433pt on input line 2978.
+LaTeX Warning: Float too large for page by 29.00433pt on input line 3014.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2987--2990
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2998--3005
+Underfull \hbox (badness 10000) in paragraph at lines 3023--3026
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3009--3010
+Underfull \hbox (badness 10000) in paragraph at lines 3034--3041
 
  []
 
-[106] [107] [108]
-Overfull \hbox (3.92233pt too wide) in paragraph at lines 3033--3034
+
+Underfull \hbox (badness 10000) in paragraph at lines 3045--3046
+
+ []
+
+[108] [109] [110]
+Overfull \hbox (3.92233pt too wide) in paragraph at lines 3069--3070
 \OT1/cmr/m/n/10.95 claiming method for very-smaller number of recipients compar
 ed to Dynamic Additive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3033--3034
+Underfull \hbox (badness 10000) in paragraph at lines 3069--3070
 
  []
 
-<./assets/images/claim-rewards.jpg, id=1330, 1936.23375pt x 2740.2375pt>
+<./assets/images/claim-rewards.jpg, id=1342, 1936.23375pt x 2740.2375pt>
 File: ./assets/images/claim-rewards.jpg Graphic file (type jpg)
 <use ./assets/images/claim-rewards.jpg>
 Package pdftex.def Info: ./assets/images/claim-rewards.jpg  used on input line 
-3037.
+3073.
 (pdftex.def)             Requested size: 426.79134pt x 603.98306pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 3037--3038
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 3073--3074
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 25.28743pt on input line 3040.
+LaTeX Warning: Float too large for page by 25.28743pt on input line 3076.
 
 
-Overfull \hbox (18.41974pt too wide) in paragraph at lines 3048--3049
+Overfull \hbox (18.41974pt too wide) in paragraph at lines 3084--3085
 \OT1/cmr/m/n/10.95 agnostic to the type of content that is published in the X A
 pplication. Impressions/Views
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3048--3049
-
- []
-
-[109] [110 <./assets/images/claim-rewards.jpg>]
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 3059.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3071--3072
-
- []
-
-<./assets/images/burnpool.jpg, id=1342, 1090.0725pt x 433.62pt>
-File: ./assets/images/burnpool.jpg Graphic file (type jpg)
-<use ./assets/images/burnpool.jpg>
-Package pdftex.def Info: ./assets/images/burnpool.jpg  used on input line 3076.
-
-(pdftex.def)             Requested size: 199.16928pt x 79.22597pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3080--3081
-
- []
-
-[111 <./assets/images/burnpool.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 3084--3085
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3086--3087
-
- []
-
-[112]
-Underfull \hbox (badness 10000) in paragraph at lines 3097--3098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3102--3103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3106--3107
-
- []
-
+[111] [112 <./assets/images/claim-rewards.jpg>]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 3117.
+(enumitem)                sense, on input line 3095.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3124--3125
+Underfull \hbox (badness 10000) in paragraph at lines 3107--3108
+
+ []
+
+<./assets/images/burnpool.jpg, id=1353, 1090.0725pt x 433.62pt>
+File: ./assets/images/burnpool.jpg Graphic file (type jpg)
+<use ./assets/images/burnpool.jpg>
+Package pdftex.def Info: ./assets/images/burnpool.jpg  used on input line 3112.
+
+(pdftex.def)             Requested size: 199.16928pt x 79.22597pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3116--3117
+
+ []
+
+[113 <./assets/images/burnpool.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 3120--3121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3128--3129
+Underfull \hbox (badness 10000) in paragraph at lines 3122--3123
 
  []
 
-[113]
-Underfull \hbox (badness 10000) in paragraph at lines 3130--3131
+[114]
+Underfull \hbox (badness 10000) in paragraph at lines 3133--3134
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3134--3135
-
- []
-
-
-Overfull \hbox (7.92586pt too wide) in paragraph at lines 3138--3139
-\OT1/cmr/m/n/10.95 software bugs which possesses a threat to the software's sec
-urity. X rewards individuals
  []
 
 
@@ -4412,23 +4386,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 3138--3139
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3144--3145
+Underfull \hbox (badness 10000) in paragraph at lines 3142--3143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3150--3151
+Package enumitem Warning: Negative labelwidth. This does not make much
+(enumitem)                sense, on input line 3153.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3160--3161
 
  []
 
-[114]
-Underfull \hbox (badness 10000) in paragraph at lines 3152--3153
+
+Underfull \hbox (badness 10000) in paragraph at lines 3164--3165
+
+ []
+
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 3166--3167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3171--3172
+Underfull \hbox (badness 10000) in paragraph at lines 3170--3171
 
+ []
+
+
+Overfull \hbox (7.92586pt too wide) in paragraph at lines 3174--3175
+\OT1/cmr/m/n/10.95 software bugs which possesses a threat to the software's sec
+urity. X rewards individuals
  []
 
 
@@ -4437,94 +4426,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 3174--3175
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3176--3180
+Underfull \hbox (badness 10000) in paragraph at lines 3180--3181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3181--3182
+Underfull \hbox (badness 10000) in paragraph at lines 3186--3187
+
+ []
+
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 3188--3189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3183--3210
+Underfull \hbox (badness 10000) in paragraph at lines 3207--3208
 
  []
 
-[115]
+
+Underfull \hbox (badness 10000) in paragraph at lines 3210--3211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3212--3216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3217--3218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3219--3246
+
+ []
+
+[117]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 3215.
+(enumitem)                sense, on input line 3251.
 
-<./assets/images/x-coin-logo.png, id=1366, 140.05814pt x 140.05814pt>
+<./assets/images/x-coin-logo.png, id=1377, 140.05814pt x 140.05814pt>
 File: ./assets/images/x-coin-logo.png Graphic file (type png)
 <use ./assets/images/x-coin-logo.png>
 Package pdftex.def Info: ./assets/images/x-coin-logo.png  used on input line 32
-25.
+61.
 (pdftex.def)             Requested size: 71.13188pt x 71.13164pt.
-<./assets/images/token-distribution.png, id=1367, 2052.66875pt x 994.71625pt>
+<./assets/images/token-distribution.png, id=1378, 2052.66875pt x 994.71625pt>
 File: ./assets/images/token-distribution.png Graphic file (type png)
 <use ./assets/images/token-distribution.png>
 Package pdftex.def Info: ./assets/images/token-distribution.png  used on input 
-line 3232.
+line 3268.
 (pdftex.def)             Requested size: 284.52756pt x 137.87811pt.
-[116 <./assets/images/x-coin-logo.png>]
-Overfull \hbox (32.67462pt too wide) in paragraph at lines 3241--3251
+[118 <./assets/images/x-coin-logo.png>]
+Overfull \hbox (32.67462pt too wide) in paragraph at lines 3277--3287
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3269--3270
+Underfull \hbox (badness 10000) in paragraph at lines 3305--3306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3272--3273
+Underfull \hbox (badness 10000) in paragraph at lines 3308--3309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3275--3276
+Underfull \hbox (badness 10000) in paragraph at lines 3311--3312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3278--3279
+Underfull \hbox (badness 10000) in paragraph at lines 3314--3315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3291--3294
+Underfull \hbox (badness 10000) in paragraph at lines 3327--3330
 
  []
 
-[117 <./assets/images/token-distribution.png>] [118] (./Whitepaper.toc [119]
-[120])
+[119 <./assets/images/token-distribution.png>] [120] (./Whitepaper.toc [121]
+[122])
 \tf@toc=\write9
 \openout9 = `Whitepaper.toc'.
 
- [121]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3379.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3379.
+ [123]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3415.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3415.
  (./Whitepaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3379.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3415.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3415.
 
-
-
-Package rerunfilecheck Warning: File `Whitepaper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Whitepaper.out':
-(rerunfilecheck)             Before: F53949A5E9764031A146C084B2209973;7964
-(rerunfilecheck)             After:  B918F9D1A2B8939F6F78E108443F1346;7936.
+Package rerunfilecheck Info: File `Whitepaper.out' has not changed.
+(rerunfilecheck)             Checksum: B918F9D1A2B8939F6F78E108443F1346;7936.
  ) 
 Here is how much of TeX's memory you used:
- 39059 strings out of 481239
- 848938 string characters out of 5920377
+ 39088 strings out of 481239
+ 849586 string characters out of 5920377
  1418465 words of memory out of 5000000
- 53157 multiletter control sequences out of 15000+600000
+ 53181 multiletter control sequences out of 15000+600000
  542320 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  174i,14n,204p,2445b,2629s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4550,10 +4557,10 @@ pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm10
 95.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/tfrupee/tfrupee.pfb>
-Output written on Whitepaper.pdf (121 pages, 7395960 bytes).
+Output written on Whitepaper.pdf (123 pages, 7401272 bytes).
 PDF statistics:
- 1704 PDF objects out of 1728 (max. 8388607)
- 1481 compressed objects within 15 object streams
- 591 named destinations out of 1000 (max. 500000)
+ 1716 PDF objects out of 1728 (max. 8388607)
+ 1491 compressed objects within 15 object streams
+ 596 named destinations out of 1000 (max. 500000)
  1147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
