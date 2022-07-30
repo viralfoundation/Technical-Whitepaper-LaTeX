@@ -343,6 +343,7 @@ Additionally Central Governments are allocated with Vanity Pattern to channel st
 
 
 
+
 \textbf{Blockchain Fees - An Overview}\\
 
 Transaction Fees play a huge role in user adoption, that could make a blockchain shine or dump. Various blockchain use different methods of determining fee per transaction to get validated and attested to the immutable chain of blocks on thousands of nodes. Fees are paid in native coins that power the blockchain and sent to validators/miners to mine/mint the transaction in a block. Fee ranges from highest of \$150 (Ethereum) to near \$0 in certain blockchains (IOTA, Nano, etc). Usually Blockchains impose significant fee whereas DAG based payment networks doesn't require fees to mine a transaction. Bitcoin collects fee satoshi/vByte where heavier the transaction higher the fee collected in satoshis (smallest divisible denomination of bitcoin). Ethereum collects fee based on the current network congestion and execution of specific EVM code paid in gwei (giga-wei - $10^{-9}$ ETH) set by miners based on demand of the computational power of the network, this can level from \$1 to \$190 exhausting users native coins. Moreover many blockchain's adopted well-optimized ethereum's gas based fee calculation to provide user's with lesser fee requirement to pay for execution in their blockchains e.g., Polygon, Binance, etc. Scalable blockchains require lower fees typically in cents / millicents, paid in the chain's native coin. Feeless Payment networks such as IOTA, Nano based on Graph-linking, assigns users as miners to validate prior transactions to get validated for their transaction. While DAG based payment networks work very well in providing feeless options, it offers poor decentralization, utility cases, and moreover hard to implement turing complete smart contracts and scripts to be computed inside the network.\\
@@ -395,6 +396,48 @@ Base Fee = 10000 USD Winks = 10000 / 1500 $\approx$ 7 ETH wink\\
 \end{table}
 
 \subsubsection{Transfer Fee}
+
+Transfer Fee is the prominent fee paid in transacting-token for Blinkchain transactions and to incentivize miners for validating transactions on behalf of users. It is a percentage fee leaved on each output utxo created on transactions which includes the payee, payer and governments (tax). This fee may change dynamically adjusting to Oracle Volume of Outputs in previous epochs($\epsilon$) to bring lower fee during arrival of high volume of transactions. The fees are negligible and will theoretically attain \$1 for \$20,0000 value transaction accounting to 0.005\% of fees when blinkchain reaches higher volume and activity.\\
+
+\begin{comment}
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{•}
+\caption{Transfer Fee and Base Fee}
+\end{center}
+\end{figure}
+\end{comment}
+
+Transfer fee ranges from at max 0.05\% to at min 0.005\% on the outputs of the transaction. In this way, the fee is imposed on all parties who engage in a transaction by creating unique UTXOs for them. Transfer fee can also be regarded as a one time fee for minting UTXOs by the block producer. The client application can easily predict the transfer fee during an epoch and construct transaction including inputs and outputs deducting the transfer fee percentage.\\
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=9cm]{transferepochs}
+\caption{Epochs and Transfer Fee}
+\end{center}
+\end{figure}
+
+The transfer fee is initially set at 0.05\% in first three blocks and later the fee is determined by the Transfer Fee Determining algorithm that takes the Total Oracle Volume of Outputs in the $n-2$, $n-1$ epochs and determines to increase, decrease or keeps the same percentage fee on the next $n+1$ epoch.\\
+
+The fee determination algorithm for every n+1 epoch,
+\begin{itemize}[wide, labelwidth=!, labelindent=0pt]
+\item After the three genesis block (n-2, n-1, n), the n+1 epoch transfer fee percentage should be determined
+\item During the n epoch period, the n+1 epoch's fees is calculated pre-maturely to avoid last-minute faulty transaction constructions. This can also improve the finite predictability of fee.
+\item The Total Volume of Outputs i.e., the sum of initial oracle value and sum of stable asset values in USD winks is calculated for each epochs
+\item If the standard deviation for n-2 \& n-1 epoch is more than 0.75 then the fee calculation can commence, if the deviation is lower than 0.75, the fee percentage is not changed for the n+1 epoch. The exact n-1 fee is set for n+1 epoch.
+\[\sigma(V_{\epsilon(n-2)}, V_{\epsilon(n-1)}) > 0.75 = T \]
+\[\sigma(V_{\epsilon(n-2)}, V_{\epsilon(n-1)}) > 0.75 = F \rightarrow T_{fee}(\epsilon(n-1))= \epsilon(n+1)\]
+\item After finalizing that there should be a dynamic adjustment to the transfer fee to benefit higher value transactions to the blinkchain, the total volume of outputs (in usd winks) of n-2, n-1 are compared to find the max, min.
+\[V_{\epsilon(n-2)} > V_{\epsilon(n-1)} \rightarrow ++0.0005 \]
+\[V_{\epsilon(n-2)} < V_{\epsilon(n-1)} \rightarrow --0.0005\]
+\item According to the volume of n-1 epoch the fee percentage is increased(++) or decreased(- -) by 0.0005 points from the n-1 fee percentage. The percentage fees are capped at max - 0.05\% and min - 0.005\% , the threshold.
+\end{itemize}
+
+\textbf{Significance}\\
+
+
+ 
+
 
 
 	
